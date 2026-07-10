@@ -1,6 +1,6 @@
 # LicenseAtlas
 
-LicenseAtlas 是面向软件、数据、AI 模型与 Agent 的许可证探索器，覆盖 **2,615** 个许可证和服务条款——支持搜索、筛选、对比，并提供中英文双语界面。
+LicenseAtlas 是面向软件、数据、AI 模型与 Agent 的许可证探索器，覆盖 **2,623** 个许可证和服务条款——支持搜索、筛选、对比，并提供中英文双语界面。
 
 **在线访问**：[LicenseAtlas](https://morningd.github.io/license.atlas)
 

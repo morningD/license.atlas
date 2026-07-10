@@ -2,7 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
-LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,615** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
+LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,623** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
 
 **Live site**: [LicenseAtlas](https://morningd.github.io/license.atlas)
 

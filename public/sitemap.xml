@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://morningd.github.io/license.atlas/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://morningd.github.io/license.atlas/about</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://morningd.github.io/license.atlas/tracker</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -223,8 +223,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/ncsa</loc>
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://morningd.github.io/license.atlas/licenses/cc-by-nc-2.0</loc>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -235,8 +235,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/cc-by-nc-2.0</loc>
-    <lastmod>2026-04-30</lastmod>
+    <loc>https://morningd.github.io/license.atlas/licenses/ncsa</loc>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -295,14 +295,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/etalab-2.0</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://morningd.github.io/license.atlas/licenses/ecl-2.0</loc>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/ecl-2.0</loc>
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://morningd.github.io/license.atlas/licenses/etalab-2.0</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -865,12 +865,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/aleph-alpha-open-aleph-license</loc>
-    <lastmod>2026-05-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/alexisisaac-freeware</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -1309,6 +1303,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/arcinstitute-state-nc-2025</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/argmaxinc-license-notice</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -1539,6 +1539,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/avsystem-5-clause</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/avtr-1-community-license-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1861,6 +1867,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/boson-higgs-audio-v3-research-and-non-commercial-license-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/boson-higgs-tts-3-research-and-non-commercial-license-agreement</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/boutell-libgd-2021</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -1881,6 +1899,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/brad-martinez-vb-32</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/brakeman-public-use</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2497,6 +2521,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/carbon-agpl-and-commercial-license-notice</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/careware</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -2727,6 +2757,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/chillicream-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/chingmu-dataset-access-terms</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3039,6 +3075,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/community-spec-1.0</loc>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/comodo-available-source-sal</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4345,6 +4387,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/eeg-foundation-model-responsible-use-agreement</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/egenix-1.0.0</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -4807,6 +4855,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/finceptterminal-dual-licensing-notice</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/first-epss-usage</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -5103,6 +5157,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/furuseth</loc>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/futo-model-weights-license-1-0</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6319,6 +6379,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/hyperclova-x-seed-32b-think-model-license-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/hyperclova-x-seed-8b-omni-model-license-agreement</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -6471,6 +6537,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/idea-license-1-0</loc>
     <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/ideogram-non-commercial-model-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -7147,6 +7219,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/june-9-researcher-reciprocity-license</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/jython</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -7257,6 +7335,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/knuth-ctan</loc>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/kohaku-license-1-0</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -8197,6 +8281,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/md2wechat-source-available-license</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/mediainfo-lib</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -8337,6 +8427,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/metrolink-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/mgb-brainiac-nc-2026</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9037,6 +9133,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/mii-open-license-v1-0</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/mike95</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -9057,6 +9159,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/mmpl-1.0.1</loc>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/minimax-community-license</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9099,6 +9207,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/miros</loc>
     <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/miso-labs-modified-mit-license</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9565,6 +9679,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/mux0-sal-2026</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/mvt-1.1</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -9865,6 +9985,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/nocobase-license-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/node-js</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -9891,6 +10017,18 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/ncgl-uk-2.0</loc>
     <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/nc-gov-public-sector-1.0</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/nc-gov-public-sector-2.0</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -10129,6 +10267,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/nvidia-open-model-2025</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/nvidia-open-model-2025-04-28</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -10167,6 +10311,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/nxlog-public-license-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/nxml-pokemon-legends-za-nc-1.0</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -10443,12 +10593,6 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/open-aleph-license-1-0</loc>
     <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://morningd.github.io/license.atlas/licenses/open-aleph-license-1.0</loc>
-    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -10873,6 +11017,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/openpangu-model-license-agreement-version-2-0</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/openpbs-2.3</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -11031,6 +11181,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/oracle-free-2018</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/oracle-free-2021</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -11797,6 +11953,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/qgi-commercial-model-license-1-0</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/qhull</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -12499,6 +12661,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/screenpipe-commercial-license</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/scribbles</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -12525,6 +12693,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/scylladb-sla-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/seallms-license-agreement</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -12775,6 +12949,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/skunkworks-varuna-stt</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/skywork-open-model-license</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -12801,6 +12981,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/slint-commercial-2.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/slipnet-sal-2026</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -13719,6 +13905,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/t-license-tkse</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/tabfm-non-commercial-license-v1-0</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -14887,6 +15079,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/weinbach-non-commercial-1.0</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/wender-media-sal-1.0</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/ogl-wpd-3.0</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -14907,6 +15111,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/whitecat</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/whitedns-sal-nc-2026</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
