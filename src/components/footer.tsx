@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useLang } from "@/lib/i18n";
+import { subscribeToSiteViewCount } from "@/lib/page-counter";
 import stats from "@/data/stats.json";
 import trackerMeta from "@/data/tracker-meta.json";
 import osadlMeta from "@/data/osadl-meta.json";
@@ -9,17 +10,12 @@ import osadlMeta from "@/data/osadl-meta.json";
 export function Footer() {
   const { t, lang } = useLang();
   const [mounted, setMounted] = useState(false);
+  const [siteViewCount, setSiteViewCount] = useState<number | null>(null);
 
-  function loadBusuanzi() {
-    if (document.getElementById("busuanzi_script")) return;
-    const s = document.createElement("script");
-    s.id = "busuanzi_script";
-    s.async = true;
-    s.src = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js";
-    document.body.appendChild(s);
-  }
-
-  useEffect(() => { setMounted(true); loadBusuanzi(); }, []);
+  useEffect(() => {
+    setMounted(true);
+    return subscribeToSiteViewCount(setSiteViewCount);
+  }, []);
 
   const brandName = mounted && lang === "zh"
     ? <span className="font-serif tracking-widest"><span className="font-medium text-[#7c3aed]">许可</span>图鉴</span>
@@ -44,7 +40,7 @@ export function Footer() {
             <p>{t("footer.dataUpdatedAt", { date: updatedLabel })}</p>
             <span className="text-zinc-300 dark:text-zinc-700" aria-hidden="true">|</span>
             <p className="flex items-center gap-1">
-              <span id="busuanzi_value_page_pv" className="font-mono">-</span> {t("footer.views")}
+              <span className="font-mono">{siteViewCount?.toLocaleString() ?? "-"}</span> {t("footer.views")}
             </p>
           </div>
         </div>

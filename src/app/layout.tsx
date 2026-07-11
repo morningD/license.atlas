@@ -4,6 +4,7 @@ import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { LangProvider } from "@/lib/i18n";
 import { NavProgress } from "@/components/nav-progress";
+import { PageViewTracker } from "@/components/page-view-tracker";
 import stats from "@/data/stats.json";
 import "./globals.css";
 
@@ -85,6 +86,7 @@ export default function RootLayout({
         <body className="flex min-h-full flex-col bg-[var(--background)] text-[var(--foreground)]">
           <NavProgress />
           <LangProvider>
+            <PageViewTracker />
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
