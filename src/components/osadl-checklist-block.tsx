@@ -632,7 +632,7 @@ function ChecklistActionTree({ entry, lang, labels }: {
                   return (
                     <li
                       key={`${condition}-${action.tone}-${action.text}-${idx}`}
-                      className={`grid grid-cols-[4ch_11ch_minmax(0,1fr)] gap-x-1 transition-opacity ${isDimmed ? "opacity-35" : ""}`}
+                      className={`grid grid-cols-[4ch_11ch_minmax(0,1fr)] gap-x-1 transition-opacity ${isDimmed ? "opacity-30" : ""}`}
                     >
                       <span className={action.tone === "must" ? "text-emerald-700 dark:text-emerald-300" : "text-rose-700 dark:text-rose-300"}>
                         | -
