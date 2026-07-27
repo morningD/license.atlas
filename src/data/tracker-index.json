@@ -1,16 +1,61 @@
 {
   "_meta": {
-    "source_hash": "fd71aca03ec254ad",
+    "source_hash": "223613f682887239",
     "index_schema_version": 4,
-    "generated_at": "2026-06-21T12:00:16.872Z",
-    "total_submissions": 179,
+    "generated_at": "2026-07-27T07:40:23.911Z",
+    "total_submissions": 180,
     "by_status": {
       "approved": 102,
       "rejected": 37,
       "withdrawn": 4,
-      "pending": 13,
+      "pending": 14,
       "superseded": 3,
       "legacy": 20
+    }
+  },
+  "bos-public-license-v1-0": {
+    "id": "bos-public-license-v1-0",
+    "name": "The BOS Public License v1.0",
+    "spdx_id": "",
+    "status": "pending",
+    "submitter": "Harz Tronics",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 2,
+      "date_range": [
+        "2026-07-22",
+        "2026-07-24"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-07-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2026-07-22",
+      "last": "2026-07-24"
+    },
+    "latest_event": {
+      "date": "2026-07-24",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Carlo Piana",
+      "subject": "[License-review] For Approval: The BOS Public License v1.0",
+      "sentiment": "negative",
+      "point": "Carlo Piana agreed the submission lacked required text and information, and questioned the need for a new backlink condition that may add compliance friction.",
+      "point_zh": "Carlo Piana 认为该提交缺少必要文本和信息，并质疑新增原项目链接条件的必要性，认为可能增加合规摩擦。"
     }
   },
   "linkumori-free-license-1-0": {
@@ -20,11 +65,11 @@
     "status": "pending",
     "submitter": "Subham Mahesh",
     "stats": {
-      "total_messages": 8,
-      "duration_days": 3,
+      "total_messages": 9,
+      "duration_days": 6,
       "date_range": [
         "2026-06-16",
-        "2026-06-19"
+        "2026-06-22"
       ]
     },
     "has_vote": false,
@@ -35,27 +80,27 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 4,
+      "linked_count": 3,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2026-06-17"
+      "latest_text_date": "2026-06-23"
     },
     "timeline_meta": {
-      "count": 8,
+      "count": 9,
       "first": "2026-06-16",
-      "last": "2026-06-19"
+      "last": "2026-06-22"
     },
     "latest_event": {
-      "date": "2026-06-19",
+      "date": "2026-06-22",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Carlo Piana",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] : [License] Linkumori Free License, Version 1.0 – Submission for OSI Review",
-      "sentiment": "negative",
-      "point": "Suggests deferring license review until the Linkumori text has been widely discussed and is no longer subject to change, because the current discussion belongs on license-discuss.",
-      "point_zh": "建议等 Linkumori 文本经过充分讨论且不再频繁变动后再进入许可证审查，因为当前讨论更适合 license-discuss。"
+      "sentiment": "neutral",
+      "point": "Pamela Chestek noted that the Linkumori Free License discussion continued on license-discuss.",
+      "point_zh": "Pamela Chestek 表示 Linkumori Free License 的讨论已转到 license-discuss 继续。"
     }
   },
   "mutualist-license-v1-2": {
@@ -425,11 +470,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 113,
-      "duration_days": 470,
+      "total_messages": 114,
+      "duration_days": 531,
       "date_range": [
         "2025-02-10",
-        "2026-05-26"
+        "2026-07-26"
       ]
     },
     "has_vote": false,
@@ -453,19 +498,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 113,
+      "count": 114,
       "first": "2025-02-10",
-      "last": "2026-05-26"
+      "last": "2026-07-26"
     },
     "latest_event": {
-      "date": "2026-05-26",
+      "date": "2026-07-26",
       "type": "feedback",
       "source": "license-review",
       "sender": "Moming Duan",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
-      "sentiment": "support",
-      "point": "Thanks for prior feedback, asks the latest unresolved concerns from January, and defends keeping Output in limitation/disclaimer because autonomous code-executing agents create real risk, citing Meta and Google as alignment.",
-      "point_zh": "感谢历时一年的反馈并追问一月会议后两份许可的最新主要障碍；同时将 output 纳入免责声明的做法解释为应对自动执行代码代理的真实风险，并提及 Meta 与 Google 的做法以支持该方向。"
+      "sentiment": "neutral",
+      "point": "Moming Duan followed up on the ModelGo licenses, asking OSI for the current review status and any remaining concerns after prior resubmissions.",
+      "point_zh": "Moming Duan 跟进 ModelGo 许可证审查状态，请 OSI 说明当前进展以及多次重新提交后是否仍有未解决的问题。"
     }
   },
   "public-benefit-zero-copyright": {
