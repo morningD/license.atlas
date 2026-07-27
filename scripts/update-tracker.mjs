@@ -1,4 +1,4 @@
-// Full-chain orchestrator: refresh OSI mail in KB, rebuild tracker, then sync to Atlas.
+// Full-chain orchestrator: refresh OSI sources in KB, rebuild tracker, then sync to Atlas.
 // Run: node scripts/update-tracker.mjs [--full] [--kb-path <path>] [--month YYYY-MM]
 //   --full        apply all available LLM batch outputs (kept for compatibility)
 //   --kb-path     override KB path (default ../KB)
@@ -75,6 +75,7 @@ console.log(`LLM mode: ${FULL ? "FULL (re-extract all)" : "INCREMENTAL (new URLs
 // thread-clusters when linked to an existing/new submission.
 if (!SKIP_MAIL) {
   run(`node scripts/update-mail-archives.mjs ${passThroughMailArgs()}`, KB_ROOT);
+  run("PLAYWRIGHT_CHANNEL=msedge node crawlers/osi_crawl.js --source minutes", KB_ROOT);
   run("node scripts/rebuild-mail-indexes.mjs", KB_ROOT);
   run(`node scripts/update-pending-submissions.mjs ${pendingSinceArg()}`, KB_ROOT);
 } else {
