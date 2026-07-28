@@ -92,7 +92,9 @@ run("node scripts/build-license-review-tracker.mjs", KB_ROOT);
 // 4. Enrich
 run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
 
-// 5. Verify every rendered timeline event is backed by a point manifest entry.
+// 5. Quality gates: validate tracker semantics, point style, and manifest coverage.
+run("node scripts/test-tracker-data.mjs", KB_ROOT);
+run("node scripts/check-point-style.mjs --since 2026-01-01", KB_ROOT);
 run("node scripts/check-point-manifest-coverage.mjs", KB_ROOT);
 run(`node scripts/check-tracker-license-texts.mjs --tracker "${resolve(KB_ROOT, "data", "osi", "license-review-tracker-v2.json")}"`, ROOT);
 

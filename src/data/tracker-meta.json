@@ -1,11 +1,11 @@
 {
-  "source_hash": "72bc7b238d1748ff",
+  "source_hash": "9f0ee911c857f6ff",
   "index_schema_version": 4,
-  "generated_at": "2026-07-27T14:39:39.786Z",
-  "total_submissions": 190,
+  "generated_at": "2026-07-28T08:00:58.904Z",
+  "total_submissions": 192,
   "by_status": {
-    "pending": 18,
-    "rejected": 43,
+    "pending": 17,
+    "rejected": 46,
     "withdrawn": 4,
     "superseded": 3,
     "approved": 102,

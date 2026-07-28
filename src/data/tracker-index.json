@@ -1,12 +1,12 @@
 {
   "_meta": {
-    "source_hash": "72bc7b238d1748ff",
+    "source_hash": "9f0ee911c857f6ff",
     "index_schema_version": 4,
-    "generated_at": "2026-07-27T14:39:39.786Z",
-    "total_submissions": 190,
+    "generated_at": "2026-07-28T08:00:58.904Z",
+    "total_submissions": 192,
     "by_status": {
-      "pending": 18,
-      "rejected": 43,
+      "pending": 17,
+      "rejected": 46,
       "withdrawn": 4,
       "superseded": 3,
       "approved": 102,
@@ -418,96 +418,6 @@
       "point_zh": "解释将公司商标作为许可证名称不可接受，因为许可证若被广泛复用，就会削弱对公司名称本身的控制。"
     }
   },
-  "modified-0bsd-license": {
-    "id": "modified-0bsd-license",
-    "name": "Modified 0BSD License (Maintenance-Required)",
-    "spdx_id": "",
-    "status": "rejected",
-    "submitter": "Vicentte Felipe",
-    "stats": {
-      "total_messages": 7,
-      "duration_days": 1,
-      "date_range": [
-        "2026-03-17",
-        "2026-03-18"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-03-17",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2026-03-17"
-    },
-    "timeline_meta": {
-      "count": 7,
-      "first": "2026-03-17",
-      "last": "2026-03-18"
-    },
-    "latest_event": {
-      "date": "2026-03-18",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Carlo Piana",
-      "subject": "[License-review] Official Submission: Modified 0BSD License (Maintenance-Required)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
-      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
-    }
-  },
-  "modified-0bsd-license-2": {
-    "id": "modified-0bsd-license-2",
-    "name": "Modified 0BSD License (Maintenance-Required)",
-    "spdx_id": "",
-    "status": "rejected",
-    "submitter": "Vicentte Felipe",
-    "stats": {
-      "total_messages": 5,
-      "duration_days": 0,
-      "date_range": [
-        "2026-03-17",
-        "2026-03-17"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-03-17",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 1,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2026-03-17"
-    },
-    "timeline_meta": {
-      "count": 5,
-      "first": "2026-03-17",
-      "last": "2026-03-17"
-    },
-    "latest_event": {
-      "date": "2026-03-17",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] License Review: Modified 0BSD License (Maintenance-Required)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
-      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
-    }
-  },
   "ai-mit-license": {
     "id": "ai-mit-license",
     "name": "AI-MIT License 1.0",
@@ -551,231 +461,6 @@
       "sentiment": "neutral",
       "point": "Requests withdrawal of the current submission from license-review, intending to summarize the discussion, revise the draft, and continue the concept on license-discuss before any future formal submission.",
       "point_zh": "请求从 license-review 撤回当前提交，改为在 license-discuss 继续讨论和迭代后再行正式提交。"
-    }
-  },
-  "open-source-copyleft-license-v1-0": {
-    "id": "open-source-copyleft-license-v1-0",
-    "name": "Open Source Copyleft License (OSCL) v1.0",
-    "spdx_id": "",
-    "status": "rejected",
-    "submitter": "Timofey Zakharcuk",
-    "stats": {
-      "total_messages": 4,
-      "duration_days": 2,
-      "date_range": [
-        "2026-02-21",
-        "2026-02-23"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-02-21",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2026-02-21"
-    },
-    "timeline_meta": {
-      "count": 4,
-      "first": "2026-02-21",
-      "last": "2026-02-23"
-    },
-    "latest_event": {
-      "date": "2026-02-23",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review] Revised Submission: Open Source Copyleft License (OSCL) v1.0",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
-      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
-    }
-  },
-  "oscl-1.0": {
-    "id": "open-source-copyleft-license-v1-0-2",
-    "name": "Open Source Copyleft License (OSCL) v1.0",
-    "spdx_id": "OSCL-1.0",
-    "status": "rejected",
-    "submitter": "Timofey Zakharcuk",
-    "stats": {
-      "total_messages": 3,
-      "duration_days": 0,
-      "date_range": [
-        "2026-02-20",
-        "2026-02-20"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-02-20",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2026-02-21"
-    },
-    "timeline_meta": {
-      "count": 3,
-      "first": "2026-02-20",
-      "last": "2026-02-20"
-    },
-    "latest_event": {
-      "date": "2026-02-20",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
-      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
-    }
-  },
-  "open-source-copyleft-license-v1-0-2": {
-    "id": "open-source-copyleft-license-v1-0-2",
-    "name": "Open Source Copyleft License (OSCL) v1.0",
-    "spdx_id": "OSCL-1.0",
-    "status": "rejected",
-    "submitter": "Timofey Zakharcuk",
-    "stats": {
-      "total_messages": 3,
-      "duration_days": 0,
-      "date_range": [
-        "2026-02-20",
-        "2026-02-20"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-02-20",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2026-02-21"
-    },
-    "timeline_meta": {
-      "count": 3,
-      "first": "2026-02-20",
-      "last": "2026-02-20"
-    },
-    "latest_event": {
-      "date": "2026-02-20",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
-      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
-    }
-  },
-  "project-tick-general-public-license-v2-for-osi-license-review": {
-    "id": "project-tick-general-public-license-v2-for-osi-license-review",
-    "name": "Project Tick General Public License v2 for OSI License Review",
-    "spdx_id": "",
-    "status": "pending",
-    "submitter": "M.samet Duman",
-    "stats": {
-      "total_messages": 5,
-      "duration_days": 22,
-      "date_range": [
-        "2026-01-23",
-        "2026-02-14"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-01-23",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2026-01-23"
-    },
-    "timeline_meta": {
-      "count": 5,
-      "first": "2026-01-23",
-      "last": "2026-02-14"
-    },
-    "latest_event": {
-      "date": "2026-02-14",
-      "type": "board_decision",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] Submission: Project Tick General Public License v2 for OSI License Review",
-      "sentiment": "negative",
-      "point": "Board decision discussion for Project Tick General Public License v2 for OSI License Review.",
-      "point_zh": "Project Tick General Public License v2 for OSI License Review 的董事会决议相关讨论。"
-    }
-  },
-  "idciymi-1-0": {
-    "id": "idciymi-1-0",
-    "name": "IDCIYMI-1.0 (I Don't Care If You Mod It)",
-    "spdx_id": "",
-    "status": "rejected",
-    "submitter": "PTFS",
-    "stats": {
-      "total_messages": 9,
-      "duration_days": 35,
-      "date_range": [
-        "2026-01-10",
-        "2026-02-14"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-01-10",
-      "decision": "2026-02-20",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 9,
-      "first": "2026-01-10",
-      "last": "2026-02-14"
-    },
-    "latest_event": {
-      "date": "2026-02-14",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Nick Vidal",
-      "subject": "[License-review] License Review: IDCIYMI-1.0 (I Don't Care If You Mod It)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the IDCIYMI-1.0 (I Don't Care If You Mod It) thread.",
-      "point_zh": "IDCIYMI-1.0 (I Don't Care If You Mod It) 评审线程中的反馈意见。"
     }
   },
   "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl": {
@@ -825,7 +510,7 @@
   },
   "license-review-qmdeve-license-1-0": {
     "id": "license-review-qmdeve-license-1-0",
-    "name": "[License-Review] QmDeve License 1.0",
+    "name": "QmDeve License 1.0",
     "spdx_id": "",
     "status": "pending",
     "submitter": "QmDeve",
@@ -866,96 +551,6 @@
       "sentiment": "neutral",
       "point": "Notes that the submitter has not responded to review comments and asks whether the QmDeve license should now be treated as withdrawn.",
       "point_zh": "指出提交者一直未回应评审意见，并询问是否应将 QmDeve 许可视为已撤回。"
-    }
-  },
-  "osn-1.0": {
-    "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
-    "name": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
-    "spdx_id": "OSN-1.0",
-    "status": "rejected",
-    "submitter": "Righteousness",
-    "stats": {
-      "total_messages": 8,
-      "duration_days": 81,
-      "date_range": [
-        "2025-10-20",
-        "2026-01-09"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2025-10-20",
-      "decision": "2026-01-09",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2025-10-20"
-    },
-    "timeline_meta": {
-      "count": 8,
-      "first": "2025-10-20",
-      "last": "2026-01-09"
-    },
-    "latest_event": {
-      "date": "2026-01-09",
-      "type": "board_decision",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
-      "sentiment": "oppose",
-      "point": "Announces that the OSI Board rejected the submission as not listable because of problems with the submission package, while clarifying that a corrected future submission could still be considered.",
-      "point_zh": "宣布 OSI 董事会已因提交材料存在问题而拒绝将该许可列入审核通过名单，同时澄清若日后修正后重新提交，仍可再次考虑。"
-    }
-  },
-  "submission-of-orivex-syscall-note-license-for-osi-approval": {
-    "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
-    "name": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
-    "spdx_id": "OSN-1.0",
-    "status": "rejected",
-    "submitter": "Righteousness",
-    "stats": {
-      "total_messages": 8,
-      "duration_days": 81,
-      "date_range": [
-        "2025-10-20",
-        "2026-01-09"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2025-10-20",
-      "decision": "2026-01-09",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2025-10-20"
-    },
-    "timeline_meta": {
-      "count": 8,
-      "first": "2025-10-20",
-      "last": "2026-01-09"
-    },
-    "latest_event": {
-      "date": "2026-01-09",
-      "type": "board_decision",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
-      "sentiment": "oppose",
-      "point": "Announces that the OSI Board rejected the submission as not listable because of problems with the submission package, while clarifying that a corrected future submission could still be considered.",
-      "point_zh": "宣布 OSI 董事会已因提交材料存在问题而拒绝将该许可列入审核通过名单，同时澄清若日后修正后重新提交，仍可再次考虑。"
     }
   },
   "modelgo-attribution-v2": {
@@ -1231,6 +826,501 @@
       "sentiment": "negative",
       "point": "Prefers a professional translation affidavit and warns that extra translation evidence may still be requested, delaying approval.",
       "point_zh": "倾向于由专业翻译服务出具宣誓书，并提醒后续可能还会要求额外译文或第二份宣誓书，从而延迟批准。"
+    }
+  },
+  "modified-0bsd-license": {
+    "id": "modified-0bsd-license",
+    "name": "Modified 0BSD License (Maintenance-Required)",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Vicentte Felipe",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 1,
+      "date_range": [
+        "2026-03-17",
+        "2026-03-18"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-03-17",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-03-17"
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "2026-03-17",
+      "last": "2026-03-18"
+    },
+    "latest_event": {
+      "date": "2026-03-18",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Carlo Piana",
+      "subject": "[License-review] Official Submission: Modified 0BSD License (Maintenance-Required)",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
+      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
+    }
+  },
+  "modified-0bsd-license-2": {
+    "id": "modified-0bsd-license-2",
+    "name": "Modified 0BSD License (Maintenance-Required)",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Vicentte Felipe",
+    "stats": {
+      "total_messages": 5,
+      "duration_days": 0,
+      "date_range": [
+        "2026-03-17",
+        "2026-03-17"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-03-17",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-03-17"
+    },
+    "timeline_meta": {
+      "count": 5,
+      "first": "2026-03-17",
+      "last": "2026-03-17"
+    },
+    "latest_event": {
+      "date": "2026-03-17",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] License Review: Modified 0BSD License (Maintenance-Required)",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
+      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
+    }
+  },
+  "open-source-copyleft-license-v1-0": {
+    "id": "open-source-copyleft-license-v1-0",
+    "name": "Open Source Copyleft License (OSCL) v1.0",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Timofey Zakharcuk",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 2,
+      "date_range": [
+        "2026-02-21",
+        "2026-02-23"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-21",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-02-21"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2026-02-21",
+      "last": "2026-02-23"
+    },
+    "latest_event": {
+      "date": "2026-02-23",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Revised Submission: Open Source Copyleft License (OSCL) v1.0",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
+      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
+    }
+  },
+  "oscl-1.0": {
+    "id": "open-source-copyleft-license-v1-0-2",
+    "name": "Open Source Copyleft License (OSCL) v1.0",
+    "spdx_id": "OSCL-1.0",
+    "status": "rejected",
+    "submitter": "Timofey Zakharcuk",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 0,
+      "date_range": [
+        "2026-02-20",
+        "2026-02-20"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-20",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-02-21"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2026-02-20",
+      "last": "2026-02-20"
+    },
+    "latest_event": {
+      "date": "2026-02-20",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
+      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
+    }
+  },
+  "open-source-copyleft-license-v1-0-2": {
+    "id": "open-source-copyleft-license-v1-0-2",
+    "name": "Open Source Copyleft License (OSCL) v1.0",
+    "spdx_id": "OSCL-1.0",
+    "status": "rejected",
+    "submitter": "Timofey Zakharcuk",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 0,
+      "date_range": [
+        "2026-02-20",
+        "2026-02-20"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-20",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-02-21"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2026-02-20",
+      "last": "2026-02-20"
+    },
+    "latest_event": {
+      "date": "2026-02-20",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
+      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
+    }
+  },
+  "farcl-1.0": {
+    "id": "free-archive-license-1-0",
+    "name": "Free Archive License 1.0",
+    "spdx_id": "FARCL-1.0",
+    "status": "rejected",
+    "submitter": "Bauti el cyerborg Shitpost",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 1,
+      "date_range": [
+        "2026-02-12",
+        "2026-02-13"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-12",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-02-13"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2026-02-12",
+      "last": "2026-02-13"
+    },
+    "latest_event": {
+      "date": "2026-02-13",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Carlo Piana",
+      "subject": "[License-review] Subject: Dear OSI License Review Committee (sorry, resending)",
+      "sentiment": "oppose",
+      "point": "Agrees that the binary-distribution prohibition is problematic under open source rules and says the draft needs at least basic legal-quality review before it can move forward.",
+      "point_zh": "同意禁止二进制分发在开源规则下存在问题，并表示草案至少需要经过基本的法律质量审查后才能继续推进。"
+    }
+  },
+  "free-archive-license-1-0": {
+    "id": "free-archive-license-1-0",
+    "name": "Free Archive License 1.0",
+    "spdx_id": "FARCL-1.0",
+    "status": "rejected",
+    "submitter": "Bauti el cyerborg Shitpost",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 1,
+      "date_range": [
+        "2026-02-12",
+        "2026-02-13"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-12",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-02-13"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2026-02-12",
+      "last": "2026-02-13"
+    },
+    "latest_event": {
+      "date": "2026-02-13",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Carlo Piana",
+      "subject": "[License-review] Subject: Dear OSI License Review Committee (sorry, resending)",
+      "sentiment": "oppose",
+      "point": "Agrees that the binary-distribution prohibition is problematic under open source rules and says the draft needs at least basic legal-quality review before it can move forward.",
+      "point_zh": "同意禁止二进制分发在开源规则下存在问题，并表示草案至少需要经过基本的法律质量审查后才能继续推进。"
+    }
+  },
+  "project-tick-general-public-license-v2-for-osi-license-review": {
+    "id": "project-tick-general-public-license-v2-for-osi-license-review",
+    "name": "Project Tick General Public License v2 for OSI License Review",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "M.samet Duman",
+    "stats": {
+      "total_messages": 5,
+      "duration_days": 22,
+      "date_range": [
+        "2026-01-23",
+        "2026-02-14"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-01-23",
+      "decision": "2026-02-20",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-01-23"
+    },
+    "timeline_meta": {
+      "count": 5,
+      "first": "2026-01-23",
+      "last": "2026-02-14"
+    },
+    "latest_event": {
+      "date": "2026-02-14",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] Submission: Project Tick General Public License v2 for OSI License Review",
+      "sentiment": "negative",
+      "point": "Board decision discussion for Project Tick General Public License v2 for OSI License Review.",
+      "point_zh": "Project Tick General Public License v2 for OSI License Review 的董事会决议相关讨论。"
+    }
+  },
+  "idciymi-1-0": {
+    "id": "idciymi-1-0",
+    "name": "IDCIYMI-1.0 (I Don't Care If You Mod It)",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "PTFS",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 35,
+      "date_range": [
+        "2026-01-10",
+        "2026-02-14"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-01-10",
+      "decision": "2026-02-20",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2026-01-10",
+      "last": "2026-02-14"
+    },
+    "latest_event": {
+      "date": "2026-02-14",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Nick Vidal",
+      "subject": "[License-review] License Review: IDCIYMI-1.0 (I Don't Care If You Mod It)",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the IDCIYMI-1.0 (I Don't Care If You Mod It) thread.",
+      "point_zh": "IDCIYMI-1.0 (I Don't Care If You Mod It) 评审线程中的反馈意见。"
+    }
+  },
+  "osn-1.0": {
+    "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
+    "name": "Orivex Syscall Note License",
+    "spdx_id": "OSN-1.0",
+    "status": "rejected",
+    "submitter": "Righteousness",
+    "stats": {
+      "total_messages": 8,
+      "duration_days": 81,
+      "date_range": [
+        "2025-10-20",
+        "2026-01-09"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-10-20",
+      "decision": "2026-01-09",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2025-10-20"
+    },
+    "timeline_meta": {
+      "count": 8,
+      "first": "2025-10-20",
+      "last": "2026-01-09"
+    },
+    "latest_event": {
+      "date": "2026-01-09",
+      "type": "board_decision",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
+      "sentiment": "oppose",
+      "point": "Announces that the OSI Board rejected the submission as not listable because of problems with the submission package, while clarifying that a corrected future submission could still be considered.",
+      "point_zh": "宣布 OSI 董事会已因提交材料存在问题而拒绝将该许可列入审核通过名单，同时澄清若日后修正后重新提交，仍可再次考虑。"
+    }
+  },
+  "submission-of-orivex-syscall-note-license-for-osi-approval": {
+    "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
+    "name": "Orivex Syscall Note License",
+    "spdx_id": "OSN-1.0",
+    "status": "rejected",
+    "submitter": "Righteousness",
+    "stats": {
+      "total_messages": 8,
+      "duration_days": 81,
+      "date_range": [
+        "2025-10-20",
+        "2026-01-09"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-10-20",
+      "decision": "2026-01-09",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2025-10-20"
+    },
+    "timeline_meta": {
+      "count": 8,
+      "first": "2025-10-20",
+      "last": "2026-01-09"
+    },
+    "latest_event": {
+      "date": "2026-01-09",
+      "type": "board_decision",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
+      "sentiment": "oppose",
+      "point": "Announces that the OSI Board rejected the submission as not listable because of problems with the submission package, while clarifying that a corrected future submission could still be considered.",
+      "point_zh": "宣布 OSI 董事会已因提交材料存在问题而拒绝将该许可列入审核通过名单，同时澄清若日后修正后重新提交，仍可再次考虑。"
     }
   },
   "3d-slicer-license": {
@@ -1787,11 +1877,11 @@
         "2015-08-17"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2015-07-20",
-      "decision": "2026-05-22",
+      "decision": "",
       "decision_status": "rejected"
     },
     "text_meta": {
@@ -2897,6 +2987,39 @@
       "point": "Argues that OSD clause 3 means a derived qmail build may not be redistributed on the original terms, while welcoming edge-case discussion.",
       "point_zh": "主张 OSD 第 3 条意味着 qmail 的衍生构建不能按原条款再分发，同时欢迎讨论边界情况。"
     }
+  },
+  "dolby-atmos-vision-foss-license-1-0": {
+    "id": "dolby-atmos-vision-foss-license-1-0",
+    "name": "Dolby ATMOS/Vision FOSS License 1.0",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
   },
   "sspl-v2": {
     "id": "sspl-v2",
