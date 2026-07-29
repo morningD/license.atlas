@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "23804468c7e0db81",
+    "source_hash": "2f4a1a74a70064cc",
     "index_schema_version": 4,
-    "generated_at": "2026-07-29T05:29:14.519Z",
+    "generated_at": "2026-07-29T14:32:55.571Z",
     "total_submissions": 192,
     "by_status": {
       "approved": 97,
@@ -15,7 +15,7 @@
   },
   "bos-public-license-v1-0-2": {
     "id": "bos-public-license-v1-0-2",
-    "name": "The BOS Public License v1.0 (Lucy Randall)",
+    "name": "The BOS Public License v1.0",
     "spdx_id": "",
     "status": "pending",
     "submitter": "Lucy Ada Randall",
@@ -330,7 +330,7 @@
   },
   "cnpl-1.0": {
     "id": "submission-companionation-public-licence-1-0",
-    "name": "[SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
+    "name": "CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
     "spdx_id": "CNPL-1.0",
     "status": "pending",
     "submitter": "Drew McPherson",
@@ -375,7 +375,7 @@
   },
   "submission-companionation-public-licence-1-0": {
     "id": "submission-companionation-public-licence-1-0",
-    "name": "[SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
+    "name": "CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
     "spdx_id": "CNPL-1.0",
     "status": "pending",
     "submitter": "Drew McPherson",
@@ -515,7 +515,7 @@
   },
   "mulan-public-license-v2-resubmission": {
     "id": "mulan-public-license-v2-resubmission",
-    "name": "Mulan Public License Version 2 (2024 resubmission)",
+    "name": "Mulan Public License Version 2",
     "spdx_id": "",
     "status": "pending",
     "submitter": "江波",
@@ -560,7 +560,7 @@
   },
   "resubmission-of-european-space-agency-public-licenses-for-approval": {
     "id": "resubmission-of-european-space-agency-public-licenses-for-approval",
-    "name": "Resubmission of the European Space Agency Public Licenses (ESA-PL) for approval",
+    "name": "European Space Agency Public Licenses (ESA-PL)",
     "spdx_id": "",
     "status": "pending",
     "submitter": "Carsten Gerlach",
@@ -580,10 +580,10 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 6,
+      "count": 9,
       "linked_count": 6,
       "duplicate_count": 0,
-      "diff_count": 5,
+      "diff_count": 8,
       "series": [],
       "latest_text_date": "2026-04-23"
     },
@@ -965,7 +965,7 @@
   },
   "project-tick-general-public-license-v2-for-osi-license-review": {
     "id": "project-tick-general-public-license-v2-for-osi-license-review",
-    "name": "Project Tick General Public License v2 for OSI License Review",
+    "name": "Project Tick General Public License v2",
     "spdx_id": "",
     "status": "rejected",
     "submitter": "M.samet Duman",
@@ -985,10 +985,10 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 1,
+      "count": 2,
       "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2026-01-23"
     },
@@ -2045,7 +2045,7 @@
   },
   "webm-license": {
     "id": "webm-license",
-    "name": "WebM License (third-party submission)",
+    "name": "WebM License",
     "spdx_id": "",
     "status": "rejected",
     "submitter": "Third-Party Submitter",
