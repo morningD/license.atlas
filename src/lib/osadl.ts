@@ -21,6 +21,13 @@ const DEPRECATED_SPDX_OSADL_MAP: Record<string, string> = {
 
 export const osadlMeta: OsadlIndexMeta = osadlIndex._meta;
 
+const SCANCODE_SLUG_OSADL_MAP: Record<string, string> = {
+  "bsla-no-advert": "licenseref-scancode-bsla-no-advert",
+  "info-zip-2003-05": "licenseref-scancode-info-zip-2003-05",
+  "ppp": "licenseref-scancode-ppp",
+  "bzip2-libbzip-1.0.5": "bzip2-1.0.5",
+};
+
 export function resolveOsadlChecklist(
   license: Pick<License, "spdx_id" | "slug">,
 ): OsadlChecklistEntry | null {
@@ -30,10 +37,3 @@ export function resolveOsadlChecklist(
     || osadlIndex.by_spdx[SCANCODE_SLUG_OSADL_MAP[slug]]
     || null;
 }
-
-const SCANCODE_SLUG_OSADL_MAP: Record<string, string> = {
-  "bsla-no-advert": "licenseref-scancode-bsla-no-advert",
-  "info-zip-2003-05": "licenseref-scancode-info-zip-2003-05",
-  "ppp": "licenseref-scancode-ppp",
-  "bzip2-libbzip-1.0.5": "bzip2-1.0.5",
-};

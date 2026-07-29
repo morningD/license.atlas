@@ -16,8 +16,13 @@ export function searchLicenses(
   const q = query.toLowerCase().trim();
   if (!q) return licenses;
   return licenses.filter(
-    (l) =>
-      l.title.toLowerCase().includes(q) ||
-      l.spdx_id.toLowerCase().includes(q)
+    (l) => {
+      const title = l.title || '';
+      const spdxId = l.spdx_id || '';
+      return (
+        title.toLowerCase().includes(q) ||
+        spdxId.toLowerCase().includes(q)
+      );
+    }
   );
 }
