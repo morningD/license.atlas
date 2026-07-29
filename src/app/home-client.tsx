@@ -221,28 +221,28 @@ function HomeContent() {
       if (typeFilter) results = results.filter((r) => r.type === typeFilter);
       if (propOnly) {
         results = results.filter((r) => {
-          const l = allLicenses.find((lic) => lic.slug === r.slug);
+          const l = licenseBySlug.get(r.slug);
           return l?.proprietary;
         });
       } else {
         if (osionly) results = results.filter((r) => {
-          const l = allLicenses.find((lic) => lic.slug === r.slug);
+          const l = licenseBySlug.get(r.slug);
           return l?.osi_approved;
         });
         if (fsfOnly) results = results.filter((r) => {
-          const l = allLicenses.find((lic) => lic.slug === r.slug);
+          const l = licenseBySlug.get(r.slug);
           return l?.fsf_libre;
         });
       }
       if (langFilter) {
         results = results.filter((r) => {
-          const l = allLicenses.find((lic) => lic.slug === r.slug);
+          const l = licenseBySlug.get(r.slug);
           return l?.languages?.includes(langFilter);
         });
       }
       if (tagFilter.size > 0) {
         results = results.filter((r) => {
-          const l = allLicenses.find((lic) => lic.slug === r.slug);
+          const l = licenseBySlug.get(r.slug);
           const tags = new Set([...(l?.tags || []), reviewTrackedSlugs.has(r.slug) ? REVIEW_TRACKED_TAG : ""]);
           return [...tagFilter].every((tag) => tags.has(tag));
         });
