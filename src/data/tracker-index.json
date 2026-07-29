@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "9f0ee911c857f6ff",
+    "source_hash": "23804468c7e0db81",
     "index_schema_version": 4,
-    "generated_at": "2026-07-28T08:00:58.904Z",
+    "generated_at": "2026-07-29T05:29:14.519Z",
     "total_submissions": 192,
     "by_status": {
-      "pending": 17,
-      "rejected": 46,
-      "withdrawn": 4,
+      "approved": 97,
+      "rejected": 44,
+      "withdrawn": 10,
+      "pending": 13,
       "superseded": 3,
-      "approved": 102,
-      "legacy": 20
+      "legacy": 25
     }
   },
   "bos-public-license-v1-0-2": {
@@ -418,141 +418,6 @@
       "point_zh": "解释将公司商标作为许可证名称不可接受，因为许可证若被广泛复用，就会削弱对公司名称本身的控制。"
     }
   },
-  "ai-mit-license": {
-    "id": "ai-mit-license",
-    "name": "AI-MIT License 1.0",
-    "spdx_id": "",
-    "status": "pending",
-    "submitter": "Nik",
-    "stats": {
-      "total_messages": 35,
-      "duration_days": 7,
-      "date_range": [
-        "2026-03-12",
-        "2026-03-19"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-03-12",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 3,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2026-03-13"
-    },
-    "timeline_meta": {
-      "count": 35,
-      "first": "2026-03-12",
-      "last": "2026-03-19"
-    },
-    "latest_event": {
-      "date": "2026-03-19",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Nik",
-      "subject": "[License-review] [SUBMISSION] AI-MIT License 1.0 — permissive license for AI-generated code",
-      "sentiment": "neutral",
-      "point": "Requests withdrawal of the current submission from license-review, intending to summarize the discussion, revise the draft, and continue the concept on license-discuss before any future formal submission.",
-      "point_zh": "请求从 license-review 撤回当前提交，改为在 license-discuss 继续讨论和迭代后再行正式提交。"
-    }
-  },
-  "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl": {
-    "id": "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl",
-    "name": "Withdrawal of License Submission - Barrer Free Software License (BFSL) formerly BOSL and BSL",
-    "spdx_id": "",
-    "status": "pending",
-    "submitter": "Barrer Software Legal",
-    "stats": {
-      "total_messages": 3,
-      "duration_days": 3,
-      "date_range": [
-        "2025-12-30",
-        "2026-01-02"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2025-12-30",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 3,
-      "first": "2025-12-30",
-      "last": "2026-01-02"
-    },
-    "latest_event": {
-      "date": "2026-01-02",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] Withdrawal of License Submission - Barrer Free Software License (BFSL) formerly BOSL and BSL",
-      "sentiment": "oppose",
-      "point": "Replies that market demand does not redefine open source, notes partially open commercial licenses can exist without meeting OSI standards, and argues the standard itself should not change.",
-      "point_zh": "回应称市场需求不能重定义开源，指出部分开放的商业许可可以存在但不等于符合 OSI 标准，并强调标准本身不应因此改变。"
-    }
-  },
-  "license-review-qmdeve-license-1-0": {
-    "id": "license-review-qmdeve-license-1-0",
-    "name": "QmDeve License 1.0",
-    "spdx_id": "",
-    "status": "pending",
-    "submitter": "QmDeve",
-    "stats": {
-      "total_messages": 4,
-      "duration_days": 52,
-      "date_range": [
-        "2025-11-24",
-        "2026-01-15"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2025-11-24",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2025-11-24"
-    },
-    "timeline_meta": {
-      "count": 4,
-      "first": "2025-11-24",
-      "last": "2026-01-15"
-    },
-    "latest_event": {
-      "date": "2026-01-15",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] [License-Review] QmDeve License 1.0",
-      "sentiment": "neutral",
-      "point": "Notes that the submitter has not responded to review comments and asks whether the QmDeve license should now be treated as withdrawn.",
-      "point_zh": "指出提交者一直未回应评审意见，并询问是否应将 QmDeve 许可视为已撤回。"
-    }
-  },
   "modelgo-attribution-v2": {
     "id": "modelgo-attribution-v2",
     "name": "ModelGo License Family v2.0",
@@ -691,51 +556,6 @@
       "sentiment": "neutral",
       "point": "Calls on other reviewers to provide comments or criticism of the license now, before resubmission, to help the submitter address issues proactively.",
       "point_zh": "呼吁其他审查者在重新提交之前就提供对许可证的意见或批评，以帮助提交者提前解决问题。"
-    }
-  },
-  "oin-license": {
-    "id": "oin-license",
-    "name": "Open Innovation License (OIN)",
-    "spdx_id": "",
-    "status": "pending",
-    "submitter": "Andrew Nassief",
-    "stats": {
-      "total_messages": 40,
-      "duration_days": 2,
-      "date_range": [
-        "2020-12-26",
-        "2020-12-28"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2020-12-26",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 40,
-      "first": "2020-12-26",
-      "last": "2020-12-28"
-    },
-    "latest_event": {
-      "date": "2020-12-28",
-      "type": "withdrawal",
-      "source": "license-review",
-      "sender": "Andrew Nassief",
-      "subject": "[License-review] Approval: OIN License (Open Innovation License)",
-      "sentiment": "neutral",
-      "point": "Withdraws the current license request and announces intention to submit a new request for version 2.0.",
-      "point_zh": "撤回当前许可证申请，并宣布将提交新的2.0版本申请。"
     }
   },
   "resubmission-of-european-space-agency-public-licenses-for-approval": {
@@ -1417,7 +1237,7 @@
     "id": "open-source-social-network",
     "name": "Open Source Social Network License 1.0",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Informatikon Technologies",
     "stats": {
       "total_messages": 35,
@@ -1432,7 +1252,7 @@
     "review_dates": {
       "first_submitted": "2020-03-25",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -1642,7 +1462,7 @@
     "id": "libpng-v2",
     "name": "PNG Reference Library License v2.0 (libpng v2)",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Cosmin Truta",
     "stats": {
       "total_messages": 14,
@@ -1657,7 +1477,7 @@
     "review_dates": {
       "first_submitted": "2018-11-05",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -3021,6 +2841,186 @@
     },
     "latest_event": null
   },
+  "ai-mit-license": {
+    "id": "ai-mit-license",
+    "name": "AI-MIT License 1.0",
+    "spdx_id": "",
+    "status": "withdrawn",
+    "submitter": "Nik",
+    "stats": {
+      "total_messages": 35,
+      "duration_days": 7,
+      "date_range": [
+        "2026-03-12",
+        "2026-03-19"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-03-12",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-03-13"
+    },
+    "timeline_meta": {
+      "count": 35,
+      "first": "2026-03-12",
+      "last": "2026-03-19"
+    },
+    "latest_event": {
+      "date": "2026-03-19",
+      "type": "withdrawal",
+      "source": "license-review",
+      "sender": "Nik",
+      "subject": "[License-review] [SUBMISSION] AI-MIT License 1.0 — permissive license for AI-generated code",
+      "sentiment": "neutral",
+      "point": "Requests withdrawal of the current submission from license-review, intending to summarize the discussion, revise the draft, and continue the concept on license-discuss before any future formal submission.",
+      "point_zh": "请求从 license-review 撤回当前提交，改为在 license-discuss 继续讨论和迭代后再行正式提交。"
+    }
+  },
+  "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl": {
+    "id": "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl",
+    "name": "Barrer Free Software License (BFSL)",
+    "spdx_id": "",
+    "status": "withdrawn",
+    "submitter": "Barrer Software Legal",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 5,
+      "date_range": [
+        "2025-12-28",
+        "2026-01-02"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-12-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2025-12-28"
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2025-12-28",
+      "last": "2026-01-02"
+    },
+    "latest_event": {
+      "date": "2026-01-02",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] Withdrawal of License Submission - Barrer Free Software License (BFSL) formerly BOSL and BSL",
+      "sentiment": "oppose",
+      "point": "Replies that market demand does not redefine open source, notes partially open commercial licenses can exist without meeting OSI standards, and argues the standard itself should not change.",
+      "point_zh": "回应称市场需求不能重定义开源，指出部分开放的商业许可可以存在但不等于符合 OSI 标准，并强调标准本身不应因此改变。"
+    }
+  },
+  "license-review-qmdeve-license-1-0": {
+    "id": "license-review-qmdeve-license-1-0",
+    "name": "QmDeve License 1.0",
+    "spdx_id": "",
+    "status": "withdrawn",
+    "submitter": "QmDeve",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 52,
+      "date_range": [
+        "2025-11-24",
+        "2026-01-15"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-11-24",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2025-11-24"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2025-11-24",
+      "last": "2026-01-15"
+    },
+    "latest_event": {
+      "date": "2026-01-15",
+      "type": "withdrawal",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] [License-Review] QmDeve License 1.0",
+      "sentiment": "neutral",
+      "point": "Notes that the submitter has not responded to review comments and asks whether the QmDeve license should now be treated as withdrawn.",
+      "point_zh": "指出提交者一直未回应评审意见，并询问是否应将 QmDeve 许可视为已撤回。"
+    }
+  },
+  "oin-license": {
+    "id": "oin-license",
+    "name": "Open Innovation License (OIN)",
+    "spdx_id": "",
+    "status": "withdrawn",
+    "submitter": "Andrew Nassief",
+    "stats": {
+      "total_messages": 40,
+      "duration_days": 2,
+      "date_range": [
+        "2020-12-26",
+        "2020-12-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2020-12-26",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 40,
+      "first": "2020-12-26",
+      "last": "2020-12-28"
+    },
+    "latest_event": {
+      "date": "2020-12-28",
+      "type": "withdrawal",
+      "source": "license-review",
+      "sender": "Andrew Nassief",
+      "subject": "[License-review] Approval: OIN License (Open Innovation License)",
+      "sentiment": "neutral",
+      "point": "Withdraws the current license request and announces intention to submit a new request for version 2.0.",
+      "point_zh": "撤回当前许可证申请，并宣布将提交新的2.0版本申请。"
+    }
+  },
   "sspl-v2": {
     "id": "sspl-v2",
     "name": "Server Side Public License, Version 2 (SSPL v2)",
@@ -3565,7 +3565,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3579,8 +3579,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3610,7 +3610,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3624,8 +3624,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3655,7 +3655,7 @@
     "id": "wordnet",
     "name": "WordNet",
     "spdx_id": "WordNet",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3669,8 +3669,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-04-30",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -4960,7 +4960,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -4974,8 +4974,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5005,7 +5005,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5019,8 +5019,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5050,7 +5050,7 @@
     "id": "bsd-3-clause-lbnl",
     "name": "Lawrence Berkeley National Labs BSD Variant License",
     "spdx_id": "BSD-3-Clause-LBNL",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Sebastian Ainslie",
     "stats": {
       "total_messages": 7,
@@ -5064,8 +5064,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-05-16",
-      "decision": "2019-06-14",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -7570,7 +7570,7 @@
     "id": "multics",
     "name": "Multics License",
     "spdx_id": "Multics",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 6,
@@ -7584,8 +7584,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2007-11-14",
-      "decision": "2008-01-08",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,

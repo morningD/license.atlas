@@ -6,6 +6,9 @@
 //   --since       refresh months from YYYY-MM through current month
 //   --recent N    refresh the last N months (default 2)
 //   --skip-mail   skip mail archive/index/pending discovery steps
+//   --skip-status-agent  skip Agent status adjudication steps
+//   --status-agent-mode <verify|verify-or-submit|local>  status adjudication runner mode (default verify-or-submit)
+//   --allow-manual-pending  allow blocking manual-review items while applying/verifying status adjudication
 import { existsSync } from "fs";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
@@ -17,6 +20,12 @@ const ROOT = resolve(__dirname, "..");
 const args = process.argv.slice(2);
 const FULL = args.includes("--full");
 const SKIP_MAIL = args.includes("--skip-mail");
+const SKIP_STATUS_AGENT = args.includes("--skip-status-agent");
+const ALLOW_MANUAL_PENDING = args.includes("--allow-manual-pending");
+const statusModeIdx = args.indexOf("--status-agent-mode");
+const STATUS_AGENT_MODE = statusModeIdx !== -1 && args[statusModeIdx + 1] && !args[statusModeIdx + 1].startsWith("--")
+  ? args[statusModeIdx + 1]
+  : "verify-or-submit";
 const flagIdx = process.argv.indexOf("--kb-path");
 const KB_ROOT = flagIdx !== -1 && process.argv[flagIdx + 1]
   ? resolve(process.argv[flagIdx + 1])
@@ -91,6 +100,17 @@ run("node scripts/build-license-review-tracker.mjs", KB_ROOT);
 
 // 4. Enrich
 run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
+
+// 4.5. Agent status adjudication. Rules only prepare evidence; final status is
+// supplied by the adjudicator output and applied before sync.
+if (!SKIP_STATUS_AGENT) {
+  run("node scripts/prepare-status-adjudication.mjs", KB_ROOT);
+  run(`node scripts/run-status-adjudication.mjs --mode ${shellQuote(STATUS_AGENT_MODE)}`, KB_ROOT);
+  run(`node scripts/apply-status-adjudications.mjs${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
+  run(`node scripts/verify-status-adjudications.mjs --require-all${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
+} else {
+  console.log("\n↷ Skipping Agent status adjudication (--skip-status-agent)");
+}
 
 // 5. Quality gates: validate tracker semantics, point style, and manifest coverage.
 run("node scripts/test-tracker-data.mjs", KB_ROOT);
