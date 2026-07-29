@@ -34,26 +34,6 @@ function shellQuote(s) {
   return `"${String(s).replace(/(["\\$`])/g, "\\$1")}"`;
 }
 
-function run(cmd, cwd = ROOT) {
-  console.log(`\n▶ ${cmd}  (in ${cwd})`);
-  execSync(cmd, { cwd, stdio: "inherit", env: childEnv });
-}
-
-const KB_ROOT = resolve(value("--kb-path", resolve(ROOT, "..", "KB")));
-if (!existsSync(KB_ROOT)) {
-  console.error(`✗ KB not found: ${KB_ROOT}`);
-  process.exit(1);
-}
-
-const skipCore = has("--skip-core");
-const skipTracker = has("--skip-tracker");
-const skipOsadl = has("--skip-osadl");
-const skipProjects = has("--skip-projects");
-const skipBuild = has("--skip-build");
-const skipFetch = has("--skip-fetch");
-const skipConfirm = has("--skip-confirm") && !has("--review-hf-custom");
-const allowNewLicenses = has("--allow-new-licenses");
-
 function pythonHasPolars(bin) {
   try {
     execSync(`${shellQuote(bin)} -c "import polars"`, { stdio: "ignore" });
@@ -75,6 +55,26 @@ function detectPythonBin() {
 
 const PYTHON_BIN = detectPythonBin();
 const childEnv = { ...process.env, PYTHON_BIN };
+
+function run(cmd, cwd = ROOT) {
+  console.log(`\n▶ ${cmd}  (in ${cwd})`);
+  execSync(cmd, { cwd, stdio: "inherit", env: childEnv });
+}
+
+const KB_ROOT = resolve(value("--kb-path", resolve(ROOT, "..", "KB")));
+if (!existsSync(KB_ROOT)) {
+  console.error(`✗ KB not found: ${KB_ROOT}`);
+  process.exit(1);
+}
+
+const skipCore = has("--skip-core");
+const skipTracker = has("--skip-tracker");
+const skipOsadl = has("--skip-osadl");
+const skipProjects = has("--skip-projects");
+const skipBuild = has("--skip-build");
+const skipFetch = has("--skip-fetch");
+const skipConfirm = has("--skip-confirm") && !has("--review-hf-custom");
+const allowNewLicenses = has("--allow-new-licenses");
 
 console.log(`LicenseAtlas incremental data update`);
 console.log(`KB: ${KB_ROOT}`);

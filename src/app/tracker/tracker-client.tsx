@@ -10,6 +10,8 @@ function submitterName(entry: TrackerIndexEntry | TrackerData["submissions"][num
   return typeof entry.submitter === "string" ? entry.submitter : entry.submitter?.name || "";
 }
 
+const STATUS_ORDER = ["all", "approved", "rejected", "pending", "withdrawn", "superseded", "legacy"];
+
 export function TrackerClient() {
   const { t } = useLang();
   const searchParams = useSearchParams();
@@ -41,8 +43,9 @@ export function TrackerClient() {
         if (showErrorOnFailure || !indexLoadedRef.current) setLoadError(true);
         throw err;
       })
-      .finally(() => {
+      .then((d) => {
         fullLoadRef.current = null;
+        return d;
       });
     return fullLoadRef.current;
   }, []);
@@ -124,8 +127,6 @@ export function TrackerClient() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
-
-  const STATUS_ORDER = ["all", "approved", "rejected", "pending", "withdrawn", "superseded", "legacy"];
 
   const fullById = useMemo(() => {
     const map = new Map<string, TrackerData["submissions"][number]>();

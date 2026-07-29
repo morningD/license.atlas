@@ -8,7 +8,14 @@ const ROOT = resolve(__dirname, "..");
 
 function resolveKbPath() {
   const flagIdx = process.argv.indexOf("--kb-path");
-  if (flagIdx !== -1) return resolve(process.argv[flagIdx + 1]);
+  if (flagIdx !== -1) {
+    const kbPathArg = process.argv[flagIdx + 1];
+    if (!kbPathArg || kbPathArg.startsWith("-")) {
+      console.error("✗ Missing value for --kb-path");
+      process.exit(1);
+    }
+    return resolve(kbPathArg);
+  }
   return resolve(ROOT, "..", "KB");
 }
 
