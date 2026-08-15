@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "5f1f84d31978a060",
+    "source_hash": "1479231de1058dfb",
     "index_schema_version": 4,
-    "generated_at": "2026-08-15T08:50:41.117Z",
+    "generated_at": "2026-08-15T09:20:23.839Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
@@ -13,55 +13,10 @@
       "legacy": 25
     }
   },
-  "license.openmdw-1.1": {
-    "id": "openmdw-license-agreement-1-1",
-    "name": "OpenMDW License Agreement, version 1.1 (\"OpenMDW-1.1\"),",
-    "spdx_id": "LICENSE.OpenMDW-1.1",
-    "status": "pending",
-    "submitter": "Michael Dolan",
-    "stats": {
-      "total_messages": 14,
-      "duration_days": 1,
-      "date_range": [
-        "2026-08-13",
-        "2026-08-14"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-08-13",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 14,
-      "first": "2026-08-13",
-      "last": "2026-08-14"
-    },
-    "latest_event": {
-      "date": "2026-08-14",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Luis Villa",
-      "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials.",
-      "point_zh": "澄清对 MPL 2.0 的解释并非支持 OpenMDW 1.1，且同一理由在 AI 模型材料场景下可能产生不同效果。"
-    }
-  },
   "openmdw-license-agreement-1-1": {
     "id": "openmdw-license-agreement-1-1",
-    "name": "OpenMDW License Agreement, version 1.1 (\"OpenMDW-1.1\"),",
-    "spdx_id": "LICENSE.OpenMDW-1.1",
+    "name": "OpenMDW License Agreement, version 1.1",
+    "spdx_id": "",
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
@@ -80,12 +35,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
       "count": 14,
@@ -1300,12 +1255,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2021-06-22"
     },
     "timeline_meta": {
       "count": 41,
@@ -1390,12 +1345,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2020-01-06"
     },
     "timeline_meta": {
       "count": 28,
@@ -1435,12 +1390,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 1,
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2019-03-15"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 22,
@@ -3166,12 +3121,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 1,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2018-11-23"
     },
     "timeline_meta": {
       "count": 52,
@@ -4111,12 +4066,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2023-08-23"
+      "latest_text_date": "2023-11-12"
     },
     "timeline_meta": {
       "count": 8,
@@ -4156,12 +4111,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2023-08-23"
+      "latest_text_date": "2023-11-12"
     },
     "timeline_meta": {
       "count": 8,
@@ -5686,12 +5641,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
+      "count": 1,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2017-02-23"
     },
     "timeline_meta": {
       "count": 7,
@@ -5731,12 +5686,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
+      "count": 1,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2017-02-23"
     },
     "timeline_meta": {
       "count": 7,
@@ -5776,10 +5731,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
+      "count": 1,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 1,
+      "diff_count": 0,
       "series": [],
       "latest_text_date": "2017-03-13"
     },
@@ -6316,12 +6271,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
+      "count": 0,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2014-09-17"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 7,
@@ -6361,12 +6316,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
+      "count": 0,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2014-09-17"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 7,
@@ -6406,12 +6361,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2012-02-27"
     },
     "timeline_meta": {
       "count": 7,
@@ -6451,12 +6406,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2012-02-27"
     },
     "timeline_meta": {
       "count": 7,
@@ -7891,12 +7846,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
+      "count": 0,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2007-09-15"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 7,
@@ -7936,12 +7891,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
+      "count": 0,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2007-09-15"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 7,
@@ -7981,12 +7936,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2007-08-06"
     },
     "timeline_meta": {
       "count": 5,
@@ -8026,12 +7981,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2007-08-06"
     },
     "timeline_meta": {
       "count": 5,
@@ -10141,12 +10096,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
+      "count": 0,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2003-12-13"
+      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 7,
@@ -10501,12 +10456,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2002-06-25"
     },
     "timeline_meta": {
       "count": 6,
@@ -10546,12 +10501,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2002-06-25"
     },
     "timeline_meta": {
       "count": 6,
@@ -10861,12 +10816,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2001-01-23"
     },
     "timeline_meta": {
       "count": 4,
@@ -10906,12 +10861,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2001-01-23"
     },
     "timeline_meta": {
       "count": 4,
