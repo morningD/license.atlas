@@ -2,7 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
-LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,623** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
+LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,640** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
 
 **Live site**: [LicenseAtlas](https://morningd.github.io/license.atlas)
 
@@ -12,12 +12,12 @@ LicenseAtlas is a software, data, AI model, and agent license explorer covering 
 - **Category filters** — software, model, data, agent, terms
 - **Tag filters** — Permissive, Copyleft, Creative Commons, Hardware, etc.
 - **Popularity & trends** — sparkline charts from HuggingFace, GitHub, and Kaggle data
-- **[OSI License Review Tracker](https://morningd.github.io/license.atlas/tracker)** (`/tracker`) — live board of 179 OSI license submissions, review status, board votes, timelines, and linked license-text history
+- **[OSI License Review Tracker](https://morningd.github.io/license.atlas/tracker)** (`/tracker`) — live board of 194 OSI license submissions, review status, board votes, timelines, and linked license-text history
 - **OSADL checklist signals** — obligation/prohibition summaries, copyleft/source-disclosure/patent hints, and directional compatibility data for matched licenses
 - **Popular Projects** — right-rail showcase of top GitHub, HuggingFace, and Kaggle projects for selected licenses, with source-aware incremental refresh
 - **Bilingual UI** — English/Chinese with automatic browser language detection
 - **Dark mode** — system preference + manual toggle
-- **Static export** — 2,623 pre-rendered pages, fast loading
+- **Static export** — 2,640 pre-rendered license pages, fast loading
 
 ## Tech Stack
 
@@ -67,7 +67,7 @@ License texts are aggregated from:
 |--------|----------|
 | SPDX | 695 licenses |
 | TLDRLegal | 145 licenses |
-| OSI | 122 approved licenses |
+| OSI | 123 approved licenses |
 | GNU / FSF | 66 licenses |
 | Creative Commons | 37 licenses |
 | choosealicense.com | 47 licenses |
@@ -79,9 +79,9 @@ License texts are aggregated from:
 | RAIL | Responsible AI licenses |
 | OpenAtom Foundation | Model and hardware licenses (bilingual CN/EN) |
 | OpenMDW | Permissive license for ML models and related artifacts (Linux Foundation) |
-| OSI Review Tracker | 179 OSI license-review submissions, timelines, first/decision dates, board-vote records, and locally archived submitted license texts from public review/discussion records |
-| OSADL Open Source License Checklists | 121 checklist records, 120 matched LicenseAtlas pages, checklist-derived obligations/prohibitions, copyleft/source-disclosure/patent hints, and directional compatibility summaries |
-| Project Showcase | 31 selected licenses with top GitHub repositories, HuggingFace models, and Kaggle datasets, normalized into a compact right-rail detail-page sidecar |
+| OSI Review Tracker | 194 OSI license-review submissions, timelines, first/decision dates, board-vote records, and locally archived submitted license texts from public review/discussion records |
+| OSADL Open Source License Checklists | 124 checklist records, 123 matched LicenseAtlas pages, checklist-derived obligations/prohibitions, copyleft/source-disclosure/patent hints, and directional compatibility summaries |
+| Project Showcase | 32 selected licenses with top GitHub repositories, HuggingFace models, and Kaggle datasets, normalized into a compact right-rail detail-page sidecar |
 
 Popularity data comes from HuggingFace Hub (2.8M+ models), GitHub (28 license types), and Kaggle (714K+ datasets via Meta-Kaggle). License-card sparklines use HuggingFace monthly license-trends extracted from the models parquet; repository counts and project showcase data come from GitHub, and dataset popularity comes from Kaggle. Project Showcase ranks GitHub entries by stars, HuggingFace entries by the local Hub `trendingScore` when a license has active trend signal, and Kaggle entries by votes; HF groups with a top trend score below 5 fall back to likes and show top 5 unless the fifth item has more than 5 likes, in which case they show top 10. A license is included when Atlas aggregate counters cross the rollout threshold or raw source data contains a clearly popular top item. The updater is incremental at the source layer: GitHub uses per-license freshness windows, HuggingFace uses a parquet fingerprint gate, Kaggle uses the latest Meta-Kaggle version id plus cached API-resolved URL/thumbnail metadata, and Atlas-side sync is hash-gated. Popular Projects can be refreshed independently with `npm run update:projects`; source-specific refreshes are supported with `npm run update:projects -- --source <github|huggingface|kaggle> --force`.
 The site footer reports the latest data update using the newest timestamp from the license corpus, the OSI review tracker sync, the OSADL checklist sync, and the project-showcase sync, shown inline with the page-view counter.

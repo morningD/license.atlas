@@ -1,6 +1,6 @@
 {
-  "source_hash": "dd407d47c257bbf3",
-  "generated_at": "2026-06-22T07:48:39.787Z",
+  "source_hash": "d0737b5652f0ce41",
+  "generated_at": "2026-08-15T07:17:44.511Z",
   "source": "GitHub Search API + HuggingFace Hub + Meta-Kaggle",
   "thresholds": {
     "github_repos": 10000,
@@ -11,10 +11,10 @@
     "hf_fallback_top_likes": 1000,
     "kaggle_top_votes": 1000
   },
-  "record_count": 31,
+  "record_count": 32,
   "match_counts": {
-    "atlas_candidates": 31,
-    "matched_records": 31,
-    "unmatched_raw_groups": 69
+    "atlas_candidates": 32,
+    "matched_records": 32,
+    "unmatched_raw_groups": 68
   }
 }

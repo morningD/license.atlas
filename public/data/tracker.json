@@ -1,29 +1,29 @@
 {
   "meta": {
-    "generated_at": "2026-07-29T14:32:43.202Z",
-    "total_submissions": 192,
+    "generated_at": "2026-08-15T07:11:03.373Z",
+    "total_submissions": 194,
     "by_status": {
-      "approved": 97,
-      "rejected": 44,
+      "approved": 95,
+      "rejected": 45,
       "withdrawn": 10,
-      "pending": 13,
-      "superseded": 3,
+      "pending": 14,
+      "superseded": 5,
       "legacy": 25
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3429,
-      "rejected_withdrawn": 70,
-      "license_text_files": 347,
-      "minutes_files": 224,
-      "vote_blocks_extracted": 590
+      "mail_clusters": 3433,
+      "rejected_withdrawn": 72,
+      "license_text_files": 348,
+      "minutes_files": 225,
+      "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-07-29T14:32:55.571Z",
+    "enriched_at": "2026-08-15T07:11:15.302Z",
     "coverage": {
       "submissions_with_license_text": 70,
-      "submissions_with_board_vote": 86,
+      "submissions_with_board_vote": 89,
       "board_vote_by_source": {
-        "minutes": 58,
+        "minutes": 61,
         "timeline": 4,
         "osi_api": 24
       },
@@ -36,14 +36,334 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-07-29T14:33:58.855Z",
-      "applied": 192,
+      "applied_at": "2026-08-15T07:12:04.624Z",
+      "applied": 194,
       "missing": 0,
       "invalid": 0,
       "manual_review_blocking": 0
     }
   },
   "submissions": [
+    {
+      "id": "openmdw-license-agreement-1-1",
+      "name": "OpenMDW License Agreement, version 1.1 (\"OpenMDW-1.1\"),",
+      "aliases": [
+        "For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)"
+      ],
+      "spdx_id": "LICENSE.OpenMDW-1.1",
+      "status": "pending",
+      "source_status": "pending",
+      "rule_status": "pending",
+      "status_candidates": [
+        {
+          "status": "pending",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": [
+            "curated_rwp"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": true,
+          "status": "pending",
+          "rejection_reason": null
+        },
+        "timeline_summary": {
+          "has_submission": true,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": "2026-08-14"
+        },
+        "board_vote": {
+          "present": false
+        }
+      },
+      "submitter": {
+        "name": "Michael Dolan"
+      },
+      "participants": [
+        {
+          "name": "Michael Dolan",
+          "role": "submitter",
+          "message_count": 3
+        },
+        {
+          "name": "Richard Fontana",
+          "role": "board_member",
+          "message_count": 3
+        },
+        {
+          "name": "McCoy Smith",
+          "role": "reviewer",
+          "message_count": 2
+        },
+        {
+          "name": "Luis Villa",
+          "role": "reviewer",
+          "message_count": 2
+        },
+        {
+          "name": "Rob Landley",
+          "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Pamela Chestek",
+          "role": "board_member",
+          "message_count": 1
+        },
+        {
+          "name": "David Rudin",
+          "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Eric Schultz",
+          "role": "reviewer",
+          "message_count": 1
+        }
+      ],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [
+        {
+          "date": "2026-08-13",
+          "type": "submission",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006125.html",
+          "sender": "Michael Dolan",
+          "snippet": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes.",
+          "point_zh": "正式提交 OpenMDW License Agreement 1.1 供 OSI 审批，称其为覆盖异构 AI 模型材料及所有适用知识产权制度的宽松许可证。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+        },
+        {
+          "date": "2026-08-13",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006126.html",
+          "sender": "Richard Fontana",
+          "snippet": "Raises concern that copyright-triggered defensive termination is unusually broad and could terminate rights to related materials when a developer brings a legitimate infringement claim.",
+          "point_zh": "担忧由版权诉讼触发的防御性终止条款范围异常宽泛，开发者提出正当侵权主张时可能连带失去相关材料的使用权。",
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Raises concern that copyright-triggered defensive termination is unusually broad and could terminate rights to related materials when a developer brings a legitimate infringement claim."
+        },
+        {
+          "date": "2026-08-13",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006127.html",
+          "sender": "Rob Landley",
+          "snippet": "Opposes normalizing a clause that could penalize legitimate copyright claims against AI projects and questions whether it fits the Open Source Definition.",
+          "point_zh": "反对将可能惩罚针对 AI 项目的正当版权主张之条款常态化，并质疑其是否符合开源定义。",
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Opposes normalizing a clause that could penalize legitimate copyright claims against AI projects and questions whether it fits the Open Source Definition."
+        },
+        {
+          "date": "2026-08-13",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006128.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Asks for historical context on why open-source licenses moved away from terminating copyright grants in response to patent infringement claims.",
+          "point_zh": "询问开源许可证为何在历史上不再因专利侵权主张而终止版权授权。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Asks for historical context on why open-source licenses moved away from terminating copyright grants in response to patent infringement claims."
+        },
+        {
+          "date": "2026-08-13",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006129.html",
+          "sender": "McCoy Smith",
+          "snippet": "Questions whether GPLv3 treats initiating patent litigation as a separate prohibited act that terminates the license, rather than merely an example of a further restriction.",
+          "point_zh": "质疑 GPLv3 是否把发起专利诉讼视为会终止许可证的独立禁止行为，而不只是“进一步限制”的示例。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "question",
+          "point": "Questions whether GPLv3 treats initiating patent litigation as a separate prohibited act that terminates the license, rather than merely an example of a further restriction."
+        },
+        {
+          "date": "2026-08-13",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006130.html",
+          "sender": "Richard Fontana",
+          "snippet": "Argues OpenMDW 1.1 may conflict with OSD 9 because a claim involving one component could terminate licenses to other separately copyrightable components in the model-materials bundle.",
+          "point_zh": "认为 OpenMDW 1.1 可能与 OSD 9 冲突，因为针对一个组件的主张可能终止模型材料包中其他独立受版权保护组件的许可。",
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues OpenMDW 1.1 may conflict with OSD 9 because a claim involving one component could terminate licenses to other separately copyrightable components in the model-materials bundle."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006131.html",
+          "sender": "David Rudin",
+          "snippet": "Cites specification-license precedents where defensive termination ends both patent and copyright grants, supporting treatment of overlapping IP rights as one licensing bargain.",
+          "point_zh": "援引规范许可证中防御性终止同时结束专利和版权授权的先例，支持将重叠知识产权视为一项整体许可交易。",
+          "sentiment": "positive",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Cites specification-license precedents where defensive termination ends both patent and copyright grants, supporting treatment of overlapping IP rights as one licensing bargain."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006132.html",
+          "sender": "Luis Villa",
+          "snippet": "Explains that MPL 2.0 intentionally terminates copyright grants because terminating only the patent grant can be an ineffective deterrent.",
+          "point_zh": "说明 MPL 2.0 有意终止版权授权，因为仅终止专利授权可能缺乏实际威慑力。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Explains that MPL 2.0 intentionally terminates copyright grants because terminating only the patent grant can be an ineffective deterrent."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006133.html",
+          "sender": "Richard Fontana",
+          "snippet": "Corrects the earlier reading of MPL 2.0: patent assertions trigger termination of both copyright and patent grants, while EPL 2.0 appears narrower.",
+          "point_zh": "更正此前对 MPL 2.0 的解读：专利主张会触发版权与专利授权同时终止，而 EPL 2.0 的范围似乎更窄。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Corrects the earlier reading of MPL 2.0: patent assertions trigger termination of both copyright and patent grants, while EPL 2.0 appears narrower."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006134.html",
+          "sender": "Michael Dolan",
+          "snippet": "Defends OpenMDW 1.1 as narrowly triggered by offensive claims against the licensed model materials, citing OSI precedents and arguing that copyright symmetry is necessary for model licensing.",
+          "point_zh": "为 OpenMDW 1.1 辩护，称其仅由针对获许可模型材料的主动诉讼触发，并援引 OSI 先例说明模型许可需要版权层面的对等机制。",
+          "sentiment": "positive",
+          "source": "license-review",
+          "position": "support",
+          "point": "Defends OpenMDW 1.1 as narrowly triggered by offensive claims against the licensed model materials, citing OSI precedents and arguing that copyright symmetry is necessary for model licensing."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006135.html",
+          "sender": "Eric Schultz",
+          "snippet": "Warns that copyright-triggered termination could prevent creators from enforcing their rights against widely used models and effectively shield large-scale infringement.",
+          "point_zh": "警告由版权诉讼触发的终止条款可能阻碍创作者对广泛使用的模型维权，实质上为大规模侵权提供保护。",
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Warns that copyright-triggered termination could prevent creators from enforcing their rights against widely used models and effectively shield large-scale infringement."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006136.html",
+          "sender": "McCoy Smith",
+          "snippet": "Asks how patent litigation interacts with GPLv3 Sections 7 and 8 and whether similar termination logic would also apply under GPLv2.",
+          "point_zh": "询问专利诉讼如何与 GPLv3 第 7、8 节衔接，以及类似的终止逻辑是否也适用于 GPLv2。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Asks how patent litigation interacts with GPLv3 Sections 7 and 8 and whether similar termination logic would also apply under GPLv2."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006137.html",
+          "sender": "Michael Dolan",
+          "snippet": "Agrees that terminating only patent grants is not a credible deterrent.",
+          "point_zh": "认同仅终止专利授权不足以形成可信的威慑。",
+          "sentiment": "positive",
+          "source": "license-review",
+          "position": "support",
+          "point": "Agrees that terminating only patent grants is not a credible deterrent."
+        },
+        {
+          "date": "2026-08-14",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006138.html",
+          "sender": "Luis Villa",
+          "snippet": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials.",
+          "point_zh": "澄清对 MPL 2.0 的解释并非支持 OpenMDW 1.1，且同一理由在 AI 模型材料场景下可能产生不同效果。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials."
+        }
+      ],
+      "board_vote": null,
+      "rejection_reason": "",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 14,
+        "date_range": [
+          "2026-08-13",
+          "2026-08-14"
+        ],
+        "duration_days": 1,
+        "unique_participants": [
+          "Michael Dolan",
+          "Richard Fontana",
+          "Rob Landley",
+          "Pamela Chestek",
+          "McCoy Smith",
+          "David Rudin",
+          "Luis Villa",
+          "Eric Schultz"
+        ]
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "pending",
+        "confidence": 0.99,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The submission and curated tracker entry establish an active review, while no withdrawal or board decision is present.",
+        "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
+            "supports": "pending",
+            "quote": "status: pending"
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
+            "supports": "pending",
+            "quote": "submit the OpenMDW License Agreement, version 1.1 for review and approval"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:bac557d4c1dd876d224f2c683c5d3af2d5630ccc6c08496ae4627ae64836ba10",
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
     {
       "id": "bos-public-license-v1-0-2",
       "name": "The BOS Public License v1.0",
@@ -53729,6 +54049,102 @@
       }
     },
     {
+      "id": "license-as-this-is-a-translation-of-isc-license-which-is-already-approved",
+      "name": "Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
+      "aliases": [],
+      "spdx_id": "",
+      "status": "rejected",
+      "source_status": "rejected",
+      "rule_status": "rejected",
+      "status_candidates": [
+        {
+          "status": "rejected",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": [
+            "curated_rwp"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": true,
+          "status": "rejected",
+          "rejection_reason": "The OSI Board rejected Открытый Пакет ПО license as this is a translation of the ISC license which is already approved in the 2026-06-29 board meeting."
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": ""
+        },
+        "board_vote": {
+          "present": true,
+          "date": "2026-06-29",
+          "outcome": "rejected",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and reject the Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
+          "source": "minutes"
+        }
+      },
+      "submitter": {
+        "name": "Unknown"
+      },
+      "participants": [],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [],
+      "board_vote": {
+        "date": "2026-06-29",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and reject the Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "rejected",
+        "source": "minutes",
+        "minutes_file": "2026-06-29-2026-06-29.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
+      "rejection_reason": "The OSI Board rejected Открытый Пакет ПО license as this is a translation of the ISC license which is already approved in the 2026-06-29 board meeting.",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 0,
+        "date_range": [],
+        "duration_days": 0,
+        "unique_participants": []
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "rejected",
+        "confidence": 0.99,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The 2026-06-29 OSI board motion explicitly rejected the translated ISC license submission.",
+        "evidence_refs": [
+          {
+            "evidence_id": "board_vote:license-as-this-is-a-translation-of-isc-license-which-is-already-approved",
+            "supports": "rejected",
+            "quote": "reject the Открытый Пакет ПО license as this is a translation of the ISC license which is already approved"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:4f3ed50e303296facd5a9e2e0aae97cfa5c318e2354ff5afaeabe33ef88aa2dc",
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-003.out.jsonl"
+      }
+    },
+    {
       "id": "ai-mit-license",
       "name": "AI-MIT License 1.0",
       "aliases": [],
@@ -70968,7 +71384,7 @@
         "Submission: Python-2.0.1"
       ],
       "spdx_id": "Python-2.0",
-      "status": "approved",
+      "status": "superseded",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -71004,7 +71420,11 @@
           "latest_event_date": "2026-05-19"
         },
         "board_vote": {
-          "present": false
+          "present": true,
+          "date": "2026-06-29",
+          "outcome": "approved",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version",
+          "source": "minutes"
         }
       },
       "submitter": {
@@ -72098,7 +72518,22 @@
           "point": "Suggests splitting the request into separate submissions because the current materials do not fit OSI’s normal approval structure."
         }
       ],
-      "board_vote": null,
+      "board_vote": {
+        "date": "2026-06-29",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "approved",
+        "source": "minutes",
+        "minutes_file": "2026-06-29-2026-06-29.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
       "rejection_reason": "",
       "osi_api_data": {
         "submission_date": "",
@@ -72126,20 +72561,20 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "approved",
-        "confidence": 0.99,
+        "final_status": "superseded",
+        "confidence": 0.98,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "osi_api 直接表明该许可证已存在且获批，证据链也只支持 approved。",
+        "rationale": "The latest specific OSI board motion approved Python-2.0.1 as Legacy and explicitly superseded the prior Python-2.0 version.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:python-2-0",
-            "supports": "approved",
-            "quote": "Python License, Version 2"
+            "evidence_id": "board_vote:python-2-0",
+            "supports": "superseded",
+            "quote": "approves the Python-2.0.1 as Legacy, Supersede prior version"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:d8991f06135faab3e10c3250d8dccd66f26b4e1ea1e43e83681269b1e175f806",
+        "input_hash": "sha256:3166fbfe381d29e49471d5330ae1b98970191645c4e523c6d0a0ee8db9a59522",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
@@ -72151,7 +72586,7 @@
         "Submission: CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "CNRI-Python",
-      "status": "approved",
+      "status": "superseded",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -72187,7 +72622,11 @@
           "latest_event_date": "2026-03-20"
         },
         "board_vote": {
-          "present": false
+          "present": true,
+          "date": "2026-06-29",
+          "outcome": "approved",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
+          "source": "minutes"
         }
       },
       "submitter": {
@@ -72624,7 +73063,22 @@
           "point": "Argues the clause does not violate OSD 10 because the clickwrap is stated in the alternative (\"or by copying\"), so agreement is possible with or without a GUI, providing the OSD 10 historical context."
         }
       ],
-      "board_vote": null,
+      "board_vote": {
+        "date": "2026-06-29",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "approved",
+        "source": "minutes",
+        "minutes_file": "2026-06-29-2026-06-29.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
       "rejection_reason": "",
       "osi_api_data": {
         "submission_date": "",
@@ -72653,20 +73107,20 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "approved",
-        "confidence": 0.99,
+        "final_status": "superseded",
+        "confidence": 0.98,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "osi_api 证据明确支持 approved，且没有任何撤回、拒绝或 superseded 证据。",
+        "rationale": "The latest specific OSI board motion approved CNRI-Python-GPL-Compatible as Legacy and explicitly superseded the prior CNRI-Python version.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:cnri-python",
-            "supports": "approved",
-            "quote": "The CNRI portion of the multi-part Python License"
+            "evidence_id": "board_vote:cnri-python",
+            "supports": "superseded",
+            "quote": "approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:489dd7821505ddcd00d7dda8e13c3de736d4cc3416221f10024a87f0404566a3",
+        "input_hash": "sha256:937c9c35be0e68d4e73a1b7c803e690df9f0338ed05cf95d77d5a6bebb9e9989",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }

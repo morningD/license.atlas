@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated_at": "2026-06-22T07:48:39.787Z",
-    "source_hash": "66fc084d386f2d99dfead951cccbe4600ff545f5",
+    "generated_at": "2026-08-15T07:17:44.511Z",
+    "source_hash": "c74ae98e2e9989397ca70474213c7a3990c98eb1",
     "thresholds": {
       "github_repos": 10000,
       "kaggle_datasets": 1000,
@@ -11,7 +11,7 @@
       "hf_fallback_top_likes": 1000,
       "kaggle_top_votes": 1000
     },
-    "record_count": 31
+    "record_count": 32
   },
   "by_slug": {
     "apache-2.0": {
@@ -33,7 +33,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 195788
+              "stars": 197021
             }
           },
           {
@@ -43,7 +43,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 161771
+              "stars": 164089
             }
           },
           {
@@ -53,7 +53,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 156507
+              "stars": 157766
             }
           },
           {
@@ -63,27 +63,27 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 143969
-            }
-          },
-          {
-            "name": "kubernetes/kubernetes",
-            "url": "https://github.com/kubernetes/kubernetes",
-            "icon_url": "https://avatars.githubusercontent.com/u/13629408?v=4",
-            "rank": 5,
-            "rank_basis": null,
-            "metric": {
-              "stars": 123155
+              "stars": 147659
             }
           },
           {
             "name": "Shubhamsaboo/awesome-llm-apps",
             "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
             "icon_url": "https://avatars.githubusercontent.com/u/31396011?v=4",
+            "rank": 5,
+            "rank_basis": null,
+            "metric": {
+              "stars": 132678
+            }
+          },
+          {
+            "name": "kubernetes/kubernetes",
+            "url": "https://github.com/kubernetes/kubernetes",
+            "icon_url": "https://avatars.githubusercontent.com/u/13629408?v=4",
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 115230
+              "stars": 124493
             }
           },
           {
@@ -93,27 +93,27 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 113999
-            }
-          },
-          {
-            "name": "microsoft/TypeScript",
-            "url": "https://github.com/microsoft/TypeScript",
-            "icon_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
-            "rank": 8,
-            "rank_basis": null,
-            "metric": {
-              "stars": 109351
+              "stars": 115499
             }
           },
           {
             "name": "tauri-apps/tauri",
             "url": "https://github.com/tauri-apps/tauri",
             "icon_url": "https://avatars.githubusercontent.com/u/54536011?v=4",
+            "rank": 8,
+            "rank_basis": null,
+            "metric": {
+              "stars": 110215
+            }
+          },
+          {
+            "name": "microsoft/TypeScript",
+            "url": "https://github.com/microsoft/TypeScript",
+            "icon_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 108151
+              "stars": 110163
             }
           },
           {
@@ -123,129 +123,129 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 107470
+              "stars": 108797
             }
           }
         ],
         "huggingface": [
           {
-            "name": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-            "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/68381c529cf21282bb58fff5/BOAMsI-nrZMo-pannGgA-.png",
+            "name": "meta-models/Muse-Glimmer-30B",
+            "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c115d1f661ace7c4022432/EbzfQisFJBEcKWDWLyV5O.png",
             "rank": 1,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 1737,
-              "downloads": 358677,
-              "likes": 2029
+              "trendingScore": 1384,
+              "downloads": 165300,
+              "likes": 1475
             }
           },
           {
-            "name": "google/diffusiongemma-26B-A4B-it",
-            "url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png",
+            "name": "lightx2v/Minimax-h3-Turbo",
+            "url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/680de13385293771bc57400b/qnjz3avU_cKzRZA2aGjuZ.png",
             "rank": 2,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 249,
-              "downloads": 762861,
-              "likes": 1026
+              "trendingScore": 458,
+              "downloads": 149865,
+              "likes": 480
             }
           },
           {
-            "name": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-            "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/68381c529cf21282bb58fff5/BOAMsI-nrZMo-pannGgA-.png",
+            "name": "unsloth/Muse-Glimmer-30B-GGUF",
+            "url": "https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecdc18b72a69615d6bd857/E4lkPz1TZNLzIFr_dR273.png",
             "rank": 3,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 209,
-              "downloads": 21730,
-              "likes": 227
+              "trendingScore": 394,
+              "downloads": 596774,
+              "likes": 400
             }
           },
           {
-            "name": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-            "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-            "icon_url": "https://huggingface.co/avatars/46f91853fe23c1e732611dd77d949849.svg",
+            "name": "larryvrh/MiniMax-H3-Turbo-Lora",
+            "url": "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63783918d925e7dad20748a3/SIMpPx2nIKyEF7Mx9E3hC.png",
             "rank": 4,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 205,
-              "downloads": 3966691,
-              "likes": 2061
+              "trendingScore": 332,
+              "downloads": 0,
+              "likes": 733
             }
           },
           {
-            "name": "owensong/Inflect-Nano-v1",
-            "url": "https://huggingface.co/owensong/Inflect-Nano-v1",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64812be1856901b0edbcf7ae/KgdBUK01E9utwgcEr18PA.png",
+            "name": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+            "url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65ea44635b64331c067d3751/yCim-7c3tm67o5wWP_6cE.jpeg",
             "rank": 5,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 141,
-              "downloads": 0,
-              "likes": 146
+              "trendingScore": 286,
+              "downloads": 2891524,
+              "likes": 2004
             }
           },
           {
-            "name": "CohereLabs/North-Mini-Code-1.0",
-            "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678549441248-5e70f6048ce3c604d78fe133.png",
+            "name": "meta-models/Muse-Glimmer-30B-GGUF",
+            "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c115d1f661ace7c4022432/EbzfQisFJBEcKWDWLyV5O.png",
             "rank": 6,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 106,
-              "downloads": 19551,
-              "likes": 470
+              "trendingScore": 255,
+              "downloads": 228364,
+              "likes": 261
             }
           },
           {
-            "name": "Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-            "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/66309bd090589b7c65950665/RcOk7ysh7nEt5YlHHzauj.jpeg",
+            "name": "SexGod1979/PinkCherry_MiniMax-H3",
+            "url": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a3c3f54e0f68a82080f49bc/wQhSMrtstIq6PDXOx5Vi6.jpeg",
             "rank": 7,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 101,
-              "downloads": 190993,
-              "likes": 271
+              "trendingScore": 185,
+              "downloads": 473,
+              "likes": 306
             }
           },
           {
-            "name": "nex-agi/Nex-N2-Pro",
-            "url": "https://huggingface.co/nex-agi/Nex-N2-Pro",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65435cad429b80b14922ab8d/a_O9jT_daz_NXTfxtcw6S.png",
+            "name": "endless-frontier/BigBang-v1",
+            "url": "https://huggingface.co/endless-frontier/BigBang-v1",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65efa7d32b869bab1fc7f2e0/nXt6uhAeXsp9UWWHnrNwe.png",
             "rank": 8,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 95,
-              "downloads": 7872,
-              "likes": 340
+              "trendingScore": 160,
+              "downloads": 13833,
+              "likes": 192
             }
           },
           {
-            "name": "bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF",
-            "url": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/693b4c5cc0186aca303d19b0/iCviQUJCnvN-vbf9d6YyC.png",
+            "name": "drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+            "url": "https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63473b59e5c0717e6737b872/e0rwJa886MD1hmdeFr9Wh.jpeg",
             "rank": 9,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 94,
-              "downloads": 36421,
-              "likes": 100
+              "trendingScore": 150,
+              "downloads": 112975,
+              "likes": 317
             }
           },
           {
-            "name": "google/gemma-4-12B-it",
-            "url": "https://huggingface.co/google/gemma-4-12B-it",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png",
+            "name": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+            "url": "https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+            "icon_url": "https://huggingface.co/avatars/a9338be7e3af14ed779c53e7c89be5a7.svg",
             "rank": 10,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 86,
-              "downloads": 1815370,
-              "likes": 1114
+              "trendingScore": 115,
+              "downloads": 0,
+              "likes": 487
             }
           }
         ],
@@ -336,7 +336,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 14370
+              "stars": 14487
             }
           },
           {
@@ -346,7 +346,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 10403
+              "stars": 10521
             }
           },
           {
@@ -356,7 +356,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 3407
+              "stars": 3412
             }
           },
           {
@@ -376,7 +376,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 2736
+              "stars": 2746
             }
           },
           {
@@ -396,7 +396,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 1887
+              "stars": 1893
             }
           },
           {
@@ -406,7 +406,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 1609
+              "stars": 1638
             }
           },
           {
@@ -416,17 +416,17 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 1307
+              "stars": 1310
             }
           },
           {
-            "name": "convos-chat/convos",
-            "url": "https://github.com/convos-chat/convos",
-            "icon_url": "https://avatars.githubusercontent.com/u/79383066?v=4",
+            "name": "MrSuiChuan/data-warehouse-learning",
+            "url": "https://github.com/MrSuiChuan/data-warehouse-learning",
+            "icon_url": "https://avatars.githubusercontent.com/u/20665742?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 1184
+              "stars": 1209
             }
           }
         ],
@@ -439,7 +439,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 432,
+              "downloads": 69,
               "likes": 30
             }
           },
@@ -462,9 +462,9 @@
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0.1,
-              "downloads": 25236,
-              "likes": 19
+              "trendingScore": 0,
+              "downloads": 12485,
+              "likes": 25
             }
           },
           {
@@ -475,8 +475,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1773,
-              "likes": 12
+              "downloads": 2739,
+              "likes": 13
             }
           },
           {
@@ -487,7 +487,19 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 79972,
+              "downloads": 101859,
+              "likes": 9
+            }
+          },
+          {
+            "name": "WarmBloodAban/Anything_to_Real_Characters",
+            "url": "https://huggingface.co/WarmBloodAban/Anything_to_Real_Characters",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/n2bexa-LzvGqmxyOGaonu.png",
+            "rank": 6,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 804,
               "likes": 9
             }
           },
@@ -495,23 +507,11 @@
             "name": "fotografomedellin/PhotoVintageV1.5",
             "url": "https://huggingface.co/fotografomedellin/PhotoVintageV1.5",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1667114785167-noauth.jpeg",
-            "rank": 6,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 21,
-              "likes": 7
-            }
-          },
-          {
-            "name": "Orreo/QuickHand-lora",
-            "url": "https://huggingface.co/Orreo/QuickHand-lora",
-            "icon_url": "https://huggingface.co/avatars/3c1ab89a29e71acf7280076d62f5a41b.svg",
             "rank": 7,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 37,
               "likes": 7
             }
           },
@@ -523,20 +523,20 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 6,
+              "downloads": 9,
               "likes": 7
             }
           },
           {
-            "name": "WarmBloodAban/Anything_to_Real_Characters",
-            "url": "https://huggingface.co/WarmBloodAban/Anything_to_Real_Characters",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/n2bexa-LzvGqmxyOGaonu.png",
+            "name": "Orreo/QuickHand-lora",
+            "url": "https://huggingface.co/Orreo/QuickHand-lora",
+            "icon_url": "https://huggingface.co/avatars/3c1ab89a29e71acf7280076d62f5a41b.svg",
             "rank": 9,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 814,
-              "likes": 6
+              "downloads": 0,
+              "likes": 7
             }
           },
           {
@@ -547,7 +547,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 8,
+              "downloads": 10,
               "likes": 6
             }
           }
@@ -572,7 +572,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 20455
+              "stars": 21426
             }
           },
           {
@@ -582,7 +582,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 14404
+              "stars": 14433
             }
           },
           {
@@ -592,7 +592,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 8865
+              "stars": 9036
             }
           },
           {
@@ -602,7 +602,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 8490
+              "stars": 8550
             }
           },
           {
@@ -612,7 +612,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 6008
+              "stars": 6033
             }
           },
           {
@@ -622,7 +622,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 4802
+              "stars": 4819
             }
           },
           {
@@ -632,7 +632,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 4292
+              "stars": 4407
             }
           },
           {
@@ -642,7 +642,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 3285
+              "stars": 3300
             }
           },
           {
@@ -652,7 +652,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 2860
+              "stars": 2885
             }
           },
           {
@@ -662,7 +662,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 2854
+              "stars": 2863
             }
           }
         ],
@@ -680,26 +680,26 @@
             }
           },
           {
-            "name": "kvn420/Tenro_V4.1",
-            "url": "https://huggingface.co/kvn420/Tenro_V4.1",
-            "icon_url": "https://huggingface.co/avatars/7eeb3c2d8f4dce99f5b14508cf683fda.svg",
+            "name": "KenanKoiushov/Ken1.0-67B",
+            "url": "https://huggingface.co/KenanKoiushov/Ken1.0-67B",
+            "icon_url": "https://huggingface.co/avatars/fafde985a59fd7e72761214fb7ec77c4.svg",
             "rank": 2,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 8,
               "likes": 6
             }
           },
           {
-            "name": "KenanKoiushov/Ken1.0-67B",
-            "url": "https://huggingface.co/KenanKoiushov/Ken1.0-67B",
-            "icon_url": "https://huggingface.co/avatars/fafde985a59fd7e72761214fb7ec77c4.svg",
+            "name": "kvn420/Tenro_V4.1",
+            "url": "https://huggingface.co/kvn420/Tenro_V4.1",
+            "icon_url": "https://huggingface.co/avatars/7eeb3c2d8f4dce99f5b14508cf683fda.svg",
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 5,
+              "downloads": 0,
               "likes": 6
             }
           },
@@ -711,7 +711,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 32,
+              "downloads": 9,
               "likes": 2
             }
           },
@@ -747,9 +747,9 @@
             "rank": 1,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 26710,
-              "likes": 1612
+              "trendingScore": 0,
+              "downloads": 32059,
+              "likes": 1618
             }
           },
           {
@@ -759,9 +759,9 @@
             "rank": 2,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0,
-              "downloads": 3848367,
-              "likes": 212
+              "trendingScore": 1,
+              "downloads": 2260336,
+              "likes": 215
             }
           },
           {
@@ -771,9 +771,9 @@
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 206755,
-              "likes": 121
+              "trendingScore": 3,
+              "downloads": 231686,
+              "likes": 153
             }
           },
           {
@@ -783,9 +783,9 @@
             "rank": 4,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 168,
-              "likes": 84
+              "trendingScore": 0,
+              "downloads": 3544,
+              "likes": 86
             }
           },
           {
@@ -796,7 +796,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1710,
+              "downloads": 1509,
               "likes": 66
             }
           },
@@ -808,7 +808,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 198,
+              "downloads": 40,
               "likes": 37
             }
           },
@@ -820,8 +820,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 6957,
-              "likes": 29
+              "downloads": 1538,
+              "likes": 30
             }
           },
           {
@@ -832,8 +832,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1154,
-              "likes": 18
+              "downloads": 1476,
+              "likes": 19
             }
           },
           {
@@ -844,7 +844,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 28,
+              "downloads": 50,
               "likes": 16
             }
           },
@@ -882,7 +882,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 5,
+              "downloads": 6,
               "likes": 6
             }
           },
@@ -894,7 +894,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 4,
+              "downloads": 5,
               "likes": 1
             }
           },
@@ -1023,7 +1023,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 390589
+              "stars": 394421
             }
           },
           {
@@ -1033,7 +1033,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 128162
+              "stars": 128711
             }
           },
           {
@@ -1043,7 +1043,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 99878
+              "stars": 100256
             }
           },
           {
@@ -1053,7 +1053,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 59106
+              "stars": 60427
             }
           },
           {
@@ -1063,7 +1063,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 36423
+              "stars": 36446
             }
           },
           {
@@ -1073,7 +1073,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 28537
+              "stars": 28559
             }
           },
           {
@@ -1083,7 +1083,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 26500
+              "stars": 27299
             }
           },
           {
@@ -1093,27 +1093,27 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 24928
-            }
-          },
-          {
-            "name": "github/copilot-docs",
-            "url": "https://github.com/github/copilot-docs",
-            "icon_url": "https://avatars.githubusercontent.com/u/9919?v=4",
-            "rank": 9,
-            "rank_basis": null,
-            "metric": {
-              "stars": 23228
+              "stars": 25257
             }
           },
           {
             "name": "Vonng/ddia",
             "url": "https://github.com/Vonng/ddia",
             "icon_url": "https://avatars.githubusercontent.com/u/8587410?v=4",
+            "rank": 9,
+            "rank_basis": null,
+            "metric": {
+              "stars": 23348
+            }
+          },
+          {
+            "name": "github/copilot-docs",
+            "url": "https://github.com/github/copilot-docs",
+            "icon_url": "https://avatars.githubusercontent.com/u/9919?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 23159
+              "stars": 23213
             }
           }
         ],
@@ -1125,117 +1125,117 @@
             "rank": 1,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 25,
-              "downloads": 3186035,
-              "likes": 589
-            }
-          },
-          {
-            "name": "google/magenta-realtime-2",
-            "url": "https://huggingface.co/google/magenta-realtime-2",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/WtA3YYitedOr9n02eHfJe.png",
-            "rank": 2,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 21,
-              "downloads": 32297,
-              "likes": 211
+              "trendingScore": 30,
+              "downloads": 5463773,
+              "likes": 1014
             }
           },
           {
             "name": "nvidia/parakeet-tdt-0.6b-v3",
             "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
-            "rank": 3,
+            "rank": 2,
             "rank_basis": "trendingScore",
             "metric": {
               "trendingScore": 17,
-              "downloads": 156193,
-              "likes": 937
+              "downloads": 494112,
+              "likes": 1050
             }
           },
           {
             "name": "kyutai/pocket-tts",
             "url": "https://huggingface.co/kyutai/pocket-tts",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg",
+            "rank": 3,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 17,
+              "downloads": 1250,
+              "likes": 804
+            }
+          },
+          {
+            "name": "kyutai/mimi",
+            "url": "https://huggingface.co/kyutai/mimi",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg",
             "rank": 4,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 11,
-              "downloads": 1048,
-              "likes": 677
-            }
-          },
-          {
-            "name": "LOGOS-Hub/LOGOS-pretrain-8B",
-            "url": "https://huggingface.co/LOGOS-Hub/LOGOS-pretrain-8B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6548b25d36332b0eede05f45/_nIKRrqEHA64WYniR13bz.png",
-            "rank": 5,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 7,
-              "downloads": 47,
-              "likes": 7
-            }
-          },
-          {
-            "name": "mohammed/fastconformer-quran-ar",
-            "url": "https://huggingface.co/mohammed/fastconformer-quran-ar",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/605e2abaac127d66b35d35d6/Elw_IIlb4TihIYbZnd2Ts.jpeg",
-            "rank": 6,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 6,
-              "downloads": 433,
-              "likes": 13
-            }
-          },
-          {
-            "name": "LOGOS-Hub/LOGOS-8B",
-            "url": "https://huggingface.co/LOGOS-Hub/LOGOS-8B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6548b25d36332b0eede05f45/_nIKRrqEHA64WYniR13bz.png",
-            "rank": 7,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 6,
-              "downloads": 70,
-              "likes": 6
+              "trendingScore": 3,
+              "downloads": 858406,
+              "likes": 321
             }
           },
           {
             "name": "nvidia/parakeet-tdt-0.6b-v2",
             "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
-            "rank": 8,
+            "rank": 5,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 5,
-              "downloads": 421026,
-              "likes": 1500
+              "trendingScore": 3,
+              "downloads": 578941,
+              "likes": 1534
             }
           },
           {
-            "name": "nvidia/canary-1b-v2",
-            "url": "https://huggingface.co/nvidia/canary-1b-v2",
+            "name": "nationaldesignstudio/rampart",
+            "url": "https://huggingface.co/nationaldesignstudio/rampart",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a34544f35e2c0db5a1d2752/X2F0weEnG1sUAF6bSJtkP.png",
+            "rank": 6,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 3,
+              "downloads": 6119,
+              "likes": 161
+            }
+          },
+          {
+            "name": "pyannote/wespeaker-voxceleb-resnet34-LM",
+            "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/5fcf602140b27fad857dfa8d/-afjRExJpYCCl5TCtFA68.png",
+            "rank": 7,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 2,
+              "downloads": 6993718,
+              "likes": 161
+            }
+          },
+          {
+            "name": "nvidia/parakeet-ctc-1.1b",
+            "url": "https://huggingface.co/nvidia/parakeet-ctc-1.1b",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+            "rank": 8,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 2,
+              "downloads": 1861718,
+              "likes": 58
+            }
+          },
+          {
+            "name": "nvidia/canary-qwen-2.5b",
+            "url": "https://huggingface.co/nvidia/canary-qwen-2.5b",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
             "rank": 9,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 5,
-              "downloads": 103025,
-              "likes": 397
+              "trendingScore": 2,
+              "downloads": 35073,
+              "likes": 453
             }
           },
           {
-            "name": "mudler/parakeet-cpp-gguf",
-            "url": "https://huggingface.co/mudler/parakeet-cpp-gguf",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/647374aa7ff32a81ac6d35d4/0hJQA4oh8YiVKhZQ-uXP6.jpeg",
+            "name": "Kaikaku/epicure-core",
+            "url": "https://huggingface.co/Kaikaku/epicure-core",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64442f46af034cdfd69d5bc4/SRJTr1BaXthGq1fKLBPm3.png",
             "rank": 10,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 5,
-              "downloads": 16113,
-              "likes": 46
+              "trendingScore": 2,
+              "downloads": 20449,
+              "likes": 34
             }
           }
         ],
@@ -1314,44 +1314,44 @@
       "spdx_id": "CC-BY-ND-4.0",
       "type": "data",
       "source_counts": {
-        "huggingface": 5,
+        "huggingface": 10,
         "kaggle": 5
       },
       "sources": {
         "huggingface": [
           {
-            "name": "Mawdistical/Predatorial-Extasy-70B",
-            "url": "https://huggingface.co/Mawdistical/Predatorial-Extasy-70B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c10cfba43d7939d60160ff/HGOCYZ1LwrzNitiOD3xdh.png",
+            "name": "PulpBio/TinyMyo",
+            "url": "https://huggingface.co/PulpBio/TinyMyo",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63749b5533bb19fd1cc0f571/tq-L9xcGBfeM5blwss84S.png",
             "rank": 1,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 17,
-              "likes": 7
-            }
-          },
-          {
-            "name": "PulpBio/TinyMyo",
-            "url": "https://huggingface.co/PulpBio/TinyMyo",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63749b5533bb19fd1cc0f571/tq-L9xcGBfeM5blwss84S.png",
-            "rank": 2,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 17,
-              "likes": 7
+              "downloads": 36,
+              "likes": 8
             }
           },
           {
             "name": "PulpBio/LUNA",
             "url": "https://huggingface.co/PulpBio/LUNA",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63749b5533bb19fd1cc0f571/tq-L9xcGBfeM5blwss84S.png",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 6765,
+              "likes": 6
+            }
+          },
+          {
+            "name": "Mawdistical/Squelching-Fantasies-8B-GGUF",
+            "url": "https://huggingface.co/Mawdistical/Squelching-Fantasies-8B-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c10cfba43d7939d60160ff/HGOCYZ1LwrzNitiOD3xdh.png",
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 11343,
+              "downloads": 387,
               "likes": 6
             }
           },
@@ -1363,20 +1363,80 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 11,
+              "downloads": 31,
               "likes": 6
             }
           },
           {
-            "name": "Mawdistical/Squelching-Fantasies-8B-GGUF",
-            "url": "https://huggingface.co/Mawdistical/Squelching-Fantasies-8B-GGUF",
+            "name": "Mawdistical/Predatorial-Extasy-70B",
+            "url": "https://huggingface.co/Mawdistical/Predatorial-Extasy-70B",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c10cfba43d7939d60160ff/HGOCYZ1LwrzNitiOD3xdh.png",
             "rank": 5,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 347,
+              "downloads": 10,
+              "likes": 6
+            }
+          },
+          {
+            "name": "Mawdistical/Squelching-Fantasies-glm-32B",
+            "url": "https://huggingface.co/Mawdistical/Squelching-Fantasies-glm-32B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c10cfba43d7939d60160ff/HGOCYZ1LwrzNitiOD3xdh.png",
+            "rank": 6,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 72,
               "likes": 5
+            }
+          },
+          {
+            "name": "TheBurgstall/ZipVoice-Suomi-12k",
+            "url": "https://huggingface.co/TheBurgstall/ZipVoice-Suomi-12k",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67fea62b6e19f88d907bec20/zv8UoAHzi9SHSxAlXH4Nf.jpeg",
+            "rank": 7,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 0,
+              "likes": 5
+            }
+          },
+          {
+            "name": "Mawdistical/Predatorial-Extasy-70B-GGUF",
+            "url": "https://huggingface.co/Mawdistical/Predatorial-Extasy-70B-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c10cfba43d7939d60160ff/HGOCYZ1LwrzNitiOD3xdh.png",
+            "rank": 8,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 16,
+              "likes": 4
+            }
+          },
+          {
+            "name": "TroyDoesAI/BlackSheep-Qwen-14B",
+            "url": "https://huggingface.co/TroyDoesAI/BlackSheep-Qwen-14B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/vmgOmPub0s216gaFgWlCN.png",
+            "rank": 9,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 8,
+              "likes": 4
+            }
+          },
+          {
+            "name": "mradermacher/Squelching-Fantasies-8B-i1-GGUF",
+            "url": "https://huggingface.co/mradermacher/Squelching-Fantasies-8B-i1-GGUF",
+            "icon_url": "https://huggingface.co/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg",
+            "rank": 10,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 113,
+              "likes": 3
             }
           }
         ],
@@ -1461,123 +1521,123 @@
       "sources": {
         "huggingface": [
           {
-            "name": "HKUSTAudio/AudioX-Turbo",
-            "url": "https://huggingface.co/HKUSTAudio/AudioX-Turbo",
-            "icon_url": "https://www.gravatar.com/avatar/1337f563cc1d77d43225f022c8ed5b66?d=retro&size=100",
+            "name": "Audio8/Audio8-ASR-0.1B",
+            "url": "https://huggingface.co/Audio8/Audio8-ASR-0.1B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64361bcaf81a16e74367d2e2/JQ6EmWRYtNLKFKr1MchAV.jpeg",
             "rank": 1,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 22,
-              "downloads": 0,
-              "likes": 29
+              "trendingScore": 26,
+              "downloads": 1570,
+              "likes": 74
+            }
+          },
+          {
+            "name": "MuScriptor/muscriptor-large",
+            "url": "https://huggingface.co/MuScriptor/muscriptor-large",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a33b0dc00aea304937c1bda/VXD8ovI2DvhLtepog5opr.png",
+            "rank": 2,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 8,
+              "downloads": 3636,
+              "likes": 139
             }
           },
           {
             "name": "facebook/tribev2",
             "url": "https://huggingface.co/facebook/tribev2",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1592839207516-noauth.png",
-            "rank": 2,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 11,
-              "downloads": 86189,
-              "likes": 601
-            }
-          },
-          {
-            "name": "facebook/VGGT-Omega",
-            "url": "https://huggingface.co/facebook/VGGT-Omega",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1592839207516-noauth.png",
             "rank": 3,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 10,
-              "downloads": 0,
-              "likes": 161
+              "trendingScore": 7,
+              "downloads": 62539,
+              "likes": 678
             }
           },
           {
-            "name": "jinaai/jina-embeddings-v5-omni-small",
-            "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/603763514de52ff951d89793/wD54VbAHHyHop3uYlJKl4.png",
+            "name": "KRAFTON/A.X-K2-Raon-Speech-21B-A3B",
+            "url": "https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6135bc9fa35cb05987acc322/lo1F9RqWgGUSz9n_3CItO.png",
             "rank": 4,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 9,
-              "downloads": 197859,
-              "likes": 86
+              "trendingScore": 7,
+              "downloads": 6660,
+              "likes": 98
             }
           },
           {
-            "name": "mistralai/Voxtral-4B-TTS-2603",
-            "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/634c17653d11eaedd88b314d/9OgyfKstSZtbmsmuG8MbU.png",
+            "name": "MuScriptor/muscriptor-medium",
+            "url": "https://huggingface.co/MuScriptor/muscriptor-medium",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6a33b0dc00aea304937c1bda/VXD8ovI2DvhLtepog5opr.png",
             "rank": 5,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 8,
-              "downloads": 75229,
-              "likes": 858
-            }
-          },
-          {
-            "name": "jinaai/jina-embeddings-v5-text-small",
-            "url": "https://huggingface.co/jinaai/jina-embeddings-v5-text-small",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/603763514de52ff951d89793/wD54VbAHHyHop3uYlJKl4.png",
-            "rank": 6,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 6,
-              "downloads": 394229,
-              "likes": 179
-            }
-          },
-          {
-            "name": "facebook/nllb-200-3.3B",
-            "url": "https://huggingface.co/facebook/nllb-200-3.3B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1592839207516-noauth.png",
-            "rank": 7,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 6,
-              "downloads": 76947,
-              "likes": 463
-            }
-          },
-          {
-            "name": "kyutai/moshika-rl-seamless",
-            "url": "https://huggingface.co/kyutai/moshika-rl-seamless",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg",
-            "rank": 8,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 6,
-              "downloads": 80,
-              "likes": 22
+              "trendingScore": 7,
+              "downloads": 3358,
+              "likes": 71
             }
           },
           {
             "name": "facebook/seamless-m4t-v2-large",
             "url": "https://huggingface.co/facebook/seamless-m4t-v2-large",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1592839207516-noauth.png",
-            "rank": 9,
+            "rank": 6,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 4,
-              "downloads": 460386,
-              "likes": 990
+              "trendingScore": 6,
+              "downloads": 332909,
+              "likes": 1007
             }
           },
           {
-            "name": "Sao10K/L3-8B-Stheno-v3.2",
-            "url": "https://huggingface.co/Sao10K/L3-8B-Stheno-v3.2",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64be6a5376a6e2efccc638c1/gvRRLHsicTCxpURJeQDv3.jpeg",
+            "name": "Misha24-10/F5-TTS_RUSSIAN",
+            "url": "https://huggingface.co/Misha24-10/F5-TTS_RUSSIAN",
+            "icon_url": "https://huggingface.co/avatars/b5514d9b51d3c19a4b37899b0c49a693.svg",
+            "rank": 7,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 5,
+              "downloads": 58946,
+              "likes": 217
+            }
+          },
+          {
+            "name": "SpatialAxiom/SpatialAxiom-9B",
+            "url": "https://huggingface.co/SpatialAxiom/SpatialAxiom-9B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6721db9748c0977f7019e43b/X6fxBQnT1Ir5T27IqtBsn.png",
+            "rank": 8,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 5,
+              "downloads": 290,
+              "likes": 14
+            }
+          },
+          {
+            "name": "SpatialAxiom/SpatialAxiom-35B-A3B",
+            "url": "https://huggingface.co/SpatialAxiom/SpatialAxiom-35B-A3B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6721db9748c0977f7019e43b/X6fxBQnT1Ir5T27IqtBsn.png",
+            "rank": 9,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 5,
+              "downloads": 131,
+              "likes": 11
+            }
+          },
+          {
+            "name": "Audio8/Audio8-ASR-0.1B-onnx-runtime",
+            "url": "https://huggingface.co/Audio8/Audio8-ASR-0.1B-onnx-runtime",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64361bcaf81a16e74367d2e2/JQ6EmWRYtNLKFKr1MchAV.jpeg",
             "rank": 10,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 4,
-              "downloads": 18035,
-              "likes": 418
+              "trendingScore": 5,
+              "downloads": 107,
+              "likes": 12
             }
           }
         ],
@@ -1662,87 +1722,87 @@
       "sources": {
         "huggingface": [
           {
-            "name": "haoz19/object-model-6layer",
-            "url": "https://huggingface.co/haoz19/object-model-6layer",
-            "icon_url": "https://huggingface.co/avatars/2ed00ca40b7ff2b88e4a75ef04807447.svg",
-            "rank": 1,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 5,
-              "downloads": 0,
-              "likes": 12
-            }
-          },
-          {
-            "name": "haoz19/scene-model-6layer-840",
-            "url": "https://huggingface.co/haoz19/scene-model-6layer-840",
-            "icon_url": "https://huggingface.co/avatars/2ed00ca40b7ff2b88e4a75ef04807447.svg",
-            "rank": 2,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 4,
-              "downloads": 0,
-              "likes": 8
-            }
-          },
-          {
             "name": "MahmoodLab/UNI",
             "url": "https://huggingface.co/MahmoodLab/UNI",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
-            "rank": 3,
+            "rank": 1,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 3,
-              "downloads": 97308,
-              "likes": 319
-            }
-          },
-          {
-            "name": "Keltezaa/Flux2_Klein_9B_no_face_change",
-            "url": "https://huggingface.co/Keltezaa/Flux2_Klein_9B_no_face_change",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/66d45453cc638c79e6447240/CqV6FDv3Wv6ORUBuM02R6.png",
-            "rank": 4,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 648,
-              "likes": 4
-            }
-          },
-          {
-            "name": "iiiorg/piiranha-v1-detect-personal-information",
-            "url": "https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/667d048a8cdd946f225b5f47/6-mkdJisMxpvl9limLmXx.png",
-            "rank": 5,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 142264,
-              "likes": 245
-            }
-          },
-          {
-            "name": "MahmoodLab/TITAN",
-            "url": "https://huggingface.co/MahmoodLab/TITAN",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
-            "rank": 6,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 73659,
-              "likes": 91
+              "trendingScore": 6,
+              "downloads": 159152,
+              "likes": 345
             }
           },
           {
             "name": "MahmoodLab/CONCH",
             "url": "https://huggingface.co/MahmoodLab/CONCH",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
+            "rank": 2,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 3,
+              "downloads": 158287,
+              "likes": 192
+            }
+          },
+          {
+            "name": "MahmoodLab/KRONOS2",
+            "url": "https://huggingface.co/MahmoodLab/KRONOS2",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
+            "rank": 3,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 3,
+              "downloads": 936,
+              "likes": 19
+            }
+          },
+          {
+            "name": "MahmoodLab/UNI2-h",
+            "url": "https://huggingface.co/MahmoodLab/UNI2-h",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
+            "rank": 4,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 2,
+              "downloads": 143803,
+              "likes": 161
+            }
+          },
+          {
+            "name": "Xieji-Li/MAGEN-O-MAKE",
+            "url": "https://huggingface.co/Xieji-Li/MAGEN-O-MAKE",
+            "icon_url": "https://huggingface.co/avatars/636b172a942d5854c06ca95dd0370ad0.svg",
+            "rank": 5,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 2,
+              "downloads": 43,
+              "likes": 2
+            }
+          },
+          {
+            "name": "iiiorg/piiranha-v1-detect-personal-information",
+            "url": "https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/667d048a8cdd946f225b5f47/6-mkdJisMxpvl9limLmXx.png",
+            "rank": 6,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 1,
+              "downloads": 157158,
+              "likes": 247
+            }
+          },
+          {
+            "name": "MahmoodLab/TITAN",
+            "url": "https://huggingface.co/MahmoodLab/TITAN",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/618e1ee7cc2aa4637228d9a8/uQgQ0Pe1w3rRf0fpPRNRE.jpeg",
             "rank": 7,
             "rank_basis": "trendingScore",
             "metric": {
               "trendingScore": 1,
-              "downloads": 70665,
-              "likes": 177
+              "downloads": 117578,
+              "likes": 97
             }
           },
           {
@@ -1753,32 +1813,32 @@
             "rank_basis": "trendingScore",
             "metric": {
               "trendingScore": 1,
-              "downloads": 31629,
-              "likes": 52
-            }
-          },
-          {
-            "name": "WenchuanZhang/Patho-R1-7B",
-            "url": "https://huggingface.co/WenchuanZhang/Patho-R1-7B",
-            "icon_url": "https://huggingface.co/avatars/51c3f7461616573a5f69423ff833bb51.svg",
-            "rank": 9,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 4320,
-              "likes": 5
+              "downloads": 50857,
+              "likes": 58
             }
           },
           {
             "name": "bioptimus/H0-mini",
             "url": "https://huggingface.co/bioptimus/H0-mini",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/663509817602869e49441471/_B6RiIwMkV3jcANvkcL6K.jpeg",
+            "rank": 9,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 1,
+              "downloads": 11846,
+              "likes": 23
+            }
+          },
+          {
+            "name": "hynt/Zipformer-30M-RNNT-6000h",
+            "url": "https://huggingface.co/hynt/Zipformer-30M-RNNT-6000h",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/635f3635875f3e8c275ce010/-rz5SQ9LKrOH35Asf1q0P.jpeg",
             "rank": 10,
             "rank_basis": "trendingScore",
             "metric": {
               "trendingScore": 1,
-              "downloads": 4034,
-              "likes": 19
+              "downloads": 3586,
+              "likes": 56
             }
           }
         ],
@@ -1863,123 +1923,123 @@
       "sources": {
         "huggingface": [
           {
-            "name": "Kim2091/UltraSharpV2",
-            "url": "https://huggingface.co/Kim2091/UltraSharpV2",
-            "icon_url": "https://huggingface.co/avatars/c5dfe5b22b9166d51f899481cc714a47.svg",
-            "rank": 1,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 7,
-              "downloads": 0,
-              "likes": 167
-            }
-          },
-          {
-            "name": "fishaudio/s1-mini",
-            "url": "https://huggingface.co/fishaudio/s1-mini",
+            "name": "fishaudio/fish-speech-1.5",
+            "url": "https://huggingface.co/fishaudio/fish-speech-1.5",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63124e13b843665ddc69837a/OwWIs3RNzXAdv4aSrV_xQ.png",
-            "rank": 2,
-            "rank_basis": "trendingScore",
+            "rank": 1,
+            "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 3,
-              "downloads": 3212,
-              "likes": 659
+              "trendingScore": 1,
+              "downloads": 4006,
+              "likes": 768
             }
           },
           {
-            "name": "DS4AI-UPB/vanguard-xlmr-clip-film-exist2026",
-            "url": "https://huggingface.co/DS4AI-UPB/vanguard-xlmr-clip-film-exist2026",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/685ea00c85694b3e2d696746/A0ESacjyO8ICzDH9p-BU-.png",
-            "rank": 3,
-            "rank_basis": "trendingScore",
+            "name": "SparkAudio/Spark-TTS-0.5B",
+            "url": "https://huggingface.co/SparkAudio/Spark-TTS-0.5B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6564364649f816b798ac3b4e/d9DpWR0eVlrzPu1cvKgcY.jpeg",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 3,
-              "downloads": 54,
-              "likes": 3
+              "trendingScore": 1,
+              "downloads": 951,
+              "likes": 747
             }
           },
           {
             "name": "yisol/IDM-VTON",
             "url": "https://huggingface.co/yisol/IDM-VTON",
             "icon_url": "https://huggingface.co/avatars/2a1daf0fee29302c470cffa8e74a0fdb.svg",
+            "rank": 3,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 1,
+              "downloads": 9890,
+              "likes": 738
+            }
+          },
+          {
+            "name": "fishaudio/s1-mini",
+            "url": "https://huggingface.co/fishaudio/s1-mini",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63124e13b843665ddc69837a/OwWIs3RNzXAdv4aSrV_xQ.png",
             "rank": 4,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 2,
-              "downloads": 10087,
-              "likes": 724
-            }
-          },
-          {
-            "name": "OuteAI/Llama-OuteTTS-1.0-1B-GGUF",
-            "url": "https://huggingface.co/OuteAI/Llama-OuteTTS-1.0-1B-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/661faec40d6d77fb4baf494c/KC0m7aU6f7FEBuQjTH9UK.jpeg",
-            "rank": 5,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 3014,
-              "likes": 112
-            }
-          },
-          {
-            "name": "saheedniyi/YarnGPT-local",
-            "url": "https://huggingface.co/saheedniyi/YarnGPT-local",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ac785ed88220c9a53cec0a/J0gdmGKDlw6rDLLuwdJVl.jpeg",
-            "rank": 6,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 118,
-              "likes": 18
-            }
-          },
-          {
-            "name": "Nichonauta/Self-Forcing2.1-I2V-1.3B-GGUF",
-            "url": "https://huggingface.co/Nichonauta/Self-Forcing2.1-I2V-1.3B-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/66e2496b26ea157c05a64333/gsZ_ipvMrO6Y_CbuMxBE0.png",
-            "rank": 7,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 79,
-              "likes": 4
-            }
-          },
-          {
-            "name": "DS4AI-UPB/jokes-on-gemma4-31b",
-            "url": "https://huggingface.co/DS4AI-UPB/jokes-on-gemma4-31b",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/685ea00c85694b3e2d696746/A0ESacjyO8ICzDH9p-BU-.png",
-            "rank": 8,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 71,
-              "likes": 2
-            }
-          },
-          {
-            "name": "DS4AI-UPB/jokes-on-qwen2.5-7b",
-            "url": "https://huggingface.co/DS4AI-UPB/jokes-on-qwen2.5-7b",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/685ea00c85694b3e2d696746/A0ESacjyO8ICzDH9p-BU-.png",
-            "rank": 9,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 2,
-              "downloads": 63,
-              "likes": 2
+              "trendingScore": 1,
+              "downloads": 2508,
+              "likes": 684
             }
           },
           {
             "name": "microsoft/layoutlmv3-base",
             "url": "https://huggingface.co/microsoft/layoutlmv3-base",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
-            "rank": 10,
-            "rank_basis": "trendingScore",
+            "rank": 5,
+            "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 1513859,
-              "likes": 500
+              "trendingScore": 2,
+              "downloads": 1183882,
+              "likes": 508
+            }
+          },
+          {
+            "name": "xiaolxl/GuoFeng3",
+            "url": "https://huggingface.co/xiaolxl/GuoFeng3",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1674454747234-63493aae667da7e67380fa78.png",
+            "rank": 6,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 7005,
+              "likes": 483
+            }
+          },
+          {
+            "name": "fishaudio/fish-speech-1.4",
+            "url": "https://huggingface.co/fishaudio/fish-speech-1.4",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63124e13b843665ddc69837a/OwWIs3RNzXAdv4aSrV_xQ.png",
+            "rank": 7,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 456,
+              "likes": 460
+            }
+          },
+          {
+            "name": "CarperAI/stable-vicuna-13b-delta",
+            "url": "https://huggingface.co/CarperAI/stable-vicuna-13b-delta",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662485883367-60d35a0307da9c17c7270909.png",
+            "rank": 8,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 79,
+              "likes": 454
+            }
+          },
+          {
+            "name": "stabilityai/stablelm-tuned-alpha-7b",
+            "url": "https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/643feeb67bc3fbde1385cc25/7vmYr2XwVcPtkLzac_jxQ.png",
+            "rank": 9,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 800,
+              "likes": 361
+            }
+          },
+          {
+            "name": "bdsqlsz/qinglong_controlnet-lllite",
+            "url": "https://huggingface.co/bdsqlsz/qinglong_controlnet-lllite",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676622044889-63ef38c81e695b35aa489104.jpeg",
+            "rank": 10,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 6833,
+              "likes": 355
             }
           }
         ],
@@ -2071,7 +2131,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 292,
+              "downloads": 132,
               "likes": 81
             }
           },
@@ -2107,7 +2167,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 271,
+              "downloads": 131,
               "likes": 41
             }
           },
@@ -2119,7 +2179,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 528,
+              "downloads": 77,
               "likes": 35
             }
           },
@@ -2131,7 +2191,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 10,
+              "downloads": 25,
               "likes": 31
             }
           },
@@ -2143,7 +2203,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 88,
+              "downloads": 48,
               "likes": 30
             }
           },
@@ -2155,7 +2215,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 524,
+              "downloads": 51,
               "likes": 28
             }
           },
@@ -2167,7 +2227,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 184,
+              "downloads": 312,
               "likes": 26
             }
           },
@@ -2179,8 +2239,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 751,
-              "likes": 18
+              "downloads": 1403,
+              "likes": 19
             }
           }
         ],
@@ -2272,7 +2332,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 353375
+              "stars": 358756
             }
           },
           {
@@ -2282,7 +2342,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 105351
+              "stars": 105520
             }
           },
           {
@@ -2292,67 +2352,67 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 78992
+              "stars": 79051
+            }
+          },
+          {
+            "name": "akullpp/awesome-java",
+            "url": "https://github.com/akullpp/awesome-java",
+            "icon_url": "https://avatars.githubusercontent.com/u/4538351?v=4",
+            "rank": 4,
+            "rank_basis": null,
+            "metric": {
+              "stars": 48741
             }
           },
           {
             "name": "k88hudson/git-flight-rules",
             "url": "https://github.com/k88hudson/git-flight-rules",
             "icon_url": "https://avatars.githubusercontent.com/u/1455535?v=4",
-            "rank": 4,
+            "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 42471
+              "stars": 42594
             }
           },
           {
             "name": "PKUanonym/REKCARC-TSC-UHT",
             "url": "https://github.com/PKUanonym/REKCARC-TSC-UHT",
             "icon_url": "https://avatars.githubusercontent.com/u/49298122?v=4",
-            "rank": 5,
+            "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 37193
+              "stars": 37415
             }
           },
           {
             "name": "doocs/leetcode",
             "url": "https://github.com/doocs/leetcode",
             "icon_url": "https://avatars.githubusercontent.com/u/43716716?v=4",
-            "rank": 6,
+            "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 36181
+              "stars": 36456
             }
           },
           {
             "name": "OWASP/CheatSheetSeries",
             "url": "https://github.com/OWASP/CheatSheetSeries",
             "icon_url": "https://avatars.githubusercontent.com/u/155815?v=4",
-            "rank": 7,
+            "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 32359
+              "stars": 32891
             }
           },
           {
             "name": "The-Run-Philosophy-Organization/run",
             "url": "https://github.com/The-Run-Philosophy-Organization/run",
             "icon_url": "https://avatars.githubusercontent.com/u/103482135?v=4",
-            "rank": 8,
-            "rank_basis": null,
-            "metric": {
-              "stars": 32051
-            }
-          },
-          {
-            "name": "ZuzooVn/machine-learning-for-software-engineers",
-            "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
-            "icon_url": "https://avatars.githubusercontent.com/u/1429230?v=4",
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 28795
+              "stars": 32089
             }
           },
           {
@@ -2362,7 +2422,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 27824
+              "stars": 30276
             }
           }
         ],
@@ -2375,8 +2435,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 688,
-              "likes": 741
+              "downloads": 130,
+              "likes": 744
             }
           },
           {
@@ -2387,8 +2447,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 25487,
-              "likes": 436
+              "downloads": 22405,
+              "likes": 440
             }
           },
           {
@@ -2399,8 +2459,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 94478,
-              "likes": 312
+              "downloads": 70100,
+              "likes": 315
             }
           },
           {
@@ -2411,8 +2471,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 1,
-              "downloads": 92849,
-              "likes": 312
+              "downloads": 62244,
+              "likes": 315
             }
           },
           {
@@ -2423,8 +2483,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 753,
-              "likes": 276
+              "downloads": 1090,
+              "likes": 275
             }
           },
           {
@@ -2435,7 +2495,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 38,
+              "downloads": 51,
               "likes": 232
             }
           },
@@ -2459,7 +2519,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 992,
+              "downloads": 375,
               "likes": 205
             }
           },
@@ -2470,9 +2530,9 @@
             "rank": 9,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 462,
-              "likes": 183
+              "trendingScore": 0,
+              "downloads": 130,
+              "likes": 184
             }
           },
           {
@@ -2483,8 +2543,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 501,
-              "likes": 145
+              "downloads": 66,
+              "likes": 146
             }
           }
         ],
@@ -2576,7 +2636,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 477613
+              "stars": 495885
             }
           },
           {
@@ -2586,7 +2646,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 174526
+              "stars": 175282
             }
           },
           {
@@ -2596,7 +2656,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 114786
+              "stars": 118366
             }
           },
           {
@@ -2606,7 +2666,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 106082
+              "stars": 111069
             }
           },
           {
@@ -2616,57 +2676,57 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 66019
+              "stars": 66525
+            }
+          },
+          {
+            "name": "asgeirtj/system_prompts_leaks",
+            "url": "https://github.com/asgeirtj/system_prompts_leaks",
+            "icon_url": "https://avatars.githubusercontent.com/u/27446620?v=4",
+            "rank": 6,
+            "rank_basis": null,
+            "metric": {
+              "stars": 62938
             }
           },
           {
             "name": "rust-unofficial/awesome-rust",
             "url": "https://github.com/rust-unofficial/awesome-rust",
             "icon_url": "https://avatars.githubusercontent.com/u/20820960?v=4",
-            "rank": 6,
+            "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 57964
+              "stars": 58839
             }
           },
           {
             "name": "dkhamsing/open-source-ios-apps",
             "url": "https://github.com/dkhamsing/open-source-ios-apps",
             "icon_url": "https://avatars.githubusercontent.com/u/4723115?v=4",
-            "rank": 7,
+            "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 50806
+              "stars": 51670
             }
           },
           {
             "name": "serhii-londar/open-source-mac-os-apps",
             "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
             "icon_url": "https://avatars.githubusercontent.com/u/15808174?v=4",
-            "rank": 8,
+            "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 49235
+              "stars": 50026
             }
           },
           {
             "name": "brillout/awesome-react-components",
             "url": "https://github.com/brillout/awesome-react-components",
             "icon_url": "https://avatars.githubusercontent.com/u/1005638?v=4",
-            "rank": 9,
-            "rank_basis": null,
-            "metric": {
-              "stars": 47816
-            }
-          },
-          {
-            "name": "docker/awesome-compose",
-            "url": "https://github.com/docker/awesome-compose",
-            "icon_url": "https://avatars.githubusercontent.com/u/5429470?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 45587
+              "stars": 48194
             }
           }
         ],
@@ -2691,7 +2751,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 104,
+              "downloads": 107,
               "likes": 213
             }
           },
@@ -2704,7 +2764,7 @@
             "metric": {
               "trendingScore": 0,
               "downloads": 0,
-              "likes": 191
+              "likes": 190
             }
           },
           {
@@ -2716,7 +2776,7 @@
             "metric": {
               "trendingScore": 1,
               "downloads": 0,
-              "likes": 161
+              "likes": 170
             }
           },
           {
@@ -2756,27 +2816,27 @@
             }
           },
           {
-            "name": "deadman44/SD_Anime_Merged_Models",
-            "url": "https://huggingface.co/deadman44/SD_Anime_Merged_Models",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673527605929-634e039dd00bb5d92c3e62a9.png",
+            "name": "Pclanglais/Mickey-1928",
+            "url": "https://huggingface.co/Pclanglais/Mickey-1928",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ce091a9e9ca8123d7a42b0/OEPggp82RwigxNLL35LgT.jpeg",
             "rank": 8,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 125,
               "likes": 106
             }
           },
           {
-            "name": "Pclanglais/Mickey-1928",
-            "url": "https://huggingface.co/Pclanglais/Mickey-1928",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64ce091a9e9ca8123d7a42b0/OEPggp82RwigxNLL35LgT.jpeg",
+            "name": "deadman44/SD_Anime_Merged_Models",
+            "url": "https://huggingface.co/deadman44/SD_Anime_Merged_Models",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673527605929-634e039dd00bb5d92c3e62a9.png",
             "rank": 9,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 52,
-              "likes": 106
+              "downloads": 0,
+              "likes": 105
             }
           },
           {
@@ -2787,8 +2847,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 25,
-              "likes": 82
+              "downloads": 72,
+              "likes": 84
             }
           }
         ],
@@ -2879,7 +2939,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 37628
+              "stars": 37691
             }
           },
           {
@@ -2889,7 +2949,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 36998
+              "stars": 37055
             }
           },
           {
@@ -2899,7 +2959,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 32576
+              "stars": 32650
             }
           },
           {
@@ -2909,7 +2969,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 20827
+              "stars": 20921
             }
           },
           {
@@ -2919,7 +2979,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 20075
+              "stars": 20089
             }
           },
           {
@@ -2929,7 +2989,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 18338
+              "stars": 18351
             }
           },
           {
@@ -2939,7 +2999,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 17019
+              "stars": 17041
             }
           },
           {
@@ -2949,7 +3009,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 12880
+              "stars": 13181
             }
           },
           {
@@ -2959,7 +3019,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 12725
+              "stars": 12708
             }
           },
           {
@@ -2969,7 +3029,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 11223
+              "stars": 11219
             }
           }
         ],
@@ -2982,8 +3042,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1359,
-              "likes": 312
+              "downloads": 282,
+              "likes": 313
             }
           },
           {
@@ -2995,7 +3055,7 @@
             "metric": {
               "trendingScore": 0,
               "downloads": 0,
-              "likes": 265
+              "likes": 266
             }
           },
           {
@@ -3006,8 +3066,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 3611,
-              "likes": 194
+              "downloads": 2585,
+              "likes": 196
             }
           },
           {
@@ -3018,7 +3078,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 92,
+              "downloads": 30,
               "likes": 186
             }
           },
@@ -3030,7 +3090,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1299,
+              "downloads": 179,
               "likes": 137
             }
           },
@@ -3042,7 +3102,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 25149,
+              "downloads": 18495,
               "likes": 122
             }
           },
@@ -3066,7 +3126,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 90,
+              "downloads": 103,
               "likes": 108
             }
           },
@@ -3078,8 +3138,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 864,
-              "likes": 99
+              "downloads": 1819,
+              "likes": 101
             }
           },
           {
@@ -3125,7 +3185,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 8525
+              "stars": 8522
             }
           },
           {
@@ -3135,7 +3195,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 6035
+              "stars": 6037
             }
           },
           {
@@ -3145,7 +3205,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 5766
+              "stars": 5781
             }
           },
           {
@@ -3155,7 +3215,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 4543
+              "stars": 4586
             }
           },
           {
@@ -3165,7 +3225,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 4265
+              "stars": 4267
             }
           },
           {
@@ -3175,7 +3235,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 4116
+              "stars": 4111
             }
           },
           {
@@ -3185,7 +3245,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 3926
+              "stars": 4022
             }
           },
           {
@@ -3195,7 +3255,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 3725
+              "stars": 3720
             }
           },
           {
@@ -3205,7 +3265,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 3614
+              "stars": 3658
             }
           }
         ],
@@ -3291,7 +3351,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 26265
+              "stars": 27343
             }
           },
           {
@@ -3301,7 +3361,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 21568
+              "stars": 21633
             }
           },
           {
@@ -3311,7 +3371,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 7234
+              "stars": 7257
             }
           },
           {
@@ -3321,7 +3381,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 7151
+              "stars": 7155
             }
           },
           {
@@ -3331,7 +3391,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 7030
+              "stars": 7040
             }
           },
           {
@@ -3341,7 +3401,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 5912
+              "stars": 5939
             }
           },
           {
@@ -3351,37 +3411,37 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 4066
-            }
-          },
-          {
-            "name": "openhab/openhab1-addons",
-            "url": "https://github.com/openhab/openhab1-addons",
-            "icon_url": "https://avatars.githubusercontent.com/u/1007353?v=4",
-            "rank": 8,
-            "rank_basis": null,
-            "metric": {
-              "stars": 3402
-            }
-          },
-          {
-            "name": "lin-ycv/EverythingPowerToys",
-            "url": "https://github.com/lin-ycv/EverythingPowerToys",
-            "icon_url": "https://avatars.githubusercontent.com/u/60565737?v=4",
-            "rank": 9,
-            "rank_basis": null,
-            "metric": {
-              "stars": 3343
+              "stars": 4130
             }
           },
           {
             "name": "hcengineering/huly-selfhost",
             "url": "https://github.com/hcengineering/huly-selfhost",
             "icon_url": "https://avatars.githubusercontent.com/u/87086734?v=4",
+            "rank": 8,
+            "rank_basis": null,
+            "metric": {
+              "stars": 3475
+            }
+          },
+          {
+            "name": "openhab/openhab1-addons",
+            "url": "https://github.com/openhab/openhab1-addons",
+            "icon_url": "https://avatars.githubusercontent.com/u/1007353?v=4",
+            "rank": 9,
+            "rank_basis": null,
+            "metric": {
+              "stars": 3398
+            }
+          },
+          {
+            "name": "lin-ycv/EverythingPowerToys",
+            "url": "https://github.com/lin-ycv/EverythingPowerToys",
+            "icon_url": "https://avatars.githubusercontent.com/u/60565737?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 3284
+              "stars": 3358
             }
           }
         ],
@@ -3394,7 +3454,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 259,
+              "downloads": 223,
               "likes": 1
             }
           },
@@ -3467,7 +3527,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 22362
+              "stars": 22936
             }
           },
           {
@@ -3477,7 +3537,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 18241
+              "stars": 18550
             }
           },
           {
@@ -3487,7 +3547,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 17192
+              "stars": 17336
             }
           },
           {
@@ -3497,7 +3557,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 6667
+              "stars": 6686
             }
           },
           {
@@ -3507,7 +3567,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 2902
+              "stars": 3107
             }
           },
           {
@@ -3517,7 +3577,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 2099
+              "stars": 2109
             }
           },
           {
@@ -3527,7 +3587,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 1800
+              "stars": 1801
             }
           },
           {
@@ -3537,7 +3597,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 1637
+              "stars": 1652
             }
           },
           {
@@ -3547,17 +3607,17 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 1582
+              "stars": 1590
             }
           },
           {
-            "name": "maralorn/nix-output-monitor",
-            "url": "https://github.com/maralorn/nix-output-monitor",
-            "icon_url": "https://avatars.githubusercontent.com/u/1651325?v=4",
+            "name": "gempy-project/gempy",
+            "url": "https://github.com/gempy-project/gempy",
+            "icon_url": "https://avatars.githubusercontent.com/u/71825173?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 1563
+              "stars": 1326
             }
           }
         ],
@@ -3575,27 +3635,27 @@
             }
           },
           {
+            "name": "EuropeanParliament/EUBERT",
+            "url": "https://huggingface.co/EuropeanParliament/EUBERT",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6377c9c344def3dd2a85abf6/Qh0P_sJNZeDuiyKh7QTCr.png",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 551,
+              "likes": 3
+            }
+          },
+          {
             "name": "NetherlandsForensicInstitute/ARM64BERT",
             "url": "https://huggingface.co/NetherlandsForensicInstitute/ARM64BERT",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a2b9f5918e480ced892f88/vuNM_DA8K87TE7jm9Uqo3.png",
-            "rank": 2,
+            "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
               "downloads": 7,
               "likes": 3
-            }
-          },
-          {
-            "name": "EuropeanParliament/EUBERT",
-            "url": "https://huggingface.co/EuropeanParliament/EUBERT",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6377c9c344def3dd2a85abf6/Qh0P_sJNZeDuiyKh7QTCr.png",
-            "rank": 3,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 293,
-              "likes": 2
             }
           },
           {
@@ -3606,7 +3666,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 164,
+              "downloads": 481,
               "likes": 2
             }
           },
@@ -3618,8 +3678,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 82,
-              "likes": 1
+              "downloads": 89,
+              "likes": 2
             }
           }
         ]
@@ -3644,37 +3704,37 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 73342
-            }
-          },
-          {
-            "name": "ngosang/trackerslist",
-            "url": "https://github.com/ngosang/trackerslist",
-            "icon_url": "https://avatars.githubusercontent.com/u/10577978?v=4",
-            "rank": 2,
-            "rank_basis": null,
-            "metric": {
-              "stars": 54231
-            }
-          },
-          {
-            "name": "WerWolv/ImHex",
-            "url": "https://github.com/WerWolv/ImHex",
-            "icon_url": "https://avatars.githubusercontent.com/u/10835354?v=4",
-            "rank": 3,
-            "rank_basis": null,
-            "metric": {
-              "stars": 53962
+              "stars": 75006
             }
           },
           {
             "name": "jellyfin/jellyfin",
             "url": "https://github.com/jellyfin/jellyfin",
             "icon_url": "https://avatars.githubusercontent.com/u/45698031?v=4",
+            "rank": 2,
+            "rank_basis": null,
+            "metric": {
+              "stars": 55789
+            }
+          },
+          {
+            "name": "ngosang/trackerslist",
+            "url": "https://github.com/ngosang/trackerslist",
+            "icon_url": "https://avatars.githubusercontent.com/u/10577978?v=4",
+            "rank": 3,
+            "rank_basis": null,
+            "metric": {
+              "stars": 54874
+            }
+          },
+          {
+            "name": "WerWolv/ImHex",
+            "url": "https://github.com/WerWolv/ImHex",
+            "icon_url": "https://avatars.githubusercontent.com/u/10835354?v=4",
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 53520
+              "stars": 54462
             }
           },
           {
@@ -3684,7 +3744,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 47296
+              "stars": 47652
             }
           },
           {
@@ -3694,7 +3754,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 44906
+              "stars": 45870
             }
           },
           {
@@ -3704,7 +3764,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 41516
+              "stars": 42928
             }
           },
           {
@@ -3714,7 +3774,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 41454
+              "stars": 42007
             }
           },
           {
@@ -3724,7 +3784,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 41259
+              "stars": 41717
             }
           },
           {
@@ -3734,7 +3794,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 41059
+              "stars": 41029
             }
           }
         ],
@@ -3819,7 +3879,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 6,
+              "downloads": 25,
               "likes": 5
             }
           },
@@ -3855,7 +3915,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 16,
+              "downloads": 101,
               "likes": 3
             }
           }
@@ -3948,7 +4008,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 180114
+              "stars": 187044
             }
           },
           {
@@ -3958,7 +4018,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 140967
+              "stars": 142831
             }
           },
           {
@@ -3968,7 +4028,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 126972
+              "stars": 137872
             }
           },
           {
@@ -3978,7 +4038,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 117785
+              "stars": 127661
             }
           },
           {
@@ -3988,7 +4048,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 117153
+              "stars": 118339
             }
           },
           {
@@ -3998,7 +4058,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 109597
+              "stars": 113865
             }
           },
           {
@@ -4008,7 +4068,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 79338
+              "stars": 80187
             }
           },
           {
@@ -4018,7 +4078,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 77299
+              "stars": 78721
             }
           },
           {
@@ -4028,7 +4088,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 70899
+              "stars": 71193
             }
           },
           {
@@ -4038,7 +4098,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 69010
+              "stars": 70335
             }
           }
         ],
@@ -4051,32 +4111,32 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 629,
+              "downloads": 321,
               "likes": 276
-            }
-          },
-          {
-            "name": "JosephusCheung/Guanaco",
-            "url": "https://huggingface.co/JosephusCheung/Guanaco",
-            "icon_url": "https://huggingface.co/avatars/f54abfaa4be54e61c1052720eb498703.svg",
-            "rank": 2,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 543,
-              "likes": 230
             }
           },
           {
             "name": "vafipas663/Qwen-Edit-2509-Upscale-LoRA",
             "url": "https://huggingface.co/vafipas663/Qwen-Edit-2509-Upscale-LoRA",
             "icon_url": "https://huggingface.co/avatars/9e72b7edea2794c61cafb3dfffd6972e.svg",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 14606,
+              "likes": 232
+            }
+          },
+          {
+            "name": "JosephusCheung/Guanaco",
+            "url": "https://huggingface.co/JosephusCheung/Guanaco",
+            "icon_url": "https://huggingface.co/avatars/f54abfaa4be54e61c1052720eb498703.svg",
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 14175,
-              "likes": 227
+              "trendingScore": 0,
+              "downloads": 54,
+              "likes": 230
             }
           },
           {
@@ -4092,27 +4152,27 @@
             }
           },
           {
-            "name": "dataautogpt3/ProteusV0.2",
-            "url": "https://huggingface.co/dataautogpt3/ProteusV0.2",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64430e32e255a338677fe9a7/qPn5pCkKOdpmyTHWFve_U.png",
-            "rank": 5,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 15555,
-              "likes": 148
-            }
-          },
-          {
             "name": "sarvamai/sarvam-translate",
             "url": "https://huggingface.co/sarvamai/sarvam-translate",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/60270a7c32856987162c641a/umd13GCWVijwTDGZzw3q-.png",
-            "rank": 6,
+            "rank": 5,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 2,
-              "downloads": 16702,
-              "likes": 138
+              "downloads": 61379,
+              "likes": 153
+            }
+          },
+          {
+            "name": "dataautogpt3/ProteusV0.2",
+            "url": "https://huggingface.co/dataautogpt3/ProteusV0.2",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64430e32e255a338677fe9a7/qPn5pCkKOdpmyTHWFve_U.png",
+            "rank": 6,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 15909,
+              "likes": 147
             }
           },
           {
@@ -4123,19 +4183,31 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 49376,
+              "downloads": 67065,
               "likes": 133
+            }
+          },
+          {
+            "name": "hacksider/deep-live-cam",
+            "url": "https://huggingface.co/hacksider/deep-live-cam",
+            "icon_url": "https://huggingface.co/avatars/9ddc6a35a58bf8cbc89548e22cbe429f.svg",
+            "rank": 8,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 1,
+              "downloads": 15949,
+              "likes": 125
             }
           },
           {
             "name": "af1tang/personaGPT",
             "url": "https://huggingface.co/af1tang/personaGPT",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1628353635346-noauth.png",
-            "rank": 8,
+            "rank": 9,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 2031,
+              "downloads": 35,
               "likes": 120
             }
           },
@@ -4143,24 +4215,12 @@
             "name": "dataautogpt3/TempestV0.1",
             "url": "https://huggingface.co/dataautogpt3/TempestV0.1",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64430e32e255a338677fe9a7/qPn5pCkKOdpmyTHWFve_U.png",
-            "rank": 9,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 159,
-              "likes": 112
-            }
-          },
-          {
-            "name": "hacksider/deep-live-cam",
-            "url": "https://huggingface.co/hacksider/deep-live-cam",
-            "icon_url": "https://huggingface.co/avatars/9ddc6a35a58bf8cbc89548e22cbe429f.svg",
             "rank": 10,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 3,
-              "downloads": 0,
-              "likes": 101
+              "trendingScore": 0,
+              "downloads": 101,
+              "likes": 112
             }
           }
         ],
@@ -4251,7 +4311,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 31641
+              "stars": 32862
             }
           },
           {
@@ -4261,27 +4321,27 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 25402
-            }
-          },
-          {
-            "name": "processing/p5.js",
-            "url": "https://github.com/processing/p5.js",
-            "icon_url": "https://avatars.githubusercontent.com/u/1617169?v=4",
-            "rank": 3,
-            "rank_basis": null,
-            "metric": {
-              "stars": 23754
+              "stars": 25509
             }
           },
           {
             "name": "spicetify/cli",
             "url": "https://github.com/spicetify/cli",
             "icon_url": "https://avatars.githubusercontent.com/u/100136310?v=4",
+            "rank": 3,
+            "rank_basis": null,
+            "metric": {
+              "stars": 24072
+            }
+          },
+          {
+            "name": "processing/p5.js",
+            "url": "https://github.com/processing/p5.js",
+            "icon_url": "https://avatars.githubusercontent.com/u/1617169?v=4",
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 23469
+              "stars": 23871
             }
           },
           {
@@ -4291,7 +4351,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 22200
+              "stars": 22283
             }
           },
           {
@@ -4301,7 +4361,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 18881
+              "stars": 18984
             }
           },
           {
@@ -4311,7 +4371,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 17953
+              "stars": 18632
             }
           },
           {
@@ -4321,7 +4381,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 17140
+              "stars": 17505
             }
           },
           {
@@ -4331,7 +4391,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 16968
+              "stars": 17227
             }
           },
           {
@@ -4341,7 +4401,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 16631
+              "stars": 16666
             }
           }
         ],
@@ -4427,7 +4487,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 113109
+              "stars": 113457
             }
           },
           {
@@ -4437,7 +4497,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 58402
+              "stars": 59412
             }
           },
           {
@@ -4447,7 +4507,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 46779
+              "stars": 48627
             }
           },
           {
@@ -4457,7 +4517,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 28274
+              "stars": 28325
             }
           },
           {
@@ -4467,7 +4527,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 22249
+              "stars": 22398
             }
           },
           {
@@ -4477,7 +4537,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 21075
+              "stars": 21233
             }
           },
           {
@@ -4487,7 +4547,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 13584
+              "stars": 13604
             }
           },
           {
@@ -4497,7 +4557,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 13419
+              "stars": 13567
             }
           },
           {
@@ -4507,17 +4567,17 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 12609
+              "stars": 12701
             }
           },
           {
-            "name": "RelaxedJS/ReLaXed",
-            "url": "https://github.com/RelaxedJS/ReLaXed",
-            "icon_url": "https://avatars.githubusercontent.com/u/37601651?v=4",
+            "name": "webpro-nl/knip",
+            "url": "https://github.com/webpro-nl/knip",
+            "icon_url": "https://avatars.githubusercontent.com/u/170418124?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 11791
+              "stars": 11955
             }
           }
         ],
@@ -4530,15 +4590,27 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 55,
+              "downloads": 7,
               "likes": 5
+            }
+          },
+          {
+            "name": "fabihamakhdoomi/TinyDNABERT",
+            "url": "https://huggingface.co/fabihamakhdoomi/TinyDNABERT",
+            "icon_url": "https://huggingface.co/avatars/3b395593a92c25156f59955a7323219c.svg",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 121,
+              "likes": 1
             }
           },
           {
             "name": "andrei12304/Llama",
             "url": "https://huggingface.co/andrei12304/Llama",
             "icon_url": "https://huggingface.co/avatars/75c12cace392fca051248d4feead0a3a.svg",
-            "rank": 2,
+            "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
@@ -4550,7 +4622,7 @@
             "name": "billeth/luiye",
             "url": "https://huggingface.co/billeth/luiye",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/aeHdCfYUoPOTIqlOJPqJx.jpeg",
-            "rank": 3,
+            "rank": 4,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
@@ -4559,26 +4631,14 @@
             }
           },
           {
-            "name": "nev/byt5-song-lyrics",
-            "url": "https://huggingface.co/nev/byt5-song-lyrics",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1631435931286-noauth.jpeg",
-            "rank": 4,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 5,
-              "likes": 0
-            }
-          },
-          {
-            "name": "fabihamakhdoomi/TinyDNABERT",
-            "url": "https://huggingface.co/fabihamakhdoomi/TinyDNABERT",
-            "icon_url": "https://huggingface.co/avatars/3b395593a92c25156f59955a7323219c.svg",
+            "name": "ApexDevelopment/tinygemma4",
+            "url": "https://huggingface.co/ApexDevelopment/tinygemma4",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6988f7e61876098079529565/FCRAVrX8dV8a-EtXUoXps.png",
             "rank": 5,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 2,
+              "downloads": 145,
               "likes": 0
             }
           }
@@ -4603,7 +4663,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 27144
+              "stars": 27471
             }
           },
           {
@@ -4613,7 +4673,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 7768
+              "stars": 7820
             }
           },
           {
@@ -4623,7 +4683,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 6897
+              "stars": 6937
             }
           },
           {
@@ -4633,7 +4693,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 4530
+              "stars": 4544
             }
           },
           {
@@ -4643,7 +4703,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 3916
+              "stars": 3922
             }
           },
           {
@@ -4653,7 +4713,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 2605
+              "stars": 2602
             }
           },
           {
@@ -4663,7 +4723,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 2503
+              "stars": 2522
             }
           },
           {
@@ -4673,7 +4733,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 2327
+              "stars": 2321
             }
           },
           {
@@ -4683,7 +4743,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 1915
+              "stars": 1928
             }
           },
           {
@@ -4693,7 +4753,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 1770
+              "stars": 1777
             }
           }
         ],
@@ -4707,7 +4767,7 @@
             "metric": {
               "trendingScore": 0,
               "downloads": 0,
-              "likes": 37
+              "likes": 38
             }
           },
           {
@@ -4718,7 +4778,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 152,
+              "downloads": 64,
               "likes": 20
             }
           },
@@ -4730,8 +4790,8 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 17,
-              "likes": 13
+              "downloads": 146,
+              "likes": 14
             }
           },
           {
@@ -4742,7 +4802,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 4,
+              "downloads": 20,
               "likes": 8
             }
           },
@@ -4754,7 +4814,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 36,
+              "downloads": 158,
               "likes": 3
             }
           }
@@ -4779,7 +4839,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 85608
+              "stars": 87660
             }
           },
           {
@@ -4789,7 +4849,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 52028
+              "stars": 58582
             }
           },
           {
@@ -4799,7 +4859,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 45591
+              "stars": 45899
             }
           },
           {
@@ -4809,7 +4869,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 44959
+              "stars": 45825
             }
           },
           {
@@ -4819,7 +4879,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 42962
+              "stars": 43929
             }
           },
           {
@@ -4829,7 +4889,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 39739
+              "stars": 41035
             }
           },
           {
@@ -4839,7 +4899,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 39095
+              "stars": 39290
             }
           },
           {
@@ -4849,7 +4909,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 37165
+              "stars": 37704
             }
           },
           {
@@ -4859,7 +4919,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 33950
+              "stars": 34449
             }
           },
           {
@@ -4869,7 +4929,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 29122
+              "stars": 29790
             }
           }
         ],
@@ -4882,32 +4942,32 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 23,
+              "downloads": 666,
               "likes": 35
-            }
-          },
-          {
-            "name": "jerichosiahaya/vits-tts-id",
-            "url": "https://huggingface.co/jerichosiahaya/vits-tts-id",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64869112c380bef1b1a0df26/QauNvdOt8I5YzQ7tw2UoM.png",
-            "rank": 2,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 52,
-              "likes": 11
             }
           },
           {
             "name": "Mozilla/smart-tab-topic",
             "url": "https://huggingface.co/Mozilla/smart-tab-topic",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/657f3d21f4f72f2c4c51d2ca/ITfWuC2xzwBwPiIY73M35.png",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 498,
+              "likes": 11
+            }
+          },
+          {
+            "name": "jerichosiahaya/vits-tts-id",
+            "url": "https://huggingface.co/jerichosiahaya/vits-tts-id",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64869112c380bef1b1a0df26/QauNvdOt8I5YzQ7tw2UoM.png",
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 422,
-              "likes": 10
+              "trendingScore": 0,
+              "downloads": 32,
+              "likes": 11
             }
           },
           {
@@ -4918,7 +4978,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 2,
+              "downloads": 8,
               "likes": 6
             }
           },
@@ -4930,7 +4990,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 23,
+              "downloads": 17,
               "likes": 4
             }
           }
@@ -5015,6 +5075,139 @@
         ]
       }
     },
+    "openmdw-1.1": {
+      "atlas_slug": "openmdw-1.1",
+      "title": "OpenMDW License Agreement v1.1",
+      "spdx_id": "",
+      "type": "model",
+      "source_counts": {
+        "huggingface": 10
+      },
+      "sources": {
+        "huggingface": [
+          {
+            "name": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+            "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+            "rank": 1,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 146,
+              "downloads": 1366,
+              "likes": 376
+            }
+          },
+          {
+            "name": "poolside/Laguna-S-2.1",
+            "url": "https://huggingface.co/poolside/Laguna-S-2.1",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/699484cbe85a4b61cbc5ee0f/GpYWuz-CovEFgbPOW21dZ.png",
+            "rank": 2,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 30,
+              "downloads": 112098,
+              "likes": 968
+            }
+          },
+          {
+            "name": "nvidia/Alpamayo2-Super",
+            "url": "https://huggingface.co/nvidia/Alpamayo2-Super",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65df9200dc3292a8983e5017/Vs5FPVCH-VZBipV3qKTuy.png",
+            "rank": 3,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 21,
+              "downloads": 11263,
+              "likes": 106
+            }
+          },
+          {
+            "name": "unsloth/Laguna-S-2.1-GGUF",
+            "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecdc18b72a69615d6bd857/E4lkPz1TZNLzIFr_dR273.png",
+            "rank": 4,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 15,
+              "downloads": 206487,
+              "likes": 302
+            }
+          },
+          {
+            "name": "poolside/Laguna-XS-2.1",
+            "url": "https://huggingface.co/poolside/Laguna-XS-2.1",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/699484cbe85a4b61cbc5ee0f/GpYWuz-CovEFgbPOW21dZ.png",
+            "rank": 5,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 11,
+              "downloads": 54944,
+              "likes": 216
+            }
+          },
+          {
+            "name": "mlx-community/NemotronLabs-VoiceChat-11B-8bit",
+            "url": "https://huggingface.co/mlx-community/NemotronLabs-VoiceChat-11B-8bit",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/623c830997ddced06d78699b/3qTjC7d3YFCJTwpxd2noq.png",
+            "rank": 6,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 9,
+              "downloads": 200,
+              "likes": 9
+            }
+          },
+          {
+            "name": "poolside/Laguna-S-2.1-NVFP4",
+            "url": "https://huggingface.co/poolside/Laguna-S-2.1-NVFP4",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/699484cbe85a4b61cbc5ee0f/GpYWuz-CovEFgbPOW21dZ.png",
+            "rank": 7,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 6,
+              "downloads": 579236,
+              "likes": 184
+            }
+          },
+          {
+            "name": "mlx-community/NemotronLabs-VoiceChat-11B-4bit",
+            "url": "https://huggingface.co/mlx-community/NemotronLabs-VoiceChat-11B-4bit",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/623c830997ddced06d78699b/3qTjC7d3YFCJTwpxd2noq.png",
+            "rank": 8,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 4,
+              "downloads": 122,
+              "likes": 4
+            }
+          },
+          {
+            "name": "poolside/Laguna-XS-2.1-GGUF",
+            "url": "https://huggingface.co/poolside/Laguna-XS-2.1-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/699484cbe85a4b61cbc5ee0f/GpYWuz-CovEFgbPOW21dZ.png",
+            "rank": 9,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 3,
+              "downloads": 100778,
+              "likes": 82
+            }
+          },
+          {
+            "name": "bartowski/Laguna-XS-2.1-GGUF",
+            "url": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6435718aaaef013d1aec3b8b/XKf-8MA47tjVAM6SCX0MP.jpeg",
+            "rank": 10,
+            "rank_basis": "trendingScore",
+            "metric": {
+              "trendingScore": 3,
+              "downloads": 25402,
+              "likes": 15
+            }
+          }
+        ]
+      }
+    },
     "ofl-1.1": {
       "atlas_slug": "ofl-1.1",
       "title": "SIL OPEN FONT LICENSE",
@@ -5033,7 +5226,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 81775
+              "stars": 81921
             }
           },
           {
@@ -5043,7 +5236,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 26656
+              "stars": 28172
             }
           },
           {
@@ -5053,7 +5246,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 24768
+              "stars": 25505
             }
           },
           {
@@ -5063,7 +5256,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 22403
+              "stars": 22625
             }
           },
           {
@@ -5073,7 +5266,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 20410
+              "stars": 20429
             }
           },
           {
@@ -5083,7 +5276,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 19556
+              "stars": 19807
             }
           },
           {
@@ -5093,7 +5286,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 19352
+              "stars": 19555
             }
           },
           {
@@ -5103,7 +5296,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 14518
+              "stars": 14638
             }
           },
           {
@@ -5113,7 +5306,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 12811
+              "stars": 12964
             }
           },
           {
@@ -5123,7 +5316,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 11451
+              "stars": 11562
             }
           }
         ],
@@ -5148,7 +5341,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 117,
+              "downloads": 9,
               "likes": 0
             }
           },
@@ -5209,7 +5402,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 64180
+              "stars": 65640
             }
           },
           {
@@ -5219,7 +5412,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 48581
+              "stars": 49159
             }
           },
           {
@@ -5229,7 +5422,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 45215
+              "stars": 45481
             }
           },
           {
@@ -5239,7 +5432,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 34629
+              "stars": 35524
             }
           },
           {
@@ -5249,7 +5442,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 33510
+              "stars": 33754
             }
           },
           {
@@ -5259,7 +5452,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 30958
+              "stars": 31418
             }
           },
           {
@@ -5269,7 +5462,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 28650
+              "stars": 28745
             }
           },
           {
@@ -5279,7 +5472,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 26589
+              "stars": 27523
             }
           },
           {
@@ -5289,17 +5482,17 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 24771
+              "stars": 24845
             }
           },
           {
-            "name": "copy/v86",
-            "url": "https://github.com/copy/v86",
-            "icon_url": "https://avatars.githubusercontent.com/u/1816456?v=4",
+            "name": "m-bain/whisperX",
+            "url": "https://github.com/m-bain/whisperX",
+            "icon_url": "https://avatars.githubusercontent.com/u/36994049?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 23153
+              "stars": 23580
             }
           }
         ],
@@ -5311,9 +5504,9 @@
             "rank": 1,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 4,
+              "trendingScore": 2,
               "downloads": 0,
-              "likes": 174
+              "likes": 192
             }
           },
           {
@@ -5323,9 +5516,9 @@
             "rank": 2,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 6083,
-              "likes": 79
+              "trendingScore": 0,
+              "downloads": 3260,
+              "likes": 82
             }
           },
           {
@@ -5336,7 +5529,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 167,
+              "downloads": 55,
               "likes": 71
             }
           },
@@ -5348,19 +5541,31 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 71,
+              "downloads": 56,
               "likes": 23
+            }
+          },
+          {
+            "name": "yyfz233/Pi3",
+            "url": "https://huggingface.co/yyfz233/Pi3",
+            "icon_url": "https://huggingface.co/avatars/e1ba38d45d65b1f5213462a978114f1d.svg",
+            "rank": 5,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 32428,
+              "likes": 21
             }
           },
           {
             "name": "ridger/SpikeGPT-BookCorpus",
             "url": "https://huggingface.co/ridger/SpikeGPT-BookCorpus",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ff09f24852102d4871c19c/lyE3xemtZss3qebK5sEXw.png",
-            "rank": 5,
+            "rank": 6,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 21,
               "likes": 21
             }
           },
@@ -5368,24 +5573,12 @@
             "name": "zachL1/Metric3D",
             "url": "https://huggingface.co/zachL1/Metric3D",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/660cdad33134c1a046f6bd73/QSzG1JwXddvL94faGLPN7.png",
-            "rank": 6,
+            "rank": 7,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
               "downloads": 0,
               "likes": 18
-            }
-          },
-          {
-            "name": "yyfz233/Pi3",
-            "url": "https://huggingface.co/yyfz233/Pi3",
-            "icon_url": "https://huggingface.co/avatars/e1ba38d45d65b1f5213462a978114f1d.svg",
-            "rank": 7,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 404724,
-              "likes": 15
             }
           },
           {
@@ -5395,9 +5588,9 @@
             "rank": 8,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0,
+              "trendingScore": 1,
               "downloads": 0,
-              "likes": 6
+              "likes": 8
             }
           },
           {
@@ -5413,14 +5606,14 @@
             }
           },
           {
-            "name": "franklab/HSSM",
-            "url": "https://huggingface.co/franklab/HSSM",
-            "icon_url": "https://huggingface.co/avatars/5a48c4bdebd229e1d0d5a563990d1c8a.svg",
+            "name": "mlx-community/smart-turn-v3",
+            "url": "https://huggingface.co/mlx-community/smart-turn-v3",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/623c830997ddced06d78699b/3qTjC7d3YFCJTwpxd2noq.png",
             "rank": 10,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 209,
               "likes": 3
             }
           }
@@ -5445,7 +5638,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 450048
+              "stars": 454029
             }
           },
           {
@@ -5455,7 +5648,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 177015
+              "stars": 178381
             }
           },
           {
@@ -5465,7 +5658,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 134850
+              "stars": 135760
             }
           },
           {
@@ -5475,37 +5668,37 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 87915
-            }
-          },
-          {
-            "name": "pallets/flask",
-            "url": "https://github.com/pallets/flask",
-            "icon_url": "https://avatars.githubusercontent.com/u/16748505?v=4",
-            "rank": 5,
-            "rank_basis": null,
-            "metric": {
-              "stars": 71680
-            }
-          },
-          {
-            "name": "scikit-learn/scikit-learn",
-            "url": "https://github.com/scikit-learn/scikit-learn",
-            "icon_url": "https://avatars.githubusercontent.com/u/365630?v=4",
-            "rank": 6,
-            "rank_basis": null,
-            "metric": {
-              "stars": 66382
+              "stars": 88428
             }
           },
           {
             "name": "D4Vinci/Scrapling",
             "url": "https://github.com/D4Vinci/Scrapling",
             "icon_url": "https://avatars.githubusercontent.com/u/20604835?v=4",
+            "rank": 5,
+            "rank_basis": null,
+            "metric": {
+              "stars": 74033
+            }
+          },
+          {
+            "name": "pallets/flask",
+            "url": "https://github.com/pallets/flask",
+            "icon_url": "https://avatars.githubusercontent.com/u/16748505?v=4",
+            "rank": 6,
+            "rank_basis": null,
+            "metric": {
+              "stars": 72162
+            }
+          },
+          {
+            "name": "scikit-learn/scikit-learn",
+            "url": "https://github.com/scikit-learn/scikit-learn",
+            "icon_url": "https://avatars.githubusercontent.com/u/365630?v=4",
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 65332
+              "stars": 66955
             }
           },
           {
@@ -5515,7 +5708,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 62380
+              "stars": 63852
             }
           },
           {
@@ -5525,7 +5718,7 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 59120
+              "stars": 59456
             }
           },
           {
@@ -5535,7 +5728,7 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 56366
+              "stars": 56987
             }
           }
         ],
@@ -5547,9 +5740,9 @@
             "rank": 1,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0,
-              "downloads": 667936,
-              "likes": 1475
+              "trendingScore": 2,
+              "downloads": 480761,
+              "likes": 1485
             }
           },
           {
@@ -5559,9 +5752,9 @@
             "rank": 2,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 1,
-              "downloads": 2139357,
-              "likes": 861
+              "trendingScore": 2,
+              "downloads": 2119777,
+              "likes": 878
             }
           },
           {
@@ -5571,9 +5764,9 @@
             "rank": 3,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0,
-              "downloads": 443598,
-              "likes": 359
+              "trendingScore": 1,
+              "downloads": 1317945,
+              "likes": 364
             }
           },
           {
@@ -5585,7 +5778,7 @@
             "metric": {
               "trendingScore": 1,
               "downloads": 0,
-              "likes": 324
+              "likes": 331
             }
           },
           {
@@ -5595,9 +5788,9 @@
             "rank": 5,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 0,
-              "downloads": 415592,
-              "likes": 194
+              "trendingScore": 1,
+              "downloads": 559838,
+              "likes": 195
             }
           },
           {
@@ -5609,7 +5802,7 @@
             "metric": {
               "trendingScore": 0,
               "downloads": 0,
-              "likes": 188
+              "likes": 187
             }
           },
           {
@@ -5619,20 +5812,32 @@
             "rank": 7,
             "rank_basis": "likes_fallback",
             "metric": {
+              "trendingScore": 3,
+              "downloads": 0,
+              "likes": 152
+            }
+          },
+          {
+            "name": "ussoewwin/Flash-Attention-2_for_Windows",
+            "url": "https://huggingface.co/ussoewwin/Flash-Attention-2_for_Windows",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/IXuxbvOhbg1LqLw79NiLR.jpeg",
+            "rank": 8,
+            "rank_basis": "likes_fallback",
+            "metric": {
               "trendingScore": 0,
               "downloads": 0,
-              "likes": 138
+              "likes": 129
             }
           },
           {
             "name": "Salesforce/codegen-16B-mono",
             "url": "https://huggingface.co/Salesforce/codegen-16B-mono",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1602756670970-noauth.jpeg",
-            "rank": 8,
+            "rank": 9,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1095,
+              "downloads": 130,
               "likes": 126
             }
           },
@@ -5640,24 +5845,12 @@
             "name": "Salesforce/codegen-16B-multi",
             "url": "https://huggingface.co/Salesforce/codegen-16B-multi",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1602756670970-noauth.jpeg",
-            "rank": 9,
-            "rank_basis": "likes_fallback",
-            "metric": {
-              "trendingScore": 0,
-              "downloads": 1627,
-              "likes": 119
-            }
-          },
-          {
-            "name": "ussoewwin/Flash-Attention-2_for_Windows",
-            "url": "https://huggingface.co/ussoewwin/Flash-Attention-2_for_Windows",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/IXuxbvOhbg1LqLw79NiLR.jpeg",
             "rank": 10,
             "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 4,
-              "downloads": 0,
-              "likes": 112
+              "trendingScore": 0,
+              "downloads": 200,
+              "likes": 119
             }
           }
         ]
@@ -5682,7 +5875,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 443279
+              "stars": 458950
             }
           },
           {
@@ -5692,209 +5885,209 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 270315
-            }
-          },
-          {
-            "name": "react/react",
-            "url": "https://github.com/react/react",
-            "icon_url": "https://avatars.githubusercontent.com/u/102812?v=4",
-            "rank": 3,
-            "rank_basis": null,
-            "metric": {
-              "stars": 245970
+              "stars": 279239
             }
           },
           {
             "name": "obra/superpowers",
             "url": "https://github.com/obra/superpowers",
             "icon_url": "https://avatars.githubusercontent.com/u/45416?v=4",
+            "rank": 3,
+            "rank_basis": null,
+            "metric": {
+              "stars": 272266
+            }
+          },
+          {
+            "name": "react/react",
+            "url": "https://github.com/react/react",
+            "icon_url": "https://avatars.githubusercontent.com/u/102812?v=4",
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 234819
-            }
-          },
-          {
-            "name": "trimstray/the-book-of-secret-knowledge",
-            "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
-            "icon_url": "https://avatars.githubusercontent.com/u/31127917?v=4",
-            "rank": 5,
-            "rank_basis": null,
-            "metric": {
-              "stars": 229502
-            }
-          },
-          {
-            "name": "TheAlgorithms/Python",
-            "url": "https://github.com/TheAlgorithms/Python",
-            "icon_url": "https://avatars.githubusercontent.com/u/20487725?v=4",
-            "rank": 6,
-            "rank_basis": null,
-            "metric": {
-              "stars": 222099
+              "stars": 247239
             }
           },
           {
             "name": "affaan-m/ECC",
             "url": "https://github.com/affaan-m/ECC",
             "icon_url": "https://avatars.githubusercontent.com/u/124439313?v=4",
-            "rank": 7,
+            "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 219157
+              "stars": 240186
             }
           },
           {
-            "name": "vuejs/vue",
-            "url": "https://github.com/vuejs/vue",
-            "icon_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
-            "rank": 8,
+            "name": "trimstray/the-book-of-secret-knowledge",
+            "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+            "icon_url": "https://avatars.githubusercontent.com/u/31127917?v=4",
+            "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 209929
-            }
-          },
-          {
-            "name": "ossu/computer-science",
-            "url": "https://github.com/ossu/computer-science",
-            "icon_url": "https://avatars.githubusercontent.com/u/14957346?v=4",
-            "rank": 9,
-            "rank_basis": null,
-            "metric": {
-              "stars": 205121
+              "stars": 238424
             }
           },
           {
             "name": "NousResearch/hermes-agent",
             "url": "https://github.com/NousResearch/hermes-agent",
             "icon_url": "https://avatars.githubusercontent.com/u/134168893?v=4",
+            "rank": 7,
+            "rank_basis": null,
+            "metric": {
+              "stars": 230778
+            }
+          },
+          {
+            "name": "TheAlgorithms/Python",
+            "url": "https://github.com/TheAlgorithms/Python",
+            "icon_url": "https://avatars.githubusercontent.com/u/20487725?v=4",
+            "rank": 8,
+            "rank_basis": null,
+            "metric": {
+              "stars": 223735
+            }
+          },
+          {
+            "name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "icon_url": "https://avatars.githubusercontent.com/u/28293365?v=4",
+            "rank": 9,
+            "rank_basis": null,
+            "metric": {
+              "stars": 217813
+            }
+          },
+          {
+            "name": "vuejs/vue",
+            "url": "https://github.com/vuejs/vue",
+            "icon_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 198790
+              "stars": 210218
             }
           }
         ],
         "huggingface": [
           {
-            "name": "zai-org/GLM-5.2",
-            "url": "https://huggingface.co/zai-org/GLM-5.2",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+            "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
             "rank": 1,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 1627,
-              "downloads": 27413,
-              "likes": 1748
+              "trendingScore": 498,
+              "downloads": 1606491,
+              "likes": 3357
             }
           },
           {
-            "name": "WeiboAI/VibeThinker-3B",
-            "url": "https://huggingface.co/WeiboAI/VibeThinker-3B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64d1faaa1ed6649d70d1fa2f/lZVm6Yuiif9cdr5KsnfZr.png",
+            "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
             "rank": 2,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 522,
-              "downloads": 20277,
-              "likes": 537
+              "trendingScore": 380,
+              "downloads": 245,
+              "likes": 388
             }
           },
           {
-            "name": "microsoft/FastContext-1.0-4B-SFT",
-            "url": "https://huggingface.co/microsoft/FastContext-1.0-4B-SFT",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1583646260758-5e64858c87403103f9f1055d.png",
+            "name": "inclusionAI/Ling-3.0-tiny",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg",
             "rank": 3,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 250,
-              "downloads": 2593,
-              "likes": 255
+              "trendingScore": 222,
+              "downloads": 2283,
+              "likes": 222
             }
           },
           {
-            "name": "unsloth/GLM-5.2-GGUF",
-            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecdc18b72a69615d6bd857/E4lkPz1TZNLzIFr_dR273.png",
+            "name": "deepgrove/maple-preview",
+            "url": "https://huggingface.co/deepgrove/maple-preview",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/67ca738587a625b6a9affd0f/lMDrDwMactisn7AGYDKbm.png",
             "rank": 4,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 205,
-              "downloads": 32260,
-              "likes": 214
+              "trendingScore": 127,
+              "downloads": 5617,
+              "likes": 356
             }
           },
           {
-            "name": "prefeitura-rio/Rio-3.5-Open-397B",
-            "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/68d1523b9cd4c204c557c38b/yiEbXizV4d3TEPe2DzsLm.webp",
+            "name": "inclusionAI/Ling-3.0-flash",
+            "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/662e1f9da266499277937d33/fyKuazRifqiaIO34xrhhm.jpeg",
             "rank": 5,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 121,
-              "downloads": 190742,
-              "likes": 327
+              "trendingScore": 120,
+              "downloads": 11330,
+              "likes": 326
             }
           },
           {
-            "name": "deepseek-ai/DeepSeek-V4-Pro",
-            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+            "name": "Motif-Technologies/Motif-3",
+            "url": "https://huggingface.co/Motif-Technologies/Motif-3",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6836935d054aee793ffd78f1/L3Rw_g8vkvD8dqhOYGZhl.png",
             "rank": 6,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 119,
-              "downloads": 2611991,
-              "likes": 4991
+              "trendingScore": 102,
+              "downloads": 1292,
+              "likes": 103
             }
           },
           {
-            "name": "zai-org/GLM-5.2-FP8",
-            "url": "https://huggingface.co/zai-org/GLM-5.2-FP8",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+            "name": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+            "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ecdc18b72a69615d6bd857/E4lkPz1TZNLzIFr_dR273.png",
             "rank": 7,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 114,
-              "downloads": 217361,
-              "likes": 117
+              "trendingScore": 94,
+              "downloads": 289560,
+              "likes": 674
             }
           },
           {
-            "name": "Mia-AiLab/Qwable-3.6-27b",
-            "url": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/691f3f4b64df370a7da04dd3/4oPpP_ty6xEAsNlUHd1hM.jpeg",
+            "name": "baidu/Unlimited-OCR",
+            "url": "https://huggingface.co/baidu/Unlimited-OCR",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/64f187a2cc1c03340ac30498/TYYUxK8xD1AxExFMWqbZD.png",
             "rank": 8,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 111,
-              "downloads": 22879,
-              "likes": 115
+              "trendingScore": 91,
+              "downloads": 2937795,
+              "likes": 4047
             }
           },
           {
-            "name": "zai-org/SCAIL-2",
-            "url": "https://huggingface.co/zai-org/SCAIL-2",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
+            "name": "NicoLab28/ClipProj-MiniMax-H3",
+            "url": "https://huggingface.co/NicoLab28/ClipProj-MiniMax-H3",
+            "icon_url": "https://huggingface.co/avatars/128e05172e3462e171bc2722e96f1c22.svg",
             "rank": 9,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 72,
+              "trendingScore": 91,
               "downloads": 0,
-              "likes": 245
+              "likes": 91
             }
           },
           {
-            "name": "deepseek-ai/DeepSeek-V4-Flash",
-            "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/6538815d1bdb3c40db94fbfa/xMBly9PUMphrFVMxLX4kq.png",
+            "name": "zai-org/GLM-5.2",
+            "url": "https://huggingface.co/zai-org/GLM-5.2",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/62dc173789b4cf157d36ebee/i_pxzM2ZDo3Ub-BEgIkE9.png",
             "rank": 10,
             "rank_basis": "trendingScore",
             "metric": {
-              "trendingScore": 48,
-              "downloads": 2429883,
-              "likes": 1541
+              "trendingScore": 60,
+              "downloads": 2685296,
+              "likes": 4954
             }
           }
         ],
@@ -5985,7 +6178,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 172301
+              "stars": 184521
             }
           },
           {
@@ -5995,7 +6188,7 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 140547
+              "stars": 140956
             }
           },
           {
@@ -6005,7 +6198,7 @@
             "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 127002
+              "stars": 135819
             }
           },
           {
@@ -6015,7 +6208,7 @@
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 100876
+              "stars": 101810
             }
           },
           {
@@ -6025,7 +6218,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 65287
+              "stars": 67290
             }
           },
           {
@@ -6035,37 +6228,37 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 43986
-            }
-          },
-          {
-            "name": "geekan/HowToLiveLonger",
-            "url": "https://github.com/geekan/HowToLiveLonger",
-            "icon_url": "https://avatars.githubusercontent.com/u/2707039?v=4",
-            "rank": 7,
-            "rank_basis": null,
-            "metric": {
-              "stars": 35072
-            }
-          },
-          {
-            "name": "datasciencemasters/go",
-            "url": "https://github.com/datasciencemasters/go",
-            "icon_url": "https://avatars.githubusercontent.com/u/5228194?v=4",
-            "rank": 8,
-            "rank_basis": null,
-            "metric": {
-              "stars": 26166
+              "stars": 44015
             }
           },
           {
             "name": "permissionlesstech/bitchat",
             "url": "https://github.com/permissionlesstech/bitchat",
             "icon_url": "https://avatars.githubusercontent.com/u/220183803?v=4",
+            "rank": 7,
+            "rank_basis": null,
+            "metric": {
+              "stars": 35345
+            }
+          },
+          {
+            "name": "geekan/HowToLiveLonger",
+            "url": "https://github.com/geekan/HowToLiveLonger",
+            "icon_url": "https://avatars.githubusercontent.com/u/2707039?v=4",
+            "rank": 8,
+            "rank_basis": null,
+            "metric": {
+              "stars": 35101
+            }
+          },
+          {
+            "name": "datasciencemasters/go",
+            "url": "https://github.com/datasciencemasters/go",
+            "icon_url": "https://avatars.githubusercontent.com/u/5228194?v=4",
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 26036
+              "stars": 26251
             }
           },
           {
@@ -6075,81 +6268,81 @@
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 25141
+              "stars": 25699
             }
           }
         ],
         "huggingface": [
           {
-            "name": "TensorForger/FlowUpscaler",
-            "url": "https://huggingface.co/TensorForger/FlowUpscaler",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/lJNHqb70c8FoXrAfw6sJ3.jpeg",
+            "name": "lexa862/NSFWmodel",
+            "url": "https://huggingface.co/lexa862/NSFWmodel",
+            "icon_url": "https://huggingface.co/avatars/38aa6824426f1a8a403daba1372a65e0.svg",
             "rank": 1,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
-              "trendingScore": 5,
-              "downloads": 96,
-              "likes": 7
+              "trendingScore": 1,
+              "downloads": 172,
+              "likes": 78
+            }
+          },
+          {
+            "name": "Sandro-Halpo/SamDoesArt-V3",
+            "url": "https://huggingface.co/Sandro-Halpo/SamDoesArt-V3",
+            "icon_url": "https://huggingface.co/avatars/c3824e001b19e3e2f1c544be273688de.svg",
+            "rank": 2,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 51,
+              "likes": 71
+            }
+          },
+          {
+            "name": "LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF-IQ-Imatrix-Request",
+            "url": "https://huggingface.co/LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF-IQ-Imatrix-Request",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d4cf2693a0a3744a27536c/qGLojswp4QVWjKO5fiZge.png",
+            "rank": 3,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 697,
+              "likes": 68
+            }
+          },
+          {
+            "name": "Synthia/ChatGalRWKV",
+            "url": "https://huggingface.co/Synthia/ChatGalRWKV",
+            "icon_url": "https://www.gravatar.com/avatar/8f07a0168d802b9d73d9c88175781cd7?d=retro&size=100",
+            "rank": 4,
+            "rank_basis": "likes_fallback",
+            "metric": {
+              "trendingScore": 0,
+              "downloads": 0,
+              "likes": 35
             }
           },
           {
             "name": "malcolmrey/ltx",
             "url": "https://huggingface.co/malcolmrey/ltx",
             "icon_url": "https://huggingface.co/avatars/7ce28cc1fc60ae555e927b6821eebd34.svg",
-            "rank": 2,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 0,
-              "likes": 18
-            }
-          },
-          {
-            "name": "BomjJack/FuchurBerndsoftstyle",
-            "url": "https://huggingface.co/BomjJack/FuchurBerndsoftstyle",
-            "icon_url": "https://huggingface.co/avatars/506feceeda76d97f0a085c735ed48f8d.svg",
-            "rank": 3,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 0,
-              "likes": 1
-            }
-          },
-          {
-            "name": "Jx2567/K3NK_4llinOne-NSFW_Helper",
-            "url": "https://huggingface.co/Jx2567/K3NK_4llinOne-NSFW_Helper",
-            "icon_url": "https://huggingface.co/avatars/cd71e1313015faaf20ede9d900402f43.svg",
-            "rank": 4,
-            "rank_basis": "trendingScore",
-            "metric": {
-              "trendingScore": 1,
-              "downloads": 0,
-              "likes": 1
-            }
-          },
-          {
-            "name": "LWDCLS/llama3-8B-DarkIdol-2.3-Uncensored-32K-GGUF-IQ-Imatrix-Request",
-            "url": "https://huggingface.co/LWDCLS/llama3-8B-DarkIdol-2.3-Uncensored-32K-GGUF-IQ-Imatrix-Request",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d4cf2693a0a3744a27536c/qGLojswp4QVWjKO5fiZge.png",
             "rank": 5,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1933,
-              "likes": 17
+              "downloads": 0,
+              "likes": 22
             }
           },
           {
-            "name": "LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.1-Uncensored-GGUF-IQ-Imatrix-Request",
-            "url": "https://huggingface.co/LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.1-Uncensored-GGUF-IQ-Imatrix-Request",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d4cf2693a0a3744a27536c/qGLojswp4QVWjKO5fiZge.png",
+            "name": "AI-B/UTENA-7B-NSFW-V2",
+            "url": "https://huggingface.co/AI-B/UTENA-7B-NSFW-V2",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65a12c8ee96941538127ae0b/zqpybix_rm4AVKu94gaU1.png",
             "rank": 6,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1480,
-              "likes": 5
+              "downloads": 69,
+              "likes": 20
             }
           },
           {
@@ -6157,47 +6350,47 @@
             "url": "https://huggingface.co/inkoziev/rugpt_chitchat",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653839237959-629386dbe8de908bda83b907.jpeg",
             "rank": 7,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1040,
+              "downloads": 110,
               "likes": 19
             }
           },
           {
-            "name": "LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF-IQ-Imatrix-Request",
-            "url": "https://huggingface.co/LWDCLS/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF-IQ-Imatrix-Request",
+            "name": "LWDCLS/llama3-8B-DarkIdol-2.3-Uncensored-32K-GGUF-IQ-Imatrix-Request",
+            "url": "https://huggingface.co/LWDCLS/llama3-8B-DarkIdol-2.3-Uncensored-32K-GGUF-IQ-Imatrix-Request",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/65d4cf2693a0a3744a27536c/qGLojswp4QVWjKO5fiZge.png",
             "rank": 8,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 765,
-              "likes": 67
+              "downloads": 1556,
+              "likes": 18
             }
           },
           {
-            "name": "Lewdiculous/MN-12B-Mag-Mell-R1-GGUF-IQ-ARM-Imatrix",
-            "url": "https://huggingface.co/Lewdiculous/MN-12B-Mag-Mell-R1-GGUF-IQ-ARM-Imatrix",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/HOCJv7WE2C4eqqqppDFpA.png",
+            "name": "inkoziev/sbert_pq",
+            "url": "https://huggingface.co/inkoziev/sbert_pq",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/1653839237959-629386dbe8de908bda83b907.jpeg",
             "rank": 9,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 743,
-              "likes": 13
+              "downloads": 244,
+              "likes": 18
             }
           },
           {
-            "name": "Lewdiculous/Llama-3.1-8B-ArliAI-Formax-v1.0-GGUF-IQ-ARM-Imatrix",
-            "url": "https://huggingface.co/Lewdiculous/Llama-3.1-8B-ArliAI-Formax-v1.0-GGUF-IQ-ARM-Imatrix",
+            "name": "Lewdiculous/L3-Umbral-Mind-RP-v1.0-8B-GGUF-IQ-Imatrix",
+            "url": "https://huggingface.co/Lewdiculous/L3-Umbral-Mind-RP-v1.0-8B-GGUF-IQ-Imatrix",
             "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/HOCJv7WE2C4eqqqppDFpA.png",
             "rank": 10,
-            "rank_basis": "trendingScore",
+            "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 614,
-              "likes": 4
+              "downloads": 169,
+              "likes": 18
             }
           }
         ]
@@ -6221,7 +6414,7 @@
             "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 37775
+              "stars": 38247
             }
           },
           {
@@ -6231,27 +6424,27 @@
             "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 33531
-            }
-          },
-          {
-            "name": "nicbarker/clay",
-            "url": "https://github.com/nicbarker/clay",
-            "icon_url": "https://avatars.githubusercontent.com/u/2264338?v=4",
-            "rank": 3,
-            "rank_basis": null,
-            "metric": {
-              "stars": 17466
+              "stars": 34325
             }
           },
           {
             "name": "doitsujin/dxvk",
             "url": "https://github.com/doitsujin/dxvk",
             "icon_url": "https://avatars.githubusercontent.com/u/25567304?v=4",
+            "rank": 3,
+            "rank_basis": null,
+            "metric": {
+              "stars": 17846
+            }
+          },
+          {
+            "name": "nicbarker/clay",
+            "url": "https://github.com/nicbarker/clay",
+            "icon_url": "https://avatars.githubusercontent.com/u/2264338?v=4",
             "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 17346
+              "stars": 17837
             }
           },
           {
@@ -6261,7 +6454,7 @@
             "rank": 5,
             "rank_basis": null,
             "metric": {
-              "stars": 15931
+              "stars": 16332
             }
           },
           {
@@ -6271,7 +6464,7 @@
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 15106
+              "stars": 15253
             }
           },
           {
@@ -6281,7 +6474,7 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 11918
+              "stars": 11984
             }
           },
           {
@@ -6291,7 +6484,7 @@
             "rank": 8,
             "rank_basis": null,
             "metric": {
-              "stars": 10843
+              "stars": 11685
             }
           },
           {
@@ -6301,42 +6494,42 @@
             "rank": 9,
             "rank_basis": null,
             "metric": {
-              "stars": 9998
+              "stars": 10205
             }
           },
           {
-            "name": "progschj/ThreadPool",
-            "url": "https://github.com/progschj/ThreadPool",
-            "icon_url": "https://avatars.githubusercontent.com/u/1257680?v=4",
+            "name": "gibbed/SteamAchievementManager",
+            "url": "https://github.com/gibbed/SteamAchievementManager",
+            "icon_url": "https://avatars.githubusercontent.com/u/85170?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 8757
+              "stars": 8885
             }
           }
         ],
         "huggingface": [
           {
-            "name": "advokat/NotSoGood",
-            "url": "https://huggingface.co/advokat/NotSoGood",
-            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63df025415266dd945fa5722/ytm0C72Qnba70Ln_4ljhv.jpeg",
+            "name": "calihyper/trad-kor-landscape-ink-wash-painting",
+            "url": "https://huggingface.co/calihyper/trad-kor-landscape-ink-wash-painting",
+            "icon_url": "https://huggingface.co/avatars/70baf448add5f44fff2065e184ac55b1.svg",
             "rank": 1,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 0,
+              "downloads": 11,
               "likes": 1
             }
           },
           {
-            "name": "calihyper/trad-kor-landscape-ink-wash-painting",
-            "url": "https://huggingface.co/calihyper/trad-kor-landscape-ink-wash-painting",
-            "icon_url": "https://huggingface.co/avatars/70baf448add5f44fff2065e184ac55b1.svg",
+            "name": "advokat/NotSoGood",
+            "url": "https://huggingface.co/advokat/NotSoGood",
+            "icon_url": "https://cdn-avatars.huggingface.co/v1/production/uploads/63df025415266dd945fa5722/ytm0C72Qnba70Ln_4ljhv.jpeg",
             "rank": 2,
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 1,
+              "downloads": 0,
               "likes": 1
             }
           },
@@ -6372,7 +6565,7 @@
             "rank_basis": "likes_fallback",
             "metric": {
               "trendingScore": 0,
-              "downloads": 440,
+              "downloads": 132,
               "likes": 0
             }
           }
@@ -6390,63 +6583,63 @@
       "sources": {
         "github": [
           {
-            "name": "lucia-auth/lucia",
-            "url": "https://github.com/lucia-auth/lucia",
-            "icon_url": "https://avatars.githubusercontent.com/u/124423533?v=4",
-            "rank": 1,
-            "rank_basis": null,
-            "metric": {
-              "stars": 10461
-            }
-          },
-          {
             "name": "smoltcp-rs/smoltcp",
             "url": "https://github.com/smoltcp-rs/smoltcp",
             "icon_url": "https://avatars.githubusercontent.com/u/61207812?v=4",
-            "rank": 2,
+            "rank": 1,
             "rank_basis": null,
             "metric": {
-              "stars": 4495
+              "stars": 4569
             }
           },
           {
             "name": "obsidianmd/obsidian-sample-plugin",
             "url": "https://github.com/obsidianmd/obsidian-sample-plugin",
             "icon_url": "https://avatars.githubusercontent.com/u/65011256?v=4",
-            "rank": 3,
+            "rank": 2,
             "rank_basis": null,
             "metric": {
-              "stars": 4315
+              "stars": 4460
             }
           },
           {
             "name": "Cats-Team/AdRules",
             "url": "https://github.com/Cats-Team/AdRules",
             "icon_url": "https://avatars.githubusercontent.com/u/88201352?v=4",
-            "rank": 4,
+            "rank": 3,
             "rank_basis": null,
             "metric": {
-              "stars": 3564
+              "stars": 3608
             }
           },
           {
             "name": "gatsbyjs/gatsby-starter-blog",
             "url": "https://github.com/gatsbyjs/gatsby-starter-blog",
             "icon_url": "https://avatars.githubusercontent.com/u/12551863?v=4",
-            "rank": 5,
+            "rank": 4,
             "rank_basis": null,
             "metric": {
-              "stars": 3515
+              "stars": 3516
             }
           },
           {
             "name": "landley/toybox",
             "url": "https://github.com/landley/toybox",
             "icon_url": "https://avatars.githubusercontent.com/u/1414921?v=4",
+            "rank": 5,
+            "rank_basis": null,
+            "metric": {
+              "stars": 3135
+            }
+          },
+          {
+            "name": "chardet/chardet",
+            "url": "https://github.com/chardet/chardet",
+            "icon_url": "https://avatars.githubusercontent.com/u/6211498?v=4",
             "rank": 6,
             "rank_basis": null,
             "metric": {
-              "stars": 3108
+              "stars": 2657
             }
           },
           {
@@ -6456,37 +6649,37 @@
             "rank": 7,
             "rank_basis": null,
             "metric": {
-              "stars": 2647
-            }
-          },
-          {
-            "name": "chardet/chardet",
-            "url": "https://github.com/chardet/chardet",
-            "icon_url": "https://avatars.githubusercontent.com/u/6211498?v=4",
-            "rank": 8,
-            "rank_basis": null,
-            "metric": {
-              "stars": 2638
-            }
-          },
-          {
-            "name": "mjansson/rpmalloc",
-            "url": "https://github.com/mjansson/rpmalloc",
-            "icon_url": "https://avatars.githubusercontent.com/u/3316562?v=4",
-            "rank": 9,
-            "rank_basis": null,
-            "metric": {
-              "stars": 2455
+              "stars": 2657
             }
           },
           {
             "name": "holtzy/The-Python-Graph-Gallery",
             "url": "https://github.com/holtzy/The-Python-Graph-Gallery",
             "icon_url": "https://avatars.githubusercontent.com/u/10254401?v=4",
+            "rank": 8,
+            "rank_basis": null,
+            "metric": {
+              "stars": 2240
+            }
+          },
+          {
+            "name": "GlasgowEmbedded/glasgow",
+            "url": "https://github.com/GlasgowEmbedded/glasgow",
+            "icon_url": "https://avatars.githubusercontent.com/u/44089483?v=4",
+            "rank": 9,
+            "rank_basis": null,
+            "metric": {
+              "stars": 2191
+            }
+          },
+          {
+            "name": "hannob/snallygaster",
+            "url": "https://github.com/hannob/snallygaster",
+            "icon_url": "https://avatars.githubusercontent.com/u/990588?v=4",
             "rank": 10,
             "rank_basis": null,
             "metric": {
-              "stars": 2223
+              "stars": 2107
             }
           }
         ]

@@ -46,22 +46,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 19391700,
+    "popularity": 19398550,
     "github_repos": 19090657,
     "kaggle_datasets": 64671,
     "trend": [
-      4417,
-      4446,
-      3987,
-      4796,
-      5472,
-      5341,
-      9006,
-      6863,
-      6361,
-      6761,
-      7022,
-      9789
+      4444,
+      3994,
+      4787,
+      5473,
+      5326,
+      8998,
+      6852,
+      6349,
+      6737,
+      6989,
+      9784,
+      6527
     ],
     "blueoak_tier": "Silver"
   },
@@ -111,22 +111,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 4609453,
+    "popularity": 4635776,
     "github_repos": 3913687,
     "kaggle_datasets": 105065,
     "trend": [
-      12477,
-      13919,
-      13103,
-      12326,
-      12556,
-      14539,
-      15014,
-      21895,
-      20138,
-      23885,
-      25306,
-      20984
+      13896,
+      13095,
+      12311,
+      12551,
+      14525,
+      14999,
+      21847,
+      20102,
+      23775,
+      25110,
+      20913,
+      24014
     ],
     "blueoak_tier": "Silver"
   },
@@ -182,22 +182,22 @@
     "featured": true,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 3475357,
+    "popularity": 3475473,
     "github_repos": 3469773,
     "kaggle_datasets": 713,
     "trend": [
-      61,
-      62,
+      60,
       48,
       54,
       69,
       105,
       72,
-      79,
+      75,
       69,
       71,
-      73,
-      90
+      70,
+      91,
+      86
     ]
   },
   {
@@ -256,11 +256,10 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 630253,
+    "popularity": 630260,
     "github_repos": 628284,
     "kaggle_datasets": 1519,
     "trend": [
-      9,
       5,
       6,
       3,
@@ -271,7 +270,8 @@
       5,
       4,
       5,
-      8
+      8,
+      4
     ]
   },
   {
@@ -312,22 +312,22 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 541103,
+    "popularity": 541148,
     "github_repos": 375540,
     "kaggle_datasets": 160262,
     "trend": [
-      15,
       16,
       18,
       30,
-      27,
+      26,
       187,
-      79,
+      80,
       28,
       24,
-      31,
+      30,
       49,
-      33
+      34,
+      46
     ],
     "blueoak_tier": "Bronze"
   },
@@ -378,13 +378,12 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 491427,
+    "popularity": 491552,
     "github_repos": 488473,
     "trend": [
-      54,
       48,
       22,
-      21,
+      22,
       22,
       306,
       119,
@@ -392,7 +391,8 @@
       66,
       133,
       163,
-      67
+      67,
+      105
     ],
     "blueoak_tier": "Bronze"
   },
@@ -443,10 +443,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 424011,
+    "popularity": 424049,
     "github_repos": 422624,
     "trend": [
-      22,
       15,
       16,
       128,
@@ -457,7 +456,8 @@
       21,
       14,
       8,
-      13
+      12,
+      40
     ],
     "blueoak_tier": "Bronze"
   },
@@ -509,10 +509,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162575,
+    "popularity": 162582,
     "github_repos": 161050,
     "trend": [
-      5,
       5,
       9,
       3,
@@ -523,7 +522,8 @@
       8,
       2,
       6,
-      8
+      8,
+      5
     ],
     "blueoak_tier": "Silver"
   },
@@ -574,10 +574,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162278,
+    "popularity": 162282,
     "github_repos": 161993,
     "trend": [
-      1,
       2,
       3,
       3,
@@ -588,7 +587,8 @@
       6,
       12,
       11,
-      11
+      12,
+      1
     ]
   },
   {
@@ -670,22 +670,22 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 147480,
+    "popularity": 148353,
     "github_repos": 106281,
     "kaggle_datasets": 8160,
     "trend": [
-      171,
       163,
-      179,
+      178,
       139,
-      189,
+      194,
       259,
-      263,
-      251,
-      440,
-      2056,
-      2299,
-      558
+      264,
+      250,
+      441,
+      2043,
+      2294,
+      548,
+      587
     ]
   },
   {
@@ -748,7 +748,6 @@
     "popularity": 74744,
     "github_repos": 74627,
     "trend": [
-      1,
       0,
       1,
       1,
@@ -759,6 +758,7 @@
       2,
       1,
       2,
+      0,
       0
     ]
   },
@@ -809,10 +809,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 65581,
+    "popularity": 65584,
     "github_repos": 65480,
     "trend": [
-      0,
       0,
       0,
       0,
@@ -823,7 +822,8 @@
       0,
       0,
       0,
-      1
+      1,
+      2
     ],
     "blueoak_tier": "Silver"
   },
@@ -921,10 +921,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 48471,
+    "popularity": 48474,
     "github_repos": 47059,
     "trend": [
-      6,
       1,
       6,
       3,
@@ -935,7 +934,8 @@
       11,
       2,
       6,
-      6
+      6,
+      5
     ],
     "blueoak_tier": "Silver"
   },
@@ -1012,22 +1012,22 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 47884,
+    "popularity": 48048,
     "github_repos": 32502,
     "kaggle_datasets": 6990,
     "trend": [
-      70,
       60,
       65,
       40,
       43,
       90,
       73,
-      41,
-      113,
+      40,
+      117,
       180,
       204,
-      72
+      74,
+      100
     ]
   },
   {
@@ -1068,10 +1068,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 47090,
+    "popularity": 47092,
     "github_repos": 46947,
     "trend": [
-      0,
       1,
       0,
       6,
@@ -1082,7 +1081,8 @@
       1,
       1,
       0,
-      0
+      0,
+      2
     ]
   },
   {
@@ -1123,12 +1123,11 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 40280,
+    "popularity": 40296,
     "github_repos": 38815,
     "trend": [
-      11,
       16,
-      19,
+      18,
       10,
       12,
       44,
@@ -1137,7 +1136,8 @@
       34,
       8,
       16,
-      14
+      14,
+      17
     ],
     "blueoak_tier": "Lead"
   },
@@ -1189,7 +1189,6 @@
     "popularity": 38655,
     "github_repos": 38536,
     "trend": [
-      0,
       1,
       0,
       1,
@@ -1197,6 +1196,7 @@
       30,
       8,
       6,
+      0,
       0,
       0,
       0,
@@ -1272,21 +1272,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 27615,
+    "popularity": 28424,
     "kaggle_datasets": 2471,
     "trend": [
       265,
-      266,
       289,
       214,
-      424,
-      359,
-      295,
-      413,
-      1198,
-      528,
+      423,
+      360,
+      294,
+      396,
+      1204,
+      532,
       1565,
-      479
+      476,
+      640
     ]
   },
   {
@@ -1357,21 +1357,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 17964,
+    "popularity": 18292,
     "kaggle_datasets": 8683,
     "trend": [
-      96,
-      115,
+      116,
       67,
-      102,
       104,
-      125,
+      108,
+      133,
       124,
-      97,
-      145,
-      269,
-      200,
-      207
+      103,
+      146,
+      265,
+      203,
+      203,
+      243
     ]
   },
   {
@@ -1420,21 +1420,21 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 14890,
+    "popularity": 14904,
     "github_repos": 11281,
     "trend": [
-      30,
-      22,
+      21,
       37,
       19,
       20,
       356,
       219,
-      102,
+      101,
       20,
-      20,
+      19,
       16,
-      10
+      10,
+      16
     ],
     "blueoak_tier": "Bronze"
   },
@@ -1482,7 +1482,6 @@
     "github_repos": 10857,
     "trend": [
       0,
-      0,
       1,
       0,
       0,
@@ -1492,7 +1491,8 @@
       1,
       0,
       1,
-      0
+      0,
+      1
     ]
   },
   {
@@ -1541,7 +1541,6 @@
     "github_repos": 9820,
     "trend": [
       0,
-      0,
       1,
       1,
       1,
@@ -1551,6 +1550,7 @@
       1,
       0,
       1,
+      0,
       0
     ],
     "blueoak_tier": "Bronze"
@@ -1645,10 +1645,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8299,
+    "popularity": 8342,
     "github_repos": 2007,
     "trend": [
-      33,
       39,
       44,
       35,
@@ -1659,7 +1658,8 @@
       44,
       27,
       31,
-      33
+      33,
+      20
     ],
     "blueoak_tier": "Bronze"
   },
@@ -1697,10 +1697,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8001,
+    "popularity": 8003,
     "github_repos": 7853,
     "trend": [
-      4,
       0,
       2,
       0,
@@ -1711,7 +1710,8 @@
       0,
       25,
       0,
-      0
+      0,
+      1
     ]
   },
   {
@@ -1781,21 +1781,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 4697,
+    "popularity": 4791,
     "kaggle_datasets": 1129,
     "trend": [
-      100,
-      38,
-      58,
-      33,
-      46,
-      64,
-      81,
-      51,
-      39,
-      48,
+      40,
+      60,
+      41,
+      50,
+      70,
+      82,
+      52,
+      40,
+      49,
       72,
-      19
+      18,
+      61
     ]
   },
   {
@@ -1830,10 +1830,9 @@
     "family": "by-sa",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 2676,
+    "popularity": 2693,
     "kaggle_datasets": 1071,
     "trend": [
-      0,
       0,
       3,
       3,
@@ -1841,10 +1840,11 @@
       65,
       34,
       12,
-      5,
+      6,
       6,
       2,
-      1
+      1,
+      10
     ]
   },
   {
@@ -1892,10 +1892,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 2433,
+    "popularity": 2434,
     "github_repos": 2231,
     "trend": [
-      2,
       0,
       0,
       4,
@@ -1906,6 +1905,7 @@
       2,
       2,
       2,
+      1,
       1
     ],
     "blueoak_tier": "Silver"
@@ -1934,10 +1934,9 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 1341,
+    "popularity": 1344,
     "kaggle_datasets": 1052,
     "trend": [
-      0,
       1,
       2,
       1,
@@ -1948,7 +1947,8 @@
       0,
       0,
       1,
-      1
+      1,
+      2
     ]
   },
   {
@@ -1975,10 +1975,9 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 949,
+    "popularity": 950,
     "kaggle_datasets": 798,
     "trend": [
-      0,
       0,
       0,
       0,
@@ -1989,7 +1988,8 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ]
   },
   {
@@ -2062,10 +2062,9 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 887,
+    "popularity": 894,
     "kaggle_datasets": 185,
     "trend": [
-      8,
       11,
       6,
       6,
@@ -2076,7 +2075,8 @@
       5,
       11,
       3,
-      4
+      4,
+      5
     ]
   },
   {
@@ -2115,10 +2115,9 @@
     "family": "by",
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 875,
+    "popularity": 876,
     "kaggle_datasets": 154,
     "trend": [
-      4,
       3,
       4,
       6,
@@ -2129,7 +2128,8 @@
       2,
       3,
       3,
-      2
+      2,
+      0
     ]
   },
   {
@@ -2164,9 +2164,8 @@
     "family": "by",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 857,
+    "popularity": 861,
     "trend": [
-      20,
       7,
       8,
       3,
@@ -2177,7 +2176,8 @@
       2,
       4,
       7,
-      5
+      4,
+      6
     ]
   },
   {
@@ -2214,20 +2214,20 @@
     "family": "by-nc",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 717,
+    "popularity": 720,
     "trend": [
-      7,
       12,
       6,
       5,
       4,
       61,
-      34,
+      32,
       10,
       2,
       6,
       6,
-      20
+      21,
+      5
     ]
   },
   {
@@ -2266,9 +2266,8 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 701,
+    "popularity": 707,
     "trend": [
-      2,
       0,
       4,
       2,
@@ -2279,7 +2278,8 @@
       0,
       3,
       5,
-      1
+      1,
+      9
     ],
     "blueoak_tier": "Bronze"
   },
@@ -2330,10 +2330,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 701,
+    "popularity": 702,
     "github_repos": 607,
     "trend": [
-      2,
       0,
       0,
       0,
@@ -2344,7 +2343,8 @@
       1,
       1,
       0,
-      1
+      1,
+      0
     ],
     "blueoak_tier": "Bronze"
   },
@@ -2372,9 +2372,8 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 591,
+    "popularity": 596,
     "trend": [
-      2,
       5,
       4,
       5,
@@ -2385,7 +2384,8 @@
       8,
       6,
       13,
-      7
+      7,
+      5
     ]
   },
   {
@@ -2460,9 +2460,8 @@
     "family": "by-nc",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 466,
+    "popularity": 471,
     "trend": [
-      8,
       4,
       2,
       4,
@@ -2473,7 +2472,8 @@
       4,
       7,
       7,
-      3
+      3,
+      2
     ]
   },
   {
@@ -2517,7 +2517,6 @@
     "popularity": 422,
     "github_repos": 327,
     "trend": [
-      1,
       2,
       0,
       0,
@@ -2528,7 +2527,8 @@
       1,
       1,
       0,
-      1
+      1,
+      0
     ],
     "blueoak_tier": "Silver"
   },
@@ -2564,9 +2564,8 @@
     "family": "by",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 389,
+    "popularity": 390,
     "trend": [
-      2,
       2,
       3,
       0,
@@ -2577,7 +2576,8 @@
       0,
       1,
       1,
-      1
+      1,
+      0
     ]
   },
   {
@@ -2650,9 +2650,8 @@
     "family": "by-nc-sa",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 348,
+    "popularity": 353,
     "trend": [
-      2,
       2,
       1,
       1,
@@ -2660,10 +2659,11 @@
       35,
       22,
       10,
-      4,
-      16,
+      5,
+      18,
       2,
-      4
+      4,
+      3
     ]
   },
   {
@@ -2698,9 +2698,8 @@
     "family": "by-nc-nd",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 320,
+    "popularity": 322,
     "trend": [
-      1,
       2,
       2,
       2,
@@ -2710,6 +2709,7 @@
       7,
       4,
       1,
+      0,
       0,
       0
     ]
@@ -2747,9 +2747,8 @@
     "family": "by-nc-sa",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 257,
+    "popularity": 258,
     "trend": [
-      1,
       0,
       2,
       9,
@@ -2760,6 +2759,7 @@
       0,
       0,
       0,
+      1,
       1
     ]
   },
@@ -2804,9 +2804,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 247,
+    "popularity": 250,
     "trend": [
-      0,
       2,
       1,
       1,
@@ -2817,7 +2816,8 @@
       1,
       3,
       1,
-      6
+      6,
+      5
     ],
     "blueoak_tier": "Silver"
   },
@@ -2847,7 +2847,6 @@
     "proprietary": false,
     "popularity": 242,
     "trend": [
-      3,
       1,
       1,
       0,
@@ -2858,7 +2857,8 @@
       4,
       1,
       2,
-      1
+      1,
+      0
     ]
   },
   {
@@ -2905,9 +2905,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 225,
+    "popularity": 226,
     "trend": [
-      2,
       1,
       0,
       5,
@@ -2918,7 +2917,8 @@
       1,
       1,
       1,
-      2
+      2,
+      1
     ]
   },
   {
@@ -2965,12 +2965,12 @@
     "trend": [
       0,
       0,
-      0,
       1,
       1,
       27,
       11,
       6,
+      0,
       0,
       0,
       0,
@@ -3021,9 +3021,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 119,
+    "popularity": 120,
     "trend": [
-      0,
       1,
       1,
       0,
@@ -3034,7 +3033,8 @@
       1,
       0,
       0,
-      0
+      0,
+      3
     ],
     "blueoak_tier": "Bronze"
   },
@@ -3083,9 +3083,8 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 108,
+    "popularity": 109,
     "trend": [
-      1,
       0,
       0,
       0,
@@ -3096,7 +3095,8 @@
       2,
       5,
       1,
-      8
+      8,
+      3
     ]
   },
   {
@@ -3654,6 +3654,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "ace-data-0-research-license-agreement",
+    "title": "ACE-Data-0 Research License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "ACERobotics/ACE-Data-0",
+        "url": "https://huggingface.co/datasets/ACERobotics/ACE-Data-0"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "angi-1.0",
     "title": "Acki Nacki Gossip Igniter License 1.0",
     "spdx_id": "",
@@ -3907,7 +3935,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -3916,7 +3945,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -4012,7 +4041,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -4021,7 +4051,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -4206,7 +4236,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -4215,7 +4246,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -4402,7 +4433,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -4419,7 +4450,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -4428,7 +4460,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -4631,7 +4663,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -4641,7 +4674,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "adobe-research-2026",
@@ -4657,7 +4690,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -4666,7 +4700,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -5685,7 +5719,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -6626,7 +6660,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -6635,7 +6670,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -6801,7 +6836,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -6810,7 +6846,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -6854,7 +6890,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "huggingface.co",
@@ -6864,7 +6902,7 @@
     "featured": false,
     "family": "Apple",
     "created_at": "2026-04-20",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "apple-attribution",
@@ -7422,6 +7460,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "appvoid-noncommercial-model-license",
+    "title": "Appvoid Noncommercial Model License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "appvoid/palmer-006",
+        "url": "https://huggingface.co/appvoid/palmer-006"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "aptana-1.0",
     "title": "Aptana Public License 1.0",
     "spdx_id": "",
@@ -7929,7 +7995,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -7938,7 +8005,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -8115,7 +8182,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -8124,7 +8192,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -8467,7 +8535,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -8476,7 +8545,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -8773,6 +8842,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "bananamind-community-license-1-0",
+    "title": "BananaMind Community License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "BananaMind/BananaMind-2-Pro-Preview",
+        "url": "https://huggingface.co/BananaMind/BananaMind-2-Pro-Preview"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "barr",
     "title": "Barr License",
     "spdx_id": "Barr",
@@ -8971,7 +9068,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -8980,7 +9078,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -9107,7 +9205,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -9117,7 +9216,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "bigai-license-agreement",
@@ -9533,7 +9632,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -9542,7 +9642,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -10073,7 +10173,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -10083,7 +10184,7 @@
     ],
     "featured": false,
     "created_at": "2026-06-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "boson-higgs-tts-3-research-and-non-commercial-license-agreement",
@@ -10100,7 +10201,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -10110,7 +10212,7 @@
     ],
     "featured": false,
     "created_at": "2026-07-10",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "boutell-libgd-2021",
@@ -12940,6 +13042,18 @@
       {
         "name": "crbnos/carbon",
         "url": "https://github.com/crbnos/carbon"
+      },
+      {
+        "name": "KnockOutEZ/wigolo",
+        "url": "https://github.com/KnockOutEZ/wigolo"
+      },
+      {
+        "name": "koala73/worldmonitor",
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      {
+        "name": "ogulcancelik/herdr",
+        "url": "https://github.com/ogulcancelik/herdr"
       }
     ],
     "featured": false,
@@ -13796,7 +13910,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -13813,7 +13928,7 @@
       }
     ],
     "created_at": "2001-04-26",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "chameleon-research-2024",
@@ -13829,7 +13944,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -13838,7 +13954,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -14202,7 +14318,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -14212,7 +14329,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "circlestone-labs-nc-1.0",
@@ -14240,6 +14357,34 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "circlestone-labs-non-commercial-license-v1-2",
+    "title": "CircleStone Labs Non-Commercial License v1.2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "TaihoC/Anima-ControlNet-VACE-Depth",
+        "url": "https://huggingface.co/TaihoC/Anima-ControlNet-VACE-Depth"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "cosli",
@@ -14848,7 +14993,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -14857,7 +15003,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -15041,7 +15187,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -15051,7 +15198,7 @@
     ],
     "featured": false,
     "created_at": "2026-05-08",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "commercial-license",
@@ -17942,7 +18089,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Creative Commons"
+      "Creative Commons",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -17951,7 +18099,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -18565,7 +18713,7 @@
     "slug": "curl",
     "title": "curl License",
     "spdx_id": "curl",
-    "osi_approved": false,
+    "osi_approved": true,
     "fsf_libre": null,
     "fsf_tags": [],
     "deprecated": false,
@@ -18584,6 +18732,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/curl.html"
+      },
+      {
+        "name": "opensource.org",
+        "url": "https://opensource.org/license/curl"
       }
     ],
     "featured": false,
@@ -19062,7 +19214,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "LLM Tool"
+      "LLM Tool",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -19072,7 +19225,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-23",
-    "proprietary": false,
+    "proprietary": true,
     "languages": [
       "zh"
     ]
@@ -21775,7 +21928,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -22084,7 +22237,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -22094,7 +22248,7 @@
     ],
     "featured": false,
     "created_at": "2026-05-12",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "engram-quest-plugin-1.0",
@@ -23383,7 +23537,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -23405,7 +23560,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "fair-source-0.9",
@@ -23582,7 +23737,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -23592,7 +23748,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "fatfs",
@@ -23819,7 +23975,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -23829,7 +23986,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "fish-audio-research-2026-03-07",
@@ -23845,7 +24002,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -23854,7 +24012,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -24059,7 +24217,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -24069,7 +24228,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "flux-1-dev-non-commercial-license",
@@ -24086,7 +24245,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -24100,7 +24260,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "flux-1-nc",
@@ -24116,7 +24276,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -24125,7 +24286,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -24953,7 +25114,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "tldrlegal.com",
@@ -24962,7 +25125,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "fsl-1.0-apache-2.0",
@@ -25876,7 +26039,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -25885,7 +26049,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -26100,7 +26264,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -28526,7 +28690,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -28535,7 +28700,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -28897,7 +29062,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -28906,7 +29072,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -29094,6 +29260,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "heartwise-deepcoro-research-use-agreement",
+    "title": "Heartwise DeepCoro Research Use Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "heartwise/DeepCoro",
+        "url": "https://huggingface.co/heartwise/DeepCoro"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "helios-eula",
     "title": "Helios EULA",
     "spdx_id": "",
@@ -29117,7 +29311,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -29134,7 +29328,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -29143,7 +29338,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -30103,7 +30298,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -30112,7 +30308,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -30155,7 +30351,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -30164,7 +30361,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -30181,7 +30378,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -30190,7 +30388,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -30875,6 +31073,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "ibm-codealchemy-data-availability-notice",
+    "title": "IBM CodeAlchemy Data Availability Notice",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "open-alchemy/code-alchemy",
+        "url": "https://huggingface.co/datasets/open-alchemy/code-alchemy"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "ibm-data-server-2011",
     "title": "IBM Data Server License 2011",
     "spdx_id": "",
@@ -31412,7 +31638,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -31422,7 +31649,7 @@
     ],
     "featured": false,
     "created_at": "2026-06-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "idt-notice",
@@ -31464,7 +31691,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "spdx.org",
@@ -31473,7 +31702,7 @@
     ],
     "featured": false,
     "created_at": "2026-05-14",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "morbig-ieee-std-usage",
@@ -32166,7 +32395,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32175,7 +32405,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32192,7 +32422,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32201,7 +32432,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32218,7 +32449,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32227,7 +32459,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32244,7 +32476,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32253,7 +32486,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32349,7 +32582,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32358,7 +32592,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32480,7 +32714,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32489,7 +32724,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -32653,7 +32888,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -32671,7 +32907,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-20",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "intel-royalty-free",
@@ -33023,7 +33259,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -33205,7 +33441,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -33680,7 +33916,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -33689,7 +33926,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -33706,7 +33943,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -33715,7 +33953,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -33732,7 +33970,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -33741,7 +33980,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -34591,7 +34830,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -34600,7 +34840,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -34879,7 +35119,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -34888,7 +35129,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -34942,6 +35183,34 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "kimi-k3-license",
+    "title": "Kimi K3 License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "moonshotai/Kimi-K3",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "knuth-ctan",
@@ -36259,7 +36528,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -36268,7 +36538,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -36750,7 +37020,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -37825,7 +38095,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -37834,7 +38105,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -37912,6 +38183,10 @@
       {
         "name": "Lightricks/LTX-2.3",
         "url": "https://huggingface.co/Lightricks/LTX-2.3"
+      },
+      {
+        "name": "mifinkelson/scena",
+        "url": "https://huggingface.co/mifinkelson/scena"
       }
     ],
     "featured": false,
@@ -38133,7 +38408,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -38143,7 +38419,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "lumisoft-mail-server",
@@ -39001,7 +39277,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -39010,7 +39287,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -39133,7 +39410,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Copyleft"
+      "Copyleft",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -39142,7 +39420,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -39264,7 +39542,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "MCP Server"
+      "MCP Server",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -39274,7 +39553,7 @@
     ],
     "featured": false,
     "created_at": "2026-06-22",
-    "proprietary": false,
+    "proprietary": true,
     "languages": [
       "en",
       "zh"
@@ -40733,7 +41012,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -40742,7 +41022,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -40920,7 +41200,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -40929,7 +41210,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -40946,7 +41227,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -40955,7 +41237,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41079,7 +41361,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41088,7 +41371,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41168,7 +41451,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41212,7 +41495,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41221,7 +41505,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41238,7 +41522,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41247,7 +41532,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41594,7 +41879,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41743,7 +42028,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41752,7 +42038,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41918,7 +42204,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41927,7 +42214,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -41945,7 +42232,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41967,7 +42255,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "ms-research-shared-source",
@@ -41983,7 +42271,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -41992,7 +42281,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -42010,7 +42299,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Copyleft"
+      "Copyleft",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -42019,7 +42309,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -42036,7 +42326,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -42045,7 +42336,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -42281,7 +42572,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -42667,7 +42958,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -42676,7 +42968,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -42693,7 +42985,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -42702,7 +42995,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -43116,7 +43409,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "tldrlegal.com",
@@ -43125,7 +43420,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "minecraft-end-user-license-agreement",
@@ -43141,7 +43436,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "tldrlegal.com",
@@ -43150,7 +43447,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "mmpl-1.0.1",
@@ -43204,6 +43501,34 @@
     "featured": false,
     "created_at": "2026-06-22",
     "proprietary": true
+  },
+  {
+    "slug": "minimax-h3-community-license-agreement",
+    "title": "MiniMax H3 Community License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Merserk/MiniMax-H3-INT4-ConvRot",
+        "url": "https://huggingface.co/Merserk/MiniMax-H3-INT4-ConvRot"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "minimax-mit-variant-2025",
@@ -43272,7 +43597,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -43281,8 +43607,36 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "minimax-music3-community-license",
+    "title": "MiniMax-Music3 Community License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "MiniMaxAI/MiniMax-Music3",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "minimaxai-modified-mit",
@@ -43468,7 +43822,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -43478,7 +43833,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "vince",
@@ -44054,7 +44409,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -44064,7 +44420,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "mmixware",
@@ -44231,7 +44587,7 @@
     "featured": false,
     "family": "modelgo",
     "created_at": "2026-05-01",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "mg-by-nc-2.0",
@@ -44511,7 +44867,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -44520,7 +44877,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -45337,7 +45694,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -45569,7 +45926,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -45579,7 +45937,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "multica-open-source-license",
@@ -45711,7 +46069,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -45720,7 +46079,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-06-21"
   },
   {
@@ -46086,7 +46445,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -46444,6 +46803,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "neutts-open-license-v1-0",
+    "title": "NeuTTS Open License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "neuphonic/neutts-2e",
+        "url": "https://huggingface.co/neuphonic/neutts-2e"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "new-relic",
     "title": "New Relic License",
     "spdx_id": "",
@@ -46651,7 +47038,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -47207,7 +47594,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -47217,7 +47605,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "ncgl-uk-2.0",
@@ -47233,7 +47621,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "spdx.org",
@@ -47242,7 +47632,7 @@
     ],
     "featured": false,
     "created_at": "2026-05-14",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "nc-gov-public-sector-1.0",
@@ -47258,7 +47648,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -47267,7 +47658,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-06-21"
   },
   {
@@ -47284,7 +47675,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -47293,7 +47685,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-06-21"
   },
   {
@@ -47881,7 +48273,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -47890,7 +48283,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -47960,7 +48353,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -47969,7 +48363,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -48110,7 +48504,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -48119,7 +48514,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -48381,7 +48776,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -48390,7 +48786,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -48407,7 +48803,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -48416,7 +48813,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -49301,7 +49698,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -49310,7 +49708,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -49839,7 +50237,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -49848,7 +50247,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -50060,7 +50459,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -50069,7 +50469,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -51274,7 +51674,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -51283,7 +51684,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -51827,7 +52228,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -51836,7 +52238,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -52048,7 +52450,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -52057,7 +52460,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -52100,7 +52503,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -52109,7 +52513,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -52126,7 +52530,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -52135,7 +52540,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -52445,7 +52850,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "tldrlegal.com",
@@ -52454,7 +52861,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-22",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "oracle-code-samples-bsd",
@@ -53371,7 +53778,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -53398,7 +53805,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -53780,7 +54187,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -53789,7 +54197,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -54052,7 +54460,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -54061,7 +54470,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -54471,7 +54880,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -54480,7 +54890,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -55252,7 +55662,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -55261,7 +55672,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -56310,7 +56721,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -56319,7 +56731,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -56508,6 +56920,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "quran-lab-no-profit-license-v1-1",
+    "title": "Quran-Lab No-Profit License v1.1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Muno459/fastconformer-quran-streaming",
+        "url": "https://huggingface.co/Muno459/fastconformer-quran-streaming"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "qwen-2024",
     "title": "Qwen License Agreement 2024",
     "spdx_id": "",
@@ -56549,7 +56989,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -56571,7 +57012,35 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
+  },
+  {
+    "slug": "qwen3-8-max-license",
+    "title": "Qwen3.8-Max License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Qwen/Qwen3.8-2.4T-A95B",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "qwt-1.0",
@@ -56599,6 +57068,34 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "r0b0tlab-distillation-dataset-license-and-terms-notice",
+    "title": "r0b0tlab Distillation Dataset License and Terms Notice",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation",
+        "url": "https://huggingface.co/datasets/r0b0tlab/qwen3.8-max-glm5.2-kimi-k3-distillation"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "rackspace",
@@ -56781,7 +57278,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57033,7 +57530,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57042,7 +57540,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57149,7 +57647,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Copyleft"
+      "Copyleft",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57158,7 +57657,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57176,7 +57675,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Copyleft"
+      "Copyleft",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57185,7 +57685,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57203,7 +57703,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "Copyleft"
+      "Copyleft",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57212,7 +57713,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57256,7 +57757,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57265,7 +57767,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57309,7 +57811,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57318,7 +57821,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57335,7 +57838,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57344,7 +57848,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57361,7 +57865,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57370,7 +57875,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57536,6 +58041,66 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "research-only-rail-model-license",
+    "title": "Research-Only RAIL Model License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "amd/Instella-MoE-16B-A3B-Think",
+        "url": "https://huggingface.co/amd/Instella-MoE-16B-A3B-Think"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
+    "slug": "research-only-rail-m-license",
+    "title": "Research-Only RAIL-M License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "raidium/curia-2",
+        "url": "https://huggingface.co/raidium/curia-2"
+      },
+      {
+        "name": "raidium/Jolia",
+        "url": "https://huggingface.co/raidium/Jolia"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
     "slug": "responsible-ai-enduser-license",
     "title": "Responsible AI End-User License",
     "spdx_id": "",
@@ -57549,7 +58114,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "licenses.ai",
@@ -57558,7 +58125,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-20",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "responsible-ai-source-code-license",
@@ -57687,7 +58254,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57696,7 +58264,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -57767,7 +58335,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -57777,7 +58346,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "ril-2019",
@@ -58574,7 +59143,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -58583,7 +59153,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -58849,7 +59419,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -58859,7 +59430,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "sarvam-ai-research-license",
@@ -58876,7 +59447,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -58886,7 +59458,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "sash",
@@ -59170,7 +59742,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "spdx.org",
@@ -59179,7 +59753,7 @@
     ],
     "featured": false,
     "created_at": "2026-05-14",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "schemereport",
@@ -60137,7 +60711,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -60742,7 +61316,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -60751,7 +61326,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-06-21"
   },
   {
@@ -60778,7 +61353,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -60847,7 +61422,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -60856,7 +61432,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -61245,7 +61821,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61254,7 +61831,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -61461,7 +62038,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61470,7 +62048,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -61543,7 +62121,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "MCP Server"
+      "MCP Server",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61553,7 +62132,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-23",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "sonar-sal-1.0",
@@ -61569,7 +62148,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61578,7 +62158,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -61595,7 +62175,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61604,7 +62185,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -61836,7 +62417,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -61845,7 +62427,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -62276,7 +62858,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -62285,7 +62868,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-27"
   },
   {
@@ -62303,7 +62886,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -62324,7 +62908,7 @@
       }
     ],
     "created_at": "2001-04-26",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "selv1",
@@ -64071,7 +64655,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -64080,7 +64665,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -64939,7 +65524,8 @@
     "limitations": [],
     "tags": [
       "Custom",
-      "HuggingFace"
+      "HuggingFace",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -64949,7 +65535,7 @@
     ],
     "featured": false,
     "created_at": "2026-07-10",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "tabpfn-2-5-license-v1-1",
@@ -65538,7 +66124,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -66256,7 +66842,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -66265,7 +66852,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -69045,7 +69632,9 @@
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [],
+    "tags": [
+      "Proprietary"
+    ],
     "sources": [
       {
         "name": "tldrlegal.com",
@@ -69054,7 +69643,7 @@
     ],
     "featured": false,
     "created_at": "2026-04-19",
-    "proprietary": false
+    "proprietary": true
   },
   {
     "slug": "unsplash",
@@ -70760,7 +71349,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -72332,7 +72921,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -72341,7 +72931,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -72358,7 +72948,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -72367,7 +72958,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   },
   {
@@ -72508,6 +73099,62 @@
     "featured": false,
     "created_at": "2026-04-27",
     "proprietary": true
+  },
+  {
+    "slug": "yandexgpt-5-lite-8b-pretrain-license-agreement",
+    "title": "YandexGPT-5-Lite-8B-Pretrain License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "IlyaGusev/saiga_yandexgpt_8b",
+        "url": "https://huggingface.co/IlyaGusev/saiga_yandexgpt_8b"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
+  },
+  {
+    "slug": "yo-cpt-ru-dataset-license-notice",
+    "title": "YO-CPT-ru Dataset License Notice",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "NCSpeech/YO-CPT-ru",
+        "url": "https://huggingface.co/datasets/NCSpeech/YO-CPT-ru"
+      }
+    ],
+    "featured": false,
+    "proprietary": true,
+    "created_at": "2026-08-15"
   },
   {
     "slug": "yolo-1.0",
@@ -73320,7 +73967,8 @@
     "conditions": [],
     "limitations": [],
     "tags": [
-      "Custom"
+      "Custom",
+      "Proprietary"
     ],
     "sources": [
       {
@@ -73329,7 +73977,7 @@
       }
     ],
     "featured": false,
-    "proprietary": false,
+    "proprietary": true,
     "created_at": "2026-05-29"
   }
 ]

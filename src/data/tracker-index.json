@@ -1,16 +1,106 @@
 {
   "_meta": {
-    "source_hash": "2f4a1a74a70064cc",
+    "source_hash": "df9e504c91731c27",
     "index_schema_version": 4,
-    "generated_at": "2026-07-29T14:32:55.571Z",
-    "total_submissions": 192,
+    "generated_at": "2026-08-15T07:11:15.302Z",
+    "total_submissions": 194,
     "by_status": {
-      "approved": 97,
-      "rejected": 44,
+      "approved": 95,
+      "rejected": 45,
       "withdrawn": 10,
-      "pending": 13,
-      "superseded": 3,
+      "pending": 14,
+      "superseded": 5,
       "legacy": 25
+    }
+  },
+  "license.openmdw-1.1": {
+    "id": "openmdw-license-agreement-1-1",
+    "name": "OpenMDW License Agreement, version 1.1 (\"OpenMDW-1.1\"),",
+    "spdx_id": "LICENSE.OpenMDW-1.1",
+    "status": "pending",
+    "submitter": "Michael Dolan",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 1,
+      "date_range": [
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-08-13",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2026-08-13",
+      "last": "2026-08-14"
+    },
+    "latest_event": {
+      "date": "2026-08-14",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Luis Villa",
+      "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+      "sentiment": "neutral",
+      "point": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials.",
+      "point_zh": "澄清对 MPL 2.0 的解释并非支持 OpenMDW 1.1，且同一理由在 AI 模型材料场景下可能产生不同效果。"
+    }
+  },
+  "openmdw-license-agreement-1-1": {
+    "id": "openmdw-license-agreement-1-1",
+    "name": "OpenMDW License Agreement, version 1.1 (\"OpenMDW-1.1\"),",
+    "spdx_id": "LICENSE.OpenMDW-1.1",
+    "status": "pending",
+    "submitter": "Michael Dolan",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 1,
+      "date_range": [
+        "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-08-13",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2026-08-13",
+      "last": "2026-08-14"
+    },
+    "latest_event": {
+      "date": "2026-08-14",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Luis Villa",
+      "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+      "sentiment": "neutral",
+      "point": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials.",
+      "point_zh": "澄清对 MPL 2.0 的解释并非支持 OpenMDW 1.1，且同一理由在 AI 模型材料场景下可能产生不同效果。"
     }
   },
   "bos-public-license-v1-0-2": {
@@ -2841,6 +2931,39 @@
     },
     "latest_event": null
   },
+  "license-as-this-is-a-translation-of-isc-license-which-is-already-approved": {
+    "id": "license-as-this-is-a-translation-of-isc-license-which-is-already-approved",
+    "name": "Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "",
+      "decision": "2026-06-29",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
   "ai-mit-license": {
     "id": "ai-mit-license",
     "name": "AI-MIT License 1.0",
@@ -3340,7 +3463,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 4,
@@ -3350,12 +3473,12 @@
         "2026-05-19"
       ]
     },
-    "has_vote": false,
+    "has_vote": true,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3385,7 +3508,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 4,
@@ -3395,12 +3518,12 @@
         "2026-05-19"
       ]
     },
-    "has_vote": false,
+    "has_vote": true,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3430,7 +3553,7 @@
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
     "spdx_id": "CNRI-Python",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3440,12 +3563,12 @@
         "2026-03-20"
       ]
     },
-    "has_vote": false,
+    "has_vote": true,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,

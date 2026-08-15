@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "fbb934805fd60f2a",
+    "source_hash": "2bd9af723714d01d",
     "index_schema_version": 2,
-    "generated_at": "2026-06-21T16:08:04.318Z",
+    "generated_at": "2026-08-15T07:15:47.589Z",
     "source": "OSADL Open Source License Checklists",
     "source_url": "https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html",
     "checklist_project_url": "https://www.osadl.org/OSADL-Open-Source-License-Checklists.oss-compliance-lists.0.html",
@@ -14,15 +14,15 @@
     "disclaimer": "The checklists and particularly the copyleft data have been assembled with maximum diligence and care; however, the authors do not warrant nor can be held liable in any way for its correctness, usefulness, merchantibility or fitness for a particular purpose as far as permissible by applicable law. Anyone who uses the information does this on his or her sole responsibility. For any individual legal advice, it is recommended to contact a lawyer.",
     "draft_note": "OSADL states the checklist material is work in progress/draft state; use as informational data, not legal advice.",
     "timestamp": "2026-02-12T16:31:00+0000",
-    "matrix_timestamp": "2026-02-12T16:31:00+0000",
-    "record_count": 121,
-    "matrix_license_count": 121,
+    "matrix_timestamp": "2026-08-04T15:39:00+0000",
+    "record_count": 124,
+    "matrix_license_count": 119,
     "match_counts": {
-      "osadl_records": 121,
-      "atlas_licenses": 2604,
-      "matched": 120,
+      "osadl_records": 124,
+      "atlas_licenses": 2640,
+      "matched": 123,
       "osadl_unmatched": 1,
-      "atlas_unmatched": 594,
+      "atlas_unmatched": 591,
       "osadl_unmatched_ids": [
         "GPL-2.0-only WITH Classpath-exception-2.0"
       ]
@@ -61,7 +61,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -160,7 +160,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -259,7 +259,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -359,7 +359,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -379,7 +379,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "4ccb800bc1e262346c50105989e0d426434cd278a6143307691ea9c3508fd331",
+      "raw_hash": "909317a74ddcd296b6842ad535f9ba47aed902221c373e7416eecc3a4d4722eb",
       "use_cases": [
         "Binary delivery",
         "Network service",
@@ -625,7 +625,7 @@
         "yes": 64,
         "no": 32,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 8
       }
     },
@@ -642,7 +642,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "882edcda3568e93dd25eae2a93b1ab628780744498511d0b3969bbf568e80cf6",
+      "raw_hash": "69ba17fb04392990705cbb872ec52e9d676648be158c91053a1fd4b4ce8546c4",
       "use_cases": [
         "Binary delivery",
         "Network service",
@@ -888,7 +888,7 @@
         "yes": 63,
         "no": 33,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 8
       }
     },
@@ -1000,7 +1000,7 @@
         "prohibitions": 4
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1105,7 +1105,7 @@
         "prohibitions": 4
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1125,7 +1125,7 @@
       "source_disclosure": "No",
       "patent_hints": "Yes",
       "copyleft_clause": null,
-      "raw_hash": "3a539b4c89ae0f4d7064803de00283612ebc0821b62c49be3cd6a5a68b9ce902",
+      "raw_hash": "d67be58e6f90fd26563c1dfffaa2dc0a4233686d5d0acd821684570bc6ec0cf1",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -1232,7 +1232,18 @@
           "condition": "Software modification"
         }
       ],
-      "prohibitions": [],
+      "prohibitions": [
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Binary delivery",
+          "condition": "Service offerings"
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Source code delivery",
+          "condition": "Service offerings"
+        }
+      ],
       "compatibility_samples": {
         "compatible": [],
         "incompatible": [],
@@ -1242,10 +1253,10 @@
         "use_cases": 2,
         "conditions": 3,
         "obligations": 19,
-        "prohibitions": 0
+        "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1265,7 +1276,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "cb9ea45adfbdd0fc88e9993d887db4e91c176cbb6c1a6ee23008ae033ccdc52c",
+      "raw_hash": "c66bb1138a84c9c84a525ba00ebec1970f9c86362af71b3de47ce6529dbbdf26",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -1463,7 +1474,7 @@
         "yes": 57,
         "no": 45,
         "same": 1,
-        "unknown": 18,
+        "unknown": 16,
         "check_dependency": 0
       }
     },
@@ -1620,7 +1631,7 @@
         "prohibitions": 5
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1770,7 +1781,7 @@
         "prohibitions": 5
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1982,7 +1993,7 @@
         "prohibitions": 10
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2055,7 +2066,7 @@
         "prohibitions": 3
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2094,7 +2105,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2144,7 +2155,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2200,7 +2211,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2271,7 +2282,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2342,7 +2353,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2424,7 +2435,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2506,7 +2517,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2600,7 +2611,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2694,7 +2705,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2760,7 +2771,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2827,7 +2838,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2883,7 +2894,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2972,7 +2983,7 @@
         "prohibitions": 5
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -3061,7 +3072,7 @@
         "prohibitions": 5
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -3260,10 +3271,10 @@
         "prohibitions": 6
       },
       "compatibility_summary": {
-        "yes": 88,
-        "no": 30,
-        "same": 1,
-        "unknown": 2,
+        "yes": 0,
+        "no": 0,
+        "same": 0,
+        "unknown": 0,
         "check_dependency": 0
       }
     },
@@ -3479,10 +3490,259 @@
         "prohibitions": 10
       },
       "compatibility_summary": {
-        "yes": 88,
-        "no": 30,
-        "same": 1,
-        "unknown": 2,
+        "yes": 0,
+        "no": 0,
+        "same": 0,
+        "unknown": 0,
+        "check_dependency": 0
+      }
+    },
+    "cc-by-sa-3.0": {
+      "spdx_id": "CC-BY-SA-3.0",
+      "slug": "cc-by-sa-3-0",
+      "source_urls": {
+        "json": "https://www.osadl.org/fileadmin/checklists/jsonlicenses/CC-BY-SA-3.0.json",
+        "json_opt": "https://www.osadl.org/fileadmin/checklists/jsonlicenses-opt/CC-BY-SA-3.0-opt.json",
+        "txt": "https://www.osadl.org/fileadmin/checklists/unreflicenses/CC-BY-SA-3.0.txt"
+      },
+      "has_raw_txt": true,
+      "copyleft": "Yes (restricted)",
+      "source_disclosure": "No",
+      "patent_hints": null,
+      "copyleft_clause": "Yes",
+      "raw_hash": "67eec4a019199bb81c957dc3309468e856564389582584e58df7a6461f0e50b4",
+      "use_cases": [
+        "Image delivery OR Font delivery",
+        "Source code delivery OR Binary delivery"
+      ],
+      "conditions": [
+        "Modification",
+        "Notice From Copyright holder",
+        "Pointer To Copyright notices OR License",
+        "Software modification",
+        "Third-party attribution notice In Copyright notices OR Terms of service OR By Reasonable means",
+        "Title"
+      ],
+      "obligations": [
+        {
+          "text": "Delete Attribution notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Delete Attribution notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Delete Copyright notices",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Delete Copyright notices",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Delete Third-party attribution notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Delete Third-party attribution notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Notice From Copyright holder"
+        },
+        {
+          "text": "Forward Copyright notices",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Forward Copyright notices",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Forward License notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Forward License notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Forward Pointer To Warranty disclaimer",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Forward Reference To Warranty disclaimer",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Grant License",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Grant License",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Provide Attribution notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Provide Attribution notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Provide Modification notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Provide Modification notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Provide OR Reference License text",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Provide OR Reference License text",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Provide OR Reference License text",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Provide OR Reference License text",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Provide Pointer",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Pointer To Copyright notices OR License"
+        },
+        {
+          "text": "Provide Pointer",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Pointer To Copyright notices OR License"
+        }
+      ],
+      "prohibitions": [
+        {
+          "text": "Modify License notice",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Modify License notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Modify Warranty disclaimer",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Modify Warranty disclaimer",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Promote",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Promote",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Restrict Granted rights",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Restrict Granted rights",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Restrict Granted rights For Modified work",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": "Modification"
+        },
+        {
+          "text": "Restrict Granted rights For Modified work",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "Software modification"
+        },
+        {
+          "text": "Sublicense",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Sublicense",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Use",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Use",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Use Technological measures",
+          "use_case": "Image delivery OR Font delivery",
+          "condition": null
+        },
+        {
+          "text": "Use Technological measures",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        }
+      ],
+      "compatibility_samples": {
+        "compatible": [],
+        "incompatible": [],
+        "check_dependency": []
+      },
+      "counts": {
+        "use_cases": 2,
+        "conditions": 6,
+        "obligations": 28,
+        "prohibitions": 18
+      },
+      "compatibility_summary": {
+        "yes": 0,
+        "no": 0,
+        "same": 0,
+        "unknown": 0,
         "check_dependency": 0
       }
     },
@@ -3499,7 +3759,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "b1c06340e8ec9ed6ed40aec09c72292993ea66bd3dd4ad7aed8888420757317b",
+      "raw_hash": "1d094282ed2aa28a8abe87ede4a7afa61511affd29751b0d60d0c96e447becf1",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -3634,7 +3894,7 @@
         "yes": 49,
         "no": 29,
         "same": 1,
-        "unknown": 42,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -3651,7 +3911,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "b77ac4e739e72defd215bbceb85306abf628312b08a30bc0e79739fbeefd9277",
+      "raw_hash": "678ebf298146a0ea20cedb9214710c7b4b4d15425e922933df021d7f7ac23dfd",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -3786,7 +4046,7 @@
         "yes": 50,
         "no": 28,
         "same": 1,
-        "unknown": 42,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -3803,7 +4063,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "22749744c7f086713a40ebe51b80fa3f91db13c41a30cfbf0f03400249726533",
+      "raw_hash": "a6d035f0911bde0652f27b59a48be00af0e51b2f85ca83ea7d2e15da5f5e4f24",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -3811,7 +4071,6 @@
       "conditions": [
         "Commercial distribution",
         "License change",
-        "Service offerings",
         "Software modification"
       ],
       "obligations": [
@@ -3846,9 +4105,19 @@
           "condition": null
         },
         {
+          "text": "Provide License With Notice Of License change",
+          "use_case": "Binary delivery",
+          "condition": "License change"
+        },
+        {
           "text": "Provide Source code",
           "use_case": "Binary delivery",
           "condition": null
+        },
+        {
+          "text": "Restrict Additional terms To Own distribution",
+          "use_case": "Binary delivery",
+          "condition": "License change"
         },
         {
           "text": "Use Identical License obligations",
@@ -3902,15 +4171,15 @@
       },
       "counts": {
         "use_cases": 2,
-        "conditions": 4,
-        "obligations": 10,
+        "conditions": 3,
+        "obligations": 12,
         "prohibitions": 2
       },
       "compatibility_summary": {
         "yes": 52,
         "no": 27,
         "same": 1,
-        "unknown": 41,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -3963,7 +4232,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -4036,7 +4305,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -4176,7 +4445,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -4226,7 +4495,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -4246,7 +4515,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "177bab13faf329ca2d968d36dace2e6ec52df822aae7aa62e6c48cee10f42923",
+      "raw_hash": "7fee44379b13745f0f6afcfb2066e0da5c560f2e752642dd0c03f49d326b499e",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -4254,7 +4523,6 @@
       "conditions": [
         "Commercial distribution",
         "License change",
-        "Service offerings",
         "Software modification"
       ],
       "obligations": [
@@ -4289,9 +4557,19 @@
           "condition": null
         },
         {
+          "text": "Provide License with Notice Of License change",
+          "use_case": "Binary delivery",
+          "condition": "License change"
+        },
+        {
           "text": "Provide Source code",
           "use_case": "Binary delivery",
           "condition": null
+        },
+        {
+          "text": "Restrict Additional terms To Own distribution",
+          "use_case": "Binary delivery",
+          "condition": "License change"
         },
         {
           "text": "Use Identical License obligations",
@@ -4345,15 +4623,15 @@
       },
       "counts": {
         "use_cases": 2,
-        "conditions": 4,
-        "obligations": 10,
+        "conditions": 3,
+        "obligations": 12,
         "prohibitions": 2
       },
       "compatibility_summary": {
         "yes": 55,
         "no": 25,
         "same": 1,
-        "unknown": 40,
+        "unknown": 38,
         "check_dependency": 0
       }
     },
@@ -4370,7 +4648,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "18f89022c37418314d035ebf7c1d86520e97e23d8567e00bd33f5cea921c85c7",
+      "raw_hash": "d5eea1ca960810e9c8ade72b1b44b2d11b1714d0cf88f5789991fd4b15f4e132",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -4556,7 +4834,7 @@
         "yes": 53,
         "no": 27,
         "same": 1,
-        "unknown": 40,
+        "unknown": 38,
         "check_dependency": 0
       }
     },
@@ -4573,7 +4851,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "746259dd4f8fe04ccd3fd6a683acfd5491b88fd0215a9cf9597ca926585165a4",
+      "raw_hash": "d23ef5acee242be313da6359ba8f2221385a77ac61b36087b8e97f4bf662651c",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -4694,6 +4972,16 @@
           "text": "Modify Warranty disclaimer",
           "use_case": "Source code delivery",
           "condition": null
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Binary delivery",
+          "condition": "Service offerings"
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Source code delivery",
+          "condition": "Service offerings"
         },
         {
           "text": "Restrict Granted rights",
@@ -4746,13 +5034,13 @@
         "use_cases": 2,
         "conditions": 2,
         "obligations": 12,
-        "prohibitions": 12
+        "prohibitions": 14
       },
       "compatibility_summary": {
         "yes": 50,
         "no": 42,
         "same": 1,
-        "unknown": 28,
+        "unknown": 26,
         "check_dependency": 0
       }
     },
@@ -4769,7 +5057,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "aa11f4ea9facdd208e76bf32a55370527ca656a8e9cd84dc40c38bcc70c90366",
+      "raw_hash": "6a40a7605da70d24158a94cd8bc56190f43fe60afba96abd011cfb0a83bda969",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -4890,6 +5178,16 @@
           "text": "Modify Warranty disclaimer",
           "use_case": "Source code delivery",
           "condition": null
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Binary delivery",
+          "condition": "Service offerings"
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Source code delivery",
+          "condition": "Service offerings"
         },
         {
           "text": "Restrict Granted rights",
@@ -4944,13 +5242,13 @@
         "use_cases": 2,
         "conditions": 2,
         "obligations": 12,
-        "prohibitions": 12
+        "prohibitions": 14
       },
       "compatibility_summary": {
         "yes": 51,
         "no": 39,
         "same": 1,
-        "unknown": 29,
+        "unknown": 27,
         "check_dependency": 1
       }
     },
@@ -4997,7 +5295,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -5036,7 +5334,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -5081,7 +5379,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -5126,7 +5424,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -5215,7 +5513,7 @@
         "prohibitions": 3
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -5235,7 +5533,7 @@
       "source_disclosure": "Yes",
       "patent_hints": null,
       "copyleft_clause": "Yes",
-      "raw_hash": "8ae3c67d5db94172da4aea1e43ae6bc1e9b50848736318c7bf350b3ffdb8b40f",
+      "raw_hash": "1690627d6a0e1c9b5bcb8d97447ed0dbb79cab24f4f0bd2299ae7e3569d57442",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -5437,7 +5735,7 @@
         "yes": 59,
         "no": 45,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 0
       }
     },
@@ -5454,7 +5752,7 @@
       "source_disclosure": "Yes",
       "patent_hints": null,
       "copyleft_clause": "Yes",
-      "raw_hash": "2cccb00f26d4b79b0915cb927f66472ceccd21844a297eb4fcc116d5b29dd769",
+      "raw_hash": "cedbbfdc540b517876a55e4db0756c420e145a08f589b98b2c81d9a1f87a55d1",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -5663,10 +5961,10 @@
       },
       "compatibility_summary": {
         "yes": 58,
-        "no": 38,
+        "no": 37,
         "same": 1,
-        "unknown": 16,
-        "check_dependency": 8
+        "unknown": 14,
+        "check_dependency": 9
       }
     },
     "gpl-2.0-only": {
@@ -5682,7 +5980,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "9f6cc7e4f27d3783048fbf074c1774e93a55363c084b1ca098838770813f1635",
+      "raw_hash": "d1f0b6d26637966172efdf31faef1b38ea2aba2823a1f9835111b014d05d50c8",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -5890,7 +6188,7 @@
         "yes": 63,
         "no": 36,
         "same": 1,
-        "unknown": 17,
+        "unknown": 15,
         "check_dependency": 4
       }
     },
@@ -5907,7 +6205,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "489bd85496e9d9331d152965d49adb6e428a9e46c136446c50b5a7408d65f966",
+      "raw_hash": "31d7c248cb41179aa2a617ca2b9ac866408187f3ce982ddc49a472d7d3c1c5fe",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -6118,7 +6416,7 @@
         "yes": 60,
         "no": 37,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 7
       }
     },
@@ -6135,7 +6433,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "cee21a064f6469bd4ef8182bb20d275b9c2334f48c959b362269ced959d746db",
+      "raw_hash": "4e1920a508b2f2adf2d6397e033f24ce0d5633d0f2e90cb6a111ec85ecc8ad3e",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -6311,7 +6609,6 @@
         "incompatible": [
           "Apache-1.0",
           "Apache-1.1",
-          "Apache-2.0",
           "BSD-4-Clause",
           "BSD-4-Clause-UC",
           "BSD-4.3TAHOE",
@@ -6324,11 +6621,13 @@
           "PHP-3.01",
           "PSF-2.0",
           "Python-2.0",
-          "XFree86-1.1"
+          "XFree86-1.1",
+          "zlib-acknowledgement"
         ],
         "check_dependency": [
           "AGPL-3.0-only",
-          "AGPL-3.0-or-later"
+          "AGPL-3.0-or-later",
+          "Apache-2.0"
         ]
       },
       "counts": {
@@ -6339,10 +6638,10 @@
       },
       "compatibility_summary": {
         "yes": 66,
-        "no": 36,
+        "no": 35,
         "same": 1,
-        "unknown": 16,
-        "check_dependency": 2
+        "unknown": 14,
+        "check_dependency": 3
       }
     },
     "gpl-3.0-only": {
@@ -6358,7 +6657,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "a7a43be359b37b2c4b050c8035cdb42936ba0672735f8c6d873502013d3dc262",
+      "raw_hash": "36f981a11e5e13e9c899c030aad499973ec92ca69c6cca16d0af25d82a93ecb8",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -6598,7 +6897,7 @@
         "yes": 72,
         "no": 30,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 2
       }
     },
@@ -6615,7 +6914,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "81d681be0c3f2dff8846ff1fcf4e0b4fabb82fb7f1bdc24939f0065461b93f95",
+      "raw_hash": "49e3135d1965717257b3a86e323f394750f8e43e1b57b982c7e9a594e43a7fc3",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -6855,7 +7154,7 @@
         "yes": 70,
         "no": 32,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 2
       }
     },
@@ -6913,7 +7212,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -6963,7 +7262,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7029,7 +7328,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7113,7 +7412,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7253,7 +7552,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7369,7 +7668,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7389,7 +7688,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "8c0503d1fe4b793b1a0549aef791512a9309f74c6e43254a788a7939220fba64",
+      "raw_hash": "cd93667c1c5e9b4c4e4a53a6c569b2663b54755742c25af8b38370871fc16e03",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -7397,7 +7696,6 @@
       "conditions": [
         "Commercial distribution",
         "License change",
-        "Service offerings",
         "Software modification"
       ],
       "obligations": [
@@ -7442,9 +7740,19 @@
           "condition": null
         },
         {
+          "text": "Provide License with Notice Of License change",
+          "use_case": "Binary delivery",
+          "condition": "License change"
+        },
+        {
           "text": "Provide Source code",
           "use_case": "Binary delivery",
           "condition": null
+        },
+        {
+          "text": "Restrict Additional terms To Own distribution",
+          "use_case": "Binary delivery",
+          "condition": "License change"
         },
         {
           "text": "Use Equivalent License obligations",
@@ -7487,15 +7795,15 @@
       },
       "counts": {
         "use_cases": 2,
-        "conditions": 4,
-        "obligations": 12,
+        "conditions": 3,
+        "obligations": 14,
         "prohibitions": 0
       },
       "compatibility_summary": {
         "yes": 51,
         "no": 27,
         "same": 1,
-        "unknown": 42,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -7542,7 +7850,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7598,7 +7906,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7618,7 +7926,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "86c979c4d06125753d7fb7c5d7c5a0d347310883a70f553b3b2d758ce47fc177",
+      "raw_hash": "754c54c97d0cbae37e40e9341c3536cb7707688439fb46dd728d519a73fdd531",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -7879,7 +8187,7 @@
         "yes": 60,
         "no": 40,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 4
       }
     },
@@ -7896,7 +8204,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "ca080788de1dad0f716c5d0e17fc4818156be410ef408303def24953e7eb1d00",
+      "raw_hash": "b472347bf89e1b125be8fb243290db0ba0bf4db61a2cbf3000bd984a8a509707",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -8157,7 +8465,7 @@
         "yes": 59,
         "no": 41,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 4
       }
     },
@@ -8174,7 +8482,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "60aadb33549a8c371ea68e4a894788d5f2793cab42267936cdcc3d40ddd87752",
+      "raw_hash": "e0b7331f220081731d2d94fb757bee849ca5a5879a37fb8de6386d1bbafdebd2",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -8434,7 +8742,7 @@
         "yes": 61,
         "no": 40,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 3
       }
     },
@@ -8451,7 +8759,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "bf5fff669c5627ba211ed24e1849c1b846a94f24923e59ad1c6fd3e96d7cd8a8",
+      "raw_hash": "fac3b19840ac08c2b70f408a4c5266b498c68cb57ed45fe69c0a32dcc24e815d",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -8711,7 +9019,7 @@
         "yes": 60,
         "no": 41,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 3
       }
     },
@@ -8728,7 +9036,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "fe67aedd3d238ea0a9b994ca014e9afe94583dabd019a5edfee5d94b3a204efc",
+      "raw_hash": "1373916b86f139c0f907d9cc60114e1ff92b187e27eba67cdeb32700aa333db7",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -9007,7 +9315,7 @@
         "yes": 65,
         "no": 37,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 2
       }
     },
@@ -9024,7 +9332,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "b3bf250599cb09973026a28a37d3f103859d66d5d44767c599ea80c4632b4904",
+      "raw_hash": "fafdd6794572232cff882827a426cebfc0da39fa388af43dc2b3f7f44ace701f",
       "use_cases": [
         "Binary delivery",
         "Binary delivery Of Combined work",
@@ -9303,7 +9611,7 @@
         "yes": 64,
         "no": 38,
         "same": 1,
-        "unknown": 16,
+        "unknown": 14,
         "check_dependency": 2
       }
     },
@@ -9364,7 +9672,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9438,7 +9746,7 @@
         "prohibitions": 4
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9504,7 +9812,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9570,7 +9878,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9685,7 +9993,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9740,7 +10048,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9833,7 +10141,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9903,7 +10211,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9958,7 +10266,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9997,7 +10305,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -10058,7 +10366,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -10078,7 +10386,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "f16b7845295d6dbdd8b861bd144fbc7eff27a589ccc73ed363941e404c3f7541",
+      "raw_hash": "4a0a3cc85c8e99ca36ec95d395f9a08e0e993d61033eee162022fbba01424289",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -10261,7 +10569,7 @@
         "yes": 50,
         "no": 30,
         "same": 1,
-        "unknown": 40,
+        "unknown": 38,
         "check_dependency": 0
       }
     },
@@ -10278,7 +10586,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "387c7f17e7aebc19cf76df8f042906803337902baa344c505f9b3e0d709479e1",
+      "raw_hash": "8d8693d55b7bd288f4eb58307c32b5ed1f8aecf3d2711c1e17a2c718d29e1574",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -10325,6 +10633,16 @@
           "text": "Modify Legal notices",
           "use_case": "Source code delivery",
           "condition": null
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Binary delivery",
+          "condition": "Service offerings"
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Source code delivery",
+          "condition": "Service offerings"
         },
         {
           "text": "Restrict Granted rights",
@@ -10363,13 +10681,13 @@
         "use_cases": 2,
         "conditions": 3,
         "obligations": 6,
-        "prohibitions": 3
+        "prohibitions": 5
       },
       "compatibility_summary": {
         "yes": 53,
         "no": 27,
         "same": 1,
-        "unknown": 40,
+        "unknown": 38,
         "check_dependency": 0
       }
     },
@@ -10386,7 +10704,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "94fe9edfb13d2be443398ca411921c7649817c7e2b008eb55e6f8d1fbab28e46",
+      "raw_hash": "4749e395806ea02143f69cdcc426d89640becf8e3802f48114da1f94c0b8204a",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -10435,6 +10753,16 @@
           "condition": null
         },
         {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Binary delivery",
+          "condition": "Service offerings"
+        },
+        {
+          "text": "Provide Service offerings On behalf of Other contributors",
+          "use_case": "Source code delivery",
+          "condition": "Service offerings"
+        },
+        {
           "text": "Restrict Granted rights",
           "use_case": "Source code delivery",
           "condition": null
@@ -10471,13 +10799,13 @@
         "use_cases": 2,
         "conditions": 3,
         "obligations": 6,
-        "prohibitions": 3
+        "prohibitions": 5
       },
       "compatibility_summary": {
         "yes": 52,
         "no": 28,
         "same": 1,
-        "unknown": 40,
+        "unknown": 38,
         "check_dependency": 0
       }
     },
@@ -10494,7 +10822,7 @@
       "source_disclosure": "No",
       "patent_hints": "Yes",
       "copyleft_clause": "Questionable",
-      "raw_hash": "da65fcfad51829e085f75d2e44b45585ed56dc8263e372bfc782be46a2a9c8bf",
+      "raw_hash": "74fc5d5df3f3bbfc54504f9b891866110020354da7e65a59dab72e79755abc97",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -10580,7 +10908,7 @@
         "yes": 53,
         "no": 30,
         "same": 1,
-        "unknown": 37,
+        "unknown": 35,
         "check_dependency": 0
       }
     },
@@ -10597,7 +10925,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "a4f03f6e0b3ae5951b3386a853106213f9550c63ac286ba782e5f390a0ebec71",
+      "raw_hash": "00f41609953cfeffbace34e997191213d223bfdf3b10fdb122105feb5cd37e09",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -10705,7 +11033,7 @@
         "yes": 50,
         "no": 29,
         "same": 1,
-        "unknown": 41,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -10811,7 +11139,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -10893,7 +11221,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -10954,7 +11282,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11101,7 +11429,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11183,7 +11511,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11203,7 +11531,7 @@
       "source_disclosure": "No",
       "patent_hints": null,
       "copyleft_clause": "Questionable",
-      "raw_hash": "9cf3cba81983218a75ae4941df0124e51479cb02f0ce058cb0981520f25cee8c",
+      "raw_hash": "c91e4690d76528267caa64281b81ab42c5878d56cf91d4d11449aad7624a255f",
       "use_cases": [
         "Binary delivery",
         "Source code delivery"
@@ -11349,7 +11677,7 @@
         "yes": 52,
         "no": 30,
         "same": 1,
-        "unknown": 38,
+        "unknown": 36,
         "check_dependency": 0
       }
     },
@@ -11366,7 +11694,7 @@
       "source_disclosure": "Yes",
       "patent_hints": "Yes",
       "copyleft_clause": "Yes",
-      "raw_hash": "245473da60010d396a1a75a3c661b4fcd6153e9791ead51e5c96050f83b69e8f",
+      "raw_hash": "09bc3fbcb1048121f7f0de6d4e624b568ec653e3a7136cb7d1e3fd659d7a237a",
       "use_cases": [
         "Binary delivery",
         "Network services",
@@ -11506,7 +11834,7 @@
         "yes": 52,
         "no": 27,
         "same": 1,
-        "unknown": 41,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -11617,7 +11945,7 @@
         "prohibitions": 6
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11672,7 +12000,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11729,7 +12057,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11802,7 +12130,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11874,7 +12202,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11942,7 +12270,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12036,7 +12364,7 @@
         "prohibitions": 4
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12097,7 +12425,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12117,7 +12445,7 @@
       "source_disclosure": "Yes",
       "patent_hints": null,
       "copyleft_clause": "Yes",
-      "raw_hash": "16f8d4b17e8646ae645ca51adee557b8f5475af8b26df77414d6342ec729cbc8",
+      "raw_hash": "777737185a8137d68ded7508b1e7c6d8f385881f79140bf73f4d04a83b3f45bd",
       "use_cases": [
         "Binary delivery",
         "Combined work delivery",
@@ -12276,7 +12604,7 @@
         "yes": 48,
         "no": 30,
         "same": 1,
-        "unknown": 42,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -12339,7 +12667,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12397,7 +12725,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12451,7 +12779,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12505,7 +12833,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12550,7 +12878,115 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
+        "no": 30,
+        "same": 1,
+        "unknown": 2,
+        "check_dependency": 0
+      }
+    },
+    "tcl": {
+      "spdx_id": "TCL",
+      "slug": "tcl",
+      "source_urls": {
+        "json": "https://www.osadl.org/fileadmin/checklists/jsonlicenses/TCL.json",
+        "json_opt": "https://www.osadl.org/fileadmin/checklists/jsonlicenses-opt/TCL-opt.json",
+        "txt": "https://www.osadl.org/fileadmin/checklists/unreflicenses/TCL.txt"
+      },
+      "has_raw_txt": true,
+      "copyleft": "No",
+      "source_disclosure": "No",
+      "patent_hints": null,
+      "copyleft_clause": null,
+      "raw_hash": "6c2a79da4dc8ff8ebd1a997071f7bdaca650d87e35e67882163170195d25a00b",
+      "use_cases": [
+        "Source code delivery OR Binary delivery"
+      ],
+      "conditions": [
+        "License change",
+        "Software modification"
+      ],
+      "obligations": [
+        {
+          "text": "Forward Copyright notices",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Include License notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": "License change"
+        },
+        {
+          "text": "Provide License text",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        }
+      ],
+      "prohibitions": [],
+      "compatibility_samples": {
+        "compatible": [],
+        "incompatible": [],
+        "check_dependency": []
+      },
+      "counts": {
+        "use_cases": 1,
+        "conditions": 2,
+        "obligations": 3,
+        "prohibitions": 0
+      },
+      "compatibility_summary": {
+        "yes": 86,
+        "no": 30,
+        "same": 1,
+        "unknown": 2,
+        "check_dependency": 0
+      }
+    },
+    "tcp-wrappers": {
+      "spdx_id": "TCP-wrappers",
+      "slug": "tcp-wrappers",
+      "source_urls": {
+        "json": "https://www.osadl.org/fileadmin/checklists/jsonlicenses/TCP-wrappers.json",
+        "json_opt": "https://www.osadl.org/fileadmin/checklists/jsonlicenses-opt/TCP-wrappers-opt.json",
+        "txt": "https://www.osadl.org/fileadmin/checklists/unreflicenses/TCP-wrappers.txt"
+      },
+      "has_raw_txt": true,
+      "copyleft": "No",
+      "source_disclosure": "No",
+      "patent_hints": null,
+      "copyleft_clause": null,
+      "raw_hash": "07cb6f6f902bc96983dc26e14bbdb4eed117106b8c00df4e4afeead4d449dd5e",
+      "use_cases": [
+        "Source code delivery OR Binary delivery"
+      ],
+      "conditions": [],
+      "obligations": [
+        {
+          "text": "Provide Copyright notice",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        },
+        {
+          "text": "Provide License text",
+          "use_case": "Source code delivery OR Binary delivery",
+          "condition": null
+        }
+      ],
+      "prohibitions": [],
+      "compatibility_samples": {
+        "compatible": [],
+        "incompatible": [],
+        "check_dependency": []
+      },
+      "counts": {
+        "use_cases": 1,
+        "conditions": 0,
+        "obligations": 2,
+        "prohibitions": 0
+      },
+      "compatibility_summary": {
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12710,7 +13146,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12799,7 +13235,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12865,7 +13301,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12904,7 +13340,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -12959,7 +13395,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13033,7 +13469,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13107,7 +13543,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13176,7 +13612,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13215,7 +13651,7 @@
         "prohibitions": 0
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13271,7 +13707,7 @@
         "prohibitions": 1
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13373,7 +13809,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13442,7 +13878,7 @@
         "prohibitions": 3
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13522,7 +13958,7 @@
         "prohibitions": 3
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13626,7 +14062,7 @@
         "prohibitions": 2
       },
       "compatibility_summary": {
-        "yes": 88,
+        "yes": 86,
         "no": 30,
         "same": 1,
         "unknown": 2,
