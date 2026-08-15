@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "df9e504c91731c27",
+    "source_hash": "5f1f84d31978a060",
     "index_schema_version": 4,
-    "generated_at": "2026-08-15T07:11:15.302Z",
+    "generated_at": "2026-08-15T08:50:41.117Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
@@ -245,11 +245,11 @@
     "status": "pending",
     "submitter": "Subham Mahesh",
     "stats": {
-      "total_messages": 9,
-      "duration_days": 6,
+      "total_messages": 19,
+      "duration_days": 7,
       "date_range": [
         "2026-06-16",
-        "2026-06-22"
+        "2026-06-23"
       ]
     },
     "has_vote": false,
@@ -261,26 +261,26 @@
     },
     "text_meta": {
       "count": 4,
-      "linked_count": 3,
+      "linked_count": 4,
       "duplicate_count": 0,
       "diff_count": 3,
       "series": [],
       "latest_text_date": "2026-06-23"
     },
     "timeline_meta": {
-      "count": 9,
+      "count": 19,
       "first": "2026-06-16",
-      "last": "2026-06-22"
+      "last": "2026-06-23"
     },
     "latest_event": {
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "type": "feedback",
-      "source": "license-review",
+      "source": "license-discuss",
       "sender": "Pamela Chestek",
-      "subject": "[License-review] : [License] Linkumori Free License, Version 1.0 – Submission for OSI Review",
+      "subject": "[License-discuss] Linkumori Free License, Version 1.0 – Submission for OSI Review",
       "sentiment": "neutral",
-      "point": "Pamela Chestek noted that the Linkumori Free License discussion continued on license-discuss.",
-      "point_zh": "Pamela Chestek 表示 Linkumori Free License 的讨论已转到 license-discuss 继续。"
+      "point": "No, you do not need approval or validation from anyone, you  can use any\nlicense you choose. But you have asked for the OSI to approve your\nlicense, which is a different matter altogether.\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\nwww.chesteklegal.com",
+      "point_zh": ""
     }
   },
   "mutualist-license-v1-2": {
@@ -655,10 +655,10 @@
     "status": "pending",
     "submitter": "Carsten Gerlach",
     "stats": {
-      "total_messages": 6,
-      "duration_days": 2974,
+      "total_messages": 23,
+      "duration_days": 3411,
       "date_range": [
-        "2018-03-02",
+        "2016-12-20",
         "2026-04-23"
       ]
     },
@@ -671,15 +671,15 @@
     },
     "text_meta": {
       "count": 9,
-      "linked_count": 6,
+      "linked_count": 9,
       "duplicate_count": 0,
       "diff_count": 8,
       "series": [],
       "latest_text_date": "2026-04-23"
     },
     "timeline_meta": {
-      "count": 6,
-      "first": "2018-03-02",
+      "count": 23,
+      "first": "2016-12-20",
       "last": "2026-04-23"
     },
     "latest_event": {
@@ -745,7 +745,7 @@
     "status": "rejected",
     "submitter": "Vicentte Felipe",
     "stats": {
-      "total_messages": 7,
+      "total_messages": 12,
       "duration_days": 1,
       "date_range": [
         "2026-03-17",
@@ -768,7 +768,7 @@
       "latest_text_date": "2026-03-17"
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 12,
       "first": "2026-03-17",
       "last": "2026-03-18"
     },
@@ -790,11 +790,11 @@
     "status": "rejected",
     "submitter": "Vicentte Felipe",
     "stats": {
-      "total_messages": 5,
-      "duration_days": 0,
+      "total_messages": 12,
+      "duration_days": 1,
       "date_range": [
         "2026-03-17",
-        "2026-03-17"
+        "2026-03-18"
       ]
     },
     "has_vote": true,
@@ -806,60 +806,60 @@
     },
     "text_meta": {
       "count": 1,
-      "linked_count": 0,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
       "latest_text_date": "2026-03-17"
     },
     "timeline_meta": {
-      "count": 5,
+      "count": 12,
       "first": "2026-03-17",
-      "last": "2026-03-17"
+      "last": "2026-03-18"
     },
     "latest_event": {
-      "date": "2026-03-17",
+      "date": "2026-03-18",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Josh Berkus",
-      "subject": "[License-review] License Review: Modified 0BSD License (Maintenance-Required)",
+      "sender": "Carlo Piana",
+      "subject": "[License-review] Official Submission: Modified 0BSD License (Maintenance-Required)",
       "sentiment": "neutral",
       "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
       "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
     }
   },
-  "open-source-copyleft-license-v1-0": {
-    "id": "open-source-copyleft-license-v1-0",
+  "oscl-1.0": {
+    "id": "open-source-copyleft-license-v1-0-2",
     "name": "Open Source Copyleft License (OSCL) v1.0",
-    "spdx_id": "",
+    "spdx_id": "OSCL-1.0",
     "status": "rejected",
     "submitter": "Timofey Zakharcuk",
     "stats": {
-      "total_messages": 4,
-      "duration_days": 2,
+      "total_messages": 7,
+      "duration_days": 3,
       "date_range": [
-        "2026-02-21",
+        "2026-02-20",
         "2026-02-23"
       ]
     },
     "has_vote": true,
     "has_timeline": true,
     "review_dates": {
-      "first_submitted": "2026-02-21",
+      "first_submitted": "2026-02-20",
       "decision": "2026-05-22",
       "decision_status": "rejected"
     },
     "text_meta": {
       "count": 3,
-      "linked_count": 2,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 2,
       "series": [],
       "latest_text_date": "2026-02-21"
     },
     "timeline_meta": {
-      "count": 4,
-      "first": "2026-02-21",
+      "count": 7,
+      "first": "2026-02-20",
       "last": "2026-02-23"
     },
     "latest_event": {
@@ -873,51 +873,6 @@
       "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
     }
   },
-  "oscl-1.0": {
-    "id": "open-source-copyleft-license-v1-0-2",
-    "name": "Open Source Copyleft License (OSCL) v1.0",
-    "spdx_id": "OSCL-1.0",
-    "status": "rejected",
-    "submitter": "Timofey Zakharcuk",
-    "stats": {
-      "total_messages": 3,
-      "duration_days": 0,
-      "date_range": [
-        "2026-02-20",
-        "2026-02-20"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-02-20",
-      "decision": "2026-05-22",
-      "decision_status": "rejected"
-    },
-    "text_meta": {
-      "count": 3,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 2,
-      "series": [],
-      "latest_text_date": "2026-02-21"
-    },
-    "timeline_meta": {
-      "count": 3,
-      "first": "2026-02-20",
-      "last": "2026-02-20"
-    },
-    "latest_event": {
-      "date": "2026-02-20",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
-      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
-    }
-  },
   "open-source-copyleft-license-v1-0-2": {
     "id": "open-source-copyleft-license-v1-0-2",
     "name": "Open Source Copyleft License (OSCL) v1.0",
@@ -925,11 +880,11 @@
     "status": "rejected",
     "submitter": "Timofey Zakharcuk",
     "stats": {
-      "total_messages": 3,
-      "duration_days": 0,
+      "total_messages": 7,
+      "duration_days": 3,
       "date_range": [
         "2026-02-20",
-        "2026-02-20"
+        "2026-02-23"
       ]
     },
     "has_vote": true,
@@ -941,23 +896,68 @@
     },
     "text_meta": {
       "count": 3,
-      "linked_count": 1,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 2,
       "series": [],
       "latest_text_date": "2026-02-21"
     },
     "timeline_meta": {
-      "count": 3,
+      "count": 7,
       "first": "2026-02-20",
-      "last": "2026-02-20"
+      "last": "2026-02-23"
     },
     "latest_event": {
-      "date": "2026-02-20",
+      "date": "2026-02-23",
       "type": "feedback",
       "source": "license-review",
       "sender": "Pamela Chestek",
-      "subject": "[License-review] Submission: Open Source Copyleft License (OSCL) v1.0",
+      "subject": "[License-review] Revised Submission: Open Source Copyleft License (OSCL) v1.0",
+      "sentiment": "neutral",
+      "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
+      "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
+    }
+  },
+  "open-source-copyleft-license-v1-0": {
+    "id": "open-source-copyleft-license-v1-0",
+    "name": "Open Source Copyleft License (OSCL) v1.0",
+    "spdx_id": "",
+    "status": "rejected",
+    "submitter": "Timofey Zakharcuk",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 3,
+      "date_range": [
+        "2026-02-20",
+        "2026-02-23"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-21",
+      "decision": "2026-05-22",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-02-21"
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "2026-02-20",
+      "last": "2026-02-23"
+    },
+    "latest_event": {
+      "date": "2026-02-23",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Revised Submission: Open Source Copyleft License (OSCL) v1.0",
       "sentiment": "neutral",
       "point": "License-review feedback in the Open Source Copyleft License (OSCL) v1.0 thread.",
       "point_zh": "Open Source Copyleft License (OSCL) v1.0 评审线程中的反馈意见。"
@@ -1420,7 +1420,7 @@
     "status": "rejected",
     "submitter": "Patrick Schleizer",
     "stats": {
-      "total_messages": 21,
+      "total_messages": 22,
       "duration_days": 3,
       "date_range": [
         "2019-03-15",
@@ -1443,19 +1443,19 @@
       "latest_text_date": "2019-03-15"
     },
     "timeline_meta": {
-      "count": 21,
+      "count": 22,
       "first": "2019-03-15",
       "last": "2019-03-18"
     },
     "latest_event": {
       "date": "2019-03-18",
-      "type": "feedback",
+      "type": "revision",
       "source": "license-review",
       "sender": "Patrick Schleizer",
-      "subject": "[License-review] For Approval: GPL-3+-with-whonix-additional-terms - GPLv3 with improved, legal protections as per GNU GPL version 3 section 7",
-      "sentiment": "positive",
-      "point": "Accepts the correction and says the next revision will remove the unnecessary \"Notwithstanding\" clause.",
-      "point_zh": "接受这一更正，并表示下一版将删除多余的 “Notwithstanding” 条款。"
+      "subject": "[License-review] [Whonix-devel] For Approval: GPL-3+-with-whonix-additional-terms - GPLv3 with improved, legal protections as per GNU GPL version 3 section 7",
+      "sentiment": "neutral",
+      "point": "I am withdrawing GPL-3+-with-whonix-additional-terms from approval to\nincorporate feedback received in a revision.\n\nAny further comments are appreciated!",
+      "point_zh": ""
     }
   },
   "twente-license": {
@@ -1600,7 +1600,7 @@
     "status": "rejected",
     "submitter": "Elmar Stellnberger",
     "stats": {
-      "total_messages": 88,
+      "total_messages": 90,
       "duration_days": 75,
       "date_range": [
         "2018-09-26",
@@ -1623,7 +1623,7 @@
       "latest_text_date": "2018-09-26"
     },
     "timeline_meta": {
-      "count": 88,
+      "count": 90,
       "first": "2018-09-26",
       "last": "2018-12-10"
     },
@@ -1960,7 +1960,7 @@
     "status": "rejected",
     "submitter": "Niklas Saers",
     "stats": {
-      "total_messages": 22,
+      "total_messages": 25,
       "duration_days": 6,
       "date_range": [
         "2012-09-23",
@@ -1983,7 +1983,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 22,
+      "count": 25,
       "first": "2012-09-23",
       "last": "2012-09-29"
     },
@@ -3286,11 +3286,11 @@
     "status": "withdrawn",
     "submitter": "Kyle Mitchell",
     "stats": {
-      "total_messages": 132,
-      "duration_days": 33,
+      "total_messages": 133,
+      "duration_days": 440,
       "date_range": [
         "2017-09-23",
-        "2017-10-26"
+        "2018-12-07"
       ]
     },
     "has_vote": false,
@@ -3309,19 +3309,19 @@
       "latest_text_date": "2017-10-20"
     },
     "timeline_meta": {
-      "count": 132,
+      "count": 133,
       "first": "2017-09-23",
-      "last": "2017-10-26"
+      "last": "2018-12-07"
     },
     "latest_event": {
-      "date": "2017-10-26",
+      "date": "2018-12-07",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Kyle Mitchell",
-      "subject": "[License-review] For Approval: License Zero Reciprocal Public License",
+      "sender": "Richard Fontana",
+      "subject": "[License-review] License Zero Reciprocal Public License",
       "sentiment": "neutral",
-      "point": "Seeks to confirm understanding of the OSD 6 issue regarding differential treatment of open vs non-open source, and proposes revisiting OSD 9 in context of the forthcoming revision.",
-      "point_zh": "试图确认对 OSD 6 关于开源与非开源差异化处理的理解，并建议在即将发布的修订中重新审视 OSD 9。"
+      "point": "In my most recent License Committee Report I recommended that the OSI\nreject L0-R.\n\nSubsequently, however, at its November board meeting, the OSI chose\nnot to make any decision on L0-R, because it appeared that the license\nsubmitter had effectively withdrawn the license from consideration.\n\nRichard",
+      "point_zh": ""
     }
   },
   "open-logistics-v1-2": {
@@ -3376,7 +3376,7 @@
     "status": "superseded",
     "submitter": "Van Lindsay",
     "stats": {
-      "total_messages": 117,
+      "total_messages": 118,
       "duration_days": 215,
       "date_range": [
         "2019-08-19",
@@ -3399,7 +3399,7 @@
       "latest_text_date": "2019-08-19"
     },
     "timeline_meta": {
-      "count": 117,
+      "count": 118,
       "first": "2019-08-19",
       "last": "2020-03-21"
     },
