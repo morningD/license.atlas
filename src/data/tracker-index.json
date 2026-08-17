@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "51dd9bdf25e31325",
+    "source_hash": "0f2adc6d6371e9ae",
     "index_schema_version": 4,
-    "generated_at": "2026-08-17T05:56:45.020Z",
+    "generated_at": "2026-08-17T10:08:01.479Z",
     "total_submissions": 194,
     "by_status": {
-      "pending": 14,
-      "rejected": 47,
-      "withdrawn": 8,
-      "superseded": 3,
-      "approved": 102,
-      "legacy": 20
+      "approved": 95,
+      "rejected": 43,
+      "withdrawn": 10,
+      "pending": 15,
+      "superseded": 6,
+      "legacy": 25
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 14,
-      "duration_days": 1,
+      "total_messages": 25,
+      "duration_days": 3,
       "date_range": [
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-16"
       ]
     },
     "has_vote": false,
@@ -43,19 +43,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 14,
+      "count": 25,
       "first": "2026-08-13",
-      "last": "2026-08-14"
+      "last": "2026-08-16"
     },
     "latest_event": {
-      "date": "2026-08-14",
+      "date": "2026-08-16",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Luis Villa",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Clarifies that the MPL 2.0 explanation was not an endorsement of OpenMDW 1.1 and that the rationale may operate differently for AI model materials.",
-      "point_zh": "澄清对 MPL 2.0 的解释并非支持 OpenMDW 1.1，且同一理由在 AI 模型材料场景下可能产生不同效果。"
+      "point": "Argues Model Materials might not be released together, creating termination risks for unrelated components, but ultimately states OSD 9 is not relevant.",
+      "point_zh": ""
     }
   },
   "bos-public-license-v1-0-2": {
@@ -234,7 +234,7 @@
       "sender": "Pamela Chestek",
       "subject": "[License-discuss] Linkumori Free License, Version 1.0 – Submission for OSI Review",
       "sentiment": "neutral",
-      "point": "No, you do not need approval or validation from anyone, you  can use any\nlicense you choose. But you have asked for the OSI to approve your\nlicense, which is a different matter altogether.\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\nwww.chesteklegal.com",
+      "point": "Clarifies that while the submitter does not need USA approval to use a license, they have asked for OSI approval which is a different matter.",
       "point_zh": ""
     }
   },
@@ -1282,7 +1282,7 @@
     "id": "open-source-social-network",
     "name": "Open Source Social Network License 1.0",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Informatikon Technologies",
     "stats": {
       "total_messages": 35,
@@ -1297,7 +1297,7 @@
     "review_dates": {
       "first_submitted": "2020-03-25",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -1372,7 +1372,7 @@
     "id": "whonix-gpl-additional-terms",
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "superseded",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1387,7 +1387,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -1409,7 +1409,7 @@
       "sender": "Patrick Schleizer",
       "subject": "[License-review] [Whonix-devel] For Approval: GPL-3+-with-whonix-additional-terms - GPLv3 with improved, legal protections as per GNU GPL version 3 section 7",
       "sentiment": "neutral",
-      "point": "I am withdrawing GPL-3+-with-whonix-additional-terms from approval to\nincorporate feedback received in a revision.\n\nAny further comments are appreciated!",
+      "point": "Withdraws the GPL-3+-with-whonix-additional-terms submission to incorporate feedback into a revised version.",
       "point_zh": ""
     }
   },
@@ -1507,7 +1507,7 @@
     "id": "libpng-v2",
     "name": "PNG Reference Library License v2.0 (libpng v2)",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Cosmin Truta",
     "stats": {
       "total_messages": 14,
@@ -1522,7 +1522,7 @@
     "review_dates": {
       "first_submitted": "2018-11-05",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -1912,7 +1912,7 @@
     "id": "mosl",
     "name": "Modular Open-source Software License (MOSL)",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "pending",
     "submitter": "Niklas Saers",
     "stats": {
       "total_messages": 25,
@@ -1927,7 +1927,7 @@
     "review_dates": {
       "first_submitted": "2012-09-23",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -3275,7 +3275,7 @@
       "sender": "Richard Fontana",
       "subject": "[License-review] License Zero Reciprocal Public License",
       "sentiment": "neutral",
-      "point": "In my most recent License Committee Report I recommended that the OSI\nreject L0-R.\n\nSubsequently, however, at its November board meeting, the OSI chose\nnot to make any decision on L0-R, because it appeared that the license\nsubmitter had effectively withdrawn the license from consideration.\n\nRichard",
+      "point": "Notes that the OSI board made no decision on L0-R because the submitter appears to have effectively withdrawn the license.",
       "point_zh": ""
     }
   },
@@ -3418,7 +3418,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 4,
@@ -3432,8 +3432,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3463,7 +3463,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 4,
@@ -3477,8 +3477,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3508,7 +3508,7 @@
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
     "spdx_id": "CNRI-Python",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3522,8 +3522,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3643,7 +3643,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3657,8 +3657,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3688,7 +3688,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3702,8 +3702,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3733,7 +3733,7 @@
     "id": "wordnet",
     "name": "WordNet",
     "spdx_id": "WordNet",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3747,8 +3747,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-04-30",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5038,7 +5038,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5052,8 +5052,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5083,7 +5083,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5097,8 +5097,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5128,7 +5128,7 @@
     "id": "bsd-3-clause-lbnl",
     "name": "Lawrence Berkeley National Labs BSD Variant License",
     "spdx_id": "BSD-3-Clause-LBNL",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Sebastian Ainslie",
     "stats": {
       "total_messages": 7,
@@ -5142,8 +5142,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-05-16",
-      "decision": "2019-06-14",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -7648,7 +7648,7 @@
     "id": "multics",
     "name": "Multics License",
     "spdx_id": "Multics",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 6,
@@ -7662,8 +7662,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2007-11-14",
-      "decision": "2008-01-08",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
