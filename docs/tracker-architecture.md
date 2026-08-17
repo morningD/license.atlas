@@ -48,13 +48,22 @@ KB（source of truth）→ license-atlas 单向同步：
 
 ## 当前同步快照
 
-- `source_hash`: `3c49eea8b73c810d`
+- `source_hash`: `51dd9bdf25e31325`
 - `index_schema_version`: `4`
-- 174 个 submissions：approved 102 / rejected 37 / withdrawn 4 / pending 8 / superseded 3 / legacy 20
-- 129 个 submissions 可通过 `resolveTrackerEntry()` 映射到 Atlas 正式许可证；45 个仅作为 tracker submission 暴露在首页 `Review Tracker Match` 搜索分组中（其中 AGPL-3.0 / LGPL-3.0 属于 `-only` vs `-or-later` canonical 映射歧义，不应视为真正缺失；严格 tracker-only 约 43 个）
-- 77 个 `board_vote`：minutes 50 / timeline 3 / osi_api 24
-- 50 个含详细票数对象（yes/no/abstain）的 board vote
-- 119 个保守抽取的 `license_texts`，其中 78 个可直接回链 timeline event，15 个重复内容标记 `duplicate_of`，42 个同系列相邻版本 diff
+- 194 个 submissions：approved 102 / rejected 47 / withdrawn 8 / pending 14 / superseded 3 / legacy 20
+- 86 个 submissions 含 `license_texts`（共 208 条记录），其中 155 条可直接回链 timeline event，43 条重复内容标记 `duplicate_of`，76 个同系列相邻版本 diff
+- 89 个 `board_vote`：minutes 61 / timeline 4 / osi_api 24
+- tracker → Atlas 正式许可证的映射数以 `resolveTrackerEntry()` 运行时计算为准（见 `src/lib/tracker-match.ts`），未映射的 submission 即首页 `Review Tracker Match` 搜索分组的 tracker-only 候选
+
+### License text 抽取口径（2026-08 增强）
+
+内联抽取的 marker 列表覆盖 `== Appendix: The license text ==`、`A PLAINTEXT VERSION OF THE LICENSE FOLLOWS:`、`A plain text version of the license is below`、`The full text of the licences follows,`（容忍复数 licences 与行中长引言）、折行 `here is the raw text\nof the license:`、`The license:` 等变体，并容忍 `Copyright ©/(c)/XXXX` 与行首 markdown 强调。marker 切片后若开头不是文档头（提交人签名、问候夹在引出语和正文之间），用 `skipToDocumentStart` 在前 25 行内找到第一个文档头行重切；找不到则放弃该切片。整邮件 `license-inline` 文件在 marker 缺失时回退到锚点隔离（`isolateEmbeddedLicenseStart`）。
+
+所有非附件来源的候选必须通过 `hasLicenseDocumentStart`（首行必须是许可证文档头：Title Case 干净标题/Copyright/grant 开头/全大写标题/CJK 许可证名/markdown 标题），讨论 prose（"Socialtext has adopted..."、"It is almost a word-for-word clone..."）、回复头（`Subject:`/`Betreff:`）和部分引用一律拒绝。标题行判定要求 Title Case（显著词大写率 ≥90%，跳过短词/数字/符号词），防止把含版本号的 prose 句（"The SS Public License version 1.0 was put into production"）当标题。
+
+许可证正文后附带的提交表单（`Rationale:`、`Proliferation category:` 等）会被 `stripTrailingSubmissionForm` 截断（表单在正文后半才截；截后剩余过少说明表单在开头，放弃截断）；提交模板专属标签 ≥2 视为表单邮件直接拒绝（许可证自带元数据头 `License name/Version/Date/License steward` 不算）。alias 匹配前剥除邮件主题前缀（`For approval:` 等）；同一候选文件被多个 submission 挂载时，若某 submission 以主名（name/spdx/id）挂载且通过了全部守卫，纯 alias 挂载会被后置仲裁剥夺——用于防御基础 tracker 的 thread 误合并（如 SSPL 线程挂在 Sun Public License 行上）。
+
+已知残留：相邻版本 thread 歧义（ZPL 2.1 正文挂在 zpl-2-0 行）、ms-rl 行带一条 Ms-PL 文本、CERN OHL v2 三变体共享同一份含三份正文的 display（未按 SPDX 变体切分），属上游 thread 聚类/邮件结构问题；Moritz30、TOPPERS 等提交正文从未进入邮件归档（只有站外链接），无法恢复。
 
 ## Tracker-Only 搜索口径
 
