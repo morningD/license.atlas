@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "0f2adc6d6371e9ae",
+    "source_hash": "f0992dcb7b4a59ce",
     "index_schema_version": 4,
-    "generated_at": "2026-08-17T10:08:01.479Z",
+    "generated_at": "2026-08-17T17:09:46.243Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
@@ -125,12 +125,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 1,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-07-24"
     },
     "timeline_meta": {
       "count": 2,
@@ -305,12 +305,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
+      "count": 2,
+      "linked_count": 1,
+      "duplicate_count": 1,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-05-06"
     },
     "timeline_meta": {
       "count": 2,
@@ -350,12 +350,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 1,
+      "count": 2,
       "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2026-05-02"
+      "latest_text_date": "2026-05-06"
     },
     "timeline_meta": {
       "count": 4,
@@ -395,12 +395,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-04-17"
     },
     "timeline_meta": {
       "count": 4,
@@ -440,12 +440,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-04-17"
     },
     "timeline_meta": {
       "count": 4,
@@ -1210,12 +1210,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2021-05-27"
     },
     "timeline_meta": {
       "count": 44,
@@ -1345,12 +1345,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 1,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2019-10-29"
+      "latest_text_date": "2020-01-27"
     },
     "timeline_meta": {
       "count": 28,
@@ -1525,9 +1525,9 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 0,
+      "count": 4,
+      "linked_count": 4,
+      "duplicate_count": 2,
       "diff_count": 1,
       "series": [],
       "latest_text_date": "2018-11-06"
@@ -1615,10 +1615,10 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
+      "count": 4,
+      "linked_count": 4,
+      "duplicate_count": 1,
+      "diff_count": 2,
       "series": [],
       "latest_text_date": "2018-06-14"
     },
@@ -1795,9 +1795,9 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 4,
-      "linked_count": 4,
-      "duplicate_count": 1,
+      "count": 5,
+      "linked_count": 5,
+      "duplicate_count": 2,
       "diff_count": 2,
       "series": [],
       "latest_text_date": "2013-11-08"
@@ -1840,9 +1840,9 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 0,
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 1,
       "diff_count": 1,
       "series": [],
       "latest_text_date": "2013-11-05"
@@ -2110,12 +2110,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 0,
+      "count": 1,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2010-06-07"
     },
     "timeline_meta": {
       "count": 28,
@@ -2380,10 +2380,10 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2007-03-08"
     },
@@ -2695,12 +2695,12 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 3,
-      "linked_count": 3,
+      "count": 4,
+      "linked_count": 4,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2003-09-25"
+      "latest_text_date": "2003-09-28"
     },
     "timeline_meta": {
       "count": 119,
@@ -3121,12 +3121,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 5,
-      "linked_count": 5,
-      "duplicate_count": 3,
-      "diff_count": 1,
+      "count": 9,
+      "linked_count": 9,
+      "duplicate_count": 5,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2018-12-11"
+      "latest_text_date": "2019-02-17"
     },
     "timeline_meta": {
       "count": 52,
@@ -3166,12 +3166,12 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 1,
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 2,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": "2018-10-16"
+      "latest_text_date": "2018-10-18"
     },
     "timeline_meta": {
       "count": 107,
@@ -3256,10 +3256,10 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 4,
-      "linked_count": 4,
+      "count": 5,
+      "linked_count": 5,
       "duplicate_count": 0,
-      "diff_count": 3,
+      "diff_count": 4,
       "series": [],
       "latest_text_date": "2017-10-20"
     },
@@ -3571,12 +3571,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2025-05-20"
     },
     "timeline_meta": {
       "count": 7,
@@ -3976,10 +3976,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 6,
-      "linked_count": 3,
-      "duplicate_count": 5,
-      "diff_count": 0,
+      "count": 8,
+      "linked_count": 4,
+      "duplicate_count": 6,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2023-11-08"
     },
@@ -4021,10 +4021,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 6,
-      "linked_count": 3,
-      "duplicate_count": 5,
-      "diff_count": 0,
+      "count": 8,
+      "linked_count": 4,
+      "duplicate_count": 6,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2023-11-08"
     },
@@ -4066,10 +4066,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
+      "count": 3,
+      "linked_count": 3,
       "duplicate_count": 0,
-      "diff_count": 1,
+      "diff_count": 2,
       "series": [],
       "latest_text_date": "2023-11-12"
     },
@@ -4111,10 +4111,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
+      "count": 3,
+      "linked_count": 3,
       "duplicate_count": 0,
-      "diff_count": 1,
+      "diff_count": 2,
       "series": [],
       "latest_text_date": "2023-11-12"
     },
@@ -4966,10 +4966,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 8,
+      "count": 11,
       "linked_count": 4,
       "duplicate_count": 2,
-      "diff_count": 5,
+      "diff_count": 8,
       "series": [],
       "latest_text_date": "2020-02-15"
     },
@@ -5011,10 +5011,10 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 8,
+      "count": 11,
       "linked_count": 4,
       "duplicate_count": 2,
-      "diff_count": 5,
+      "diff_count": 8,
       "series": [],
       "latest_text_date": "2020-02-15"
     },
@@ -5146,10 +5146,10 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 1,
+      "count": 3,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 2,
       "series": [],
       "latest_text_date": "2019-06-07"
     },
@@ -5731,12 +5731,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 2,
       "duplicate_count": 1,
-      "diff_count": 1,
+      "diff_count": 2,
       "series": [],
-      "latest_text_date": "2017-03-13"
+      "latest_text_date": "2017-03-27"
     },
     "timeline_meta": {
       "count": 6,
@@ -5776,12 +5776,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -5821,12 +5821,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -5866,12 +5866,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -5911,12 +5911,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -5956,12 +5956,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -6001,12 +6001,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
+      "count": 4,
       "linked_count": 0,
       "duplicate_count": 0,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
       "count": 7,
@@ -6181,12 +6181,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2014-08-29"
     },
     "timeline_meta": {
       "count": 7,
@@ -6226,12 +6226,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2014-08-29"
     },
     "timeline_meta": {
       "count": 7,
@@ -6361,12 +6361,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 3,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 2,
       "series": [],
-      "latest_text_date": "2012-02-27"
+      "latest_text_date": "2013-03-05"
     },
     "timeline_meta": {
       "count": 7,
@@ -6406,12 +6406,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 3,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 2,
       "series": [],
-      "latest_text_date": "2012-02-27"
+      "latest_text_date": "2013-03-05"
     },
     "timeline_meta": {
       "count": 7,
@@ -6451,12 +6451,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
+      "count": 3,
       "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 1,
+      "diff_count": 2,
       "series": [],
-      "latest_text_date": "2011-08-15"
+      "latest_text_date": "2011-12-09"
     },
     "timeline_meta": {
       "count": 4,
@@ -6496,12 +6496,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
+      "count": 3,
       "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 1,
+      "diff_count": 2,
       "series": [],
-      "latest_text_date": "2011-08-15"
+      "latest_text_date": "2011-12-09"
     },
     "timeline_meta": {
       "count": 4,
@@ -9511,12 +9511,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2003-08-19"
     },
     "timeline_meta": {
       "count": 2,
@@ -10591,12 +10591,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 0,
+      "count": 1,
       "linked_count": 0,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2002-03-14"
     },
     "timeline_meta": {
       "count": 7,
@@ -10816,12 +10816,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2001-01-23"
+      "latest_text_date": "2001-01-24"
     },
     "timeline_meta": {
       "count": 4,
@@ -10861,12 +10861,12 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 1,
-      "linked_count": 1,
+      "count": 2,
+      "linked_count": 2,
       "duplicate_count": 0,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": "2001-01-23"
+      "latest_text_date": "2001-01-24"
     },
     "timeline_meta": {
       "count": 4,
