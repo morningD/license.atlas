@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "source_hash": "b84d30662d1a5fa8",
+    "source_hash": "aea3c409f3da813a",
     "index_schema_version": 4,
     "generated_at": "2026-08-20T06:32:34.812Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
-      "rejected": 43,
-      "withdrawn": 10,
-      "pending": 15,
-      "superseded": 6,
+      "rejected": 46,
+      "withdrawn": 9,
+      "pending": 14,
+      "superseded": 5,
       "legacy": 25
     }
   },
@@ -1282,7 +1282,7 @@
     "id": "open-source-social-network",
     "name": "Open Source Social Network License 1.0",
     "spdx_id": "",
-    "status": "withdrawn",
+    "status": "rejected",
     "submitter": "Informatikon Technologies",
     "stats": {
       "total_messages": 35,
@@ -1297,7 +1297,7 @@
     "review_dates": {
       "first_submitted": "2020-03-25",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 1,
@@ -1372,7 +1372,7 @@
     "id": "whonix-gpl-additional-terms",
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
-    "status": "superseded",
+    "status": "rejected",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1387,7 +1387,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -1912,7 +1912,7 @@
     "id": "mosl",
     "name": "Modular Open-source Software License (MOSL)",
     "spdx_id": "",
-    "status": "pending",
+    "status": "rejected",
     "submitter": "Niklas Saers",
     "stats": {
       "total_messages": 25,
@@ -1927,7 +1927,7 @@
     "review_dates": {
       "first_submitted": "2012-09-23",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
