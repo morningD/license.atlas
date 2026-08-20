@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "f0992dcb7b4a59ce",
+    "source_hash": "b84d30662d1a5fa8",
     "index_schema_version": 4,
-    "generated_at": "2026-08-17T17:09:46.243Z",
+    "generated_at": "2026-08-20T06:32:34.812Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 25,
-      "duration_days": 3,
+      "total_messages": 30,
+      "duration_days": 7,
       "date_range": [
         "2026-08-13",
-        "2026-08-16"
+        "2026-08-20"
       ]
     },
     "has_vote": false,
@@ -43,18 +43,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 25,
+      "count": 30,
       "first": "2026-08-13",
-      "last": "2026-08-16"
+      "last": "2026-08-20"
     },
     "latest_event": {
-      "date": "2026-08-16",
+      "date": "2026-08-20",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Argues Model Materials might not be released together, creating termination risks for unrelated components, but ultimately states OSD 9 is not relevant.",
+      "sentiment": "negative",
+      "point": "States that a termination clause triggered by a copyright assertion is problematic.",
       "point_zh": ""
     }
   },

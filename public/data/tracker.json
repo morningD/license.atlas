@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-17T10:07:47.523Z",
+    "generated_at": "2026-08-20T06:32:20.488Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 95,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-17T17:09:46.243Z",
+    "enriched_at": "2026-08-20T06:32:34.812Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-17T17:11:46.298Z",
+      "applied_at": "2026-08-20T06:32:58.318Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -77,7 +77,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-16"
+          "latest_event_date": "2026-08-20"
         },
         "board_vote": {
           "present": false
@@ -95,13 +95,18 @@
           "message_count": 9
         },
         {
+          "name": "Pamela Chestek",
+          "role": "board_member",
+          "message_count": 4
+        },
+        {
           "name": "Michael Dolan",
           "role": "submitter",
           "message_count": 3
         },
         {
-          "name": "Pamela Chestek",
-          "role": "board_member",
+          "name": "McCoy Smith",
+          "role": "reviewer",
           "message_count": 3
         },
         {
@@ -115,7 +120,7 @@
           "message_count": 2
         },
         {
-          "name": "McCoy Smith",
+          "name": "Shuji Sado",
           "role": "reviewer",
           "message_count": 2
         },
@@ -132,6 +137,11 @@
         {
           "name": "Kevin P. Fleming",
           "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Simon Phipps",
+          "role": "board_member",
           "message_count": 1
         }
       ],
@@ -492,18 +502,83 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Argues Model Materials might not be released together, creating termination risks for unrelated components, but ultimately states OSD 9 is not relevant."
+        },
+        {
+          "date": "2026-08-19",
+          "type": "submission",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006150.html",
+          "sender": "Shuji Sado",
+          "snippet": "Acknowledges the concern that the rights-clearance language could be interpreted as a positive obligation and suggests adding clarifying text to ensure no independent duty to obtain clearances is created.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Acknowledges the concern that the rights-clearance language could be interpreted as a positive obligation and suggests adding clarifying text to ensure no independent duty to obtain clearances is created."
+        },
+        {
+          "date": "2026-08-19",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006151.html",
+          "sender": "Shuji Sado",
+          "snippet": "Agrees that treating a single model release as a unit is reasonable but notes the text lacks this definition, suggesting the Model Materials scope be limited to a specific release for clarity.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Agrees that treating a single model release as a unit is reasonable but notes the text lacks this definition, suggesting the Model Materials scope be limited to a specific release for clarity."
+        },
+        {
+          "date": "2026-08-19",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006152.html",
+          "sender": "McCoy Smith",
+          "snippet": "Notes that GPLv3, MPLv2, and CDDLv1.1 allow for termination of copyright rights upon patent assertions, concluding such clauses are not anomalous.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Notes that GPLv3, MPLv2, and CDDLv1.1 allow for termination of copyright rights upon patent assertions, concluding such clauses are not anomalous."
+        },
+        {
+          "date": "2026-08-19",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006153.html",
+          "sender": "Simon Phipps",
+          "snippet": "Argues that no OSI-approved license terminates rights for copyright assertions, asserting that revoking Freedom 0 based on copyright claims fundamentally undermines software freedom.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Argues that no OSI-approved license terminates rights for copyright assertions, asserting that revoking Freedom 0 based on copyright claims fundamentally undermines software freedom."
+        },
+        {
+          "date": "2026-08-20",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006154.html",
+          "sender": "Pamela Chestek",
+          "snippet": "States that a termination clause triggered by a copyright assertion is problematic.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "States that a termination clause triggered by a copyright assertion is problematic."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 25,
+        "total_messages": 30,
         "date_range": [
           "2026-08-13",
-          "2026-08-16"
+          "2026-08-20"
         ],
-        "duration_days": 3,
+        "duration_days": 7,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -513,7 +588,9 @@
           "David Rudin",
           "Luis Villa",
           "Eric Schultz",
-          "Kevin P. Fleming"
+          "Kevin P. Fleming",
+          "Shuji Sado",
+          "Simon Phipps"
         ]
       },
       "status_review": {
@@ -523,24 +600,24 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 1,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for approval on 2026-08-13. Subsequent discussion threads on 2026-08-16 contain feedback and debate from OSI members regarding OSD compliance (specifically discriminatory termination and external material clauses), but no evidence of a final board vote, withdrawal, or formal rejection is present in the provided data. The timeline indicates the review is active with ongoing discussion.",
+        "rationale": "The review is currently pending. The evidence consists of a submission email and subsequent discussion feedback on the license-review list. There is no evidence of a board vote, formal approval, rejection, or withdrawal in the provided data. The latest event dates to late August 2026.",
         "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
+            "supports": "pending",
+            "quote": null
+          },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
-            "supports": "pending",
-            "quote": "null"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:c6b32bd21d8eec8bf22b9299056e17b11802b1f541a43a46bc04bb9419daaec5",
+        "input_hash": "sha256:4a4dd631a9147ee926fb83393e28f8604c9ce9e1d26d7e8d21cdfa93f3ed638d",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
