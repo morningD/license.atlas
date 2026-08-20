@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T06:32:20.488Z",
+    "generated_at": "2026-08-20T08:21:41.611Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 95,
+      "approved": 101,
       "rejected": 46,
       "withdrawn": 9,
       "pending": 14,
-      "superseded": 5,
-      "legacy": 25
+      "superseded": 4,
+      "legacy": 20
     },
     "data_sources": {
       "osi_api": 122,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-20T06:32:34.812Z",
+    "enriched_at": "2026-08-20T08:21:56.106Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,11 +36,11 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-20T07:37:46.840Z",
+      "applied_at": "2026-08-20T08:44:57.127Z",
       "applied": 193,
       "missing": 0,
       "invalid": 1,
-      "manual_review_blocking": 10
+      "manual_review_blocking": 7
     }
   },
   "submissions": [
@@ -600,20 +600,30 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review is currently pending. The evidence consists of a submission email and subsequent discussion feedback on the license-review list. There is no evidence of a board vote, formal approval, rejection, or withdrawal in the provided data. The latest event dates to late August 2026.",
+        "rationale": "The license was formally submitted for approval in August 2026, initiating the review process. Subsequent email threads contain discussion, feedback, and debate regarding specific clauses (such as termination for patent assertions, definition of covered work, and rights-clearance language), but there is no evidence of a board vote, final decision, rejection, or withdrawal. The latest event is feedback on 2026-08-20, indicating the review is still active.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending, rejection_reason: null"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#22",
+            "supports": "pending",
+            "quote": "Questions why termination covers patent and copyright suits but not trade secret suits, and argues the requirement to clear training materials is redundant and creates an impossible positive duty for licensees."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#29",
+            "supports": "pending",
+            "quote": "States that a termination clause triggered by a copyright assertion is problematic."
           }
         ],
         "conflicts": [],
@@ -30217,25 +30227,30 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 0.6,
+        "confidence": 0.8,
         "requires_manual_review": true,
-        "manual_review_reason": "The final status is based on a curated review entry indicating rejection due to OSD violations, but the timeline shows the submitter changed the license to CAL 1.0 and requested closing the approval request, creating a conflict with the 'rejected' status.",
-        "rationale": "The evidence indicates the license was rejected by the OSI due to terms that violated the Open Source Definition (OSD). However, the timeline shows the submitter changed the license to CAL 1.0 and requested the approval request be closed. This suggests the review for the Open Source Social Network License 1.0 was superseded by the adoption of CAL 1.0, which is an approved license. Therefore, the review for the original license was effectively terminated without a formal rejection decision for that specific license. The status is set to 'rejected' based on the curated review entry, but this conflicts with the timeline evidence, requiring manual review.",
+        "manual_review_reason": "Curated RWP entry claims rejection due to OSD violations, but the email timeline ends with the submitter voluntarily switching to CAL and requesting the review be closed. This suggests the review was abandoned/withdrawn rather than formally rejected, though the 'rejected' status is the mapped source status.",
+        "rationale": "The source_status is 'rejected', supported by the curated_rwp evidence entry which states the license was 'Never approved' and violated the OSD. However, the timeline evidence (specifically email #34) shows the submitter explicitly requesting to close the approval request because they switched licenses to CAL 1.0. This sequence of events (submission -> feedback -> submitter switches license -> request to close) strongly implies a withdrawal or abandonment of the specific 'Open Source Social Network License' submission. Despite this, the authoritative curated source marks it as 'rejected'. Given the conflict between the 'rejection' label and the 'withdrawal' action observed in the raw threads, the status is set to 'rejected' to align with the curated source, but flagged for manual review due to the weak/contradictory evidence regarding the mechanism of closure (rejection vs withdrawal).",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:open-source-social-network",
             "supports": "rejected",
             "quote": "Never approved. License terms were found to restrict commercial use and redistribution in ways that violated the OSD."
+          },
+          {
+            "evidence_id": "timeline:open-source-social-network#34",
+            "supports": "withdrawn",
+            "quote": "Announces the license has been changed to CAL 1.0 and requests closing the approval request, thanking the community for their help."
           }
         ],
         "conflicts": [
           {
-            "source": "timeline:open-source-social-network#34",
-            "observed_status": "superseded",
-            "explanation": "The timeline shows the submitter changed the license to CAL 1.0 and requested closing the approval request, indicating the review was superseded by the adoption of an approved license."
+            "source": "mail_event",
+            "observed_status": "withdrawn",
+            "explanation": "Timeline evidence shows the submitter requested to close the approval request after switching to CAL, indicating a withdrawal or abandonment, whereas the curated RWP source lists it as rejected."
           }
         ],
-        "input_hash": "sha256:f90165f3e877d464a031851ffa8c9b2f494b912ecb0e5498a3823ce14297cba2",
+        "input_hash": "sha256:ae2a1cdbb849a024e1ef7729bdbaf8932bea5ab69bc43bdc1e4d1670bceaef37",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
@@ -32080,10 +32095,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 0.8,
+        "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "The curated RWP evidence explicitly states the license was rejected, but the timeline evidence shows the submitter withdrew the submission, which could be interpreted as a superseded status. The conflict between the explicit rejection reason and the withdrawal action requires manual review to determine the final status.",
-        "rationale": "The curated RWP evidence (curated_rwp) explicitly states the license was rejected due to additional terms violating GPLv3's spirit. However, the timeline evidence (timeline:whonix-gpl-additional-terms#21) shows the submitter withdrew the submission. This creates a conflict between an explicit rejection and a withdrawal, which could imply supersession. Given the explicit rejection reason is strong, but the withdrawal is also documented, manual review is required to resolve the discrepancy and determine the most accurate final status.",
+        "manual_review_reason": "The 'curated_rwp' source asserts a rejection, but the provided mail thread evidence suggests the submitter withdrew the submission to incorporate feedback ('timeline:whonix-gpl-additional-terms#21'). This creates a conflict between 'rejected' and 'withdrawn' interpretations of the final outcome.",
+        "rationale": "The authoritative status provided by the 'curated_rwp' source is 'rejected', with a specific reason stating the license was never approved. While the timeline shows a submission and feedback, it also shows the submitter stating an intent to withdraw to revise. However, without explicit OSI board minutes or a final clear resolution in the thread confirming a formal 'withdrawn' state, the curated 'rejected' status is taken as the primary source of truth for the submission's final outcome regarding OSI approval.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:whonix-gpl-additional-terms",
@@ -32092,23 +32107,23 @@
           },
           {
             "evidence_id": "timeline:whonix-gpl-additional-terms#21",
-            "supports": "superseded",
+            "supports": "withdrawn",
             "quote": "Withdraws the GPL-3+-with-whonix-additional-terms submission to incorporate feedback into a revised version."
+          },
+          {
+            "evidence_id": "timeline:whonix-gpl-additional-terms#0",
+            "supports": "pending",
+            "quote": "Submits a GPLv3-plus-additional-terms license under GPL section 7..."
           }
         ],
         "conflicts": [
           {
-            "source": "curated_rwp",
-            "observed_status": "rejected",
-            "explanation": "The curated RWP entry explicitly states the license was rejected due to additional terms violating GPLv3's spirit."
-          },
-          {
-            "source": "timeline",
-            "observed_status": "superseded",
-            "explanation": "The timeline evidence shows the submitter withdrew the submission to incorporate feedback into a revised version, which could indicate a superseded status."
+            "source": "timeline:whonix-gpl-additional-terms#21",
+            "observed_status": "withdrawn",
+            "explanation": "The submitter explicitly stated they were withdrawing the submission to incorporate feedback, which conflicts with the curated 'rejected' status that implies a denial by the OSI rather than a withdrawal by the submitter."
           }
         ],
-        "input_hash": "sha256:3fd8750aeb08845d1e2b801edd323ada09856dd0eb060f5b3190620f3730c1b8",
+        "input_hash": "sha256:ea60e478a7abf9bbc020c6830c648aa7ee2463c32a927ac1d0df12a346633e34",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
@@ -34325,21 +34340,32 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "withdrawn",
-        "confidence": 0.8,
-        "requires_manual_review": false,
-        "manual_review_reason": null,
-        "rationale": "The final status is 'withdrawn' because the evidence shows the submitter, Cosmin Truta, formally withdrew the OSI review request for libpng license v2.0 on 2018-12-17, as stated in the timeline evidence. This withdrawal is the definitive action that determines the review status.",
+        "confidence": 1,
+        "requires_manual_review": true,
+        "manual_review_reason": "There is a conflict between the 'withdrawn' status (supported by the submitter's explicit withdrawal email) and the 'rejected' status (supported by the curated source status and rejection reason). The manual review flag is raised to resolve which status is considered authoritative given the submission ended in withdrawal.",
+        "rationale": "The submitter, Cosmin Truta, formally withdrew the OSI review request for libpng license v2.0 on 2018-12-17, stating that others on the list agreed with the plan to withdraw. This explicit withdrawal action by the submitter confirms the 'withdrawn' status. While the curated source lists a 'rejected' status based on License Committee recommendations, the review process ended with the submitter's withdrawal before any formal board rejection occurred.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:libpng-v2#13",
             "supports": "withdrawn",
             "quote": "Formally withdraws the OSI review request for libpng license v2.0 after others on the list agreed with the proposed plan."
+          },
+          {
+            "evidence_id": "curated_rwp:libpng-v2",
+            "supports": "rejected",
+            "quote": "License Committee recommended no action due to confusing license text combining new and legacy notices. Encouraged withdrawal."
           }
         ],
-        "conflicts": [],
+        "conflicts": [
+          {
+            "source": "source-status",
+            "observed_status": "rejected",
+            "explanation": "The curated source indicates a 'rejected' status with a reason involving committee recommendations, while the primary evidence from the mailing list shows the submitter formally 'withdrew' the request."
+          }
+        ],
         "input_hash": "sha256:7bb4669ff266f5829dc0097bcbf40873b26ffbd995fec189b03c5da1a1af4ccb",
         "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -42544,7 +42570,7 @@
         "confidence": 0.8,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The curated RWP evidence explicitly states the license was 'Never approved' and was rejected due to complexity and potential OSD non-compliance. This directly supports the 'rejected' status. While the timeline shows a submission and discussion, no evidence of approval, withdrawal, or supersession exists, and the feedback indicates the license faced significant criticism. The 'rejected' status is the only one supported by direct evidence of a final decision.",
+        "rationale": "The 'curated_rwp' entry explicitly states the status as 'rejected' with the reason 'Never approved.' This serves as authoritative evidence regarding the final disposition of the submission. The timeline evidence confirms a submission existed and review discussion occurred, but no evidence of approval, withdrawal, or supersession was found. Therefore, the rejected status is confirmed.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:mosl",
@@ -42553,7 +42579,7 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:82196f85f35a3a68302e0f7d26d5e5b43095a5a578e3b2c34cb1eadb0e4fbd2b",
+        "input_hash": "sha256:69a06b8af28b9ff8dad356c070ecd6e4d36f174ea0f9f8c07eae2d3166f17553",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
@@ -86363,33 +86389,28 @@
         "final_status": "superseded",
         "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "The evidence shows the license was superseded by a later version (Python-2.0.1) as per a board vote, but the current_status and rule_status fields in the input indicate 'approved', creating a conflict that requires manual review.",
-        "rationale": "The board vote on 2026-06-29 explicitly states that Python-2.0.1 was approved as Legacy and to supersede the prior version, which is Python-2.0. This indicates that Python-2.0 is no longer the active, approved license and has been replaced. Therefore, its status is superseded.",
+        "manual_review_reason": "While evidence strongly supports a 'superseded' status based on the Board's motion to 'supersede prior version', the OSI API lists the license as 'approved'. This conflict requires manual verification to resolve the discrepancy between the administrative list and the board minutes.",
+        "rationale": "The Board vote on 2026-06-29 explicitly included a motion to 'Supersede prior version' while approving Python-2.0.1. Discussion on the license-review list also suggested marking Python-2.0 as superseded or retired in favor of the 2.0.1 version. Consequently, the correct status for Python-2.0 is 'superseded' by Python-2.0.1.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:python-2-0",
             "supports": "superseded",
             "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version"
+          },
+          {
+            "evidence_id": "timeline:python-2-0#0",
+            "supports": "superseded",
+            "quote": "Proposes legacy approval for Python-2.0.1, asks to mark Python-2.0 as superseded or retired"
           }
         ],
         "conflicts": [
           {
-            "source": "submission.current_status",
-            "observed_status": "superseded",
-            "explanation": "The board vote evidence shows the license was superseded, but the input's current_status field lists 'superseded', which is consistent. However, the rule_status field lists 'approved', which conflicts with the superseded status."
-          },
-          {
-            "source": "submission.rule_status",
-            "observed_status": "superseded",
-            "explanation": "The board vote evidence shows the license was superseded, but the input's rule_status field lists 'approved', which conflicts with the superseded status."
-          },
-          {
-            "source": "status_candidates",
-            "observed_status": "superseded",
-            "explanation": "The status candidates list 'approved' statuses, but the board vote evidence clearly indicates the license was superseded by a later version."
+            "source": "OSI API",
+            "observed_status": "approved",
+            "explanation": "The OSI API lists 'Python License, Version 2' as approved, whereas the Board minutes and discussion indicate it was superseded by version 2.0.1."
           }
         ],
-        "input_hash": "sha256:89e039e905b01c02976ddad89b0ce9449a29e206b8450a2ae54d804bee91df0b",
+        "input_hash": "sha256:3166fbfe381d29e49471d5330ae1b98970191645c4e523c6d0a0ee8db9a59522",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
@@ -86401,7 +86422,7 @@
         "Submission: CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "CNRI-Python",
-      "status": "superseded",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -86922,26 +86943,31 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "superseded",
-        "confidence": 0.9,
+        "final_status": "approved",
+        "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "The board vote explicitly approves the new variant as legacy and marks the prior version as superseded, but the current_status in the submission is 'superseded' while rule_status and source_status are 'approved', creating a conflict between the explicit board decision and the reported status.",
-        "rationale": "The board vote on 2026-06-29 explicitly approves the CNRI-Python-GPL-Compatible as legacy and supersedes the prior version. This directly indicates the CNRI-Python license has been superseded by the new variant. However, the submission's current_status is 'superseded' while rule_status and source_status are 'approved', creating a conflict that requires manual review to reconcile the explicit board decision with the reported status.",
+        "manual_review_reason": "Board minutes explicitly approve 'CNRI-Python-GPL-Compatible' as Legacy and supersede the 'prior version'. This indicates the current submission (CNRI-Python) is superseded, yet external OSI API lists CNRI-Python as approved. Resolution of whether the OSI API needs updating or if the legacy status is the specific classification for the prior version is required.",
+        "rationale": "The board minutes from 2026-06-29 contain a motion to 'approve the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version'. This implies a board decision affecting the license. The 'prior version' refers to the submission 'cnri-python'. A review status of 'superseded' is supported by the text 'Supersede prior version'. However, the 'osi_api' evidence lists 'cnri-python' as 'approved'. Given the explicit instruction to supersede the prior version in the board minutes, 'superseded' is the strongest status derived from the decision evidence, but the conflict with the OSI API necessitates manual review to confirm the transition state.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cnri-python",
             "supports": "superseded",
             "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version"
+          },
+          {
+            "evidence_id": "osi_api:cnri-python",
+            "supports": "approved",
+            "quote": ""
           }
         ],
         "conflicts": [
           {
-            "source": "submission",
-            "observed_status": "superseded",
-            "explanation": "The submission's current_status is 'superseded', but rule_status and source_status are 'approved', conflicting with the board vote that explicitly marks the prior version as superseded."
+            "source": "osi_api",
+            "observed_status": "approved",
+            "explanation": "The OSI API lists CNRI-Python as approved, while the board minutes explicitly state a motion to approve a GPL-compatible variant as Legacy and 'Supersede prior version', implying CNRI-Python (the prior version) should be superseded."
           }
         ],
-        "input_hash": "sha256:01aac451b2627c28cbfe0e1306d7e5e4d130771db995147896ccbbb2ae832bdf",
+        "input_hash": "sha256:937c9c35be0e68d4e73a1b7c803e690df9f0338ed05cf95d77d5a6bebb9e9989",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
@@ -87463,7 +87489,7 @@
         "Legacy license suggestion: CDDL 1.1"
       ],
       "spdx_id": "CDDL-1.1",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -87655,25 +87681,25 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.9,
+        "final_status": "approved",
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence indicates the license is OSI-approved and categorized as 'legacy'. The board vote explicitly approved the license in the legacy category, and the OSI API confirms its approval status. The license predates the modern review process, which is consistent with the 'legacy' status. No evidence contradicts this status.",
+        "rationale": "The OSI Board explicitly approved CDDL 1.1 via a board vote on 2025-07-18, with the motion text indicating approval in the legacy category. The OSI API also lists the license as approved with an approval date matching the board vote.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:cddl-1-1",
-            "supports": "legacy",
-            "quote": "approval_date: 20250718"
+            "evidence_id": "board_vote:cddl-1-1",
+            "supports": "approved",
+            "quote": "Josh moves to approve the CDDL1.1 license in the legacy category"
           },
           {
-            "evidence_id": "board_vote:cddl-1-1",
-            "supports": "legacy",
-            "quote": "motion_text: Josh moves to approve the CDDL1.1 license in the legacy category"
+            "evidence_id": "osi_api:cddl-1-1",
+            "supports": "approved",
+            "quote": "approval_date: 20250718"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:922ac97b182404f1cd270ad5dcbab0a69066f04323b92c78e5e37e88bc0d81bf",
+        "input_hash": "sha256:28139eb137c78ecfc6a6853412bca992ee07b5baba3a9ba8a8487728674f3667",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
@@ -87685,7 +87711,7 @@
         "Legacy license suggestion: WordNet"
       ],
       "spdx_id": "WordNet",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -87868,17 +87894,12 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.9,
-        "requires_manual_review": true,
-        "manual_review_reason": "The evidence supports both 'approved' (board vote, timeline board decision) and 'legacy' (OSI API record, submission predating modern review practices). The final status is 'legacy' due to the submission's classification as a legacy license and the lack of a clear, modern review thread, but this conflicts with strong approval evidence, requiring manual review.",
-        "rationale": "The submission is classified as 'legacy' due to its status as a known, older license with insufficient review-thread evidence. While board vote and timeline evidence strongly support 'approved', the OSI API record and the nature of the submission (predating modern review practices) indicate 'legacy'. This creates a conflict between strong approval evidence and the legacy classification, necessitating manual review.",
+        "final_status": "approved",
+        "confidence": 1,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The WordNet license was explicitly approved by the OSI Board on 2025-07-18. The board vote evidence confirms the motion to approve the license in the legacy category passed. Additionally, a mailing list announcement corroborates this approval. The OSI API also lists the license as approved with the corresponding date.",
         "evidence_refs": [
-          {
-            "evidence_id": "osi_api:wordnet",
-            "supports": "legacy",
-            "quote": "OSI API record: WordNet, approval_date: 20250718"
-          },
           {
             "evidence_id": "board_vote:wordnet",
             "supports": "approved",
@@ -87888,21 +87909,15 @@
             "evidence_id": "timeline:wordnet#4",
             "supports": "approved",
             "quote": "Announces that the WordNet 3.0 License was approved by the Board as an open-source legacy license."
-          }
-        ],
-        "conflicts": [
-          {
-            "source": "board_vote",
-            "observed_status": "approved",
-            "explanation": "Board vote evidence explicitly shows approval, which conflicts with the 'legacy' final status."
           },
           {
-            "source": "timeline:wordnet#4",
-            "observed_status": "approved",
-            "explanation": "Timeline board decision evidence explicitly shows approval, which conflicts with the 'legacy' final status."
+            "evidence_id": "osi_api:wordnet",
+            "supports": "approved",
+            "quote": "approval_date: 20250718"
           }
         ],
-        "input_hash": "sha256:a18e4da4b27612188dcbc0c44f9687899ca4dccef29335f9479c157ae1114de7",
+        "conflicts": [],
+        "input_hash": "sha256:ceae212e9a7a4b2acb8ba861245e90e2dbd4d1a8e0170e0d27eae7ed3d44864d",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
@@ -113151,7 +113166,7 @@
         "For Legacy Approval: OpenLDAP Public License"
       ],
       "spdx_id": "OLDAP-2.8",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -113904,30 +113919,30 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.9,
-        "requires_manual_review": true,
-        "manual_review_reason": "The license is OSI-approved but lacks sufficient review-thread evidence, fitting the 'legacy' category per the board decision.",
-        "rationale": "The license is OSI-approved as a 'legacy' license, but the review thread evidence is insufficient to fully support the status without manual review. The board decision explicitly approved it as a legacy license, and the OSI API lists it as approved, but the review discussion is limited. This fits the 'legacy' category as an approved license with insufficient review-thread evidence.",
+        "final_status": "approved",
+        "confidence": 1,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The OSI Board approved the OpenLDAP Public License Version 2.8 on September 19, 2019, via a formal board vote. The motion explicitly approved the license for inclusion in the 'legacy' category. This approval was subsequently announced on the license-review mailing list on September 23, 2019, and is reflected in the OSI license list.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:oldap-2-8",
-            "supports": "legacy",
-            "quote": "OpenLDAP Public License Version 2.8, spdx_id: OLDAP-2.8, approval_date: 20190920"
-          },
-          {
             "evidence_id": "board_vote:oldap-2-8",
-            "supports": "legacy",
+            "supports": "approved",
             "quote": "That the Board of the Open Source Initiative approve The OpenLDAP Public License Version 2.8, 17 August 2003 as an Open Source Initiative Certified license in the “legacy” category of licenses"
           },
           {
             "evidence_id": "timeline:oldap-2-8#5",
-            "supports": "legacy",
+            "supports": "approved",
             "quote": "Announces that the OSI Board approved the OpenLDAP Public License Version 2.8 by unanimous vote and it will be added to the website."
+          },
+          {
+            "evidence_id": "osi_api:oldap-2-8",
+            "supports": "approved",
+            "quote": "approval_date: 20190920"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:a8704aa7226c770431c3cfafc6647f0eff5624476b595c3bbc21f88a04582bf5",
+        "input_hash": "sha256:eb794ad2e1a994625e9f69263e36a19962ce465d64e38132847a532f4197c948",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
@@ -113939,7 +113954,7 @@
         "For Legacy Approval: LBNL BSD"
       ],
       "spdx_id": "BSD-3-Clause-LBNL",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -114835,17 +114850,12 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.95,
+        "final_status": "approved",
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was approved by the OSI board in 2019 and is categorized as 'legacy'. While the board vote explicitly states 'approved', the OSI API and timeline evidence confirm it was approved specifically as a 'legacy' license. The final status reflects this specific approval category as documented in the evidence.",
+        "rationale": "The license was approved via a board motion on June 13, 2019, and this approval was announced on the license-review list on June 18, 2019. The OSI API also lists it as approved.",
         "evidence_refs": [
-          {
-            "evidence_id": "osi_api:bsd-3-clause-lbnl",
-            "supports": "legacy",
-            "quote": "Lawrence Berkeley National Labs BSD Variant License"
-          },
           {
             "evidence_id": "board_vote:bsd-3-clause-lbnl",
             "supports": "approved",
@@ -114855,10 +114865,15 @@
             "evidence_id": "timeline:bsd-3-clause-lbnl#6",
             "supports": "approved",
             "quote": "Announces that the Board unanimously approved the LBNL BSD license and it will be added to the OSI website in due course."
+          },
+          {
+            "evidence_id": "osi_api:bsd-3-clause-lbnl",
+            "supports": "approved",
+            "quote": null
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:0c7473e9d8487986ce1d8c3ad4bc9cfd52ec84d5c35e8e7c4903ea6ea985ef65",
+        "input_hash": "sha256:b1c5172cefd7b13657ecc04e53fc287f565350056200332a6735a3ebbf1e2064",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
@@ -145261,7 +145276,7 @@
         "FOR APPROVAL: The license of Multics"
       ],
       "spdx_id": "Multics",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -145450,31 +145465,25 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.8,
-        "requires_manual_review": true,
-        "manual_review_reason": "The license is OSI-approved and listed as 'legacy', but the review thread evidence is insufficient to confirm its status, and there is conflicting evidence suggesting 'approved' status from board minutes.",
-        "rationale": "The Multics License is listed as 'legacy' in the OSI API and has a rule status of 'approved'. However, the review thread evidence is insufficient to confirm its status, and there is conflicting evidence from board minutes suggesting 'approved' status. Therefore, the final status is 'legacy' with a manual review required due to the conflicting evidence.",
+        "final_status": "approved",
+        "confidence": 0.95,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The OSI Board minutes from January 8, 2008, explicitly state 'Recommend Legacy approval' for the un-named license used for Multics. The OSI API lists the license as approved. This constitutes authoritative evidence of approval.",
         "evidence_refs": [
-          {
-            "evidence_id": "osi_api:multics",
-            "supports": "legacy",
-            "quote": "Multics License"
-          },
           {
             "evidence_id": "board_vote:multics",
             "supports": "approved",
             "quote": "Discussion of un-named license used for Multics. Recommend Legacy approval"
-          }
-        ],
-        "conflicts": [
+          },
           {
-            "source": "board_vote:multics",
-            "observed_status": "approved",
-            "explanation": "Board minutes recommend 'Legacy approval' for the Multics license, which conflicts with the 'legacy' status."
+            "evidence_id": "osi_api:multics",
+            "supports": "approved",
+            "quote": "Multics License"
           }
         ],
-        "input_hash": "sha256:e0ff36d18ae3041032d464b9e61c9a7e4c6ea6686e65d53ef85faa19ddd9a77f",
+        "conflicts": [],
+        "input_hash": "sha256:c18e0fc69c7bb2e3a5fe4f5f2c7c965bf531420b97cda98b68dff4b11c00bb73",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }

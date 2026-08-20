@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "aea3c409f3da813a",
+    "source_hash": "d2c1c0c6672943c6",
     "index_schema_version": 4,
-    "generated_at": "2026-08-20T06:32:34.812Z",
+    "generated_at": "2026-08-20T08:21:56.106Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 95,
+      "approved": 101,
       "rejected": 46,
       "withdrawn": 9,
       "pending": 14,
-      "superseded": 5,
-      "legacy": 25
+      "superseded": 4,
+      "legacy": 20
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -3508,7 +3508,7 @@
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
     "spdx_id": "CNRI-Python",
-    "status": "superseded",
+    "status": "approved",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3522,8 +3522,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 2,
@@ -3643,7 +3643,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3657,8 +3657,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -3688,7 +3688,7 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3702,8 +3702,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -3733,7 +3733,7 @@
     "id": "wordnet",
     "name": "WordNet",
     "spdx_id": "WordNet",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3747,8 +3747,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-04-30",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -5038,7 +5038,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5052,8 +5052,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-09-20",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -5083,7 +5083,7 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5097,8 +5097,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-09-20",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -5128,7 +5128,7 @@
     "id": "bsd-3-clause-lbnl",
     "name": "Lawrence Berkeley National Labs BSD Variant License",
     "spdx_id": "BSD-3-Clause-LBNL",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Sebastian Ainslie",
     "stats": {
       "total_messages": 7,
@@ -5142,8 +5142,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-05-16",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-06-14",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -7648,7 +7648,7 @@
     "id": "multics",
     "name": "Multics License",
     "spdx_id": "Multics",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 6,
@@ -7662,8 +7662,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2007-11-14",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2008-01-08",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
