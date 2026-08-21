@@ -29,10 +29,10 @@ body {
 }
 
 /* Tracker side panes: keep scrollbars slim in Safari (which renders wide
-   classic scrollbars for nested scroll containers). */
-.pane-scroll {
-  scrollbar-width: thin;
-}
+   classic scrollbars for nested scroll containers).
+   NOTE: do NOT set `scrollbar-width` unconditionally — in Chromium 121+
+   the standard property OVERRIDES ::-webkit-scrollbar, making Edge render
+   its wide classic bar instead of our 6px one. Scope it to Firefox only. */
 .pane-scroll::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -43,6 +43,11 @@ body {
 }
 .pane-scroll::-webkit-scrollbar-track {
   background: transparent;
+}
+@supports not selector(::-webkit-scrollbar) {
+  .pane-scroll {
+    scrollbar-width: thin;
+  }
 }
 
 
