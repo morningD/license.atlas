@@ -28,6 +28,25 @@ body {
   overflow-x: clip;
 }
 
+/* Tracker side panes: keep scrollbars slim in Safari (which renders wide
+   classic scrollbars for nested scroll containers). */
+.pane-scroll {
+  scrollbar-width: thin;
+}
+.pane-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.pane-scroll::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: rgba(113, 113, 122, 0.4);
+}
+.pane-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
 /* Shimmer animation (from modelgo-licenses) */
 @keyframes shimmer {
   0% { background-position: 0% 0; }
