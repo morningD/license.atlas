@@ -65,7 +65,20 @@ No data processing scripts in this project — KB is the single source of truth.
 - 同步：`npm run sync:tracker`（hash 增量检测，幂等）
 - 全链路：`npm run update:tracker [--full]`（调 KB build/enrich/LLM + sync）
 - `npm run build` 已内嵌 sync，每次构建自动检测同步
-- KB 侧构建细节：`docs/OSI-TRACKER.md`；集成架构：`docs/tracker-architecture.md`
+- KB 侧构建细节：`docs/OSI-TRACKER.md`（KB 仓库内，若缺失以 `KB/scripts/*.mjs` 头注释为准）；集成架构：`docs/tracker-architecture.md`
+
+### 状态裁决（LLM）
+
+多源状态矛盾由 glm-4.6 裁决（Anthropic 兼容端点 `open.bigmodel.cn/api/anthropic`，key 读自 opencode 全局配置 provider `zhipuai-coding-plan`）。**增量裁决**：输入 hash 未变的条目直接沿用旧输出，每轮只裁决有新证据的条目。`--allow-manual-pending` 用于通过 7 个已知证据冲突灰色地带。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。
+
+### 自动更新（事件触发，2026-08）
+
+launchd `com.momo.license-atlas.tracker` 每 3 小时 HEAD 探测 OSI 当月归档页：无变化秒退（零 LLM）；有变化则 `opencode run` 非交互跑全链路（质量门全绿才 push，失败回滚）。
+
+- runner 在 `~/.local/share/license-atlas-tracker/`（绕开 macOS 26 对 launchd bash 的 Documents TCC 门控）；仓库 `scripts/auto-update-tracker.sh` + `scripts/check-tracker-updates.mjs` 是 source of truth
+- 非交互 opencode 权限预授权：runner 目录下 `opencode.json`（bash/edit/webfetch/external_directory 全 allow）
+- 日志：`~/.local/share/license-atlas-tracker/logs/auto-update-YYYYMMDD.log`
+- LLM 模型固定 glm-4.6（实测最稳；4.6v/5.3/4.5-air 各有纪律问题，详见 tracker-architecture.md）
 
 ### 更新 tracker Checklist
 

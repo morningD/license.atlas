@@ -27,6 +27,7 @@ KB（source of truth）→ license-atlas 单向同步：
 | `npm run update:tracker -- --month YYYY-MM` | 全链路：刷新 OSI `license-review`/`license-discuss` 邮件归档 + 重建索引 + 发现 pending + 合并 LLM point + build/enrich + point/text coverage checks + sync |
 | `npm run update:tracker -- --since YYYY-MM` | 从指定月份到当前月份增量刷新 |
 | `npm run update:tracker -- --skip-mail` | 跳过邮件抓取，只跑已有 KB 数据的 build/enrich/sync |
+| `launchctl kickstart gui/$(id -u)/com.momo.license-atlas.tracker` | 手动触发一次自动更新探测（每 3h 自动跑，RunAtLoad=true） |
 
 **增量检测**：`sync-tracker.mjs` 对 KB v2 的稳定 payload 做 hash（忽略 `meta.generated_at` / `meta.enriched_at` 这类纯重建时间戳），并同时检查 `tracker-index.json._meta.index_schema_version` 和 `tracker-meta.json` 是否存在。不变则跳过（幂等）；schema 变化或 meta 文件缺失时即使 source hash 不变也会重建 index/meta。
 
@@ -37,6 +38,31 @@ KB（source of truth）→ license-atlas 单向同步：
 **两种更新场景**：
 - KB 先更新 OSI 源 → atlas 下次 `build` 自动识别 hash/schema 变化同步。
 - atlas 一条龙 → `update:tracker` 调 KB 增量刷新邮件和 tracker 数据后同步。
+
+## 状态裁决（status adjudication）
+
+多源数据（OSI API / board minutes / 邮件归档 / curated RWP）互相矛盾时，由 LLM 裁决最终状态。链路：`prepare-status-adjudication.mjs`（生成输入+input_hash）→ `run-status-adjudication.mjs`（调 glm-4.6，Anthropic 兼容端点）→ `apply-status-adjudications.mjs`（校验 hash 后写回 tracker）。
+
+**增量裁决**（2026-08）：prepare 读取已落盘输出的 `{submission_id → input_hash}`，输入未变的条目不进 batch，manifest 记录 `skipped_unchanged`；apply 对 skipped 条目按记录的 hash 复验旧输出后直接沿用。效果：已裁决且无新证据的条目（约 190+ 条）永不重跑 LLM，每轮只裁决真正变化的条目（如 OpenMDW 新邮件）——已定终态不会被无关变化重掷。
+
+**输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
+
+**已知灰色地带**（7 项 manual review，`--allow-manual-pending` 通过保持现状）：curated rejected vs 邮件 withdrawn 冲突（open-source-social-network、whonix、libpng-v2）、curated 唯一证据无邮件佐证（c-fsl-v1-1、cal-beta-2、mosl）、board minutes vs OSI API 冲突（python-2-0、cnri-python）。新增此类冲突时自动更新会拒绝 push 留人工处理。
+
+**Prompt 规则**（v2）：`approve in the legacy category` / `legacy approval` 的 motion 判 **legacy** 而非 approved（2026-08 修复：v1 缺此规则导致 cddl-1.1、wordnet、oldap-2.8、bsd-3-clause-lbnl、multics 被误判 approved）。PROMPT_VERSION 变更会使全部条目 hash 失效，触发一次性全量重裁决迁移。
+
+## 自动更新（事件触发）
+
+每 3 小时 launchd agent（`com.momo.license-atlas.tracker`）探测 OSI Pipermail 当月归档页（HEAD Last-Modified/Content-Length，毫秒级）：
+
+- **无变化** → 短路退出，零 LLM 调用
+- **有变化** → `opencode run` 非交互执行全链路（update:tracker → hash 失效条目重裁决 → 质量门 → sync → lint）
+
+**macOS TCC 约束**：launchd 的 bash 无法访问 `~/Documents`（macOS 26 对 LaunchAgent 的 exec/write 门控），因此 runner 全部放在 `~/.local/share/license-atlas-tracker/`（wrapper 脚本、探测脚本副本、prompt、日志），仓库只作为数据源由 opencode（有独立 TCC 授权）读写。atlas 仓库内的 `scripts/auto-update-tracker.sh` / `scripts/check-tracker-updates.mjs` 是 source of truth，wrapper 每次运行前尝试同步副本（被 TCC 拦截时用已装副本）。
+
+**无人值守权限**：非交互 opencode 无法回答权限弹窗，wrapper 用 `OPENCODE_CONFIG=~/.local/share/license-atlas-tracker/opencode.json` 预授权 bash/edit/webfetch/external_directory（含 KB 目录）。
+
+**安全边界**：质量门全绿 + lint 通过才 commit/push；任何失败或新增证据冲突 → 回滚 tracker 数据文件、日志记录原因、不 push。LLM 模型：`STATUS_ADJUDICATION_MODEL=glm-4.6`、`POINTS_MODEL=glm-4.6`（实测 schema 纪律最好；glm-4.6v 大输入产 malformed JSON，glm-5.3 不守 evidence_refs 对象形状，glm-4.5-air 输出围栏率高且无速度优势）。
 
 ## 组件
 
