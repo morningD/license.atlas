@@ -366,7 +366,7 @@ export function ReviewDetailTabs({
                   </button>
                 </div>
                 {textView === "diff" && selectedDiff ? (
-                  <div className="max-h-[560px] overflow-auto rounded-md bg-white p-3 font-mono text-xs leading-relaxed dark:bg-zinc-950">
+                  <div className="pane-scroll overflow-auto rounded-md bg-white p-3 font-mono text-xs leading-relaxed lg:max-h-[560px] dark:bg-zinc-950">
                     <div className="mb-2 font-sans text-xs text-zinc-500">
                       {selectedDiff.from_label} → {selectedDiff.to_label}
                       {selectedDiff.truncated && <span className="ml-2 rounded bg-amber-100 px-1.5 py-0.5 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">{t("tracker.truncated")}</span>}
@@ -390,7 +390,7 @@ export function ReviewDetailTabs({
                     )}
                   </div>
                 ) : (
-                  <pre className="max-h-[560px] overflow-auto whitespace-pre-wrap break-words rounded-md bg-white p-3 font-mono text-xs leading-relaxed text-zinc-700 dark:bg-zinc-950 dark:text-zinc-200">
+                  <pre className="pane-scroll overflow-auto whitespace-pre-wrap break-words rounded-md bg-white p-3 font-mono text-xs leading-relaxed text-zinc-700 lg:max-h-[560px] dark:bg-zinc-950 dark:text-zinc-200">
                     {selectedTextBody}
                   </pre>
                 )}
