@@ -271,7 +271,7 @@ export function ReviewDetailTabs({
           <p className="rounded-lg border border-amber-200/70 bg-amber-50/70 px-3 py-2 text-xs leading-relaxed text-amber-800 dark:border-amber-900/50 dark:bg-amber-950/25 dark:text-amber-200">
             {t("tracker.licenseTextNotice")}
           </p>
-          <div className="grid gap-3 lg:grid-cols-[minmax(260px,0.85fr)_minmax(0,1.35fr)]">
+          <div className="grid gap-3 lg:grid-cols-[minmax(200px,1fr)_minmax(0,2fr)]">
             <div className="flex max-h-[560px] flex-col gap-2">
             {hasSeriesFilter && (
               <div className="flex flex-wrap gap-1.5 pr-1">

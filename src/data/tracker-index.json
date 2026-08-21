@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "7de3061e9acfd86e",
+    "source_hash": "c9353514f79ea5bd",
     "index_schema_version": 4,
-    "generated_at": "2026-08-20T20:43:25.819Z",
+    "generated_at": "2026-08-21T01:27:12.493Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 84,
@@ -1615,10 +1615,10 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 4,
-      "linked_count": 4,
+      "count": 5,
+      "linked_count": 5,
       "duplicate_count": 1,
-      "diff_count": 2,
+      "diff_count": 3,
       "series": [],
       "latest_text_date": "2018-06-14"
     },
@@ -3076,10 +3076,10 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
+      "count": 3,
+      "linked_count": 3,
       "duplicate_count": 1,
-      "diff_count": 0,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2020-12-26"
     },

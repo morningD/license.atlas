@@ -14,11 +14,11 @@
       "osi_api": 122,
       "mail_clusters": 3433,
       "rejected_withdrawn": 72,
-      "license_text_files": 559,
+      "license_text_files": 539,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-20T20:43:25.819Z",
+    "enriched_at": "2026-08-21T01:27:12.493Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-20T20:43:26.074Z",
+      "applied_at": "2026-08-21T01:27:22.906Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -26110,7 +26110,7 @@
         {
           "id": "submission-of-orivex-syscall-note-license-for-osi-approval--syscall-licensetxt--e661285ef5",
           "filename": "syscall-license.txt",
-          "title": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
+          "title": "ORIVEX SYSCALL NOTE LICENSE (OSN)",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -26136,10 +26136,10 @@
         {
           "id": "submission-of-orivex-syscall-note-license-for-osi-approval--orivex-syscall-notetxt--dd452fa65c",
           "filename": "orivex-syscall-note.txt",
-          "title": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval - Revised Submission (Kartik Pawar)",
+          "title": "SPDX-License-Identifier: Orivex-syscall-note-1.0",
           "version": "",
           "version_label": "",
-          "revision_label": "revised",
+          "revision_label": "",
           "series": "",
           "date": "",
           "source_url": "http://lists.opensource.org/pipermail/license-review_lists.opensource.org/attachments/20251025/a2ad007e/attachment.a",
@@ -26165,7 +26165,7 @@
           "from_text_id": "submission-of-orivex-syscall-note-license-for-osi-approval--license-review-submission-of-orivex-syscall-note-license-osn--140a5092a5",
           "to_text_id": "submission-of-orivex-syscall-note-license-for-osi-approval--syscall-licensetxt--e661285ef5",
           "from_label": "ORIVEX SYSCALL NOTE LICENSE (OSN-1.0)",
-          "to_label": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
+          "to_label": "ORIVEX SYSCALL NOTE LICENSE (OSN)",
           "from_date": "2025-10-20",
           "to_date": "2025-10-20",
           "stats": {
@@ -27301,8 +27301,8 @@
           "series": "",
           "from_text_id": "submission-of-orivex-syscall-note-license-for-osi-approval--syscall-licensetxt--e661285ef5",
           "to_text_id": "submission-of-orivex-syscall-note-license-for-osi-approval--orivex-syscall-notetxt--dd452fa65c",
-          "from_label": "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
-          "to_label": "revised",
+          "from_label": "ORIVEX SYSCALL NOTE LICENSE (OSN)",
+          "to_label": "SPDX-License-Identifier: Orivex-syscall-note-1.0",
           "from_date": "2025-10-20",
           "to_date": "",
           "stats": {
@@ -36361,6 +36361,32 @@
           "event_type": "feedback"
         },
         {
+          "id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf",
+          "filename": "license-review-request-for-approval-for-yetiforce-public-license-30--inline-7cd6cc0f.txt",
+          "title": "YetiForce Public License v3",
+          "version": "3",
+          "version_label": "3",
+          "revision_label": "",
+          "series": "",
+          "date": "2018-06-14",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-June/003380.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-June/003380.html",
+          "message_subject": "[License-review] Request for Approval for YetiForce Public License 3.0",
+          "type": "license-inline-block",
+          "downloaded_at": "",
+          "sha256": "7cd6cc0fbf433b8e9c384c6ef62299462a8fac0328e2970f65079dfe6cafb1bc",
+          "duplicate_of": "",
+          "extraction_confidence": "medium",
+          "text": "YetiForce Public License v3\n\nOpen license based on MIT license\n\nCopyright (c) 2017 YetiForce Sp. z o.o. (Ltd.)\n\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nThe inclusion of abovementioned notices may be in a form of an active link to the license, as stated in Appendix A.\n\n\n\nThe Software used for more than 14 days must be registered via the built-in form.\n\nIf such registration is not possible, further use of the Software requires registration via email (registration at yetiforce.com<mailto:registration at yetiforce.com>), as stated in Appendix B.\n\nThe registration form is properly submitted if sent (data entry to electronic communication system) and if it contains complete and true data.\n\nRegistration is mandatory for any company (registration does not apply to employees of these companies or private individuals) that uses, configures and/or modifies the Software, regardless of whether the entity does it for itself or for other subjects.\n\nData used for registration must be true. All sent registration information, including the company’s name, may be used by YetiForce Sp. z o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics, publication on the website).\n\nYetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other entities and guarantees its confidentiality.\n\n\n\nBy using the Software, it is forbidden to remove or alter the content of the system footer, including referrals to the website and social media of YetiForce Sp. z o.o. (Ltd.).\n\nThe footer can be customized in color as long as the system template changes, provided the readability is maintained.\n\nThe footer of the system may be removed with the prior written consent of YetiForce Sp. z o.o. (Ltd.).\n\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\nAppendix A\n\nMinimal description of the license and copyrights required for PHP files; it can be expanded by phpDocumentator elements unless they modify the license and/or existing copyrights to files:\n\n/**\n\n* @copyright YetiForce Sp. z o.o.\n\n* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>)\n\n*/\n\n\n\nMinimal description of the license and copyrights required for TPL files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n\n\n{*< !-- {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} -- >*}\n\nMinimal description of the license and copyrights required for JS files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n/* {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} */\n\n\n\nAppendix B\n\n\n\nAll data below must be true, it is an obligatory condition of registering the product that results from the license terms.\n\n1. Registration information (data below is used for statistical purposes and may be published on the producer’s website):\n\nFull company name\n\nCountry\n\nCity\n\nCompany size\n\n2. Product key - enter the unique product key that can be seen on the administrator’s panel main page:",
+          "display_text": "YetiForce Public License v3\n\nOpen license based on MIT license\n\nCopyright (c) 2017 YetiForce Sp. z o.o. (Ltd.)\n\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nThe inclusion of abovementioned notices may be in a form of an active link to the license, as stated in Appendix A.\n\n\n\nThe Software used for more than 14 days must be registered via the built-in form.\n\nIf such registration is not possible, further use of the Software requires registration via email (registration at yetiforce.com<mailto:registration at yetiforce.com>), as stated in Appendix B.\n\nThe registration form is properly submitted if sent (data entry to electronic communication system) and if it contains complete and true data.\n\nRegistration is mandatory for any company (registration does not apply to employees of these companies or private individuals) that uses, configures and/or modifies the Software, regardless of whether the entity does it for itself or for other subjects.\n\nData used for registration must be true. All sent registration information, including the company’s name, may be used by YetiForce Sp. z o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics, publication on the website).\n\nYetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other entities and guarantees its confidentiality.\n\n\n\nBy using the Software, it is forbidden to remove or alter the content of the system footer, including referrals to the website and social media of YetiForce Sp. z o.o. (Ltd.).\n\nThe footer can be customized in color as long as the system template changes, provided the readability is maintained.\n\nThe footer of the system may be removed with the prior written consent of YetiForce Sp. z o.o. (Ltd.).\n\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\nAppendix A\n\nMinimal description of the license and copyrights required for PHP files; it can be expanded by phpDocumentator elements unless they modify the license and/or existing copyrights to files:\n\n/**\n\n* @copyright YetiForce Sp. z o.o.\n\n* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>)\n\n*/\n\n\n\nMinimal description of the license and copyrights required for TPL files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n\n\n{*< !-- {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} -- >*}\n\nMinimal description of the license and copyrights required for JS files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n/* {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} */\n\n\n\nAppendix B\n\n\n\nAll data below must be true, it is an obligatory condition of registering the product that results from the license terms.\n\n1. Registration information (data below is used for statistical purposes and may be published on the producer’s website):\n\nFull company name\n\nCountry\n\nCity\n\nCompany size\n\n2. Product key - enter the unique product key that can be seen on the administrator’s panel main page:",
+          "normalized_text": "YetiForce Public License v3\n\nOpen license based on MIT license\n\nCopyright (c) 2017 YetiForce Sp. z o.o. (Ltd.)\n\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nThe inclusion of abovementioned notices may be in a form of an active link to the license, as stated in Appendix A.\n\n\n\nThe Software used for more than 14 days must be registered via the built-in form.\n\nIf such registration is not possible, further use of the Software requires registration via email (registration at yetiforce.com<mailto:registration at yetiforce.com>), as stated in Appendix B.\n\nThe registration form is properly submitted if sent (data entry to electronic communication system) and if it contains complete and true data.\n\nRegistration is mandatory for any company (registration does not apply to employees of these companies or private individuals) that uses, configures and/or modifies the Software, regardless of whether the entity does it for itself or for other subjects.\n\nData used for registration must be true. All sent registration information, including the company’s name, may be used by YetiForce Sp. z o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics, publication on the website).\n\nYetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other entities and guarantees its confidentiality.\n\n\n\nBy using the Software, it is forbidden to remove or alter the content of the system footer, including referrals to the website and social media of YetiForce Sp. z o.o. (Ltd.).\n\nThe footer can be customized in color as long as the system template changes, provided the readability is maintained.\n\nThe footer of the system may be removed with the prior written consent of YetiForce Sp. z o.o. (Ltd.).\n\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n\n\nAppendix A\n\nMinimal description of the license and copyrights required for PHP files; it can be expanded by phpDocumentator elements unless they modify the license and/or existing copyrights to files:\n\n/**\n\n* @copyright YetiForce Sp. z o.o.\n\n* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>)\n\n*/\n\n\n\nMinimal description of the license and copyrights required for TPL files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n\n\n{*< !-- {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} -- >*}\n\nMinimal description of the license and copyrights required for JS files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:\n\n/* {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} */\n\n\n\nAppendix B\n\n\n\nAll data below must be true, it is an obligatory condition of registering the product that results from the license terms.\n\n1. Registration information (data below is used for statistical purposes and may be published on the producer’s website):\n\nFull company name\n\nCountry\n\nCity\n\nCompany size\n\n2. Product key - enter the unique product key that can be seen on the administrator’s panel main page:",
+          "content_preview": "YetiForce Public License v3\n\nOpen license based on MIT license\n\nCopyright (c) 2017 YetiForce Sp. z o.o. (Ltd.)\n\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation fil",
+          "size": 4656,
+          "match_score": 1,
+          "event_index": 3,
+          "event_type": "feedback"
+        },
+        {
           "id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--fcf4291e06",
           "filename": "license-review-request-for-approval-for-yetiforce-public-license-30--inline-fcf4291e.txt",
           "title": "*YetiForce Public License v3*",
@@ -37238,25 +37264,51 @@
           ]
         },
         {
-          "id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--8d15e65433--to--yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--fcf4291e06",
+          "id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--8d15e65433--to--yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf",
           "series": "",
           "from_text_id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--8d15e65433",
-          "to_text_id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--fcf4291e06",
+          "to_text_id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf",
           "from_label": "3",
           "to_label": "3",
           "from_date": "2018-06-14",
           "to_date": "2018-06-14",
           "stats": {
-            "added": 13,
-            "removed": 8,
-            "unchanged": 156
+            "added": 26,
+            "removed": 105,
+            "unchanged": 59
           },
           "too_large": false,
           "truncated": false,
           "hunks": [
             {
-              "old_start": 33,
-              "new_start": 33,
+              "old_start": 1,
+              "new_start": 1,
+              "lines": [
+                {
+                  "type": "remove",
+                  "text": "*YetiForce Public License v3*"
+                },
+                {
+                  "type": "add",
+                  "text": "YetiForce Public License v3"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Open license based on MIT license"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 7,
+              "new_start": 7,
               "lines": [
                 {
                   "type": "context",
@@ -37264,10 +37316,142 @@
                 },
                 {
                   "type": "context",
-                  "text": "Registration is mandatory for any company (registration does not apply to"
+                  "text": ""
                 },
                 {
                   "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Permission is hereby granted, free of charge, to any person obtaining a"
+                },
+                {
+                  "type": "remove",
+                  "text": "copy of this software and associated documentation files (the \"Software\"),"
+                },
+                {
+                  "type": "remove",
+                  "text": "to deal in the Software without restriction, including without limitation"
+                },
+                {
+                  "type": "remove",
+                  "text": "the rights to use, copy, modify, merge, publish, distribute, sublicense,"
+                },
+                {
+                  "type": "remove",
+                  "text": "and/or sell copies of the Software, and to permit persons to whom the"
+                },
+                {
+                  "type": "remove",
+                  "text": "Software is furnished to do so, subject to the following conditions:"
+                },
+                {
+                  "type": "add",
+                  "text": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The above copyright notice and this permission notice shall be included in"
+                },
+                {
+                  "type": "remove",
+                  "text": "all copies or substantial portions of the Software."
+                },
+                {
+                  "type": "add",
+                  "text": "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The inclusion of abovementioned notices may be in a form of an active link"
+                },
+                {
+                  "type": "remove",
+                  "text": "to the license, as stated in Appendix A."
+                },
+                {
+                  "type": "add",
+                  "text": "The inclusion of abovementioned notices may be in a form of an active link to the license, as stated in Appendix A."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The Software used for more than 14 days must be registered via the"
+                },
+                {
+                  "type": "remove",
+                  "text": "built-in form."
+                },
+                {
+                  "type": "add",
+                  "text": "The Software used for more than 14 days must be registered via the built-in form."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "If such registration is not possible, further use of the Software requires"
+                },
+                {
+                  "type": "remove",
+                  "text": "registration via email (registration at yetiforce.com), as stated in"
+                },
+                {
+                  "type": "remove",
+                  "text": "Appendix B."
+                },
+                {
+                  "type": "add",
+                  "text": "If such registration is not possible, further use of the Software requires registration via email (registration at yetiforce.com<mailto:registration at yetiforce.com>), as stated in Appendix B."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The registration form is properly submitted if sent (data entry to"
+                },
+                {
+                  "type": "remove",
+                  "text": "electronic communication system) and if it contains complete and true data."
+                },
+                {
+                  "type": "add",
+                  "text": "The registration form is properly submitted if sent (data entry to electronic communication system) and if it contains complete and true data."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Registration is mandatory for any company (registration does not apply to"
+                },
+                {
+                  "type": "remove",
                   "text": "employees of these companies or private individuals) that uses, configures"
                 },
                 {
@@ -37280,71 +37464,99 @@
                 },
                 {
                   "type": "add",
-                  "text": "and/or modifies the Software, regardless of whether the entity does it for"
-                },
-                {
-                  "type": "add",
-                  "text": "itself or for other subjects."
+                  "text": "Registration is mandatory for any company (registration does not apply to employees of these companies or private individuals) that uses, configures and/or modifies the Software, regardless of whether the entity does it for itself or for other subjects."
                 },
                 {
                   "type": "context",
                   "text": ""
                 },
                 {
-                  "type": "context",
+                  "type": "remove",
                   "text": "Data used for registration must be true. All sent registration"
                 },
                 {
-                  "type": "context",
+                  "type": "remove",
                   "text": "information, including the company’s name, may be used by YetiForce Sp. z"
-                }
-              ]
-            },
-            {
-              "old_start": 47,
-              "new_start": 47,
-              "lines": [
+                },
+                {
+                  "type": "remove",
+                  "text": "o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics,"
+                },
+                {
+                  "type": "remove",
+                  "text": "publication on the website)."
+                },
+                {
+                  "type": "add",
+                  "text": "Data used for registration must be true. All sent registration information, including the company’s name, may be used by YetiForce Sp. z o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics, publication on the website)."
+                },
                 {
                   "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "YetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other"
+                },
+                {
+                  "type": "remove",
                   "text": "entities and guarantees its confidentiality."
                 },
                 {
-                  "type": "context",
-                  "text": ""
-                },
-                {
-                  "type": "context",
-                  "text": ""
-                },
-                {
                   "type": "add",
+                  "text": "YetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other entities and guarantees its confidentiality."
+                },
+                {
+                  "type": "context",
                   "text": ""
                 },
                 {
                   "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
                   "text": "By using the Software, it is forbidden to remove or alter the content of"
                 },
                 {
-                  "type": "context",
+                  "type": "remove",
                   "text": "the system footer, including referrals to the website and social media of"
                 },
                 {
-                  "type": "context",
-                  "text": "YetiForce Sp. z o.o. (Ltd.)."
-                }
-              ]
-            },
-            {
-              "old_start": 59,
-              "new_start": 59,
-              "lines": [
-                {
-                  "type": "context",
+                  "type": "remove",
                   "text": "YetiForce Sp. z o.o. (Ltd.)."
                 },
                 {
                   "type": "context",
                   "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The footer can be customized in color as long as the system template"
+                },
+                {
+                  "type": "remove",
+                  "text": "changes, provided the readability is maintained."
+                },
+                {
+                  "type": "add",
+                  "text": "By using the Software, it is forbidden to remove or alter the content of the system footer, including referrals to the website and social media of YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The footer of the system may be removed with the prior written consent of"
+                },
+                {
+                  "type": "remove",
+                  "text": "YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "add",
+                  "text": "The footer can be customized in color as long as the system template changes, provided the readability is maintained."
                 },
                 {
                   "type": "context",
@@ -37352,10 +37564,14 @@
                 },
                 {
                   "type": "add",
-                  "text": ""
+                  "text": "The footer of the system may be removed with the prior written consent of YetiForce Sp. z o.o. (Ltd.)."
                 },
                 {
                   "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
                   "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
                 },
                 {
@@ -37381,6 +37597,777 @@
                 {
                   "type": "remove",
                   "text": "SOFTWARE."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Appendix A"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for PHP files;"
+                },
+                {
+                  "type": "remove",
+                  "text": "it can be expanded by phpDocumentator elements unless they modify the"
+                },
+                {
+                  "type": "remove",
+                  "text": "license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for PHP files; it can be expanded by phpDocumentator elements unless they modify the license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "/**"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "* @copyright YetiForce Sp. z o.o."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "remove",
+                  "text": "yetiforce.com)"
+                },
+                {
+                  "type": "add",
+                  "text": "* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>)"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "*/"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for TPL files;"
+                },
+                {
+                  "type": "remove",
+                  "text": "it can be expanded by additional elements unless these changes modify the"
+                },
+                {
+                  "type": "remove",
+                  "text": "license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for TPL files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "{*< !-- {[The file is published on the basis of YetiForce Public License"
+                },
+                {
+                  "type": "remove",
+                  "text": "3.0 that can be found in the following directory: licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "remove",
+                  "text": "yetiforce.com]} -- >*}"
+                },
+                {
+                  "type": "add",
+                  "text": "{*< !-- {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} -- >*}"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for JS files;"
+                },
+                {
+                  "type": "remove",
+                  "text": "it can be expanded by additional elements unless these changes modify the"
+                },
+                {
+                  "type": "remove",
+                  "text": "license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for JS files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "/* {[The file is published on the basis of YetiForce Public License 3.0"
+                },
+                {
+                  "type": "remove",
+                  "text": "that can be found in the following directory: licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "remove",
+                  "text": "yetiforce.com]} */"
+                },
+                {
+                  "type": "add",
+                  "text": "/* {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} */"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 129,
+              "new_start": 129,
+              "lines": [
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "All data below must be true, it is an obligatory condition of registering"
+                },
+                {
+                  "type": "remove",
+                  "text": "the product that results from the license terms."
+                },
+                {
+                  "type": "add",
+                  "text": "All data below must be true, it is an obligatory condition of registering the product that results from the license terms."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. Registration information (data below is used for statistical purposes"
+                },
+                {
+                  "type": "remove",
+                  "text": "and may be published on the producer’s website):"
+                },
+                {
+                  "type": "add",
+                  "text": "1. Registration information (data below is used for statistical purposes and may be published on the producer’s website):"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Full company name"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 145,
+              "new_start": 145,
+              "lines": [
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Company size"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Product key - enter the unique product key that can be seen on the"
+                },
+                {
+                  "type": "remove",
+                  "text": "administrator’s panel main page:"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Rationale:* We created our own license due to two main reasons. First of"
+                },
+                {
+                  "type": "remove",
+                  "text": "all, the obligation to register our software allows us to find out more"
+                },
+                {
+                  "type": "remove",
+                  "text": "about companies who use our system on a daily basis, which allows us to to"
+                },
+                {
+                  "type": "remove",
+                  "text": "better select and schedule all the changes in the system. Secondly, the"
+                },
+                {
+                  "type": "remove",
+                  "text": "obligation to keep the footer in its original form helps us protect our"
+                },
+                {
+                  "type": "remove",
+                  "text": "work from being distributed by third parties in a way that violates the"
+                },
+                {
+                  "type": "remove",
+                  "text": "license."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Distinguish: *The YetiForce Public License 3.0 was created based on the"
+                },
+                {
+                  "type": "remove",
+                  "text": "MIT license. There are only 2 additional conditions:"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. The first one requires registration of the product, via a built-in form"
+                },
+                {
+                  "type": "remove",
+                  "text": "or email, if used for more than 14 days."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. The second additional condition prohibits removing or altering the"
+                },
+                {
+                  "type": "remove",
+                  "text": "footer without explicit written consent from the producer (YetiForce Sp. z"
+                },
+                {
+                  "type": "remove",
+                  "text": "o.o. [Ltd.])"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Legal review:* There is no legal review since the license only adds 2"
+                },
+                {
+                  "type": "remove",
+                  "text": "conditions to the MIT license."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Proliferation category: *Non-reusable licenses"
+                },
+                {
+                  "type": "remove",
+                  "text": "--"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Z poważaniem / Regards"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Paulina Walenczak*"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*International Key Account Manager*"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "M: +48.884310123"
+                },
+                {
+                  "type": "remove",
+                  "text": "E: p.walenczak at yetiforce.com"
+                },
+                {
+                  "type": "remove",
+                  "text": "------------------------------"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Meet YetiForce. Achieve the impossible."
+                },
+                {
+                  "type": "remove",
+                  "text": "Test & Download <https://yetiforce.com/en/download> | Free Support"
+                },
+                {
+                  "type": "remove",
+                  "text": "<https://github.com/YetiForceCompany/YetiForceCRM> | Facebook"
+                },
+                {
+                  "type": "remove",
+                  "text": "<https://www.facebook.com/YetiForceCRM/>"
+                },
+                {
+                  "type": "add",
+                  "text": "2. Product key - enter the unique product key that can be seen on the administrator’s panel main page:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf--to--yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--fcf4291e06",
+          "series": "",
+          "from_text_id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf",
+          "to_text_id": "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--fcf4291e06",
+          "from_label": "3",
+          "to_label": "3",
+          "from_date": "2018-06-14",
+          "to_date": "2018-06-14",
+          "stats": {
+            "added": 107,
+            "removed": 23,
+            "unchanged": 62
+          },
+          "too_large": false,
+          "truncated": false,
+          "hunks": [
+            {
+              "old_start": 1,
+              "new_start": 1,
+              "lines": [
+                {
+                  "type": "remove",
+                  "text": "YetiForce Public License v3"
+                },
+                {
+                  "type": "add",
+                  "text": "*YetiForce Public License v3*"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Open license based on MIT license"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 7,
+              "new_start": 7,
+              "lines": [
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
+                },
+                {
+                  "type": "add",
+                  "text": "Permission is hereby granted, free of charge, to any person obtaining a"
+                },
+                {
+                  "type": "add",
+                  "text": "copy of this software and associated documentation files (the \"Software\"),"
+                },
+                {
+                  "type": "add",
+                  "text": "to deal in the Software without restriction, including without limitation"
+                },
+                {
+                  "type": "add",
+                  "text": "the rights to use, copy, modify, merge, publish, distribute, sublicense,"
+                },
+                {
+                  "type": "add",
+                  "text": "and/or sell copies of the Software, and to permit persons to whom the"
+                },
+                {
+                  "type": "add",
+                  "text": "Software is furnished to do so, subject to the following conditions:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                },
+                {
+                  "type": "add",
+                  "text": "The above copyright notice and this permission notice shall be included in"
+                },
+                {
+                  "type": "add",
+                  "text": "all copies or substantial portions of the Software."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The inclusion of abovementioned notices may be in a form of an active link to the license, as stated in Appendix A."
+                },
+                {
+                  "type": "add",
+                  "text": "The inclusion of abovementioned notices may be in a form of an active link"
+                },
+                {
+                  "type": "add",
+                  "text": "to the license, as stated in Appendix A."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The Software used for more than 14 days must be registered via the built-in form."
+                },
+                {
+                  "type": "add",
+                  "text": "The Software used for more than 14 days must be registered via the"
+                },
+                {
+                  "type": "add",
+                  "text": "built-in form."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "If such registration is not possible, further use of the Software requires registration via email (registration at yetiforce.com<mailto:registration at yetiforce.com>), as stated in Appendix B."
+                },
+                {
+                  "type": "add",
+                  "text": "If such registration is not possible, further use of the Software requires"
+                },
+                {
+                  "type": "add",
+                  "text": "registration via email (registration at yetiforce.com), as stated in"
+                },
+                {
+                  "type": "add",
+                  "text": "Appendix B."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The registration form is properly submitted if sent (data entry to electronic communication system) and if it contains complete and true data."
+                },
+                {
+                  "type": "add",
+                  "text": "The registration form is properly submitted if sent (data entry to"
+                },
+                {
+                  "type": "add",
+                  "text": "electronic communication system) and if it contains complete and true data."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Registration is mandatory for any company (registration does not apply to employees of these companies or private individuals) that uses, configures and/or modifies the Software, regardless of whether the entity does it for itself or for other subjects."
+                },
+                {
+                  "type": "add",
+                  "text": "Registration is mandatory for any company (registration does not apply to"
+                },
+                {
+                  "type": "add",
+                  "text": "employees of these companies or private individuals) that uses, configures"
+                },
+                {
+                  "type": "add",
+                  "text": "and/or modifies the Software, regardless of whether the entity does it for"
+                },
+                {
+                  "type": "add",
+                  "text": "itself or for other subjects."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Data used for registration must be true. All sent registration information, including the company’s name, may be used by YetiForce Sp. z o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics, publication on the website)."
+                },
+                {
+                  "type": "add",
+                  "text": "Data used for registration must be true. All sent registration"
+                },
+                {
+                  "type": "add",
+                  "text": "information, including the company’s name, may be used by YetiForce Sp. z"
+                },
+                {
+                  "type": "add",
+                  "text": "o.o. (Ltd.) for marketing purposes (i.e. preparation of statistics,"
+                },
+                {
+                  "type": "add",
+                  "text": "publication on the website)."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "YetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other entities and guarantees its confidentiality."
+                },
+                {
+                  "type": "add",
+                  "text": "YetiForce Sp. z o.o. (Ltd.) does not sell or transfer that data to other"
+                },
+                {
+                  "type": "add",
+                  "text": "entities and guarantees its confidentiality."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "By using the Software, it is forbidden to remove or alter the content of the system footer, including referrals to the website and social media of YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "add",
+                  "text": "By using the Software, it is forbidden to remove or alter the content of"
+                },
+                {
+                  "type": "add",
+                  "text": "the system footer, including referrals to the website and social media of"
+                },
+                {
+                  "type": "add",
+                  "text": "YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The footer can be customized in color as long as the system template changes, provided the readability is maintained."
+                },
+                {
+                  "type": "add",
+                  "text": "The footer can be customized in color as long as the system template"
+                },
+                {
+                  "type": "add",
+                  "text": "changes, provided the readability is maintained."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The footer of the system may be removed with the prior written consent of YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "add",
+                  "text": "The footer of the system may be removed with the prior written consent of"
+                },
+                {
+                  "type": "add",
+                  "text": "YetiForce Sp. z o.o. (Ltd.)."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+                },
+                {
+                  "type": "add",
+                  "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR"
                 },
                 {
                   "type": "add",
@@ -37415,7 +38402,7 @@
                   "text": ""
                 },
                 {
-                  "type": "add",
+                  "type": "context",
                   "text": ""
                 },
                 {
@@ -37427,18 +38414,20 @@
                   "text": ""
                 },
                 {
-                  "type": "context",
-                  "text": "Minimal description of the license and copyrights required for PHP files;"
-                }
-              ]
-            },
-            {
-              "old_start": 135,
-              "new_start": 135,
-              "lines": [
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for PHP files; it can be expanded by phpDocumentator elements unless they modify the license and/or existing copyrights to files:"
+                },
                 {
-                  "type": "context",
-                  "text": "administrator’s panel main page:"
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for PHP files;"
+                },
+                {
+                  "type": "add",
+                  "text": "it can be expanded by phpDocumentator elements unless they modify the"
+                },
+                {
+                  "type": "add",
+                  "text": "license and/or existing copyrights to files:"
                 },
                 {
                   "type": "context",
@@ -37446,6 +38435,238 @@
                 },
                 {
                   "type": "context",
+                  "text": "/**"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "* @copyright YetiForce Sp. z o.o."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>)"
+                },
+                {
+                  "type": "add",
+                  "text": "* @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "add",
+                  "text": "yetiforce.com)"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "*/"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for TPL files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for TPL files;"
+                },
+                {
+                  "type": "add",
+                  "text": "it can be expanded by additional elements unless these changes modify the"
+                },
+                {
+                  "type": "add",
+                  "text": "license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "{*< !-- {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} -- >*}"
+                },
+                {
+                  "type": "add",
+                  "text": "{*< !-- {[The file is published on the basis of YetiForce Public License"
+                },
+                {
+                  "type": "add",
+                  "text": "3.0 that can be found in the following directory: licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "add",
+                  "text": "yetiforce.com]} -- >*}"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Minimal description of the license and copyrights required for JS files; it can be expanded by additional elements unless these changes modify the license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "add",
+                  "text": "Minimal description of the license and copyrights required for JS files;"
+                },
+                {
+                  "type": "add",
+                  "text": "it can be expanded by additional elements unless these changes modify the"
+                },
+                {
+                  "type": "add",
+                  "text": "license and/or existing copyrights to files:"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "/* {[The file is published on the basis of YetiForce Public License 3.0 that can be found in the following directory: licenses/LicenseEN.txt or yetiforce.com<http://yetiforce.com>]} */"
+                },
+                {
+                  "type": "add",
+                  "text": "/* {[The file is published on the basis of YetiForce Public License 3.0"
+                },
+                {
+                  "type": "add",
+                  "text": "that can be found in the following directory: licenses/LicenseEN.txt or"
+                },
+                {
+                  "type": "add",
+                  "text": "yetiforce.com]} */"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 129,
+              "new_start": 129,
+              "lines": [
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "All data below must be true, it is an obligatory condition of registering the product that results from the license terms."
+                },
+                {
+                  "type": "add",
+                  "text": "All data below must be true, it is an obligatory condition of registering"
+                },
+                {
+                  "type": "add",
+                  "text": "the product that results from the license terms."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. Registration information (data below is used for statistical purposes and may be published on the producer’s website):"
+                },
+                {
+                  "type": "add",
+                  "text": "1. Registration information (data below is used for statistical purposes"
+                },
+                {
+                  "type": "add",
+                  "text": "and may be published on the producer’s website):"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Full company name"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "old_start": 145,
+              "new_start": 145,
+              "lines": [
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "context",
+                  "text": "Company size"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Product key - enter the unique product key that can be seen on the administrator’s panel main page:"
+                },
+                {
+                  "type": "add",
+                  "text": "2. Product key - enter the unique product key that can be seen on the"
+                },
+                {
+                  "type": "add",
+                  "text": "administrator’s panel main page:"
+                },
+                {
+                  "type": "add",
                   "text": ""
                 },
                 {
@@ -37453,33 +38674,95 @@
                   "text": ""
                 },
                 {
-                  "type": "context",
-                  "text": "*Rationale:* We created our own license due to two main reasons. First of"
-                },
-                {
-                  "type": "context",
-                  "text": "all, the obligation to register our software allows us to find out more"
-                },
-                {
-                  "type": "context",
-                  "text": "about companies who use our system on a daily basis, which allows us to to"
-                }
-              ]
-            },
-            {
-              "old_start": 158,
-              "new_start": 158,
-              "lines": [
-                {
-                  "type": "context",
-                  "text": "conditions to the MIT license."
-                },
-                {
-                  "type": "context",
+                  "type": "add",
                   "text": ""
                 },
                 {
-                  "type": "context",
+                  "type": "add",
+                  "text": "*Rationale:* We created our own license due to two main reasons. First of"
+                },
+                {
+                  "type": "add",
+                  "text": "all, the obligation to register our software allows us to find out more"
+                },
+                {
+                  "type": "add",
+                  "text": "about companies who use our system on a daily basis, which allows us to to"
+                },
+                {
+                  "type": "add",
+                  "text": "better select and schedule all the changes in the system. Secondly, the"
+                },
+                {
+                  "type": "add",
+                  "text": "obligation to keep the footer in its original form helps us protect our"
+                },
+                {
+                  "type": "add",
+                  "text": "work from being distributed by third parties in a way that violates the"
+                },
+                {
+                  "type": "add",
+                  "text": "license."
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "*Distinguish: *The YetiForce Public License 3.0 was created based on the"
+                },
+                {
+                  "type": "add",
+                  "text": "MIT license. There are only 2 additional conditions:"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "1. The first one requires registration of the product, via a built-in form"
+                },
+                {
+                  "type": "add",
+                  "text": "or email, if used for more than 14 days."
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "2. The second additional condition prohibits removing or altering the"
+                },
+                {
+                  "type": "add",
+                  "text": "footer without explicit written consent from the producer (YetiForce Sp. z"
+                },
+                {
+                  "type": "add",
+                  "text": "o.o. [Ltd.])"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "*Legal review:* There is no legal review since the license only adds 2"
+                },
+                {
+                  "type": "add",
+                  "text": "conditions to the MIT license."
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
                   "text": "*Proliferation category: *Non-reusable licenses"
                 },
                 {
@@ -37487,16 +38770,68 @@
                   "text": ""
                 },
                 {
-                  "type": "context",
+                  "type": "add",
                   "text": "--"
                 },
                 {
-                  "type": "context",
+                  "type": "add",
                   "text": ""
                 },
                 {
-                  "type": "context",
+                  "type": "add",
                   "text": "Z poważaniem / Regards"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "*Paulina Walenczak*"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "*International Key Account Manager*"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "M: +48.884310123"
+                },
+                {
+                  "type": "add",
+                  "text": "E: p.walenczak at yetiforce.com"
+                },
+                {
+                  "type": "add",
+                  "text": "------------------------------"
+                },
+                {
+                  "type": "add",
+                  "text": ""
+                },
+                {
+                  "type": "add",
+                  "text": "Meet YetiForce. Achieve the impossible."
+                },
+                {
+                  "type": "add",
+                  "text": "Test & Download <https://yetiforce.com/en/download> | Free Support"
+                },
+                {
+                  "type": "add",
+                  "text": "<https://github.com/YetiForceCompany/YetiForceCRM> | Facebook"
+                },
+                {
+                  "type": "add",
+                  "text": "<https://www.facebook.com/YetiForceCRM/>"
                 }
               ]
             }
@@ -37563,7 +38898,10 @@
           "sentiment": "negative",
           "source": "license-review",
           "position": "oppose",
-          "point": "Adds that the license also violates OSD section 5 because it imposes different requirements on companies and individuals."
+          "point": "Adds that the license also violates OSD section 5 because it imposes different requirements on companies and individuals.",
+          "text_ids": [
+            "yetiforce-public-license-v3--license-review-request-for-approval-for-yetiforce-public-lic--7cd6cc0fbf"
+          ]
         },
         {
           "date": "2018-06-14",
@@ -57287,7 +58625,7 @@
         {
           "id": "nasa-osa-1-1--nosa-ver-20-osi-submitted-draft-2013june13-2txt--0ddc2d0009",
           "filename": "nosa-ver-20-osi-submitted-draft-2013june13-2.txt",
-          "title": "FW: For Approval: NASA Open Source Agreement 2.0",
+          "title": "NASA OPEN SOURCE AGREEMENT VERSION 2.0",
           "version": "2.0",
           "version_label": "2.0",
           "revision_label": "",
@@ -67763,9 +69101,517 @@
           "match_score": 80,
           "event_index": 0,
           "event_type": "submission"
+        },
+        {
+          "id": "oin-license--license-review-approval-oin-license-open-innovation-license---0164a5443c",
+          "filename": "license-review-approval-oin-license-open-innovation-license--inline-0164a544.txt",
+          "title": "Released under the Open Innovation License",
+          "version": "",
+          "version_label": "",
+          "revision_label": "",
+          "series": "",
+          "date": "2020-12-26",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/004999.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/004999.html",
+          "message_subject": "[License-review] Approval: OIN License (Open Innovation License)",
+          "type": "license-inline-block",
+          "downloaded_at": "",
+          "sha256": "0164a5443c173b73135bb55247349685322d2a71e625f7c2e8d0f5338c1700b1",
+          "duplicate_of": "",
+          "extraction_confidence": "medium",
+          "text": "Released under the Open Innovation License\n\n\nCopyright © // Insert information of license holder\n\nVersion 1, 10th November 2020\n\nCopyright © 2020 Stark Drones Corporation\nCopyright © 2020 Andrew Magdy Kamal\n\nThis project is licensed under the Open Innovation License. This means any code, file, diagrams, data format, or other innovation containing this license within it can be copied, modified, redistributed, published, or even used for commercial purposes within the context of this license.\n\n\nAny code, file, diagrams, data format, or other innovation containing this license is understood to be fully \"AS IS\", no claims are made in regards to safety, security, warranty, usability, or other form of merchantability and market-readiness. In no events are copyright holders, authors, or publishers are to be held liable for any claims, damage or results from usage of what have been licensed under this license.\n\n\nThe context of this license includes: Keeping this original license text verbatim and permissive notice, as well as the copyright notice included in any redistribution of said project. Project is defined as what is using this license. For purposes of context, the copyright notice above version and year is meant to be modified for whomsoever publishes or releases \"any code, file, diagrams, data format, or other innovation\", so that they can include their information. After modifying, the comment saying \"// Insert information of license holder\" which starts with // can be removed. This current paragraph however, will remain in-tact.\n\nAnybody who releases software under the \"Open Innovation License\" agrees to at goodwill, build or release technology for the betterment of humanity not meant with the intention to harm a human being. They agree to a prima facie moral duty through consequential deontology to understand that technology should be within the concept of moral good or outcomes that are morally right and/or ethical. They agree at goodwill to promote the advancement of humanity and civilization as a whole. They agree to a sense of adventurement, edification, and the expansion of the human mind.\n\nSaid agreement which is within the last paragraph prior to this sentence is meant to be taken as a general consensus, but not legally enforceable. Again for context, the last paragraph which starts with \"Anybody\" and ends with \"human mind\" minus quotations, is outside of the boundaries of being legally enforceable and within the duties of oneselve's actions. The rest of the license which includes the copyright notice and its context is within a legally enforceable context. For secondary context, the rest of the license refers to anything outside of that said paragraph.\n\n____",
+          "display_text": "Released under the Open Innovation License\n\n\nCopyright © // Insert information of license holder\n\nVersion 1, 10th November 2020\n\nCopyright © 2020 Stark Drones Corporation\nCopyright © 2020 Andrew Magdy Kamal\n\nThis project is licensed under the Open Innovation License. This means any code, file, diagrams, data format, or other innovation containing this license within it can be copied, modified, redistributed, published, or even used for commercial purposes within the context of this license.\n\n\nAny code, file, diagrams, data format, or other innovation containing this license is understood to be fully \"AS IS\", no claims are made in regards to safety, security, warranty, usability, or other form of merchantability and market-readiness. In no events are copyright holders, authors, or publishers are to be held liable for any claims, damage or results from usage of what have been licensed under this license.\n\n\nThe context of this license includes: Keeping this original license text verbatim and permissive notice, as well as the copyright notice included in any redistribution of said project. Project is defined as what is using this license. For purposes of context, the copyright notice above version and year is meant to be modified for whomsoever publishes or releases \"any code, file, diagrams, data format, or other innovation\", so that they can include their information. After modifying, the comment saying \"// Insert information of license holder\" which starts with // can be removed. This current paragraph however, will remain in-tact.\n\nAnybody who releases software under the \"Open Innovation License\" agrees to at goodwill, build or release technology for the betterment of humanity not meant with the intention to harm a human being. They agree to a prima facie moral duty through consequential deontology to understand that technology should be within the concept of moral good or outcomes that are morally right and/or ethical. They agree at goodwill to promote the advancement of humanity and civilization as a whole. They agree to a sense of adventurement, edification, and the expansion of the human mind.\n\nSaid agreement which is within the last paragraph prior to this sentence is meant to be taken as a general consensus, but not legally enforceable. Again for context, the last paragraph which starts with \"Anybody\" and ends with \"human mind\" minus quotations, is outside of the boundaries of being legally enforceable and within the duties of oneselve's actions. The rest of the license which includes the copyright notice and its context is within a legally enforceable context. For secondary context, the rest of the license refers to anything outside of that said paragraph.\n\n____",
+          "normalized_text": "Released under the Open Innovation License\n\n\nCopyright © // Insert information of license holder\n\nVersion 1, 10th November 2020\n\nCopyright © 2020 Stark Drones Corporation\nCopyright © 2020 Andrew Magdy Kamal\n\nThis project is licensed under the Open Innovation License. This means any code, file, diagrams, data format, or other innovation containing this license within it can be copied, modified, redistributed, published, or even used for commercial purposes within the context of this license.\n\n\nAny code, file, diagrams, data format, or other innovation containing this license is understood to be fully \"AS IS\", no claims are made in regards to safety, security, warranty, usability, or other form of merchantability and market-readiness. In no events are copyright holders, authors, or publishers are to be held liable for any claims, damage or results from usage of what have been licensed under this license.\n\n\nThe context of this license includes: Keeping this original license text verbatim and permissive notice, as well as the copyright notice included in any redistribution of said project. Project is defined as what is using this license. For purposes of context, the copyright notice above version and year is meant to be modified for whomsoever publishes or releases \"any code, file, diagrams, data format, or other innovation\", so that they can include their information. After modifying, the comment saying \"// Insert information of license holder\" which starts with // can be removed. This current paragraph however, will remain in-tact.\n\nAnybody who releases software under the \"Open Innovation License\" agrees to at goodwill, build or release technology for the betterment of humanity not meant with the intention to harm a human being. They agree to a prima facie moral duty through consequential deontology to understand that technology should be within the concept of moral good or outcomes that are morally right and/or ethical. They agree at goodwill to promote the advancement of humanity and civilization as a whole. They agree to a sense of adventurement, edification, and the expansion of the human mind.\n\nSaid agreement which is within the last paragraph prior to this sentence is meant to be taken as a general consensus, but not legally enforceable. Again for context, the last paragraph which starts with \"Anybody\" and ends with \"human mind\" minus quotations, is outside of the boundaries of being legally enforceable and within the duties of oneselve's actions. The rest of the license which includes the copyright notice and its context is within a legally enforceable context. For secondary context, the rest of the license refers to anything outside of that said paragraph.\n\n____",
+          "content_preview": "Released under the Open Innovation License\n\n\nCopyright © // Insert information of license holder\n\nVersion 1, 10th November 2020\n\nCopyright © 2020 Stark Drones Corporation\nCopyright © 2020 Andrew Magdy Kamal\n\nThis project is licensed under t",
+          "size": 3160,
+          "match_score": 80,
+          "event_index": 1,
+          "event_type": "feedback"
         }
       ],
-      "license_text_diffs": [],
+      "license_text_diffs": [
+        {
+          "id": "oin-license--approval-oin-license-open-innovation-licensetxt--d3386013f8--to--oin-license--license-review-approval-oin-license-open-innovation-license---0164a5443c",
+          "series": "",
+          "from_text_id": "oin-license--approval-oin-license-open-innovation-licensetxt--d3386013f8",
+          "to_text_id": "oin-license--license-review-approval-oin-license-open-innovation-license---0164a5443c",
+          "from_label": "Approval: OIN License (Open Innovation License)",
+          "to_label": "Released under the Open Innovation License",
+          "from_date": "2020-12-26",
+          "to_date": "2020-12-26",
+          "stats": {
+            "added": 11,
+            "removed": 91,
+            "unchanged": 12
+          },
+          "too_large": false,
+          "truncated": false,
+          "hunks": [
+            {
+              "old_start": 1,
+              "new_start": 1,
+              "lines": [
+                {
+                  "type": "remove",
+                  "text": "*Released under the Open Innovation License*"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Copyright © // Insert information of license holder"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Version 1, 10th November 2020*"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Copyright © 2020 Stark Drones Corporation*"
+                },
+                {
+                  "type": "remove",
+                  "text": "*Copyright © 2020 Andrew Magdy Kamal*"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "This project is licensed under the *Open Innovation License*. This means"
+                },
+                {
+                  "type": "remove",
+                  "text": "any code, file, diagrams, data format, or other innovation containing this"
+                },
+                {
+                  "type": "remove",
+                  "text": "license within it can be copied, modified, redistributed, published, or"
+                },
+                {
+                  "type": "remove",
+                  "text": "even used for commercial purposes within the context of this license."
+                },
+                {
+                  "type": "remove",
+                  "text": "Any code, file, diagrams, data format, or other innovation containing this"
+                },
+                {
+                  "type": "remove",
+                  "text": "license is understood to be fully \"AS IS\", no claims are made in regards to"
+                },
+                {
+                  "type": "remove",
+                  "text": "safety, security, warranty, usability, or other form of merchantability and"
+                },
+                {
+                  "type": "remove",
+                  "text": "market-readiness. In no events are copyright holders, authors, or"
+                },
+                {
+                  "type": "remove",
+                  "text": "publishers are to be held liable for any claims, damage or results from"
+                },
+                {
+                  "type": "remove",
+                  "text": "usage of what have been licensed under this license."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "The context of this license includes: Keeping this original license text"
+                },
+                {
+                  "type": "remove",
+                  "text": "verbatim and permissive notice, as well as the copyright notice included in"
+                },
+                {
+                  "type": "remove",
+                  "text": "any redistribution of said project. Project is defined as what is using"
+                },
+                {
+                  "type": "remove",
+                  "text": "this license. For purposes of context, the copyright notice above version"
+                },
+                {
+                  "type": "remove",
+                  "text": "and year is meant to be modified for whomsoever publishes or releases \"any"
+                },
+                {
+                  "type": "remove",
+                  "text": "code, file, diagrams, data format, or other innovation\", so that they can"
+                },
+                {
+                  "type": "remove",
+                  "text": "include their information. After modifying, the comment saying \"// Insert"
+                },
+                {
+                  "type": "remove",
+                  "text": "information of license holder\" which starts with // can be removed. This"
+                },
+                {
+                  "type": "remove",
+                  "text": "current paragraph however, will remain in-tact."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Anybody who releases software under the \"Open Innovation License\" agrees to"
+                },
+                {
+                  "type": "remove",
+                  "text": "at goodwill, build or release technology for the betterment of humanity not"
+                },
+                {
+                  "type": "remove",
+                  "text": "meant with the intention to harm a human being. They agree to a prima facie"
+                },
+                {
+                  "type": "remove",
+                  "text": "moral duty through consequential deontology to understand that technology"
+                },
+                {
+                  "type": "remove",
+                  "text": "should be within the concept of moral good or outcomes that are morally"
+                },
+                {
+                  "type": "remove",
+                  "text": "right and/or ethical. They agree at goodwill to promote the advancement of"
+                },
+                {
+                  "type": "remove",
+                  "text": "humanity and civilization as a whole. They agree to a sense of"
+                },
+                {
+                  "type": "remove",
+                  "text": "adventurement, edification, and the expansion of the human mind."
+                },
+                {
+                  "type": "add",
+                  "text": "Released under the Open Innovation License"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Said agreement which is within the last paragraph prior to this sentence is"
+                },
+                {
+                  "type": "remove",
+                  "text": "meant to be taken as a general consensus, but not legally enforceable."
+                },
+                {
+                  "type": "remove",
+                  "text": "Again for context, the last paragraph which starts with \"Anybody\" and ends"
+                },
+                {
+                  "type": "remove",
+                  "text": "with \"human mind\" minus quotations, is outside of the boundaries of being"
+                },
+                {
+                  "type": "remove",
+                  "text": "legally enforceable and within the duties of oneselve's actions. The rest"
+                },
+                {
+                  "type": "remove",
+                  "text": "of the license which includes the copyright notice and its context is"
+                },
+                {
+                  "type": "remove",
+                  "text": "within a legally enforceable context. For secondary context, the rest of"
+                },
+                {
+                  "type": "remove",
+                  "text": "the license refers to anything outside of that said paragraph."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "____"
+                },
+                {
+                  "type": "add",
+                  "text": "Copyright © // Insert information of license holder"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Rationale:*"
+                },
+                {
+                  "type": "add",
+                  "text": "Version 1, 10th November 2020"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "I wanted to release this license for a variety of different reasons."
+                },
+                {
+                  "type": "remove",
+                  "text": "Infact, I made many posts in regards to why this license is unique and"
+                },
+                {
+                  "type": "remove",
+                  "text": "valuable, and found many developers willing to adapt this license through"
+                },
+                {
+                  "type": "remove",
+                  "text": "small innovation challenges. The license was made on the basis of promoting"
+                },
+                {
+                  "type": "remove",
+                  "text": "a mission statement on ethical technology within the license as well as not"
+                },
+                {
+                  "type": "remove",
+                  "text": "being specific to only software i.e. files, diagrams, data format or any"
+                },
+                {
+                  "type": "remove",
+                  "text": "other innovation."
+                },
+                {
+                  "type": "add",
+                  "text": "Copyright © 2020 Stark Drones Corporation"
+                },
+                {
+                  "type": "add",
+                  "text": "Copyright © 2020 Andrew Magdy Kamal"
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "We also wanted to make sure that the license is adaptable. Many open source"
+                },
+                {
+                  "type": "remove",
+                  "text": "licenses require you to put tons of header files for compliance. We wanted"
+                },
+                {
+                  "type": "remove",
+                  "text": "to make a license that just requires you to contain the license file in"
+                },
+                {
+                  "type": "remove",
+                  "text": "your directory. While many other open source licenses also do that or"
+                },
+                {
+                  "type": "remove",
+                  "text": "follow in similar footsteps, we weren't able to find one that met all these"
+                },
+                {
+                  "type": "remove",
+                  "text": "unique qualities."
+                },
+                {
+                  "type": "add",
+                  "text": "This project is licensed under the Open Innovation License. This means any code, file, diagrams, data format, or other innovation containing this license within it can be copied, modified, redistributed, published, or even used for commercial purposes within the context of this license."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Currently, a big inspiration for this license was the idea of promoting"
+                },
+                {
+                  "type": "remove",
+                  "text": "free and open software as well as a mission statement on ethical"
+                },
+                {
+                  "type": "remove",
+                  "text": "technologies. We found that many of the big tech companies that are hailed"
+                },
+                {
+                  "type": "remove",
+                  "text": "as heroes of open source or doing open source initiatives, built"
+                },
+                {
+                  "type": "remove",
+                  "text": "technologies that are harmful to human activity. A technically non-legally"
+                },
+                {
+                  "type": "remove",
+                  "text": "enforceable mission statement within an enforceable open source license was"
+                },
+                {
+                  "type": "remove",
+                  "text": "the way to go. We also made sure to go out of our way to promote the ideals"
+                },
+                {
+                  "type": "remove",
+                  "text": "of open source and free and redistributive software."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Distinguish:*"
+                },
+                {
+                  "type": "add",
+                  "text": "Any code, file, diagrams, data format, or other innovation containing this license is understood to be fully \"AS IS\", no claims are made in regards to safety, security, warranty, usability, or other form of merchantability and market-readiness. In no events are copyright holders, authors, or publishers are to be held liable for any claims, damage or results from usage of what have been licensed under this license."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "I looked at a variety of different open source licenses. The standard being"
+                },
+                {
+                  "type": "remove",
+                  "text": "MIT, then BSD+Patent, ZLib, CDDL, CPAL, CPL, CAL, BSL, and the AFL license."
+                },
+                {
+                  "type": "remove",
+                  "text": "I feel like MIT, ZLIB, and the Boost licenses focus on redistribution and"
+                },
+                {
+                  "type": "remove",
+                  "text": "code. Those are the standards. The open patent licenses and other licenses"
+                },
+                {
+                  "type": "remove",
+                  "text": "focus on derived original work. However, none of them tried going to the"
+                },
+                {
+                  "type": "remove",
+                  "text": "same extent I wanted in terms of being specific in regards to data formats"
+                },
+                {
+                  "type": "remove",
+                  "text": "or general consensus and mission. I believe this is an important thing to"
+                },
+                {
+                  "type": "remove",
+                  "text": "take into account."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Legal review:*"
+                },
+                {
+                  "type": "add",
+                  "text": "The context of this license includes: Keeping this original license text verbatim and permissive notice, as well as the copyright notice included in any redistribution of said project. Project is defined as what is using this license. For purposes of context, the copyright notice above version and year is meant to be modified for whomsoever publishes or releases \"any code, file, diagrams, data format, or other innovation\", so that they can include their information. After modifying, the comment saying \"// Insert information of license holder\" which starts with // can be removed. This current paragraph however, will remain in-tact."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Currently I have submitted this to SPDX as well for review through their"
+                },
+                {
+                  "type": "remove",
+                  "text": "GitHub/Website. However, the review time to get approval and receive SPDX"
+                },
+                {
+                  "type": "remove",
+                  "text": "identifiers can be many months. I submitted in November and decided to"
+                },
+                {
+                  "type": "remove",
+                  "text": "submit to OSI while I wait. As for reviewing the context of language myself"
+                },
+                {
+                  "type": "remove",
+                  "text": "and actual legal review, I have thought out reviews through my own legal"
+                },
+                {
+                  "type": "remove",
+                  "text": "council and self judgement as a researcher familiar with these types of"
+                },
+                {
+                  "type": "remove",
+                  "text": "languages."
+                },
+                {
+                  "type": "add",
+                  "text": "Anybody who releases software under the \"Open Innovation License\" agrees to at goodwill, build or release technology for the betterment of humanity not meant with the intention to harm a human being. They agree to a prima facie moral duty through consequential deontology to understand that technology should be within the concept of moral good or outcomes that are morally right and/or ethical. They agree at goodwill to promote the advancement of humanity and civilization as a whole. They agree to a sense of adventurement, edification, and the expansion of the human mind."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "*Proliferation category:*"
+                },
+                {
+                  "type": "add",
+                  "text": "Said agreement which is within the last paragraph prior to this sentence is meant to be taken as a general consensus, but not legally enforceable. Again for context, the last paragraph which starts with \"Anybody\" and ends with \"human mind\" minus quotations, is outside of the boundaries of being legally enforceable and within the duties of oneselve's actions. The rest of the license which includes the copyright notice and its context is within a legally enforceable context. For secondary context, the rest of the license refers to anything outside of that said paragraph."
+                },
+                {
+                  "type": "context",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "I don't necessarily need to be in a Proliferation category as of now, as"
+                },
+                {
+                  "type": "remove",
+                  "text": "many of the licenses on your site are not in a category. However, I would"
+                },
+                {
+                  "type": "remove",
+                  "text": "eventually want to get into the *Licenses that are popular and widely used"
+                },
+                {
+                  "type": "remove",
+                  "text": "or with strong communities *category."
+                },
+                {
+                  "type": "add",
+                  "text": "____"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "timeline": [
         {
           "date": "2020-12-26",
@@ -67795,7 +69641,10 @@
           "sentiment": "negative",
           "source": "license-review",
           "position": "support",
-          "point": "Identifies multiple drafting problems: the grant could be read as restricting to commercial use only, the mission statement uses binding language ('agree') despite being intended as non-binding, and the OIN acronym conflicts with the Open Invention Network trademark."
+          "point": "Identifies multiple drafting problems: the grant could be read as restricting to commercial use only, the mission statement uses binding language ('agree') despite being intended as non-binding, and the OIN acronym conflicts with the Open Invention Network trademark.",
+          "text_ids": [
+            "oin-license--license-review-approval-oin-license-open-innovation-license---0164a5443c"
+          ]
         },
         {
           "date": "2020-12-26",
@@ -92037,7 +93886,7 @@
         {
           "id": "cern-ohl-s-2-0--for-approval-cern-open-hardware-licence-version-2-strongly-r--c3ee69b0d0",
           "filename": "for-approval-cern-open-hardware-licence-version-2-strongly-reciprocal-spdx-cern-.txt",
-          "title": "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)",
+          "title": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
           "version": "2",
           "version_label": "2",
           "revision_label": "",
@@ -93677,7 +95526,7 @@
         {
           "id": "php-3-01--php-license-301txt--35fb66917c",
           "filename": "php-license-301.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "The PHP License, version 3.01",
           "version": "3.01",
           "version_label": "3.01",
           "revision_label": "",
@@ -93727,7 +95576,7 @@
         {
           "id": "php-3-01--request-for-legacy-approval-of-php-license-301-2txt--aa9f592c78",
           "filename": "request-for-legacy-approval-of-php-license-301 2.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "Copyright (c) 1999 - 2019 The PHP Group. All rights reserved.",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -93751,7 +95600,7 @@
         {
           "id": "php-3-01--request-for-legacy-approval-of-php-license-301-2txt--aa9f592c78-2",
           "filename": "request-for-legacy-approval-of-php-license-301-2.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "Copyright (c) 1999 - 2019 The PHP Group. All rights reserved.",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -113861,8 +115710,8 @@
         },
         {
           "id": "oldap-2-8--license-review-for-legacy-approval-openldap-public-license-i--96f52957d7",
-          "filename": "license-review-for-legacy-approval-openldap-public-license--inline-88536116.txt",
-          "title": "Subject: [License-review] For Legacy Approval: OpenLDAP Public License",
+          "filename": "license-review-for-legacy-approval-openldap-public-license--inline-96f52957.txt",
+          "title": "Redistribution and use of this software and associated documentation (\\\"Software\\\"), with or without modification, are permitted provided that the following condi",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -113880,7 +115729,7 @@
           "display_text": "Redistribution and use of this software and associated documentation (\"Software\"), with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions in source form must retain copyright statements\n   and notices,\n\n2. Redistributions in binary form must reproduce applicable copyright\n   statements and notices, this list of conditions, and the following\n   disclaimer in the documentation and/or other materials provided\n   with the distribution, and\n\n3. Redistributions must contain a verbatim copy of this document.\n\nThe OpenLDAP Foundation may revise this license from time to time.\nEach revision is distinguished by a version number.  You may use this Software under terms of this license revision or under the terms of any subsequent revision of the license.\n\nTHIS SOFTWARE IS PROVIDED BY THE OPENLDAP FOUNDATION AND ITS CONTRIBUTORS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OPENLDAP FOUNDATION, ITS CONTRIBUTORS, OR THE AUTHOR(S) OR OWNER(S) OF THE SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe names of the authors and copyright holders must not be used in advertising or otherwise to promote the sale, use or other dealing in this Software without specific, written prior permission.  Title to copyright in this Software shall at all times remain with copyright holders.\n\nOpenLDAP is a registered trademark of the OpenLDAP Foundation.\n\nCopyright 1999-2003 The OpenLDAP Foundation, Redwood City, California, USA.  All Rights Reserved.  Permission to copy and distribute verbatim copies of this document is granted.\n\n----------------",
           "normalized_text": "Redistribution and use of this software and associated documentation (\"Software\"), with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions in source form must retain copyright statements\n   and notices,\n\n2. Redistributions in binary form must reproduce applicable copyright\n   statements and notices, this list of conditions, and the following\n   disclaimer in the documentation and/or other materials provided\n   with the distribution, and\n\n3. Redistributions must contain a verbatim copy of this document.\n\nThe OpenLDAP Foundation may revise this license from time to time.\nEach revision is distinguished by a version number.  You may use this Software under terms of this license revision or under the terms of any subsequent revision of the license.\n\nTHIS SOFTWARE IS PROVIDED BY THE OPENLDAP FOUNDATION AND ITS CONTRIBUTORS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OPENLDAP FOUNDATION, ITS CONTRIBUTORS, OR THE AUTHOR(S) OR OWNER(S) OF THE SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe names of the authors and copyright holders must not be used in advertising or otherwise to promote the sale, use or other dealing in this Software without specific, written prior permission.  Title to copyright in this Software shall at all times remain with copyright holders.\n\nOpenLDAP is a registered trademark of the OpenLDAP Foundation.\n\nCopyright 1999-2003 The OpenLDAP Foundation, Redwood City, California, USA.  All Rights Reserved.  Permission to copy and distribute verbatim copies of this document is granted.\n\n----------------",
           "content_preview": "Redistribution and use of this software and associated documentation (\"Software\"), with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions in source form must retain copyright statemen",
-          "size": 2781,
+          "size": 2728,
           "match_score": 80
         },
         {
@@ -113915,7 +115764,7 @@
           "from_text_id": "oldap-2-8--license-review-for-legacy-approval-openldap-public-license-i--0dee129af8",
           "to_text_id": "oldap-2-8--license-review-for-legacy-approval-openldap-public-license-i--96f52957d7",
           "from_label": "Redistribution and use of this software and associated documentation",
-          "to_label": "Subject: [License-review] For Legacy Approval: OpenLDAP Public License",
+          "to_label": "Redistribution and use of this software and associated documentation (\\\"Software\\\"), with or without modification, are permitted provided that the following condi",
           "from_date": "2019-08-13",
           "to_date": "2019-08-13",
           "stats": {
@@ -114125,7 +115974,7 @@
           "series": "",
           "from_text_id": "oldap-2-8--license-review-for-legacy-approval-openldap-public-license-i--96f52957d7",
           "to_text_id": "oldap-2-8--license-review-for-legacy-approval-openldap-public-license-i--d57ee07f61",
-          "from_label": "Subject: [License-review] For Legacy Approval: OpenLDAP Public License",
+          "from_label": "Redistribution and use of this software and associated documentation (\\\"Software\\\"), with or without modification, are permitted provided that the following condi",
           "to_label": "2.8",
           "from_date": "2019-08-13",
           "to_date": "2019-09-14",
@@ -153249,7 +155098,7 @@
         {
           "id": "nasa-1-3--nosa-ver-20-osi-submitted-draft-2013june13-2txt--0ddc2d0009",
           "filename": "nosa-ver-20-osi-submitted-draft-2013june13-2.txt",
-          "title": "FW: For Approval: NASA Open Source Agreement 2.0",
+          "title": "NASA OPEN SOURCE AGREEMENT VERSION 2.0",
           "version": "2.0",
           "version_label": "2.0",
           "revision_label": "",
@@ -154944,7 +156793,7 @@
         {
           "id": "php-3-0--request-for-legacy-approval-of-php-license-301-2txt--aa9f592c78",
           "filename": "request-for-legacy-approval-of-php-license-301 2.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "Copyright (c) 1999 - 2019 The PHP Group. All rights reserved.",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -154968,7 +156817,7 @@
         {
           "id": "php-3-0--request-for-legacy-approval-of-php-license-301-2txt--aa9f592c78-2",
           "filename": "request-for-legacy-approval-of-php-license-301-2.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "Copyright (c) 1999 - 2019 The PHP Group. All rights reserved.",
           "version": "",
           "version_label": "",
           "revision_label": "",
@@ -154992,7 +156841,7 @@
         {
           "id": "php-3-0--php-license-301txt--35fb66917c",
           "filename": "php-license-301.txt",
-          "title": "Request for Legacy Approval of PHP License 3.01",
+          "title": "The PHP License, version 3.01",
           "version": "3.01",
           "version_label": "3.01",
           "revision_label": "",
