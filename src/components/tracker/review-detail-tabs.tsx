@@ -272,7 +272,7 @@ export function ReviewDetailTabs({
             {t("tracker.licenseTextNotice")}
           </p>
           <div className="grid gap-3 lg:grid-cols-[minmax(200px,1fr)_minmax(0,2fr)]">
-            <div className="flex max-h-[560px] flex-col gap-2 overflow-hidden">
+            <div className="flex flex-col gap-2 lg:max-h-[560px] lg:overflow-hidden">
             {hasSeriesFilter && (
               <div className="flex flex-wrap gap-1.5 pr-1">
                 <button
@@ -294,7 +294,7 @@ export function ReviewDetailTabs({
                 ))}
               </div>
             )}
-            <div className="pane-scroll flex min-h-0 flex-1 flex-col gap-1.5 overflow-auto pr-1">
+            <div className="pane-scroll flex flex-col gap-1.5 pr-1 lg:min-h-0 lg:flex-1 lg:overflow-auto">
             {filteredTexts.map((tx, i) => {
               const active = (selectedText?.id || filteredTexts[0]?.id) === tx.id;
               return (

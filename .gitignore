@@ -12,3 +12,4 @@ process_emails.py
 src/app/tracker/tracker-client 2.tsx
 logs/
 scripts/.tracker-watch-state.json
+.opencode/
