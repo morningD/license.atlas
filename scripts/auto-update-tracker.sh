@@ -5,8 +5,13 @@
 # Exit codes follow the probe script (0 = no change, 3 = updated, 2 = probe error).
 
 set -u
-ATLAS_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-LOG_DIR="$ATLAS_DIR/logs"
+# Resolve locations. Direct repo runs derive ATLAS_DIR from this script's
+# path; the launchd runner (~/.local/share/license-atlas-tracker) exports
+# ATLAS_DIR / TRACKER_LOG_DIR / TRACKER_PROBE_SCRIPT overrides instead,
+# keeping its logs and probe state outside Documents (macOS TCC).
+ATLAS_DIR="${ATLAS_DIR:-$(cd "$(dirname "$0")/.." && pwd)}"
+LOG_DIR="${TRACKER_LOG_DIR:-$ATLAS_DIR/logs}"
+PROBE_SCRIPT="${TRACKER_PROBE_SCRIPT:-$ATLAS_DIR/scripts/check-tracker-updates.mjs}"
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/auto-update-$(date +%Y%m%d).log"
 
@@ -22,14 +27,23 @@ echo $$ > "$LOCK_FILE"
 trap 'rm -f "$LOCK_FILE"' EXIT
 
 log "=== probe start ==="
-node "$ATLAS_DIR/scripts/check-tracker-updates.mjs" >> "$LOG" 2>&1
-probe_rc=$?
+probe_rc=2
+for attempt in 1 2 3; do
+  node "$PROBE_SCRIPT" >> "$LOG" 2>&1
+  probe_rc=$?
+  if [[ $probe_rc -ne 2 ]]; then break; fi
+  # Probe errors are usually transient (wake-up network not ready). Retry
+  # shortly instead of waiting a full launchd cycle (which macOS may defer
+  # indefinitely across sleep).
+  log "probe error (rc=2, attempt $attempt/3), retrying in 60s"
+  sleep 60
+done
 
 if [[ $probe_rc -eq 0 ]]; then
   log "no archive change, short-circuit"
   exit 0
 elif [[ $probe_rc -ne 3 ]]; then
-  log "probe error (rc=$probe_rc), will retry next cycle"
+  log "probe error persisted after retries (rc=$probe_rc), will retry next cycle"
   exit $probe_rc
 fi
 
