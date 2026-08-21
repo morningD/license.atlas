@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "source_hash": "95fe8e085ffd0091",
+    "source_hash": "9a8c1742130388ba",
     "index_schema_version": 4,
-    "generated_at": "2026-08-21T02:47:29.447Z",
+    "generated_at": "2026-08-21T18:41:48.394Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 84,
-      "rejected": 42,
-      "withdrawn": 15,
+      "approved": 85,
+      "rejected": 44,
+      "withdrawn": 13,
       "pending": 13,
-      "superseded": 7,
+      "superseded": 6,
       "legacy": 33
     }
   },
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 32,
-      "duration_days": 7,
+      "total_messages": 34,
+      "duration_days": 8,
       "date_range": [
         "2026-08-13",
-        "2026-08-20"
+        "2026-08-21"
       ]
     },
     "has_vote": false,
@@ -43,19 +43,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 32,
+      "count": 34,
       "first": "2026-08-13",
-      "last": "2026-08-20"
+      "last": "2026-08-21"
     },
     "latest_event": {
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Rob Landley",
+      "sender": "Shuji Sado",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Copyrights are automatic and widespread, while patents require intentional filing, making patent licenses unsuitable models for mass copyright liability. The proposed license attempts to shield against mass copyright violations and should not be considered open source.",
-      "point_zh": "版权自动产生且普遍，专利需主动申请，故专利许可证不适合用于大规模版权责任。该许可证试图规避大规模版权侵权，不应被视为开源。"
+      "sentiment": "neutral",
+      "point": "Accepts the explanation regarding Model Materials scope but strongly recommends OpenMDW guidance explicitly enumerate them to clarify termination rights.",
+      "point_zh": ""
     }
   },
   "bos-public-license-v1-0-2": {
@@ -1732,7 +1732,7 @@
     "id": "nccl",
     "name": "Non-Coercive Copyleft Licence (NCCL) 1.0",
     "spdx_id": "",
-    "status": "withdrawn",
+    "status": "rejected",
     "submitter": "Sam Tuke",
     "stats": {
       "total_messages": 38,
@@ -1747,7 +1747,7 @@
     "review_dates": {
       "first_submitted": "2015-07-20",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -2317,7 +2317,7 @@
     "id": "educational-community-license-1",
     "name": "Educational Community License 1.0",
     "spdx_id": "",
-    "status": "superseded",
+    "status": "rejected",
     "submitter": "Christopher D. Coppola",
     "stats": {
       "total_messages": 21,
@@ -2332,7 +2332,7 @@
     "review_dates": {
       "first_submitted": "2007-04-18",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -6523,7 +6523,7 @@
     "id": "intel",
     "name": "Intel Open Source License",
     "spdx_id": "Intel",
-    "status": "superseded",
+    "status": "approved",
     "submitter": "David Smith",
     "stats": {
       "total_messages": 6,
@@ -6538,7 +6538,7 @@
     "review_dates": {
       "first_submitted": "2011-04-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -9313,7 +9313,7 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "withdrawn",
+    "status": "superseded",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9358,7 +9358,7 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "withdrawn",
+    "status": "superseded",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
