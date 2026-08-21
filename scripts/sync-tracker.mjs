@@ -1,7 +1,7 @@
 // Sync OSI License Review Tracker from KB → license-atlas.
 // Hash-gated: no-op when KB v2.json is unchanged (idempotent).
 // Run: node scripts/sync-tracker.mjs [--kb-path <path>]
-import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, copyFileSync, readdirSync, rmSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { createHash } from "crypto";
@@ -60,11 +60,32 @@ function stableTrackerPayload(data) {
 const sourceHash = createHash("sha1").update(stableTrackerPayload(kbData)).digest("hex").slice(0, 16);
 
 // ── Idempotency check ──
+// Hash gate covers the tracker trio (tracker.json/index/meta). Mail body
+// shards have their own lightweight gate: a hash of KB mail-bodies.json
+// stored in shards/_meta.json — so updating mail data alone does not
+// require a tracker data change to re-sync shards.
+const KB_BODIES = resolve(KB_ROOT, "data", "osi", "mail-bodies.json");
+const SHARD_DIR = resolve(ROOT, "public", "data", "mail-bodies");
+const SHARD_META = resolve(SHARD_DIR, "_meta.json");
+const bodiesRaw = existsSync(KB_BODIES) ? readFileSync(KB_BODIES, "utf8") : null;
+const bodiesHash = bodiesRaw ? createHash("sha1").update(bodiesRaw).digest("hex").slice(0, 16) : "";
+let shardsCurrent = false;
+if (existsSync(SHARD_META)) {
+  try {
+    shardsCurrent = JSON.parse(readFileSync(SHARD_META, "utf8")).bodies_hash === bodiesHash;
+  } catch { shardsCurrent = false; }
+}
 if (existsSync(ATLAS_INDEX) && existsSync(ATLAS_META)) {
   try {
     const existing = JSON.parse(readFileSync(ATLAS_INDEX, "utf8"));
     if (existing?._meta?.source_hash === sourceHash && existing?._meta?.index_schema_version === INDEX_SCHEMA_VERSION) {
-      console.log(`✓ tracker 无变化 (hash ${sourceHash})，跳过同步`);
+      if (shardsCurrent) {
+        console.log(`✓ tracker 无变化 (hash ${sourceHash})，跳过同步`);
+        process.exit(0);
+      }
+      console.log(`✓ tracker 无变化 (hash ${sourceHash})，仅更新 mail body shards`);
+      const allBodies = JSON.parse(bodiesRaw);
+      syncMailShards(allBodies);
       process.exit(0);
     }
   } catch {
@@ -168,6 +189,44 @@ mkdirSync(dirname(ATLAS_FULL), { recursive: true });
 copyFileSync(KB_V2, ATLAS_FULL);
 writeFileSync(ATLAS_INDEX, JSON.stringify(index, null, 2));
 writeFileSync(ATLAS_META, JSON.stringify(meta, null, 2));
+
+// ── Mail body shards (full-text timeline view) ──
+// Per-submission shard: public/data/mail-bodies/{id}.json containing the
+// full bodies of every timeline message resolvable from KB mail-bodies.json.
+// Only urls referenced by that submission's timeline go into its shard, so
+// each file stays ~tens of KB. Orphan shards of removed submissions are
+// pruned.
+function syncMailShards(allBodies) {
+  mkdirSync(SHARD_DIR, { recursive: true });
+  const validShards = new Set(["_meta.json"]);
+  let nMsgs = 0, nMissing = 0;
+  const shardsMeta = { bodies_hash: bodiesHash, generated_at: new Date().toISOString(), submissions: {} };
+  for (const s of kbData.submissions) {
+    const entries = {};
+    for (const ev of s.timeline || []) {
+      if (!ev.url) continue;
+      const b = allBodies[ev.url];
+      if (b) { entries[ev.url] = b; nMsgs++; }
+      else nMissing++;
+    }
+    const fname = `${s.id}.json`;
+    validShards.add(fname);
+    writeFileSync(resolve(SHARD_DIR, fname), JSON.stringify(entries));
+    shardsMeta.submissions[s.id] = { messages: Object.keys(entries).length };
+  }
+  writeFileSync(SHARD_META, JSON.stringify(shardsMeta));
+  // Prune shards that no longer correspond to any submission.
+  for (const f of readdirSync(SHARD_DIR)) {
+    if (f.endsWith(".json") && !validShards.has(f)) rmSync(resolve(SHARD_DIR, f));
+  }
+  console.log(`✓ mail body shards: ${nMsgs} messages matched (${nMissing} timeline urls without archive body) → public/data/mail-bodies/`);
+}
+
+if (bodiesRaw) {
+  syncMailShards(JSON.parse(bodiesRaw));
+} else {
+  console.log(`⚠ KB mail-bodies.json not found — mail body shards not updated`);
+}
 
 console.log(`✓ 同步 ${kbData.submissions.length} submissions → public/data/tracker.json + src/data/tracker-index.json + src/data/tracker-meta.json`);
 console.log(`  source_hash: ${sourceHash}`);

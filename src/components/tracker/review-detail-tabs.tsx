@@ -1,32 +1,16 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLang } from "@/lib/i18n";
 import { formatTrackerDate } from "@/lib/tracker-date";
 import type { TrackerSubmission } from "@/lib/types";
 import { ParticipantsList } from "./participants-list";
 import { BoardVoteCard } from "./board-vote-card";
+import { TimelineFullView, type MailBodiesShard } from "./timeline-full-view";
+import { sentimentPill, sentimentLabel, roleKey, roleLabel, rolePillClass, normSender } from "./tracker-pills";
 
 type DetailTab = "timeline" | "participants" | "texts" | "vote";
 const TEXT_SERIES_ORDER = ["MG0", "MG-BY", "MG-BY-OS", "MG-BY-SA"];
-
-// Sentiment → small colored pill, mirroring the timeline-strip sentiment tint.
-// Only feedback events carry a meaningful sentiment; non-feedback or neutral → no pill.
-const SENT_PILL: Record<string, string> = {
-  positive: "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300",
-  support: "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300",
-  negative: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
-  oppose: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
-  critical: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
-  question: "bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300",
-  mixed: "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300",
-};
-
-function sentimentPill(type: string, sentiment?: string | null): string | null {
-  if (!sentiment || type !== "feedback") return null;
-  const s = sentiment.toLowerCase();
-  return SENT_PILL[s] || null;
-}
 
 function sourceLabel(source: string, t: (key: string) => string): string {
   if (source === "license-discuss") return t("tracker.source-discuss");
@@ -58,13 +42,6 @@ function eventTypeLabel(type: string, t: (key: string) => string) {
   const key = `tracker.type-${type}`;
   const translated = t(key);
   return translated !== key ? translated : type.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-function sentimentLabel(sentiment: string | undefined | null, t: (key: string) => string) {
-  if (!sentiment) return "";
-  const key = `tracker.sentiment-${sentiment.toLowerCase()}`;
-  const translated = t(key);
-  return translated !== key ? translated : sentiment;
 }
 
 function seriesLabel(series: string, t: (key: string) => string) {
@@ -165,22 +142,100 @@ export function ReviewDetailTabs({
     [s.license_text_diffs, selectedText?.id],
   );
   const selectedTextBody = selectedText?.display_text || selectedText?.text || selectedText?.content_preview || selectedText?.filename || "";
-  const filtered = useMemo(
-    () =>
-      timeline.filter((e) =>
-        src === "all" ? true : src === "discuss" ? e.source === "license-discuss" : e.source !== "license-discuss"
-      ),
-    [timeline, src],
-  );
+
+  // ── Full-text timeline view ──
+  // Shard is lazy-loaded the first time the user switches to "full" and
+  // kept for the component's life (re-focuses reuse it without refetch).
+  const [tlView, setTlView] = useState<"summary" | "full">("summary");
+  const [mailBodies, setMailBodies] = useState<MailBodiesShard | null>(null);
+  const [bodiesLoading, setBodiesLoading] = useState(false);
+  const [bodiesFailed, setBodiesFailed] = useState(false);
+  const bodiesReq = useRef(0);
+  useEffect(() => {
+    if (tlView !== "full" || mailBodies || bodiesLoading) return;
+    const req = ++bodiesReq.current;
+    setBodiesLoading(true);
+    setBodiesFailed(false);
+    fetch(`${window.location.origin}/license.atlas/data/mail-bodies/${s.id}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(String(r.status));
+        return r.json();
+      })
+      .then((data: MailBodiesShard) => {
+        if (req !== bodiesReq.current) return;
+        setMailBodies(data);
+      })
+      .catch(() => {
+        if (req !== bodiesReq.current) return;
+        setBodiesFailed(true);
+      })
+      .finally(() => {
+        if (req === bodiesReq.current) setBodiesLoading(false);
+      });
+  }, [tlView, mailBodies, bodiesLoading, s.id]);
+
+  // ── Timeline label filters + search ──
+  // One toggle per facet (role / sentiment / has-text); each pill toggles
+  // off when clicked again. The query box matches subject/sender/point/
+  // snippet (both languages) and, once the full-text shard is loaded, the
+  // archived mail body as well.
+  const [roleF, setRoleF] = useState<string | null>(null);
+  const [sentF, setSentF] = useState<string | null>(null);
+  const [textFOnly, setTextFOnly] = useState(false);
+  const [query, setQuery] = useState("");
+  const roleBySender = useMemo(() => {
+    const m = new Map<string, string>();
+    for (const p of s.participants || []) m.set(normSender(p.name), roleKey(p.role));
+    return m;
+  }, [s.participants]);
+  const qLower = query.trim().toLowerCase();
+  const eventPasses = useCallback((e: (typeof timeline)[number]) => {
+    if (src === "discuss" ? e.source !== "license-discuss" : src === "review" ? e.source === "license-discuss" : false) return false;
+    if (roleF && roleBySender.get(normSender(e.sender)) !== roleF) return false;
+    if (sentF && (!sentimentPill(e.type, e.sentiment) || (e.sentiment || "").toLowerCase() !== sentF)) return false;
+    if (textFOnly && !e.text_ids?.length) return false;
+    if (qLower) {
+      const body = mailBodies && e.url ? mailBodies[e.url]?.body || "" : "";
+      const hay = `${e.subject || ""} ${e.sender || ""} ${e.point || ""} ${e.snippet || ""} ${e.point_zh || ""} ${body}`.toLowerCase();
+      if (!hay.includes(qLower)) return false;
+    }
+    return true;
+  }, [src, roleF, sentF, textFOnly, qLower, roleBySender, mailBodies]);
+  const filtered = useMemo(() => timeline.filter(eventPasses), [timeline, eventPasses]);
   // Map filtered index → original timeline index so strip-node clicks (original idx) match rows.
   const filteredOrigIdx = useMemo(
-    () =>
-      timeline.map((_, i) => i).filter((i) => {
-        const e = timeline[i];
-        return src === "all" ? true : src === "discuss" ? e.source === "license-discuss" : e.source !== "license-discuss";
-      }),
-    [timeline, src],
+    () => timeline.map((_, i) => i).filter((i) => eventPasses(timeline[i])),
+    [timeline, eventPasses],
   );
+  // Filter pill counts (computed from the source-filtered set, ignoring the
+  // other label filters so counts stay stable while toggling).
+  const pillCounts = useMemo(() => {
+    const srcOk = (e: (typeof timeline)[number]) =>
+      src === "all" ? true : src === "discuss" ? e.source === "license-discuss" : e.source !== "license-discuss";
+    const roles: Record<string, number> = {};
+    const sents: Record<string, number> = {};
+    let textCount = 0;
+    for (const e of timeline) {
+      if (!srcOk(e)) continue;
+      const r = roleBySender.get(normSender(e.sender));
+      if (r && r !== "participant") roles[r] = (roles[r] || 0) + 1;
+      if (sentimentPill(e.type, e.sentiment)) {
+        const k = (e.sentiment || "").toLowerCase();
+        sents[k] = (sents[k] || 0) + 1;
+      }
+      if (e.text_ids?.length) textCount++;
+    }
+    return { roles, sents, textCount };
+  }, [timeline, src, roleBySender]);
+
+  const openTextFromFull = useCallback((textId: string | null) => {
+    const linked = texts.find((tx) => tx.id === textId);
+    setSelectedTextId(textId);
+    if (hasSeriesFilter) setTextSeries(linked?.series || "Other");
+    setTextView("text");
+    setTab("texts");
+    clearFocus();
+  }, [texts, hasSeriesFilter, setTab, clearFocus]);
 
   return (
     <div className="mt-4 border-t border-zinc-200/60 pt-4 dark:border-zinc-800/60">
@@ -205,7 +260,7 @@ export function ReviewDetailTabs({
 
       {tab === "timeline" && (
         <div>
-          <div className="mb-3 flex gap-1.5">
+          <div className="mb-3 flex flex-wrap items-center gap-1.5">
             {reviewCount > 0 && (
               <button onClick={() => setSrc("review")} className={`rounded-full px-2.5 py-1 text-xs ${src === "review" ? "bg-[#7c3aed] text-white" : "border border-zinc-200/60 dark:border-zinc-700/60"}`}>{t("tracker.review")} ({reviewCount})</button>
             )}
@@ -213,7 +268,75 @@ export function ReviewDetailTabs({
               <button onClick={() => setSrc("discuss")} className={`rounded-full px-2.5 py-1 text-xs ${src === "discuss" ? "bg-[#7c3aed] text-white" : "border border-zinc-200/60 dark:border-zinc-700/60"}`}>{t("tracker.discuss")} ({discussCount})</button>
             )}
             <button onClick={() => setSrc("all")} className={`rounded-full px-2.5 py-1 text-xs ${src === "all" ? "bg-[#7c3aed] text-white" : "border border-zinc-200/60 dark:border-zinc-700/60"}`}>{t("tracker.all")} ({timeline.length})</button>
+            <span className="mx-0.5 h-4 w-px bg-zinc-200/80 dark:bg-zinc-700/60" aria-hidden />
+            {Object.entries(pillCounts.roles).map(([role, count]) => (
+              <button
+                key={role}
+                type="button"
+                onClick={() => setRoleF(roleF === role ? null : role)}
+                className={`rounded-full px-2 py-0.5 text-[11px] font-semibold transition-colors ${roleF === role ? "bg-[#7c3aed] text-white" : `${rolePillClass(role)} hover:opacity-80`}`}
+              >
+                {roleLabel(role, t)} ({count})
+              </button>
+            ))}
+            {Object.entries(pillCounts.sents).map(([sent, count]) => (
+              <button
+                key={sent}
+                type="button"
+                onClick={() => setSentF(sentF === sent ? null : sent)}
+                className={`rounded-full px-2 py-0.5 text-[11px] font-semibold transition-colors ${sentF === sent ? "bg-[#7c3aed] text-white" : `${sentimentPill("feedback", sent) || ""} hover:opacity-80`}`}
+              >
+                {sentimentLabel(sent, t)} ({count})
+              </button>
+            ))}
+            {pillCounts.textCount > 0 && (
+              <button
+                type="button"
+                onClick={() => setTextFOnly(!textFOnly)}
+                className={`rounded-full px-2 py-0.5 text-[11px] font-semibold transition-colors ${textFOnly ? "bg-[#7c3aed] text-white" : "bg-cyan-50 text-cyan-700 hover:bg-cyan-100 dark:bg-cyan-900/30 dark:text-cyan-300"}`}
+              >
+                {t("tracker.text")} ({pillCounts.textCount})
+              </button>
+            )}
+            <span className="mx-0.5 h-4 w-px bg-zinc-200/80 dark:bg-zinc-700/60" aria-hidden />
+            <div className="relative flex items-center">
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t("tracker.searchThread")}
+                aria-label={t("tracker.searchThread")}
+                className="w-40 rounded-full border border-zinc-200/60 bg-transparent px-3 py-1 pr-7 text-xs outline-none placeholder:text-zinc-400 focus:border-[#7c3aed]/60 dark:border-zinc-700/60"
+              />
+              {!!query && (
+                <button
+                  type="button"
+                  onClick={() => setQuery("")}
+                  aria-label={t("tracker.clearSearch")}
+                  className="absolute right-2 text-xs text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200"
+                >
+                  ×
+                </button>
+              )}
+            </div>
+            <span className="ml-auto inline-flex overflow-hidden rounded-full border border-zinc-200/60 text-xs dark:border-zinc-700/60" role="group" aria-label={t("tracker.viewModeAria")}>
+              <button type="button" onClick={() => setTlView("summary")} className={`px-2.5 py-1 ${tlView === "summary" ? "bg-[#7c3aed] text-white" : "text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200"}`}>{t("tracker.tlSummary")}</button>
+              <button type="button" onClick={() => setTlView("full")} className={`px-2.5 py-1 ${tlView === "full" ? "bg-[#7c3aed] text-white" : "text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-200"}`}>{t("tracker.tlFull")}</button>
+            </span>
           </div>
+          {tlView === "full" ? (
+            <TimelineFullView
+              s={s}
+              events={filtered}
+              origIndexes={filteredOrigIdx}
+              focusEventIdx={focusEventIdx}
+              bodies={mailBodies}
+              loading={bodiesLoading}
+              failed={bodiesFailed}
+              participants={s.participants}
+              onOpenText={openTextFromFull}
+            />
+          ) : (
           <div className="flex max-h-[560px] flex-col gap-1 overflow-auto pr-1">
             {filtered.map((ev, i) => {
               const origIdx = filteredOrigIdx[i];
@@ -261,6 +384,7 @@ export function ReviewDetailTabs({
             })}
             {!filtered.length && <div className="text-sm text-zinc-400">{t("tracker.noEvents")}</div>}
           </div>
+          )}
         </div>
       )}
 
