@@ -271,8 +271,8 @@ export function ReviewDetailTabs({
           <p className="rounded-lg border border-amber-200/70 bg-amber-50/70 px-3 py-2 text-xs leading-relaxed text-amber-800 dark:border-amber-900/50 dark:bg-amber-950/25 dark:text-amber-200">
             {t("tracker.licenseTextNotice")}
           </p>
-          <div className="grid gap-3 lg:grid-cols-[minmax(200px,1fr)_minmax(0,2fr)]">
-            <div className="flex flex-col gap-2 lg:max-h-[560px] lg:overflow-hidden">
+          <div className="grid gap-3 lg:grid-cols-[minmax(200px,1fr)_minmax(0,2fr)] lg:grid-rows-[640px]">
+            <div className="flex flex-col gap-2 lg:overflow-hidden">
             {hasSeriesFilter && (
               <div className="flex flex-wrap gap-1.5 pr-1">
                 <button
@@ -337,10 +337,10 @@ export function ReviewDetailTabs({
             </div>
           </div>
 
-            <div className="min-w-0 rounded-lg border border-zinc-200/60 bg-zinc-50/70 p-3 dark:border-zinc-800/60 dark:bg-zinc-950/40">
+            <div className="min-w-0 rounded-lg border border-zinc-200/60 bg-zinc-50/70 p-3 lg:flex lg:h-full lg:flex-col dark:border-zinc-800/60 dark:bg-zinc-950/40">
             {selectedText ? (
               <>
-                <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-zinc-500">
+                <div className="mb-3 flex shrink-0 flex-wrap items-center gap-2 text-xs text-zinc-500">
                   <span className="font-semibold text-zinc-800 dark:text-zinc-100">{selectedText.title || selectedText.filename}</span>
                   {selectedText.sha256 && <span className="font-mono">{selectedText.sha256.slice(0, 12)}</span>}
                   {selectedText.message_url && (
@@ -359,14 +359,14 @@ export function ReviewDetailTabs({
                     <TrackerCopyButton text={selectedTextBody} />
                   </span>
                 </div>
-                <div className="mb-2 flex gap-1.5">
+                <div className="mb-2 flex shrink-0 gap-1.5">
                   <button type="button" onClick={() => setTextView("text")} className={`rounded-full px-2.5 py-1 text-xs ${textView === "text" ? "bg-[#7c3aed] text-white" : "border border-zinc-200/60 dark:border-zinc-700/60"}`}>{t("tracker.text")}</button>
                   <button type="button" onClick={() => setTextView("diff")} disabled={!selectedDiff} className={`rounded-full px-2.5 py-1 text-xs disabled:cursor-not-allowed disabled:opacity-40 ${textView === "diff" ? "bg-[#7c3aed] text-white" : "border border-zinc-200/60 dark:border-zinc-700/60"}`}>
                     {t("tracker.diffFromPrevious")}{selectedDiff ? ` (+${selectedDiff.stats.added}/-${selectedDiff.stats.removed})` : ""}
                   </button>
                 </div>
                 {textView === "diff" && selectedDiff ? (
-                  <div className="pane-scroll overflow-auto rounded-md bg-white p-3 font-mono text-xs leading-relaxed lg:max-h-[560px] dark:bg-zinc-950">
+                  <div className="pane-scroll overflow-auto rounded-md bg-white p-3 font-mono text-xs leading-relaxed lg:min-h-0 lg:flex-1 dark:bg-zinc-950">
                     <div className="mb-2 font-sans text-xs text-zinc-500">
                       {selectedDiff.from_label} → {selectedDiff.to_label}
                       {selectedDiff.truncated && <span className="ml-2 rounded bg-amber-100 px-1.5 py-0.5 text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">{t("tracker.truncated")}</span>}
@@ -390,7 +390,7 @@ export function ReviewDetailTabs({
                     )}
                   </div>
                 ) : (
-                  <pre className="pane-scroll overflow-auto whitespace-pre-wrap break-words rounded-md bg-white p-3 font-mono text-xs leading-relaxed text-zinc-700 lg:max-h-[560px] dark:bg-zinc-950 dark:text-zinc-200">
+                  <pre className="pane-scroll overflow-auto whitespace-pre-wrap break-words rounded-md bg-white p-3 font-mono text-xs leading-relaxed text-zinc-700 lg:min-h-0 lg:flex-1 dark:bg-zinc-950 dark:text-zinc-200">
                     {selectedTextBody}
                   </pre>
                 )}
