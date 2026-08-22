@@ -240,8 +240,8 @@ export function TrackerClient() {
           {t("tracker.dataUpdated", {
             time: new Date(data?.meta?.generated_at ?? indexMeta?.generated_at ?? "")
               .toISOString()
-              .replace("T", " ")
-              .slice(0, 16) + " UTC",
+              .slice(0, 13)
+              .replace("T", " ") + ":00 UTC",
           })}
         </p>
       </div>
