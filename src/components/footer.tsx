@@ -4,8 +4,6 @@ import { useState, useEffect } from "react";
 import { useLang } from "@/lib/i18n";
 import { subscribeToSiteViewCount } from "@/lib/page-counter";
 import stats from "@/data/stats.json";
-import trackerMeta from "@/data/tracker-meta.json";
-import osadlMeta from "@/data/osadl-meta.json";
 
 export function Footer() {
   const { t, lang } = useLang();
@@ -20,11 +18,9 @@ export function Footer() {
   const brandName = mounted && lang === "zh"
     ? <span className="font-serif tracking-widest"><span className="font-medium text-[#7c3aed]">许可</span>图鉴</span>
     : <><span className="font-medium text-[#7c3aed]">License</span>Atlas</>;
-  const statsUpdated = new Date(`${stats.updated}T00:00:00Z`);
-  const trackerUpdated = new Date(trackerMeta.generated_at);
-  const osadlUpdated = new Date(osadlMeta.generated_at);
-  const latestUpdated = [statsUpdated, trackerUpdated, osadlUpdated]
-    .reduce((latest, current) => current > latest ? current : latest);
+  // LicenseAtlas core data only (licenses corpus). Tracker and OSADL are
+  // independently synced datasets with their own freshness shown in-context.
+  const latestUpdated = new Date(`${stats.updated}T00:00:00Z`);
   const updatedLabel = new Intl.DateTimeFormat(lang === "zh" ? "zh-CN" : "en-US", {
     year: "numeric",
     month: "short",

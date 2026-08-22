@@ -6,7 +6,6 @@ import trackerMeta from "@/data/tracker-meta.json";
 
 const BASE_URL = "https://morningd.github.io/license.atlas";
 const trackerUrl = `${BASE_URL}/tracker`;
-const generatedDate = new Date(trackerMeta.generated_at).toISOString().slice(0, 10);
 const trackerDescription = `Track ${trackerMeta.total_submissions} OSI license reviews with submissions, discussion timelines, sentiment, and board votes where available. Includes ${trackerMeta.by_status.approved} approved, ${trackerMeta.by_status.rejected} rejected, and ${trackerMeta.by_status.pending} pending reviews. 追踪 ${trackerMeta.total_submissions} 个 OSI 许可证审查条目，涵盖提交、讨论时间线、情绪倾向与董事会投票；其中 ${trackerMeta.by_status.approved} 个已批准、${trackerMeta.by_status.rejected} 个被拒、${trackerMeta.by_status.pending} 个待决。`;
 
 export const metadata: Metadata = {
@@ -80,7 +79,6 @@ export default function TrackerPage() {
       <Suspense fallback={<TrackerPageFallback />}>
         <TrackerClient />
       </Suspense>
-      <span className="sr-only">Last updated: {generatedDate}</span>
     </>
   );
 }

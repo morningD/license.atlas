@@ -3,7 +3,7 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { useLang } from "@/lib/i18n";
-import type { TrackerData, TrackerIndex, TrackerIndexEntry } from "@/lib/types";
+import type { TrackerData, TrackerIndex, TrackerIndexEntry, TrackerIndexMeta } from "@/lib/types";
 import { TrackerCard, statusLabel } from "@/components/tracker/tracker-card";
 
 function submitterName(entry: TrackerIndexEntry | TrackerData["submissions"][number]) {
@@ -14,6 +14,7 @@ export function TrackerClient() {
   const { t } = useLang();
   const searchParams = useSearchParams();
   const [indexEntries, setIndexEntries] = useState<TrackerIndexEntry[] | null>(null);
+  const [indexMeta, setIndexMeta] = useState<TrackerIndexMeta | null>(null);
   const [data, setData] = useState<TrackerData | null>(null);
   const [loadError, setLoadError] = useState(false);
   const fullLoadRef = useRef<Promise<TrackerData> | null>(null);
@@ -54,6 +55,7 @@ export function TrackerClient() {
       .then((mod) => {
         if (cancelled) return;
         const idx = mod.default as unknown as TrackerIndex;
+        setIndexMeta(idx._meta ?? null);
         const entries = Object.entries(idx)
           .filter(([key]) => key !== "_meta")
           .map(([, value]) => value as TrackerIndexEntry)
@@ -216,21 +218,31 @@ export function TrackerClient() {
         </button>
       )}
 
-      <div className="mb-6">
-        <h1 className="bg-gradient-to-r from-[#7c3aed] to-zinc-950 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl dark:to-zinc-50">
-          {t("tracker.title")}
-        </h1>
-        <p className="mt-2 min-h-[3.75rem] max-w-3xl text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
-          {t("tracker.subtitlePre")}
-          <a
-            href="https://opensource.org/about/osi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#7c3aed] hover:underline dark:text-[#a78bfa]"
-          >
-            OSI
-          </a>
-          {t("tracker.subtitlePost")}
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-x-4 gap-y-2">
+        <div>
+          <h1 className="bg-gradient-to-r from-[#7c3aed] to-zinc-950 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl dark:to-zinc-50">
+            {t("tracker.title")}
+          </h1>
+          <p className="mt-2 min-h-[3.75rem] max-w-3xl text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
+            {t("tracker.subtitlePre")}
+            <a
+              href="https://opensource.org/about/osi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#7c3aed] hover:underline dark:text-[#a78bfa]"
+            >
+              OSI
+            </a>
+            {t("tracker.subtitlePost")}
+          </p>
+        </div>
+        <p className="shrink-0 pb-1 font-mono text-xs text-zinc-400 dark:text-zinc-500">
+          {t("tracker.dataUpdated", {
+            time: new Date(data?.meta?.generated_at ?? indexMeta?.generated_at ?? "")
+              .toISOString()
+              .replace("T", " ")
+              .slice(0, 16) + " UTC",
+          })}
         </p>
       </div>
 
