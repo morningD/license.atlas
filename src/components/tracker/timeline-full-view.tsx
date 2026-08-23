@@ -180,6 +180,15 @@ export function TimelineFullView({
                   return <span className={`rounded-full px-1.5 py-0.5 text-[9px] font-semibold ${pill}`}>{sentimentLabel(selEvent.sentiment, t)}</span>;
                 })()}
                 <span className="rounded bg-violet-50 px-1 text-[9px] dark:bg-violet-900/20">{selEvent.source}</span>
+                {!!selEvent.text_ids?.length && (
+                  <button
+                    type="button"
+                    onClick={() => onOpenText(selEvent.text_ids?.[0] || null)}
+                    className="rounded bg-cyan-50 px-1.5 py-0.5 text-[9px] font-semibold text-cyan-700 hover:bg-cyan-100 dark:bg-cyan-900/30 dark:text-cyan-300"
+                  >
+                    {t("tracker.text")}
+                  </button>
+                )}
                 <span className="ml-auto inline-flex items-center gap-1">
                   <button type="button" onClick={goPrev ?? undefined} disabled={!goPrev} className="rounded border border-zinc-200/60 px-1.5 py-0.5 text-[10px] text-zinc-500 disabled:opacity-30 dark:border-zinc-700/60" aria-label={t("tracker.prevMsg")}>‹</button>
                   <button type="button" onClick={goNext ?? undefined} disabled={!goNext} className="rounded border border-zinc-200/60 px-1.5 py-0.5 text-[10px] text-zinc-500 disabled:opacity-30 dark:border-zinc-700/60" aria-label={t("tracker.nextMsg")}>›</button>
@@ -201,15 +210,6 @@ export function TimelineFullView({
                   </div>
                 )}
               </div>
-              {!!selEvent.text_ids?.length && (
-                <button
-                  type="button"
-                  onClick={() => onOpenText(selEvent.text_ids?.[0] || null)}
-                  className="mt-2 shrink-0 self-start rounded bg-cyan-50 px-1.5 py-0.5 text-[10px] text-cyan-700 hover:bg-cyan-100 dark:bg-cyan-900/30 dark:text-cyan-300"
-                >
-                  {t("tracker.text")}
-                </button>
-              )}
             </>
           ) : (
             <div className="text-sm text-zinc-400">{t("tracker.noEvents")}</div>
