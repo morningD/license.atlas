@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "dbcdae325be663a1",
+    "source_hash": "3ec45930523c97a0",
     "index_schema_version": 4,
-    "generated_at": "2026-08-21T18:41:48.394Z",
+    "generated_at": "2026-08-23T04:32:57.547Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 85,
-      "rejected": 44,
-      "withdrawn": 13,
-      "pending": 13,
+      "approved": 86,
+      "rejected": 43,
+      "withdrawn": 14,
+      "pending": 15,
       "superseded": 6,
-      "legacy": 33
+      "legacy": 30
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -2002,7 +2002,7 @@
     "id": "python-license-changes",
     "name": "Python License Changes",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "pending",
     "submitter": "VanL",
     "stats": {
       "total_messages": 27,
@@ -2017,7 +2017,7 @@
     "review_dates": {
       "first_submitted": "2011-05-24",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -6523,7 +6523,7 @@
     "id": "intel",
     "name": "Intel Open Source License",
     "spdx_id": "Intel",
-    "status": "approved",
+    "status": "superseded",
     "submitter": "David Smith",
     "stats": {
       "total_messages": 6,
@@ -6538,7 +6538,7 @@
     "review_dates": {
       "first_submitted": "2011-04-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -9313,7 +9313,7 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "superseded",
+    "status": "withdrawn",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9358,7 +9358,7 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "superseded",
+    "status": "withdrawn",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -10213,7 +10213,7 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
-    "status": "legacy",
+    "status": "pending",
     "submitter": "Russell Nelson",
     "stats": {
       "total_messages": 9,
@@ -10258,7 +10258,7 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
-    "status": "legacy",
+    "status": "pending",
     "submitter": "Russell Nelson",
     "stats": {
       "total_messages": 9,
@@ -10573,7 +10573,7 @@
     "id": "ncsa",
     "name": "The University of Illinois/NCSA Open Source License",
     "spdx_id": "NCSA",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 7,
@@ -10588,7 +10588,7 @@
     "review_dates": {
       "first_submitted": "2002-01-17",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -10663,7 +10663,7 @@
     "id": "motosoto",
     "name": "Motosoto Open Source License",
     "spdx_id": "Motosoto",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Leon Gommans",
     "stats": {
       "total_messages": 1,
@@ -10678,7 +10678,7 @@
     "review_dates": {
       "first_submitted": "2001-04-23",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,

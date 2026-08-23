@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-21T18:41:34.874Z",
+    "generated_at": "2026-08-23T04:32:42.869Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 85,
-      "rejected": 44,
-      "withdrawn": 13,
-      "pending": 13,
+      "approved": 86,
+      "rejected": 43,
+      "withdrawn": 14,
+      "pending": 15,
       "superseded": 6,
-      "legacy": 33
+      "legacy": 30
     },
     "data_sources": {
       "osi_api": 122,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-21T18:41:48.394Z",
+    "enriched_at": "2026-08-23T04:32:57.547Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,11 +36,11 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-21T19:17:32.562Z",
-      "applied": 178,
+      "applied_at": "2026-08-23T04:32:57.846Z",
+      "applied": 194,
       "missing": 0,
-      "invalid": 16,
-      "manual_review_blocking": 89
+      "invalid": 0,
+      "manual_review_blocking": 84
     }
   },
   "submissions": [
@@ -675,7 +675,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e99a10b88500dd7a51219e83c63364b52a686cae5f303c2b85cc05657e4dd719",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -809,7 +809,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2f672c2cec84e41491fbfa03b07ebc3aa62b7b9f62c95e33ef24b32febd9055c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -994,7 +994,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:76e7c9f70e352f9bc9989d896d140317b6e7ce1c3438fdf534d4798f13c5c9dc",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -4603,7 +4603,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c1beacc20da0c9abb733e1861109087062903232c1387962b47e4874dbda3247",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -4809,7 +4809,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:367b285e79096ec9015c6ea075dcdf92c0b51322cdb6c6798f5385fd790d3687",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -5492,7 +5492,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a786e53283f550a4217cd607caf3a7cfd600e564cd753e80117103696b051649",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -6494,7 +6494,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fb56830846f7acadf85a4fb16d45143e440007386afaa3caa630263c92c4f5e7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -16307,7 +16307,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2b8dd645352ee793058a466c5c300b85b9aee4e2cb8cd6b0f5bc5912b0f12741",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -16744,7 +16744,7 @@
           }
         ],
         "input_hash": "sha256:2a4128c9aa1a856f5a4da2fa8ba4aec633d34fce7e05195a3356797c6a1d1701",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -17569,7 +17569,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:baeafb424311a91748f485158990ba18fd20e60b8d081c20cb59979f8b9cbd8d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -21111,7 +21111,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d4626164d9235bfb461d2da058d44045efa6d3ed881e8690d985675635ce36aa",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -21907,7 +21907,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f6ef168d5cc2456dcb3c5ae1bb9eab4367f7c0eafa9cb547e67c355811f0ec43",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -22245,7 +22245,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:36d0b168acd7fc14e1265bac93a0baee2abd99ecd9d25db43da6b8a00ec410f7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -22583,7 +22583,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:70926fafe423137a5c16de697059b3744997ca515329c9643ef0386f364fa912",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -23938,7 +23938,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:73e3bcdfff801faff1562974db431a157364a4f7bbfe328e9ca629dc436854e6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -25292,7 +25292,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cc7179855feaafa26851243dbe77724d3656008a6b68cef503c613ea99959527",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -25497,7 +25497,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6534de480cb9e2d32af271267650b46804235a8a3ccb05e1d93d98b8926983f3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -25723,7 +25723,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0361e2b113bccd02e8918a7ded6264219b0a3556a3cefc854756eb7bdb468a8b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -26016,7 +26016,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0bfba8336b4ed69c5db383486f2106673335d9bf74f7bc19bb85390ce0e09da0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -28274,7 +28274,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cf584a6a860d61b1f20b6be8a9dfee2b20764b609b5cc0718b28d868c51186b0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -29041,7 +29041,7 @@
           }
         ],
         "input_hash": "sha256:499d9a80afb95b162ac9a3057c8141916822eaea9caf87a9050a91aa991a67ef",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -29796,7 +29796,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:89af8acdc06353578b7043d08be5308d49d95922af20e1b4692c45c608817d5e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -30440,7 +30440,7 @@
           }
         ],
         "input_hash": "sha256:7260c45ed1c634fc6b21127e0e1719e5a87ab5dbe50958045f96b375631bff9e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -31913,7 +31913,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:07eed923d27477c747da1954f435bbeda5d5f4835c05c5db9eef34fa86ab5ee8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -32313,7 +32313,7 @@
           }
         ],
         "input_hash": "sha256:cc29b7d90f70ce7b16707b711550c69bcf68272de70a0ce9299befd60474ee71",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -32737,7 +32737,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7375889bc285b2f40e33f642dfe5ed3597d73ea570428dddc812d661473c9b1b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -34017,7 +34017,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:22e766762ec5c88ab04f0bc5afba5566fd06bbedeb0c18e75537fdc632fe0f4c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -34544,10 +34544,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "withdrawn",
-        "confidence": 0.95,
+        "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "There is a conflict between the email evidence showing the submitter formally withdrew the request and the curated 'curated_rwp' entry marking the status as 'rejected'. The email evidence is more specific and recent.",
-        "rationale": "The submitter, Cosmin Truta, formally withdrew the OSI review request for libpng license v2.0 in a mailing list message dated 2018-12-17. The text of the message explicitly states: 'Formally withdraws the OSI review request for libpng license v2.0 after others on the list agreed with the proposed plan.' While the curated RWP entry lists the status as 'rejected' and mentions the committee encouraged withdrawal, the explicit action taken by the submitter controls the final status of this specific review submission.",
+        "manual_review_reason": "The curated data source ('curated_rwp') labels the status as 'rejected' and cites a recommendation for 'no action' and 'encouraged withdrawal'. However, the primary evidence (mail event timeline:libpng-v2#13) contains an explicit statement from the submitter: 'Formally withdraws the OSI review request for libpng license v2.0'. According to the adjudication rules, a direct withdrawal by the submitter takes precedence over a rejection or a recommendation to withdraw. The conflict between the source status ('rejected') and the evidence of withdrawal necessitates manual review to reconcile the metadata.",
+        "rationale": "The submitter, Cosmin Truta, explicitly stated in a mailing list email on 2018-12-17 that they were 'Formally withdraw[ing] the OSI review request for libpng license v2.0'. This constitutes a definitive withdrawal action under the OSI review process guidelines. While the 'curated_rwp' entry indicates a 'rejected' status based on a recommendation for no action, the actual event recorded in the timeline is a withdrawal. Therefore, the final status is determined to be 'withdrawn'.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:libpng-v2#13",
@@ -34558,23 +34558,18 @@
             "evidence_id": "timeline:libpng-v2#12",
             "supports": "withdrawn",
             "quote": "Proposes a four-step plan: withdraw from OSI review, get lawyer review, release under new license, then apply for OSI Legacy Review."
-          },
-          {
-            "evidence_id": "curated_rwp:libpng-v2",
-            "supports": "rejected",
-            "quote": "License Committee recommended no action due to confusing license text combining new and legacy notices. Encouraged withdrawal."
           }
         ],
         "conflicts": [
           {
             "source": "curated_rwp",
             "observed_status": "rejected",
-            "explanation": "The curated RWP entry marks the status as 'rejected' and notes the committee encouraged withdrawal. However, the mailing list timeline confirms the submitter formally withdrew the request, making 'withdrawn' the accurate status for the submission, even if the committee's stance aligned with rejection/non-approval."
+            "explanation": "The source labels the license as 'rejected' and states the committee 'Encouraged withdrawal'. However, the submitter actually performed the withdrawal, making 'withdrawn' the accurate status for the review outcome."
           }
         ],
-        "input_hash": "sha256:b0782080874929a6912526ad9b01886265e76d8271660708c134262ca4ba9c4d",
+        "input_hash": "sha256:aec7231654cf22e0ed6d06d7fc6d4273c51179a1c6ef974c3f5f21aa018f01a2",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -36234,7 +36229,7 @@
           }
         ],
         "input_hash": "sha256:dca171a250cad3a42002d67daf8311770faeb26fc54791b02a54a43d2cd40ec4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -39008,7 +39003,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d2d5bb538cc0fecf75b3791188a76219f5a3a2cc46f1c574c99c37528bba6603",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -39901,7 +39896,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a924a7a34f4c9a171f32a48f4c7d4b2e5cecd47ef4252a6ec95df91f713f2a69",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -40309,7 +40304,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6cf4486502fbd5291511034f2e637662a9df45a91212abf1dd7808af631742cf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -40974,7 +40969,7 @@
           }
         ],
         "input_hash": "sha256:354b282f1d6160449e4a415136c08244c7c194afc6d4c60ad07957243d29a5b7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -42410,7 +42405,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:14fc55f83857d03583b67df6e8a63fb96828b1f4cf8f08b359b3cfa876bfb50f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -43164,7 +43159,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d1b58741fdd7f1a6f39ca2607eb620393ea7137a5a42bd1286c2e1f557dd0def",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -43704,7 +43699,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e707bd2596d6ea556b5e80b19712f36ed14b3a7562d8ec80de963bd24d993290",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -44153,7 +44148,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d28d7f02136febda780ec6250a633a7dbd461f739903b026795740acab5b3d86",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -44624,7 +44619,7 @@
           }
         ],
         "input_hash": "sha256:58be1180263acab551e9139201c0efca7f6e2b0a5e8512b1fdc6f18f6ceedaa1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -44633,7 +44628,7 @@
       "name": "Python License Changes",
       "aliases": [],
       "spdx_id": "",
-      "status": "rejected",
+      "status": "pending",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -45116,33 +45111,38 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "rejected",
+        "final_status": "pending",
         "confidence": 0.5,
         "requires_manual_review": true,
-        "manual_review_reason": "The only evidence supporting rejection is a 'curated_rwp' entry without a verifiable timestamp or source URL. The detailed mailing list evidence suggests ongoing discussion and clarification requests rather than a definitive board rejection or formal closure. The input confidence is low (0.6), and the evidence is insufficient to confidently confirm rejection over pending status without manual verification of the 'curated_rwp' source.",
-        "rationale": "The 'curated_rwp' entry explicitly states the status is 'rejected' with the reason 'Proposed changes to the Python license were not approved as a standalone submission.' This aligns with the 'rule_status' and 'source_status' provided in the input. However, the 'timeline_summary' indicates no board decision, and the latest email events show discussion and requests for clarification rather than a final decision. Because the 'curated_rwp' entry lacks specific source details (like a URL or date) and contradicts the 'timeline_summary' regarding the existence of a board decision, the status relies on weak evidence.",
+        "manual_review_reason": "The curated source asserts 'rejected', but the provided timeline evidence shows only discussion and a split of threads with no explicit board vote or final rejection email. The review appears to have stalled pending CNRI/PSF clarification rather than resulting in a formal rejection.",
+        "rationale": "While the curated source 'curated_rwp' explicitly lists the status as 'rejected', the detailed timeline evidence does not contain a clear rejection event, board vote, or withdrawal. The latest events (Sept 2011) indicate ongoing discussion and a plan to split threads for a board meeting, suggesting the process was left in a 'pending' state awaiting further input. Due to the conflict between the curated source and the lack of corroborating 'rejected' evidence in the timeline, the status is classified as 'pending' pending manual verification of the outcome of the 2011 board meeting.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:python-license-changes",
             "supports": "rejected",
             "quote": "Proposed changes to the Python license were not approved as a standalone submission."
+          },
+          {
+            "evidence_id": "timeline:python-license-changes#25",
+            "supports": "pending",
+            "quote": "Says PSF needs to check CNRI's legacy constraints before deciding how to proceed."
+          },
+          {
+            "evidence_id": "timeline:python-license-changes#26",
+            "supports": "pending",
+            "quote": "Agrees to split the discussion into three threads and notes the board meeting date as a useful deadline."
           }
         ],
         "conflicts": [
           {
-            "source": "timeline_summary",
-            "observed_status": "pending",
-            "explanation": "The timeline summary indicates 'has_board_decision': false, suggesting no final decision was made, which conflicts with the 'rejected' status found in the curated list."
-          },
-          {
-            "source": "license-review mailing list",
-            "observed_status": "pending/discussion",
-            "explanation": "The latest email events (Sept 2011) show discussions about clarifying interpretations and waiting for PSF/CNRI responses, not a final rejection notification."
+            "source": "curated_rwp",
+            "observed_status": "rejected",
+            "explanation": "The curated source states the license was rejected, but the thread evidence shows the review was paused pending clarification and a board meeting, with no explicit rejection email or board decision found in the provided logs."
           }
         ],
-        "input_hash": "sha256:b4bdc2654177082f5b8fccf2c37cf71a9f0f24fec271873e1a13ec3cfe935edf",
+        "input_hash": "sha256:06929fb384be394421bc43065ef386589170aa6808a079fc77579a0893690b67",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -45656,7 +45656,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2e549e792521e4dcb83a06528a1bed83304712b0247a56ea154038b142e0da38",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -46207,7 +46207,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:03ea35dddb45c797fc7e554d4ec6f4659648475609e9d6e1613f6da918900f1d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -46900,7 +46900,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6aa60534653d5db7d54922d27650fa0f8cfba7874ad87c5d0e37e1d310a1b680",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -48734,7 +48734,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bdeae2dcc365ea82384588008c64aaae071a7d333c9a167bcf0b34d1ad211265",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -49216,7 +49216,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:367b0d1b80b1cba363cd0167e019cfcce917ee680aac4e00defb23085bab73de",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -49815,7 +49815,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e05e38270491fe485edd517f75c9da9a624fedafa40efe81eff82642af9042e2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -50209,7 +50209,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:af4095f87b87377c097e0b6780ce67306a400342d95024e712012666b1628595",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -53729,7 +53729,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fbb24d04f8ea0647138bd15d70c3f9b327daa3864c3eca18ba5bd9d9563c3461",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-002.out.jsonl"
       }
     },
@@ -56938,7 +56938,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b0aab8e4c2133f49a0a7148c8658f00b56cbe07f75995233901e0a7dc719d0f7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -57404,7 +57404,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:43c81a16045a641ac562f9fa902b4bb4da94e72798506a185154dbe6646defe5",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -57838,7 +57838,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e1a628d47f982ad87e9979f586567b55f54e8acc4b401a48089fc579638ec98c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -58448,7 +58448,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6722227fcb0211291976d3be1c70d73fb786ec095d74b2fc29eb9e7552c7c437",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -60532,7 +60532,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6a386b49032d185022a083ea83d7a3bcad9d9ea12be52045df41ae6856ae5217",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -64724,7 +64724,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d624f854a79be038617199b6676af8117dc7223819195e8d007ad0aaf525104e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -65118,7 +65118,7 @@
           }
         ],
         "input_hash": "sha256:7e0cf846e06f49aa699b83bc1563aa0d9603391a6933587726d8cc8c86d2bb27",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -65697,7 +65697,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:724099f8ea58db8ae1c3181bb1b1b50ab312718d7bc2c75752e446f48ed73617",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -66089,7 +66089,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2c37397e0ad338bce2ac8d566b53d52bd3a25a4260e214197e27368ba5f3662a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -66194,7 +66194,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d091073e9a110475e7659705d9e7033465c4f70d0c4a5674f510ea125158e16c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -66295,7 +66295,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:67e0a287afa4a33f83389441cba1c4a5d133d677326934ddf4659a76abe16e73",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -68463,7 +68463,7 @@
           }
         ],
         "input_hash": "sha256:522bce7db315e47ff547faf457a58b5575314155c12be5813b3c2e23080b8450",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -68747,7 +68747,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:14de7ccb64aead3ac585203d13d6afd5ee9ec8fbfd4fff89a2c019c1384aea44",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -68943,7 +68943,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4c758d7f9b756245a9744f77fa183901cf2784f8564a37c6455b9cadbf4ff88c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -70206,7 +70206,7 @@
           }
         ],
         "input_hash": "sha256:419afe1331a02cd92475c5942653f274a89f886e745d1af10cb5010a1ebfcd55",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -75317,7 +75317,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9c7c9f4907eb15e9493ea1ec5de78bff95ca4e252e295ccce19cb4af3c21d435",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -77044,7 +77044,7 @@
           }
         ],
         "input_hash": "sha256:f8da9dff243759e3eaa8002b391291a59b46298bbd6ee233ec96d612182ecbc3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -77793,7 +77793,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b9be530144b07bdf501bced5ba693e213057b2481ad3cc76c730de20816c15b4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -80630,7 +80630,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b232e809030f3726c85ca25348124e49889c956df82394e660a2d117cd344ba8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -81310,7 +81310,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:86f0d18612da9d882581f0cc1b9e5abb5a31c31d55d0fce0989ec93fbb25f2a4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -85039,7 +85039,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0298f68194ddd43e91e72b6ec6e30e240d362068390c8c9429fc1c73f65933cc",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -87383,10 +87383,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 1,
+        "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "Strong evidence of Board rejection (motion and minutes) conflicts with source/rule metadata indicating 'superseded'. Manual review required to reconcile whether the rejection of this specific draft should be the canonical status or if it is effectively superseded by later approved versions (CAL-1.0).",
-        "rationale": "The OSI Board formally voted to withhold approval of the Cryptographic Autonomy License Version 1.0 on 2019-08-15 with a vote of 7-0-0. The motion text explicitly states the Board 'withholds its approval'. The list announcement on 2019-08-16 confirms this decision and notes the license was added to the 'Not Approved Licenses' list. These events constitute a clear rejection of the submitted license. While the curated_rwp entry suggests this was an early draft superseded by an approved version (CAL-1.0), the Board decision regarding the specific submission ID 'cal-original' is a definitive rejection.",
+        "manual_review_reason": "Strong evidence of rejection via board vote and list announcement conflicts with the curated 'superseded' status which appears to conflate this specific submission with later approved versions.",
+        "rationale": "The OSI Board formally voted to withhold approval of the Cryptographic Autonomy License Version 1.0 on 2019-08-15, with a motion stating the Board 'withholds its approval'. This outcome was announced on the license-review list on 2019-08-16, noting a 7-0-0 vote and that the license was added to the 'Not Approved' list. While the curated data marks the status as 'superseded' and explains it evolved into later versions, the definitive evidence for this specific submission ID (the original draft/v1.0) is a board rejection.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cal-original",
@@ -87403,22 +87403,17 @@
           {
             "source": "curated_rwp",
             "observed_status": "superseded",
-            "explanation": "The curated_rwp entry claims the status is 'superseded' because it evolved into an approved version (CAL-1.0), implying the rejection was not final for the line of licenses. This conflicts with the specific board rejection of the submitted version."
+            "explanation": "The curated RWP entry states the status is 'superseded' because the draft evolved into Beta 2 and Beta 4 (which were approved as CAL-1.0). However, this conflicts with the board minutes and list announcement which explicitly rejected 'Version 1.0'. It is likely the curated entry is incorrectly grouping the rejected original draft with the later approved versions, or the rejection of v1.0 is effectively treated as superseded by the approval of the later BETAs, but the formal status of the submitted v1.0 remains rejected."
           },
           {
-            "source": "rule_status",
+            "source": "source-status",
             "observed_status": "superseded",
-            "explanation": "The rule_status metadata indicates 'superseded', conflicting with the evidence of board rejection."
-          },
-          {
-            "source": "source_status",
-            "observed_status": "superseded",
-            "explanation": "The source_status metadata indicates 'superseded', conflicting with the evidence of board rejection."
+            "explanation": "The source status indicates 'superseded', contradicting the primary evidence of board rejection."
           }
         ],
-        "input_hash": "sha256:43fe25faa87c0d620e84789158fb044f29c08647cfa08a3d5f371ed66a5a0dd3",
+        "input_hash": "sha256:32af3099bedbcab3f619dbc0b494f4dabcce0093e35ab341b275b630e8b7009e",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-003.out.jsonl"
       }
     },
     {
@@ -88606,32 +88601,27 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "superseded",
-        "confidence": 0.9,
+        "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "The Board motion explicitly states 'Supersede prior version' regarding Python-2.0.1 (submission), indicating Python-2.0 is superseded. However, the OSI API lists Python-2.0 as an approved license. This conflict requires verification to determine if the API is滞后 or if the supersession only affects the 'recommended' status while retaining 'approved' status.",
-        "rationale": "The adjudication relies on the Board vote minutes from 2026-06-29, which contain a motion to 'approve the Python-2.0.1 as Legacy, Supersede prior version'. This text explicitly identifies the action regarding the prior version (Python-2.0) as 'Supersede'. While the OSI API currently marks Python-2.0 as approved and not legacy, the Board minutes provide the authoritative decision on the specific relationship between Python-2.0 and the new submission, resulting in a 'superseded' status for this review.",
+        "manual_review_reason": "Known gray zone: board minutes vs OSI API status discrepancy (documented); final status superseded per adjudication and prior deployed baseline.",
+        "rationale": "The board minutes explicitly state that Python-2.0.1 is approved as Legacy and that the Board should 'Supersede prior version'. Since the submission ID is 'python-2-0' (the prior version), the status is superseded.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:python-2-0",
             "supports": "superseded",
             "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version"
-          },
-          {
-            "evidence_id": "timeline:python-2-0#0",
-            "supports": "superseded",
-            "quote": "Proposes legacy approval for Python-2.0.1, asks to mark Python-2.0 as superseded or retired"
           }
         ],
         "conflicts": [
           {
-            "source": "OSI API",
+            "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API lists Python License, Version 2 as approved, whereas the Board minutes indicate the license was superseded by Python-2.0.1."
+            "explanation": "The OSI API lists 'Python License, Version 2' as approved, but the board minutes explicitly mark this specific version as superseded by Python-2.0.1."
           }
         ],
-        "input_hash": "sha256:f2a0f070c410d40eb29761b4e2eff0c598652f1a009f08fe14568b855d49e41b",
+        "input_hash": "sha256:3a81cb097eb2cac632aa4f2b0a7d894ef648a4dc84e85846e476f50f37304807",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-003.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -89163,21 +89153,32 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "superseded",
-        "confidence": 1,
-        "requires_manual_review": false,
-        "manual_review_reason": null,
-        "rationale": "The OSI Board minutes from 2026-06-29 explicitly include a motion to approve the 'CNRI-Python-GPL-Compatible' license and to 'Supersede prior version'. This provides direct authoritative evidence that the CNRI-Python license is superseded by the CNRI-Python-GPL-Compatible license.",
+        "confidence": 0.9,
+        "requires_manual_review": true,
+        "manual_review_reason": "The Board motion explicitly approves 'CNRI-Python-GPL-Compatible as Legacy' and states 'Supersede prior version'. While the evidence strongly supports 'superseded' (referring to the prior version/legacy status), there is a strong conflict with the OSI API which lists this as 'approved' (current) without legacy/superseded flags.",
+        "rationale": "The Board minutes evidence a motion to 'approve the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version'. Under the OSI schema, approval 'in the legacy category' results in a status of 'legacy'. Furthermore, the explicit instruction to 'Supersede prior version' indicates that the existing submission (CNRI-Python) is being replaced or marked as superseded by the new legacy-compatible variant. Although the OSI API indicates 'approved', the Board minutes are authoritative for the review outcome. The status 'superseded' is selected to reflect the Board's direction to supersede the prior version, though a review is required to confirm whether this item should be removed or the new item (CNRI-Python-GPL-Compatible) should be mapped to 'legacy'.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cnri-python",
             "supports": "superseded",
             "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version"
+          },
+          {
+            "evidence_id": "osi_api:cnri-python",
+            "supports": "approved",
+            "quote": ""
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:4862d3f5330bb2b809450fcf19bed37e6c5248d87ce6780ebd762e0e678bb675",
+        "conflicts": [
+          {
+            "source": "osi_api",
+            "observed_status": "approved",
+            "explanation": "The OSI API lists this license as 'approved' with no legacy or superseded flags, but the Board minutes contain a motion to approve a GPL-compatible variant 'as Legacy' and 'Supersede prior version', implying the current entry is outdated or incorrect."
+          }
+        ],
+        "input_hash": "sha256:9611d5ccf74c30b77213ac59f5f7854e80196b2800c0d22eeaf60872c4aa2d03",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-003.out.jsonl"
       }
     },
     {
@@ -89456,7 +89457,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9986b61304653724c0e258c62a534ab477fda36466d7940c265300f11a831f69",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -89706,7 +89707,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ee883eb0d5e5329442a71030678607ce1a440ba35404e2a9783fd7aba2acb2db",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-003.out.jsonl"
       }
     },
@@ -89911,9 +89912,9 @@
         },
         "final_status": "legacy",
         "confidence": 1,
-        "requires_manual_review": false,
-        "manual_review_reason": null,
-        "rationale": "The board vote explicitly approved CDDL 1.1 'in the legacy category'. Per the requirements, a motion to approve a license in the legacy category results in a status of 'legacy', not 'approved'.",
+        "requires_manual_review": true,
+        "manual_review_reason": "The Board motion explicitly approves the license in the 'legacy category', which maps to the 'legacy' status per the provided rules. However, the OSI API and source_status list it as 'approved' without the legacy distinction. This discrepancy requires manual review to align the authoritative record with the board's specific motion.",
+        "rationale": "The OSI Board minutes from 2025-07-18 contain a specific motion: 'Josh moves to approve the CDDL1.1 license in the legacy category'. According to the provided rules, a motion to approve a license in the 'legacy category' results in a final status of 'legacy', not 'approved'. Therefore, despite the OSI API listing the license as 'approved', the board's specific categorization takes precedence for this adjudication.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cddl-1-1",
@@ -89922,14 +89923,25 @@
           },
           {
             "evidence_id": "osi_api:cddl-1-1",
-            "supports": "legacy",
-            "quote": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)"
+            "supports": "approved",
+            "quote": null
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:bb392a5e27c7fa9c916fca810b4c8e2f7323edaa4e71238158b4b034af32d4e9",
+        "conflicts": [
+          {
+            "source": "source-status",
+            "observed_status": "approved",
+            "explanation": "Source status indicates 'approved', but the Board minutes explicitly approved the license in the 'legacy category', which corresponds to the 'legacy' status per the adjudication rules."
+          },
+          {
+            "source": "osi-api",
+            "observed_status": "approved",
+            "explanation": "OSI API indicates 'approved', but the Board minutes explicitly approved the license in the 'legacy category', which corresponds to the 'legacy' status per the adjudication rules."
+          }
+        ],
+        "input_hash": "sha256:b0284d307ecbdc16174b472dd950b1b2de1fd863f600fa201e1c3b9794f25eb3",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-004.out.jsonl"
       }
     },
     {
@@ -90157,7 +90169,7 @@
           }
         ],
         "input_hash": "sha256:0c83fb7d7352fb1d5189bc2131011965e5597af6ffef1f6f902eab12bf8b1ea5",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -90417,7 +90429,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:79fd1359c97aead96222580ef35b319645004cddc5e0f08a3c367300869815ac",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -90730,7 +90742,7 @@
           }
         ],
         "input_hash": "sha256:3e7d9c59cb275400a1518eb50c2862ca7b62aa82f6591e79368c6dca71f07f1e",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -90980,7 +90992,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c3d165afd4dab19e21572eaf0da63288e0c46b9c6c20d298ff59fba8215de2a3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -91756,7 +91768,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:664d0c33bc7ba24c9aeba29a9106b16c1fa1de5c34675675b4fcf24254b6eb95",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -92917,7 +92929,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:58bd4f325520ba73cff5819dff7f4129a9dc877ba6a173ddbe97f2cde5024c2d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -93233,7 +93245,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f4b6a56cb9cf005f77abbfe505ad966561993b6b08a3e64bacd911f7832e4f93",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -93493,7 +93505,7 @@
           }
         ],
         "input_hash": "sha256:d72b4b2db149f937d4c1fb98319731af7876e6b646352ec0f26305759bd0d93c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -93754,40 +93766,50 @@
         "final_status": "legacy",
         "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "Evidence of explicit approval via the 'legacy' motion exists, but conflicts with current OSI API status listing. Requires verification if the license remains in the legacy/redundant category or was migrated to approved.",
-        "rationale": "The evidence indicates the license was submitted explicitly for 'Legacy Approval' (timeline:zpl-2-1#0). The Board motion text was '[License-review] For Legacy Approval: Zope Public License v2.1' (board_vote:zpl-2-1). The announcement confirms approval into the 'redundant-licenses' category (timeline:zpl-2-1#5). Under the provided rules, an approval specifically in the legacy category constitutes a 'legacy' final status, despite the OSI API currently listing it without a legacy flag. The conflict between the motion's specific categorization and the current API status triggers the manual review flag.",
+        "manual_review_reason": "Known evidence conflict (legacy-category board motion vs OSI API approved flag / curated-vs-mail discrepancy); status per latest adjudication, kept under manual-review tracking.",
+        "rationale": "The submission was explicitly requested for 'Legacy Approval' and the Board motion and subsequent announcement confirm approval under the 'Legacy' process. Furthermore, the license was placed in the 'redundant-licenses' (or non-reusable) category, not the general reusable category, distinguishing it from standard 'approved' licenses.",
         "evidence_refs": [
-          {
-            "evidence_id": "board_vote:zpl-2-1",
-            "supports": "legacy",
-            "quote": "motion_text: \"[License-review] For Legacy Approval: Zope Public License v2.1\""
-          },
           {
             "evidence_id": "timeline:zpl-2-1#0",
             "supports": "legacy",
             "quote": "Requests legacy approval of ZPL 2.1"
           },
           {
+            "evidence_id": "board_vote:zpl-2-1",
+            "supports": "legacy",
+            "quote": "[License-review] For Legacy Approval: Zope Public License v2.1"
+          },
+          {
             "evidence_id": "timeline:zpl-2-1#5",
             "supports": "legacy",
             "quote": "Announces that the OSI Board approved ZPL 2.1 and placed it in the redundant-licenses category"
+          },
+          {
+            "evidence_id": "timeline:zpl-2-1#6",
+            "supports": "legacy",
+            "quote": "Questions why the OSI site lists ZPL 2.1 under non-reusable licenses"
           }
         ],
         "conflicts": [
           {
-            "source": "status_evidence.osi_api",
+            "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API lists ZPL-2.1 as approved and does not flag it as legacy, whereas the board motion and mail thread explicitly reference 'Legacy Approval' and placement in the redundant category."
+            "explanation": "The OSI API marks the license as 'approved' (legacy=false), but the board motion, announcement, and discussion confirm it was approved via the legacy process and categorized as non-reusable/redundant."
           },
           {
-            "source": "submission.current_status",
-            "observed_status": "legacy",
-            "explanation": "The input submission metadata lists current_status as 'legacy', which aligns with the board motion but conflicts with the source_status and rule_status which list 'approved'."
+            "source": "source-status",
+            "observed_status": "approved",
+            "explanation": "The source status is 'approved', but evidence indicates it was approved specifically for the legacy category."
+          },
+          {
+            "source": "rule_status",
+            "observed_status": "approved",
+            "explanation": "The rule status is 'approved', but the adjudication based on evidence is 'legacy' due to the specific procedural path taken."
           }
         ],
-        "input_hash": "sha256:c18e601fdf73eb16022e370ebf5031718f245372d7e2bd8adf8370c48807dfcc",
+        "input_hash": "sha256:3863b757331112fc7833cf6c33731369df6163af663fcb675aef46cca50a91ff",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-004.out.jsonl"
       }
     },
     {
@@ -94074,7 +94096,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0e6c6a0e6416bcb8a524a54244b3aa768b41dc6dbafab030639fbd8a06e7f226",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -94362,7 +94384,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:901ea21d2a5b35837cc603f9c3d10bd4069e924b1a0825510d138caa6734430c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -94650,7 +94672,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:681d9e877bf35087905ee4d02be69d35b37f78bc202407f4667a521dbd4bd59a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -95230,7 +95252,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:03144fc93ef334cb9bc4de95cfc629b6fe1c822911fd838e1084681f0a84c6b8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -95495,7 +95517,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bb3c7496d273708afce385a830c06528f00dbe2655b8aa2e3e9677efbd208ad2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -96217,7 +96239,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c493c2330ae623243cb1c3b5a7e08d371f13eab0380d5bef535cea6d62d802b2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -96828,7 +96850,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9b61ffdf2c830b8af3fab8483480243a63df008b726fcf2632db35ede84a0801",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -101754,7 +101776,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:28d2eb5d7bf8ea827d8261db43d5e0557bf74a15af2053d2e6782eb0dbe42921",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -115626,7 +115648,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:27933b906cef88dc4044733af502ad7aaa4a5ea379eed1e0365f92b95a247985",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -116393,14 +116415,9 @@
         "final_status": "legacy",
         "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "Strong authoritative evidence (board motion, subject lines, OSI API) explicitly supports 'legacy' status, while source/status candidates suggest 'approved'. The evidence confirms approval *in the legacy category*, which maps to 'legacy' under the definition provided, requiring resolution of the categorical conflict.",
-        "rationale": "The OSI Board minutes explicitly state a motion to approve the license in the 'legacy' category. The submission email subject lines indicate the request was 'For Legacy Approval'. The OSI API listing identifies the license as legacy. According to the definition provided ('a motion like \"approve X in the legacy category\" ... means legacy, NOT approved'), the final status must be 'legacy' rather than 'approved', despite some sources labeling the outcome simply as 'approved'.",
+        "manual_review_reason": "The final adjudication status 'legacy' conflicts with the input's current/rule/source status of 'approved'. This conflict arises because the OSI Board explicitly approved the license in the 'legacy' category, which is distinct from standard 'approved' status, but the source data lists it as 'approved'.",
+        "rationale": "The OSI Board motion explicitly approved the OpenLDAP Public License Version 2.8 in the 'legacy' category. The motion text states: 'approve The OpenLDAP Public License Version 2.8... as an Open Source Initiative Certified license in the “legacy” category of licenses'. Per the adjudication rules, a motion approving a license in the 'legacy' category results in a final status of 'legacy', not 'approved'.",
         "evidence_refs": [
-          {
-            "evidence_id": "osi_api:oldap-2-8",
-            "supports": "legacy",
-            "quote": null
-          },
           {
             "evidence_id": "board_vote:oldap-2-8",
             "supports": "legacy",
@@ -116409,34 +116426,29 @@
           {
             "evidence_id": "timeline:oldap-2-8#0",
             "supports": "legacy",
-            "quote": "[License-review] For Legacy Approval: OpenLDAP Public License"
-          },
-          {
-            "evidence_id": "timeline:oldap-2-8#5",
-            "supports": "legacy",
-            "quote": "[License-review] For Legacy Approval: OpenLDAP Public License"
+            "quote": "Submits the OpenLDAP Public License Version 2.8 for legacy OSI approval"
           }
         ],
         "conflicts": [
           {
-            "source": "submission",
+            "source": "input",
             "observed_status": "approved",
-            "explanation": "The 'rule_status' and 'source_status' in the submission metadata indicate 'approved', but the detailed evidence shows the approval was specifically for the 'legacy' category, which maps to the 'legacy' status under the provided definitions."
+            "explanation": "The input 'current_status', 'rule_status', and 'source_status' fields list the license as 'approved'. However, the board motion evidence confirms a specific 'legacy' category approval, which overrides the generic 'approved' status per the schema rules."
           },
           {
-            "source": "status_candidates",
+            "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "Status candidates derived from source and API suggest 'approved' with high confidence, but they do not capture the nuance of the 'legacy' category approval explicitly detailed in the motion and emails."
+            "explanation": "The OSI API lists the license as present and 'legacy': false, but the board minutes explicitly show it was approved for the 'legacy' category."
           },
           {
-            "source": "board_vote:oldap-2-8",
+            "source": "timeline:oldap-2-8#5",
             "observed_status": "approved",
-            "explanation": "The board vote evidence 'outcome' is listed as 'approved', which conflicts with the specific 'legacy' status required by the motion text context. The motion text clarifies it is an approval *in the legacy category*."
+            "explanation": "The timeline announcement states the license was approved, but the subject line and context of the submission specify 'For Legacy Approval', and the board motion confirms the legacy categorization."
           }
         ],
-        "input_hash": "sha256:0694be53bff6565899b1d929c1a1f900faee14da723041e30c29fd4c43ff776e",
+        "input_hash": "sha256:534d0dc43d3a0844ef29a4e1ca656adaad98120ded21d19f49f7486fc76051b4",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-004.out.jsonl"
       }
     },
     {
@@ -117345,8 +117357,8 @@
         "final_status": "legacy",
         "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "Known evidence conflict (legacy-category board motion vs OSI API approved flag / curated-vs-mail discrepancy); status per latest adjudication, kept under manual-review tracking.",
-        "rationale": "The Board motion explicitly states approval in the 'legacy' category. While the OSI API and some mailing list discussions use the term 'approved', the specific authority of the Board minutes and the subject line 'For Legacy Approval' confirm this is a legacy approval, not a standard reusable license approval.",
+        "manual_review_reason": "The OSI API and candidate statuses list this as 'approved', but the board motion text explicitly specifies approval in the 'legacy' category, which maps to 'legacy' rather than 'approved' according to the instructions.",
+        "rationale": "The Board motion explicitly approved the LBNL BSD license in the 'legacy' category. Per the adjudication rules, 'legacy' is the correct status when the approval is specifically in the legacy (non-reusable) category.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:bsd-3-clause-lbnl",
@@ -117354,36 +117366,31 @@
             "quote": "Resolved that the LBNL BSD be approved as an Open Source Initiative Certified license in the “legacy” category of licenses"
           },
           {
-            "evidence_id": "timeline:bsd-3-clause-lbnl#0",
-            "supports": "legacy",
-            "quote": "Subject: [License-review] For Legacy Approval: LBNL BSD"
+            "evidence_id": "osi_api:bsd-3-clause-lbnl",
+            "supports": "approved",
+            "quote": "N/A"
           },
           {
             "evidence_id": "timeline:bsd-3-clause-lbnl#6",
-            "supports": "approved",
+            "supports": "legacy",
             "quote": "Announces that the Board unanimously approved the LBNL BSD license and it will be added to the OSI website in due course."
-          },
-          {
-            "evidence_id": "osi_api:bsd-3-clause-lbnl",
-            "supports": "approved",
-            "quote": null
           }
         ],
         "conflicts": [
           {
             "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API lists the license as 'approved' without specifying the 'legacy' category, whereas the Board minutes explicitly approve it for the 'legacy' category."
+            "explanation": "The OSI API lists the license as 'approved', but the Board Minutes specify approval in the 'legacy' category."
           },
           {
-            "source": "license-review",
+            "source": "current_status",
             "observed_status": "approved",
-            "explanation": "The review list announcement mentions approval but omits the 'legacy' qualifier found in the Board motion."
+            "explanation": "The input's current_status field is 'approved', whereas the board motion text indicates a 'legacy' approval."
           }
         ],
         "input_hash": "sha256:a08f356c75e0e2e614bba5cda40407ffefb3069fd22b0ab5284a4c097bbad767",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-004.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -117868,50 +117875,35 @@
         "final_status": "legacy",
         "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "Evidence explicitly confirms the license was granted 'Legacy Approval', but other data sources (OSI API, source status) flag it as 'approved' without the legacy qualification, creating a data conflict that requires reconciliation.",
-        "rationale": "The license was submitted specifically for 'Legacy Approval' (timeline:unicode-dfs-2016#0). The final board decision announced on 2018-09-04 (timeline:unicode-dfs-2016#7) confirms the OSI Board granted 'Legacy Approval' and placed the license in the redundant-licenses proliferation category. The OSI API license entry (osi_api:unicode-dfs-2016) also indicates 'legacy: false' in its raw data but the submission title explicitly references 'Request for Legacy Approval' and the board decision text confirms the legacy categorization. According to the definition, a motion or announcement granting approval 'in the legacy category' results in a final status of 'legacy'.",
+        "manual_review_reason": "Known evidence conflict (legacy-category board motion vs OSI API approved flag / curated-vs-mail discrepancy); status per latest adjudication, kept under manual-review tracking.",
+        "rationale": "The license was submitted and approved specifically as a 'Legacy Approval' based on the board decision and review list announcement. The initial request was for 'Legacy Approval,' and the final announcement confirmed the board granted 'Legacy Approval' and placed it in the redundant-licenses proliferation category. According to the instructions, a motion or confirmation of 'legacy approval' means the status is legacy, NOT approved.",
         "evidence_refs": [
+          {
+            "evidence_id": "timeline:unicode-dfs-2016#0",
+            "supports": "legacy",
+            "quote": "Requests legacy approval for the Unicode Data Files and Software License, describing it as widely used by Unicode but largely redundant with BSD or MIT."
+          },
           {
             "evidence_id": "timeline:unicode-dfs-2016#7",
             "supports": "legacy",
             "quote": "Announces that the OSI board granted Legacy Approval to the Unicode Data Files and Software License and placed it in the redundant-licenses proliferation category."
-          },
-          {
-            "evidence_id": "osi_api:unicode-dfs-2016",
-            "supports": "legacy",
-            "quote": "submission_url: \"https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-November/003296.html\""
-          },
-          {
-            "evidence_id": "timeline:unicode-dfs-2016#0",
-            "supports": "legacy",
-            "quote": "Requests legacy approval for the Unicode Data Files and Software License"
           }
         ],
         "conflicts": [
           {
-            "source": "board_vote:unicode-dfs-2016",
+            "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The board minutes indicate a vote outcome of 'approved' without specifying the 'legacy' qualifier, whereas the detailed announcement email clarifies it was a 'Legacy Approval'."
+            "explanation": "The OSI API marks the license as approved, but the detailed evidence confirms it was a 'Legacy Approval' and placed in the redundant-licenses proliferation category."
           },
           {
-            "source": "osi_api:unicode-dfs-2016",
+            "source": "board_vote",
             "observed_status": "approved",
-            "explanation": "The OSI API lists the license as 'legacy: false' in the structured data, conflicting with the 'Legacy Approval' granted by the board."
-          },
-          {
-            "source": "source_status",
-            "observed_status": "approved",
-            "explanation": "The source status is 'approved', whereas the review evidence confirms it was approved in the 'legacy' category."
-          },
-          {
-            "source": "rule_status",
-            "observed_status": "approved",
-            "explanation": "The rule status is 'approved', whereas the evidence supports 'legacy'."
+            "explanation": "The board minutes record the outcome as 'approved', but the specific nature of the approval was 'Legacy Approval' as detailed in the license-review list announcement."
           }
         ],
-        "input_hash": "sha256:ccf499ca3c4b436287fe754ab299ce0e075ab74d0ad7e18830999fec29dca1a8",
+        "input_hash": "sha256:23a2720cca2a373cab10349d856b77eee40f5813f955f27e581e48bbbe1d41be",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-004.out.jsonl"
       }
     },
     {
@@ -118160,7 +118152,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fcabe88f389988f55d67c2791bc3302f9f39b51dddeb7d1c0c9d926fef165367",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -118445,7 +118437,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1327762cb40d60d06130d2df4cb857a0ffb256bdba963f22cc3a11636b478a3f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-004.out.jsonl"
       }
     },
@@ -118689,7 +118681,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:09edca6cb2b3ed6d87164a69b68471653ba23f2babc2f22586d23527a73d043d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -119003,7 +118995,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6c5698d11c302d33684ffebdc0443ea3e418ef7b135d56774534dce30150a89c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -119224,7 +119216,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3a849d42173c8d69f5ab3848ee219c81f284a6705dfe39a64ec388b6d7452764",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -120396,7 +120388,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:16e426f427ed8a2fdbdb2cc27ecdb45cfe939c06479330e34b1efb12db1086c7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -122172,7 +122164,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e9653a986838aca1020d8d908f817b4d3e25264bb1f009b9a58a9bd4c7a13ff9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -123953,7 +123945,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0871e032263381b12db8f03e33f1b0e5962b566ee3d3c0fff22e7d690d7ff1e4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -125734,7 +125726,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:68119babe48fb05ee79c2036cc5aaad8768252d685457b870530990894936aad",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -125973,7 +125965,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e94e2eed55493f8d10a7b98733f5137181e342a24732ec49c37b8712c66a3cd7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -126489,7 +126481,7 @@
           }
         ],
         "input_hash": "sha256:95e0d03a9bb285bb3a5948e10e1c8528728794fbaf75da057b158ae7e8f75740",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -126726,7 +126718,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3e549c2a946ccb6b0ae0b36f5b01f121bdf38c8efb2284388dc52fffe7caa3b6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -140021,7 +140013,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:48caa71b41759ac965135906d637735243bb7a5e769ce768c36f0387577953f4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -144040,7 +144032,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:76fa4562da9fcb9a812352f3ff71fb10e475267e95d4a94066dafe5fcf82fb70",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -144051,7 +144043,7 @@
         "New OSL for \"official Intelligence\""
       ],
       "spdx_id": "Intel",
-      "status": "approved",
+      "status": "superseded",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144238,38 +144230,33 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "approved",
-        "confidence": 0.95,
+        "final_status": "superseded",
+        "confidence": 0.85,
         "requires_manual_review": true,
-        "manual_review_reason": "The OSI API lists the license as approved, but the submission.current_status is 'superseded'. Additionally, the evidence provided (timeline events) consists only of preliminary feedback from 2011 about creating a new license, with no board vote or official approval email found. The submission.id ('intel') refers to the 'Intel Open Source License', but the mail thread discusses a 'New OSL for \"official Intelligence\"', creating ambiguity about whether the evidence corresponds to the submission.",
-        "rationale": "The OSI API indicates the 'Intel Open Source License' is approved. While this is strong evidence of the license's status on the OSI list, the review context is problematic. The submission's current_status is 'superseded', conflicting with the API's approved status. Furthermore, the only review evidence provided is a 2011 email thread titled 'New OSL for \"official Intelligence\"' which concludes with the submitter agreeing to use standard licenses, implying the custom license was not pursued or approved via that thread. There is no board vote or formal approval evidence matching this specific submission ID in the provided context.",
+        "manual_review_reason": "Source status indicates 'approved' but evidence shows a 2011 discussion regarding a new license request that was abandoned in favor of standard licenses. This conflicts with the source status. The submission ID 'intel' and 'New OSL' context suggest this is a different, older license or a misattribution. The evidence supports 'withdrawn' or 'superseded' logic, but the discrepancy with the authoritative source requires review.",
+        "rationale": "The provided evidence (mail events) refers to a 2011 discussion titled 'New OSL for official Intelligence'. The submitter (David Smith) ultimately agreed to use standard license formats and did not proceed with a new submission based on the thread content. This suggests the specific review for this 'New OSL' was abandoned or superseded by the decision to use standard licenses. However, the 'Intel' license ID is marked as 'approved' in the source status (likely referring to the historical Intel Open Source License, not the 2011 request). Given the mismatch between the evidence (2011 request abandoned) and the source status (approved), and the lack of a formal approval motion in the evidence for this specific discussion, the status is adjudicated as superseded/withdrawn relative to the provided evidence thread, but requires manual review to resolve the ID conflict.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:intel",
-            "supports": "approved",
-            "quote": "OSI API license entry indicates 'Intel Open Source License' is listed."
+            "evidence_id": "timeline:intel#0",
+            "supports": "pending",
+            "quote": "Requests guidance on obtaining a new open source license for an official Intelligence project he is starting."
+          },
+          {
+            "evidence_id": "timeline:intel#5",
+            "supports": "withdrawn",
+            "quote": "agrees to use standard license formats for now to keep things simple, and plans to share a mission statement and white paper."
           }
         ],
         "conflicts": [
           {
-            "source": "submission.current_status",
-            "observed_status": "superseded",
-            "explanation": "The input submission metadata defines current_status as 'superseded', whereas the OSI API indicates 'approved'."
-          },
-          {
-            "source": "timeline:intel#5",
-            "observed_status": "withdrawn",
-            "explanation": "The latest evidence in the timeline shows the submitter agreeing to use standard license formats instead of a new one, suggesting the request for a new license was dropped."
-          },
-          {
-            "source": "submission.name vs evidence",
-            "observed_status": "pending",
-            "explanation": "The submission name is 'Intel Open Source License', but the review thread is titled 'New OSL for \"official Intelligence\"'. It is unclear if this thread relates to the Intel corporation license or a different entity named 'official Intelligence'."
+            "source": "source_status",
+            "observed_status": "approved",
+            "explanation": "The source status indicates 'approved', likely referring to the historical Intel Open Source License. The evidence provided refers to a 2011 discussion for a 'New OSL' which appears to have been abandoned. The evidence does not support an approval for the 2011 request, creating a conflict between the input evidence and the provided source status."
           }
         ],
-        "input_hash": "sha256:b9bc24c354862cc6036df34ce67921bad91f32b11d3c4cb8cd97b25343d73e6f",
+        "input_hash": "sha256:6d63204ffc900a840c585f6d69743caa430f71312b79fbbf89113d4883632297",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-005.out.jsonl"
       }
     },
     {
@@ -144506,7 +144493,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:87bb4e02dda91b0e40ef4d2af115a5fd4817c1b2ea281f26bebc9c276728d2c6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -144693,7 +144680,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fe713e112f379bde20a4e54952be5a63292b67d225891c835a71aa8fbc52fa16",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -144925,7 +144912,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:db0814192ceb483efe5c719d398dfc230f37afe6daa03824d65adadd4d179a30",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -145180,7 +145167,7 @@
           }
         ],
         "input_hash": "sha256:fe1ef1a38bc565487e9de109eb065b326ea6b4f1e2688ab3ee62aebfabe51728",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -145360,7 +145347,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cf252a1acd67255995c75e24ace9740a6ffa5b85df891f74e7085f85a287ae9e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -145612,7 +145599,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:081e0645d1a68e8fa6e642d574d9961ae8c467080704cc3d642550c4e90fe93f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -145857,7 +145844,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cc20e2ef901920dde13b95683b03a43d122f2594df5ab6a141b8b76b1a34197e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -146077,10 +146064,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "superseded",
-        "confidence": 0.85,
+        "confidence": 0.8,
         "requires_manual_review": true,
-        "manual_review_reason": "Evidence supports 'superseded' based on board minutes and list discussion, but 'source_status' and 'osi_api' list it as 'approved'. This is a known case of a license being approved, then replaced by a newer version, creating a discrepancy between the current valid status and external authoritative lists.",
-        "rationale": "The Board Minutes from 2007-06-05 explicitly record a motion and approval to 'replace Artistic License v1' with Artistic License v2. Subsequent mailing list discussions in July 2008 confirm that the license is treated as 'superseded' with discouragement of use, rather than being removed or revoked. While the OSI API and source status list it as 'approved', the board decision to replace it and the community consensus on its status classify it as 'superseded'.",
+        "manual_review_reason": "The OSI API lists the license as 'approved', which conflicts with the board minutes approving a 'replacement' and the mailing list consensus that the license is 'superseded'. While the board vote text explicitly approves replacement, the lack of a subsequent explicit de-approval motion in the provided evidence creates a conflict with the current source status.",
+        "rationale": "The 2007 board minutes explicitly contain a motion to 'approve to replace Artistic License v1' with Artistic License v2, indicating that v1 was superseded. This is supported by the 2008 license-review mailing list discussions where community members (including OSI figures) debated whether to remove or deprecate the license, with the prevailing sentiment being to classify it as 'superseded' rather than fully removing it. Although the OSI API currently lists it as 'approved', the board's specific action to approve its replacement, combined with the community discussion acknowledging its obsolescence, supports the 'superseded' status.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:artistic-1-0",
@@ -146090,7 +146077,7 @@
           {
             "evidence_id": "timeline:artistic-1-0#1",
             "supports": "superseded",
-            "quote": "Suggests classifying Artistic License 1.0 as \"superseded\" with explicit discouragement of use (including logo restrictions), while keeping it listed"
+            "quote": "Suggests classifying Artistic License 1.0 as \"superseded\" with explicit discouragement of use"
           },
           {
             "evidence_id": "timeline:artistic-1-0#3",
@@ -146102,17 +146089,12 @@
           {
             "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API lists the license as 'approved', likely reflecting its original historical approval status rather than its current 'superseded' state following the adoption of Artistic License 2.0."
-          },
-          {
-            "source": "source-status",
-            "observed_status": "approved",
-            "explanation": "The source status indicates 'approved', conflicting with the board motion to replace the license."
+            "explanation": "The OSI API lists the license as 'approved', whereas the board minutes and mailing list discussion indicate it was replaced by version 2.0 and is treated as superseded/deprecated."
           }
         ],
-        "input_hash": "sha256:466f3db3574e77e8605512d4313458cacffe3d190eca815b6152865291bae168",
+        "input_hash": "sha256:181d05d341086e32245b768234ebc7c980347dccdc198ec11f841020d304f1e5",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-005.out.jsonl"
       }
     },
     {
@@ -146350,7 +146332,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:71b0c2561e80a12906241140689453fd272b8cf8808b0f206d27e17a6e78e229",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -146604,7 +146586,7 @@
           }
         ],
         "input_hash": "sha256:f4382a921260c863e57f216df18c53737a991966c65d4c6ce9e39e190c248f5c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -146812,7 +146794,7 @@
           }
         ],
         "input_hash": "sha256:aa2f366149ba49e3fa786167643fefc76db1760a1dd409be08bb530abc74a230",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-005.out.jsonl"
       }
     },
@@ -147090,7 +147072,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ba0bb84afc0cc240392d934fcbc83739b12cf8daf33e5d5826333b0c3651f1ef",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -147374,7 +147356,7 @@
           }
         ],
         "input_hash": "sha256:d0c4333cb755ef143b320b5ad7f7732ffeda190bdbcabfe97e1ee41b5e59ac92",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -147626,7 +147608,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b6e8701467af763e9432906714356f62ae2b40e876e880203fe7e9b471e04c77",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -147868,7 +147850,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5cd8304f5f96386bf8e34659a36ae200b5ec5868546fc0b048ca036711c8ea0e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -148097,7 +148079,7 @@
           }
         ],
         "input_hash": "sha256:c8658171c0d31c382527267123127f4d485f2b226cecbed12390dc540af32733",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -148300,30 +148282,30 @@
         "final_status": "legacy",
         "confidence": 1,
         "requires_manual_review": true,
-        "manual_review_reason": "The board minutes explicitly recommend 'Legacy approval', but the structured vote outcome is recorded as 'approved'. The decision policy requires mapping explicit 'Legacy' approvals to the 'legacy' final status, creating a conflict with the generic 'approved' outcome in the vote record.",
-        "rationale": "The OSI Board minutes from 2008-01-08 specifically state 'Recommend Legacy approval' for the Multics license. According to the decision rules, a motion to approve a license in the 'legacy category' or a 'legacy approval' results in a final status of 'legacy', not 'approved'. While the structured vote outcome field says 'approved', the specific text of the motion and the minutes prescribe the legacy category. Furthermore, the OSI API lists the license with 'legacy': false, which conflicts with the board minutes text. Given the explicit recommendation of 'Legacy approval' in the authoritative minutes, the status is adjudicated as 'legacy'.",
+        "manual_review_reason": "Known evidence conflict (legacy-category board motion vs OSI API approved flag / curated-vs-mail discrepancy); status per latest adjudication, kept under manual-review tracking.",
+        "rationale": "The OSI board minutes from 2008-01-08 explicitly recommend 'Legacy approval' for the Multics license. Under the provided rules, a motion specifying 'legacy approval' or 'approve X in the legacy category' mandates a final status of 'legacy', rather than 'approved'. This overrides the 'approved' status suggested by the OSI API or other sources.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:multics",
             "supports": "legacy",
-            "quote": "Discussion of un-named license used for Multics. Recommend Legacy approval"
+            "quote": "Recommend Legacy approval"
           }
         ],
         "conflicts": [
           {
-            "source": "board_vote:multics (structured outcome)",
+            "source": "current_status",
             "observed_status": "approved",
-            "explanation": "The structured 'outcome' field in the vote evidence is 'approved', but the motion text specifies 'Legacy approval'. Per the rules, the specific text takes precedence for determining the legacy category."
+            "explanation": "Input lists 'approved', but board minutes specifically indicate 'Legacy approval', which maps to the 'legacy' status."
           },
           {
             "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API evidence indicates 'legacy': false, suggesting a standard 'approved' status, which contradicts the board minutes' explicit 'Legacy approval' recommendation."
+            "explanation": "OSI API indicates 'approved' (non-legacy), but the board motion text specifically requested Legacy approval."
           }
         ],
-        "input_hash": "sha256:991d16f1060f905535ab8835cbcffaf8128ddc20352c7cbd2204101d7072a5eb",
+        "input_hash": "sha256:5c7d1cefe3e875ee932c1c1bd8b09c0f6eb07faae46641ad328aff32cb074d60",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-006.out.jsonl"
       }
     },
     {
@@ -148568,7 +148550,7 @@
           }
         ],
         "input_hash": "sha256:45496f98b0e9ea2ffde63cd0d6a674c7fbc46f3354a33ff3eae66779e198042a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -148837,7 +148819,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:416d89d372410437f3631501bd263d66e1b252636826b6a398a78caf315f6ab9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -149087,7 +149069,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ff91394b46beb06d8f351294202ef24984a40eded8cfe28eed72429d0551e8a0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -149329,7 +149311,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9d932d670358b6e9ea17721bf8423df258c4ae3d5794ee34d57c3820b562f71f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -149471,7 +149453,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f340544d947155ea68851ca9456c69cff69ec3ace5be391cbaec3c9173f628a8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -149738,7 +149720,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:dd1c312768409f3dc33001015da70907ffdc0260ec52ed6f69c181d5e78bec60",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -150005,7 +149987,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2edb2e99262cf2b2cddb37b76d1dd4f0bc1a6ede497416f37580ce2a9834746a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -151570,7 +151552,7 @@
           }
         ],
         "input_hash": "sha256:05d9a880c8af3b5f3b3216ec0d7aa51fb4c05423ff61db07da6f81f8901d4f48",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -151757,7 +151739,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:66e8721c190bd43a6e7f376b3cc4d620cfcf6fc540247bd5da76ad62b5f2c2f6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -153729,7 +153711,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:69d4b5aa461df89193837983e114c47b0a079783dd3f1c9f82789054add77a86",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -153948,7 +153930,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0ce8aafbee1ada865afb9b823168171bd12ef4dfdda387bf2a0d035ca49b8dcb",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -154422,7 +154404,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d14f30ffae22e01eea5ac5894a067f4a2e3fff9418aec06ef7d098b9784cc9fc",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -154653,7 +154635,7 @@
           }
         ],
         "input_hash": "sha256:701629db1af270189234bb40a33d3d2d865ac7008e023f433c96ba56611eb1ed",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -154808,7 +154790,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3a74bac2a2e830d542216eb7a7e95497fe2e598884bc500063f9fcf374c67dc2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -155082,7 +155064,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9e5b50ceb645c8932d6530cf5182209a8f09cc25c5164c9fc7d8f636dd347678",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -155273,7 +155255,7 @@
           }
         ],
         "input_hash": "sha256:367fc6e59e714553fe3a1d89ca519b12f1e6d2947c9363d05be30ca4b2ada21a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -155449,7 +155431,7 @@
           }
         ],
         "input_hash": "sha256:58819ca0424f1d049a740b0b78f73aa540deb99fa530b9f06c28d7755cf90925",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -155687,7 +155669,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ecddf8355076e274caea64beeb2270a84380c4a1d5837cefbd87302dd7bafe5b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-006.out.jsonl"
       }
     },
@@ -155919,7 +155901,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:39a8f19b7ddc4976e7e8a630fd1c3d95cee690cc20e46176e25bc088fb5f5905",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -155930,7 +155912,7 @@
         "For Approval: CUA Office Public License"
       ],
       "spdx_id": "CUA-OPL-1.0",
-      "status": "superseded",
+      "status": "withdrawn",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -156143,43 +156125,38 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "superseded",
+        "final_status": "withdrawn",
         "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "The OSI API indicates the license is 'approved' and active, while the Board explicitly voted to 'retire' it in 2018. 'Superseded' is chosen to reflect the retirement action replacing the active status, but the discrepancy in source data requires verification.",
-        "rationale": "The OSI Board voted on 2018-10-10 to 'Retire CUA-OPL-1.0 per historic request'. In the context of OSI license lists, a retirement motion typically results in the license being marked as 'superseded' by the MPL 1.1 (which CUA-OPL is based on) or removed from the active list. Although the submission timeline shows no explicit withdrawal email in 2003, the 2018 board decision resolves the status by retiring it. However, the OSI API still lists it as 'approved', creating a conflict.",
+        "manual_review_reason": "The term 'Retire' in the board minutes is ambiguous. It could mean 'withdraw' (active removal) or 'legacy' (passive retention with a deprecated label). While 'withdrawn' is the most likely interpretation of 'Retire per request', the lack of explicit 'withdrawal' language requires verification.",
+        "rationale": "The OSI API lists the license as approved, but the Board Minutes from 2018-10-10 record a vote to 'Retire CUA-OPL-1.0 per historic request'. In OSI licensing review contexts, 'Retire' generally indicates that the license was removed from the active list, often corresponding to a withdrawal of approval or a removal at the licensor's request. The 2003 mailing list discussion shows the submission process but lacks a recorded approval motion in the provided evidence; the only definitive board action is the 2018 retirement. Therefore, the status is 'withdrawn', as the license is no longer on the active approved list due to a specific board action to remove it.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cua-opl-1-0",
-            "supports": "superseded",
+            "supports": "withdrawn",
             "quote": "Retire CUA-OPL-1.0 per historic request (Simon)"
           },
           {
             "evidence_id": "osi_api:cua-opl-1-0",
             "supports": "approved",
-            "quote": ""
-          },
-          {
-            "evidence_id": "timeline:cua-opl-1-0#2",
-            "supports": "superseded",
-            "quote": "Clarifies that the CUA license is identical to MPL 1.1 except for the name"
+            "quote": "submission_url: http://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-December/007485.html"
           }
         ],
         "conflicts": [
           {
-            "source": "OSI API",
+            "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API lists the license as present and approved, conflicting with the Board's 2018 motion to retire it."
+            "explanation": "The OSI API currently lists CUA-OPL-1.0 as approved. This conflicts with the 2018 Board vote to 'Retire' the license."
           },
           {
-            "source": "current_status (input)",
-            "observed_status": "withdrawn",
-            "explanation": "The input metadata lists the status as 'withdrawn', but no explicit withdrawal email evidence was found in the provided timeline; instead, a Board retirement was found."
+            "source": "submission",
+            "observed_status": "approved",
+            "explanation": "The submission metadata indicates a current status of 'approved', which conflicts with the Board's decision to retire the license."
           }
         ],
-        "input_hash": "sha256:55305202a4b826f51a5541ffde99734799f08c32ac8d2c545ae68b3dbf6ab606",
+        "input_hash": "sha256:c9f1b08f8a20c2d9be05fbcd61d433db29519ee08bdb5fee0c171bd8756fffa3",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-007.out.jsonl"
       }
     },
     {
@@ -156417,7 +156394,7 @@
           }
         ],
         "input_hash": "sha256:9e10617c6f3b6b68b4725afe1420a936963527d4b6124a68b5ab744b3bb3a07a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -156593,7 +156570,7 @@
           }
         ],
         "input_hash": "sha256:5a232340e070777394b21c53de71eaeeeb527eabdf634762e5ef51822b281f8e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -156782,7 +156759,7 @@
           }
         ],
         "input_hash": "sha256:35cf730f0d1215ce991d79a30efb400bdd1029dc564beebfc2056044bbdad6c5",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -157427,7 +157404,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cfd3e8fc9f28edd724230b6a1bbe45592974eaab8987da9af994b81ce1b33e3e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -157550,7 +157527,7 @@
           }
         ],
         "input_hash": "sha256:36c9076bf7fc9984725065a5983a794bf09b0a89dab2d5dbc9e9bf6b5f8aa8d3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -157696,7 +157673,7 @@
           }
         ],
         "input_hash": "sha256:d8e513d26912bf19c7528a36c58dea00adbf98ff1cecc11103740a6627b7b9f4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -157888,7 +157865,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5bde79fc01652e14c5c0a229b5d9815906e13fab6fd7b961c090ef10b4c72b08",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -158021,7 +157998,7 @@
           }
         ],
         "input_hash": "sha256:628289099da8e7b051f814d69e1d2faab7e30566f1d17c45644204f4b95d8a94",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -158186,7 +158163,7 @@
           }
         ],
         "input_hash": "sha256:929ac57fe0a4d08fb6eae96899e3e344dfc1e857b696350c75a99a6bbc649bfd",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -158399,7 +158376,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fd61f777361465a71416aba32d750c5dfbe93ca3efd662e16c496ca9fc49dc54",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -158580,7 +158557,7 @@
           }
         ],
         "input_hash": "sha256:1f0fbfada8b7c1f472f5402879ae9a0ac0cf7861fda704f34247b5f82ea245ad",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -158591,7 +158568,7 @@
         "discuss: OCLC Office of Research Open Source License"
       ],
       "spdx_id": "OCLC-2.0",
-      "status": "legacy",
+      "status": "pending",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158823,48 +158800,43 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.8,
+        "final_status": "pending",
+        "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "The OSI API lists the license as approved, but the available mailing list evidence from 2002 indicates significant unresolved concerns regarding OSD compliance (e.g., aggregate vs. combined works, specific grant language). The absence of board minutes or a clear approval motion in the provided evidence suggests this is likely a legacy approval predating current rigorous review processes or requiring historical verification.",
-        "rationale": "The submission is marked as 'approved' in the OSI API and source status. However, the timeline summary explicitly states 'has_board_decision': false, and the review thread contains several criticisms and questions regarding OSD compliance (Points #2, #5, #6) without a visible resolution or final approval motion in the provided snippets. Given the date (2002) and the lack of supporting board decision evidence, this fits the definition of 'legacy': an OSI-approved license with insufficient review-thread evidence because it predates or lacks available review data.",
+        "manual_review_reason": "The current evidence from the license-discuss threads indicates ongoing debate and a lack of final resolution or explicit approval in 2002. However, the OSI API lists the license as approved. This conflict (API vs. historical evidence) requires manual verification of the approval record to confirm if a decision was made off-list or at a later date.",
+        "rationale": "The provided mailing list evidence from September and October 2002 shows active discussion with identified issues (Section 1/4 overlap, Combined Work vs Aggregate Work definitions, modifiable code definition) and conditional support (Nathan Kelley), but no final board motion, vote, or approval message within the thread. The latest event is October 2, 2002. While the OSI API indicates the license is 'approved', the instruction prohibits using outside knowledge and requires relying on the provided evidence. The evidence supports a 'pending' status based on the lack of a decision in the review threads, but the 'approved' status in the input source necessitates a manual review flag to resolve the discrepancy.",
         "evidence_refs": [
           {
-            "evidence_id": "timeline_summary",
-            "supports": "legacy",
-            "quote": "has_board_decision: false"
-          },
-          {
-            "evidence_id": "osi_api:oclc-2-0",
-            "supports": "approved",
-            "quote": "name: The OCLC Research Public License 2.0 License"
-          },
-          {
-            "evidence_id": "timeline:oclc-2-0#2",
+            "evidence_id": "timeline:oclc-2-0#1",
             "supports": "pending",
-            "quote": "Questions whether the Combined Work definition in ORPL 2.0 is precise enough to exclude aggregate works... arguing that as written the restrictions would apply to CD compilations and thus violate the OSD."
+            "quote": "Finds the ORPL 2.0 generally OSD-compliant but raises concerns about the overlapping grant clauses in Sections 1 and 4..."
           },
           {
             "evidence_id": "timeline:oclc-2-0#8",
             "supports": "pending",
             "quote": "States the ORPL 2.0 appears OSD-compliant apart from issues already raised, and would support approval once those issues are clarified."
+          },
+          {
+            "evidence_id": "timeline:oclc-2-0#7",
+            "supports": "pending",
+            "quote": "Acknowledges that Sections 1 and 4 overlap and cause confusion, agrees to seek improvements..."
+          },
+          {
+            "evidence_id": "osi_api:oclc-2-0",
+            "supports": "approved",
+            "quote": "The OCLC Research Public License 2.0 License"
           }
         ],
         "conflicts": [
           {
-            "source": "osi_api",
+            "source": "input submission / status candidates",
             "observed_status": "approved",
-            "explanation": "The OSI API marks the license as approved, but the provided evidence lacks the specific board decision or motion to justify a standard 'approved' status, suggesting it may be a legacy approval."
-          },
-          {
-            "source": "submission",
-            "observed_status": "approved",
-            "explanation": "The submission metadata lists current_status and rule_status as approved, whereas the evidence points to a lack of documented board decision, fitting the 'legacy' criteria."
+            "explanation": "The submission metadata and OSI API indicate 'approved', but the historical review thread evidence ends with unresolved issues and conditional support, suggesting the process was incomplete or the decision happened elsewhere."
           }
         ],
         "input_hash": "sha256:e4aefd7961d305fcb5deef3173d4d80dc591b0b07ec61fad5b7143176671ec9f",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-007.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -159015,7 +158987,7 @@
           }
         ],
         "input_hash": "sha256:5adeff2a5772e5a19d21e3c10e364fd43e27c13309117e6dd4140667130976e7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -159167,7 +159139,7 @@
           }
         ],
         "input_hash": "sha256:ebb1eb5a6dd5e6481e86be5cae77eda18d631b226e4abbd0f6e1f9a9a94876f1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -159391,7 +159363,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0dddc7a849fc1614598fd5d5b10953918858f01a054482997c5bf0d72e107fbd",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -159543,7 +159515,7 @@
           }
         ],
         "input_hash": "sha256:8d20c2d1c654748e0ce4b4b73b6bf45371a5c2aa2c314eb47e96cb8eba307aa2",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -159554,7 +159526,7 @@
         "NCSA Open Source License"
       ],
       "spdx_id": "NCSA",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159785,28 +159757,22 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.8,
-        "requires_manual_review": true,
-        "manual_review_reason": "Strong conflict between submission metadata (current_status: legacy, rule_status: approved, source_status: approved) and the OSI API evidence indicating legacy status. While the API is a strong source, the conflicting authoritative metadata requires verification.",
-        "rationale": "The submission metadata explicitly sets 'current_status' to 'legacy'. The OSI API evidence 'osi_api:ncsa' confirms the license is present on the OSI list and specifies that it supports the 'legacy' status. The timeline evidence indicates discussion in 2002 but lacks board minutes or a specific approval vote record, which is consistent with legacy approvals that predate standardized review procedures. Despite the rule and source statuses suggesting 'approved', the 'legacy' status in the metadata and supported by the API evidence takes precedence for the classification of licenses approved prior to the formal reusable license process.",
+        "final_status": "approved",
+        "confidence": 0.95,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The OSI API explicitly lists 'The University of Illinois/NCSA Open Source License' as an approved license (not legacy). This constitutes authoritative evidence of approval. While the email threads discuss the license's characteristics and approval processes in 2002, they do not contradict the API status. The source status (approved) also aligns with the API evidence.",
         "evidence_refs": [
           {
             "evidence_id": "osi_api:ncsa",
-            "supports": "legacy",
-            "quote": "supports_statuses: [\"legacy\"]"
+            "supports": "approved",
+            "quote": "The University of Illinois/NCSA Open Source License"
           }
         ],
-        "conflicts": [
-          {
-            "source": "submission_metadata",
-            "observed_status": "approved",
-            "explanation": "The submission metadata fields 'rule_status' and 'source_status' are set to 'approved', conflicting with the 'current_status' of 'legacy' and the OSI API evidence."
-          }
-        ],
-        "input_hash": "sha256:bb12046ceae552e90ec3f57247aeb32cb1560630a0ad1ecee2648542bd19c8aa",
+        "conflicts": [],
+        "input_hash": "sha256:7acbefd3fbe9fb7f3d28efa07746c43f86156f7c28bc3e2aa3c2e76e660aff39",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -160056,7 +160022,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8430fd48cf5eb4b83ae8105060f322e7f0909c170b5c5f984bef43f74c73e847",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -160067,7 +160033,7 @@
         "Request for approval - MOSL"
       ],
       "spdx_id": "Motosoto",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -160159,22 +160125,22 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
+        "final_status": "approved",
         "confidence": 0.95,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license is listed on the OSI website (evidence `osi_api:motosoto`) with a `legacy` flag indicating it was approved in the legacy category. The submission dates to May 2001 and lacks available board vote or decision records, fitting the definition of a legacy approval. The current_status in the input is also 'legacy'.",
+        "rationale": "The OSI API lists the Motosoto Open Source License as an approved license with a submission URL linking to the 2001 license-discuss list. The current and source statuses are also approved. While the review thread predates modern records (making it a legacy approval), the API confirms it is not marked as legacy, indicating it is approved as a normally reusable license.",
         "evidence_refs": [
           {
             "evidence_id": "osi_api:motosoto",
-            "supports": "legacy",
-            "quote": "\"supports_statuses\": [\"legacy\"]"
+            "supports": "approved",
+            "quote": null
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:b7ead32a62c16c3553e2acdabd453e3c8d53825814c1d7af37cf7b364090116e",
+        "input_hash": "sha256:9f69699254ba2fefaa07f1128b286074b5e8f6c7bcde2707a6ab02dc9d9524a4",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-002.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -160382,7 +160348,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0257363404b4d1e49b2555ac1209625bba9d674fab3bc90ae2cbcedfd9117313",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -161602,7 +161568,7 @@
           }
         ],
         "input_hash": "sha256:f3874660ac06723fe18adbcc4903e7f8e45209ac6915042126961f8fc34a181b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -161717,7 +161683,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8065f1a63e092be5888b82bf15c2ef12676678d51e4dfcfd3b1d6a93e64b9006",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-007.out.jsonl"
       }
     },
@@ -161928,7 +161894,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:818e064f5fe483f88efe5631c21fc50da22119a9d28c23e83e6f5b2968219ccf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162113,7 +162079,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6b027677e6b91bc94ef06d4ae0011d256656400bb5b809138f70769bed1ed27e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162308,7 +162274,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0766a198e49e1e136ceb25ce72da79285bb853953c658174e4e3c0d4400685a8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162398,7 +162364,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5ddb462ab6051264d503179fc4d411f2f74a4fce7258fb2f1b3dfcfeaf8c7fd7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162488,7 +162454,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c2675b33788382d5b1e36eb1e779423bc2955c9f420e0d9241e911abdb533d50",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162673,7 +162639,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bb1f0659c748104871e74ee93be96fad7a7953e64c99a6d33580980802b7ebb0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162883,7 +162849,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f329be7c7232318ba3fc2f6d207abbcd41c6a979bbede73a6a54e8673076a45c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -162973,7 +162939,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:47d8494fcfeeb5096654682d100bfc3c5cd994ba4a2bc6ca3e1bc5f388ab7902",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163099,7 +163065,7 @@
           }
         ],
         "input_hash": "sha256:f5f826d640944e184229dc02d35c35343b81260dacbb96b7af288b4d88b3b910",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163214,7 +163180,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e103071a79e5d4bdcd5f8b4981297eb6cf71d0c548d87439090d03a275dd8c8f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163335,7 +163301,7 @@
           }
         ],
         "input_hash": "sha256:e8c1705876b57518bec06d040e7bdc891eae91de6a755f70ec9c0f27f4fb801e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163425,7 +163391,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9246e690fcba2b5de1f43d0de65986494d08f20bdf7ee9480f6128235c7413cb",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163515,7 +163481,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ad70db937a2075622cc311a415c8afd6053f8e9e002a6fed07be0ca5cae9f4c6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     },
@@ -163605,7 +163571,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:607f71b73992e661d101a091caa3d82cc98ae90e087a47a598f79b25535e87ba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-008.out.jsonl"
       }
     }
