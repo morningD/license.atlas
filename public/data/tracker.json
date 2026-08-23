@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T15:32:37.739Z",
+    "generated_at": "2026-08-23T15:41:10.799Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-23T15:32:52.587Z",
+    "enriched_at": "2026-08-23T15:41:25.317Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-23T15:33:01.256Z",
+      "applied_at": "2026-08-23T15:41:25.616Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -6553,7 +6553,7 @@
         {
           "name": "Moming Duan",
           "role": "submitter",
-          "message_count": 50
+          "message_count": 53
         },
         {
           "name": "Pamela Chestek",
@@ -6574,11 +6574,6 @@
           "name": "McCoy Smith",
           "role": "reviewer",
           "message_count": 7
-        },
-        {
-          "name": "D 莫名",
-          "role": "reviewer",
-          "message_count": 3
         },
         {
           "name": "Eric Schultz",
@@ -14713,7 +14708,7 @@
           "type": "feedback",
           "subject": "[License-discuss] Pre-Advice for ModelGo Licenses Review",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-February/022359.html",
-          "sender": "D 莫名",
+          "sender": "Moming Duan",
           "snippet": "Presents ModelGo as a model-focused licensing framework in response to limited AI model licensing options, asks whether all nine variants should be submitted, and asks if non-OSD variants can be listed as complementary materials and how MG-BY-OS should handle code licensing.",
           "point_zh": "提交关于 ModelGo 许可框架的背景与目标，说明模型许可选项不足后提出九个变体是否全部提交、非 OSD 变体能否仅作为补充材料提交，以及 MG-BY-OS 在未强制代码许可下应如何处理。",
           "sentiment": "neutral",
@@ -14739,7 +14734,7 @@
           "type": "feedback",
           "subject": "[License-discuss] Pre-Advice for ModelGo Licenses Review",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-February/022361.html",
-          "sender": "D 莫名",
+          "sender": "Moming Duan",
           "snippet": "Acknowledges the response, clarifies MG-*-OS only requires code delivery without mandatory OSI-approved terms, and asks whether OSAID applies to AI systems and whether model licenses should compel code and data to be under OSI-approved terms.",
           "point_zh": "感谢回复并澄清 MG-*-OS 仅要求提供代码副本但未强制采用 OSI 批准条款，进而询问 OSAID 是否适用于 AI 系统，以及模型许可是否应强制代码与数据都遵循 OSI 批准许可。",
           "sentiment": "neutral",
@@ -14778,7 +14773,7 @@
           "type": "feedback",
           "subject": "[License-discuss] Pre-Advice for ModelGo Licenses Review",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-February/022365.html",
-          "sender": "D 莫名",
+          "sender": "Moming Duan",
           "snippet": "Thanks for the clarification, says copyleft-style terms may hurt broad software compatibility, notes model training data often already has free-content licensing, and says he will move forward with OSI review submission materials.",
           "point_zh": "感谢反馈后指出共用权（copyleft）风格条款可能损害软件生态兼容性，认为模型训练数据常被免费内容许可覆盖且可能不需要 OSI 许可，并表示将继续推进 OSI 审核材料准备。",
           "sentiment": "support",
@@ -16257,11 +16252,10 @@
         ],
         "duration_days": 531,
         "unique_participants": [
-          "D 莫名",
+          "Moming Duan",
           "McCoy Smith",
           "Stefano Maffulli",
           "David Woolley",
-          "Moming Duan",
           "Josh Berkus",
           "Carlo Piana",
           "Eric Schultz",
@@ -17608,7 +17602,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1bec10d44ec65d985115610249fef31e20c6145128da433bf7a0a6c24e1e5ab1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
