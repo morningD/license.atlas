@@ -69,7 +69,9 @@ No data processing scripts in this project — KB is the single source of truth.
 
 ### 状态裁决（LLM）
 
-多源状态矛盾由 glm-4.6 裁决（Anthropic 兼容端点 `open.bigmodel.cn/api/anthropic`，key 读自 opencode 全局配置 provider `zhipuai-coding-plan`）。**增量裁决**：输入 hash 未变的条目直接沿用旧输出，每轮只裁决有新证据的条目。`--allow-manual-pending` 用于通过 7 个已知证据冲突灰色地带。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。
+多源状态矛盾由 glm-4.6 裁决（Anthropic 兼容端点 `open.bigmodel.cn/api/anthropic`，key 读自 opencode 全局配置 provider `zhipuai-coding-plan`）。**增量裁决**：输入 hash 未变的条目直接沿用旧输出，每轮只裁决有新证据的条目。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。
+
+**编排器自动化**（2026-08-23，`update-tracker.mjs`）：灰色地带 manual review 按 `scripts/tracker-manual-baseline.json` 基线放行，**基线外新项硬失败**留人工（确认后 `--rebaseline` 采纳，成功运行自动 prune 已解决 id）；invalid/missing 裁决自动 LLM 重跑最多 3 轮（key 缺失自动读 opencode 配置）；KB run 脚本对 "conflicts 未置 requires_manual_review" 的输出直接矫正。`--strict-manual-pending` 恢复任何 blocking 即失败的旧模式。
 
 ### 自动更新（事件触发，2026-08）
 

@@ -45,9 +45,15 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **增量裁决**（2026-08）：prepare 读取已落盘输出的 `{submission_id → input_hash}`，输入未变的条目不进 batch，manifest 记录 `skipped_unchanged`；apply 对 skipped 条目按记录的 hash 复验旧输出后直接沿用。效果：已裁决且无新证据的条目（约 190+ 条）永不重跑 LLM，每轮只裁决真正变化的条目（如 OpenMDW 新邮件）——已定终态不会被无关变化重掷。
 
+**自动重裁决 + 基线放行**（2026-08-23，`update-tracker.mjs` 内嵌）：历史三轮阻塞的根因是①灰色地带 manual review 每轮都 blocking、②重建后 input_hash/evidence ref 失效的旧输出需人工 `--mode local --ids` 重跑、③glm-4.6 偶发输出 schema 自相矛盾（conflicts 非空但 `requires_manual_review=false`）。现在编排器：默认对 apply/verify 传 `--allow-manual-pending`；apply 后解析 `manual-review.json` 中 `Invalid/Missing adjudication output` 的条目，自动以 `--mode local --ids` 重跑 LLM 再 apply（最多 3 轮）；LLM env 缺失时自动从 `~/.config/opencode/opencode.json` 的 `zhipuai-coding-plan` 读 key。
+
+**Manual-review 基线**（`scripts/tracker-manual-baseline.json`，已提交）：已知灰色地带 id 集合（84 项起步）。运行时基线内的 id 静默放行（保持现状），**基线外的新 manual-review 项硬失败**（保留旧的"新冲突留人工"安全边界）；成功运行后自动 prune 已解决的 id（如 ncsa、motosoto 在 2026-08-23 轮离开 manual review）。人工确认新冲突后跑 `npm run update:tracker -- --rebaseline` 采纳新集合。`--strict-manual-pending` 恢复最严格的"任何 blocking 即失败"模式。
+
+**KB 侧 schema 矫正**（`KB/scripts/run-status-adjudication.mjs` 的 `validateOutput`）：模型输出 conflicts 非空但 `requires_manual_review≠true` 时直接矫正为 true（模型自己的规则就要求 conflicts ⇒ manual review，属输出纪律问题而非语义分歧），不再依赖重试碰运气。顺带补齐 native structured-output 路径缺失的 `schema_version` 字段。
+
 **输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
 
-**已知灰色地带**（7 项 manual review，`--allow-manual-pending` 通过保持现状）：curated rejected vs 邮件 withdrawn 冲突（open-source-social-network、whonix、libpng-v2）、curated 唯一证据无邮件佐证（c-fsl-v1-1、cal-beta-2、mosl）、board minutes vs OSI API 冲突（python-2-0、cnri-python）。新增此类冲突时自动更新会拒绝 push 留人工处理。
+**已知灰色地带**（manual review 长期 ~84 项：证据冲突类 + curated 唯一证据无邮件/board vote 佐证类，含 open-source-social-network、whonix、libpng-v2、c-fsl-v1-1、cal-beta-2、mosl、python-2-0、cnri-python 等；update:tracker 默认放行保持现状，条目仍登记在 `manual-review.json` 留人工复核）。新增证据冲突明显增多时在总结中报告并人工确认。
 
 **Prompt 规则**（v2）：`approve in the legacy category` / `legacy approval` 的 motion 判 **legacy** 而非 approved（2026-08 修复：v1 缺此规则导致 cddl-1.1、wordnet、oldap-2.8、bsd-3-clause-lbnl、multics 被误判 approved）。PROMPT_VERSION 变更会使全部条目 hash 失效，触发一次性全量重裁决迁移。
 
@@ -56,13 +62,13 @@ KB（source of truth）→ license-atlas 单向同步：
 每 3 小时 launchd agent（`com.momo.license-atlas.tracker`）探测 OSI Pipermail 当月归档页（HEAD Last-Modified/Content-Length，毫秒级）：
 
 - **无变化** → 短路退出，零 LLM 调用
-- **有变化** → `opencode run` 非交互执行全链路（update:tracker → hash 失效条目重裁决 → 质量门 → sync → lint）
+- **有变化** → `opencode run` 非交互执行全链路（update:tracker，内嵌 stale 裁决自动重跑 + 质量门 → sync → lint）
 
 **macOS TCC 约束**：launchd 的 bash 无法访问 `~/Documents`（macOS 26 对 LaunchAgent 的 exec/write 门控），因此 runner 全部放在 `~/.local/share/license-atlas-tracker/`（wrapper 脚本、探测脚本副本、prompt、日志），仓库只作为数据源由 opencode（有独立 TCC 授权）读写。atlas 仓库内的 `scripts/auto-update-tracker.sh` / `scripts/check-tracker-updates.mjs` 是 source of truth，wrapper 每次运行前尝试同步副本（被 TCC 拦截时用已装副本）。
 
 **无人值守权限**：非交互 opencode 无法回答权限弹窗，wrapper 用 `OPENCODE_CONFIG=~/.local/share/license-atlas-tracker/opencode.json` 预授权 bash/edit/webfetch/external_directory（含 KB 目录）。
 
-**安全边界**：质量门全绿 + lint 通过才 commit/push；任何失败或新增证据冲突 → 回滚 tracker 数据文件、日志记录原因、不 push。LLM 模型：`STATUS_ADJUDICATION_MODEL=glm-4.6`、`POINTS_MODEL=glm-4.6`（实测 schema 纪律最好；glm-4.6v 大输入产 malformed JSON，glm-5.3 不守 evidence_refs 对象形状，glm-4.5-air 输出围栏率高且无速度优势）。
+**安全边界**：质量门全绿 + lint 通过才 commit/push；任何失败 → 回滚 tracker 数据文件、日志记录原因、不 push。LLM 模型：`STATUS_ADJUDICATION_MODEL=glm-4.6`、`POINTS_MODEL=glm-4.6`（实测 schema 纪律最好；glm-4.6v 大输入产 malformed JSON，glm-5.3 不守 evidence_refs 对象形状，glm-4.5-air 输出围栏率高且无速度优势）。
 
 ## 组件
 

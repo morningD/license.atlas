@@ -52,14 +52,13 @@ cd "$ATLAS_DIR"
 opencode run "$(cat <<'EOF'
 License review tracker 自动更新任务。严格按以下流程执行，不要跳步：
 
-1. 运行 `npm run update:tracker`（KB 路径默认 ../KB）。LLM 环境变量已由系统提供；若无，从 /Users/momo/.config/opencode/opencode.json 的 provider zhipuai-coding-plan 读 key，设 ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN=该 key、ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic、STATUS_ADJUDICATION_MODEL=glm-4.6、POINTS_MODEL=glm-4.6 后重跑。
-2. 若 apply-status-adjudications 报 input_hash mismatch 阻塞：读 KB/data/osi/status-adjudication/manual-review.json 找出 mismatch 的 ids，用上述 env 重跑 `node scripts/run-status-adjudication.mjs --mode local --ids <逗号分隔>`（若个别条目报 JSON 解析失败 ✗，重跑该条 1-2 次），再 `node scripts/apply-status-adjudications.mjs --allow-manual-pending`。证据冲突类的 manual review 项（非 hash mismatch）保持现状即可。
-3. 质量门（全部必须 0 critical）：KB 下 test-tracker-data / check-point-style --since 2026-01-01 / check-point-manifest-coverage；atlas 下 check-tracker-license-texts --tracker <KB v2 路径>。
-4. `node scripts/sync-tracker.mjs` 同步，然后 `npm run lint`。
-5. 判定与收尾：
-   - 质量门全绿 + sync + lint 通过：提交 atlas 3 个 tracker 数据文件（commit message 说明新增邮件内容，格式参考 git log），push。
-   - 任何一步失败或出现新的证据冲突 manual review 项：不 push，恢复 `git checkout -- public/data/tracker.json src/data/tracker-index.json src/data/tracker-meta.json`，在日志总结失败原因。
-6. 最终输出一段总结：新增邮件数、submission 状态变化、是否 push。
+1. 运行 `npm run update:tracker`（KB 路径默认 ../KB）。编排器已内嵌：灰色地带 manual review 按 scripts/tracker-manual-baseline.json 放行，invalid/missing 裁决条目自动用 LLM 重跑（最多 3 轮，key 缺失时自动读 /Users/momo/.config/opencode/opencode.json 的 zhipuai-coding-plan）。若报 "still invalid after 3 LLM retries" 或 "New manual-review item(s) outside the known baseline"：不 push，在日志记录残留/新增 ids 后结束（新基线条目留人工 review，人工确认后由维护者跑 `npm run update:tracker -- --rebaseline` 采纳）。
+2. 质量门已内嵌于 update:tracker（全部必须 0 critical）。单独复核：KB 下 test-tracker-data / check-point-style --since 2026-01-01 / check-point-manifest-coverage；atlas 下 check-tracker-license-texts --tracker <KB v2 路径>。
+3. `node scripts/sync-tracker.mjs` 同步，然后 `npm run lint`。
+4. 判定与收尾：
+   - 质量门全绿 + sync + lint 通过：提交 atlas 3 个 tracker 数据文件（commit message 说明新增邮件内容，格式参考 git log；如 scripts/tracker-manual-baseline.json 有 prune 变化一并提交），push。
+   - 任何一步失败：不 push，恢复 `git checkout -- public/data/tracker.json src/data/tracker-index.json src/data/tracker-meta.json`，在日志总结失败原因。
+5. 最终输出一段总结：新增邮件数、submission 状态变化、是否 push。
 EOF
 )" >> "$LOG" 2>&1
 rc=$?
