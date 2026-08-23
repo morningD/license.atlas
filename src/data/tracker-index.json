@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "3ec45930523c97a0",
+    "source_hash": "12ed8a36af7bfa1b",
     "index_schema_version": 4,
-    "generated_at": "2026-08-23T04:32:57.547Z",
+    "generated_at": "2026-08-23T15:32:52.587Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -565,11 +565,11 @@
     "status": "pending",
     "submitter": "江波",
     "stats": {
-      "total_messages": 21,
-      "duration_days": 113,
+      "total_messages": 24,
+      "duration_days": 145,
       "date_range": [
         "2024-10-25",
-        "2025-02-15"
+        "2025-03-19"
       ]
     },
     "has_vote": false,
@@ -588,19 +588,19 @@
       "latest_text_date": "2025-02-12"
     },
     "timeline_meta": {
-      "count": 21,
+      "count": 24,
       "first": "2024-10-25",
-      "last": "2025-02-15"
+      "last": "2025-03-19"
     },
     "latest_event": {
-      "date": "2025-02-15",
-      "type": "feedback",
+      "date": "2025-03-19",
+      "type": "submission",
       "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review]  Submission for review of Mulan Public License，Version 2",
-      "sentiment": "neutral",
-      "point": "Calls on other reviewers to provide comments or criticism of the license now, before resubmission, to help the submitter address issues proactively.",
-      "point_zh": "呼吁其他审查者在重新提交之前就提供对许可证的意见或批评，以帮助提交者提前解决问题。"
+      "sender": "Nadia Jiang",
+      "subject": "[License-review] 回复：Re:  Submission for review of Mulan Public License，Version 2",
+      "sentiment": "question",
+      "point": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others.",
+      "point_zh": "询问其他评审者已无更多意见或批评，现在是否可以推进重新提交。"
     }
   },
   "resubmission-of-european-space-agency-public-licenses-for-approval": {

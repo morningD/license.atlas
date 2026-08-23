@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T04:32:42.869Z",
+    "generated_at": "2026-08-23T15:32:37.739Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-23T04:32:57.547Z",
+    "enriched_at": "2026-08-23T15:32:52.587Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-23T04:32:57.846Z",
+      "applied_at": "2026-08-23T15:33:01.256Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -16781,7 +16781,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2025-02-15"
+          "latest_event_date": "2025-03-19"
         },
         "board_vote": {
           "present": false
@@ -16795,12 +16795,12 @@
         {
           "name": "Pamela Chestek",
           "role": "board_member",
-          "message_count": 9
+          "message_count": 10
         },
         {
           "name": "江波",
           "role": "submitter",
-          "message_count": 3
+          "message_count": 4
         },
         {
           "name": "McCoy Smith",
@@ -16809,6 +16809,11 @@
         },
         {
           "name": "Wayne Thornton",
+          "role": "reviewer",
+          "message_count": 2
+        },
+        {
+          "name": "Nadia Jiang",
           "role": "reviewer",
           "message_count": 2
         },
@@ -16829,11 +16834,6 @@
         },
         {
           "name": "ZHOU, Minghui",
-          "role": "reviewer",
-          "message_count": 1
-        },
-        {
-          "name": "Nadia Jiang",
           "role": "reviewer",
           "message_count": 1
         }
@@ -16862,7 +16862,7 @@
           "content_preview": "本许可证以中英文双语表述 -- THIS LICENSE IS WRITTEN IN BOTH CHINESE AND ENGLISH\n\n\n木兰公共许可证， 第2版\n\n2021年5月 http://license.coscl.org.cn/MulanPubL-2.0\n\n您对“贡献”的复制、使用、修改及分发受木兰公共许可证,第2版（以下简称“本许可证”）的如下条款的约束：\n\n0.   定义\n\n“贡献” 是指由“贡献者”许可在“本许可证”下的受版权法保护的作品，包括最初“贡献者”",
           "size": 12481,
           "match_score": 1,
-          "event_index": 6,
+          "event_index": 7,
           "event_type": "feedback"
         },
         {
@@ -16888,7 +16888,7 @@
           "content_preview": "本许可证以中英文双语表述 -- THIS LICENSE IS WRITTEN IN BOTH CHINESE AND ENGLISH\n\n\n木兰公共许可证， 第2版\n\n2021年5月 http://license.coscl.org.cn/MulanPubL-2.0\n\n您对“贡献”的复制、使用、修改及分发受木兰公共许可证,第2版（以下简称“本许可证”）的如下条款的约束：\n\n0.   定义\n\n“贡献” 是指由“贡献者”许可在“本许可证”下的受版权法保护的作品，包括最初“贡献者”",
           "size": 12907,
           "match_score": 1,
-          "event_index": 19,
+          "event_index": 20,
           "event_type": "feedback"
         }
       ],
@@ -17285,6 +17285,19 @@
           "point": "Observes that the SaaS restrictions are less dramatic than they appear, notes an AGPL compatibility clause that may allow combined works under AGPL-3.0, and submitted an SPDX identifier request."
         },
         {
+          "date": "2024-12-20",
+          "type": "feedback",
+          "subject": "[License-review] 回复： Submission for review of Mulan Public License，Version 2",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-December/005615.html",
+          "sender": "江波",
+          "snippet": "Clarifies that the SaaS wording only conveyed a broad AGPL/EUPL-style definition of distribution, insists Mulan PubL v2 restricts no users and complies with OSD #6, and explains the AGPL-only compatibility clause exists to remove legal barriers.",
+          "point_zh": "澄清「限制 SaaS 等新兴技术分发」的表述只是借鉴 AGPL/EUPL 的宽泛分发定义，强调 Mulan PubL v2 不限制用户、符合 OSD 第 6 条，并解释仅兼容 AGPL 的条款旨在消除法律障碍。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Clarifies that the SaaS wording only conveyed a broad AGPL/EUPL-style definition of distribution, insists Mulan PubL v2 restricts no users and complies with OSD #6, and explains the AGPL-only compatibility clause exists to remove legal barriers."
+        },
+        {
           "date": "2025-01-09",
           "type": "feedback",
           "subject": "[License-review]  Submission for review of Mulan Public License，Version 2",
@@ -17510,18 +17523,44 @@
           "source": "license-review",
           "position": "neutral",
           "point": "Calls on other reviewers to provide comments or criticism of the license now, before resubmission, to help the submitter address issues proactively."
+        },
+        {
+          "date": "2025-03-19",
+          "type": "feedback",
+          "subject": "[License-review]  回复：Re:  Submission for review of Mulan Public License，Version 2",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-March/005736.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Tells the submitter she is welcome to resubmit but cannot promise that no further comments will follow.",
+          "point_zh": "答复提交人可以重新提交，但不保证之后不会再出现新的意见。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Tells the submitter she is welcome to resubmit but cannot promise that no further comments will follow."
+        },
+        {
+          "date": "2025-03-19",
+          "type": "submission",
+          "subject": "[License-review] 回复：Re:  Submission for review of Mulan Public License，Version 2",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-March/005738.html",
+          "sender": "Nadia Jiang",
+          "snippet": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others.",
+          "point_zh": "询问其他评审者已无更多意见或批评，现在是否可以推进重新提交。",
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others."
         }
       ],
       "board_vote": null,
       "rejection_reason": "Submitted Oct 2024; review may be ongoing. Note: Mulan PSL v2 was already approved via the 2019/2020 thread; this appears to be a separate submission.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 21,
+        "total_messages": 24,
         "date_range": [
           "2024-10-25",
-          "2025-02-15"
+          "2025-03-19"
         ],
-        "duration_days": 113,
+        "duration_days": 145,
         "unique_participants": [
           "江波",
           "Josh Berkus",
@@ -17541,10 +17580,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission is in an active review state. Evidence indicates it was submitted in October 2024 and discussion is ongoing as of February 2025. While there is talk of a future withdrawal and resubmission to address translation issues (timeline#19), no formal withdrawal or final board decision has occurred yet.",
+        "rationale": "The license was submitted for review in October 2024. The discussion thread indicates ongoing review through February and March 2025, with the submitter planning to update the English translation and resubmit. There is no evidence of a board vote, final decision, rejection, or withdrawal. The latest activity involves the submitter asking if they may proceed with resubmitting, confirming the review is still in progress.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:mulan-public-license-v2-resubmission",
@@ -17554,22 +17593,22 @@
           {
             "evidence_id": "timeline:mulan-public-license-v2-resubmission#0",
             "supports": "pending",
-            "quote": "Formally submits the Mulan Public License v2 for OSI approval..."
+            "quote": "Formally submits the Mulan Public License v2 for OSI approval, describing it as a copyleft license built on the OSI-approved Mulan PSL v2 with SaaS distribution restrictions."
           },
           {
-            "evidence_id": "timeline:mulan-public-license-v2-resubmission#19",
+            "evidence_id": "timeline:mulan-public-license-v2-resubmission#23",
             "supports": "pending",
-            "quote": "Proposes discussing translation adjustments in the current thread before withdrawing and resubmitting..."
+            "quote": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others."
           },
           {
             "evidence_id": "timeline:mulan-public-license-v2-resubmission#20",
             "supports": "pending",
-            "quote": "Calls on other reviewers to provide comments or criticism of the license now, before resubmission..."
+            "quote": "Proposes discussing translation adjustments in the current thread before withdrawing and resubmitting, and reattaches the latest .txt to prevent version confusion."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:baeafb424311a91748f485158990ba18fd20e60b8d081c20cb59979f8b9cbd8d",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:1bec10d44ec65d985115610249fef31e20c6145128da433bf7a0a6c24e1e5ab1",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
     },
