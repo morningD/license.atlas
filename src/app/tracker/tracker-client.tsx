@@ -226,7 +226,7 @@ export function TrackerClient() {
           <p className="mt-2 min-h-[3.75rem] max-w-3xl text-sm leading-relaxed text-zinc-500 dark:text-zinc-400">
             {t("tracker.subtitlePre")}
             <a
-              href="https://opensource.org/about/osi"
+              href="https://opensource.org/about"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#7c3aed] hover:underline dark:text-[#a78bfa]"
