@@ -122,6 +122,9 @@ export default function AboutPageClient() {
         <p>{t("about.disclaimerIntro")}</p>
         <p>{t("about.disclaimerData")}</p>
 
+        <h2 className="text-xl font-semibold text-zinc-950 dark:text-zinc-50">{t("about.updatesTitle")}</h2>
+        <p>{t("about.updatesIntro")}</p>
+
         <h2 className="text-xl font-semibold text-zinc-950 dark:text-zinc-50">{t("about.popTitle")}</h2>
         <p>{t("about.popIntro")}</p>
         <ul className="list-disc space-y-1 pl-6">

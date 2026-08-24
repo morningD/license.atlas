@@ -48,14 +48,16 @@ npm run sync:osadl       # sync already-built KB OSADL checklist data into Atlas
 npm run sync:projects    # sync already-built KB project-showcase data into Atlas
 ```
 
-Use `npm run update:data` as the normal update entry point. It starts with the KB
-core license corpus pipeline (including license full-text discovery and
-cleaning), syncs the cleaned corpus into Atlas, then refreshes tracker, OSADL,
-and project-showcase sidecars. The per-source commands above are for targeted
+Use `npm run update:data` as the normal update entry point — it is fully
+hands-off: the KB core license corpus pipeline (full-text discovery, cleaning,
+popularity), GLM auto-review of new HuggingFace/GitHub custom-license
+candidates, corpus sync, README count refresh, then tracker, OSADL, and
+project-showcase sidecars. The per-source commands above are for targeted
 debugging or recovery. See [Data Update Workflow](docs/data-update-workflow.md).
-New license slugs are blocked by default during `sync:licenses`; run the KB
-dedupe / cleanup / confirmation workflow first, then rerun with
-`--allow-new-licenses` only after review is complete.
+Custom-license candidates adjudicated as "include" by GLM land in the KB
+confirmed manifests and sync automatically; brand-new slugs from unvetted
+sources are still blocked pending `--allow-new-licenses`. The old interactive
+manual-review flow is available with `npm run update:data -- --interactive`.
 
 `npm run build` always regenerates the search index, syncs tracker, OSADL, and project-showcase sidecar data, and then runs the static Next.js build. The build script currently sets `NEXT_PRIVATE_BUILD_WORKER=0` to avoid a Next.js 16 webpack worker hang observed in local and CI builds.
 
@@ -84,7 +86,9 @@ License texts are aggregated from:
 | Project Showcase | 32 selected licenses with top GitHub repositories, HuggingFace models, and Kaggle datasets, normalized into a compact right-rail detail-page sidecar |
 
 Popularity data comes from HuggingFace Hub (2.8M+ models), GitHub (28 license types), and Kaggle (714K+ datasets via Meta-Kaggle). License-card sparklines use HuggingFace monthly license-trends extracted from the models parquet; repository counts and project showcase data come from GitHub, and dataset popularity comes from Kaggle. Project Showcase ranks GitHub entries by stars, HuggingFace entries by the local Hub `trendingScore` when a license has active trend signal, and Kaggle entries by votes; HF groups with a top trend score below 5 fall back to likes and show top 5 unless the fifth item has more than 5 likes, in which case they show top 10. A license is included when Atlas aggregate counters cross the rollout threshold or raw source data contains a clearly popular top item. The updater is incremental at the source layer: GitHub uses per-license freshness windows, HuggingFace uses a parquet fingerprint gate, Kaggle uses the latest Meta-Kaggle version id plus cached API-resolved URL/thumbnail metadata, and Atlas-side sync is hash-gated. Popular Projects can be refreshed independently with `npm run update:projects`; source-specific refreshes are supported with `npm run update:projects -- --source <github|huggingface|kaggle> --force`.
-The site footer reports the latest data update using the newest timestamp from the license corpus, the OSI review tracker sync, the OSADL checklist sync, and the project-showcase sync, shown inline with the page-view counter.
+The site footer reports the latest license-corpus update timestamp (shown on
+pages other than `/tracker`, which displays its own tracker freshness in the
+page header) alongside the page-view counter.
 Submitted license texts in the OSI Review Tracker are reproduced from public OSI review/discussion records for research and review-tracking purposes; copyright remains with the original authors or license stewards.
 OSADL checklist data is attributed to Open Source Automation Development Lab (OSADL) eG, distributed by OSADL as CC-BY-4.0 raw data, and shown as informational compliance metadata rather than legal advice.
 

@@ -48,12 +48,14 @@ npm run sync:osadl       # 将已构建的 KB OSADL 检查清单数据同步到 
 npm run sync:projects    # 将已构建的 KB project-showcase 数据同步到 Atlas
 ```
 
-日常更新优先使用 `npm run update:data`。它会先执行 KB 主许可证语料流程（包括
-license full text 发现与清洗），再同步到 Atlas，随后刷新 tracker、OSADL 和
-project-showcase sidecar。上面的局部命令主要用于定向调试或补跑。详见
+日常更新优先使用 `npm run update:data`——整条链路已无人值守：KB 主许可证语料流程
+（原文发现、清洗、热度）→ GLM 自动审核 HuggingFace/GitHub 新自定义许可证候选 →
+语料同步 → README 总数刷新 → tracker、OSADL 与 project-showcase sidecar。上面的
+局部命令主要用于定向调试或补跑。详见
 [Data Update Workflow](docs/data-update-workflow.md)。
-新增 license slug 在 `sync:licenses` 阶段默认会被阻断；必须先在 KB 完成去重、
-清洗和确认流程，确认完成后才可显式使用 `--allow-new-licenses` 同步。
+GLM 判定收录的自定义许可证进入 KB confirmed manifest 后自动同步；来自未审核来源的
+全新 slug 仍会被拦截，需显式 `--allow-new-licenses`。旧的人工审核流程可用
+`npm run update:data -- --interactive` 回退。
 
 `npm run build` 会重新生成搜索索引，同步 tracker、OSADL 与 project-showcase sidecar 数据，然后执行 Next.js 静态构建。当前 build 脚本设置了 `NEXT_PRIVATE_BUILD_WORKER=0`，用于规避 Next.js 16 webpack build worker 在本地和 CI 中观察到的卡住问题。
 
@@ -81,8 +83,9 @@ project-showcase sidecar。上面的局部命令主要用于定向调试或补�
 | OSADL Open Source License Checklists | 124 条检查清单记录，123 个匹配的 LicenseAtlas 页面，并提供由检查清单提取的义务/禁止项、Copyleft/源码披露/专利提示与方向性兼容性摘要 |
 | Project Showcase | 32 个精选许可证的 GitHub 仓库、HuggingFace 模型与 Kaggle 数据集榜单，经标准化后作为详情页右侧 sidecar 展示 |
 
-热度数据来自 HuggingFace Hub（280 万+ 模型）、GitHub（28 种许可证类型）和 Kaggle（通过 Meta-Kaggle 覆盖 71.4 万+ 数据集）。许可证卡片上的趋势火花线来自 HuggingFace models parquet 提取的月度 license-trends；GitHub 提供仓库计数和明星项目数据，Kaggle 提供数据集热度。Project Showcase 中 GitHub 按 stars 排序，HuggingFace 按 likes/点赞排序，Kaggle 按 votes 排序；许可证会在 Atlas 聚合计数达标，或 raw 源数据里出现明确热门的 top item 时进入展示。更新流程在源级做增量刷新：GitHub 按 license key 做新鲜度窗口缓存，HuggingFace 用 parquet 指纹门控，Kaggle 用最新 Meta-Kaggle version id 以及缓存的 API 解析 URL/缩略图元数据门控，Atlas 侧同步再做 hash 检测。可用 `npm run update:projects -- --source <github|huggingface|kaggle> --force` 只刷新单个数据源。
-网站页脚会显示最新数据更新时间，取许可证语料、OSI 审查追踪器同步时间、OSADL 检查清单同步时间与 project-showcase 同步时间中的最新者，并与页面浏览量计数同排展示。
+热度数据来自 HuggingFace Hub（280 万+ 模型）、GitHub（28 种许可证类型）和 Kaggle（通过 Meta-Kaggle 覆盖 71.4 万+ 数据集）。许可证卡片上的趋势火花线来自 HuggingFace models parquet 提取的月度 license-trends；GitHub 提供仓库计数和明星项目数据，Kaggle 提供数据集热度。Project Showcase 中 GitHub 按 stars 排序，HuggingFace 在许可证有活跃趋势信号时按本地 Hub `trendingScore` 排序（top 趋势分低于 5 的组回退到 likes 并展示 top 5，除非第 5 名 likes 超过 5 则展示 top 10），Kaggle 按 votes 排序；许可证会在 Atlas 聚合计数达标，或 raw 源数据里出现明确热门的 top item 时进入展示。更新流程在源级做增量刷新：GitHub 按 license key 做新鲜度窗口缓存，HuggingFace 用 parquet 指纹门控，Kaggle 用最新 Meta-Kaggle version id 以及缓存的 API 解析 URL/缩略图元数据门控，Atlas 侧同步再做 hash 检测。可用 `npm run update:projects -- --source <github|huggingface|kaggle> --force` 只刷新单个数据源。
+网站页脚显示许可证语料的最新更新时间（`/tracker` 页除外，该页头部展示 tracker 自身的
+数据时间），并与页面浏览量计数同排展示。
 OSI Review Tracker 中的提交许可证原文来自公开 OSI 审查/讨论记录，仅用于研究和审查追踪；版权仍归原作者或许可证维护方所有。
 OSADL 检查清单数据归属 Open Source Automation Development Lab (OSADL) eG，由 OSADL 以 CC-BY-4.0 原始数据形式发布；LicenseAtlas 将其作为信息性合规元数据展示，不构成法律意见。
 

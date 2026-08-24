@@ -25,13 +25,19 @@ A comprehensive license collection website — software, AI model, and data lice
 ## SEO
 
 - `public/robots.txt` — 允许所有爬虫，指向 sitemap.xml
-- `public/sitemap.xml` — 由 `scripts/build-sitemap.mjs` 从 `licenses-index.json` 生成（2,589 URLs）
+- `public/sitemap.xml` — 由 `scripts/build-sitemap.mjs` 从 `licenses-index.json` 生成（2,647 URLs）
 - **数据更新后必须重跑**：`node scripts/build-sitemap.mjs`
 - `src/app/layout.tsx` — metadata 含中英 keywords、Open Graph、Twitter Card、JSON-LD 结构化数据
 - `src/app/licenses/[slug]/page.tsx` — `generateMetadata` 为每个许可证生成独立 title/description
 - Google Search Console 已验证（`public/googlef98d0f412dcfb895.html`），sitemap 已提交
 
 ## Data Pipeline
+
+0. **全自动更新入口**（2026-08-24 起无人值守）：`npm run update:data` 默认走 GLM 自动审核
+   （HF/GitHub custom temp 候选 → glm-4.6 判 include/discard，discarded.json 持久化），
+   confirmed manifest 中的 slug 由 `sync-license-corpus.mjs` 自动信任，README 总数由
+   `update-readme-counts.mjs` 自动刷。`--interactive` 回退旧人工审核流。人工出口仅剩：
+   LLM 3 次未解决的 temp 候选、未审核来源的新 slug（sync 拦截需 `--allow-new-licenses`）。
 
 1. KB `scripts/clean-licenses.mjs` reads crawled data → outputs `data/licenses/cleaned/`
    - `licenses.json` — full data with body text (for detail pages, build-time only)
@@ -139,7 +145,7 @@ Server components (`licenses/[slug]/page.tsx`) are split into:
 - `src/components/badge.tsx` — Badge with variants: osi, fsf, type, tag, permission, condition, limitation, verified, language, fsf-tag, blue-oak. `themeKey` prop separates style lookup from display text
 - `src/components/license-card.tsx` — Frosted glass card with hover prefetch + sparkline
 - `src/components/navbar.tsx` — Nav with language toggle + dark mode toggle + GitHub link
-- `src/components/footer.tsx` — Footer with busuanzi counter (dynamic script injection)
+- `src/components/footer.tsx` — Footer with busuanzi counter (dynamic script injection)；"Latest Data Update" 只显示许可证语料时间，且在 `/tracker` 路由隐藏（该页有自己的数据时间）
 - `src/components/nav-progress.tsx` — Top progress bar for page transitions
 - `src/components/license-body-section.tsx` — License text renderer with lazy-loaded CC family nav
 - `src/components/cc-family-nav.tsx` — Language switcher for CC multilingual bodies
@@ -151,14 +157,14 @@ Server components (`licenses/[slug]/page.tsx`) are split into:
 
 ## 添加许可证 Checklist
 
-修改 `licenses.json` 后，**必须同步更新以下文件并全部提交**：
+`npm run update:data` 全自动链路会完成第 1-6 步（含 `update-readme-counts.mjs` 自动刷 README 总数）；手工修改 `licenses.json` 时，**必须同步更新以下文件并全部提交**：
 
 1. `src/data/licenses.json` — 完整数据（含 body），详情页用
 2. `src/data/licenses-index.json` — 轻量版（无 body），**主页直接 import**，tag pills 从此文件读取
 3. `src/data/stats.json` — 重新计算 by_type、by_tag、by_source 等统计
 4. `public/search-index.json` — 运行 `node scripts/build-search-index.mjs` 重建
 5. `public/sitemap.xml` — 运行 `node scripts/build-sitemap.mjs` 重建
-6. `README.md` / `README.zh-CN.md` — 更新总数、数据源表
+6. `README.md` / `README.zh-CN.md` — 运行 `node scripts/update-readme-counts.mjs` 刷总数；数据源表仅在新增来源时手改
 7. `src/app/about/page.tsx` — 如有新数据源，添加到 sources 列表 + i18n
 8. `src/lib/i18n.tsx` — 如有新 tag/描述，添加翻译
 
