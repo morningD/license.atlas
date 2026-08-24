@@ -2,13 +2,15 @@
 // This covers the main license full texts and cleaned metadata, distinct from
 // sidecars such as tracker, OSADL, and project showcase data.
 // Run: node scripts/sync-license-corpus.mjs [--kb-path <path>]
-// New hand-discovered license slugs are blocked by default. Trusted structured
-// sources such as ScanCode LicenseDB are allowed after KB clean/dedupe has run.
-// After KB-side dedupe / cleanup / confirmation is complete for other sources,
-// pass --allow-new-licenses or --allow-new-license <slug> to sync them.
+// New hand-discovered license slugs are blocked by default. Trusted paths:
+// - Structured sources such as ScanCode LicenseDB (after KB clean/dedupe).
+// - Slugs present in KB custom-license confirmed manifests — HF and GitHub
+//   customs now land there via GLM --llm-review (validated 2026-08-24), so
+//   they count as reviewed and sync without manual allowlisting.
+// Anything else still needs --allow-new-licenses / --allow-new-license <slug>.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { createHash } from "crypto";
-import { dirname, resolve } from "path";
+import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -37,6 +39,31 @@ function resolveKbPath() {
   if (process.env.KB_PATH) return resolve(process.env.KB_PATH);
   return resolve(ROOT, "..", "KB");
 }
+
+const KB_ROOT = resolveKbPath();
+
+// Slugs with a confirmed custom-license entry (GLM-reviewed or human-confirmed)
+// in KB: hf-custom-licenses and gh-custom-licenses manifests.
+function confirmedCustomSlugs() {
+  const slugs = new Set();
+  const manifests = [
+    join(KB_ROOT, "data", "hf-hub-stats", "hf-custom-licenses", "confirmed", "manifest.json"),
+    join(KB_ROOT, "data", "github-stats", "gh-custom-licenses", "confirmed", "manifest.json"),
+  ];
+  for (const path of manifests) {
+    if (!existsSync(path)) continue;
+    try {
+      const entries = JSON.parse(readFileSync(path, "utf8"));
+      for (const e of entries || []) {
+        const file = e.cleaned_file || "";
+        if (!e.is_standard && file) slugs.add(file.replace(/^confirmed\//, "").replace(/\.md$/, ""));
+      }
+    } catch {}
+  }
+  return slugs;
+}
+
+const CONFIRMED_CUSTOM_SLUGS = confirmedCustomSlugs();
 
 function sha1File(...files) {
   const h = createHash("sha1");
@@ -74,10 +101,10 @@ function recomputeStats(licenses, sourceStats) {
 
 function isTrustedStructuredNewLicense(license) {
   const sourceNames = (license.sources || []).map((source) => source.name || "");
-  return sourceNames.some((name) => name === "scancode-licensedb.aboutcode.org");
+  if (sourceNames.some((name) => name === "scancode-licensedb.aboutcode.org")) return true;
+  return CONFIRMED_CUSTOM_SLUGS.has(license.slug);
 }
 
-const KB_ROOT = resolveKbPath();
 const KB_DIR = resolve(KB_ROOT, "data", "licenses", "cleaned");
 const KB_LICENSES = resolve(KB_DIR, "licenses.json");
 const KB_INDEX = resolve(KB_DIR, "licenses-index.json");
