@@ -1489,6 +1489,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/audio8-community-license-v1-0</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/anu-license</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -2461,6 +2467,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/burgstall-lora-license</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://morningd.github.io/license.atlas/licenses/busl-1.1</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -2817,6 +2829,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/circlestone-labs-nc-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/circlestone-labs-non-commercial-license-v1-1</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -9909,6 +9927,12 @@
   <url>
     <loc>https://morningd.github.io/license.atlas/licenses/new-relic-1.0</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://morningd.github.io/license.atlas/licenses/newbie-non-commercial-community-license-1-0</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
