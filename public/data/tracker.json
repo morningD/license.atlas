@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-24T01:43:49.100Z",
+    "generated_at": "2026-08-24T21:30:08.707Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-24T01:44:02.112Z",
+    "enriched_at": "2026-08-24T21:30:22.425Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-24T01:44:08.967Z",
+      "applied_at": "2026-08-24T21:30:31.392Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -95,14 +95,14 @@
           "message_count": 9
         },
         {
-          "name": "Pamela Chestek",
-          "role": "board_member",
+          "name": "Michael Dolan",
+          "role": "submitter",
           "message_count": 5
         },
         {
-          "name": "Michael Dolan",
-          "role": "submitter",
-          "message_count": 4
+          "name": "Pamela Chestek",
+          "role": "board_member",
+          "message_count": 5
         },
         {
           "name": "Shuji Sado",
@@ -632,13 +632,26 @@
           "source": "license-review",
           "position": "support",
           "point": "Argues the analysis missed a configuration where unmodified code is subject to both licenses, noting that sublicensing could impose additional constraints."
+        },
+        {
+          "date": "2026-08-24",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006164.html",
+          "sender": "Michael Dolan",
+          "snippet": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly, and clarifies that a developer suing for infringement cannot simultaneously exercise the licensor's rights.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly, and clarifies that a developer suing for infringement cannot simultaneously exercise the licensor's rights."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 35,
+        "total_messages": 36,
         "date_range": [
           "2026-08-13",
           "2026-08-24"
@@ -668,7 +681,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission was formally made in August 2026. Subsequent discussion involved significant debate regarding termination clauses and copyright assertions, but no final decision, rejection, or withdrawal was recorded in the provided evidence. The timeline summary confirms no board decision or withdrawal occurred.",
+        "rationale": "The evidence confirms that OpenMDW License Agreement 1.1 was formally submitted for OSI approval on August 13, 2026. Subsequent email activity through August 24, 2026, indicates ongoing discussion and debate regarding the license's terms (specifically concerning termination for copyright assertions and rights-clearance language), but no evidence exists of a board vote, final decision, withdrawal, or supersession. The timeline summary explicitly states there is no board decision. Therefore, the license remains under active review.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -681,13 +694,13 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#34",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#35",
             "supports": "pending",
-            "quote": "Argues the analysis missed a configuration where unmodified code is subject to both licenses, noting that sublicensing could impose additional constraints."
+            "quote": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:0b1d52d28a672c64fcbbf245bf5b1e8e9a2a80561692d7b4f5305f6c1813b13d",
+        "input_hash": "sha256:760e0459a51ce61a99215f5b638d4bb6181d09bed28b4f89a540306e2f4baeb6",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
