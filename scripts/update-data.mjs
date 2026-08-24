@@ -1,14 +1,19 @@
 // LicenseAtlas full incremental data update orchestrator.
 //
-// It runs the core license corpus update in KB (license full texts, HF custom
-// license discovery, popularity stats, cleaning), syncs the cleaned corpus into
-// Atlas, then refreshes Atlas sidecars: OSI tracker, OSADL, and Popular Projects.
+// It runs the core license corpus update in KB (license full texts, HF/GitHub
+// custom license discovery with GLM auto-review, popularity stats, cleaning),
+// syncs the cleaned corpus into Atlas, then refreshes Atlas sidecars: OSI
+// tracker, OSADL, and Popular Projects.
+//
+// Fully hands-off by default since 2026-08-24: KB temp review runs via GLM
+// --llm-review (validated against human review on real candidates), and
+// confirmed-manifest slugs are auto-trusted by the sync gate. The remaining
+// human gates only trigger on LLM-unresolved candidates or brand-new slugs
+// from unvetted sources.
 //
 // Run:
 //   node scripts/update-data.mjs
-//   node scripts/update-data.mjs --review-hf-custom
-//   node scripts/update-data.mjs --skip-confirm       # not recommended
-//   node scripts/update-data.mjs --allow-new-licenses # only after review
+//   node scripts/update-data.mjs --interactive  # pre-LLM manual review flow
 //   node scripts/update-data.mjs --skip-core --skip-build
 import { existsSync } from "fs";
 import { dirname, resolve } from "path";
@@ -34,6 +39,7 @@ function shellQuote(s) {
   return `"${String(s).replace(/(["\\$`])/g, "\\$1")}"`;
 }
 
+let childEnv = { ...process.env };
 function run(cmd, cwd = ROOT) {
   console.log(`\n▶ ${cmd}  (in ${cwd})`);
   execSync(cmd, { cwd, stdio: "inherit", env: childEnv });
@@ -51,7 +57,7 @@ const skipOsadl = has("--skip-osadl");
 const skipProjects = has("--skip-projects");
 const skipBuild = has("--skip-build");
 const skipFetch = has("--skip-fetch");
-const skipConfirm = has("--skip-confirm") && !has("--review-hf-custom");
+const interactive = has("--interactive") || has("--review-hf-custom");
 const allowNewLicenses = has("--allow-new-licenses");
 
 function pythonHasPolars(bin) {
@@ -74,22 +80,23 @@ function detectPythonBin() {
 }
 
 const PYTHON_BIN = detectPythonBin();
-const childEnv = { ...process.env, PYTHON_BIN };
+childEnv = { ...process.env, PYTHON_BIN };
 
 console.log(`LicenseAtlas incremental data update`);
 console.log(`KB: ${KB_ROOT}`);
 console.log(`Python: ${PYTHON_BIN}`);
-console.log(`HF custom review: ${skipConfirm ? "skipped (not recommended)" : "interactive / strict"}`);
-console.log(`New license sync: ${allowNewLicenses ? "allowed (review already completed)" : "blocked until confirmed"}`);
+console.log(`HF/GitHub custom review: ${interactive ? "interactive (pre-LLM manual flow)" : "GLM auto (--llm-review)"}`);
+console.log(`New license sync: confirmed-manifest slugs auto-trusted${allowNewLicenses ? " + --allow-new-licenses" : ""}`);
 
 if (!skipCore) {
   const coreArgs = ["--skip-atlas"];
   if (skipFetch) coreArgs.push("--skip-fetch");
-  if (skipConfirm) coreArgs.push("--skip-confirm");
+  if (!interactive) coreArgs.push("--skip-confirm");
   run(`bash scripts/update-all.sh ${coreArgs.join(" ")}`, KB_ROOT);
   const syncArgs = [`--kb-path ${shellQuote(KB_ROOT)}`];
   if (allowNewLicenses) syncArgs.push("--allow-new-licenses");
   run(`node scripts/sync-license-corpus.mjs ${syncArgs.join(" ")}`);
+  run("node scripts/update-readme-counts.mjs");
 } else {
   console.log("\n↷ Skipping core license corpus update (--skip-core)");
 }
