@@ -25,7 +25,7 @@ A comprehensive license collection website — software, AI model, and data lice
 ## SEO
 
 - `public/robots.txt` — 允许所有爬虫，指向 sitemap.xml
-- `public/sitemap.xml` — 由 `scripts/build-sitemap.mjs` 从 `licenses-index.json` 生成（2,647 URLs）
+- `public/sitemap.xml` — 由 `scripts/build-sitemap.mjs` 从 `licenses-index.json` 生成（URL 数随语料增长，勿在此写死数字）
 - **数据更新后必须重跑**：`node scripts/build-sitemap.mjs`
 - `src/app/layout.tsx` — metadata 含中英 keywords、Open Graph、Twitter Card、JSON-LD 结构化数据
 - `src/app/licenses/[slug]/page.tsx` — `generateMetadata` 为每个许可证生成独立 title/description
