@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "f54eb04e5bed70c0",
+    "source_hash": "9c7f2cd43ff63e11",
     "index_schema_version": 4,
-    "generated_at": "2026-08-23T15:41:25.317Z",
+    "generated_at": "2026-08-24T01:44:02.112Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 34,
-      "duration_days": 8,
+      "total_messages": 35,
+      "duration_days": 11,
       "date_range": [
         "2026-08-13",
-        "2026-08-21"
+        "2026-08-24"
       ]
     },
     "has_vote": false,
@@ -43,18 +43,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 34,
+      "count": 35,
       "first": "2026-08-13",
-      "last": "2026-08-21"
+      "last": "2026-08-24"
     },
     "latest_event": {
-      "date": "2026-08-21",
+      "date": "2026-08-24",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Shuji Sado",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Accepts the explanation regarding Model Materials scope but strongly recommends OpenMDW guidance explicitly enumerate them to clarify termination rights.",
+      "sentiment": "negative",
+      "point": "Argues the analysis missed a configuration where unmodified code is subject to both licenses, noting that sublicensing could impose additional constraints.",
       "point_zh": ""
     }
   },
