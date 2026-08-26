@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-24T21:30:08.707Z",
+    "generated_at": "2026-08-26T01:42:27.591Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -12,13 +12,13 @@
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3435,
+      "mail_clusters": 3436,
       "rejected_withdrawn": 72,
       "license_text_files": 539,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-24T21:30:22.425Z",
+    "enriched_at": "2026-08-26T01:42:43.177Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-24T21:30:31.392Z",
+      "applied_at": "2026-08-26T01:43:00.462Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -77,7 +77,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-24"
+          "latest_event_date": "2026-08-25"
         },
         "board_vote": {
           "present": false
@@ -92,16 +92,16 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 9
-        },
-        {
-          "name": "Michael Dolan",
-          "role": "submitter",
-          "message_count": 5
+          "message_count": 10
         },
         {
           "name": "Pamela Chestek",
           "role": "board_member",
+          "message_count": 6
+        },
+        {
+          "name": "Michael Dolan",
+          "role": "submitter",
           "message_count": 5
         },
         {
@@ -142,6 +142,11 @@
         {
           "name": "Simon Phipps",
           "role": "board_member",
+          "message_count": 1
+        },
+        {
+          "name": "Stefano Maffulli",
+          "role": "reviewer",
           "message_count": 1
         }
       ],
@@ -645,18 +650,57 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly, and clarifies that a developer suing for infringement cannot simultaneously exercise the licensor's rights."
+        },
+        {
+          "date": "2026-08-25",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006165.html",
+          "sender": "Richard Fontana",
+          "snippet": "Argues that CAL-1.0 is not parallel to OpenMDW-1.1 and notes that OSI approval of similar past licenses does not compel approval of new ones, suggesting broader software freedom concerns may justify rejection.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "support",
+          "point": "Argues that CAL-1.0 is not parallel to OpenMDW-1.1 and notes that OSI approval of similar past licenses does not compel approval of new ones, suggesting broader software freedom concerns may justify rejection."
+        },
+        {
+          "date": "2026-08-25",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006166.html",
+          "sender": "Stefano Maffulli",
+          "snippet": "Questions the conclusion that all training data must be explicitly licensed, arguing the license protects developers and that policy dilemmas regarding AI and open source should not encumber the license evaluation.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Questions the conclusion that all training data must be explicitly licensed, arguing the license protects developers and that policy dilemmas regarding AI and open source should not encumber the license evaluation."
+        },
+        {
+          "date": "2026-08-25",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006167.html",
+          "sender": "Pamela Chestek",
+          "snippet": "States that viewing the license as a regular FOSS license reveals tensions that weigh against approval and emphasizes the OSI's role in protecting the open source community's interests.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "States that viewing the license as a regular FOSS license reveals tensions that weigh against approval and emphasizes the OSI's role in protecting the open source community's interests."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 36,
+        "total_messages": 39,
         "date_range": [
           "2026-08-13",
-          "2026-08-24"
+          "2026-08-25"
         ],
-        "duration_days": 11,
+        "duration_days": 12,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -668,7 +712,8 @@
           "Eric Schultz",
           "Kevin P. Fleming",
           "Shuji Sado",
-          "Simon Phipps"
+          "Simon Phipps",
+          "Stefano Maffulli"
         ]
       },
       "status_review": {
@@ -681,12 +726,12 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence confirms that OpenMDW License Agreement 1.1 was formally submitted for OSI approval on August 13, 2026. Subsequent email activity through August 24, 2026, indicates ongoing discussion and debate regarding the license's terms (specifically concerning termination for copyright assertions and rights-clearance language), but no evidence exists of a board vote, final decision, withdrawal, or supersession. The timeline summary explicitly states there is no board decision. Therefore, the license remains under active review.",
+        "rationale": "The evidence shows a submission for 'OpenMDW License Agreement, version 1.1' made to the license-review mailing list starting August 13, 2026. Subsequent discussion involved significant debate and criticism regarding the license's structure and compliance with open source principles (e.g., messages from Rob Landley and Pamela Chestek). However, the timeline summary explicitly states 'has_board_decision': false, and the curated RWP entry lists the status as 'pending'. There is no evidence of a formal board vote, withdrawal notice, or approval. The latest event is feedback dated August 25, 2026. Therefore, the review remains ongoing and unresolved.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -694,13 +739,18 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#35",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#31",
             "supports": "pending",
-            "quote": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly..."
+            "quote": "The proposed license attempts to shield against mass copyright violations and should not be considered open source."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#38",
+            "supports": "pending",
+            "quote": "States that viewing the license as a regular FOSS license reveals tensions that weigh against approval..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:760e0459a51ce61a99215f5b638d4bb6181d09bed28b4f89a540306e2f4baeb6",
+        "input_hash": "sha256:4fe3be6e0c5773084818ee13f1647ee4cbf2c14bf000c3b78fb8c9e1bbe07cfb",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

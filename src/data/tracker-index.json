@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "9014a04035a1837f",
+    "source_hash": "8e54be7c1cff40c9",
     "index_schema_version": 4,
-    "generated_at": "2026-08-24T21:30:22.425Z",
+    "generated_at": "2026-08-26T01:42:43.177Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 36,
-      "duration_days": 11,
+      "total_messages": 39,
+      "duration_days": 12,
       "date_range": [
         "2026-08-13",
-        "2026-08-24"
+        "2026-08-25"
       ]
     },
     "has_vote": false,
@@ -43,18 +43,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 36,
+      "count": 39,
       "first": "2026-08-13",
-      "last": "2026-08-24"
+      "last": "2026-08-25"
     },
     "latest_event": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Michael Dolan",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "negative",
-      "point": "Argues that missing the fourth configuration does not change the analysis because MIT grants reach all recipients directly, and clarifies that a developer suing for infringement cannot simultaneously exercise the licensor's rights.",
+      "point": "States that viewing the license as a regular FOSS license reveals tensions that weigh against approval and emphasizes the OSI's role in protecting the open source community's interests.",
       "point_zh": ""
     }
   },
