@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "997bf173bec8117f",
+    "source_hash": "8eb4ebca98f5b45a",
     "index_schema_version": 4,
-    "generated_at": "2026-08-26T15:50:55.717Z",
+    "generated_at": "2026-08-27T00:27:59.717Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -20,7 +20,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 40,
+      "total_messages": 41,
       "duration_days": 13,
       "date_range": [
         "2026-08-13",
@@ -43,7 +43,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 40,
+      "count": 41,
       "first": "2026-08-13",
       "last": "2026-08-26"
     },
@@ -51,10 +51,10 @@
       "date": "2026-08-26",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Stefano Maffulli",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Summarizes the objection to OpenMDW-1.1 regarding termination rights upon copyright assertion and notes Dolan's clarification that there is no blanket immunity.",
+      "sentiment": "negative",
+      "point": "Argues the license systematically fails the open source ecosystem by forcing developers to choose between giving up infringement claims or using proprietary models.",
       "point_zh": ""
     }
   },
