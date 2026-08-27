@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T00:27:46.111Z",
+    "generated_at": "2026-08-27T01:09:47.363Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-27T00:27:59.717Z",
+    "enriched_at": "2026-08-27T01:10:01.455Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-27T00:28:44.011Z",
+      "applied_at": "2026-08-27T01:10:50.621Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -77,7 +77,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-26"
+          "latest_event_date": "2026-08-27"
         },
         "board_vote": {
           "present": false
@@ -105,6 +105,11 @@
           "message_count": 5
         },
         {
+          "name": "McCoy Smith",
+          "role": "reviewer",
+          "message_count": 4
+        },
+        {
           "name": "Shuji Sado",
           "role": "reviewer",
           "message_count": 4
@@ -115,14 +120,14 @@
           "message_count": 3
         },
         {
-          "name": "McCoy Smith",
+          "name": "Luis Villa",
           "role": "reviewer",
           "message_count": 3
         },
         {
-          "name": "Luis Villa",
+          "name": "Eric Schultz",
           "role": "reviewer",
-          "message_count": 3
+          "message_count": 2
         },
         {
           "name": "Stefano Maffulli",
@@ -131,11 +136,6 @@
         },
         {
           "name": "David Rudin",
-          "role": "reviewer",
-          "message_count": 1
-        },
-        {
-          "name": "Eric Schultz",
           "role": "reviewer",
           "message_count": 1
         },
@@ -715,18 +715,44 @@
           "source": "license-review",
           "position": "support",
           "point": "Argues the license systematically fails the open source ecosystem by forcing developers to choose between giving up infringement claims or using proprietary models."
+        },
+        {
+          "date": "2026-08-27",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006170.html",
+          "sender": "McCoy Smith",
+          "snippet": "Probes the claim that all code is in every LLM, noting high model abstraction levels and suggesting legal claims may be limited to copies of training materials.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Probes the claim that all code is in every LLM, noting high model abstraction levels and suggesting legal claims may be limited to copies of training materials."
+        },
+        {
+          "date": "2026-08-27",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006171.html",
+          "sender": "Eric Schultz",
+          "snippet": "Questions if the inclusion of \"associated software\" in model materials allows bad actors to hide infringing code, preventing users from suing for infringement without forfeiting the right to use the software.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Questions if the inclusion of \"associated software\" in model materials allows bad actors to hide infringing code, preventing users from suing for infringement without forfeiting the right to use the software."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 41,
+        "total_messages": 43,
         "date_range": [
           "2026-08-13",
-          "2026-08-26"
+          "2026-08-27"
         ],
-        "duration_days": 13,
+        "duration_days": 14,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -752,26 +778,21 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence provided shows a license submission followed by extensive discussion and debate on the license-review list, including significant objections regarding the license's interaction with copyright assertions and the open source ecosystem. However, there is no evidence of a Board vote, a formal approval message, a formal rejection notification, or a withdrawal by the submitter within the provided timeline events. The latest event (2026-08-26) is a discussion post arguing against approval, which indicates the review is ongoing. Without a concluding decision in the evidence, the status remains pending.",
+        "rationale": "The provided evidence shows a submission date in August 2026 and subsequent discussion threads, but no evidence of a board vote, formal rejection, or withdrawal. The curated RWP entry explicitly lists the status as pending. While some reviewers (e.g., Pamela Chestek) argue against approval, no final decision has been recorded.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": "status: pending, rejection_reason: null"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#40",
-            "supports": "pending",
-            "quote": "Argues the license systematically fails the open source ecosystem by forcing developers to choose between giving up infringement claims or using proprietary models."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:7163a79258a3dbafab2d1293e94e19837d6a9b030df72a169b884a4c00ddf830",
+        "input_hash": "sha256:898c9e6981323ea5d065bd00c525295915c7a3d475c093bacfa3613d82aadb8e",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
