@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "f62eb28ad00065a0",
+    "source_hash": "69cd4e0bc0c22ddf",
     "index_schema_version": 4,
-    "generated_at": "2026-08-27T15:11:27.331Z",
+    "generated_at": "2026-08-27T15:50:00.609Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -20,7 +20,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 44,
+      "total_messages": 45,
       "duration_days": 14,
       "date_range": [
         "2026-08-13",
@@ -43,7 +43,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 44,
+      "count": 45,
       "first": "2026-08-13",
       "last": "2026-08-27"
     },
@@ -54,7 +54,7 @@
       "sender": "Rob Landley",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "negative",
-      "point": "Rejects the comparison between copyright and patent burdens, asserting the license would unfairly penalize employees required to use AI tools by restricting participation in class action lawsuits.",
+      "point": "Argues the license applies where no license is needed while including a termination provision that walls out users if challenged.",
       "point_zh": ""
     }
   },
