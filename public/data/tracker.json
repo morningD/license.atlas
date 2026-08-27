@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T01:47:42.966Z",
+    "generated_at": "2026-08-27T15:11:12.379Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-27T01:47:57.138Z",
+    "enriched_at": "2026-08-27T15:11:27.331Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-27T01:47:57.451Z",
+      "applied_at": "2026-08-27T15:12:06.418Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -105,6 +105,11 @@
           "message_count": 5
         },
         {
+          "name": "Rob Landley",
+          "role": "reviewer",
+          "message_count": 4
+        },
+        {
           "name": "McCoy Smith",
           "role": "reviewer",
           "message_count": 4
@@ -113,11 +118,6 @@
           "name": "Shuji Sado",
           "role": "reviewer",
           "message_count": 4
-        },
-        {
-          "name": "Rob Landley",
-          "role": "reviewer",
-          "message_count": 3
         },
         {
           "name": "Luis Villa",
@@ -741,13 +741,26 @@
           "source": "license-review",
           "position": "neutral",
           "point": "Questions if the inclusion of \"associated software\" in model materials allows bad actors to hide infringing code, preventing users from suing for infringement without forfeiting the right to use the software."
+        },
+        {
+          "date": "2026-08-27",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006172.html",
+          "sender": "Rob Landley",
+          "snippet": "Rejects the comparison between copyright and patent burdens, asserting the license would unfairly penalize employees required to use AI tools by restricting participation in class action lawsuits.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Rejects the comparison between copyright and patent burdens, asserting the license would unfairly penalize employees required to use AI tools by restricting participation in class action lawsuits."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 43,
+        "total_messages": 44,
         "date_range": [
           "2026-08-13",
           "2026-08-27"
@@ -778,22 +791,27 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The provided evidence shows a submission date in August 2026 and subsequent discussion threads, but no evidence of a board vote, formal rejection, or withdrawal. The curated RWP entry explicitly lists the status as pending. While some reviewers (e.g., Pamela Chestek) argue against approval, no final decision has been recorded.",
+        "rationale": "The evidence indicates the license was formally submitted on 2026-08-13 and has undergone active discussion through at least 2026-08-27. The curated RWP entry lists the status as pending, and the timeline summary confirms there is no board decision or withdrawal on record. Therefore, the review is still in progress.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending, rejection_reason: null"
+            "quote": null
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#43",
+            "supports": "pending",
+            "quote": "Rejects the comparison between copyright and patent burdens, asserting the license would unfairly penalize employees required to use AI tools by restricting participation in class action lawsuits."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:898c9e6981323ea5d065bd00c525295915c7a3d475c093bacfa3613d82aadb8e",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:17ba9760eb8c169d09b771c219ecb5a0b24288c912a74f19689dd9677dbcbdad",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
     },

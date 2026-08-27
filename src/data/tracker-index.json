@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "acebd60707849106",
+    "source_hash": "f62eb28ad00065a0",
     "index_schema_version": 4,
-    "generated_at": "2026-08-27T01:47:57.138Z",
+    "generated_at": "2026-08-27T15:11:27.331Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -20,7 +20,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 43,
+      "total_messages": 44,
       "duration_days": 14,
       "date_range": [
         "2026-08-13",
@@ -43,7 +43,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 43,
+      "count": 44,
       "first": "2026-08-13",
       "last": "2026-08-27"
     },
@@ -51,10 +51,10 @@
       "date": "2026-08-27",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Eric Schultz",
+      "sender": "Rob Landley",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "negative",
-      "point": "Questions if the inclusion of \"associated software\" in model materials allows bad actors to hide infringing code, preventing users from suing for infringement without forfeiting the right to use the software.",
+      "point": "Rejects the comparison between copyright and patent burdens, asserting the license would unfairly penalize employees required to use AI tools by restricting participation in class action lawsuits.",
       "point_zh": ""
     }
   },
