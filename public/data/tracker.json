@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T17:22:49.180Z",
+    "generated_at": "2026-08-27T19:26:39.776Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-27T17:23:02.525Z",
+    "enriched_at": "2026-08-27T19:26:52.982Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-27T17:23:02.834Z",
+      "applied_at": "2026-08-27T19:26:53.261Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
