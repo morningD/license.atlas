@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "e32d7a854119a5ca",
+    "source_hash": "bf82f639606ab051",
     "index_schema_version": 5,
-    "generated_at": "2026-08-28T19:50:06.969Z",
+    "generated_at": "2026-08-28T20:34:37.710Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 47,
+      "total_messages": 48,
       "duration_days": 15,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 47,
+      "count": 48,
       "first": "2026-08-13",
       "last": "2026-08-28"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Rob Landley",
+      "sender": "McCoy Smith",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Argues that copyright termination for asserting infringement is incompatible with the OSD and gives popular projects permission to infringe copyright.",
+      "sentiment": "neutral",
+      "point": "Questions the rationale distinguishing termination for patent assertions from copyright assertions, noting software use is likely a patent right rather than a copyright right.",
       "point_zh": ""
     }
   },

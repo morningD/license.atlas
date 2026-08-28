@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T19:49:50.847Z",
+    "generated_at": "2026-08-28T20:34:21.678Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T19:50:06.969Z",
+    "enriched_at": "2026-08-28T20:34:37.710Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T19:50:13.063Z",
+      "applied_at": "2026-08-28T20:34:42.724Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -113,7 +113,7 @@
         {
           "name": "McCoy Smith",
           "role": "reviewer",
-          "message_count": 4
+          "message_count": 5
         },
         {
           "name": "Shuji Sado",
@@ -794,13 +794,26 @@
           "source": "license-review",
           "position": "support",
           "point": "Argues that copyright termination for asserting infringement is incompatible with the OSD and gives popular projects permission to infringe copyright."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006184.html",
+          "sender": "McCoy Smith",
+          "snippet": "Questions the rationale distinguishing termination for patent assertions from copyright assertions, noting software use is likely a patent right rather than a copyright right.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "question",
+          "point": "Questions the rationale distinguishing termination for patent assertions from copyright assertions, noting software use is likely a patent right rather than a copyright right."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 47,
+        "total_messages": 48,
         "date_range": [
           "2026-08-13",
           "2026-08-28"
@@ -828,10 +841,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 1,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review process is active with significant discussion but no final board decision, vote, or withdrawal has been recorded. The timeline shows ongoing debate regarding the license's compatibility with the Open Source Definition and specific provisions like termination rights upon infringement assertions, but the status remains unresolved.",
+        "rationale": "The submission was received on 2026-08-13. Following the submission, there is a thread of discussion and feedback on the license-review list, including significant criticism regarding compatibility with the Open Source Definition, but no formal withdrawal, board vote, or final decision has been recorded. The latest event in the provided evidence is from 2026-08-28. The curated RWP entry lists the status as pending. Therefore, the review remains in a pending state.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -842,15 +855,10 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#46",
-            "supports": "pending",
-            "quote": "Argues that copyright termination for asserting infringement is incompatible with the OSD and gives popular projects permission to infringe copyright."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:968070907b04e58a4aa8270807b51139a511302d68362fe056d0b14d2d81004d",
+        "input_hash": "sha256:e08ab36f371e9020333efb7f9d27da0aa61c3f808ff2a116c09320a727f64be6",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
