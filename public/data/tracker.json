@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T19:26:39.776Z",
+    "generated_at": "2026-08-28T02:38:07.280Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-27T19:26:52.982Z",
+    "enriched_at": "2026-08-28T02:38:21.129Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-27T19:26:53.261Z",
+      "applied_at": "2026-08-28T02:38:50.697Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -6682,7 +6682,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-07-26"
+          "latest_event_date": "2026-08-28"
         },
         "board_vote": {
           "present": false
@@ -6717,7 +6717,7 @@
         {
           "name": "McCoy Smith",
           "role": "reviewer",
-          "message_count": 7
+          "message_count": 8
         },
         {
           "name": "Eric Schultz",
@@ -16383,18 +16383,31 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Moming Duan followed up on the ModelGo licenses, asking OSI for the current review status and any remaining concerns after prior resubmissions."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006176.html",
+          "sender": "McCoy Smith",
+          "snippet": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17.",
+          "point_zh": "解释审查延期源于持续修订，将许可证列入 9 月董事会会议议程，请求确认 GitHub 上的文本，并邀请在 9 月 17 日前发表最终评论。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17."
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 114,
+        "total_messages": 115,
         "date_range": [
           "2025-02-10",
-          "2026-07-26"
+          "2026-08-28"
         ],
-        "duration_days": 531,
+        "duration_days": 564,
         "unique_participants": [
           "Moming Duan",
           "McCoy Smith",
@@ -16417,35 +16430,25 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.95,
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence indicates multiple resubmissions (2nd and 3rd) and ongoing discussion on the license-review list through at least July 2026. There is no evidence of a board vote, final approval, rejection, or withdrawal. The submitter is actively asking for status updates and addressing feedback, confirming the review is still in progress.",
+        "rationale": "The evidence confirms the licenses are actively under review. The latest timeline event (August 2026) explicitly schedules the licenses for the September Board meeting, indicating no final decision has been made yet. The curated RWP entry also marks the status as pending, noting it is a 2nd resubmission still under review.",
         "evidence_refs": [
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#114",
+            "supports": "pending",
+            "quote": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17."
+          },
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
             "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
-          },
-          {
-            "evidence_id": "timeline:modelgo-attribution-v2#78",
-            "supports": "pending",
-            "quote": "Submits MG-BY-2.0 as a second resubmission with model output restrictions removed..."
-          },
-          {
-            "evidence_id": "timeline:modelgo-attribution-v2#107",
-            "supports": "pending",
-            "quote": "Starts the new thread for MG0-2.0 and MG-BY-2.0 resubmission..."
-          },
-          {
-            "evidence_id": "timeline:modelgo-attribution-v2#113",
-            "supports": "pending",
-            "quote": "Moming Duan followed up on the ModelGo licenses, asking OSI for the current review status and any remaining concerns after prior resubmissions."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:2b8dd645352ee793058a466c5c300b85b9aee4e2cb8cd6b0f5bc5912b0f12741",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:36b8add65f2d0c7ee6961eb53768c6b020764e6ac40417786ac4c82aec3f4807",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
     },

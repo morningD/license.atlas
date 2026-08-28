@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "d12ec458467c1425",
+    "source_hash": "e1c7e4fbf142b519",
     "index_schema_version": 4,
-    "generated_at": "2026-08-27T19:26:52.982Z",
+    "generated_at": "2026-08-28T02:38:21.129Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -470,11 +470,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 114,
-      "duration_days": 531,
+      "total_messages": 115,
+      "duration_days": 564,
       "date_range": [
         "2025-02-10",
-        "2026-07-26"
+        "2026-08-28"
       ]
     },
     "has_vote": false,
@@ -498,19 +498,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 114,
+      "count": 115,
       "first": "2025-02-10",
-      "last": "2026-07-26"
+      "last": "2026-08-28"
     },
     "latest_event": {
-      "date": "2026-07-26",
+      "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "McCoy Smith",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
       "sentiment": "neutral",
-      "point": "Moming Duan followed up on the ModelGo licenses, asking OSI for the current review status and any remaining concerns after prior resubmissions.",
-      "point_zh": "Moming Duan 跟进 ModelGo 许可证审查状态，请 OSI 说明当前进展以及多次重新提交后是否仍有未解决的问题。"
+      "point": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17.",
+      "point_zh": "解释审查延期源于持续修订，将许可证列入 9 月董事会会议议程，请求确认 GitHub 上的文本，并邀请在 9 月 17 日前发表最终评论。"
     }
   },
   "public-benefit-zero-copyright": {
