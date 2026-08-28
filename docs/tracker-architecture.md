@@ -59,6 +59,12 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **Golden 测试集 + 加速实验**（2026-08-28，`KB/data/osi/status-adjudication/test-set.json` + `KB/scripts/test-status-adjudication.mjs`）：19 个分层 golden case（approved×4 / legacy×3 / withdrawn×3 / superseded×2 / pending×3 / rejected×3 / 证据错配存活者 qpl-1-0），label 取人工确认的 v2 status + manual-review 保守标志（manual 字段仅表达"客观证据冲突"，人工保守留查的条目标 manual:false）。`prepare-status-adjudication.mjs --export-all-inputs` 导出全部输入 → 测试脚本评分 status/manual-flag 双指标。**批量档位实测**（glm-4.6，thinking off）：batch=1/并发=2 基线 19 条 256s（1 实质误判 whonix rejected→withdrawn，但 manual=true 正确兜住）；batch=4/并发=2 干净跑 8/8 全对、2 次调用 27.7s（3.5s/条，质量 100%）；batch=8/并发=2 19 条 63.6s、0 截断（有界最坏 8×max 单条 = 6.9K < 8192 输出预算，计算+实测双证）但质量 95%（cnri-python superseded→legacy，证据解读边界非互扰）。**结论：batch=4 为甜点档**（质量上限 + 速度与 8 持平 + 截断安全余量）；batch 上限真实约束是输出预算 8192（batch≥12 最坏越界）与多输出纪律，非 context window（200K，远未触顶）。生产脚本支持 `ADJUDICATION_BATCH`（默认 1=行为不变）与 `ADJUDICATION_CONCURRENCY`（默认 1），batch 失败自动降级逐条。GLM Coding Pro 并发官方口径"按套餐动态调整"（Pro 建议 1-2 项目并行），并发 2 为其他 session 预留余量；脚本对 429/1302 自动退避。维护：pending 案例出决议后更新 test-set label 并在 PR 里注明。
 
+**批量输出归属 = 按顺序 zip，不信模型回显**（2026-08-28 实测教训）：glm-4.6 在多结果响应里会回显兄弟条目的 `submission_id`/`input_hash`（复制错位），按回显匹配会让 validateOutput 全部判 invalid/丢失。`adjudicateManyOpenAI` 现按位置 i zip 绑定，id/hash 直接取输入真值。
+
+**并发 worker 单次合并写**（2026-08-28 实测教训）：worker pool 内并发 read-modify-write 同一输出文件会互相覆盖（Missing 暴涨到 55 的根因），且增量重跑的最终写入曾丢弃未触碰 id 的历史输出。现改为 worker 只积累内存、结束后单次合并写（保留本次未触碰 id 的历史输出）。
+
+**共享 KB 目录多操作者竞态**：launchd runner、其他 session、手动链路同时跑会互踩（详见 atlas CLAUDE.md 常见陷阱），跑链路前先 `pgrep -fl 'update-tracker|run-status-adjudication'`。
+
 **输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
 
 **已知灰色地带**（manual review 长期 ~84 项：证据冲突类 + curated 唯一证据无邮件/board vote 佐证类，含 open-source-social-network、whonix、libpng-v2、c-fsl-v1-1、cal-beta-2、mosl、python-2-0、cnri-python 等；update:tracker 默认放行保持现状，条目仍登记在 `manual-review.json` 留人工复核）。新增证据冲突明显增多时在总结中报告并人工确认。

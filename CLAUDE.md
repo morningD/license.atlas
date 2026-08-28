@@ -81,6 +81,11 @@ No data processing scripts in this project — KB is the single source of truth.
 
 timeline point（`all-points-manifest.json`）有 root 质量控制：`KB/scripts/lib/point-style.mjs` 拦截四类缺陷——sender 名开头（含去中间名/缩写/后缀变体，如 "Matthew Seth Flaschen" vs "Matthew Flaschen"）、en/zh 第三人称 wrapper（"He argues…"/"他提交…"）、空洞复述模板（"Formal submission/revision for X."）。`extract-all-points.mjs` 写入前校验；`apply-llm-batches.mjs` 应用批次时校验。存量修复用 `KB/scripts/repair-point-manifest.mjs [--dry-run|--llm]`（人名剥离走确定性机械修复，复述模板走 LLM 双语重写；glm thinking 模型 max_tokens 需 ≥4096 否则 text block 被截断）。board vote 绑定有版本精确冲突检测（"CDDL1.1" motion 不得绑到 CDDL 1.0 条目，major 相同不算匹配）。改这些规则前跑 `node --test KB/scripts/tests/point-style.test.mjs`。
 
+### Tracker UI 渲染细节（2026-08-28）
+
+- `TimelineStrip` 把 board vote 作为合成节点按 `vote.date` **插入日期排序位置**（同日期排事件后，无日期保持末尾），不是 append 到末尾——vote 常发生在两个 thread 之间（如 python-2-0 的 6/29 vote 位于 5 月讨论与 8 月重提之间）。事件节点保留原 timeline 索引（详情 tab 联动依赖它）。
+- KB `classifyEvent` 对"回顾历史批准"措辞（"OSI **only/already/previously** approved X..."）不判 board_decision，防止 discuss 预讨论邮件出现假 ✓ vote 标记。
+
 **编排器自动化**（2026-08-23，`update-tracker.mjs`）：灰色地带 manual review 按 `scripts/tracker-manual-baseline.json` 基线放行，**基线外新项硬失败**留人工（确认后 `--rebaseline` 采纳，成功运行自动 prune 已解决 id）；invalid/missing 裁决自动 LLM 重跑最多 3 轮（key 缺失自动读 opencode 配置）；KB run 脚本对 "conflicts 未置 requires_manual_review" 的输出直接矫正。`--strict-manual-pending` 恢复任何 blocking 即失败的旧模式。
 
 ### 自动更新（事件触发，2026-08）
@@ -192,6 +197,7 @@ Server components (`licenses/[slug]/page.tsx`) are split into:
 
 ## 常见陷阱
 
+- **共享 KB 目录多操作者并发**：KB 是本机共享目录（非 git），launchd runner、其他 opencode session、手动链路**同时跑 update:tracker 会互踩**裁决输出/索引文件（实测曾三方交错导致裁决输出 missing 暴涨）。跑链路前 `pgrep -fl 'update-tracker|run-status-adjudication'`，发现僵死 runner（日志 `~/.local/share/license-atlas-tracker/logs/`）先杀再跑。
 - **静态导出 + CDN 缓存**：GitHub Pages 有 `max-age=600`（10分钟），部署后需等待缓存过期或强制刷新
 - **Safari favicon 缓存**：独立于浏览器缓存，存储在 `~/Library/Safari/Favicon Cache/*`，需要完全磁盘访问权限才能清除
 - **ICO 格式**：必须是 proper multi-size ICO，不能是重命名的 PNG
