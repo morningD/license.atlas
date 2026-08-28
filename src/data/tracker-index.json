@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "b3c9b21aa4781984",
+    "source_hash": "31d543c33632ff52",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T14:55:41.113Z",
+    "generated_at": "2026-08-28T15:36:35.640Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 82,
       "rejected": 42,
-      "withdrawn": 14,
+      "withdrawn": 15,
       "pending": 14,
       "superseded": 6,
-      "legacy": 36
+      "legacy": 35
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -594,7 +594,7 @@
     },
     "latest_event": {
       "date": "2025-03-19",
-      "type": "submission",
+      "type": "feedback",
       "source": "license-review",
       "sender": "Nadia Jiang",
       "subject": "[License-review] 回复：Re:  Submission for review of Mulan Public License，Version 2",
@@ -3148,7 +3148,7 @@
     "id": "sspl-v1",
     "name": "Server Side Public License, Version 1 (SSPL v1)",
     "spdx_id": "",
-    "status": "superseded",
+    "status": "withdrawn",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 107,
@@ -3463,7 +3463,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "legacy",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 20,
@@ -3476,7 +3476,7 @@
     "has_vote": true,
     "has_timeline": true,
     "review_dates": {
-      "first_submitted": "2026-03-20",
+      "first_submitted": "2026-08-21",
       "decision": "",
       "decision_status": ""
     },
@@ -3508,7 +3508,7 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "legacy",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 20,
@@ -3521,7 +3521,7 @@
     "has_vote": true,
     "has_timeline": true,
     "review_dates": {
-      "first_submitted": "2026-03-20",
+      "first_submitted": "2026-08-21",
       "decision": "",
       "decision_status": ""
     },

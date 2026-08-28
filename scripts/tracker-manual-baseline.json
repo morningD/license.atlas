@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28T13:51:58.685Z",
+  "updated_at": "2026-08-28T15:36:36.039Z",
   "ids": [
     "3d-slicer-license",
     "aal",
@@ -32,6 +32,7 @@
     "eudatagrid",
     "eupl-1-1",
     "frameworx-1-0",
+    "generic-attribution-provision",
     "gpl-2-0",
     "hpnd",
     "intel",
@@ -40,6 +41,7 @@
     "lgpl-2-1",
     "libpng-v2",
     "license-review-qmdeve-license-1-0",
+    "license-zero-reciprocal",
     "license-zero-reciprocal-rewrite",
     "los-alamos-national-labs-bsd-3-variant",
     "lpl-1-0",
@@ -59,7 +61,6 @@
     "ncsa",
     "ntp",
     "oclc-2-0",
-    "oin-license",
     "oldap-2-8",
     "open-source-social-network",
     "open-source-software-alliance",

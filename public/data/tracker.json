@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T14:55:26.083Z",
+    "generated_at": "2026-08-28T15:36:21.274Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 82,
       "rejected": 42,
-      "withdrawn": 14,
+      "withdrawn": 15,
       "pending": 14,
       "superseded": 6,
-      "legacy": 36
+      "legacy": 35
     },
     "data_sources": {
       "osi_api": 122,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T14:55:41.113Z",
+    "enriched_at": "2026-08-28T15:36:35.640Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 85,
@@ -36,11 +36,11 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T14:55:41.415Z",
+      "applied_at": "2026-08-28T15:36:35.930Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
-      "manual_review_blocking": 90
+      "manual_review_blocking": 91
     }
   },
   "submissions": [
@@ -510,7 +510,7 @@
         },
         {
           "date": "2026-08-19",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006150.html",
           "sender": "Shuji Sado",
@@ -814,10 +814,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.8,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence indicates a license submission was made in August 2026, followed by extensive discussion and debate among list members. While there is significant negative feedback and objections raised regarding the license's terms (particularly regarding rights-clearance and termination clauses), there is no evidence of a final board decision, formal vote, or withdrawal. The timeline summary confirms no board decision or withdrawal, and the latest event is from August 28, 2026. The curated RWP entry marks the status as pending. Therefore, the review remains open and pending.",
+        "rationale": "The license was submitted in August 2026. The review thread contains significant discussion and debate regarding the license's terms, particularly concerning termination rights and IP regimes, but no final decision, vote, or formal withdrawal has been recorded. The latest evidence indicates ongoing review.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -827,16 +827,16 @@
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval..."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#40",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#45",
             "supports": "pending",
-            "quote": "Argues the license systematically fails the open source ecosystem by forcing developers to choose between giving up infringement claims or using proprietary models."
+            "quote": "Argues the review is tainted by ideological bias against AI..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:5b46806c78166f22f1f5639fa8531366cbedfca754da5908600f18bf7ee2912a",
+        "input_hash": "sha256:c256cbc12030c48c495ce42bd50f7b8fa7ea6f1171a9da097815b8ac0941761b",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
@@ -17538,7 +17538,7 @@
         },
         {
           "date": "2025-01-22",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review]  Submission for review of Mulan Public License，Version 2",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-January/005629.html",
           "sender": "Wayne Thornton",
@@ -17671,7 +17671,7 @@
         },
         {
           "date": "2025-03-19",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] 回复：Re:  Submission for review of Mulan Public License，Version 2",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-March/005738.html",
           "sender": "Nadia Jiang",
@@ -17712,10 +17712,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission is active with ongoing discussions regarding translation and versioning. The latest emails (March 2025) discuss the potential for resubmission and the request for further comments. No final decision, rejection, or withdrawal has occurred.",
+        "rationale": "The license was submitted in October 2024. The review process involved discussions regarding translation accuracy and administrative formalities. The submitter expressed intent to resubmit the license in March 2025, and the committee chair indicated they were welcome to do so. No final approval or rejection has occurred for this specific submission.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:mulan-public-license-v2-resubmission",
@@ -17723,13 +17723,18 @@
             "quote": "Submitted Oct 2024; review may be ongoing."
           },
           {
+            "evidence_id": "timeline:mulan-public-license-v2-resubmission#0",
+            "supports": "pending",
+            "quote": "Formally submits the Mulan Public License v2 for OSI approval..."
+          },
+          {
             "evidence_id": "timeline:mulan-public-license-v2-resubmission#23",
             "supports": "pending",
-            "quote": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others."
+            "quote": "Asks whether she may proceed with resubmitting the license..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:1bec10d44ec65d985115610249fef31e20c6145128da433bf7a0a6c24e1e5ab1",
+        "input_hash": "sha256:a799f4c663fbbd1909b6f959d19006814b8169afe6fc47436137ac2d1f2648a6",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
@@ -28699,7 +28704,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-discuss] [License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2021-June/021947.html",
           "sender": "Lawrence Rosen",
@@ -28816,7 +28821,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005178.html",
           "sender": "Lawrence Rosen",
@@ -28829,7 +28834,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005179.html",
           "sender": "Lawrence Rosen",
@@ -28855,7 +28860,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005181.html",
           "sender": "Lawrence Rosen",
@@ -28868,7 +28873,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005182.html",
           "sender": "Lawrence Rosen",
@@ -28881,7 +28886,7 @@
         },
         {
           "date": "2021-06-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005183.html",
           "sender": "McCoy Smith",
@@ -28933,7 +28938,7 @@
         },
         {
           "date": "2021-06-09",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-discuss] [License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2021-June/021948.html",
           "sender": "Lawrence Rosen",
@@ -28946,7 +28951,7 @@
         },
         {
           "date": "2021-06-09",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-discuss] [License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2021-June/021949.html",
           "sender": "Lawrence Rosen",
@@ -29160,13 +29165,13 @@
         "final_status": "withdrawn",
         "confidence": 0.95,
         "requires_manual_review": true,
-        "manual_review_reason": "Conflicting evidence reported for 3d-slicer-license; coerced to manual review",
-        "rationale": "The submitter explicitly withdrew the request for approval after identifying blockers (e.g., CLA, export compliance) and acknowledging it could not pass. While the curated source marks it as 'rejected' due to OSD non-compliance, the procedural outcome was a withdrawal by the submitter, confirmed by the chair.",
+        "manual_review_reason": "The submitter formally withdrew the request for approval in June 2021 after identifying that the license contained blockers (bundled CLA, export compliance) that would prevent approval. While the source status is marked 'rejected', the evidence clearly supports a 'withdrawn' status.",
+        "rationale": "The submitter explicitly withdrew the request for approval after acknowledging the license could not pass existing processes due to specific terms. The license committee chair acknowledged the withdrawal. The source status of 'rejected' is likely a categorization error for a failed review that was withdrawn, but 'withdrawn' is the accurate status based on the thread.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:3d-slicer-license#40",
             "supports": "withdrawn",
-            "quote": "Withdraws the request for approval of the 3D Slicer license, acknowledging it cannot pass under existing processes, but maintains that the license is suitable for its intended use."
+            "quote": "Withdraws the request for approval of the 3D Slicer license..."
           },
           {
             "evidence_id": "timeline:3d-slicer-license#41",
@@ -29174,19 +29179,24 @@
             "quote": "As chair of the license committee, acknowledges receipt of the withdrawal request."
           },
           {
-            "evidence_id": "curated_rwp:3d-slicer-license",
+            "evidence_id": "timeline:3d-slicer-license#36",
             "supports": "rejected",
-            "quote": "Never approved. Academic medical software license contained non-standard terms that violated OSD."
+            "quote": "Concluding it cannot be approved in its current form."
           }
         ],
         "conflicts": [
           {
             "source": "curated_rwp",
             "observed_status": "rejected",
-            "explanation": "The curated source lists the status as 'rejected' due to OSD violations. However, the mailing list evidence confirms the submitter withdrew the request before a formal board rejection could occur. The withdrawal is the specific procedural end to this submission."
+            "explanation": "Source indicates 'rejected', but the timeline confirms the submitter withdrew the request."
+          },
+          {
+            "source": "submission_current_status",
+            "observed_status": "rejected",
+            "explanation": "Input status is 'rejected', but the evidence supports 'withdrawn'."
           }
         ],
-        "input_hash": "sha256:499d9a80afb95b162ac9a3057c8141916822eaea9caf87a9050a91aa991a67ef",
+        "input_hash": "sha256:b753779788c3dafe1a76eab37b257120a6c11fd51d60396903e56cef8b391468",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
@@ -34601,7 +34611,7 @@
         },
         {
           "date": "2018-11-17",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] For Approval: libpng license, version 2.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-November/003834.html",
           "sender": "Lawrence Rosen",
@@ -34668,30 +34678,35 @@
         "final_status": "withdrawn",
         "confidence": 0.95,
         "requires_manual_review": true,
-        "manual_review_reason": "Source status indicates 'rejected' but evidence confirms the submitter formally withdrew the request following committee feedback.",
-        "rationale": "The timeline evidence includes a specific email from the submitter, Cosmin Truta, dated 2018-12-17, stating 'Formally withdraws the OSI review request for libpng license v2.0'. This action aligns with the License Committee's recommendation to withdraw due to confusing license text. While the source status lists 'rejected', the direct evidence of withdrawal by the submitter overrides this classification for the final status.",
+        "manual_review_reason": "The submitter formally withdrew the submission in December 2018 to pursue a different legal strategy. While the source status is 'rejected' and the committee recommended no action, the explicit act of withdrawal makes 'withdrawn' the correct final status.",
+        "rationale": "The submitter formally withdrew the OSI review request for libpng v2.0. The license committee had previously recommended no action and encouraged withdrawal due to confusing license text. The explicit withdrawal takes precedence over the implicit rejection.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:libpng-v2#13",
             "supports": "withdrawn",
-            "quote": "Formally withdraws the OSI review request for libpng license v2.0 after others on the list agreed with the proposed plan."
+            "quote": "Formally withdraws the OSI review request for libpng license v2.0..."
           },
           {
             "evidence_id": "curated_rwp:libpng-v2",
             "supports": "rejected",
-            "quote": "License Committee recommended no action due to confusing license text combining new and legacy notices. Encouraged withdrawal."
+            "quote": "License Committee recommended no action... Encouraged withdrawal."
           }
         ],
         "conflicts": [
           {
-            "source": "source-status",
+            "source": "curated_rwp",
             "observed_status": "rejected",
-            "explanation": "Source lists status as 'rejected' (likely due to the License Committee's negative recommendation), but the process was concluded by the submitter's formal withdrawal."
+            "explanation": "Source indicates 'rejected', but the timeline shows the submitter formally withdrew."
+          },
+          {
+            "source": "submission_current_status",
+            "observed_status": "rejected",
+            "explanation": "Input status is 'rejected', but the evidence supports 'withdrawn'."
           }
         ],
-        "input_hash": "sha256:aec7231654cf22e0ed6d06d7fc6d4273c51179a1c6ef974c3f5f21aa018f01a2",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:b568c04230afd5a49ae54833708e2fb26a499252db0ebdd95330778afa2dbd01",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -43717,7 +43732,7 @@
         },
         {
           "date": "2013-10-25",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] Request for approval by license\tsteward:\tTidepool Open Access to Health Data Software License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2013-October/002007.html",
           "sender": "Lawrence Rosen",
@@ -43783,26 +43798,21 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 0.6,
+        "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "Source status cites rejection due to OSD non-compliance regarding health data restrictions, but the provided evidence list only contains submission and discussion emails without an explicit board decision or final rejection notice.",
-        "rationale": "The submission is listed as 'rejected' in the source status (curated_rwp) because it is a health data-specific license with restrictions that go beyond the OSD. However, the timeline evidence only shows the submission and subsequent discussion/debate, but does not contain the specific board motion or final message confirming the rejection. Given the rule 'source_status' is evidence only, and the lack of explicit 'rejection' evidence in the mail list provided, manual review is suggested to verify the source claim against the full list history.",
+        "manual_review_reason": "While source status and curated evidence indicate rejection due to OSD compliance issues, the timeline contains no explicit board decision or rejection statement, only discussion ending in 2013.",
+        "rationale": "The curated_rwp evidence explicitly states the status as 'rejected' with the reason that it was never approved due to health data-specific restrictions conflicting with the OSD. Although the mailing list timeline does not contain a formal rejection notice, the source status aligns with the curated entry.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:tidepool-open-access",
             "supports": "rejected",
             "quote": "Never approved. Health data-specific license with restrictions on data handling that went beyond what OSD allows."
-          },
-          {
-            "evidence_id": "timeline:tidepool-open-access#0",
-            "supports": "pending",
-            "quote": "Submits the Tidepool Open Access to Health Data license..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:e707bd2596d6ea556b5e80b19712f36ed14b3a7562d8ec80de963bd24d993290",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:8df29f15cd2f901f949dc2853021173999063d9b9a8736e5e233b1c3d3d90914",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -46479,7 +46489,7 @@
         },
         {
           "date": "2009-04-08",
-          "type": "submission",
+          "type": "feedback",
           "subject": "For approval: MXM Public license",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-April/000721.html",
           "sender": "Carlo Piana",
@@ -46978,26 +46988,21 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 0.85,
+        "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "The evidence strongly implies rejection due to unresolved concerns about patent rights and OSD compliance (explicitly stated in curated_rwp), but the timeline ends with theoretical discussion about patent lawsuits rather than an explicit rejection statement or board decision. A manual review ensures the conclusion of 'rejected' aligns with the final outcome of the specific email thread.",
-        "rationale": "The curated_rwp entry indicates the license was rejected due to unusual terms raising OSD compliance concerns regarding patent rights. The timeline shows significant skepticism and debate regarding the separation of copyright and patent licensing, with no evidence of approval or withdrawal. The lack of a final 'motion to reject' in the timeline suggests the process likely stalled or was implicitly rejected based on the identified issues.",
+        "manual_review_reason": "The source status and curated evidence indicate rejection due to patent rights concerns, but the timeline evidence only shows discussion and debate without a clear concluding rejection statement.",
+        "rationale": "The curated_rwp entry confirms the license was 'Never approved' and cites unusual terms regarding patent rights as the reason for rejection. The mailing list timeline shows discussion ending in April 2009 without a submission revision or approval, supporting the rejected status inferred from the source.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:mxm-public-license",
             "supports": "rejected",
             "quote": "Never approved. License had unusual terms that raised concerns about OSD compliance, particularly regarding patent rights."
-          },
-          {
-            "evidence_id": "timeline:mxm-public-license#5",
-            "supports": "pending",
-            "quote": "Argues the core question is whether a license separating copyright from patent licensing can be OSD-compliant, expressing skepticism"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:6aa60534653d5db7d54922d27650fa0f8cfba7874ad87c5d0e37e1d310a1b680",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:8b5b299aef388472efdb0c40a5885f8d8da0e1d738d4242aa7297eb2aacd4cc3",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -47980,7 +47985,7 @@
         },
         {
           "date": "2009-02-19",
-          "type": "submission",
+          "type": "feedback",
           "subject": "For Approval: Transitive Grace Period Public Licence, v1.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-February/000555.html",
           "sender": "Michael Tiemann",
@@ -48810,28 +48815,18 @@
         "confidence": 0.95,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The curated_rwp entry explicitly states the license was rejected after extensive discussion due to OSD compliance questions regarding its 'grace period' concept. A board decision (timeline:transitive-grace-period#69) is present in the evidence, where Simon Phipps concludes the discussion, aligning with the rejection status. The timeline also contains feedback suggesting the benefits do not justify adding another license.",
+        "rationale": "Both the curated_rwp entry and the timeline summary confirm the license was not approved. The curated evidence explicitly states it was 'Never approved after extensive discussion' due to OSD compliance questions regarding the 'grace period' concept. The timeline summary also indicates a board decision was present, though the specific board mail content is ambiguous, the aggregate evidence strongly supports rejection.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:transitive-grace-period",
             "supports": "rejected",
             "quote": "Never approved after extensive discussion. The license introduced a novel 'grace period' concept for copyleft compliance that raised OSD compliance questions."
-          },
-          {
-            "evidence_id": "timeline:transitive-grace-period#69",
-            "supports": "rejected",
-            "quote": "Comments on: Having followed the discussion, that's my conclusion too"
-          },
-          {
-            "evidence_id": "timeline:transitive-grace-period#120",
-            "supports": "rejected",
-            "quote": "Concludes its benefits over a simple waiver do not justify adding another license."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:bdeae2dcc365ea82384588008c64aaae071a7d333c9a167bcf0b34d1ad211265",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:6571e1f6f6a93ef3eea0b9eef4a764bee61b0f3000f29564013ef41ccb710157",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -54459,7 +54454,7 @@
         },
         {
           "date": "2006-12-13",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[Fwd: FW: For Approval: Generic Attribution Provision]",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2006-December/012025.html",
           "sender": "Timothy McIntyre",
@@ -55343,7 +55338,7 @@
         },
         {
           "date": "2007-01-04",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[Fwd: FW: For Approval: Generic Attribution Provision]",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-January/012118.html",
           "sender": "Rick Moen",
@@ -56448,10 +56443,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "rejected",
-        "confidence": 1,
-        "requires_manual_review": false,
-        "manual_review_reason": null,
-        "rationale": "The 'curated_rwp' evidence explicitly states that the Generic Attribution Provision was never approved and was rejected due to OSD compliance concerns regarding its nature as an add-on attribution requirement. The timeline evidence shows discussion activity ending without a board vote or approval, consistent with a rejection.",
+        "confidence": 0.9,
+        "requires_manual_review": true,
+        "manual_review_reason": "The source status and curated evidence assert rejection based on OSD concerns, but the timeline shows a discussion that wound down without a formal rejection or withdrawal statement.",
+        "rationale": "The curated_rwp entry lists the status as 'rejected', noting the provision was never approved because it raised OSD compliance concerns as an add-on attribution requirement. The timeline evidence supports that the discussion ended in January 2007 without approval, though the exact manner of conclusion is not explicitly documented in the mail snippets.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:generic-attribution-provision",
@@ -56460,9 +56455,9 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:28c122f23a202d91ed6007dcbed457a9203625083817972cc306704ed257e617",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:5f0d379b9477a17de5956792ec2f2fe192caa2da060a4f0e0994bcc5a3428027",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -69871,7 +69866,7 @@
         },
         {
           "date": "2020-12-26",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] Approval: OIN License (Open Innovation License)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/005007.html",
           "sender": "McCoy Smith",
@@ -70305,9 +70300,9 @@
         },
         "final_status": "withdrawn",
         "confidence": 0.95,
-        "requires_manual_review": true,
-        "manual_review_reason": "Conflicting evidence reported for oin-license; coerced to manual review",
-        "rationale": "The submitter explicitly withdrew the license request in a mailing list message, announcing the intention to submit a new version (2.0). This action supersedes the 'pending' status inferred from the lack of a formal decision in the curated list.",
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The submitter explicitly withdrew the current license request on the license-review list on 2020-12-28, stating the intention to submit a new request for version 2.0. This email evidence directly confirms the 'withdrawn' status, overriding the 'pending' status suggested by the source status which appears to lack the final withdrawal event context.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:oin-license#39",
@@ -70315,16 +70310,10 @@
             "quote": "Withdraws the current license request and announces intention to submit a new request for version 2.0."
           }
         ],
-        "conflicts": [
-          {
-            "source": "curated_rwp",
-            "observed_status": "pending",
-            "explanation": "The curated list entry marked the license as pending due to 'No formal decision recorded', but the mailing list evidence shows an explicit withdrawal by the submitter."
-          }
-        ],
-        "input_hash": "sha256:419afe1331a02cd92475c5942653f274a89f886e745d1af10cb5010a1ebfcd55",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "conflicts": [],
+        "input_hash": "sha256:b8cddfe3c4d263bc48eb29ce7575f6976d66d3897f5816bbd06475efb4c72525",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -75448,7 +75437,7 @@
       "name": "Server Side Public License, Version 1 (SSPL v1)",
       "aliases": [],
       "spdx_id": "",
-      "status": "superseded",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -76474,7 +76463,7 @@
         },
         {
           "date": "2018-10-20",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] Approval: Server Side Public License, Version 1 (SSPL v1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003727.html",
           "sender": "Meeker, Heather J.",
@@ -77136,12 +77125,17 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "superseded",
-        "confidence": 0.85,
+        "final_status": "withdrawn",
+        "confidence": 0.6,
         "requires_manual_review": true,
-        "manual_review_reason": "Evidence supports 'superseded' (revision to v2) rather than 'withdrawn', though the source lists it as 'withdrawn'. Requires verification of the exact closure mechanism for v1.",
-        "rationale": "The submitter announced a revised SSPL (v2) to address feedback, effectively replacing the v1 submission. This fits the 'superseded' status better than 'withdrawn', as the effort continued in a new version. The source status 'withdrawn' likely reflects the end of the v1 thread.",
+        "manual_review_reason": "Conflicting evidence: The source status (curated_rwp) asserts 'withdrawn', but the provided timeline evidence does not contain an email explicitly stating the submission was withdrawn. The timeline shows submission, revision, and discussion, but ends with a meta-discussion about a blog post in December 2018. The 'withdrawn' status appears to rely on the external interpretation provided in 'curated_rwp' rather than explicit mailing list evidence in the input.",
+        "rationale": "The status is set to 'withdrawn' based on the explicit entry in the curated_rwp evidence. However, manual review is required because the mail events provided do not contain a clear withdrawal message, creating a discrepancy between the summary status and the detailed thread evidence.",
         "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:sspl-v1",
+            "supports": "withdrawn",
+            "quote": "SSPL's Section 13 extends copyleft to encompass essentially all software used to offer the program as a service, violating OSD #9 (License Must Not Restrict Other Software). Community consensus was that SSPL was not OSD-compliant."
+          },
           {
             "evidence_id": "timeline:sspl-v1#102",
             "supports": "superseded",
@@ -77150,14 +77144,14 @@
         ],
         "conflicts": [
           {
-            "source": "source-status",
-            "observed_status": "withdrawn",
-            "explanation": "Source lists 'withdrawn', but the evidence indicates the submission was replaced by v2 (superseded)."
+            "source": "timeline_evidence",
+            "observed_status": "pending",
+            "explanation": "The timeline shows submission and discussion, ending with feedback about a blog post, but lacks a definitive 'withdrawal' event or final rejection notice, suggesting the review was still active or simply stalled, contradicting the 'withdrawn' claim in curated_rwp."
           }
         ],
-        "input_hash": "sha256:f8da9dff243759e3eaa8002b391291a59b46298bbd6ee233ec96d612182ecbc3",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:b523490173c4118191bf150360d5c9dbdda88cbd18cecb29dff077b8ba35a78a",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -78098,7 +78092,7 @@
           "size": 2414,
           "match_score": 80,
           "event_index": 11,
-          "event_type": "submission"
+          "event_type": "feedback"
         },
         {
           "id": "license-zero-reciprocal--license-review-for-approval-license-zero-reciprocal-public-l--0e73833f50",
@@ -79096,7 +79090,7 @@
         },
         {
           "date": "2017-09-23",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] For Approval: License Zero Reciprocal Public License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-September/003102.html",
           "sender": "Tzeng, Nigel H.",
@@ -80724,10 +80718,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "withdrawn",
-        "confidence": 0.95,
-        "requires_manual_review": false,
-        "manual_review_reason": null,
-        "rationale": "The status is 'withdrawn' based on the explicit statement from Richard Fontana on behalf of the OSI board that no decision was made because the submitter effectively withdrew the license. The curated RWP entry also classifies it as withdrawn, confirming this interpretation.",
+        "confidence": 0.7,
+        "requires_manual_review": true,
+        "manual_review_reason": "The 'withdrawn' status is derived from a curated_rwp entry and a 2018 email noting the board made no decision because the submitter 'appears to have effectively withdrawn'. No explicit withdrawal email from the submitter (Kyle Mitchell) is present in the timeline evidence provided (which ends in Oct 2017, with the 2018 email being a third-party observation). The status relies on inference rather than direct evidence.",
+        "rationale": "The curated_rwp entry explicitly states 'withdrawn' and explains that the board chose not to decide because the submitter had effectively withdrawn the license. A subsequent email in 2018 supports this view. However, the absence of a direct withdrawal notice in the primary timeline events lowers confidence and necessitates manual review.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:license-zero-reciprocal",
@@ -80741,9 +80735,9 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:b232e809030f3726c85ca25348124e49889c956df82394e660a2d117cd344ba8",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-002.out.jsonl"
+        "input_hash": "sha256:2bff4d11dc8e3bf79cae991210c278521d8aa04c770793b1503a6968d5dca588",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -87059,7 +87053,7 @@
         },
         {
           "date": "2019-06-27",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-review] For Approval: The Cryptographic Autonomy License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-June/004248.html",
           "sender": "Pamela Chestek",
@@ -87492,8 +87486,8 @@
         "final_status": "rejected",
         "confidence": 0.9,
         "requires_manual_review": true,
-        "manual_review_reason": "Conflict between explicit board rejection (evidence) and source/rule status (superseded).",
-        "rationale": "The Board of Directors explicitly voted to withhold approval of the Cryptographic Autonomy License Version 1.0 on 2019-08-15 (vote 7-0-0). The motion text 'withholds its approval' maps directly to the 'rejected' status. Although the source status is 'superseded' and a curated entry suggests it evolved into later versions, the authoritative board decision for this specific submission is a rejection.",
+        "manual_review_reason": "There is a direct conflict between the board minutes and the source status. The board minutes explicitly record a motion to 'withhold approval' (outcome: rejected) for 'Cryptographic Autonomy License Version 1.0'. However, the submission ID is 'cal-original' and the curated_rwp labels this specific entry as 'superseded', arguing it was an early draft evolved into later versions (Beta 2/4/CAL-1.0). Determining if the board vote applied to the 'Original Draft' or 'Version 1.0' (and if they are distinct submissions or the same review chain) requires reconciliation.",
+        "rationale": "The board minutes evidence is authoritative for a 'rejected' status regarding 'Cryptographic Autonomy License Version 1.0'. The aliases for this submission include 'Cryptographic Autonomy License Version 1.0', strongly suggesting the board decision applies here. While the source status claims 'superseded', the board vote indicates a definitive rejection (withholding approval) occurred. Given the conflict and the potential ambiguity between 'Original Draft' and 'Version 1.0', manual review is required to finalize whether this submission is 'rejected' or 'superseded' by a later distinct submission.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:cal-original",
@@ -87504,23 +87498,23 @@
             "evidence_id": "timeline:cal-original#162",
             "supports": "rejected",
             "quote": "Announces the OSI Board's decision to withhold approval of CAL 1.0 (vote 7-0-0)"
+          },
+          {
+            "evidence_id": "curated_rwp:cal-original",
+            "supports": "superseded",
+            "quote": "Not formally rejected; this was an early draft that evolved through community feedback into Beta 2, then Beta 4, which was eventually approved as CAL-1.0."
           }
         ],
         "conflicts": [
           {
-            "source": "source-status",
-            "observed_status": "superseded",
-            "explanation": "The input source_status is 'superseded', implying the review was replaced by a later version, whereas the board minutes show a definitive rejection of this specific draft."
-          },
-          {
             "source": "curated_rwp",
             "observed_status": "superseded",
-            "explanation": "The curated entry claims 'Not formally rejected; this was an early draft...', which contradicts the board minutes recording a formal vote to withhold approval."
+            "explanation": "The curated_rwp claims the license was 'Not formally rejected' and was superseded by Beta 2/4, while the board minutes explicitly record a vote to withhold approval (reject) for Version 1.0."
           }
         ],
-        "input_hash": "sha256:32af3099bedbcab3f619dbc0b494f4dabcce0093e35ab341b275b630e8b7009e",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-003.out.jsonl"
+        "input_hash": "sha256:61ac502afe68688a3f31764828245240f0798e1d56e41f927ab28870ea698b72",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -88084,7 +88078,7 @@
         "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "Python-2.0",
-      "status": "legacy",
+      "status": "superseded",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -89565,7 +89559,7 @@
         },
         {
           "date": "2026-03-20",
-          "type": "submission",
+          "type": "feedback",
           "subject": "[License-discuss] Python-2.0.1 and CNRI-Python-GPL-Compatible",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-March/022552.html",
           "sender": "Gregor Hoffleit",
@@ -89786,33 +89780,38 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
+        "final_status": "superseded",
         "confidence": 0.95,
         "requires_manual_review": true,
-        "manual_review_reason": "Conflicting evidence reported for python-2-0; coerced to manual review",
-        "rationale": "The Board motion moved to 'approve the Python-2.0.1 as Legacy'. Despite the OSI API listing it as standard 'approved' (legacy: false), the explicit board motion text confirms the 'legacy' status for this submission, aligning with the requirement that a motion to approve 'as Legacy' results in a legacy status.",
+        "manual_review_reason": "The OSI API lists the license as 'approved', but the board minutes and list discussion explicitly state the Board approved 'Python-2.0.1' to 'Supersede prior version' (Python-2.0) and voted to retire Python-2.0. This confirms the 'superseded' status for the old version, conflicting with the API's 'approved' tag.",
+        "rationale": "The Board minutes from 2026-06-29 include a motion to approve Python-2.0.1 as Legacy and 'Supersede prior version'. This is corroborated by the license-list discussion where McCoy Smith states the Board voted to 'retire Python-2.0' and approve Python-2.0.1. Therefore, the correct status for the Python-2.0 submission is 'superseded'.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:python-2-0",
-            "supports": "legacy",
+            "supports": "superseded",
             "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version"
           },
           {
             "evidence_id": "timeline:python-2-0#16",
-            "supports": "legacy",
+            "supports": "superseded",
             "quote": "Announces Board approval of CNRI-Python-GPL-Compatible and Python-2.0.1 as Legacy, superseding prior versions"
+          },
+          {
+            "evidence_id": "timeline:python-2-0#18",
+            "supports": "superseded",
+            "quote": "States the Board voted to retire Python-2.0 and approve Python-2.0.1 as requested"
           }
         ],
         "conflicts": [
           {
             "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "OSI API lists it as approved (legacy: false), but the board motion explicitly grants approval in the 'Legacy' category, which takes precedence based on the prompt's definitions."
+            "explanation": "The OSI API marks Python-2.0 as 'approved'. However, authoritative board minutes and list communications confirm it was superseded by Python-2.0.1, which the API likely treats as the same entry or simply marks as approved without reflecting the retirement of the specific prior version identifier."
           }
         ],
-        "input_hash": "sha256:04ddef5c9eb76ac5543cbd3f76e46ca03ff4509159dfdba7b5759c309da2fa3b",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-003.out.jsonl"
+        "input_hash": "sha256:947d090752f62a3fb88089415aba48079005d74b0ee00628f1068cc68bbec7df",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
