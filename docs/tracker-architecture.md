@@ -57,6 +57,8 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **approved 条目的 sibling-thread 合并**（`KB build-license-review-tracker.mjs`，2026-08-28）：OSI API 条目的 timeline 来自 curated summaries；`license-summaries.json` 条目现支持 `merge_clusters: [关键词]`（与 RWP 条目同名机制），把主题含关键词的全部 thread cluster 并入 timeline 并加为 alias。首例：python-2-0 并入 3 月 license-discuss 预讨论 + 2026-08 "Python licenses: ..." 重复提交 thread（4→20 封）。
 
+**Golden 测试集 + 加速实验**（2026-08-28，`KB/data/osi/status-adjudication/test-set.json` + `KB/scripts/test-status-adjudication.mjs`）：19 个分层 golden case（approved×4 / legacy×3 / withdrawn×3 / superseded×2 / pending×3 / rejected×3 / 证据错配存活者 qpl-1-0），label 取人工确认的 v2 status + manual-review 保守标志（manual 字段仅表达"客观证据冲突"，人工保守留查的条目标 manual:false）。`prepare-status-adjudication.mjs --export-all-inputs` 导出全部输入 → 测试脚本评分 status/manual-flag 双指标。**批量+并发实测**（glm-4.6，thinking off）：batch=1/并发=2 基线 19 条 256s（84%，1 实质误判 whonix rejected→withdrawn，但 manual=true 正确兜住）；batch=4/并发=2 干净重跑 8/8 全对、2 次调用 27.7s（**3.9× 提速**，质量无损；57 条可比输出 56 条与 golden 一致）。生产脚本支持 `ADJUDICATION_BATCH`（默认 1=行为不变）与 `ADJUDICATION_CONCURRENCY`（默认 1），batch 失败自动降级逐条。GLM Coding Pro 并发官方口径"按套餐动态调整"（Pro 建议 1-2 项目并行），并发 2 为其他 session 预留余量；脚本对 429/1302 自动退避。维护：pending 案例出决议后更新 test-set label 并在 PR 里注明。
+
 **输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
 
 **已知灰色地带**（manual review 长期 ~84 项：证据冲突类 + curated 唯一证据无邮件/board vote 佐证类，含 open-source-social-network、whonix、libpng-v2、c-fsl-v1-1、cal-beta-2、mosl、python-2-0、cnri-python 等；update:tracker 默认放行保持现状，条目仍登记在 `manual-review.json` 留人工复核）。新增证据冲突明显增多时在总结中报告并人工确认。
