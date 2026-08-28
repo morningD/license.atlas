@@ -111,7 +111,6 @@ export function TimelineStrip({
       const isLast = pos >= items.length - 1;
       return (
         <span key="board-vote" style={{ display: "inline-flex", alignItems: "center" }}>
-          {!isLast && <span className="tl-arrow">→</span>}
           <span
             className={`tl-node vote-${vote!.outcome || "neutral"}`}
             onMouseEnter={(e) => setTip({
@@ -127,6 +126,7 @@ export function TimelineStrip({
           >
             {voteTally(vote!) ? `🗳️ ${voteTally(vote!)}` : vote!.outcome === "rejected" ? "🗳️ ✗" : vote!.outcome === "approved" ? "🗳️ ✓" : "🗳️"}
           </span>
+          {!isLast && <span className="tl-arrow">→</span>}
         </span>
       );
     }
