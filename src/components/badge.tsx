@@ -87,6 +87,12 @@ export const themes: Record<string, BadgeTheme> = {
     tooltip: "bg-zinc-50 border-zinc-300 dark:bg-zinc-800 dark:border-zinc-600",
     glow: "",
   },
+  "review-discussion": {
+    desc: "Discussed on license-discuss with license text, but never formally submitted for review.",
+    badge: "bg-violet-100 text-violet-600 dark:bg-violet-900/40 dark:text-violet-300",
+    tooltip: "bg-violet-50 border-violet-300 dark:bg-violet-950 dark:border-violet-700",
+    glow: "",
+  },
   // Variants
   osi: {
     desc: "Approved by the Open Source Initiative as meeting the Open Source Definition",

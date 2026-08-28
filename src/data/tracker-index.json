@@ -1,16 +1,17 @@
 {
   "_meta": {
-    "source_hash": "aed45ceed3ea7d62",
+    "source_hash": "0c472af73c29b601",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T16:44:42.657Z",
-    "total_submissions": 194,
+    "generated_at": "2026-08-28T17:27:16.460Z",
+    "total_submissions": 253,
     "by_status": {
       "approved": 82,
       "rejected": 42,
       "withdrawn": 15,
       "pending": 14,
       "superseded": 6,
-      "legacy": 35
+      "legacy": 35,
+      "discussion": 59
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -11915,5 +11916,2662 @@
       "last": null
     },
     "latest_event": null
+  },
+  "discussion-ace-license": {
+    "id": "discussion-ace-license",
+    "name": "ACE License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Ken Sedgwick",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 1,
+      "date_range": [
+        "2005-02-27",
+        "2005-02-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2005-02-27",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "2005-02-27",
+      "last": "2005-02-28"
+    },
+    "latest_event": {
+      "date": "2005-02-28",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Rod Dixon, J.D., LL.M.",
+      "subject": "For Approval: ACE License",
+      "sentiment": "",
+      "point": " If this license cannot be revised, I recommend that OSI withhold approval. With a minor revision, I world agree that approval is warranted. The second paragraph should be revised.",
+      "point_zh": ""
+    }
+  },
+  "discussion-alternate-route-open-source-license": {
+    "id": "discussion-alternate-route-open-source-license",
+    "name": "Alternate Route Open Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Brice, Richard",
+    "stats": {
+      "total_messages": 6,
+      "duration_days": 0,
+      "date_range": [
+        "1999-09-07",
+        "1999-09-07"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-09-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "1999-09-07"
+    },
+    "timeline_meta": {
+      "count": 6,
+      "first": "1999-09-07",
+      "last": "1999-09-07"
+    },
+    "latest_event": {
+      "date": "1999-09-07",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Seth David Schoen",
+      "subject": "Request for Open Source License Approval",
+      "sentiment": "",
+      "point": " bruce at perens.com writes: > I concur with Seth. Don't directly modify the GPL without asking FSF, it's > copyrighted. Also, if you ask FSF, they are going to want you to not use",
+      "point_zh": ""
+    }
+  },
+  "discussion-at-t-source-code-agreement": {
+    "id": "discussion-at-t-source-code-agreement",
+    "name": "AT&T Source Code Agreement",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Stephen C. North",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 1,
+      "date_range": [
+        "2004-05-12",
+        "2004-05-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-05-12",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2004-05-12",
+      "last": "2004-05-13"
+    },
+    "latest_event": {
+      "date": "2004-05-13",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Mahesh T. Pai",
+      "subject": "For Approval: AT&T Source Code Agreement",
+      "sentiment": "",
+      "point": " Stephen C. North said on Wed, May 12, 2004 at 04:10:15PM -0400,: > 1. If you are an entity, or an individual other than the person > accepting this Agreement, the person accepting",
+      "point_zh": ""
+    }
+  },
+  "discussion-bento-poetic-license": {
+    "id": "discussion-bento-poetic-license",
+    "name": "Bento Poetic License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Michael St . Hippolyte",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2002-04-29",
+        "2002-04-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2002-04-29",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2025-07-09"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2002-04-29",
+      "last": "2002-04-29"
+    },
+    "latest_event": {
+      "date": "2002-04-29",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Michael St . Hippolyte",
+      "subject": "License Submission",
+      "sentiment": "",
+      "point": " Greetings, I would like to submit a license for approval on behalf of bentodev.org, a community of developers implementing a new non-proprietary web development language called Be",
+      "point_zh": ""
+    }
+  },
+  "discussion-bsd-license-with-express-disclaimer-of-noninfringement-added": {
+    "id": "discussion-bsd-license-with-express-disclaimer-of-noninfringement-added",
+    "name": "BSD License (with express disclaimer of noninfringement added)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Sarah Pritchard",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 1,
+      "date_range": [
+        "2006-08-07",
+        "2006-08-08"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2006-08-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2006-08-07",
+      "last": "2006-08-08"
+    },
+    "latest_event": {
+      "date": "2006-08-08",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Arnoud Engelfriet",
+      "subject": "For Approval: BSD License (with express disclaimer of noninfringement added)",
+      "sentiment": "",
+      "point": " Wilson, Andrew wrote: > BSD is one of the best known and widely used of all open source > licenses. Creating a variant at this late date simply because you have > a single contrib",
+      "point_zh": ""
+    }
+  },
+  "discussion-cephira-public-license": {
+    "id": "discussion-cephira-public-license",
+    "name": "Cephira Public License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Zooko",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 1,
+      "date_range": [
+        "2009-02-26",
+        "2009-02-27"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2009-02-26",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2009-02-26",
+      "last": "2009-02-27"
+    },
+    "latest_event": {
+      "date": "2009-02-27",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Donovan Hawkins",
+      "subject": "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0",
+      "sentiment": "",
+      "point": " On Thu, 26 Feb 2009, zooko wrote: > Thank you for posting about the possibility that the TGPPL could engender > greater production of open source software. That is indeed exactly ",
+      "point_zh": ""
+    }
+  },
+  "discussion-compiere-open-source-license": {
+    "id": "discussion-compiere-open-source-license",
+    "name": "Compiere Open Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Jorg Janke",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 0,
+      "date_range": [
+        "2001-01-16",
+        "2001-01-16"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-01-16",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2001-01-16"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2001-01-16",
+      "last": "2001-01-16"
+    },
+    "latest_event": {
+      "date": "2001-01-16",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Jorg Janke",
+      "subject": "Compiere Open Source License Approval",
+      "sentiment": "",
+      "point": " Hi David, I see your point. The software comes with a toolkit. If possible, I would like to prevent that people just use the toolkit. The objective of the toolkit is to support th",
+      "point_zh": ""
+    }
+  },
+  "discussion-copyback-license": {
+    "id": "discussion-copyback-license",
+    "name": "Copyback License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Chris Zumbrunn",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2005-06-27",
+        "2005-06-27"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2005-06-27",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2005-04-25"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2005-06-27",
+      "last": "2005-06-27"
+    },
+    "latest_event": {
+      "date": "2005-06-27",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Chris Zumbrunn",
+      "subject": "Copyback license (for discussion)",
+      "sentiment": "",
+      "point": " Since I posted an earlier draft of the Copyback license, I've incorporated feedback, improved the language of the license to avoid using the same words with different meaning and ",
+      "point_zh": ""
+    }
+  },
+  "discussion-danielmd-license": {
+    "id": "discussion-danielmd-license",
+    "name": "DanielMD License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Daniel MD",
+    "stats": {
+      "total_messages": 10,
+      "duration_days": 5,
+      "date_range": [
+        "2001-08-28",
+        "2001-09-02"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-08-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 10,
+      "first": "2001-08-28",
+      "last": "2001-09-02"
+    },
+    "latest_event": {
+      "date": "2001-09-02",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Karsten M. Self",
+      "subject": "Proposed DanielMD License for Review.",
+      "sentiment": "",
+      "point": " on Sun, Sep 02, 2001 at 05:25:02PM +0100, Daniel MD (IM-Thinking at clix.pt) wrote: > My intentions with the DanielMD sketch license proposal, was to solve one > of the open sourc",
+      "point_zh": ""
+    }
+  },
+  "discussion-does-this-look-like-an-open-source-license": {
+    "id": "discussion-does-this-look-like-an-open-source-license",
+    "name": "Does this look like an open source license?",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Maxthon Chan",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 8,
+      "date_range": [
+        "2015-01-22",
+        "2015-01-30"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2015-01-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2015-01-22",
+      "last": "2015-01-30"
+    },
+    "latest_event": {
+      "date": "2015-01-30",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Wilson, Andrew",
+      "subject": "[License-discuss] Does this look like an open source license?",
+      "sentiment": "",
+      "point": " Tom Callaway wrote: > I would suggest that it would be better to have a proper legal translation done of the 3c-BSD into Chinese, > than to have a weak \"simple English\" version fo",
+      "point_zh": ""
+    }
+  },
+  "discussion-encul": {
+    "id": "discussion-encul",
+    "name": "ENCUL",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Charles W. Swiger",
+    "stats": {
+      "total_messages": 20,
+      "duration_days": 7,
+      "date_range": [
+        "2003-05-22",
+        "2003-05-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-05-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2003-05-22"
+    },
+    "timeline_meta": {
+      "count": 20,
+      "first": "2003-05-22",
+      "last": "2003-05-29"
+    },
+    "latest_event": {
+      "date": "2003-05-29",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Russell Nelson",
+      "subject": "For approval: ENCUL",
+      "sentiment": "",
+      "point": " Chuck Swiger writes: > Given the following two choices: > > A: software sits on the shelf, unseen, for X years, then is released > under, say, the BSD license (if anyone still rem",
+      "point_zh": ""
+    }
+  },
+  "discussion-expiring-no-resale-license": {
+    "id": "discussion-expiring-no-resale-license",
+    "name": "Expiring No-Resale License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Charles W. Swiger",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2003-05-28",
+        "2003-05-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-05-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2003-05-28"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2003-05-28",
+      "last": "2003-05-28"
+    },
+    "latest_event": {
+      "date": "2003-05-28",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Charles W. Swiger",
+      "subject": "ENRL, was: For approval: ENCUL",
+      "sentiment": "",
+      "point": " Based on the feedback I've received, here is an updated version. HTML version is available at http://www.pkix.net/~chuck/Licenses/ENRL.html. /* * Expiring No-Resale License, Versi",
+      "point_zh": ""
+    }
+  },
+  "discussion-foobar-webserver-license": {
+    "id": "discussion-foobar-webserver-license",
+    "name": "Foobar WebServer License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Russell Nelson",
+    "stats": {
+      "total_messages": 19,
+      "duration_days": 10,
+      "date_range": [
+        "1999-05-07",
+        "1999-05-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-05-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 19,
+      "first": "1999-05-07",
+      "last": "1999-05-17"
+    },
+    "latest_event": {
+      "date": "1999-05-17",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Mark Bainter",
+      "subject": "new license to review",
+      "sentiment": "",
+      "point": " Russell Nelson [nelson at crynwr.com] wrote: > Someone wrote, and they weren't the only one: > > Why the sighs Russ? If we wanted only one license for software, I'm > > sure Micro",
+      "point_zh": ""
+    }
+  },
+  "discussion-free-machine-learning-license-fmll": {
+    "id": "discussion-free-machine-learning-license-fmll",
+    "name": "Free Machine Learning License (FMLL)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Mihail Poteha",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 1,
+      "date_range": [
+        "2026-07-16",
+        "2026-07-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-07-16",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2026-07-16"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2026-07-16",
+      "last": "2026-07-17"
+    },
+    "latest_event": {
+      "date": "2026-07-17",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "David Woolley",
+      "subject": "[License-discuss] DIscussion on FMLL v1.0: A License for Free Artificial Intelligence",
+      "sentiment": "",
+      "point": " On Fri, 2026-07-17 at 23:48 +1000, Mihail Poteha wrote: > for example, they might contain private data) If they contain private data, you cannot license them at all, so there is n",
+      "point_zh": ""
+    }
+  },
+  "discussion-german-free-software-license": {
+    "id": "discussion-german-free-software-license",
+    "name": "German Free Software License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Dusch, Christiane",
+    "stats": {
+      "total_messages": 45,
+      "duration_days": 9,
+      "date_range": [
+        "2004-11-23",
+        "2004-12-02"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-11-23",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 45,
+      "first": "2004-11-23",
+      "last": "2004-12-02"
+    },
+    "latest_event": {
+      "date": "2004-12-02",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Jan Dockx",
+      "subject": "AW: For Approval: German Free Software License",
+      "sentiment": "",
+      "point": " On 2 Dec 2004, at 12:01h, Axel Metzger wrote: > > However: there are a number of requirements state authorities have to > meet, > when licensing their software. Hence some interna",
+      "point_zh": ""
+    }
+  },
+  "discussion-hal-hermes-attribution-license": {
+    "id": "discussion-hal-hermes-attribution-license",
+    "name": "HAL, Hermes Attribution License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Staff di Filosofiateoretica.it",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2003-11-21",
+        "2003-11-21"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-11-21",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2003-11-21"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2003-11-21",
+      "last": "2003-11-21"
+    },
+    "latest_event": {
+      "date": "2003-11-21",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Staff di Filosofiateoretica.it",
+      "subject": "For Approval: HAL, Hermes Attribution License (revisited)",
+      "sentiment": "",
+      "point": " Thank you for your suggests, we have a problem with OSL because it seems not to consider totally the content of the products developed: our software (and so many others) will be d",
+      "point_zh": ""
+    }
+  },
+  "discussion-integrity-open-source-license": {
+    "id": "discussion-integrity-open-source-license",
+    "name": "Integrity Open Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Forrest J. Cavalier III",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "1999-11-10",
+        "1999-11-10"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-11-10",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "1999-11-10"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "1999-11-10",
+      "last": "1999-11-10"
+    },
+    "latest_event": {
+      "date": "1999-11-10",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Forrest J. Cavalier III",
+      "subject": "New license: Integrity Open Source License",
+      "sentiment": "",
+      "point": " Of the popular OSD compliant licenses, I like the MIT style license, but I wanted something that goes a little bit further in protecting the author's name and integrity of origina",
+      "point_zh": ""
+    }
+  },
+  "discussion-intradat-public-license": {
+    "id": "discussion-intradat-public-license",
+    "name": "intraDAT Public License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Ben Tilly",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 0,
+      "date_range": [
+        "2001-01-15",
+        "2001-01-15"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-01-15",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2001-01-15",
+      "last": "2001-01-15"
+    },
+    "latest_event": {
+      "date": "2001-01-15",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Frank LaMonica",
+      "subject": "Request for approval: IPL 1.0",
+      "sentiment": "",
+      "point": " Ralf, There are many entities who release what they claim are \"OpenSource\" licenses, but differ from the GPL or LGPL. Each such license places additional burdens on the entire ope",
+      "point_zh": ""
+    }
+  },
+  "discussion-jbind-license": {
+    "id": "discussion-jbind-license",
+    "name": "JBind License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Stefan Wachter",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 10,
+      "date_range": [
+        "2002-09-11",
+        "2002-09-21"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2002-09-11",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2002-09-11",
+      "last": "2002-09-21"
+    },
+    "latest_event": {
+      "date": "2002-09-21",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Nathan Kelley",
+      "subject": "Correction (was: Re: discuss: Update for Submitted License)",
+      "sentiment": "",
+      "point": " To OSI License Discussion subscribers, >> From: Stefan Wachter <Stefan.Wachter at gmx.de>, > From: Nathan Kelley <phyax at runbox.com>, >> 4. You may use the Package, a Modified P",
+      "point_zh": ""
+    }
+  },
+  "discussion-linisys-open-source-license-v1-4": {
+    "id": "discussion-linisys-open-source-license-v1-4",
+    "name": "Linisys Open Source License v1.4",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Chris Tusa",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 21,
+      "date_range": [
+        "2004-01-07",
+        "2004-01-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-01-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2004-01-07"
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2004-01-07",
+      "last": "2004-01-28"
+    },
+    "latest_event": {
+      "date": "2004-01-28",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Chris Tusa",
+      "subject": "For Approval: Linisys Open Source License v1.4",
+      "sentiment": "",
+      "point": " Greetings, We submitted our proposed License several weeks ago and havent seen any response. Can I get confirmation that it was recieved? -- Chris Tusa Linisys, Computing Evolutio",
+      "point_zh": ""
+    }
+  },
+  "discussion-lucent-technologies-inc-micromonitor-software-public-license": {
+    "id": "discussion-lucent-technologies-inc-micromonitor-software-public-license",
+    "name": "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "David Christensen",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 5,
+      "date_range": [
+        "2002-03-15",
+        "2002-03-20"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2002-03-15",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "2002-03-15",
+      "last": "2002-03-20"
+    },
+    "latest_event": {
+      "date": "2002-03-20",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Ed Sutter",
+      "subject": "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT",
+      "sentiment": "",
+      "point": " Dave, Here's the scoop from Lucent Legal... > Lucent has made a policy decision not to seek third party > approvals of any of our licensing agreements. Hopefully, you can live wit",
+      "point_zh": ""
+    }
+  },
+  "discussion-mgbopensource-proposed-license": {
+    "id": "discussion-mgbopensource-proposed-license",
+    "name": "MGBopensource Proposed License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Barksdale, Marvin",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 6,
+      "date_range": [
+        "2024-11-18",
+        "2024-11-24"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2024-11-18",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [
+        "MG-BY-OS"
+      ],
+      "latest_text_date": "2024-11-18"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2024-11-18",
+      "last": "2024-11-24"
+    },
+    "latest_event": {
+      "date": "2024-11-24",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Pamela Chestek",
+      "subject": "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License",
+      "sentiment": "",
+      "point": " Comment below. Pamela S. Chestek (in my personal capacity) Chestek Legal 4641 Post St. Unit 4316 El Dorado Hills, CA 95762 +1 919-800-8033 pamela at chesteklegal www.chesteklegal.",
+      "point_zh": ""
+    }
+  },
+  "discussion-mindmason-license-mml": {
+    "id": "discussion-mindmason-license-mml",
+    "name": "mindmason license (MML)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Stephan Meyer",
+    "stats": {
+      "total_messages": 15,
+      "duration_days": 3,
+      "date_range": [
+        "2004-09-02",
+        "2004-09-05"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-09-02",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 15,
+      "first": "2004-09-02",
+      "last": "2004-09-05"
+    },
+    "latest_event": {
+      "date": "2004-09-05",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Stephan Meyer",
+      "subject": "For Approval: mindmason license (MML)",
+      "sentiment": "",
+      "point": " > The \"offer of contract to any party\" originated from the author. > Based on > the license text, the intent is that when I redistribute the software, > I am communicating that sa",
+      "point_zh": ""
+    }
+  },
+  "discussion-misty-foundation-license-6-3": {
+    "id": "discussion-misty-foundation-license-6-3",
+    "name": "Misty Foundation License 6.3",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Mistypigeon",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 0,
+      "date_range": [
+        "2025-12-17",
+        "2025-12-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-12-17",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2025-12-17"
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2025-12-17",
+      "last": "2025-12-17"
+    },
+    "latest_event": {
+      "date": "2025-12-17",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Josh Berkus",
+      "subject": "[License-discuss] Approval of my own License,Misty Foundation License 6.3:",
+      "sentiment": "",
+      "point": " On 12/16/25 4:25 PM, mistypigeon via License-discuss wrote: > Here is the license text: > > Misty Foundation License 6.3 > As this is license-discuss, not license-review, did you ",
+      "point_zh": ""
+    }
+  },
+  "discussion-mixed-pickles-license-1-0": {
+    "id": "discussion-mixed-pickles-license-1-0",
+    "name": "Mixed Pickles License 1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Bernhard Fastenrath",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2004-12-20",
+        "2004-12-20"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-12-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2004-12-20"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2004-12-20",
+      "last": "2004-12-20"
+    },
+    "latest_event": {
+      "date": "2004-12-20",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Bernhard Fastenrath",
+      "subject": "for discussion: Mixed Pickles License 1.0",
+      "sentiment": "",
+      "point": " Rational: This license tries to make it easy to distribute source trees based on different open source licensing schemes. Since the number of receivers of such a source tree who n",
+      "point_zh": ""
+    }
+  },
+  "discussion-mll": {
+    "id": "discussion-mll",
+    "name": "MLL",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Rlyeh",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 3,
+      "date_range": [
+        "2007-11-10",
+        "2007-11-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2007-11-10",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2007-11-10",
+      "last": "2007-11-13"
+    },
+    "latest_event": {
+      "date": "2007-11-13",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Matthew Flaschen",
+      "subject": "For Approval: MLL (minimal library license)",
+      "sentiment": "",
+      "point": " Chris Travers wrote: > Do we have a written statement from UC Berkeley to that effect? The written statement is of course the license. See e.g. http://www.cs.berkeley.edu/~lazzaro",
+      "point_zh": ""
+    }
+  },
+  "discussion-mn-open-content-license-1-0": {
+    "id": "discussion-mn-open-content-license-1-0",
+    "name": "MN Open Content License 1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Michal Nazarewicz",
+    "stats": {
+      "total_messages": 5,
+      "duration_days": 3,
+      "date_range": [
+        "2004-12-25",
+        "2004-12-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-12-25",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 5,
+      "first": "2004-12-25",
+      "last": "2004-12-28"
+    },
+    "latest_event": {
+      "date": "2004-12-28",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Lawrence Rosen",
+      "subject": "For Approval: MN Open Content License 1.0",
+      "sentiment": "",
+      "point": " > > However, I would like to understand exactly what problem you are trying > > to solve that isn't well addressed by existing licenses. In > > particular, how does this handle do",
+      "point_zh": ""
+    }
+  },
+  "discussion-mn-open-documentation-license-1-0": {
+    "id": "discussion-mn-open-documentation-license-1-0",
+    "name": "MN Open Documentation License 1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Michal Nazarewicz",
+    "stats": {
+      "total_messages": 11,
+      "duration_days": 2,
+      "date_range": [
+        "2004-12-16",
+        "2004-12-18"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-12-16",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 11,
+      "first": "2004-12-16",
+      "last": "2004-12-18"
+    },
+    "latest_event": {
+      "date": "2004-12-18",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Michal Nazarewicz",
+      "subject": "For Approval: MN Open Documentation License 1.0",
+      "sentiment": "",
+      "point": " -----BEGIN PGP SIGNED MESSAGE----- Hash: SHA1 On Saturday 18 of December 2004 00:08, John Cowan wrote: > The main problem with using the GPL for documentation is that the > requir",
+      "point_zh": ""
+    }
+  },
+  "discussion-novell-cooperative-license": {
+    "id": "discussion-novell-cooperative-license",
+    "name": "Novell Cooperative License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Bruce Perens",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 5,
+      "date_range": [
+        "1999-11-24",
+        "1999-11-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-11-24",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "1999-11-24",
+      "last": "1999-11-29"
+    },
+    "latest_event": {
+      "date": "1999-11-29",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "John Cowan",
+      "subject": "Novell Cooperative License version 1.0",
+      "sentiment": "",
+      "point": " Bruce Perens wrote: > I don't see that a non-US court would uphold a requirement to arbitrate > through a U.S. association when one or both litigants are non-US. Sure it would (bu",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-project-public-license-oppl": {
+    "id": "discussion-open-project-public-license-oppl",
+    "name": "Open Project Public License (OPPL)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Larry Masters",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 39,
+      "date_range": [
+        "2004-03-06",
+        "2004-04-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-03-06",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2004-03-06",
+      "last": "2004-04-14"
+    },
+    "latest_event": {
+      "date": "2004-04-14",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Russell Nelson",
+      "subject": "For Approval: Open Project Public License (OPPL)",
+      "sentiment": "",
+      "point": " Larry Masters writes: > May have to put this back on the drawing board. Basically what we are > wanting to do with the license is \"control\" code created to work with > the license",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-realty-license": {
+    "id": "discussion-open-realty-license",
+    "name": "Open-Realty License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Ryan Bonham",
+    "stats": {
+      "total_messages": 17,
+      "duration_days": 13,
+      "date_range": [
+        "2005-05-24",
+        "2005-06-06"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2005-05-24",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2005-06-04"
+    },
+    "timeline_meta": {
+      "count": 17,
+      "first": "2005-05-24",
+      "last": "2005-06-06"
+    },
+    "latest_event": {
+      "date": "2005-06-06",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Ryan C. Bonham",
+      "subject": "For Approval: Open-Realty License",
+      "sentiment": "",
+      "point": " Alex, You worded Attribution Text section perfect. I will be submiting this all for OSI approval later today, as well as updating our software and website to use the new version o",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-source-shareware": {
+    "id": "discussion-open-source-shareware",
+    "name": "Open source shareware",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Forrest J. Cavalier III",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 0,
+      "date_range": [
+        "2001-11-10",
+        "2001-11-10"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-11-10",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2001-11-10",
+      "last": "2001-11-10"
+    },
+    "latest_event": {
+      "date": "2001-11-10",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "John Cowan",
+      "subject": "Version 2. Open source shareware",
+      "sentiment": "",
+      "point": " Forrest J. Cavalier III scripsit: > I am not a lawyer either, and I would not have known about > MAI vs Peak unless it was brought up on this list. BTW, one of Paula Samuelson's p",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-test-license-v1-1": {
+    "id": "discussion-open-test-license-v1-1",
+    "name": "Open Test License v1.1",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Alex Rousskov",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 3,
+      "date_range": [
+        "2004-01-07",
+        "2004-01-10"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-01-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2004-01-09"
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2004-01-07",
+      "last": "2004-01-10"
+    },
+    "latest_event": {
+      "date": "2004-01-10",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Alex Rousskov",
+      "subject": "For approval: Open Test License v1.1",
+      "sentiment": "",
+      "point": " On Fri, 9 Jan 2004, Rod Dixon, J.D., LL.M. wrote: > You are correct that a weak trademark will require vigorous > enforcement to avoid losing the distinctive quality of the mark; ",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-tom-public-license-otpl": {
+    "id": "discussion-open-tom-public-license-otpl",
+    "name": "OPEN TOM PUBLIC LICENSE (OTPL)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Bill Moran",
+    "stats": {
+      "total_messages": 12,
+      "duration_days": 8512,
+      "date_range": [
+        "2003-02-14",
+        "2026-06-05"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-02-14",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-04-30"
+    },
+    "timeline_meta": {
+      "count": 12,
+      "first": "2003-02-14",
+      "last": "2026-06-05"
+    },
+    "latest_event": {
+      "date": "2026-06-05",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Josh Berkus",
+      "subject": "[License-discuss] [NEW LICENSE] OTPL (OPEN TOM PUBLIC LICENSE) v1.0",
+      "sentiment": "",
+      "point": " Tom, > I would like to submit a new license for discussion: the OPEN TOM PUBLIC > LICENSE (OTPL) version 1.2. Overall, this is pretty standard. Are you sure there's not an existin",
+      "point_zh": ""
+    }
+  },
+  "discussion-open-vendor-public-license-ovpl": {
+    "id": "discussion-open-vendor-public-license-ovpl",
+    "name": "Open Vendor Public License (OVPL)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Alex Bligh",
+    "stats": {
+      "total_messages": 30,
+      "duration_days": 81,
+      "date_range": [
+        "2005-04-10",
+        "2005-06-30"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2005-04-10",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 30,
+      "first": "2005-04-10",
+      "last": "2005-06-30"
+    },
+    "latest_event": {
+      "date": "2005-06-30",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Wilson, Andrew",
+      "subject": "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)",
+      "sentiment": "",
+      "point": " Alex Bligh wrote: > You are quite correct that IF every contributor signed a contribution > agreement, then the effect would not doubt be the same (for the initial > developer) as",
+      "point_zh": ""
+    }
+  },
+  "discussion-opendesk-com-public-source-license": {
+    "id": "discussion-opendesk-com-public-source-license",
+    "name": "OpenDesk.com Public Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Raymond Luk",
+    "stats": {
+      "total_messages": 29,
+      "duration_days": 20,
+      "date_range": [
+        "1999-11-15",
+        "1999-12-05"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-11-15",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "1999-11-15"
+    },
+    "timeline_meta": {
+      "count": 29,
+      "first": "1999-11-15",
+      "last": "1999-12-05"
+    },
+    "latest_event": {
+      "date": "1999-12-05",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Bruce Perens",
+      "subject": "Draft 1 of the OpenDesk.com Public Source License",
+      "sentiment": "",
+      "point": " Who at OpenDesk is responsible for this license and how do I contact them? Thanks Bruce",
+      "point_zh": ""
+    }
+  },
+  "discussion-owl": {
+    "id": "discussion-owl",
+    "name": "OWL",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "mirabilos {Thorsten Glaser}",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2001-06-22",
+        "2001-06-22"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-06-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2001-06-22",
+      "last": "2001-06-22"
+    },
+    "latest_event": {
+      "date": "2001-06-22",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "mirabilos {Thorsten Glaser}",
+      "subject": "Q: Comments on this draft",
+      "sentiment": "",
+      "point": " Hello, I would like to hear any comments on this draft which I have reworked several times in order to remove flaws I could find. Purpose: - small (2k, not 24k) - similar to LGPL ",
+      "point_zh": ""
+    }
+  },
+  "discussion-ozplb-licence": {
+    "id": "discussion-ozplb-licence",
+    "name": "OZPLB Licence",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "ian.oi",
+    "stats": {
+      "total_messages": 15,
+      "duration_days": 115,
+      "date_range": [
+        "2004-10-22",
+        "2005-02-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-10-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2005-02-14"
+    },
+    "timeline_meta": {
+      "count": 15,
+      "first": "2004-10-22",
+      "last": "2005-02-14"
+    },
+    "latest_event": {
+      "date": "2005-02-14",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "ian.oi",
+      "subject": "RESUBMISSION FOR APPROVAL: OZPLB Licence",
+      "sentiment": "",
+      "point": " BLAKE DAWSON WALDRON Lawyers This is a resubmission of the amended OZPLB licence for OSI approval. The amended text is set out at the end of this email. The main changes address c",
+      "point_zh": ""
+    }
+  },
+  "discussion-panda3d-public-license-version-1-0": {
+    "id": "discussion-panda3d-public-license-version-1-0",
+    "name": "Panda3D Public License Version 1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Jesse Schell",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 61,
+      "date_range": [
+        "2003-12-23",
+        "2004-02-22"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-12-23",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2003-12-23",
+      "last": "2004-02-22"
+    },
+    "latest_event": {
+      "date": "2004-02-22",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Jesse Schell",
+      "subject": "For Approval: Panda3D Public License Version 1.0",
+      "sentiment": "",
+      "point": " I apologize for my slow reply to the very sensible comments below. These all make sense to me, and I have discussed them with the other key members of the Panda3D team at Disney, ",
+      "point_zh": ""
+    }
+  },
+  "discussion-privative-friendly-source-shared-license-pfssl-v1-0": {
+    "id": "discussion-privative-friendly-source-shared-license-pfssl-v1-0",
+    "name": "Privative-Friendly Source-Shared License (PFSSL) v1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Rafael",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 2,
+      "date_range": [
+        "2025-05-12",
+        "2025-05-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-05-12",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2025-05-12"
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2025-05-12",
+      "last": "2025-05-14"
+    },
+    "latest_event": {
+      "date": "2025-05-14",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Rafael",
+      "subject": "[License-discuss] Submission of PFSSL v1.0 for OSI Review and Approval",
+      "sentiment": "",
+      "point": " Hello Josh, The license isn’t directly based on any single one, but most of its clauses are inspired by well-known licenses such as MIT, MPL, GPL, and Apache. I also aimed to make",
+      "point_zh": ""
+    }
+  },
+  "discussion-public-security-interrest-psi-license": {
+    "id": "discussion-public-security-interrest-psi-license",
+    "name": "Public Security Interrest 'PSI' License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Wolfram Kleff",
+    "stats": {
+      "total_messages": 8,
+      "duration_days": 6,
+      "date_range": [
+        "2003-09-11",
+        "2003-09-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-09-11",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2003-09-11"
+    },
+    "timeline_meta": {
+      "count": 8,
+      "first": "2003-09-11",
+      "last": "2003-09-17"
+    },
+    "latest_event": {
+      "date": "2003-09-17",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "James Michael DuPont",
+      "subject": "For Approval: Public Security Interrest \"PSI\" License",
+      "sentiment": "",
+      "point": " --- Wolfram Kleff <xenonfs at users.sourceforge.net> wrote: > > Hello Mike, > > > --- Wolfram Kleff <xenonfs at users.sourceforge.net> wrote: > > > With GPL it would be no problem",
+      "point_zh": ""
+    }
+  },
+  "discussion-public-software-license": {
+    "id": "discussion-public-software-license",
+    "name": "Public Software License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Nikolaos-Modestos Kougioulis",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2014-03-01",
+        "2014-03-01"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2014-03-01",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2014-03-01",
+      "last": "2014-03-01"
+    },
+    "latest_event": {
+      "date": "2014-03-01",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "Nikolaos-Modestos Kougioulis",
+      "subject": "[License-discuss] For Approval: Public Software License",
+      "sentiment": "",
+      "point": " To whom it may concern, I am writing you this e-mail to request approval for my License, regarding the Open Source definition. 1) The Cryptix General License is the most similar O",
+      "point_zh": ""
+    }
+  },
+  "discussion-short-permissive-no-attribution-quid-open-source-license": {
+    "id": "discussion-short-permissive-no-attribution-quid-open-source-license",
+    "name": "Short permissive no attribution quid open source license",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "John Cowan",
+    "stats": {
+      "total_messages": 14,
+      "duration_days": 5235,
+      "date_range": [
+        "2001-06-21",
+        "2015-10-21"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-06-21",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 14,
+      "first": "2001-06-21",
+      "last": "2015-10-21"
+    },
+    "latest_event": {
+      "date": "2015-10-21",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Tim Makarios",
+      "subject": "[License-discuss] Short permissive no attribution required open source license",
+      "sentiment": "",
+      "point": " On Wed, 2015-10-21 at 11:56 +0530, Sagar wrote: > Do you think the community will be interested in a shorter license? You might be interested in the Free Public License, which is ",
+      "point_zh": ""
+    }
+  },
+  "discussion-simplified-artistic-license": {
+    "id": "discussion-simplified-artistic-license",
+    "name": "Simplified Artistic License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Robert Samuel White",
+    "stats": {
+      "total_messages": 6,
+      "duration_days": 25,
+      "date_range": [
+        "2002-10-03",
+        "2002-10-28"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2002-10-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 6,
+      "first": "2002-10-03",
+      "last": "2002-10-28"
+    },
+    "latest_event": {
+      "date": "2002-10-28",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Robert Samuel White",
+      "subject": "Formal Request for Approval: Simplified Artistic License",
+      "sentiment": "",
+      "point": " I have significantly modified the license. I apologize for not making these changes before sending my original request for approval. These changes were necessary however. I am goi",
+      "point_zh": ""
+    }
+  },
+  "discussion-software-and-development-license-version-3-0": {
+    "id": "discussion-software-and-development-license-version-3-0",
+    "name": "Software and Development License version 3.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Alec Bloss",
+    "stats": {
+      "total_messages": 10,
+      "duration_days": 2,
+      "date_range": [
+        "2024-01-28",
+        "2024-01-30"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2024-01-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2024-01-29"
+    },
+    "timeline_meta": {
+      "count": 10,
+      "first": "2024-01-28",
+      "last": "2024-01-30"
+    },
+    "latest_event": {
+      "date": "2024-01-30",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Alec Bloss",
+      "subject": "[License-discuss] Request for Comment: Software and Development License, version 3.0",
+      "sentiment": "",
+      "point": " On Jan 29 2024, at 5:47 am, Kevin P. Fleming <lists.osi-license-discuss at kevin.km6g.us> wrote: > On Sun, Jan 28, 2024, at 14:47, Alec Bloss wrote: > > > Hi all, > > > > > > I wa",
+      "point_zh": ""
+    }
+  },
+  "discussion-sos-simple-open-source-license": {
+    "id": "discussion-sos-simple-open-source-license",
+    "name": "SOS - Simple Open Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Alex Nicolaou",
+    "stats": {
+      "total_messages": 19,
+      "duration_days": 29,
+      "date_range": [
+        "1999-10-15",
+        "1999-11-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-10-15",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 19,
+      "first": "1999-10-15",
+      "last": "1999-11-13"
+    },
+    "latest_event": {
+      "date": "1999-11-13",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Alex Nicolaou",
+      "subject": "SOS license v1.05",
+      "sentiment": "",
+      "point": " Here's an attempt at addressing the \"exception\" nature of the license. I've tried hard to make it work but am worried that you'll still think it is a license full of exceptions. L",
+      "point_zh": ""
+    }
+  },
+  "discussion-system-76-s-beanbooks-public-license-v1-0": {
+    "id": "discussion-system-76-s-beanbooks-public-license-v1-0",
+    "name": "System 76's BeanBooks Public License v1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Bradley M. Kuhn",
+    "stats": {
+      "total_messages": 11,
+      "duration_days": 32,
+      "date_range": [
+        "2013-08-28",
+        "2013-09-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2013-08-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2013-08-28"
+    },
+    "timeline_meta": {
+      "count": 11,
+      "first": "2013-08-28",
+      "last": "2013-09-29"
+    },
+    "latest_event": {
+      "date": "2013-09-29",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Luis Villa",
+      "subject": "[License-discuss] System 76's BeanBooks Public License v1.0",
+      "sentiment": "",
+      "point": " I have not had time to do this myself but it is probably a reasonable idea. Luis On Sep 19, 2013 7:40 PM, \"Bradley M. Kuhn\" <bkuhn at ebb.org> wrote: > It seems that at least a fe",
+      "point_zh": ""
+    }
+  },
+  "discussion-the-contribution-public-license": {
+    "id": "discussion-the-contribution-public-license",
+    "name": "The Contribution Public License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Moritz Maxeiner",
+    "stats": {
+      "total_messages": 12,
+      "duration_days": 3,
+      "date_range": [
+        "2019-08-03",
+        "2019-08-06"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2019-08-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 6,
+      "linked_count": 6,
+      "duplicate_count": 2,
+      "diff_count": 3,
+      "series": [],
+      "latest_text_date": "2019-08-05"
+    },
+    "timeline_meta": {
+      "count": 12,
+      "first": "2019-08-03",
+      "last": "2019-08-06"
+    },
+    "latest_event": {
+      "date": "2019-08-06",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Nicholas Matthew Neft Weinstock",
+      "subject": "[License-discuss] For Public Comment: The Contribution Public License",
+      "sentiment": "",
+      "point": " You may not want to start having a section of defined terms, but MPLv2 has a definition of the term \"Modifications\" that seems to be what you're describing for changes: 1.10. \"Mod",
+      "point_zh": ""
+    }
+  },
+  "discussion-the-libre-source-license": {
+    "id": "discussion-the-libre-source-license",
+    "name": "The Libre Source License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Moritz Maxeiner",
+    "stats": {
+      "total_messages": 52,
+      "duration_days": 15,
+      "date_range": [
+        "2019-08-08",
+        "2019-08-23"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2019-08-08",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2019-08-08"
+    },
+    "timeline_meta": {
+      "count": 52,
+      "first": "2019-08-08",
+      "last": "2019-08-23"
+    },
+    "latest_event": {
+      "date": "2019-08-23",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Roger Fujii",
+      "subject": "[License-discuss] For Public Comment: The Libre Source License",
+      "sentiment": "",
+      "point": " On 8/23/2019 1:23 PM, Lawrence Rosen wrote: > > Roger Fujii wrote: > > Now I'm confused. Are you saying there is no \"fair use\" when the > target is software? While one can weaken\"",
+      "point_zh": ""
+    }
+  },
+  "discussion-the-open-source-milestone-application-framework-software-lic": {
+    "id": "discussion-the-open-source-milestone-application-framework-software-lic",
+    "name": "The Open Source Milestone Application Framework Software License, Version 1.5",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Akil Franklin",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 1,
+      "date_range": [
+        "2002-05-03",
+        "2002-05-04"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2002-05-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2002-05-03"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2002-05-03",
+      "last": "2002-05-04"
+    },
+    "latest_event": {
+      "date": "2002-05-04",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "David Johnson",
+      "subject": "The Open Source Milestone Application Framework Software License, Version 1.5",
+      "sentiment": "",
+      "point": " On Friday 03 May 2002 10:22 am, Akil Franklin wrote: > After reviewing and the feedback from the discussion list, we would like > to modify our original submission. This new submi",
+      "point_zh": ""
+    }
+  },
+  "discussion-the-testament": {
+    "id": "discussion-the-testament",
+    "name": "The TESTAMENT",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Cityhunter",
+    "stats": {
+      "total_messages": 5,
+      "duration_days": 20,
+      "date_range": [
+        "2003-08-28",
+        "2003-09-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-08-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 5,
+      "first": "2003-08-28",
+      "last": "2003-09-17"
+    },
+    "latest_event": {
+      "date": "2003-09-17",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "James Michael DuPont",
+      "subject": "repost for discussion",
+      "sentiment": "",
+      "point": " --- cityhunter <x-y-z at laposte.net> wrote: > the testament is available in html format at : Well you can't say that I dont try! http://malet.jeanclaude.free.fr/TESTAMENT.html-->",
+      "point_zh": ""
+    }
+  },
+  "discussion-the-wilhelm-svenselius-open-source-license-version-1-1": {
+    "id": "discussion-the-wilhelm-svenselius-open-source-license-version-1-1",
+    "name": "The Wilhelm Svenselius Open Source License version 1.1",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Wilhelm Svenselius",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 4,
+      "date_range": [
+        "2003-08-31",
+        "2003-09-04"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2003-08-31",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2003-08-31",
+      "last": "2003-09-04"
+    },
+    "latest_event": {
+      "date": "2003-09-04",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Wilhelm Svenselius",
+      "subject": "For Approval: The Wilhelm Svenselius Open Source License version 1.1",
+      "sentiment": "",
+      "point": " Having taken to heart some of the comments on my WSOSL 1.0 which were posted to this mailing list a few days ago, I now present to you a somewhat modified version. The full text o",
+      "point_zh": ""
+    }
+  },
+  "discussion-tomsrtbt-license": {
+    "id": "discussion-tomsrtbt-license",
+    "name": "tomsrtbt License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Tom Oehser",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 0,
+      "date_range": [
+        "2001-04-22",
+        "2001-04-22"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2001-04-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2001-04-22",
+      "last": "2001-04-22"
+    },
+    "latest_event": {
+      "date": "2001-04-22",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Tom Oehser",
+      "subject": "tomsrtbt, 3rd draft...",
+      "sentiment": "",
+      "point": " > It sounds for me it may be better you use the modified BSD-license > for the software you have the complete rights for instead of create > another license with much the same mea",
+      "point_zh": ""
+    }
+  },
+  "discussion-total-reciprocity-public-license": {
+    "id": "discussion-total-reciprocity-public-license",
+    "name": "Total Reciprocity Public License",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Jay Patel",
+    "stats": {
+      "total_messages": 20,
+      "duration_days": 10,
+      "date_range": [
+        "2025-12-03",
+        "2025-12-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-12-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 20,
+      "first": "2025-12-03",
+      "last": "2025-12-13"
+    },
+    "latest_event": {
+      "date": "2025-12-13",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Shuji Sado",
+      "subject": "[License-discuss] Total Reciprocity Public License (TRPL v1.0)",
+      "sentiment": "",
+      "point": " Hi Jay, Josh, and all, https://discuss.opensource.org/t/distillation-and-oss-licensing/1333 I just noticed that Josh-san’s Discourse thread on distillation and copyleft-style mode",
+      "point_zh": ""
+    }
+  },
+  "discussion-turkix-public-license": {
+    "id": "discussion-turkix-public-license",
+    "name": "TURKIX PUBLIC LICENSE",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Emre Sokullu",
+    "stats": {
+      "total_messages": 19,
+      "duration_days": 7,
+      "date_range": [
+        "2004-10-26",
+        "2004-11-02"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2004-10-26",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 19,
+      "first": "2004-10-26",
+      "last": "2004-11-02"
+    },
+    "latest_event": {
+      "date": "2004-11-02",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Michael R. Bernstein",
+      "subject": "For Approval: TURKIX PUBLIC LICENSE",
+      "sentiment": "",
+      "point": " On Thu, 2004-10-28 at 08:17, Emre Sokullu wrote: > Yes I see that AGPL is satisfactory for most cases. But i didn't know > that it wasn't OSI approved. Will it be approved soon, o",
+      "point_zh": ""
+    }
+  },
+  "discussion-u-s-army-research-laboratory-open-source-license-arl-osl": {
+    "id": "discussion-u-s-army-research-laboratory-open-source-license-arl-osl",
+    "name": "U.S. Army Research Laboratory Open Source License (ARL OSL)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Karan, Cem F CIV USARMY RDECOM ARL",
+    "stats": {
+      "total_messages": 12,
+      "duration_days": 24,
+      "date_range": [
+        "2016-07-22",
+        "2016-08-15"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2016-07-22",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2016-07-28"
+    },
+    "timeline_meta": {
+      "count": 12,
+      "first": "2016-07-22",
+      "last": "2016-08-15"
+    },
+    "latest_event": {
+      "date": "2016-08-15",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Engel Nyst",
+      "subject": "[License-discuss] U.S. Army Research Laboratory Open Source License (ARL OSL) 0.4.0",
+      "sentiment": "",
+      "point": " On Thu, Jul 28, 2016 at 3:50 PM, Karan, Cem F CIV USARMY RDECOM ARL (US) <cem.f.karan.civ at mail.mil> wrote: > \"License\" shall mean the terms and conditions for use, reproduction",
+      "point_zh": ""
+    }
+  },
+  "discussion-ukl-universal-public-license": {
+    "id": "discussion-ukl-universal-public-license",
+    "name": "UKL (Universal Public License)",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "BIRGUL KARAMIZRAK",
+    "stats": {
+      "total_messages": 3,
+      "duration_days": 4,
+      "date_range": [
+        "2012-12-14",
+        "2012-12-18"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2012-12-14",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2012-12-14"
+    },
+    "timeline_meta": {
+      "count": 3,
+      "first": "2012-12-14",
+      "last": "2012-12-18"
+    },
+    "latest_event": {
+      "date": "2012-12-18",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "David Woolley",
+      "subject": "[License-discuss] APPROVAL: Universal Public License Agreement v1",
+      "sentiment": "",
+      "point": " BIRGUL KARAMIZRAK wrote: > Signing of the Contract > > The license will take effect upon signing personally by the license provider > and the licensee. The signature owner is requ",
+      "point_zh": ""
+    }
+  },
+  "discussion-universal-public-domain-license-1-5-2": {
+    "id": "discussion-universal-public-domain-license-1-5-2",
+    "name": "Universal Public Domain License 1.5.2",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "AMOGUSForever",
+    "stats": {
+      "total_messages": 6,
+      "duration_days": 0,
+      "date_range": [
+        "2026-08-07",
+        "2026-08-07"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-08-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-08-07"
+    },
+    "timeline_meta": {
+      "count": 6,
+      "first": "2026-08-07",
+      "last": "2026-08-07"
+    },
+    "latest_event": {
+      "date": "2026-08-07",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Subham Mahesh",
+      "subject": "[License-discuss] Advice for submitting a new license",
+      "sentiment": "",
+      "point": " Hi AMOGUSForever, I took a look at your draft of the *Universal Public Domain License 1.5.2* and made a few improvements that you might want to consider. I think they help clarify",
+      "point_zh": ""
+    }
+  },
+  "discussion-xxx-library-public-license-version-1-0": {
+    "id": "discussion-xxx-library-public-license-version-1-0",
+    "name": "XXX LIBRARY PUBLIC LICENSE Version 1.0",
+    "spdx_id": "",
+    "status": "discussion",
+    "submitter": "Russell Nelson",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 7,
+      "date_range": [
+        "1999-05-11",
+        "1999-05-18"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "1999-05-11",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "1999-05-11",
+      "last": "1999-05-18"
+    },
+    "latest_event": {
+      "date": "1999-05-18",
+      "type": "feedback",
+      "source": "license-discuss",
+      "sender": "Martin Pool",
+      "subject": "A new open source license",
+      "sentiment": "",
+      "point": " Ken Arromdee wrote: > On Mon, 17 May 1999, [iso-8859-2] Matìj Cepl wrote: > > [MCepl] I am not sure, that you are correct. What clause five > > actually says is, that GNU GPL is a",
+      "point_zh": ""
+    }
   }
 }

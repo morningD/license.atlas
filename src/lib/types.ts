@@ -80,7 +80,8 @@ export interface ProjectShowcaseIndex {
 // ── OSI License Review Tracker types (from KB v2.json) ──
 export type TrackerStatus =
   | "approved" | "rejected" | "pending"
-  | "withdrawn" | "superseded" | "legacy";
+  | "withdrawn" | "superseded" | "legacy"
+  | "discussion";
 
 export type TrackerTimelineEventType =
   | "submission" | "revision" | "withdrawal"
