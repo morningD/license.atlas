@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "31d543c33632ff52",
+    "source_hash": "aed45ceed3ea7d62",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T15:36:35.640Z",
+    "generated_at": "2026-08-28T16:44:42.657Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 82,
@@ -3466,7 +3466,7 @@
     "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 20,
+      "total_messages": 21,
       "duration_days": 175,
       "date_range": [
         "2026-03-06",
@@ -3489,7 +3489,7 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 20,
+      "count": 21,
       "first": "2026-03-06",
       "last": "2026-08-28"
     },
@@ -3497,11 +3497,11 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Richard Fontana",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
-      "sentiment": "support",
-      "point": "Shares LicenseAtlas, a review tracker built from archives covering timelines and board votes, to help the community check history and follow the process.",
-      "point_zh": "介绍基于档案构建的 LicenseAtlas 审查追踪工具，涵盖时间线和董事会投票记录，以帮助社区查询历史并跟进审查流程。"
+      "sentiment": "neutral",
+      "point": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011.",
+      "point_zh": ""
     }
   },
   "python-2-0": {
@@ -3511,7 +3511,7 @@
     "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 20,
+      "total_messages": 21,
       "duration_days": 175,
       "date_range": [
         "2026-03-06",
@@ -3534,7 +3534,7 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 20,
+      "count": 21,
       "first": "2026-03-06",
       "last": "2026-08-28"
     },
@@ -3542,11 +3542,11 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Richard Fontana",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
-      "sentiment": "support",
-      "point": "Shares LicenseAtlas, a review tracker built from archives covering timelines and board votes, to help the community check history and follow the process.",
-      "point_zh": "介绍基于档案构建的 LicenseAtlas 审查追踪工具，涵盖时间线和董事会投票记录，以帮助社区查询历史并跟进审查流程。"
+      "sentiment": "neutral",
+      "point": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011.",
+      "point_zh": ""
     }
   },
   "bsd-3-clause-open-mpi": {

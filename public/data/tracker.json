@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T15:36:21.274Z",
+    "generated_at": "2026-08-28T16:44:27.635Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 82,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T15:36:35.640Z",
+    "enriched_at": "2026-08-28T16:44:42.657Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 85,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T15:36:35.930Z",
+      "applied_at": "2026-08-28T16:44:54.680Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -88074,8 +88074,8 @@
       "name": "Python License, Version 2",
       "aliases": [
         "Submission: Python-2.0.1",
-        "Python-2.0.1 and CNRI-Python-GPL-Compatible",
-        "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible"
+        "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+        "Python-2.0.1 and CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "Python-2.0",
       "status": "superseded",
@@ -88131,14 +88131,14 @@
           "message_count": 5
         },
         {
-          "name": "McCoy Smith",
-          "role": "reviewer",
+          "name": "Richard Fontana",
+          "role": "board_member",
           "message_count": 4
         },
         {
-          "name": "Richard Fontana",
-          "role": "board_member",
-          "message_count": 3
+          "name": "McCoy Smith",
+          "role": "reviewer",
+          "message_count": 4
         },
         {
           "name": "Pamela Chestek",
@@ -89729,6 +89729,19 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Shares LicenseAtlas, a review tracker built from archives covering timelines and board votes, to help the community check history and follow the process."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006182.html",
+          "sender": "Richard Fontana",
+          "snippet": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011."
         }
       ],
       "board_vote": {
@@ -89756,7 +89769,7 @@
         "board_minutes": ""
       },
       "stats": {
-        "total_messages": 20,
+        "total_messages": 21,
         "date_range": [
           "2026-03-06",
           "2026-08-28"
@@ -89783,8 +89796,8 @@
         "final_status": "superseded",
         "confidence": 0.95,
         "requires_manual_review": true,
-        "manual_review_reason": "The OSI API lists the license as 'approved', but the board minutes and list discussion explicitly state the Board approved 'Python-2.0.1' to 'Supersede prior version' (Python-2.0) and voted to retire Python-2.0. This confirms the 'superseded' status for the old version, conflicting with the API's 'approved' tag.",
-        "rationale": "The Board minutes from 2026-06-29 include a motion to approve Python-2.0.1 as Legacy and 'Supersede prior version'. This is corroborated by the license-list discussion where McCoy Smith states the Board voted to 'retire Python-2.0' and approve Python-2.0.1. Therefore, the correct status for the Python-2.0 submission is 'superseded'.",
+        "manual_review_reason": "Strong conflict between source_status (approved) and board minutes (superseded). The board explicitly voted to supersede the prior version (Python-2.0) with Python-2.0.1, classifying the new version as Legacy. The source status 'approved' may refer to the license's historical presence on the list prior to this specific 2026 board action, but the authoritative evidence for this submission context indicates a supersession event.",
+        "rationale": "The OSI Board minutes from 2026-06-29 explicitly record a motion to 'approve the Python-2.0.1 as Legacy' and 'Supersede prior version'. Corresponding mailing list traffic confirms the Board voted to 'retire Python-2.0 and approve Python-2.0.1'. Therefore, the status of the Python-2.0 submission is superseded by Python-2.0.1.",
         "evidence_refs": [
           {
             "evidence_id": "board_vote:python-2-0",
@@ -89804,12 +89817,17 @@
         ],
         "conflicts": [
           {
+            "source": "source_status",
+            "observed_status": "approved",
+            "explanation": "The source_status indicates 'approved', which conflicts with the 2026 board decision to supersede this specific version with Python-2.0.1. The board decision takes precedence for the final review status."
+          },
+          {
             "source": "osi_api",
             "observed_status": "approved",
-            "explanation": "The OSI API marks Python-2.0 as 'approved'. However, authoritative board minutes and list communications confirm it was superseded by Python-2.0.1, which the API likely treats as the same entry or simply marks as approved without reflecting the retirement of the specific prior version identifier."
+            "explanation": "The OSI API lists the license as 'approved', likely reflecting its long-standing status on the list before the 2026 'Legacy/Supersede' board motion was processed or reflected in the API."
           }
         ],
-        "input_hash": "sha256:947d090752f62a3fb88089415aba48079005d74b0ee00628f1068cc68bbec7df",
+        "input_hash": "sha256:dfb7428569b2c74a4fbbc6b84ef37f25ff67bc70b431e1acde3ce7a8740f368a",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
