@@ -41,7 +41,9 @@ KB（source of truth）→ license-atlas 单向同步：
 
 ## 状态裁决（status adjudication）
 
-多源数据（OSI API / board minutes / 邮件归档 / curated RWP）互相矛盾时，由 LLM 裁决最终状态。链路：`prepare-status-adjudication.mjs`（生成输入+input_hash）→ `run-status-adjudication.mjs`（调 glm-4.6，Anthropic 兼容端点）→ `apply-status-adjudications.mjs`（校验 hash 后写回 tracker）。
+多源数据（OSI API / board minutes / 邮件归档 / curated RWP）互相矛盾时，由 LLM 裁决最终状态。链路：`prepare-status-adjudication.mjs`（生成输入+input_hash）→ `run-status-adjudication.mjs`（调 glm-4.6）→ `apply-status-adjudications.mjs`（校验 hash 后写回 tracker）。
+
+**传输通道**（2026-08-28）：默认走 OpenAI 兼容端点 `https://open.bigmodel.cn/api/coding/paas/v4`（env `ADJUDICATION_OPENAI_BASE_URL`）：`response_format: json_object` + `thinking: disabled`（`ADJUDICATION_THINKING=enabled` 可开），单次调用，单条 2-15s。此前用的 Anthropic 兼容端点（`/api/anthropic`）structured output 每次调用都失败再 fallback 到内联 schema 重发，双倍耗时且输出常被截断（`Unexpected end of JSON input` 皆源于此），现仅作兜底。**模型对照（同通道 qpl-1-0 实测）**：glm-4.6 保留（发现证据错配且不被 API 元数据带偏）；glm-5.3-flash 略快但判断质量差半档，暂不采用。
 
 **增量裁决**（2026-08）：prepare 读取已落盘输出的 `{submission_id → input_hash}`，输入未变的条目不进 batch，manifest 记录 `skipped_unchanged`；apply 对 skipped 条目按记录的 hash 复验旧输出后直接沿用。效果：已裁决且无新证据的条目（约 190+ 条）永不重跑 LLM，每轮只裁决真正变化的条目（如 OpenMDW 新邮件）——已定终态不会被无关变化重掷。
 
@@ -50,6 +52,10 @@ KB（source of truth）→ license-atlas 单向同步：
 **Manual-review 基线**（`scripts/tracker-manual-baseline.json`，已提交）：已知灰色地带 id 集合（84 项起步）。运行时基线内的 id 静默放行（保持现状），**基线外的新 manual-review 项硬失败**（保留旧的"新冲突留人工"安全边界）；成功运行后自动 prune 已解决的 id（如 ncsa、motosoto 在 2026-08-23 轮离开 manual review）。人工确认新冲突后跑 `npm run update:tracker -- --rebaseline` 采纳新集合。`--strict-manual-pending` 恢复最严格的"任何 blocking 即失败"模式。
 
 **KB 侧 schema 矫正**（`KB/scripts/run-status-adjudication.mjs` 的 `validateOutput`）：模型输出 conflicts 非空但 `requires_manual_review≠true` 时直接矫正为 true（模型自己的规则就要求 conflicts ⇒ manual review，属输出纪律问题而非语义分歧），不再依赖重试碰运气。顺带补齐 native structured-output 路径缺失的 `schema_version` 字段。
+
+**数据质量教训**（2026-08-28，qpl-1-0 事件）：`osi-api-matches.json` 的 `name_match` 自动匹配会把无关 thread 错配给 OSI 条目（qpl-1-0 被挂上 EPL-2.0 的 2017 年审查邮件 + board vote，裁决 LLM 如实报告"证据与许可证不匹配"并 blocking，反而揪出了这个潜伏 bug）。修复：错配条目清成 `thread_cluster: null` 形态。排查发现同类的可疑 name_match 还有 ~9 个（icu/isc/mit → Æsthetic Permissive 等，多为 approved/legacy 条目、无裁决阻塞，待逐一人工验证后清理）。
+
+**approved 条目的 sibling-thread 合并**（`KB build-license-review-tracker.mjs`，2026-08-28）：OSI API 条目的 timeline 来自 curated summaries；`license-summaries.json` 条目现支持 `merge_clusters: [关键词]`（与 RWP 条目同名机制），把主题含关键词的全部 thread cluster 并入 timeline 并加为 alias。首例：python-2-0 并入 3 月 license-discuss 预讨论 + 2026-08 "Python licenses: ..." 重复提交 thread（4→20 封）。
 
 **输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
 

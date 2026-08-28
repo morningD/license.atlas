@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-23T05:01:53.420Z",
+  "updated_at": "2026-08-28T06:35:03.457Z",
   "ids": [
     "3d-slicer-license",
     "aal",
@@ -81,7 +81,6 @@
     "unicode-dfs-2016",
     "whonix-gpl-additional-terms",
     "wordnet",
-    "wxwindows",
     "zentao-public-license",
     "zlib",
     "zpl-2-0",

@@ -52,7 +52,7 @@ cd "$ATLAS_DIR"
 opencode run "$(cat <<'EOF'
 License review tracker 自动更新任务。严格按以下流程执行，不要跳步：
 
-1. 运行 `npm run update:tracker`（KB 路径默认 ../KB）。编排器已内嵌：灰色地带 manual review 按 scripts/tracker-manual-baseline.json 放行，invalid/missing 裁决条目自动用 LLM 重跑（最多 3 轮，key 缺失时自动读 /Users/momo/.config/opencode/opencode.json 的 zhipuai-coding-plan）。若报 "still invalid after 3 LLM retries" 或 "New manual-review item(s) outside the known baseline"：不 push，在日志记录残留/新增 ids 后结束（新基线条目留人工 review，人工确认后由维护者跑 `npm run update:tracker -- --rebaseline` 采纳）。
+1. 运行 `npm run update:tracker`（KB 路径默认 ../KB）。LLM 环境变量：设 ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN=key（缺失时读 /Users/momo/.config/opencode/opencode.json 的 zhipuai-coding-plan）、ADJUDICATION_OPENAI_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4（裁决走 OpenAI 兼容单次调用通道，快且稳）、STATUS_ADJUDICATION_MODEL=glm-4.6、POINTS_MODEL=glm-4.6。编排器已内嵌：灰色地带 manual review 按 scripts/tracker-manual-baseline.json 放行，invalid/missing 裁决条目自动用 LLM 重跑（最多 3 轮）。若报 "still invalid after 3 LLM retries" 或 "New manual-review item(s) outside the known baseline"：不 push，在日志记录残留/新增 ids 后结束（新基线条目留人工 review，人工确认后由维护者跑 `npm run update:tracker -- --rebaseline` 采纳）。
 2. 质量门已内嵌于 update:tracker（全部必须 0 critical）。单独复核：KB 下 test-tracker-data / check-point-style --since 2026-01-01 / check-point-manifest-coverage；atlas 下 check-tracker-license-texts --tracker <KB v2 路径>。
 3. `node scripts/sync-tracker.mjs` 同步，然后 `npm run lint`。
 4. 判定与收尾：

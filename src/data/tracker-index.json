@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "583a3a3b9b5953a9",
+    "source_hash": "2af0d1913c88a9dd",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T04:52:41.505Z",
+    "generated_at": "2026-08-28T06:40:16.471Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 86,
+      "approved": 85,
       "rejected": 43,
       "withdrawn": 14,
-      "pending": 15,
-      "superseded": 6,
-      "legacy": 30
+      "pending": 14,
+      "superseded": 5,
+      "legacy": 33
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -98,9 +98,9 @@
       "source": "license-review",
       "sender": "Rob Landley",
       "subject": "[License-review] For Approval: The BOS Public License v1.0 (Lucy Randall)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the The BOS Public License v1.0 (Lucy Randall) thread.",
-      "point_zh": "The BOS Public License v1.0 (Lucy Randall) 评审线程中的反馈意见。"
+      "sentiment": "oppose",
+      "point": "Criticizes using copyright to mandate attribution as a historically failed approach, citing the collapse of the XFree86 project.",
+      "point_zh": "批评利用版权强制归属的做法，引用 XFree86 项目崩溃的案例称这是历史上失败的理念。"
     }
   },
   "bos-public-license-v1-2": {
@@ -144,8 +144,8 @@
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: The BOS Public License v1.2",
       "sentiment": "neutral",
-      "point": "License-review feedback in the The BOS Public License v1.2 thread.",
-      "point_zh": "The BOS Public License v1.2 评审线程中的反馈意见。"
+      "point": "Requests the submitter provide the remaining information required for a valid license submission.",
+      "point_zh": "要求提交者提供有效许可申请所需的其余信息。"
     }
   },
   "bos-public-license-v1-0": {
@@ -3414,96 +3414,6 @@
       "point_zh": "宣布 OSI 董事会决定不予批准 CAL 1.0（7-0-0 表决），该许可证已列入「未批准许可证」wiki 页面。"
     }
   },
-  "python-2.0": {
-    "id": "python-2-0",
-    "name": "Python License, Version 2",
-    "spdx_id": "Python-2.0",
-    "status": "superseded",
-    "submitter": "Max Mehl",
-    "stats": {
-      "total_messages": 4,
-      "duration_days": 60,
-      "date_range": [
-        "2026-03-20",
-        "2026-05-19"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-03-20",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 1,
-      "series": [],
-      "latest_text_date": "2026-03-20"
-    },
-    "timeline_meta": {
-      "count": 4,
-      "first": "2026-03-20",
-      "last": "2026-05-19"
-    },
-    "latest_event": {
-      "date": "2026-05-19",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Joshua Gay",
-      "subject": "[License-review] Submission: Python-2.0.1",
-      "sentiment": "neutral",
-      "point": "Suggests splitting the request into separate submissions because the current materials do not fit OSI’s normal approval structure.",
-      "point_zh": "建议把请求拆成多个独立提交，因为当前材料不符合 OSI 的常规审批结构。"
-    }
-  },
-  "python-2-0": {
-    "id": "python-2-0",
-    "name": "Python License, Version 2",
-    "spdx_id": "Python-2.0",
-    "status": "superseded",
-    "submitter": "Max Mehl",
-    "stats": {
-      "total_messages": 4,
-      "duration_days": 60,
-      "date_range": [
-        "2026-03-20",
-        "2026-05-19"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-03-20",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 1,
-      "series": [],
-      "latest_text_date": "2026-03-20"
-    },
-    "timeline_meta": {
-      "count": 4,
-      "first": "2026-03-20",
-      "last": "2026-05-19"
-    },
-    "latest_event": {
-      "date": "2026-05-19",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Joshua Gay",
-      "subject": "[License-review] Submission: Python-2.0.1",
-      "sentiment": "neutral",
-      "point": "Suggests splitting the request into separate submissions because the current materials do not fit OSI’s normal approval structure.",
-      "point_zh": "建议把请求拆成多个独立提交，因为当前材料不符合 OSI 的常规审批结构。"
-    }
-  },
   "cnri-python": {
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
@@ -3547,6 +3457,96 @@
       "sentiment": "positive",
       "point": "Argues the clause does not violate OSD 10 because the clickwrap is stated in the alternative (\"or by copying\"), so agreement is possible with or without a GUI, providing the OSD 10 historical context.",
       "point_zh": "主张该条款不违反 OSD 10，因为点击包装以选择式表述（“或通过复制……”），无论是否有 GUI 都可表示同意，并提供了 OSD 10 的历史背景。"
+    }
+  },
+  "python-2.0": {
+    "id": "python-2-0",
+    "name": "Python License, Version 2",
+    "spdx_id": "Python-2.0",
+    "status": "legacy",
+    "submitter": "Max Mehl",
+    "stats": {
+      "total_messages": 20,
+      "duration_days": 175,
+      "date_range": [
+        "2026-03-06",
+        "2026-08-28"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-03-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-03-20"
+    },
+    "timeline_meta": {
+      "count": 20,
+      "first": "2026-03-06",
+      "last": "2026-08-28"
+    },
+    "latest_event": {
+      "date": "2026-08-28",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Moming Duan",
+      "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+      "sentiment": "support",
+      "point": "Shares LicenseAtlas, a review tracker built from archives covering timelines and board votes, to help the community check history and follow the process.",
+      "point_zh": "介绍基于档案构建的 LicenseAtlas 审查追踪工具，涵盖时间线和董事会投票记录，以帮助社区查询历史并跟进审查流程。"
+    }
+  },
+  "python-2-0": {
+    "id": "python-2-0",
+    "name": "Python License, Version 2",
+    "spdx_id": "Python-2.0",
+    "status": "legacy",
+    "submitter": "Max Mehl",
+    "stats": {
+      "total_messages": 20,
+      "duration_days": 175,
+      "date_range": [
+        "2026-03-06",
+        "2026-08-28"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-03-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 3,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 2,
+      "series": [],
+      "latest_text_date": "2026-03-20"
+    },
+    "timeline_meta": {
+      "count": 20,
+      "first": "2026-03-06",
+      "last": "2026-08-28"
+    },
+    "latest_event": {
+      "date": "2026-08-28",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Moming Duan",
+      "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+      "sentiment": "support",
+      "point": "Shares LicenseAtlas, a review tracker built from archives covering timelines and board votes, to help the community check history and follow the process.",
+      "point_zh": "介绍基于档案构建的 LicenseAtlas 审查追踪工具，涵盖时间线和董事会投票记录，以帮助社区查询历史并跟进审查流程。"
     }
   },
   "bsd-3-clause-open-mpi": {
@@ -4228,7 +4228,7 @@
     "id": "jam",
     "name": "JAM License",
     "spdx_id": "Jam",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Jack Hill",
     "stats": {
       "total_messages": 7,
@@ -4242,8 +4242,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2021-04-25",
-      "decision": "2021-09-17",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5422,96 +5422,6 @@
       "diff_count": 0,
       "series": [],
       "latest_text_date": "2017-06-15"
-    },
-    "timeline_meta": {
-      "count": 8,
-      "first": "2017-06-15",
-      "last": "2017-08-10"
-    },
-    "latest_event": {
-      "date": "2017-08-10",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Richard Fontana",
-      "subject": "[License-review] For Approval: Eclipse Public LIcense version\t2.0",
-      "sentiment": "neutral",
-      "point": "Announces that OSI has approved EPL 2.0 and will update the popular-licenses list to replace EPL 1.0.",
-      "point_zh": "宣布 OSI 已批准 EPL 2.0，并将更新常用许可证列表，以 EPL 2.0 取代 EPL 1.0。"
-    }
-  },
-  "qpl-1.0": {
-    "id": "qpl-1-0",
-    "name": "The Q Public License Version",
-    "spdx_id": "QPL-1.0",
-    "status": "approved",
-    "submitter": "Mike Milinkovich",
-    "stats": {
-      "total_messages": 8,
-      "duration_days": 56,
-      "date_range": [
-        "2017-06-15",
-        "2017-08-10"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2017-06-15",
-      "decision": "2017-08-09",
-      "decision_status": "approved"
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 8,
-      "first": "2017-06-15",
-      "last": "2017-08-10"
-    },
-    "latest_event": {
-      "date": "2017-08-10",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Richard Fontana",
-      "subject": "[License-review] For Approval: Eclipse Public LIcense version\t2.0",
-      "sentiment": "neutral",
-      "point": "Announces that OSI has approved EPL 2.0 and will update the popular-licenses list to replace EPL 1.0.",
-      "point_zh": "宣布 OSI 已批准 EPL 2.0，并将更新常用许可证列表，以 EPL 2.0 取代 EPL 1.0。"
-    }
-  },
-  "qpl-1-0": {
-    "id": "qpl-1-0",
-    "name": "The Q Public License Version",
-    "spdx_id": "QPL-1.0",
-    "status": "approved",
-    "submitter": "Mike Milinkovich",
-    "stats": {
-      "total_messages": 8,
-      "duration_days": 56,
-      "date_range": [
-        "2017-06-15",
-        "2017-08-10"
-      ]
-    },
-    "has_vote": true,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2017-06-15",
-      "decision": "2017-08-09",
-      "decision_status": "approved"
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
     },
     "timeline_meta": {
       "count": 8,
@@ -7366,12 +7276,12 @@
     "latest_event": {
       "date": "2008-02-01",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "Alexander Terekhov",
+      "source": "license-review",
+      "sender": "Stefano Maffulli",
       "subject": "For approval: GNU Affero General Public License",
-      "sentiment": "negative",
-      "point": "Argues AGPLv3 may not be enforceable under US copyright law, citing 17 USC 117(a)(1) and case law (Aymes v. Bonelli, Krause v. Titleserv) that grants owners the right to modify software for business needs, including over a network.",
-      "point_zh": "质疑 AGPLv3 在美国版权法下的可执行性，引用 17 USC 117(a)(1) 和判例法（Aymes v. Bonelli、Krause v. Titleserv），认为软件所有者有权为业务需求（包括通过网络）修改软件。"
+      "sentiment": "question",
+      "point": "Seeks agreement on what 'special purpose' means in OSI License Proliferation categories, arguing AGPLv3 addresses the ASP loophole just as Apache 2 addresses software patents and GPLv3 addresses internationalization.",
+      "point_zh": "希望就 OSI 许可证激增分类中「特殊用途」的定义达成一致，认为 AGPLv3 解决 ASP 漏洞正如 Apache 2 解决软件专利漏洞、GPLv3 解决国际化问题。"
     }
   },
   "agpl-3-0": {
@@ -7411,12 +7321,12 @@
     "latest_event": {
       "date": "2008-02-01",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "Alexander Terekhov",
+      "source": "license-review",
+      "sender": "Stefano Maffulli",
       "subject": "For approval: GNU Affero General Public License",
-      "sentiment": "negative",
-      "point": "Argues AGPLv3 may not be enforceable under US copyright law, citing 17 USC 117(a)(1) and case law (Aymes v. Bonelli, Krause v. Titleserv) that grants owners the right to modify software for business needs, including over a network.",
-      "point_zh": "质疑 AGPLv3 在美国版权法下的可执行性，引用 17 USC 117(a)(1) 和判例法（Aymes v. Bonelli、Krause v. Titleserv），认为软件所有者有权为业务需求（包括通过网络）修改软件。"
+      "sentiment": "question",
+      "point": "Seeks agreement on what 'special purpose' means in OSI License Proliferation categories, arguing AGPLv3 addresses the ASP loophole just as Apache 2 addresses software patents and GPLv3 addresses internationalization.",
+      "point_zh": "希望就 OSI 许可证激增分类中「特殊用途」的定义达成一致，认为 AGPLv3 解决 ASP 漏洞正如 Apache 2 解决软件专利漏洞、GPLv3 解决国际化问题。"
     }
   },
   "gpl-2.0": {
@@ -7456,12 +7366,12 @@
     "latest_event": {
       "date": "2008-02-01",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "Alexander Terekhov",
+      "source": "license-review",
+      "sender": "Stefano Maffulli",
       "subject": "For approval: GNU Affero General Public License",
-      "sentiment": "negative",
-      "point": "Argues AGPLv3 may not be enforceable under US copyright law, citing 17 USC 117(a)(1) and case law (Aymes v. Bonelli, Krause v. Titleserv) that grants owners the right to modify software for business needs, including over a network.",
-      "point_zh": "质疑 AGPLv3 在美国版权法下的可执行性，引用 17 USC 117(a)(1) 和判例法（Aymes v. Bonelli、Krause v. Titleserv），认为软件所有者有权为业务需求（包括通过网络）修改软件。"
+      "sentiment": "question",
+      "point": "Seeks agreement on what 'special purpose' means in OSI License Proliferation categories, arguing AGPLv3 addresses the ASP loophole just as Apache 2 addresses software patents and GPLv3 addresses internationalization.",
+      "point_zh": "希望就 OSI 许可证激增分类中「特殊用途」的定义达成一致，认为 AGPLv3 解决 ASP 漏洞正如 Apache 2 解决软件专利漏洞、GPLv3 解决国际化问题。"
     }
   },
   "gpl-2-0": {
@@ -7501,12 +7411,12 @@
     "latest_event": {
       "date": "2008-02-01",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "Alexander Terekhov",
+      "source": "license-review",
+      "sender": "Stefano Maffulli",
       "subject": "For approval: GNU Affero General Public License",
-      "sentiment": "negative",
-      "point": "Argues AGPLv3 may not be enforceable under US copyright law, citing 17 USC 117(a)(1) and case law (Aymes v. Bonelli, Krause v. Titleserv) that grants owners the right to modify software for business needs, including over a network.",
-      "point_zh": "质疑 AGPLv3 在美国版权法下的可执行性，引用 17 USC 117(a)(1) 和判例法（Aymes v. Bonelli、Krause v. Titleserv），认为软件所有者有权为业务需求（包括通过网络）修改软件。"
+      "sentiment": "question",
+      "point": "Seeks agreement on what 'special purpose' means in OSI License Proliferation categories, arguing AGPLv3 addresses the ASP loophole just as Apache 2 addresses software patents and GPLv3 addresses internationalization.",
+      "point_zh": "希望就 OSI 许可证激增分类中「特殊用途」的定义达成一致，认为 AGPLv3 解决 ASP 漏洞正如 Apache 2 解决软件专利漏洞、GPLv3 解决国际化问题。"
     }
   },
   "icu": {
@@ -10112,11 +10022,11 @@
       "date": "2002-10-23",
       "type": "feedback",
       "source": "license-discuss",
-      "sender": "Lewis Collard",
+      "sender": "Julian Smart",
       "subject": "discuss: Request for wxWindows License approval",
-      "sentiment": "positive",
-      "point": "Argues the wxWindows name is unlikely to create a real trademark problem and says that issue should not block OSI certification of the license.",
-      "point_zh": "主张 wxWindows 这个名称不太可能构成真正的商标问题，并表示这不应阻碍 OSI 对该许可证的认证。"
+      "sentiment": "question",
+      "point": "Asks for clarification on the trademark objection and argues that wxWindows uses \"Windows\" generically, not abusively.",
+      "point_zh": "请求澄清商标异议，并主张 wxWindows 对 “Windows” 的使用是泛指窗口系统，而非滥用该名称。"
     }
   },
   "rpl-1.1": {
@@ -10213,7 +10123,7 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
-    "status": "pending",
+    "status": "approved",
     "submitter": "Russell Nelson",
     "stats": {
       "total_messages": 9,
@@ -10228,7 +10138,7 @@
     "review_dates": {
       "first_submitted": "2002-09-23",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -10258,7 +10168,7 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
-    "status": "pending",
+    "status": "approved",
     "submitter": "Russell Nelson",
     "stats": {
       "total_messages": 9,
@@ -10273,7 +10183,7 @@
     "review_dates": {
       "first_submitted": "2002-09-23",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -11284,6 +11194,72 @@
     "id": "rpsl-1-0",
     "name": "RealNetworks Public Source License Version 1.0",
     "spdx_id": "RPSL-1.0",
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": false,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "qpl-1.0": {
+    "id": "qpl-1-0",
+    "name": "The Q Public License Version",
+    "spdx_id": "QPL-1.0",
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": false,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "qpl-1-0": {
+    "id": "qpl-1-0",
+    "name": "The Q Public License Version",
+    "spdx_id": "QPL-1.0",
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
