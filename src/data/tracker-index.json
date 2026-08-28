@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "0c472af73c29b601",
-    "index_schema_version": 4,
-    "generated_at": "2026-08-28T17:27:16.460Z",
+    "source_hash": "a008e0e61a749828",
+    "index_schema_version": 5,
+    "generated_at": "2026-08-28T17:38:53.379Z",
     "total_submissions": 253,
     "by_status": {
-      "approved": 82,
-      "rejected": 42,
-      "withdrawn": 15,
       "pending": 14,
-      "superseded": 6,
-      "legacy": 35,
+      "rejected": 47,
+      "withdrawn": 8,
+      "superseded": 3,
+      "approved": 101,
+      "legacy": 21,
       "discussion": 59
     }
   },
@@ -18,6 +18,9 @@
     "id": "openmdw-license-agreement-1-1",
     "name": "OpenMDW License Agreement, version 1.1",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)"
+    ],
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
@@ -63,6 +66,10 @@
     "id": "bos-public-license-v1-0-2",
     "name": "The BOS Public License v1.0",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: The BOS Public License v1.0 (Lucy Randall)",
+      "The BOS Public License v1.0 (Lucy Randall)"
+    ],
     "status": "pending",
     "submitter": "Lucy Ada Randall",
     "stats": {
@@ -108,6 +115,9 @@
     "id": "bos-public-license-v1-2",
     "name": "The BOS Public License v1.2",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: The BOS Public License v1.2"
+    ],
     "status": "pending",
     "submitter": "Harz Tronics",
     "stats": {
@@ -153,6 +163,9 @@
     "id": "bos-public-license-v1-0",
     "name": "The BOS Public License v1.0",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: The BOS Public License v1.0"
+    ],
     "status": "pending",
     "submitter": "Harz Tronics",
     "stats": {
@@ -198,6 +211,9 @@
     "id": "linkumori-free-license-1-0",
     "name": "Linkumori Free License, Version 1.0",
     "spdx_id": "",
+    "aliases": [
+      ": [License] Linkumori Free License, Version 1.0 – Submission for OSI Review"
+    ],
     "status": "pending",
     "submitter": "Subham Mahesh",
     "stats": {
@@ -243,6 +259,7 @@
     "id": "mutualist-license-v1-2",
     "name": "The Mutualist License (MutuaL) v1.2",
     "spdx_id": "",
+    "aliases": [],
     "status": "pending",
     "submitter": "Kat Suricata",
     "stats": {
@@ -288,6 +305,9 @@
     "id": "milenium-license-1-1",
     "name": "Milenium License 1.1",
     "spdx_id": "",
+    "aliases": [
+      "License Submission: Milenium License 1.1"
+    ],
     "status": "pending",
     "submitter": "Yiğit Hamza",
     "stats": {
@@ -333,6 +353,9 @@
     "id": "milenium-license-1-0",
     "name": "Milenium License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "License Submission: Milenium License 1.0"
+    ],
     "status": "pending",
     "submitter": "Yiğit Hamza",
     "stats": {
@@ -378,6 +401,9 @@
     "id": "submission-companionation-public-licence-1-0",
     "name": "CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
     "spdx_id": "CNPL-1.0",
+    "aliases": [
+      "[SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)"
+    ],
     "status": "pending",
     "submitter": "Drew McPherson",
     "stats": {
@@ -423,6 +449,9 @@
     "id": "submission-companionation-public-licence-1-0",
     "name": "CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
     "spdx_id": "CNPL-1.0",
+    "aliases": [
+      "[SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)"
+    ],
     "status": "pending",
     "submitter": "Drew McPherson",
     "stats": {
@@ -468,6 +497,16 @@
     "id": "modelgo-attribution-v2",
     "name": "ModelGo License Family v2.0",
     "spdx_id": "",
+    "aliases": [
+      "ModelGo Zero License v2.0",
+      "ModelGo Attribution License v2.0",
+      "ModelGo Attribution-OpenSource License v2.0",
+      "ModelGo Attribution-ShareAlike License v2.0",
+      "MG0-2.0",
+      "MG-BY-2.0",
+      "MG-BY-OS-2.0",
+      "MG-BY-SA-2.0"
+    ],
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
@@ -518,7 +557,8 @@
     "id": "public-benefit-zero-copyright",
     "name": "Public Benefit Zero Copyright License v2.0",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "pending",
     "submitter": "Wayne Thornton",
     "stats": {
       "total_messages": 20,
@@ -563,6 +603,9 @@
     "id": "mulan-public-license-v2-resubmission",
     "name": "Mulan Public License Version 2",
     "spdx_id": "",
+    "aliases": [
+      "Mulan Public License Version 2 (2024 resubmission)"
+    ],
     "status": "pending",
     "submitter": "江波",
     "stats": {
@@ -608,6 +651,9 @@
     "id": "resubmission-of-european-space-agency-public-licenses-for-approval",
     "name": "European Space Agency Public Licenses (ESA-PL)",
     "spdx_id": "",
+    "aliases": [
+      "Resubmission of the European Space Agency Public Licenses (ESA-PL) for approval"
+    ],
     "status": "pending",
     "submitter": "Carsten Gerlach",
     "stats": {
@@ -653,6 +699,7 @@
     "id": "toppers-license",
     "name": "TOPPERS License",
     "spdx_id": "",
+    "aliases": [],
     "status": "pending",
     "submitter": "Yutaka MATSUBARA",
     "stats": {
@@ -698,6 +745,10 @@
     "id": "modified-0bsd-license",
     "name": "Modified 0BSD License (Maintenance-Required)",
     "spdx_id": "",
+    "aliases": [
+      "Official Submission: Modified 0BSD License (Maintenance-Required)",
+      "Modified 0BSD Standard License (Maintenance Required)"
+    ],
     "status": "rejected",
     "submitter": "Vicentte Felipe",
     "stats": {
@@ -743,6 +794,10 @@
     "id": "modified-0bsd-license-2",
     "name": "Modified 0BSD License (Maintenance-Required)",
     "spdx_id": "",
+    "aliases": [
+      "License Review: Modified 0BSD License (Maintenance-Required)",
+      "Modified 0BSD Standard License (Maintenance Required)"
+    ],
     "status": "rejected",
     "submitter": "Vicentte Felipe",
     "stats": {
@@ -788,6 +843,10 @@
     "id": "open-source-copyleft-license-v1-0-2",
     "name": "Open Source Copyleft License (OSCL) v1.0",
     "spdx_id": "OSCL-1.0",
+    "aliases": [
+      "Submission: Open Source Copyleft License (OSCL) v1.0",
+      "Open Source Copyleft License 1.0"
+    ],
     "status": "rejected",
     "submitter": "Timofey Zakharcuk",
     "stats": {
@@ -833,6 +892,10 @@
     "id": "open-source-copyleft-license-v1-0-2",
     "name": "Open Source Copyleft License (OSCL) v1.0",
     "spdx_id": "OSCL-1.0",
+    "aliases": [
+      "Submission: Open Source Copyleft License (OSCL) v1.0",
+      "Open Source Copyleft License 1.0"
+    ],
     "status": "rejected",
     "submitter": "Timofey Zakharcuk",
     "stats": {
@@ -878,6 +941,10 @@
     "id": "open-source-copyleft-license-v1-0",
     "name": "Open Source Copyleft License (OSCL) v1.0",
     "spdx_id": "",
+    "aliases": [
+      "Revised Submission: Open Source Copyleft License (OSCL) v1.0",
+      "Open Source Copyleft License 1.0"
+    ],
     "status": "rejected",
     "submitter": "Timofey Zakharcuk",
     "stats": {
@@ -923,6 +990,10 @@
     "id": "free-archive-license-1-0",
     "name": "Free Archive License 1.0",
     "spdx_id": "FARCL-1.0",
+    "aliases": [
+      "Free Archive License",
+      "FARCL-1.0"
+    ],
     "status": "rejected",
     "submitter": "Bauti el cyerborg Shitpost",
     "stats": {
@@ -968,6 +1039,10 @@
     "id": "free-archive-license-1-0",
     "name": "Free Archive License 1.0",
     "spdx_id": "FARCL-1.0",
+    "aliases": [
+      "Free Archive License",
+      "FARCL-1.0"
+    ],
     "status": "rejected",
     "submitter": "Bauti el cyerborg Shitpost",
     "stats": {
@@ -1013,6 +1088,11 @@
     "id": "project-tick-general-public-license-v2-for-osi-license-review",
     "name": "Project Tick General Public License v2",
     "spdx_id": "",
+    "aliases": [
+      "Submission: Project Tick General Public License v2 for OSI License Review",
+      "Project Tick GPL",
+      "Project Tick General Public License v2 for OSI License Review"
+    ],
     "status": "rejected",
     "submitter": "M.samet Duman",
     "stats": {
@@ -1058,6 +1138,10 @@
     "id": "idciymi-1-0",
     "name": "IDCIYMI-1.0 (I Don't Care If You Mod It)",
     "spdx_id": "",
+    "aliases": [
+      "License Review: IDCIYMI-1.0 (I Don't Care If You Mod It)",
+      "IDCIYMI-1.0"
+    ],
     "status": "rejected",
     "submitter": "PTFS",
     "stats": {
@@ -1103,6 +1187,9 @@
     "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
     "name": "Orivex Syscall Note License",
     "spdx_id": "OSN-1.0",
+    "aliases": [
+      "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval"
+    ],
     "status": "rejected",
     "submitter": "Righteousness",
     "stats": {
@@ -1148,6 +1235,9 @@
     "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
     "name": "Orivex Syscall Note License",
     "spdx_id": "OSN-1.0",
+    "aliases": [
+      "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval"
+    ],
     "status": "rejected",
     "submitter": "Righteousness",
     "stats": {
@@ -1193,7 +1283,8 @@
     "id": "3d-slicer-license",
     "name": "3D Slicer License",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Steve Pieper",
     "stats": {
       "total_messages": 44,
@@ -1208,7 +1299,7 @@
     "review_dates": {
       "first_submitted": "2021-05-27",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 1,
@@ -1238,6 +1329,7 @@
     "id": "ritchey-permissive-license",
     "name": "Ritchey Permissive License v11",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Ritchey",
     "stats": {
@@ -1283,7 +1375,8 @@
     "id": "open-source-social-network",
     "name": "Open Source Social Network License 1.0",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Informatikon Technologies",
     "stats": {
       "total_messages": 35,
@@ -1298,7 +1391,7 @@
     "review_dates": {
       "first_submitted": "2020-03-25",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 1,
@@ -1328,6 +1421,7 @@
     "id": "vaccine-license",
     "name": "The Vaccine License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Travis Hance",
     "stats": {
@@ -1373,7 +1467,8 @@
     "id": "whonix-gpl-additional-terms",
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
-    "status": "superseded",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1388,7 +1483,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -1418,6 +1513,7 @@
     "id": "twente-license",
     "name": "Twente License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Anand Chowdhary",
     "stats": {
@@ -1463,6 +1559,7 @@
     "id": "c-fsl-v1-3",
     "name": "Convertible Free Software License v1.3 (C-FSL v1.3)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Elmar Stellnberger",
     "stats": {
@@ -1508,7 +1605,8 @@
     "id": "libpng-v2",
     "name": "PNG Reference Library License v2.0 (libpng v2)",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Cosmin Truta",
     "stats": {
       "total_messages": 14,
@@ -1523,7 +1621,7 @@
     "review_dates": {
       "first_submitted": "2018-11-05",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 4,
@@ -1553,6 +1651,7 @@
     "id": "c-fsl-v1-1",
     "name": "Convertible Free Software License v1.1 (C-FSL v1.1)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Elmar Stellnberger",
     "stats": {
@@ -1598,6 +1697,7 @@
     "id": "yetiforce-public-license-v3",
     "name": "YetiForce Public License v3",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Paulina Walenczak",
     "stats": {
@@ -1643,6 +1743,7 @@
     "id": "zentao-public-license",
     "name": "ZENTAO PUBLIC LICENSE",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Chunsheng Wang",
     "stats": {
@@ -1688,6 +1789,7 @@
     "id": "moritz30-license",
     "name": "Moritz30-Projects Open Source License v1",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Matthias Merkel",
     "stats": {
@@ -1733,7 +1835,8 @@
     "id": "nccl",
     "name": "Non-Coercive Copyleft Licence (NCCL) 1.0",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Sam Tuke",
     "stats": {
       "total_messages": 38,
@@ -1748,7 +1851,7 @@
     "review_dates": {
       "first_submitted": "2015-07-20",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -1778,6 +1881,7 @@
     "id": "scripting-fsl-v1-3-6",
     "name": "Scripting Free Software License v1.3.6 (S-FSL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Elmar Stellnberger",
     "stats": {
@@ -1823,6 +1927,7 @@
     "id": "scripting-fsl-v1-3-5",
     "name": "Scripting Free Software License v1.3.5 (S-FSL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Elmar Stellnberger",
     "stats": {
@@ -1868,6 +1973,7 @@
     "id": "tidepool-open-access",
     "name": "Tidepool Open Access to Health Data Software License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Howard Look",
     "stats": {
@@ -1913,6 +2019,7 @@
     "id": "mosl",
     "name": "Modular Open-source Software License (MOSL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Niklas Saers",
     "stats": {
@@ -1958,7 +2065,8 @@
     "id": "svoboda",
     "name": "Svoboda License",
     "spdx_id": "",
-    "status": "withdrawn",
+    "aliases": [],
+    "status": "rejected",
     "submitter": "Daniel Pono Takamori",
     "stats": {
       "total_messages": 24,
@@ -1973,7 +2081,7 @@
     "review_dates": {
       "first_submitted": "2012-05-20",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -2003,6 +2111,10 @@
     "id": "python-license-changes",
     "name": "Python License Changes",
     "spdx_id": "",
+    "aliases": [
+      "Python-2.0 Modification Proposal (2011)",
+      "PSF Python License Revision"
+    ],
     "status": "rejected",
     "submitter": "VanL",
     "stats": {
@@ -2048,6 +2160,7 @@
     "id": "netx-public-license",
     "name": "netX Public License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Christian Solmecke",
     "stats": {
@@ -2093,6 +2206,9 @@
     "id": "webm-license",
     "name": "WebM License",
     "spdx_id": "",
+    "aliases": [
+      "WebM License (third-party submission)"
+    ],
     "status": "rejected",
     "submitter": "Third-Party Submitter",
     "stats": {
@@ -2138,6 +2254,7 @@
     "id": "mxm-public-license",
     "name": "MXM Public License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Maximiliano Pin",
     "stats": {
@@ -2183,6 +2300,7 @@
     "id": "transitive-grace-period",
     "name": "Transitive Grace Period Public Licence v1.0",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Michael Rogers",
     "stats": {
@@ -2228,6 +2346,7 @@
     "id": "beer-ware-license",
     "name": "The Beer-Ware License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Third-Party Submitter",
     "stats": {
@@ -2273,6 +2392,7 @@
     "id": "open-source-hardware-license",
     "name": "Open Source Hardware License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Jamey Hicks",
     "stats": {
@@ -2318,6 +2438,7 @@
     "id": "educational-community-license-1",
     "name": "Educational Community License 1.0",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Christopher D. Coppola",
     "stats": {
@@ -2363,6 +2484,7 @@
     "id": "socialtext-public-license",
     "name": "Socialtext Public License (STPL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Ross Mayfield",
     "stats": {
@@ -2408,6 +2530,7 @@
     "id": "generic-attribution-provision",
     "name": "Generic Attribution Provision",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Danese Cooper",
     "stats": {
@@ -2453,6 +2576,7 @@
     "id": "broad-institute-public-license",
     "name": "Broad Institute Public License (BIPL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Rory Pheiffer",
     "stats": {
@@ -2498,6 +2622,7 @@
     "id": "truecrypt-collective-license",
     "name": "TrueCrypt Collective License v2.0",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "TrueCrypt developers",
     "stats": {
@@ -2543,6 +2668,7 @@
     "id": "mindtree-public-license",
     "name": "MindTree Public License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Shahnawaz Khan",
     "stats": {
@@ -2588,6 +2714,7 @@
     "id": "academic-citing-license",
     "name": "Academic Citing License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Johannes Kaiser",
     "stats": {
@@ -2633,6 +2760,7 @@
     "id": "nasa-osa-1-1",
     "name": "NASA Open Source Agreement Version 1.1",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "NASA",
     "stats": {
@@ -2678,6 +2806,7 @@
     "id": "open-source-software-alliance",
     "name": "Open Source Software Alliance License (OSSAL)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Sean Eric Fagan",
     "stats": {
@@ -2723,6 +2852,7 @@
     "id": "bxapl",
     "name": "BXAPL",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Unknown",
     "stats": {
@@ -2768,6 +2898,7 @@
     "id": "apossl",
     "name": "APOSSL (Anti-Piracy Open Source Software License)",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Dave Sag",
     "stats": {
@@ -2813,6 +2944,7 @@
     "id": "qmail-license",
     "name": "qmail License",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Third-Party Submitter",
     "stats": {
@@ -2858,6 +2990,11 @@
     "id": "dolby-atmos-vision-foss-license-1-0",
     "name": "Dolby ATMOS/Vision FOSS License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "Dolby Atmos/Vision FOSS License 1.0",
+      "Dolby ATMOS License",
+      "Dolby Vision License"
+    ],
     "status": "rejected",
     "submitter": "Unknown",
     "stats": {
@@ -2891,6 +3028,7 @@
     "id": "license-as-this-is-a-translation-of-isc-license-which-is-already-approved",
     "name": "Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
     "spdx_id": "",
+    "aliases": [],
     "status": "rejected",
     "submitter": "Unknown",
     "stats": {
@@ -2924,6 +3062,7 @@
     "id": "ai-mit-license",
     "name": "AI-MIT License 1.0",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Nik",
     "stats": {
@@ -2969,6 +3108,11 @@
     "id": "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl",
     "name": "Barrer Free Software License (BFSL)",
     "spdx_id": "",
+    "aliases": [
+      "Barrer Open Source License (BOSL)",
+      "Barrer Software License (BSL)",
+      "Withdrawal of License Submission - Barrer Free Software License (BFSL) formerly BOSL and BSL"
+    ],
     "status": "withdrawn",
     "submitter": "Barrer Software Legal",
     "stats": {
@@ -3014,6 +3158,9 @@
     "id": "license-review-qmdeve-license-1-0",
     "name": "QmDeve License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "[License-Review] QmDeve License 1.0"
+    ],
     "status": "withdrawn",
     "submitter": "QmDeve",
     "stats": {
@@ -3059,6 +3206,7 @@
     "id": "oin-license",
     "name": "Open Innovation License (OIN)",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Andrew Nassief",
     "stats": {
@@ -3104,6 +3252,7 @@
     "id": "sspl-v2",
     "name": "Server Side Public License, Version 2 (SSPL v2)",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Eliot Horowitz",
     "stats": {
@@ -3149,6 +3298,7 @@
     "id": "sspl-v1",
     "name": "Server Side Public License, Version 1 (SSPL v1)",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Eliot Horowitz",
     "stats": {
@@ -3194,6 +3344,7 @@
     "id": "license-zero-reciprocal-rewrite",
     "name": "License Zero Reciprocal Public License (Rewrite)",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Kyle Mitchell",
     "stats": {
@@ -3239,6 +3390,7 @@
     "id": "license-zero-reciprocal",
     "name": "License Zero Reciprocal Public License (L0-R)",
     "spdx_id": "",
+    "aliases": [],
     "status": "withdrawn",
     "submitter": "Kyle Mitchell",
     "stats": {
@@ -3284,6 +3436,7 @@
     "id": "open-logistics-v1-2",
     "name": "Open Logistics License v1.2",
     "spdx_id": "",
+    "aliases": [],
     "status": "superseded",
     "submitter": "Open Logistics Foundation",
     "stats": {
@@ -3329,6 +3482,7 @@
     "id": "cal-beta-2",
     "name": "Cryptographic Autonomy License (CAL) Beta 2",
     "spdx_id": "",
+    "aliases": [],
     "status": "superseded",
     "submitter": "Van Lindsay",
     "stats": {
@@ -3374,7 +3528,11 @@
     "id": "cal-original",
     "name": "Cryptographic Autonomy License (CAL) - Original Draft",
     "spdx_id": "",
-    "status": "rejected",
+    "aliases": [
+      "Cryptographic Autonomy License Version 1.0",
+      "Cryptographic Autonomy License v1.0"
+    ],
+    "status": "superseded",
     "submitter": "Van Lindsay",
     "stats": {
       "total_messages": 163,
@@ -3388,8 +3546,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-04-22",
-      "decision": "2019-08-15",
-      "decision_status": "rejected"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -3419,7 +3577,10 @@
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
     "spdx_id": "CNRI-Python",
-    "status": "legacy",
+    "aliases": [
+      "Submission: CNRI-Python-GPL-Compatible"
+    ],
+    "status": "approved",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3433,8 +3594,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 2,
@@ -3464,7 +3625,12 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "superseded",
+    "aliases": [
+      "Submission: Python-2.0.1",
+      "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+      "Python-2.0.1 and CNRI-Python-GPL-Compatible"
+    ],
+    "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -3478,8 +3644,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-08-21",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -3509,7 +3675,12 @@
     "id": "python-2-0",
     "name": "Python License, Version 2",
     "spdx_id": "Python-2.0",
-    "status": "superseded",
+    "aliases": [
+      "Submission: Python-2.0.1",
+      "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+      "Python-2.0.1 and CNRI-Python-GPL-Compatible"
+    ],
+    "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -3523,8 +3694,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-08-21",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -3554,6 +3725,9 @@
     "id": "bsd-3-clause-open-mpi",
     "name": "BSD-3-Clause-Open-MPI",
     "spdx_id": "BSD-3-Clause-Open-MPI",
+    "aliases": [
+      "License Approval Request: BSD-3-Clause-Open-MPI"
+    ],
     "status": "approved",
     "submitter": "McCoy Smith",
     "stats": {
@@ -3599,6 +3773,9 @@
     "id": "bsd-3-clause",
     "name": "The 3-Clause BSD License",
     "spdx_id": "BSD-3-Clause",
+    "aliases": [
+      "License Approval Request: BSD-3-Clause-Open-MPI"
+    ],
     "status": "approved",
     "submitter": "McCoy Smith",
     "stats": {
@@ -3644,7 +3821,10 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "legacy",
+    "aliases": [
+      "Legacy license suggestion: CDDL 1.1"
+    ],
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3658,8 +3838,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -3689,7 +3869,10 @@
     "id": "cddl-1-1",
     "name": "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)",
     "spdx_id": "CDDL-1.1",
-    "status": "legacy",
+    "aliases": [
+      "Legacy license suggestion: CDDL 1.1"
+    ],
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3703,8 +3886,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -3734,7 +3917,10 @@
     "id": "wordnet",
     "name": "WordNet",
     "spdx_id": "WordNet",
-    "status": "legacy",
+    "aliases": [
+      "Legacy license suggestion: WordNet"
+    ],
+    "status": "approved",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3748,8 +3934,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-04-30",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2025-07-18",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -3779,6 +3965,9 @@
     "id": "osc-1-0",
     "name": "OSC License 1.0",
     "spdx_id": "OSC-1.0",
+    "aliases": [
+      "Request for a new license review [Luther-LAW_DE.FID5237501]"
+    ],
     "status": "approved",
     "submitter": "Langenheim, Niccolo",
     "stats": {
@@ -3824,6 +4013,9 @@
     "id": "osc-1-0",
     "name": "OSC License 1.0",
     "spdx_id": "OSC-1.0",
+    "aliases": [
+      "Request for a new license review [Luther-LAW_DE.FID5237501]"
+    ],
     "status": "approved",
     "submitter": "Langenheim, Niccolo",
     "stats": {
@@ -3869,7 +4061,10 @@
     "id": "los-alamos-national-labs-bsd-3-variant",
     "name": "Los Alamos National Labs BSD-3 Variant",
     "spdx_id": "",
-    "status": "legacy",
+    "aliases": [
+      "Los Alamos National Labs BSD-3 Variant License Approval"
+    ],
+    "status": "approved",
     "submitter": "Pettinger, Adam L",
     "stats": {
       "total_messages": 9,
@@ -3883,8 +4078,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2024-06-26",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2024-09-20",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -3914,6 +4109,9 @@
     "id": "mit-cmu",
     "name": "CMU License",
     "spdx_id": "MIT-CMU",
+    "aliases": [
+      "MIT-CMU license for Python Pillow"
+    ],
     "status": "approved",
     "submitter": "Jeffrey Clark",
     "stats": {
@@ -3959,6 +4157,9 @@
     "id": "blueoak-1-0-0",
     "name": "Blue Oak Model License",
     "spdx_id": "BlueOak-1.0.0",
+    "aliases": [
+      "[new license] Blue Oak Model License 1.0.0"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -4004,6 +4205,9 @@
     "id": "blueoak-1-0-0",
     "name": "Blue Oak Model License",
     "spdx_id": "BlueOak-1.0.0",
+    "aliases": [
+      "[new license] Blue Oak Model License 1.0.0"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -4049,6 +4253,9 @@
     "id": "unicode-3-0",
     "name": "UNICODE LICENSE V3",
     "spdx_id": "Unicode-3.0",
+    "aliases": [
+      "Request for Approval: Unicode License v3; Request for \"Retirement\": Unicode Inc License Agreement-Data Files and Software"
+    ],
     "status": "approved",
     "submitter": "McCoy Smith",
     "stats": {
@@ -4094,6 +4301,9 @@
     "id": "unicode-3-0",
     "name": "UNICODE LICENSE V3",
     "spdx_id": "Unicode-3.0",
+    "aliases": [
+      "Request for Approval: Unicode License v3; Request for \"Retirement\": Unicode Inc License Agreement-Data Files and Software"
+    ],
     "status": "approved",
     "submitter": "McCoy Smith",
     "stats": {
@@ -4139,6 +4349,9 @@
     "id": "olfl-1-3",
     "name": "Open Logistics Foundation License v1.3",
     "spdx_id": "OLFL-1.3",
+    "aliases": [
+      "For Approval: Open Logistics License v1.3"
+    ],
     "status": "approved",
     "submitter": "Andreas Nettsträter",
     "stats": {
@@ -4184,6 +4397,9 @@
     "id": "olfl-1-3",
     "name": "Open Logistics Foundation License v1.3",
     "spdx_id": "OLFL-1.3",
+    "aliases": [
+      "For Approval: Open Logistics License v1.3"
+    ],
     "status": "approved",
     "submitter": "Andreas Nettsträter",
     "stats": {
@@ -4229,7 +4445,10 @@
     "id": "jam",
     "name": "JAM License",
     "spdx_id": "Jam",
-    "status": "legacy",
+    "aliases": [
+      "Legacy Approval, Licnese of Jam"
+    ],
+    "status": "approved",
     "submitter": "Jack Hill",
     "stats": {
       "total_messages": 7,
@@ -4243,8 +4462,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2021-04-25",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2021-09-17",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -4274,6 +4493,9 @@
     "id": "zpl-2-1",
     "name": "Zope Public License 2.1",
     "spdx_id": "ZPL-2.1",
+    "aliases": [
+      "For Legacy Approval: Zope Public License v2.1"
+    ],
     "status": "approved",
     "submitter": "Jens Vagelpohl",
     "stats": {
@@ -4319,6 +4541,9 @@
     "id": "zpl-2-1",
     "name": "Zope Public License 2.1",
     "spdx_id": "ZPL-2.1",
+    "aliases": [
+      "For Legacy Approval: Zope Public License v2.1"
+    ],
     "status": "approved",
     "submitter": "Jens Vagelpohl",
     "stats": {
@@ -4364,6 +4589,9 @@
     "id": "cern-ohl-s-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
     "spdx_id": "CERN-OHL-S-2.0 ",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4409,6 +4637,9 @@
     "id": "cern-ohl-s-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
     "spdx_id": "CERN-OHL-S-2.0 ",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4454,6 +4685,9 @@
     "id": "cern-ohl-w-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
     "spdx_id": "CERN-OHL-W-2.0",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4499,6 +4733,9 @@
     "id": "cern-ohl-w-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
     "spdx_id": "CERN-OHL-W-2.0",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4544,6 +4781,9 @@
     "id": "cern-ohl-p-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Permissive",
     "spdx_id": "CERN-OHL-P-2.0",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4589,6 +4829,9 @@
     "id": "cern-ohl-p-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Permissive",
     "spdx_id": "CERN-OHL-P-2.0",
+    "aliases": [
+      "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
+    ],
     "status": "approved",
     "submitter": "Andrew Katz",
     "stats": {
@@ -4634,6 +4877,9 @@
     "id": "mit-0",
     "name": "MIT No Attribution License",
     "spdx_id": "MIT-0",
+    "aliases": [
+      "Request for Legacy Approval of MIT No Attribution License"
+    ],
     "status": "approved",
     "submitter": "Tobie Langel",
     "stats": {
@@ -4679,6 +4925,9 @@
     "id": "unlicense",
     "name": "The Unlicense",
     "spdx_id": "Unlicense",
+    "aliases": [
+      "Request for legacy approval: The Unlicense"
+    ],
     "status": "approved",
     "submitter": "Steffen Jaeckel",
     "stats": {
@@ -4724,6 +4973,9 @@
     "id": "php-3-01",
     "name": "PHP License 3.01",
     "spdx_id": "PHP-3.01",
+    "aliases": [
+      "Request for Legacy Approval of PHP License 3.01"
+    ],
     "status": "approved",
     "submitter": "Ben Ramsey",
     "stats": {
@@ -4769,6 +5021,9 @@
     "id": "php-3-01",
     "name": "PHP License 3.01",
     "spdx_id": "PHP-3.01",
+    "aliases": [
+      "Request for Legacy Approval of PHP License 3.01"
+    ],
     "status": "approved",
     "submitter": "Ben Ramsey",
     "stats": {
@@ -4814,6 +5069,9 @@
     "id": "bsd-1-clause",
     "name": "1-clause BSD License",
     "spdx_id": "BSD-1-Clause",
+    "aliases": [
+      "New legacy license for approval: BSD-1-Clause"
+    ],
     "status": "approved",
     "submitter": "Pedro Giffuni",
     "stats": {
@@ -4859,6 +5117,9 @@
     "id": "cal-1-0",
     "name": "Cryptographic Autonomy License",
     "spdx_id": "CAL-1.0",
+    "aliases": [
+      "For approval: The Cryptographic Autonomy License (Beta 4)"
+    ],
     "status": "approved",
     "submitter": "Van Lindberg",
     "stats": {
@@ -4904,6 +5165,9 @@
     "id": "cal-1-0",
     "name": "Cryptographic Autonomy License",
     "spdx_id": "CAL-1.0",
+    "aliases": [
+      "For approval: The Cryptographic Autonomy License (Beta 4)"
+    ],
     "status": "approved",
     "submitter": "Van Lindberg",
     "stats": {
@@ -4949,6 +5213,9 @@
     "id": "mulanpsl-2-0",
     "name": "Mulan Permissive Software License v2",
     "spdx_id": "MulanPSL-2.0",
+    "aliases": [
+      "[license review] Mulan PSL V1"
+    ],
     "status": "approved",
     "submitter": "Zhou Minghui",
     "stats": {
@@ -4994,6 +5261,9 @@
     "id": "mulanpsl-2-0",
     "name": "Mulan Permissive Software License v2",
     "spdx_id": "MulanPSL-2.0",
+    "aliases": [
+      "[license review] Mulan PSL V1"
+    ],
     "status": "approved",
     "submitter": "Zhou Minghui",
     "stats": {
@@ -5039,7 +5309,10 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "legacy",
+    "aliases": [
+      "For Legacy Approval: OpenLDAP Public License"
+    ],
+    "status": "approved",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5053,8 +5326,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-09-20",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -5084,7 +5357,10 @@
     "id": "oldap-2-8",
     "name": "OpenLDAP Public License Version 2.8",
     "spdx_id": "OLDAP-2.8",
-    "status": "legacy",
+    "aliases": [
+      "For Legacy Approval: OpenLDAP Public License"
+    ],
+    "status": "approved",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5098,8 +5374,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-09-20",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -5129,7 +5405,10 @@
     "id": "bsd-3-clause-lbnl",
     "name": "Lawrence Berkeley National Labs BSD Variant License",
     "spdx_id": "BSD-3-Clause-LBNL",
-    "status": "legacy",
+    "aliases": [
+      "For Legacy Approval: LBNL BSD"
+    ],
+    "status": "approved",
     "submitter": "Sebastian Ainslie",
     "stats": {
       "total_messages": 7,
@@ -5143,8 +5422,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-05-16",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-06-14",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -5174,7 +5453,10 @@
     "id": "spl-1-0",
     "name": "Sun Public License, Version 1.0",
     "spdx_id": "SPL-1.0",
-    "status": "pending",
+    "aliases": [
+      "Approval: Server Side Public License, Version 1 (SSPL v1)"
+    ],
+    "status": "approved",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5189,7 +5471,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -5219,7 +5501,10 @@
     "id": "spl-1-0",
     "name": "Sun Public License, Version 1.0",
     "spdx_id": "SPL-1.0",
-    "status": "pending",
+    "aliases": [
+      "Approval: Server Side Public License, Version 1 (SSPL v1)"
+    ],
+    "status": "approved",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5234,7 +5519,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -5264,7 +5549,10 @@
     "id": "unicode-dfs-2016",
     "name": "Unicode, Inc. License Agreement - Data Files and Software",
     "spdx_id": "Unicode-DFS-2016",
-    "status": "legacy",
+    "aliases": [
+      "Request for Legacy Approval: Unicode Data Files and Software License"
+    ],
+    "status": "approved",
     "submitter": "Sascha Brawer",
     "stats": {
       "total_messages": 8,
@@ -5278,8 +5566,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2017-11-29",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2018-04-30",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -5309,6 +5597,9 @@
     "id": "w3c-20150513",
     "name": "The W3C® Software and Document license",
     "spdx_id": "W3C-20150513",
+    "aliases": [
+      "For Approval: W3C Software and Document License"
+    ],
     "status": "approved",
     "submitter": "Wendy Seltzer",
     "stats": {
@@ -5354,6 +5645,9 @@
     "id": "epl-2-0",
     "name": "Eclipse Public License version 2.0",
     "spdx_id": "EPL-2.0",
+    "aliases": [
+      "For Approval: Eclipse Public LIcense version 2.0"
+    ],
     "status": "approved",
     "submitter": "Mike Milinkovich",
     "stats": {
@@ -5399,6 +5693,9 @@
     "id": "epl-2-0",
     "name": "Eclipse Public License version 2.0",
     "spdx_id": "EPL-2.0",
+    "aliases": [
+      "For Approval: Eclipse Public LIcense version 2.0"
+    ],
     "status": "approved",
     "submitter": "Mike Milinkovich",
     "stats": {
@@ -5444,6 +5741,9 @@
     "id": "eupl-1-2",
     "name": "European Union Public Licence, version 1.2",
     "spdx_id": "EUPL-1.2",
+    "aliases": [
+      "EUPL v1.2"
+    ],
     "status": "approved",
     "submitter": "Patrice-Emmanuel Schmitz",
     "stats": {
@@ -5489,6 +5789,9 @@
     "id": "eupl-1-2",
     "name": "European Union Public Licence, version 1.2",
     "spdx_id": "EUPL-1.2",
+    "aliases": [
+      "EUPL v1.2"
+    ],
     "status": "approved",
     "submitter": "Patrice-Emmanuel Schmitz",
     "stats": {
@@ -5534,6 +5837,9 @@
     "id": "ucl-1-0",
     "name": "Upstream Compatibility License v1.0",
     "spdx_id": "UCL-1.0",
+    "aliases": [
+      "Submission of the Upstream Compatibility License v1.0 (UCL-1.0) for approval"
+    ],
     "status": "approved",
     "submitter": "Nigel T",
     "stats": {
@@ -5579,6 +5885,9 @@
     "id": "ucl-1-0",
     "name": "Upstream Compatibility License v1.0",
     "spdx_id": "UCL-1.0",
+    "aliases": [
+      "Submission of the Upstream Compatibility License v1.0 (UCL-1.0) for approval"
+    ],
     "status": "approved",
     "submitter": "Nigel T",
     "stats": {
@@ -5624,6 +5933,9 @@
     "id": "bsd-2-clause-patent",
     "name": "BSD+Patent",
     "spdx_id": "BSD-2-Clause-Patent",
+    "aliases": [
+      "Approval: BSD + Patent License"
+    ],
     "status": "approved",
     "submitter": "McCoy Smith",
     "stats": {
@@ -5669,6 +5981,9 @@
     "id": "liliq-rplus-1-1",
     "name": "Licence Libre du Québec – Réciprocité forte version 1.1",
     "spdx_id": "LiLiQ-Rplus-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5714,6 +6029,9 @@
     "id": "liliq-rplus-1-1",
     "name": "Licence Libre du Québec – Réciprocité forte version 1.1",
     "spdx_id": "LiLiQ-Rplus-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5759,6 +6077,9 @@
     "id": "liliq-r-1-1",
     "name": "Licence Libre du Québec – Réciprocité version 1.1",
     "spdx_id": "LiLiQ-R-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5804,6 +6125,9 @@
     "id": "liliq-r-1-1",
     "name": "Licence Libre du Québec – Réciprocité version 1.1",
     "spdx_id": "LiLiQ-R-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5849,6 +6173,9 @@
     "id": "liliq-p-1-1",
     "name": "Licence Libre du Québec – Permissive  version 1.1",
     "spdx_id": "LiLiQ-P-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5894,6 +6221,9 @@
     "id": "liliq-p-1-1",
     "name": "Licence Libre du Québec – Permissive  version 1.1",
     "spdx_id": "LiLiQ-P-1.1",
+    "aliases": [
+      "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
+    ],
     "status": "approved",
     "submitter": "Simon Johnson-Bégin",
     "stats": {
@@ -5939,6 +6269,9 @@
     "id": "oset-pl-2-1",
     "name": "OSET Public License version 2.1",
     "spdx_id": "OSET-PL-2.1",
+    "aliases": [
+      "Submission of OSET Public License for Approval"
+    ],
     "status": "approved",
     "submitter": "Heather Meeker",
     "stats": {
@@ -5984,6 +6317,9 @@
     "id": "oset-pl-2-1",
     "name": "OSET Public License version 2.1",
     "spdx_id": "OSET-PL-2.1",
+    "aliases": [
+      "Submission of OSET Public License for Approval"
+    ],
     "status": "approved",
     "submitter": "Heather Meeker",
     "stats": {
@@ -6029,6 +6365,9 @@
     "id": "0bsd",
     "name": "Zero-Clause BSD",
     "spdx_id": "0BSD",
+    "aliases": [
+      "Approval Request: Free Public License 1.0.0"
+    ],
     "status": "approved",
     "submitter": "Christian Bundy",
     "stats": {
@@ -6074,7 +6413,10 @@
     "id": "ecos-2-0",
     "name": "eCos License version 2.0",
     "spdx_id": "eCos-2.0",
-    "status": "legacy",
+    "aliases": [
+      "For Legacy Approval: eCos License version 2.0"
+    ],
+    "status": "approved",
     "submitter": "John Dallaway",
     "stats": {
       "total_messages": 7,
@@ -6088,8 +6430,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2014-08-29",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2015-09-09",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -6119,7 +6461,10 @@
     "id": "ecos-2-0",
     "name": "eCos License version 2.0",
     "spdx_id": "eCos-2.0",
-    "status": "legacy",
+    "aliases": [
+      "For Legacy Approval: eCos License version 2.0"
+    ],
+    "status": "approved",
     "submitter": "John Dallaway",
     "stats": {
       "total_messages": 7,
@@ -6133,8 +6478,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2014-08-29",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2015-09-09",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -6164,6 +6509,9 @@
     "id": "upl-1-0",
     "name": "The Universal Permissive License Version 1.0",
     "spdx_id": "UPL-1.0",
+    "aliases": [
+      "Request for Approval of Universal Permissive License (UPL)"
+    ],
     "status": "approved",
     "submitter": "Jim Wright",
     "stats": {
@@ -6209,6 +6557,9 @@
     "id": "upl-1-0",
     "name": "The Universal Permissive License Version 1.0",
     "spdx_id": "UPL-1.0",
+    "aliases": [
+      "Request for Approval of Universal Permissive License (UPL)"
+    ],
     "status": "approved",
     "submitter": "Jim Wright",
     "stats": {
@@ -6254,6 +6605,9 @@
     "id": "cecill-2-1",
     "name": "Cea Cnrs Inria Logiciel Libre License, version 2.1",
     "spdx_id": "CECILL-2.1",
+    "aliases": [
+      "CeCILL license V2.1 for Approval"
+    ],
     "status": "approved",
     "submitter": "Patrick Moreau",
     "stats": {
@@ -6299,6 +6653,9 @@
     "id": "cecill-2-1",
     "name": "Cea Cnrs Inria Logiciel Libre License, version 2.1",
     "spdx_id": "CECILL-2.1",
+    "aliases": [
+      "CeCILL license V2.1 for Approval"
+    ],
     "status": "approved",
     "submitter": "Patrick Moreau",
     "stats": {
@@ -6344,6 +6701,9 @@
     "id": "mpl-2-0",
     "name": "Mozilla Public License 2.0",
     "spdx_id": "MPL-2.0",
+    "aliases": [
+      "MPL Release Candidate 1- formal request for OSI approval"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -6389,6 +6749,9 @@
     "id": "mpl-2-0",
     "name": "Mozilla Public License 2.0",
     "spdx_id": "MPL-2.0",
+    "aliases": [
+      "MPL Release Candidate 1- formal request for OSI approval"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -6434,7 +6797,10 @@
     "id": "intel",
     "name": "Intel Open Source License",
     "spdx_id": "Intel",
-    "status": "superseded",
+    "aliases": [
+      "New OSL for \"official Intelligence\""
+    ],
+    "status": "approved",
     "submitter": "David Smith",
     "stats": {
       "total_messages": 6,
@@ -6449,7 +6815,7 @@
     "review_dates": {
       "first_submitted": "2011-04-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -6479,6 +6845,9 @@
     "id": "mpl-1-1",
     "name": "Mozilla Public License 1.1",
     "spdx_id": "MPL-1.1",
+    "aliases": [
+      "Mozilla Public License 2 Alpha 3; request for early review prior to formal submission for approval"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -6524,6 +6893,9 @@
     "id": "mpl-1-1",
     "name": "Mozilla Public License 1.1",
     "spdx_id": "MPL-1.1",
+    "aliases": [
+      "Mozilla Public License 2 Alpha 3; request for early review prior to formal submission for approval"
+    ],
     "status": "approved",
     "submitter": "Luis Villa",
     "stats": {
@@ -6569,6 +6941,9 @@
     "id": "zlib",
     "name": "The zlib/libpng License",
     "spdx_id": "Zlib",
+    "aliases": [
+      "Including a ZLib third-party source code in a Modified BSD Licensed Project"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -6614,6 +6989,9 @@
     "id": "postgresql",
     "name": "The PostgreSQL License",
     "spdx_id": "PostgreSQL",
+    "aliases": [
+      "Legacy approval request - BSD license (PostgreSQL variant)"
+    ],
     "status": "approved",
     "submitter": "Dave Page",
     "stats": {
@@ -6659,6 +7037,9 @@
     "id": "lppl-1-3c",
     "name": "LaTeX Project Public License, Version 1.3c",
     "spdx_id": "LPPL-1.3c",
+    "aliases": [
+      "Request for Legacy Approval for the LaTeX Project Public Licence"
+    ],
     "status": "approved",
     "submitter": "Will Robertson",
     "stats": {
@@ -6704,6 +7085,9 @@
     "id": "lppl-1-3c",
     "name": "LaTeX Project Public License, Version 1.3c",
     "spdx_id": "LPPL-1.3c",
+    "aliases": [
+      "Request for Legacy Approval for the LaTeX Project Public Licence"
+    ],
     "status": "approved",
     "submitter": "Will Robertson",
     "stats": {
@@ -6749,6 +7133,9 @@
     "id": "osl-3-0",
     "name": "The Open Software License 3.0",
     "spdx_id": "OSL-3.0",
+    "aliases": [
+      "For Approval 36 Open Software License Request"
+    ],
     "status": "approved",
     "submitter": "Renzo Verleysen",
     "stats": {
@@ -6794,6 +7181,9 @@
     "id": "osl-3-0",
     "name": "The Open Software License 3.0",
     "spdx_id": "OSL-3.0",
+    "aliases": [
+      "For Approval 36 Open Software License Request"
+    ],
     "status": "approved",
     "submitter": "Renzo Verleysen",
     "stats": {
@@ -6839,6 +7229,9 @@
     "id": "ipa",
     "name": "IPA Font License",
     "spdx_id": "IPA",
+    "aliases": [
+      "For Approval: IPA Font License v1.0"
+    ],
     "status": "approved",
     "submitter": "Yuko Noguchi",
     "stats": {
@@ -6884,6 +7277,9 @@
     "id": "ofl-1-1",
     "name": "SIL OPEN FONT LICENSE",
     "spdx_id": "OFL-1.1",
+    "aliases": [
+      "For approval: SIL Open Font License 1.1"
+    ],
     "status": "approved",
     "submitter": "Yuko Noguchi",
     "stats": {
@@ -6929,6 +7325,9 @@
     "id": "ofl-1-1",
     "name": "SIL OPEN FONT LICENSE",
     "spdx_id": "OFL-1.1",
+    "aliases": [
+      "For approval: SIL Open Font License 1.1"
+    ],
     "status": "approved",
     "submitter": "Yuko Noguchi",
     "stats": {
@@ -6974,7 +7373,10 @@
     "id": "artistic-1-0",
     "name": "Artistic License 1.0",
     "spdx_id": "Artistic-1.0",
-    "status": "superseded",
+    "aliases": [
+      "REMOVE (entirely) the Artistic License 1.0?"
+    ],
+    "status": "approved",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -6988,8 +7390,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2007-06-05",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -7019,7 +7421,10 @@
     "id": "artistic-1-0",
     "name": "Artistic License 1.0",
     "spdx_id": "Artistic-1.0",
-    "status": "superseded",
+    "aliases": [
+      "REMOVE (entirely) the Artistic License 1.0?"
+    ],
+    "status": "approved",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -7033,8 +7438,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2007-06-05",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -7064,6 +7469,9 @@
     "id": "miros",
     "name": "MirOS Licence",
     "spdx_id": "MirOS",
+    "aliases": [
+      "For (Legacy?) Approval: The MirOS Licence"
+    ],
     "status": "approved",
     "submitter": "Thorsten Glaser",
     "stats": {
@@ -7109,6 +7517,9 @@
     "id": "eupl-1-1",
     "name": "The European Union Public License, version 1.1",
     "spdx_id": "EUPL-1.1",
+    "aliases": [
+      "Request for approval: EUPL (European Union Public Licence)"
+    ],
     "status": "approved",
     "submitter": "Patrice-Emmanuel Schmitz",
     "stats": {
@@ -7154,6 +7565,9 @@
     "id": "eupl-1-1",
     "name": "The European Union Public License, version 1.1",
     "spdx_id": "EUPL-1.1",
+    "aliases": [
+      "Request for approval: EUPL (European Union Public Licence)"
+    ],
     "status": "approved",
     "submitter": "Patrice-Emmanuel Schmitz",
     "stats": {
@@ -7199,6 +7613,9 @@
     "id": "ntp",
     "name": "NTP License",
     "spdx_id": "NTP",
+    "aliases": [
+      "request for Legacy Approval of the NTP License"
+    ],
     "status": "approved",
     "submitter": "Harlan Stenn",
     "stats": {
@@ -7244,6 +7661,9 @@
     "id": "agpl-3-0",
     "name": "GNU Affero General Public License version 3",
     "spdx_id": "AGPL-3.0",
+    "aliases": [
+      "For approval: GNU Affero General Public License"
+    ],
     "status": "approved",
     "submitter": "Stefano Maffulli",
     "stats": {
@@ -7289,6 +7709,9 @@
     "id": "agpl-3-0",
     "name": "GNU Affero General Public License version 3",
     "spdx_id": "AGPL-3.0",
+    "aliases": [
+      "For approval: GNU Affero General Public License"
+    ],
     "status": "approved",
     "submitter": "Stefano Maffulli",
     "stats": {
@@ -7334,6 +7757,9 @@
     "id": "gpl-2-0",
     "name": "GNU General Public License version 2",
     "spdx_id": "GPL-2.0",
+    "aliases": [
+      "For approval: GNU Affero General Public License"
+    ],
     "status": "approved",
     "submitter": "Stefano Maffulli",
     "stats": {
@@ -7379,6 +7805,9 @@
     "id": "gpl-2-0",
     "name": "GNU General Public License version 2",
     "spdx_id": "GPL-2.0",
+    "aliases": [
+      "For approval: GNU Affero General Public License"
+    ],
     "status": "approved",
     "submitter": "Stefano Maffulli",
     "stats": {
@@ -7424,6 +7853,9 @@
     "id": "icu",
     "name": "ICU License",
     "spdx_id": "ICU",
+    "aliases": [
+      "Æsthetic Permissive License - For Approval"
+    ],
     "status": "approved",
     "submitter": "Jeff Johnson",
     "stats": {
@@ -7469,6 +7901,9 @@
     "id": "isc",
     "name": "ISC License",
     "spdx_id": "ISC",
+    "aliases": [
+      "Æsthetic Permissive License - For Approval"
+    ],
     "status": "approved",
     "submitter": "Harlan Stenn",
     "stats": {
@@ -7514,6 +7949,9 @@
     "id": "mit",
     "name": "The MIT License",
     "spdx_id": "MIT",
+    "aliases": [
+      "Æsthetic Permissive License - For Approval"
+    ],
     "status": "approved",
     "submitter": "Sean B. Palmer",
     "stats": {
@@ -7559,7 +7997,10 @@
     "id": "multics",
     "name": "Multics License",
     "spdx_id": "Multics",
-    "status": "legacy",
+    "aliases": [
+      "FOR APPROVAL: The license of Multics"
+    ],
+    "status": "approved",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 6,
@@ -7573,8 +8014,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2007-11-14",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2008-01-08",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -7604,6 +8045,9 @@
     "id": "frameworx-1-0",
     "name": "Frameworx License 1.0",
     "spdx_id": "Frameworx-1.0",
+    "aliases": [
+      "Frameworx license clause 3b"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -7649,6 +8093,9 @@
     "id": "frameworx-1-0",
     "name": "Frameworx License 1.0",
     "spdx_id": "Frameworx-1.0",
+    "aliases": [
+      "Frameworx license clause 3b"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -7694,6 +8141,9 @@
     "id": "ms-pl",
     "name": "Microsoft Public License",
     "spdx_id": "MS-PL",
+    "aliases": [
+      "For Approval: Microsoft Public License"
+    ],
     "status": "approved",
     "submitter": "Jon Rosenberg",
     "stats": {
@@ -7739,6 +8189,9 @@
     "id": "bsl-1-0",
     "name": "Boost Software License 1.0",
     "spdx_id": "BSL-1.0",
+    "aliases": [
+      "For Approval: Boost Software License - Version 1.0 - August 17th, 2003"
+    ],
     "status": "approved",
     "submitter": "Alexander Terekhov",
     "stats": {
@@ -7784,6 +8237,9 @@
     "id": "bsl-1-0",
     "name": "Boost Software License 1.0",
     "spdx_id": "BSL-1.0",
+    "aliases": [
+      "For Approval: Boost Software License - Version 1.0 - August 17th, 2003"
+    ],
     "status": "approved",
     "submitter": "Alexander Terekhov",
     "stats": {
@@ -7829,6 +8285,9 @@
     "id": "nposl-3-0",
     "name": "Non-Profit Open Software License version 3.0",
     "spdx_id": "NPOSL-3.0",
+    "aliases": [
+      "For Approval: Non-Profit OSL 3.0"
+    ],
     "status": "approved",
     "submitter": "Lawrence Rosen",
     "stats": {
@@ -7874,6 +8333,9 @@
     "id": "nposl-3-0",
     "name": "Non-Profit Open Software License version 3.0",
     "spdx_id": "NPOSL-3.0",
+    "aliases": [
+      "For Approval: Non-Profit OSL 3.0"
+    ],
     "status": "approved",
     "submitter": "Lawrence Rosen",
     "stats": {
@@ -7919,6 +8381,9 @@
     "id": "rpl-1-5",
     "name": "Reciprocal Public License 1.5",
     "spdx_id": "RPL-1.5",
+    "aliases": [
+      "For Approval: Reciprocal Public License 1.5 (upgrade)"
+    ],
     "status": "approved",
     "submitter": "William J. Edney",
     "stats": {
@@ -7964,6 +8429,9 @@
     "id": "rpl-1-5",
     "name": "Reciprocal Public License 1.5",
     "spdx_id": "RPL-1.5",
+    "aliases": [
+      "For Approval: Reciprocal Public License 1.5 (upgrade)"
+    ],
     "status": "approved",
     "submitter": "William J. Edney",
     "stats": {
@@ -8009,6 +8477,9 @@
     "id": "lgpl-3-0",
     "name": "GNU Lesser General Public License version 3",
     "spdx_id": "LGPL-3.0",
+    "aliases": [
+      "Submitting GPLv3 and LGPLv3 for OSI inclusion."
+    ],
     "status": "approved",
     "submitter": "Chris DiBona",
     "stats": {
@@ -8054,6 +8525,9 @@
     "id": "lgpl-3-0",
     "name": "GNU Lesser General Public License version 3",
     "spdx_id": "LGPL-3.0",
+    "aliases": [
+      "Submitting GPLv3 and LGPLv3 for OSI inclusion."
+    ],
     "status": "approved",
     "submitter": "Chris DiBona",
     "stats": {
@@ -8099,6 +8573,9 @@
     "id": "gpl-3-0",
     "name": "GNU General Public License version 3",
     "spdx_id": "GPL-3.0",
+    "aliases": [
+      "Submitting GPLv3 and LGPLv3 for OSI inclusion."
+    ],
     "status": "approved",
     "submitter": "Chris DiBona",
     "stats": {
@@ -8144,6 +8621,9 @@
     "id": "gpl-3-0",
     "name": "GNU General Public License version 3",
     "spdx_id": "GPL-3.0",
+    "aliases": [
+      "Submitting GPLv3 and LGPLv3 for OSI inclusion."
+    ],
     "status": "approved",
     "submitter": "Chris DiBona",
     "stats": {
@@ -8189,6 +8669,9 @@
     "id": "cpal-1-0",
     "name": "Common Public Attribution License Version 1.0",
     "spdx_id": "CPAL-1.0",
+    "aliases": [
+      "For Approval: Common Public Attribution License (CPAL)"
+    ],
     "status": "approved",
     "submitter": "Ross Mayfield",
     "stats": {
@@ -8234,6 +8717,9 @@
     "id": "cpal-1-0",
     "name": "Common Public Attribution License Version 1.0",
     "spdx_id": "CPAL-1.0",
+    "aliases": [
+      "For Approval: Common Public Attribution License (CPAL)"
+    ],
     "status": "approved",
     "submitter": "Ross Mayfield",
     "stats": {
@@ -8279,6 +8765,9 @@
     "id": "ecl-2-0",
     "name": "Educational Community License, Version 2.0",
     "spdx_id": "ECL-2.0",
+    "aliases": [
+      "For Approval: ECL 2.0"
+    ],
     "status": "approved",
     "submitter": "Christopher D. Coppola",
     "stats": {
@@ -8324,6 +8813,9 @@
     "id": "ecl-2-0",
     "name": "Educational Community License, Version 2.0",
     "spdx_id": "ECL-2.0",
+    "aliases": [
+      "For Approval: ECL 2.0"
+    ],
     "status": "approved",
     "submitter": "Christopher D. Coppola",
     "stats": {
@@ -8369,6 +8861,9 @@
     "id": "simpl-2-0",
     "name": "Simple Public License",
     "spdx_id": "SimPL-2.0",
+    "aliases": [
+      "For Approval: Simple Public License (SimPL)"
+    ],
     "status": "approved",
     "submitter": "Jim Sfekas",
     "stats": {
@@ -8414,6 +8909,9 @@
     "id": "simpl-2-0",
     "name": "Simple Public License",
     "spdx_id": "SimPL-2.0",
+    "aliases": [
+      "For Approval: Simple Public License (SimPL)"
+    ],
     "status": "approved",
     "submitter": "Jim Sfekas",
     "stats": {
@@ -8459,6 +8957,9 @@
     "id": "artistic-2-0",
     "name": "Artistic License 2.0",
     "spdx_id": "Artistic-2.0",
+    "aliases": [
+      "For Approval: Artistic License 2.0"
+    ],
     "status": "approved",
     "submitter": "Allison Randal",
     "stats": {
@@ -8504,6 +9005,9 @@
     "id": "artistic-2-0",
     "name": "Artistic License 2.0",
     "spdx_id": "Artistic-2.0",
+    "aliases": [
+      "For Approval: Artistic License 2.0"
+    ],
     "status": "approved",
     "submitter": "Allison Randal",
     "stats": {
@@ -8549,6 +9053,9 @@
     "id": "ms-rl",
     "name": "Microsoft Reciprocal License",
     "spdx_id": "MS-RL",
+    "aliases": [
+      "For Approval: Microsoft Permissive License"
+    ],
     "status": "approved",
     "submitter": "Rick Moen",
     "stats": {
@@ -8594,6 +9101,9 @@
     "id": "cddl-1-0",
     "name": "Common Development and Distribution License 1.0",
     "spdx_id": "CDDL-1.0",
+    "aliases": [
+      "For Approval: Common Development and Distribution License (CDDL)"
+    ],
     "status": "approved",
     "submitter": "Claire Giordano",
     "stats": {
@@ -8639,6 +9149,9 @@
     "id": "cddl-1-0",
     "name": "Common Development and Distribution License 1.0",
     "spdx_id": "CDDL-1.0",
+    "aliases": [
+      "For Approval: Common Development and Distribution License (CDDL)"
+    ],
     "status": "approved",
     "submitter": "Claire Giordano",
     "stats": {
@@ -8684,6 +9197,9 @@
     "id": "ipl-1-0",
     "name": "IBM Public License Version 1.0",
     "spdx_id": "IPL-1.0",
+    "aliases": [
+      "The IBM Public License"
+    ],
     "status": "approved",
     "submitter": "Daniel Wallace",
     "stats": {
@@ -8729,6 +9245,9 @@
     "id": "ipl-1-0",
     "name": "IBM Public License Version 1.0",
     "spdx_id": "IPL-1.0",
+    "aliases": [
+      "The IBM Public License"
+    ],
     "status": "approved",
     "submitter": "Daniel Wallace",
     "stats": {
@@ -8774,6 +9293,9 @@
     "id": "sleepycat",
     "name": "The Sleepycat License",
     "spdx_id": "Sleepycat",
+    "aliases": [
+      "Sleepycat license"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -8819,6 +9341,9 @@
     "id": "osl-2-1",
     "name": "Open Software License 2.1",
     "spdx_id": "OSL-2.1",
+    "aliases": [
+      "OSL/AFL version 2.1 submitted for approval"
+    ],
     "status": "approved",
     "submitter": "Lawrence E. Rosen",
     "stats": {
@@ -8864,6 +9389,9 @@
     "id": "osl-2-1",
     "name": "Open Software License 2.1",
     "spdx_id": "OSL-2.1",
+    "aliases": [
+      "OSL/AFL version 2.1 submitted for approval"
+    ],
     "status": "approved",
     "submitter": "Lawrence E. Rosen",
     "stats": {
@@ -8909,6 +9437,9 @@
     "id": "nasa-1-3",
     "name": "NASA Open Source Agreement v1.3",
     "spdx_id": "NASA-1.3",
+    "aliases": [
+      "For approval: NOSA version 1.3 now posted on the web"
+    ],
     "status": "approved",
     "submitter": "Robert Padilla",
     "stats": {
@@ -8954,6 +9485,9 @@
     "id": "nasa-1-3",
     "name": "NASA Open Source Agreement v1.3",
     "spdx_id": "NASA-1.3",
+    "aliases": [
+      "For approval: NOSA version 1.3 now posted on the web"
+    ],
     "status": "approved",
     "submitter": "Robert Padilla",
     "stats": {
@@ -8999,6 +9533,9 @@
     "id": "epl-1-0",
     "name": "Eclipse Public License -v 1.0",
     "spdx_id": "EPL-1.0",
+    "aliases": [
+      "For Approval: Eclipse Public License - v 1.0"
+    ],
     "status": "approved",
     "submitter": "Philip Ma",
     "stats": {
@@ -9044,6 +9581,9 @@
     "id": "epl-1-0",
     "name": "Eclipse Public License -v 1.0",
     "spdx_id": "EPL-1.0",
+    "aliases": [
+      "For Approval: Eclipse Public License - v 1.0"
+    ],
     "status": "approved",
     "submitter": "Philip Ma",
     "stats": {
@@ -9089,6 +9629,9 @@
     "id": "apache-2-0",
     "name": "Apache License, Version 2.0",
     "spdx_id": "Apache-2.0",
+    "aliases": [
+      "apache license 2.0 for consideration"
+    ],
     "status": "approved",
     "submitter": "Kevin Coar",
     "stats": {
@@ -9134,6 +9677,9 @@
     "id": "apache-2-0",
     "name": "Apache License, Version 2.0",
     "spdx_id": "Apache-2.0",
+    "aliases": [
+      "apache license 2.0 for consideration"
+    ],
     "status": "approved",
     "submitter": "Kevin Coar",
     "stats": {
@@ -9179,6 +9725,9 @@
     "id": "fair",
     "name": "Fair License",
     "spdx_id": "Fair",
+    "aliases": [
+      "For Approval: Fair License"
+    ],
     "status": "approved",
     "submitter": "James William Pye",
     "stats": {
@@ -9224,7 +9773,10 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "withdrawn",
+    "aliases": [
+      "For Approval: CUA Office Public License"
+    ],
+    "status": "approved",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9238,8 +9790,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2018-10-10",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -9269,7 +9821,10 @@
     "id": "cua-opl-1-0",
     "name": "CUA Office Public License",
     "spdx_id": "CUA-OPL-1.0",
-    "status": "withdrawn",
+    "aliases": [
+      "For Approval: CUA Office Public License"
+    ],
+    "status": "approved",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9283,8 +9838,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2018-10-10",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -9314,6 +9869,9 @@
     "id": "lpl-1-02",
     "name": "Lucent Public License Version 1.02",
     "spdx_id": "LPL-1.02",
+    "aliases": [
+      "For Approval: Lucent Public License Version 1.02"
+    ],
     "status": "approved",
     "submitter": "David Presotto",
     "stats": {
@@ -9359,6 +9917,9 @@
     "id": "lpl-1-02",
     "name": "Lucent Public License Version 1.02",
     "spdx_id": "LPL-1.02",
+    "aliases": [
+      "For Approval: Lucent Public License Version 1.02"
+    ],
     "status": "approved",
     "submitter": "David Presotto",
     "stats": {
@@ -9404,6 +9965,9 @@
     "id": "eudatagrid",
     "name": "EU DataGrid Software License",
     "spdx_id": "EUDatagrid",
+    "aliases": [
+      "For Approval: EU DataGrid Software License"
+    ],
     "status": "approved",
     "submitter": "Bob Jones",
     "stats": {
@@ -9449,6 +10013,9 @@
     "id": "apsl-2-0",
     "name": "Apple Public Source License 2.0",
     "spdx_id": "APSL-2.0",
+    "aliases": [
+      "Apple Public Source License 2.0 submitted for OSI approval"
+    ],
     "status": "approved",
     "submitter": "Ernest Pabhakar",
     "stats": {
@@ -9494,6 +10061,9 @@
     "id": "apsl-2-0",
     "name": "Apple Public Source License 2.0",
     "spdx_id": "APSL-2.0",
+    "aliases": [
+      "Apple Public Source License 2.0 submitted for OSI approval"
+    ],
     "status": "approved",
     "submitter": "Ernest Pabhakar",
     "stats": {
@@ -9539,6 +10109,9 @@
     "id": "php-3-0",
     "name": "PHP License 3.0",
     "spdx_id": "PHP-3.0",
+    "aliases": [
+      "Official approval for the PHP License v3.0"
+    ],
     "status": "approved",
     "submitter": "Rasmus Lerdorf",
     "stats": {
@@ -9584,6 +10157,9 @@
     "id": "php-3-0",
     "name": "PHP License 3.0",
     "spdx_id": "PHP-3.0",
+    "aliases": [
+      "Official approval for the PHP License v3.0"
+    ],
     "status": "approved",
     "submitter": "Rasmus Lerdorf",
     "stats": {
@@ -9629,6 +10205,9 @@
     "id": "apl-1-0",
     "name": "Adaptive Public License 1.0",
     "spdx_id": "APL-1.0",
+    "aliases": [
+      "For Approval: Adaptive Public License"
+    ],
     "status": "approved",
     "submitter": "Carmen Leeming",
     "stats": {
@@ -9674,6 +10253,9 @@
     "id": "apl-1-0",
     "name": "Adaptive Public License 1.0",
     "spdx_id": "APL-1.0",
+    "aliases": [
+      "For Approval: Adaptive Public License"
+    ],
     "status": "approved",
     "submitter": "Carmen Leeming",
     "stats": {
@@ -9719,6 +10301,9 @@
     "id": "entessa",
     "name": "Entessa Public License Version. 1.0",
     "spdx_id": "Entessa",
+    "aliases": [
+      "discuss: Entessa Public License Version, 1.0 (EPL)"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -9764,7 +10349,10 @@
     "id": "lpl-1-0",
     "name": "Lucent Public License, Plan 9, version 1.0",
     "spdx_id": "LPL-1.0",
-    "status": "legacy",
+    "aliases": [
+      "discuss: Lucent Public License 1.0"
+    ],
+    "status": "approved",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -9779,7 +10367,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -9809,7 +10397,10 @@
     "id": "lpl-1-0",
     "name": "Lucent Public License, Plan 9, version 1.0",
     "spdx_id": "LPL-1.0",
-    "status": "legacy",
+    "aliases": [
+      "discuss: Lucent Public License 1.0"
+    ],
+    "status": "approved",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -9824,7 +10415,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -9854,6 +10445,9 @@
     "id": "efl-2-0",
     "name": "Eiffel Forum License, Version 2",
     "spdx_id": "EFL-2.0",
+    "aliases": [
+      "discuss: Eiffel Forum License version 2"
+    ],
     "status": "approved",
     "submitter": "Christian Couder",
     "stats": {
@@ -9899,6 +10493,9 @@
     "id": "efl-2-0",
     "name": "Eiffel Forum License, Version 2",
     "spdx_id": "EFL-2.0",
+    "aliases": [
+      "discuss: Eiffel Forum License version 2"
+    ],
     "status": "approved",
     "submitter": "Christian Couder",
     "stats": {
@@ -9944,6 +10541,9 @@
     "id": "hpnd",
     "name": "Historical Permission Notice and Disclaimer",
     "spdx_id": "HPND",
+    "aliases": [
+      "discuss: approval request: \"Historical Permission Notice and Disclaimer\""
+    ],
     "status": "approved",
     "submitter": "Bruce Dodson",
     "stats": {
@@ -9989,7 +10589,10 @@
     "id": "wxwindows",
     "name": "The wxWindows Library Licence",
     "spdx_id": "wxWindows",
-    "status": "legacy",
+    "aliases": [
+      "discuss: Request for wxWindows License approval"
+    ],
+    "status": "approved",
     "submitter": "Julian Smart",
     "stats": {
       "total_messages": 7,
@@ -10004,7 +10607,7 @@
     "review_dates": {
       "first_submitted": "2002-10-22",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -10034,6 +10637,9 @@
     "id": "rpl-1-1",
     "name": "Reciprocal Public License, version 1.1",
     "spdx_id": "RPL-1.1",
+    "aliases": [
+      "RPL version 1.1"
+    ],
     "status": "approved",
     "submitter": "Randall Burns",
     "stats": {
@@ -10079,6 +10685,9 @@
     "id": "rpl-1-1",
     "name": "Reciprocal Public License, version 1.1",
     "spdx_id": "RPL-1.1",
+    "aliases": [
+      "RPL version 1.1"
+    ],
     "status": "approved",
     "submitter": "Randall Burns",
     "stats": {
@@ -10124,6 +10733,9 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
+    "aliases": [
+      "discuss: OCLC Office of Research Open Source License"
+    ],
     "status": "approved",
     "submitter": "Russell Nelson",
     "stats": {
@@ -10169,6 +10781,9 @@
     "id": "oclc-2-0",
     "name": "The OCLC Research Public License 2.0 License",
     "spdx_id": "OCLC-2.0",
+    "aliases": [
+      "discuss: OCLC Office of Research Open Source License"
+    ],
     "status": "approved",
     "submitter": "Russell Nelson",
     "stats": {
@@ -10214,6 +10829,9 @@
     "id": "sissl",
     "name": "Sun Industry Standards Source License",
     "spdx_id": "SISSL",
+    "aliases": [
+      "Differences between LGPL and SISSL ?"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -10259,6 +10877,9 @@
     "id": "osl-1-0",
     "name": "Open Software License, version 1.0",
     "spdx_id": "OSL-1.0",
+    "aliases": [
+      "Open Software License version 1.0"
+    ],
     "status": "approved",
     "submitter": "Lawrence E. Rosen",
     "stats": {
@@ -10304,6 +10925,9 @@
     "id": "osl-1-0",
     "name": "Open Software License, version 1.0",
     "spdx_id": "OSL-1.0",
+    "aliases": [
+      "Open Software License version 1.0"
+    ],
     "status": "approved",
     "submitter": "Lawrence E. Rosen",
     "stats": {
@@ -10349,6 +10973,9 @@
     "id": "afl-3-0",
     "name": "Academic Free License v. 3.0",
     "spdx_id": "AFL-3.0",
+    "aliases": [
+      "Academic Free License"
+    ],
     "status": "approved",
     "submitter": "Lawrence Rosen",
     "stats": {
@@ -10394,6 +11021,9 @@
     "id": "afl-3-0",
     "name": "Academic Free License v. 3.0",
     "spdx_id": "AFL-3.0",
+    "aliases": [
+      "Academic Free License"
+    ],
     "status": "approved",
     "submitter": "Lawrence Rosen",
     "stats": {
@@ -10439,7 +11069,10 @@
     "id": "aal",
     "name": "Attribution Assurance License",
     "spdx_id": "AAL",
-    "status": "legacy",
+    "aliases": [
+      "Discuss: \"Attribution Assurance License\""
+    ],
+    "status": "approved",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 2,
@@ -10454,7 +11087,7 @@
     "review_dates": {
       "first_submitted": "2002-05-13",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -10484,6 +11117,9 @@
     "id": "ncsa",
     "name": "The University of Illinois/NCSA Open Source License",
     "spdx_id": "NCSA",
+    "aliases": [
+      "NCSA Open Source License"
+    ],
     "status": "approved",
     "submitter": "Unknown",
     "stats": {
@@ -10529,6 +11165,9 @@
     "id": "xnet",
     "name": "The X.Net, Inc. License",
     "spdx_id": "Xnet",
+    "aliases": [
+      "X.Net, Inc. License"
+    ],
     "status": "approved",
     "submitter": "Carl W. Brown - Russell Nelson",
     "stats": {
@@ -10574,7 +11213,10 @@
     "id": "motosoto",
     "name": "Motosoto Open Source License",
     "spdx_id": "Motosoto",
-    "status": "legacy",
+    "aliases": [
+      "Request for approval - MOSL"
+    ],
+    "status": "approved",
     "submitter": "Leon Gommans",
     "stats": {
       "total_messages": 1,
@@ -10589,7 +11231,7 @@
     "review_dates": {
       "first_submitted": "2001-04-23",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -10619,6 +11261,9 @@
     "id": "zpl-2-0",
     "name": "Zope Public License 2.0",
     "spdx_id": "ZPL-2.0",
+    "aliases": [
+      "FYI: New revision of the Zope Public License"
+    ],
     "status": "approved",
     "submitter": "Gregor Hoffleit",
     "stats": {
@@ -10664,6 +11309,9 @@
     "id": "zpl-2-0",
     "name": "Zope Public License 2.0",
     "spdx_id": "ZPL-2.0",
+    "aliases": [
+      "FYI: New revision of the Zope Public License"
+    ],
     "status": "approved",
     "submitter": "Gregor Hoffleit",
     "stats": {
@@ -10709,6 +11357,9 @@
     "id": "cpl-1-0",
     "name": "Common Public License Version 1.0",
     "spdx_id": "CPL-1.0",
+    "aliases": [
+      "Common Public License (IBM)"
+    ],
     "status": "approved",
     "submitter": "Dan Streetman, Steve Gerdt",
     "stats": {
@@ -10754,6 +11405,9 @@
     "id": "cpl-1-0",
     "name": "Common Public License Version 1.0",
     "spdx_id": "CPL-1.0",
+    "aliases": [
+      "Common Public License (IBM)"
+    ],
     "status": "approved",
     "submitter": "Dan Streetman, Steve Gerdt",
     "stats": {
@@ -10799,6 +11453,7 @@
     "id": "lgpl-2-0",
     "name": "GNU Library General Public License version 2",
     "spdx_id": "LGPL-2.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10832,6 +11487,7 @@
     "id": "lgpl-2-0",
     "name": "GNU Library General Public License version 2",
     "spdx_id": "LGPL-2.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10865,6 +11521,7 @@
     "id": "artistic-1-0-perl",
     "name": "Artistic License (Perl) 1.0",
     "spdx_id": "Artistic-1.0-Perl",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10898,6 +11555,7 @@
     "id": "artistic-1-0-perl",
     "name": "Artistic License (Perl) 1.0",
     "spdx_id": "Artistic-1.0-Perl",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10931,6 +11589,7 @@
     "id": "gpl-1-0",
     "name": "GNU General Public License, version 1",
     "spdx_id": "GPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10964,6 +11623,7 @@
     "id": "gpl-1-0",
     "name": "GNU General Public License, version 1",
     "spdx_id": "GPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -10997,6 +11657,7 @@
     "id": "vsl-1-0",
     "name": "The Vovida Software License v. 1.0",
     "spdx_id": "VSL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11030,6 +11691,7 @@
     "id": "vsl-1-0",
     "name": "The Vovida Software License v. 1.0",
     "spdx_id": "VSL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11063,6 +11725,7 @@
     "id": "watcom-1-0",
     "name": "The Sybase Open Source Licence",
     "spdx_id": "Watcom-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11096,6 +11759,7 @@
     "id": "watcom-1-0",
     "name": "The Sybase Open Source Licence",
     "spdx_id": "Watcom-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11129,6 +11793,7 @@
     "id": "rscpl",
     "name": "The Ricoh Source Code Public License",
     "spdx_id": "RSCPL",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11162,6 +11827,7 @@
     "id": "rpsl-1-0",
     "name": "RealNetworks Public Source License Version 1.0",
     "spdx_id": "RPSL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11195,6 +11861,7 @@
     "id": "rpsl-1-0",
     "name": "RealNetworks Public Source License Version 1.0",
     "spdx_id": "RPSL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11228,6 +11895,7 @@
     "id": "qpl-1-0",
     "name": "The Q Public License Version",
     "spdx_id": "QPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11261,6 +11929,7 @@
     "id": "qpl-1-0",
     "name": "The Q Public License Version",
     "spdx_id": "QPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11294,6 +11963,7 @@
     "id": "ogtsl",
     "name": "Open Group Test Suite License",
     "spdx_id": "OGTSL",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11327,6 +11997,7 @@
     "id": "nokia",
     "name": "Nokia Open Source License Version 1.0a",
     "spdx_id": "NOKIA",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11360,6 +12031,7 @@
     "id": "ngpl",
     "name": "The Nethack General Public License",
     "spdx_id": "NGPL",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11393,6 +12065,7 @@
     "id": "naumen",
     "name": "NAUMEN Public License",
     "spdx_id": "Naumen",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11426,6 +12099,7 @@
     "id": "mpl-1-0",
     "name": "Mozilla Public License, version 1.0",
     "spdx_id": "MPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11459,6 +12133,7 @@
     "id": "mpl-1-0",
     "name": "Mozilla Public License, version 1.0",
     "spdx_id": "MPL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11492,6 +12167,7 @@
     "id": "cvw",
     "name": "MITRE Collaborative Virtual Workspace License",
     "spdx_id": "",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11525,6 +12201,7 @@
     "id": "jabberpl",
     "name": "Jabber Open Source License",
     "spdx_id": "",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11558,6 +12235,7 @@
     "id": "lgpl-2-1",
     "name": "GNU Lesser General Public License version 2.1",
     "spdx_id": "LGPL-2.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11591,6 +12269,7 @@
     "id": "lgpl-2-1",
     "name": "GNU Lesser General Public License version 2.1",
     "spdx_id": "LGPL-2.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11624,6 +12303,7 @@
     "id": "efl-1-0",
     "name": "Eiffel Forum License, version 1",
     "spdx_id": "EFL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11657,6 +12337,7 @@
     "id": "efl-1-0",
     "name": "Eiffel Forum License, version 1",
     "spdx_id": "EFL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11690,6 +12371,7 @@
     "id": "ecl-1-0",
     "name": "Educational Community License, Version 1.0",
     "spdx_id": "ECL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11723,6 +12405,7 @@
     "id": "ecl-1-0",
     "name": "Educational Community License, Version 1.0",
     "spdx_id": "ECL-1.0",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11756,6 +12439,7 @@
     "id": "catosl-1-1",
     "name": "Computer Associates Trusted Open Source License 1.1",
     "spdx_id": "CATOSL-1.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11789,6 +12473,7 @@
     "id": "catosl-1-1",
     "name": "Computer Associates Trusted Open Source License 1.1",
     "spdx_id": "CATOSL-1.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11822,6 +12507,7 @@
     "id": "bsd-2-clause",
     "name": "The 2-Clause BSD License",
     "spdx_id": "BSD-2-Clause",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11855,6 +12541,7 @@
     "id": "apache-1-1",
     "name": "Apache Software License, version 1.1",
     "spdx_id": "Apache-1.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11888,6 +12575,7 @@
     "id": "apache-1-1",
     "name": "Apache Software License, version 1.1",
     "spdx_id": "Apache-1.1",
+    "aliases": [],
     "status": "legacy",
     "submitter": "Unknown",
     "stats": {
@@ -11921,6 +12609,9 @@
     "id": "discussion-ace-license",
     "name": "ACE License",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: ACE License"
+    ],
     "status": "discussion",
     "submitter": "Ken Sedgwick",
     "stats": {
@@ -11966,6 +12657,9 @@
     "id": "discussion-alternate-route-open-source-license",
     "name": "Alternate Route Open Source License",
     "spdx_id": "",
+    "aliases": [
+      "Request for Open Source License Approval"
+    ],
     "status": "discussion",
     "submitter": "Brice, Richard",
     "stats": {
@@ -12011,6 +12705,9 @@
     "id": "discussion-at-t-source-code-agreement",
     "name": "AT&T Source Code Agreement",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: AT&T Source Code Agreement"
+    ],
     "status": "discussion",
     "submitter": "Stephen C. North",
     "stats": {
@@ -12056,6 +12753,9 @@
     "id": "discussion-bento-poetic-license",
     "name": "Bento Poetic License",
     "spdx_id": "",
+    "aliases": [
+      "License Submission"
+    ],
     "status": "discussion",
     "submitter": "Michael St . Hippolyte",
     "stats": {
@@ -12101,6 +12801,9 @@
     "id": "discussion-bsd-license-with-express-disclaimer-of-noninfringement-added",
     "name": "BSD License (with express disclaimer of noninfringement added)",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: BSD License (with express disclaimer of noninfringement added)"
+    ],
     "status": "discussion",
     "submitter": "Sarah Pritchard",
     "stats": {
@@ -12146,6 +12849,9 @@
     "id": "discussion-cephira-public-license",
     "name": "Cephira Public License",
     "spdx_id": "",
+    "aliases": [
+      "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0"
+    ],
     "status": "discussion",
     "submitter": "Zooko",
     "stats": {
@@ -12191,6 +12897,9 @@
     "id": "discussion-compiere-open-source-license",
     "name": "Compiere Open Source License",
     "spdx_id": "",
+    "aliases": [
+      "FW: Compiere Open Source License Approval"
+    ],
     "status": "discussion",
     "submitter": "Jorg Janke",
     "stats": {
@@ -12236,6 +12945,9 @@
     "id": "discussion-copyback-license",
     "name": "Copyback License",
     "spdx_id": "",
+    "aliases": [
+      "Copyback license (for discussion)"
+    ],
     "status": "discussion",
     "submitter": "Chris Zumbrunn",
     "stats": {
@@ -12281,6 +12993,9 @@
     "id": "discussion-danielmd-license",
     "name": "DanielMD License",
     "spdx_id": "",
+    "aliases": [
+      "Proposed DanielMD License for Review."
+    ],
     "status": "discussion",
     "submitter": "Daniel MD",
     "stats": {
@@ -12326,6 +13041,9 @@
     "id": "discussion-does-this-look-like-an-open-source-license",
     "name": "Does this look like an open source license?",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Does this look like an open source license?"
+    ],
     "status": "discussion",
     "submitter": "Maxthon Chan",
     "stats": {
@@ -12371,6 +13089,9 @@
     "id": "discussion-encul",
     "name": "ENCUL",
     "spdx_id": "",
+    "aliases": [
+      "For approval: ENCUL"
+    ],
     "status": "discussion",
     "submitter": "Charles W. Swiger",
     "stats": {
@@ -12416,6 +13137,9 @@
     "id": "discussion-expiring-no-resale-license",
     "name": "Expiring No-Resale License",
     "spdx_id": "",
+    "aliases": [
+      "ENRL, was: For approval: ENCUL"
+    ],
     "status": "discussion",
     "submitter": "Charles W. Swiger",
     "stats": {
@@ -12461,6 +13185,9 @@
     "id": "discussion-foobar-webserver-license",
     "name": "Foobar WebServer License",
     "spdx_id": "",
+    "aliases": [
+      "new license to review"
+    ],
     "status": "discussion",
     "submitter": "Russell Nelson",
     "stats": {
@@ -12506,6 +13233,9 @@
     "id": "discussion-free-machine-learning-license-fmll",
     "name": "Free Machine Learning License (FMLL)",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] DIscussion on FMLL v1.0: A License for Free Artificial Intelligence"
+    ],
     "status": "discussion",
     "submitter": "Mihail Poteha",
     "stats": {
@@ -12551,6 +13281,10 @@
     "id": "discussion-german-free-software-license",
     "name": "German Free Software License",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: German Free Software License",
+      "AW: For Approval: German Free Software License"
+    ],
     "status": "discussion",
     "submitter": "Dusch, Christiane",
     "stats": {
@@ -12596,6 +13330,9 @@
     "id": "discussion-hal-hermes-attribution-license",
     "name": "HAL, Hermes Attribution License",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: HAL, Hermes Attribution License (revisited)"
+    ],
     "status": "discussion",
     "submitter": "Staff di Filosofiateoretica.it",
     "stats": {
@@ -12641,6 +13378,9 @@
     "id": "discussion-integrity-open-source-license",
     "name": "Integrity Open Source License",
     "spdx_id": "",
+    "aliases": [
+      "New license: Integrity Open Source License"
+    ],
     "status": "discussion",
     "submitter": "Forrest J. Cavalier III",
     "stats": {
@@ -12686,6 +13426,9 @@
     "id": "discussion-intradat-public-license",
     "name": "intraDAT Public License",
     "spdx_id": "",
+    "aliases": [
+      "Request for approval: IPL 1.0"
+    ],
     "status": "discussion",
     "submitter": "Ben Tilly",
     "stats": {
@@ -12731,6 +13474,10 @@
     "id": "discussion-jbind-license",
     "name": "JBind License",
     "spdx_id": "",
+    "aliases": [
+      "discuss: Update for Submitted License",
+      "Correction (was: Re: discuss: Update for Submitted License)"
+    ],
     "status": "discussion",
     "submitter": "Stefan Wachter",
     "stats": {
@@ -12776,6 +13523,9 @@
     "id": "discussion-linisys-open-source-license-v1-4",
     "name": "Linisys Open Source License v1.4",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: Linisys Open Source License v1.4"
+    ],
     "status": "discussion",
     "submitter": "Chris Tusa",
     "stats": {
@@ -12821,6 +13571,9 @@
     "id": "discussion-lucent-technologies-inc-micromonitor-software-public-license",
     "name": "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT",
     "spdx_id": "",
+    "aliases": [
+      "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT"
+    ],
     "status": "discussion",
     "submitter": "David Christensen",
     "stats": {
@@ -12866,6 +13619,9 @@
     "id": "discussion-mgbopensource-proposed-license",
     "name": "MGBopensource Proposed License",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License"
+    ],
     "status": "discussion",
     "submitter": "Barksdale, Marvin",
     "stats": {
@@ -12913,6 +13669,9 @@
     "id": "discussion-mindmason-license-mml",
     "name": "mindmason license (MML)",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: mindmason license (MML)"
+    ],
     "status": "discussion",
     "submitter": "Stephan Meyer",
     "stats": {
@@ -12958,6 +13717,9 @@
     "id": "discussion-misty-foundation-license-6-3",
     "name": "Misty Foundation License 6.3",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Approval of my own License,Misty Foundation License 6.3:"
+    ],
     "status": "discussion",
     "submitter": "Mistypigeon",
     "stats": {
@@ -13003,6 +13765,9 @@
     "id": "discussion-mixed-pickles-license-1-0",
     "name": "Mixed Pickles License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "for discussion: Mixed Pickles License 1.0"
+    ],
     "status": "discussion",
     "submitter": "Bernhard Fastenrath",
     "stats": {
@@ -13048,6 +13813,9 @@
     "id": "discussion-mll",
     "name": "MLL",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: MLL (minimal library license)"
+    ],
     "status": "discussion",
     "submitter": "Rlyeh",
     "stats": {
@@ -13093,6 +13861,9 @@
     "id": "discussion-mn-open-content-license-1-0",
     "name": "MN Open Content License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: MN Open Content License 1.0"
+    ],
     "status": "discussion",
     "submitter": "Michal Nazarewicz",
     "stats": {
@@ -13138,6 +13909,9 @@
     "id": "discussion-mn-open-documentation-license-1-0",
     "name": "MN Open Documentation License 1.0",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: MN Open Documentation License 1.0"
+    ],
     "status": "discussion",
     "submitter": "Michal Nazarewicz",
     "stats": {
@@ -13183,6 +13957,9 @@
     "id": "discussion-novell-cooperative-license",
     "name": "Novell Cooperative License",
     "spdx_id": "",
+    "aliases": [
+      "Novell Cooperative License version 1.0"
+    ],
     "status": "discussion",
     "submitter": "Bruce Perens",
     "stats": {
@@ -13228,6 +14005,9 @@
     "id": "discussion-open-project-public-license-oppl",
     "name": "Open Project Public License (OPPL)",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: Open Project Public License (OPPL)"
+    ],
     "status": "discussion",
     "submitter": "Larry Masters",
     "stats": {
@@ -13273,6 +14053,9 @@
     "id": "discussion-open-realty-license",
     "name": "Open-Realty License",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: Open-Realty License"
+    ],
     "status": "discussion",
     "submitter": "Ryan Bonham",
     "stats": {
@@ -13318,6 +14101,9 @@
     "id": "discussion-open-source-shareware",
     "name": "Open source shareware",
     "spdx_id": "",
+    "aliases": [
+      "Version 2. Open source shareware"
+    ],
     "status": "discussion",
     "submitter": "Forrest J. Cavalier III",
     "stats": {
@@ -13363,6 +14149,9 @@
     "id": "discussion-open-test-license-v1-1",
     "name": "Open Test License v1.1",
     "spdx_id": "",
+    "aliases": [
+      "For approval: Open Test License v1.1"
+    ],
     "status": "discussion",
     "submitter": "Alex Rousskov",
     "stats": {
@@ -13408,6 +14197,10 @@
     "id": "discussion-open-tom-public-license-otpl",
     "name": "OPEN TOM PUBLIC LICENSE (OTPL)",
     "spdx_id": "",
+    "aliases": [
+      "discuss: EPD CORE OPEN SOURCE LICENSE - Version 0.1",
+      "[License-discuss] [NEW LICENSE] OTPL (OPEN TOM PUBLIC LICENSE) v1.0"
+    ],
     "status": "discussion",
     "submitter": "Bill Moran",
     "stats": {
@@ -13453,6 +14246,10 @@
     "id": "discussion-open-vendor-public-license-ovpl",
     "name": "Open Vendor Public License (OVPL)",
     "spdx_id": "",
+    "aliases": [
+      "Two new licenses - OVPL & OVLPL",
+      "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)"
+    ],
     "status": "discussion",
     "submitter": "Alex Bligh",
     "stats": {
@@ -13498,6 +14295,9 @@
     "id": "discussion-opendesk-com-public-source-license",
     "name": "OpenDesk.com Public Source License",
     "spdx_id": "",
+    "aliases": [
+      "Draft 1 of the OpenDesk.com Public Source License"
+    ],
     "status": "discussion",
     "submitter": "Raymond Luk",
     "stats": {
@@ -13543,6 +14343,9 @@
     "id": "discussion-owl",
     "name": "OWL",
     "spdx_id": "",
+    "aliases": [
+      "Q: Comments on this draft"
+    ],
     "status": "discussion",
     "submitter": "mirabilos {Thorsten Glaser}",
     "stats": {
@@ -13588,6 +14391,10 @@
     "id": "discussion-ozplb-licence",
     "name": "OZPLB Licence",
     "spdx_id": "",
+    "aliases": [
+      "FOR APPROVAL: OZPLB Licence",
+      "RESUBMISSION FOR APPROVAL: OZPLB Licence"
+    ],
     "status": "discussion",
     "submitter": "ian.oi",
     "stats": {
@@ -13633,6 +14440,9 @@
     "id": "discussion-panda3d-public-license-version-1-0",
     "name": "Panda3D Public License Version 1.0",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: Panda3D Public License Version 1.0"
+    ],
     "status": "discussion",
     "submitter": "Jesse Schell",
     "stats": {
@@ -13678,6 +14488,9 @@
     "id": "discussion-privative-friendly-source-shared-license-pfssl-v1-0",
     "name": "Privative-Friendly Source-Shared License (PFSSL) v1.0",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Submission of PFSSL v1.0 for OSI Review and Approval"
+    ],
     "status": "discussion",
     "submitter": "Rafael",
     "stats": {
@@ -13723,6 +14536,9 @@
     "id": "discussion-public-security-interrest-psi-license",
     "name": "Public Security Interrest 'PSI' License",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: Public Security Interrest \"PSI\" License"
+    ],
     "status": "discussion",
     "submitter": "Wolfram Kleff",
     "stats": {
@@ -13768,6 +14584,9 @@
     "id": "discussion-public-software-license",
     "name": "Public Software License",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] For Approval: Public Software License"
+    ],
     "status": "discussion",
     "submitter": "Nikolaos-Modestos Kougioulis",
     "stats": {
@@ -13813,6 +14632,11 @@
     "id": "discussion-short-permissive-no-attribution-quid-open-source-license",
     "name": "Short permissive no attribution quid open source license",
     "spdx_id": "",
+    "aliases": [
+      "Permissive Public License: proposed new open-source license",
+      "For Approval: Simple Permissive License",
+      "[License-discuss] Short permissive no attribution required open source license"
+    ],
     "status": "discussion",
     "submitter": "John Cowan",
     "stats": {
@@ -13858,6 +14682,10 @@
     "id": "discussion-simplified-artistic-license",
     "name": "Simplified Artistic License",
     "spdx_id": "",
+    "aliases": [
+      "Simplified Artistic License (A Proposed Compromise)",
+      "Formal Request for Approval: Simplified Artistic License"
+    ],
     "status": "discussion",
     "submitter": "Robert Samuel White",
     "stats": {
@@ -13903,6 +14731,9 @@
     "id": "discussion-software-and-development-license-version-3-0",
     "name": "Software and Development License version 3.0",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Request for Comment: Software and Development License, version 3.0"
+    ],
     "status": "discussion",
     "submitter": "Alec Bloss",
     "stats": {
@@ -13948,6 +14779,13 @@
     "id": "discussion-sos-simple-open-source-license",
     "name": "SOS - Simple Open Source License",
     "spdx_id": "",
+    "aliases": [
+      "YAOSL - Yet Another Open Source License",
+      "YAOSL - Yet Another Open Source License v1.01",
+      "YAOSL - Yet Another Open Source License v1.02",
+      "YAOSL - Yet Another Open Source License v1.03",
+      "SOS license v1.05"
+    ],
     "status": "discussion",
     "submitter": "Alex Nicolaou",
     "stats": {
@@ -13993,6 +14831,9 @@
     "id": "discussion-system-76-s-beanbooks-public-license-v1-0",
     "name": "System 76's BeanBooks Public License v1.0",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] System 76's BeanBooks Public License v1.0"
+    ],
     "status": "discussion",
     "submitter": "Bradley M. Kuhn",
     "stats": {
@@ -14038,6 +14879,9 @@
     "id": "discussion-the-contribution-public-license",
     "name": "The Contribution Public License",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] For Public Comment: The Contribution Public License"
+    ],
     "status": "discussion",
     "submitter": "Moritz Maxeiner",
     "stats": {
@@ -14083,6 +14927,9 @@
     "id": "discussion-the-libre-source-license",
     "name": "The Libre Source License",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] For Public Comment: The Libre Source License"
+    ],
     "status": "discussion",
     "submitter": "Moritz Maxeiner",
     "stats": {
@@ -14128,6 +14975,9 @@
     "id": "discussion-the-open-source-milestone-application-framework-software-lic",
     "name": "The Open Source Milestone Application Framework Software License, Version 1.5",
     "spdx_id": "",
+    "aliases": [
+      "The Open Source Milestone Application Framework Software License, Version 1.5"
+    ],
     "status": "discussion",
     "submitter": "Akil Franklin",
     "stats": {
@@ -14173,6 +15023,9 @@
     "id": "discussion-the-testament",
     "name": "The TESTAMENT",
     "spdx_id": "",
+    "aliases": [
+      "repost for discussion"
+    ],
     "status": "discussion",
     "submitter": "Cityhunter",
     "stats": {
@@ -14218,6 +15071,10 @@
     "id": "discussion-the-wilhelm-svenselius-open-source-license-version-1-1",
     "name": "The Wilhelm Svenselius Open Source License version 1.1",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: The Wilhelm Svenselius Open Source License version 1.1",
+      "For Approval: The Wilhelm Svenselius Open Source License version 1.0"
+    ],
     "status": "discussion",
     "submitter": "Wilhelm Svenselius",
     "stats": {
@@ -14263,6 +15120,9 @@
     "id": "discussion-tomsrtbt-license",
     "name": "tomsrtbt License",
     "spdx_id": "",
+    "aliases": [
+      "tomsrtbt, 3rd draft..."
+    ],
     "status": "discussion",
     "submitter": "Tom Oehser",
     "stats": {
@@ -14308,6 +15168,9 @@
     "id": "discussion-total-reciprocity-public-license",
     "name": "Total Reciprocity Public License",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Total Reciprocity Public License (TRPL v1.0)"
+    ],
     "status": "discussion",
     "submitter": "Jay Patel",
     "stats": {
@@ -14353,6 +15216,9 @@
     "id": "discussion-turkix-public-license",
     "name": "TURKIX PUBLIC LICENSE",
     "spdx_id": "",
+    "aliases": [
+      "For Approval: TURKIX PUBLIC LICENSE"
+    ],
     "status": "discussion",
     "submitter": "Emre Sokullu",
     "stats": {
@@ -14398,6 +15264,10 @@
     "id": "discussion-u-s-army-research-laboratory-open-source-license-arl-osl",
     "name": "U.S. Army Research Laboratory Open Source License (ARL OSL)",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] US Army Research Laboratory Open Source License proposal",
+      "[License-discuss] U.S. Army Research Laboratory Open Source License (ARL OSL) 0.4.0"
+    ],
     "status": "discussion",
     "submitter": "Karan, Cem F CIV USARMY RDECOM ARL",
     "stats": {
@@ -14443,6 +15313,9 @@
     "id": "discussion-ukl-universal-public-license",
     "name": "UKL (Universal Public License)",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] APPROVAL: Universal Public License Agreement v1"
+    ],
     "status": "discussion",
     "submitter": "BIRGUL KARAMIZRAK",
     "stats": {
@@ -14488,6 +15361,9 @@
     "id": "discussion-universal-public-domain-license-1-5-2",
     "name": "Universal Public Domain License 1.5.2",
     "spdx_id": "",
+    "aliases": [
+      "[License-discuss] Advice for submitting a new license"
+    ],
     "status": "discussion",
     "submitter": "AMOGUSForever",
     "stats": {
@@ -14533,6 +15409,9 @@
     "id": "discussion-xxx-library-public-license-version-1-0",
     "name": "XXX LIBRARY PUBLIC LICENSE Version 1.0",
     "spdx_id": "",
+    "aliases": [
+      "A new open source license"
+    ],
     "status": "discussion",
     "submitter": "Russell Nelson",
     "stats": {

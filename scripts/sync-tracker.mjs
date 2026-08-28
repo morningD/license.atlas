@@ -30,7 +30,7 @@ const KB_V2 = resolve(KB_ROOT, "data", "osi", "license-review-tracker-v2.json");
 const ATLAS_FULL = resolve(ROOT, "public", "data", "tracker.json");
 const ATLAS_INDEX = resolve(ROOT, "src", "data", "tracker-index.json");
 const ATLAS_META = resolve(ROOT, "src", "data", "tracker-meta.json");
-const INDEX_SCHEMA_VERSION = 4;
+const INDEX_SCHEMA_VERSION = 5; // v5: index entries carry aliases for search ranking
 
 if (!existsSync(KB_V2)) {
   if (existsSync(ATLAS_FULL) && existsSync(ATLAS_INDEX)) {
@@ -146,6 +146,7 @@ for (const s of kbData.submissions) {
     id: s.id,
     name: s.name,
     spdx_id: s.spdx_id || "",
+    aliases: s.aliases || [],
     status: s.status,
     submitter: s.submitter?.name || "Unknown",
     stats: {

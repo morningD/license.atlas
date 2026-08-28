@@ -159,6 +159,17 @@ export function TrackerClient() {
           ...("participants" in s ? s.participants.map((p) => p.name) : []),
           ...("timeline" in s ? s.timeline.map((e) => `${e.sender || ""} ${e.subject || ""} ${e.snippet || ""}`) : []),
         ].join(" ").toLowerCase(),
+        // Relevance tiers for search ranking: what the user searched for is
+        // usually the license itself (name/id), sometimes a person; a mail
+        // snippet merely mentioning the term (e.g. "the Python license
+        // tangle" inside the libpng review) is the weakest signal.
+        nameHay: [
+          s.name,
+          s.id,
+          s.spdx_id,
+          ...("aliases" in s ? (s.aliases || []) : []),
+        ].join(" ").toLowerCase(),
+        metaHay: [submitterName(s), ...("participants" in s ? s.participants.map((p) => p.name) : [])].join(" ").toLowerCase(),
       })),
     [visibleEntries],
   );
@@ -170,14 +181,27 @@ export function TrackerClient() {
     if (deferredQuery) rows = rows.filter(({ hay }) => hay.includes(deferredQuery));
     const order: Record<string, number> = { pending: 0, rejected: 1, withdrawn: 2, superseded: 3, approved: 4, legacy: 5 };
     const arr = rows.map(({ submission }) => submission);
+    // When searching, sort by relevance tier first (name hit > person hit >
+    // mail-content mention) so unrelated entries that merely quote the term
+    // don't crowd out the actual licenses; relevance beats the sort control
+    // only while a query is active.
+    const relevance = (id: string) => {
+      if (!deferredQuery) return 0;
+      const row = rows.find((r) => r.submission.id === id);
+      if (!row) return 9;
+      if (row.nameHay.startsWith(deferredQuery)) return 0;
+      if (row.nameHay.includes(deferredQuery)) return 1;
+      if (row.metaHay.includes(deferredQuery)) return 2;
+      return 3;
+    };
     switch (sortBy) {
-      case "recent": arr.sort((a, b) => (b.stats?.date_range?.[1] || "").localeCompare(a.stats?.date_range?.[1] || "")); break;
-      case "status": arr.sort((a, b) => (order[a.status] ?? 9) - (order[b.status] ?? 9) || (b.stats?.date_range?.[0] || "").localeCompare(a.stats?.date_range?.[0] || "")); break;
-      case "date-desc": arr.sort((a, b) => (b.stats?.date_range?.[0] || "").localeCompare(a.stats?.date_range?.[0] || "")); break;
-      case "date-asc": arr.sort((a, b) => (a.stats?.date_range?.[0] || "").localeCompare(b.stats?.date_range?.[0] || "")); break;
-      case "msgs": arr.sort((a, b) => (b.stats?.total_messages || 0) - (a.stats?.total_messages || 0)); break;
-      case "duration": arr.sort((a, b) => (b.stats?.duration_days || 0) - (a.stats?.duration_days || 0)); break;
-      case "name": arr.sort((a, b) => a.name.localeCompare(b.name)); break;
+      case "recent": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (b.stats?.date_range?.[1] || "").localeCompare(a.stats?.date_range?.[1] || "")); break;
+      case "status": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (order[a.status] ?? 9) - (order[b.status] ?? 9) || (b.stats?.date_range?.[0] || "").localeCompare(a.stats?.date_range?.[0] || "")); break;
+      case "date-desc": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (b.stats?.date_range?.[0] || "").localeCompare(a.stats?.date_range?.[0] || "")); break;
+      case "date-asc": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (a.stats?.date_range?.[0] || "").localeCompare(b.stats?.date_range?.[0] || "")); break;
+      case "msgs": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (b.stats?.total_messages || 0) - (a.stats?.total_messages || 0)); break;
+      case "duration": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || (b.stats?.duration_days || 0) - (a.stats?.duration_days || 0)); break;
+      case "name": arr.sort((a, b) => relevance(a.id) - relevance(b.id) || a.name.localeCompare(b.name)); break;
     }
     return arr;
   }, [searchRows, activeFilter, deferredQuery, sortBy]);
