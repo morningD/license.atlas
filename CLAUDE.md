@@ -77,6 +77,10 @@ No data processing scripts in this project — KB is the single source of truth.
 
 多源状态矛盾由 glm-4.6 裁决。**默认走 OpenAI 兼容单次调用通道**（2026-08-28 起）：`ADJUDICATION_OPENAI_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4` + `response_format: json_object` + `thinking: disabled`，单条裁决 ~2-15s；旧的 Anthropic 兼容端点（`open.bigmodel.cn/api/anthropic`）structured output 每次都失败再 fallback，双倍耗时且易截断，仅作兜底（不设 `ADJUDICATION_OPENAI_BASE_URL` 时启用）。key 读自 opencode 全局配置 provider `zhipuai-coding-plan`。**批量与并发**：`ADJUDICATION_BATCH`（默认 1）/`ADJUDICATION_CONCURRENCY`（默认 1）；golden 测试集实测 **batch=4 + 并发=2 为甜点档**（质量 100%、3.5s/条、3.9× 提速；batch=8 输出预算安全但质量 95%，自动更新 runner 已配 4/2）。约束：输出预算 8192 tokens（batch≥12 最坏越界），并发勿超 2（Pro 套餐为其他 session 预留）。**A/B 结论（2026-08-28）**：glm-4.6 保留为裁决模型（不被 API 元数据带偏，判断准）；glm-5.3-flash 略快但判断质量欠一次样本验证，暂不采用。**增量裁决**：输入 hash 未变的条目直接沿用旧输出，每轮只裁决有新证据的条目。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。**回归测试**：改裁决 prompt/模型/批量参数前，跑 golden 测试集（`KB/data/osi/status-adjudication/test-set.json`，19 分层案例；`prepare-status-adjudication.mjs --export-all-inputs` + `test-status-adjudication.mjs`），质量不低于基线再上线。
 
+### Points 质量门（2026-08-28）
+
+timeline point（`all-points-manifest.json`）有 root 质量控制：`KB/scripts/lib/point-style.mjs` 拦截四类缺陷——sender 名开头（含去中间名/缩写/后缀变体，如 "Matthew Seth Flaschen" vs "Matthew Flaschen"）、en/zh 第三人称 wrapper（"He argues…"/"他提交…"）、空洞复述模板（"Formal submission/revision for X."）。`extract-all-points.mjs` 写入前校验；`apply-llm-batches.mjs` 应用批次时校验。存量修复用 `KB/scripts/repair-point-manifest.mjs [--dry-run|--llm]`（人名剥离走确定性机械修复，复述模板走 LLM 双语重写；glm thinking 模型 max_tokens 需 ≥4096 否则 text block 被截断）。board vote 绑定有版本精确冲突检测（"CDDL1.1" motion 不得绑到 CDDL 1.0 条目，major 相同不算匹配）。改这些规则前跑 `node --test KB/scripts/tests/point-style.test.mjs`。
+
 **编排器自动化**（2026-08-23，`update-tracker.mjs`）：灰色地带 manual review 按 `scripts/tracker-manual-baseline.json` 基线放行，**基线外新项硬失败**留人工（确认后 `--rebaseline` 采纳，成功运行自动 prune 已解决 id）；invalid/missing 裁决自动 LLM 重跑最多 3 轮（key 缺失自动读 opencode 配置）；KB run 脚本对 "conflicts 未置 requires_manual_review" 的输出直接矫正。`--strict-manual-pending` 恢复任何 blocking 即失败的旧模式。
 
 ### 自动更新（事件触发，2026-08）

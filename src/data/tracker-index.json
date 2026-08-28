@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "2af0d1913c88a9dd",
+    "source_hash": "3fedf13a3396b090",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T06:40:16.471Z",
+    "generated_at": "2026-08-28T13:51:58.282Z",
     "total_submissions": 194,
     "by_status": {
-      "approved": 85,
-      "rejected": 43,
+      "approved": 82,
+      "rejected": 42,
       "withdrawn": 14,
       "pending": 14,
-      "superseded": 5,
-      "legacy": 33
+      "superseded": 6,
+      "legacy": 36
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -189,8 +189,8 @@
       "sender": "Carlo Piana",
       "subject": "[License-review] For Approval: The BOS Public License v1.0",
       "sentiment": "negative",
-      "point": "Carlo Piana agreed the submission lacked required text and information, and questioned the need for a new backlink condition that may add compliance friction.",
-      "point_zh": "Carlo Piana 认为该提交缺少必要文本和信息，并质疑新增原项目链接条件的必要性，认为可能增加合规摩擦。"
+      "point": "Agreed the submission lacked required text and information, and questioned the need for a new backlink condition that may add compliance friction.",
+      "point_zh": "认为该提交缺少必要文本和信息，并质疑新增原项目链接条件的必要性，认为可能增加合规摩擦。"
     }
   },
   "linkumori-free-license-1-0": {
@@ -1372,7 +1372,7 @@
     "id": "whonix-gpl-additional-terms",
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "superseded",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1387,7 +1387,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -1472,11 +1472,11 @@
         "2019-01-14"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-01-08",
-      "decision": "2019-03-13",
+      "decision": "",
       "decision_status": "rejected"
     },
     "text_meta": {
@@ -1562,11 +1562,11 @@
         "2018-12-10"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2018-09-26",
-      "decision": "2019-03-13",
+      "decision": "",
       "decision_status": "rejected"
     },
     "text_meta": {
@@ -1732,7 +1732,7 @@
     "id": "nccl",
     "name": "Non-Coercive Copyleft Licence (NCCL) 1.0",
     "spdx_id": "",
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Sam Tuke",
     "stats": {
       "total_messages": 38,
@@ -1747,7 +1747,7 @@
     "review_dates": {
       "first_submitted": "2015-07-20",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -2002,7 +2002,7 @@
     "id": "python-license-changes",
     "name": "Python License Changes",
     "spdx_id": "",
-    "status": "pending",
+    "status": "rejected",
     "submitter": "VanL",
     "stats": {
       "total_messages": 27,
@@ -2017,7 +2017,7 @@
     "review_dates": {
       "first_submitted": "2011-05-24",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -3148,7 +3148,7 @@
     "id": "sspl-v1",
     "name": "Server Side Public License, Version 1 (SSPL v1)",
     "spdx_id": "",
-    "status": "withdrawn",
+    "status": "superseded",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 107,
@@ -3418,7 +3418,7 @@
     "id": "cnri-python",
     "name": "The CNRI portion of the multi-part Python License",
     "spdx_id": "CNRI-Python",
-    "status": "superseded",
+    "status": "legacy",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3590,8 +3590,8 @@
       "sender": "Josh Berkus",
       "subject": "[License-review] License Approval Request: BSD-3-Clause-Open-MPI",
       "sentiment": "positive",
-      "point": "Josh Berkus announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
-      "point_zh": "Josh Berkus 宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
+      "point": "Announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
+      "point_zh": "宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
     }
   },
   "bsd-3-clause": {
@@ -3635,8 +3635,8 @@
       "sender": "Josh Berkus",
       "subject": "[License-review] License Approval Request: BSD-3-Clause-Open-MPI",
       "sentiment": "positive",
-      "point": "Josh Berkus announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
-      "point_zh": "Josh Berkus 宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
+      "point": "Announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
+      "point_zh": "宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
     }
   },
   "cddl-1.1": {
@@ -3995,8 +3995,8 @@
       "sender": "Luis Villa",
       "subject": "[License-review] [new license] Blue Oak Model License 1.0.0",
       "sentiment": "positive",
-      "point": "Luis Villa thanks the community for their feedback on the Blue Oak Model License review.",
-      "point_zh": "Villa 感谢社区对 Blue Oak Model License 审核提供的反馈。"
+      "point": "Thanks the community for their feedback on the Blue Oak Model License review.",
+      "point_zh": "感谢社区对 Blue Oak Model License 审核提供的反馈。"
     }
   },
   "blueoak-1-0-0": {
@@ -4040,8 +4040,8 @@
       "sender": "Luis Villa",
       "subject": "[License-review] [new license] Blue Oak Model License 1.0.0",
       "sentiment": "positive",
-      "point": "Luis Villa thanks the community for their feedback on the Blue Oak Model License review.",
-      "point_zh": "Villa 感谢社区对 Blue Oak Model License 审核提供的反馈。"
+      "point": "Thanks the community for their feedback on the Blue Oak Model License review.",
+      "point_zh": "感谢社区对 Blue Oak Model License 审核提供的反馈。"
     }
   },
   "unicode-3.0": {
@@ -4273,7 +4273,7 @@
     "id": "zpl-2-1",
     "name": "Zope Public License 2.1",
     "spdx_id": "ZPL-2.1",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Jens Vagelpohl",
     "stats": {
       "total_messages": 7,
@@ -4287,8 +4287,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2021-04-06",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2021-06-25",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -4318,7 +4318,7 @@
     "id": "zpl-2-1",
     "name": "Zope Public License 2.1",
     "spdx_id": "ZPL-2.1",
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Jens Vagelpohl",
     "stats": {
       "total_messages": 7,
@@ -4332,8 +4332,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2021-04-06",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2021-06-25",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -4716,7 +4716,7 @@
       "subject": "[License-review] Request for legacy approval: The Unlicense",
       "sentiment": "neutral",
       "point": "Announces that the Board approved the Unlicense as an OSI Approved License on June 12, 2020.",
-      "point_zh": "她宣布董事会已于 2020 年 6 月 12 日将 Unlicense 批准为 OSI 认可许可证。"
+      "point_zh": "宣布董事会已于 2020 年 6 月 12 日将 Unlicense 批准为 OSI 认可许可证。"
     }
   },
   "php-3.01": {
@@ -5173,7 +5173,7 @@
     "id": "spl-1-0",
     "name": "Sun Public License, Version 1.0",
     "spdx_id": "SPL-1.0",
-    "status": "approved",
+    "status": "pending",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5188,7 +5188,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5218,7 +5218,7 @@
     "id": "spl-1-0",
     "name": "Sun Public License, Version 1.0",
     "spdx_id": "SPL-1.0",
-    "status": "approved",
+    "status": "pending",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5233,7 +5233,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5301,7 +5301,7 @@
       "subject": "[License-review] Request for Legacy Approval: Unicode Data Files and Software License",
       "sentiment": "neutral",
       "point": "Announces that the OSI board granted Legacy Approval to the Unicode Data Files and Software License and placed it in the redundant-licenses proliferation category.",
-      "point_zh": "他宣布 OSI 董事会已授予 Unicode Data Files and Software License 旧许可证批准，并将其归入“与更流行许可证重复”的许可证扩散类别。"
+      "point_zh": "宣布 OSI 董事会已授予 Unicode Data Files and Software License 旧许可证批准，并将其归入“与更流行许可证重复”的许可证扩散类别。"
     }
   },
   "w3c-20150513": {
@@ -7775,8 +7775,8 @@
       "sender": "Zak Greant",
       "subject": "For Approval: Boost Software License - Version 1.0 - August 17th, 2003",
       "sentiment": "neutral",
-      "point": "Zak dismisses the message as not warranting any action.",
-      "point_zh": "Zak 认为该消息不值得采取任何行动。"
+      "point": "Dismisses the message as not warranting any action.",
+      "point_zh": "认为该消息不值得采取任何行动。"
     }
   },
   "bsl-1-0": {
@@ -7820,8 +7820,8 @@
       "sender": "Zak Greant",
       "subject": "For Approval: Boost Software License - Version 1.0 - August 17th, 2003",
       "sentiment": "neutral",
-      "point": "Zak dismisses the message as not warranting any action.",
-      "point_zh": "Zak 认为该消息不值得采取任何行动。"
+      "point": "Dismisses the message as not warranting any action.",
+      "point_zh": "认为该消息不值得采取任何行动。"
     }
   },
   "nposl-3.0": {
@@ -8603,11 +8603,11 @@
         "2004-12-15"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2004-12-02",
-      "decision": "2025-07-18",
+      "decision": "",
       "decision_status": "approved"
     },
     "text_meta": {
@@ -8648,11 +8648,11 @@
         "2004-12-15"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2004-12-02",
-      "decision": "2025-07-18",
+      "decision": "",
       "decision_status": "approved"
     },
     "text_meta": {
@@ -9763,7 +9763,7 @@
     "id": "lpl-1-0",
     "name": "Lucent Public License, Plan 9, version 1.0",
     "spdx_id": "LPL-1.0",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -9778,7 +9778,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -9808,7 +9808,7 @@
     "id": "lpl-1-0",
     "name": "Lucent Public License, Plan 9, version 1.0",
     "spdx_id": "LPL-1.0",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -9823,7 +9823,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -9988,7 +9988,7 @@
     "id": "wxwindows",
     "name": "The wxWindows Library Licence",
     "spdx_id": "wxWindows",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Julian Smart",
     "stats": {
       "total_messages": 7,
@@ -10003,7 +10003,7 @@
     "review_dates": {
       "first_submitted": "2002-10-22",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -10573,7 +10573,7 @@
     "id": "motosoto",
     "name": "Motosoto Open Source License",
     "spdx_id": "Motosoto",
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Leon Gommans",
     "stats": {
       "total_messages": 1,
@@ -10588,7 +10588,7 @@
     "review_dates": {
       "first_submitted": "2001-04-23",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
