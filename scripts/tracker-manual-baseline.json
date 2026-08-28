@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28T17:20:28.533Z",
+  "updated_at": "2026-08-28T19:18:31.682Z",
   "ids": [
     "3d-slicer-license",
     "aal",
@@ -70,7 +70,6 @@
     "php-3-0",
     "public-benefit-zero-copyright",
     "python-2-0",
-    "python-license-changes",
     "qmail-license",
     "rpl-1-1",
     "scripting-fsl-v1-3-5",

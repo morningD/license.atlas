@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "a008e0e61a749828",
+    "source_hash": "e32d7a854119a5ca",
     "index_schema_version": 5,
-    "generated_at": "2026-08-28T17:38:53.379Z",
+    "generated_at": "2026-08-28T19:50:06.969Z",
     "total_submissions": 253,
     "by_status": {
+      "approved": 82,
+      "rejected": 42,
+      "withdrawn": 15,
       "pending": 14,
-      "rejected": 47,
-      "withdrawn": 8,
-      "superseded": 3,
-      "approved": 101,
-      "legacy": 21,
+      "superseded": 6,
+      "legacy": 35,
       "discussion": 59
     }
   },
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 46,
+      "total_messages": 47,
       "duration_days": 15,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 46,
+      "count": 47,
       "first": "2026-08-13",
       "last": "2026-08-28"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Stefano Maffulli",
+      "sender": "Rob Landley",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "positive",
-      "point": "Argues the review is tainted by ideological bias against AI and that restricting data rights harms the open source ecosystem while favoring big tech.",
+      "sentiment": "negative",
+      "point": "Argues that copyright termination for asserting infringement is incompatible with the OSD and gives popular projects permission to infringe copyright.",
       "point_zh": ""
     }
   },
@@ -558,7 +558,7 @@
     "name": "Public Benefit Zero Copyright License v2.0",
     "spdx_id": "",
     "aliases": [],
-    "status": "pending",
+    "status": "withdrawn",
     "submitter": "Wayne Thornton",
     "stats": {
       "total_messages": 20,
@@ -1284,7 +1284,7 @@
     "name": "3D Slicer License",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Steve Pieper",
     "stats": {
       "total_messages": 44,
@@ -1299,7 +1299,7 @@
     "review_dates": {
       "first_submitted": "2021-05-27",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -1376,7 +1376,7 @@
     "name": "Open Source Social Network License 1.0",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Informatikon Technologies",
     "stats": {
       "total_messages": 35,
@@ -1391,7 +1391,7 @@
     "review_dates": {
       "first_submitted": "2020-03-25",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -1468,7 +1468,7 @@
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "superseded",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1483,7 +1483,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -1606,7 +1606,7 @@
     "name": "PNG Reference Library License v2.0 (libpng v2)",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Cosmin Truta",
     "stats": {
       "total_messages": 14,
@@ -1621,7 +1621,7 @@
     "review_dates": {
       "first_submitted": "2018-11-05",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 4,
@@ -1836,7 +1836,7 @@
     "name": "Non-Coercive Copyleft Licence (NCCL) 1.0",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Sam Tuke",
     "stats": {
       "total_messages": 38,
@@ -1851,7 +1851,7 @@
     "review_dates": {
       "first_submitted": "2015-07-20",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -2066,7 +2066,7 @@
     "name": "Svoboda License",
     "spdx_id": "",
     "aliases": [],
-    "status": "rejected",
+    "status": "withdrawn",
     "submitter": "Daniel Pono Takamori",
     "stats": {
       "total_messages": 24,
@@ -2081,7 +2081,7 @@
     "review_dates": {
       "first_submitted": "2012-05-20",
       "decision": "",
-      "decision_status": "rejected"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -3532,7 +3532,7 @@
       "Cryptographic Autonomy License Version 1.0",
       "Cryptographic Autonomy License v1.0"
     ],
-    "status": "superseded",
+    "status": "rejected",
     "submitter": "Van Lindsay",
     "stats": {
       "total_messages": 163,
@@ -3546,8 +3546,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-04-22",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2019-08-15",
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
@@ -3580,7 +3580,7 @@
     "aliases": [
       "Submission: CNRI-Python-GPL-Compatible"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -3594,8 +3594,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 2,
@@ -3630,7 +3630,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -3644,8 +3644,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-08-21",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -3680,7 +3680,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -3694,8 +3694,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-08-21",
-      "decision": "2026-06-29",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -3824,7 +3824,7 @@
     "aliases": [
       "Legacy license suggestion: CDDL 1.1"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3838,8 +3838,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3872,7 +3872,7 @@
     "aliases": [
       "Legacy license suggestion: CDDL 1.1"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3886,8 +3886,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-05-02",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -3920,7 +3920,7 @@
     "aliases": [
       "Legacy license suggestion: WordNet"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Brian Warner",
     "stats": {
       "total_messages": 4,
@@ -3934,8 +3934,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2025-04-30",
-      "decision": "2025-07-18",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -4064,7 +4064,7 @@
     "aliases": [
       "Los Alamos National Labs BSD-3 Variant License Approval"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Pettinger, Adam L",
     "stats": {
       "total_messages": 9,
@@ -4078,8 +4078,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2024-06-26",
-      "decision": "2024-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -4448,7 +4448,7 @@
     "aliases": [
       "Legacy Approval, Licnese of Jam"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Jack Hill",
     "stats": {
       "total_messages": 7,
@@ -4462,8 +4462,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2021-04-25",
-      "decision": "2021-09-17",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5312,7 +5312,7 @@
     "aliases": [
       "For Legacy Approval: OpenLDAP Public License"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5326,8 +5326,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5360,7 +5360,7 @@
     "aliases": [
       "For Legacy Approval: OpenLDAP Public License"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Howard Chu",
     "stats": {
       "total_messages": 6,
@@ -5374,8 +5374,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-08-13",
-      "decision": "2019-09-20",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5408,7 +5408,7 @@
     "aliases": [
       "For Legacy Approval: LBNL BSD"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Sebastian Ainslie",
     "stats": {
       "total_messages": 7,
@@ -5422,8 +5422,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-05-16",
-      "decision": "2019-06-14",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 3,
@@ -5456,7 +5456,7 @@
     "aliases": [
       "Approval: Server Side Public License, Version 1 (SSPL v1)"
     ],
-    "status": "approved",
+    "status": "pending",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5471,7 +5471,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5504,7 +5504,7 @@
     "aliases": [
       "Approval: Server Side Public License, Version 1 (SSPL v1)"
     ],
-    "status": "approved",
+    "status": "pending",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5519,7 +5519,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -5552,7 +5552,7 @@
     "aliases": [
       "Request for Legacy Approval: Unicode Data Files and Software License"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Sascha Brawer",
     "stats": {
       "total_messages": 8,
@@ -5566,8 +5566,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2017-11-29",
-      "decision": "2018-04-30",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -6416,7 +6416,7 @@
     "aliases": [
       "For Legacy Approval: eCos License version 2.0"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "John Dallaway",
     "stats": {
       "total_messages": 7,
@@ -6430,8 +6430,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2014-08-29",
-      "decision": "2015-09-09",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -6464,7 +6464,7 @@
     "aliases": [
       "For Legacy Approval: eCos License version 2.0"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "John Dallaway",
     "stats": {
       "total_messages": 7,
@@ -6478,8 +6478,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2014-08-29",
-      "decision": "2015-09-09",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -6800,7 +6800,7 @@
     "aliases": [
       "New OSL for \"official Intelligence\""
     ],
-    "status": "approved",
+    "status": "superseded",
     "submitter": "David Smith",
     "stats": {
       "total_messages": 6,
@@ -6815,7 +6815,7 @@
     "review_dates": {
       "first_submitted": "2011-04-16",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -7376,7 +7376,7 @@
     "aliases": [
       "REMOVE (entirely) the Artistic License 1.0?"
     ],
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -7390,8 +7390,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "2007-06-05",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -7424,7 +7424,7 @@
     "aliases": [
       "REMOVE (entirely) the Artistic License 1.0?"
     ],
-    "status": "approved",
+    "status": "superseded",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -7438,8 +7438,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "2007-06-05",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -8000,7 +8000,7 @@
     "aliases": [
       "FOR APPROVAL: The license of Multics"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 6,
@@ -8014,8 +8014,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2007-11-14",
-      "decision": "2008-01-08",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -9776,7 +9776,7 @@
     "aliases": [
       "For Approval: CUA Office Public License"
     ],
-    "status": "approved",
+    "status": "withdrawn",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9790,8 +9790,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "2018-10-10",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -9824,7 +9824,7 @@
     "aliases": [
       "For Approval: CUA Office Public License"
     ],
-    "status": "approved",
+    "status": "withdrawn",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9838,8 +9838,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "2018-10-10",
-      "decision_status": "approved"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -10352,7 +10352,7 @@
     "aliases": [
       "discuss: Lucent Public License 1.0"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -10367,7 +10367,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -10400,7 +10400,7 @@
     "aliases": [
       "discuss: Lucent Public License 1.0"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -10415,7 +10415,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 1,
@@ -10592,7 +10592,7 @@
     "aliases": [
       "discuss: Request for wxWindows License approval"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Julian Smart",
     "stats": {
       "total_messages": 7,
@@ -10607,7 +10607,7 @@
     "review_dates": {
       "first_submitted": "2002-10-22",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -11072,7 +11072,7 @@
     "aliases": [
       "Discuss: \"Attribution Assurance License\""
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 2,
@@ -11087,7 +11087,7 @@
     "review_dates": {
       "first_submitted": "2002-05-13",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -11216,7 +11216,7 @@
     "aliases": [
       "Request for approval - MOSL"
     ],
-    "status": "approved",
+    "status": "legacy",
     "submitter": "Leon Gommans",
     "stats": {
       "total_messages": 1,
@@ -11231,7 +11231,7 @@
     "review_dates": {
       "first_submitted": "2001-04-23",
       "decision": "",
-      "decision_status": "approved"
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
