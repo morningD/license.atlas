@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T22:17:46.560Z",
+    "generated_at": "2026-08-28T23:00:19.557Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T22:18:02.654Z",
+    "enriched_at": "2026-08-28T23:00:35.862Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T22:18:10.809Z",
+      "applied_at": "2026-08-28T23:00:43.065Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -116,14 +116,14 @@
           "message_count": 6
         },
         {
-          "name": "Shuji Sado",
+          "name": "Luis Villa",
           "role": "reviewer",
           "message_count": 4
         },
         {
-          "name": "Luis Villa",
+          "name": "Shuji Sado",
           "role": "reviewer",
-          "message_count": 3
+          "message_count": 4
         },
         {
           "name": "Stefano Maffulli",
@@ -148,6 +148,11 @@
         {
           "name": "Simon Phipps",
           "role": "board_member",
+          "message_count": 1
+        },
+        {
+          "name": "Nick Vidal",
+          "role": "reviewer",
           "message_count": 1
         }
       ],
@@ -872,13 +877,39 @@
           "source": "license-review",
           "position": "neutral",
           "point": "Clarifies that the OSI review process already considers 'software freedom' alongside the OSD, allowing rejection of licenses that lack software freedom even if OSD-compliant."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006190.html",
+          "sender": "Luis Villa",
+          "snippet": "Argues that the undefined \"software freedom\" test invites endless arguments because the term lacks a clear definition or articulated criteria.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Argues that the undefined \"software freedom\" test invites endless arguments because the term lacks a clear definition or articulated criteria."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006191.html",
+          "sender": "Nick Vidal",
+          "snippet": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 53,
+        "total_messages": 55,
         "date_range": [
           "2026-08-13",
           "2026-08-28"
@@ -896,7 +927,8 @@
           "Kevin P. Fleming",
           "Shuji Sado",
           "Simon Phipps",
-          "Stefano Maffulli"
+          "Stefano Maffulli",
+          "Nick Vidal"
         ]
       },
       "status_review": {
@@ -909,21 +941,26 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was formally submitted on 2026-08-13. The latest evidence consists of discussion and feedback on the license-review list dated 2026-08-28. There is no evidence of a board vote, final approval, rejection, or withdrawal. Therefore, the review is still in progress.",
+        "rationale": "The evidence shows a license submission made in August 2026. The latest activity consists of discussion and feedback regarding the license's terms and evaluation criteria, with no board decision, rejection, or withdrawal recorded. The curated RWP entry lists the status as pending. Therefore, the review remains in a pending state.",
         "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
+            "supports": "pending",
+            "quote": "status: pending"
+          },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#54",
             "supports": "pending",
-            "quote": null
+            "quote": "reminds participants to keep discussions respectful and focused on the substance of the issues."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:d19c41908152e2cbef17ee8e8f29fa56a804b98794622d0d1a88a972484ca846",
+        "input_hash": "sha256:507fb44a09d5b204a1d09336c6dc7266f065b9ddc45986d336189815d321f550",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

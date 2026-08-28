@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "a8b21b4df4990b35",
+    "source_hash": "912dbe5b666d1ac9",
     "index_schema_version": 5,
-    "generated_at": "2026-08-28T22:18:02.654Z",
+    "generated_at": "2026-08-28T23:00:35.862Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 53,
+      "total_messages": 55,
       "duration_days": 15,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 53,
+      "count": 55,
       "first": "2026-08-13",
       "last": "2026-08-28"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Nick Vidal",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Clarifies that the OSI review process already considers 'software freedom' alongside the OSD, allowing rejection of licenses that lack software freedom even if OSD-compliant.",
+      "point": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues.",
       "point_zh": ""
     }
   },
