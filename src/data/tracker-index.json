@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "3fedf13a3396b090",
+    "source_hash": "b3c9b21aa4781984",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T13:51:58.282Z",
+    "generated_at": "2026-08-28T14:55:41.113Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 82,
@@ -20,11 +20,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 45,
-      "duration_days": 14,
+      "total_messages": 46,
+      "duration_days": 15,
       "date_range": [
         "2026-08-13",
-        "2026-08-27"
+        "2026-08-28"
       ]
     },
     "has_vote": false,
@@ -43,18 +43,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 45,
+      "count": 46,
       "first": "2026-08-13",
-      "last": "2026-08-27"
+      "last": "2026-08-28"
     },
     "latest_event": {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Rob Landley",
+      "sender": "Stefano Maffulli",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Argues the license applies where no license is needed while including a termination provision that walls out users if challenged.",
+      "sentiment": "positive",
+      "point": "Argues the review is tainted by ideological bias against AI and that restricting data rights harms the open source ecosystem while favoring big tech.",
       "point_zh": ""
     }
   },
