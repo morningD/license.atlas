@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "4f793f54f6a3195e",
+    "source_hash": "583a3a3b9b5953a9",
     "index_schema_version": 4,
-    "generated_at": "2026-08-28T03:12:23.220Z",
+    "generated_at": "2026-08-28T04:52:41.505Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -470,7 +470,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 115,
+      "total_messages": 116,
       "duration_days": 564,
       "date_range": [
         "2025-02-10",
@@ -498,7 +498,7 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 115,
+      "count": 116,
       "first": "2025-02-10",
       "last": "2026-08-28"
     },
@@ -506,11 +506,11 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Moming Duan",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
       "sentiment": "neutral",
-      "point": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17.",
-      "point_zh": "解释审查延期源于持续修订，将许可证列入 9 月董事会会议议程，请求确认 GitHub 上的文本，并邀请在 9 月 17 日前发表最终评论。"
+      "point": "Confirms GitHub repos contain the final texts for MG0-2.0 and MG-BY-2.0, notes university web pages are outdated, and verifies the \"Attribution-Open Source\" variant is withdrawn.",
+      "point_zh": "确认 GitHub 仓库中的 MG0-2.0 和 MG-BY-2.0 文本为最终版本，指出大学网页已过时，并核实「Attribution-Open Source」变体已撤回。"
     }
   },
   "public-benefit-zero-copyright": {

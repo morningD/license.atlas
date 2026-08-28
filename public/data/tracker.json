@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T03:12:09.199Z",
+    "generated_at": "2026-08-28T04:52:26.696Z",
     "total_submissions": 194,
     "by_status": {
       "approved": 86,
@@ -18,7 +18,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T03:12:23.220Z",
+    "enriched_at": "2026-08-28T04:52:41.505Z",
     "coverage": {
       "submissions_with_license_text": 95,
       "submissions_with_board_vote": 89,
@@ -36,7 +36,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T03:12:23.501Z",
+      "applied_at": "2026-08-28T04:53:15.624Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -6697,7 +6697,7 @@
         {
           "name": "Moming Duan",
           "role": "submitter",
-          "message_count": 53
+          "message_count": 54
         },
         {
           "name": "Pamela Chestek",
@@ -16396,13 +16396,26 @@
           "source": "license-review",
           "position": "support",
           "point": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006179.html",
+          "sender": "Moming Duan",
+          "snippet": "Confirms GitHub repos contain the final texts for MG0-2.0 and MG-BY-2.0, notes university web pages are outdated, and verifies the \"Attribution-Open Source\" variant is withdrawn.",
+          "point_zh": "确认 GitHub 仓库中的 MG0-2.0 和 MG-BY-2.0 文本为最终版本，指出大学网页已过时，并核实「Attribution-Open Source」变体已撤回。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "procedural",
+          "point": "Confirms GitHub repos contain the final texts for MG0-2.0 and MG-BY-2.0, notes university web pages are outdated, and verifies the \"Attribution-Open Source\" variant is withdrawn."
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 115,
+        "total_messages": 116,
         "date_range": [
           "2025-02-10",
           "2026-08-28"
@@ -16433,22 +16446,27 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence confirms the licenses are actively under review. The latest timeline event (August 2026) explicitly schedules the licenses for the September Board meeting, indicating no final decision has been made yet. The curated RWP entry also marks the status as pending, noting it is a 2nd resubmission still under review.",
+        "rationale": "The ModelGo License Family v2.0 submission is currently under active review. The evidence shows a progression of submissions and discussions through 2025 and 2026. While specific variants (MG-BY-SA, MG-BY-OS) were withdrawn during the process, the core licenses (MG0-2.0, MG-BY-2.0) remain under consideration. The most recent evidence (August 2026) indicates that the licenses are scheduled for the September Board meeting, confirming that no final decision (approval or rejection) has been made yet.",
         "evidence_refs": [
-          {
-            "evidence_id": "timeline:modelgo-attribution-v2#114",
-            "supports": "pending",
-            "quote": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting, requesting confirmation of GitHub texts and final comments by September 17."
-          },
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
             "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#114",
+            "supports": "pending",
+            "quote": "Explains the review delay stems from ongoing revisions and schedules the licenses for the September Board meeting"
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#115",
+            "supports": "pending",
+            "quote": "Confirms GitHub repos contain the final texts for MG0-2.0 and MG-BY-2.0, notes university web pages are outdated, and verifies the \"Attribution-Open Source\" variant is withdrawn."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:36b8add65f2d0c7ee6961eb53768c6b020764e6ac40417786ac4c82aec3f4807",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:58c33b2161f6f1d5b1371eca87050c9a7d7c6578c0033ed543193569961ba0b5",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
     },
