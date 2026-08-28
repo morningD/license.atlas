@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T21:40:02.290Z",
+    "generated_at": "2026-08-28T22:17:46.560Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T21:40:18.371Z",
+    "enriched_at": "2026-08-28T22:18:02.654Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T21:40:24.442Z",
+      "applied_at": "2026-08-28T22:18:10.809Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -93,7 +93,7 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 11
+          "message_count": 12
         },
         {
           "name": "Michael Dolan",
@@ -113,7 +113,7 @@
         {
           "name": "McCoy Smith",
           "role": "reviewer",
-          "message_count": 5
+          "message_count": 6
         },
         {
           "name": "Shuji Sado",
@@ -846,13 +846,39 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Clarifies that OpenMDW-1.1 was submitted as a standard software license designed for code reuse and does not seek special AI classification."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006188.html",
+          "sender": "McCoy Smith",
+          "snippet": "Clarifies that AI licenses are evaluated against the OSD and OSAID like any other license, and invites specific proposals for additional evaluation tests.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Clarifies that AI licenses are evaluated against the OSD and OSAID like any other license, and invites specific proposals for additional evaluation tests."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006189.html",
+          "sender": "Richard Fontana",
+          "snippet": "Clarifies that the OSI review process already considers 'software freedom' alongside the OSD, allowing rejection of licenses that lack software freedom even if OSD-compliant.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Clarifies that the OSI review process already considers 'software freedom' alongside the OSD, allowing rejection of licenses that lack software freedom even if OSD-compliant."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 51,
+        "total_messages": 53,
         "date_range": [
           "2026-08-13",
           "2026-08-28"
@@ -883,26 +909,21 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission is currently under review. The timeline indicates the initial submission was made on 2026-08-13, with ongoing discussion and feedback as late as 2026-08-28. There is no evidence of a board vote, board decision, withdrawal, or final rejection in the provided data. The status remains pending.",
+        "rationale": "The license was formally submitted on 2026-08-13. The latest evidence consists of discussion and feedback on the license-review list dated 2026-08-28. There is no evidence of a board vote, final approval, rejection, or withdrawal. Therefore, the review is still in progress.",
         "evidence_refs": [
-          {
-            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
-            "supports": "pending",
-            "quote": "status: pending"
-          },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#50",
+            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "Clarifies that OpenMDW-1.1 was submitted as a standard software license designed for code reuse and does not seek special AI classification."
+            "quote": null
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:8df0f02da2ac03e4a765720a64e33dabe2c99b396aabb12911449141d42089b3",
+        "input_hash": "sha256:d19c41908152e2cbef17ee8e8f29fa56a804b98794622d0d1a88a972484ca846",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
