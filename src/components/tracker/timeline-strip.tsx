@@ -91,7 +91,47 @@ export function TimelineStrip({
   const tipLeft = tip ? Math.min(tip.x + TIP_OFFSET, window.innerWidth - TIP_W - TIP_OFFSET) : 0;
   const tipTop = tip ? Math.min(tip.y + TIP_OFFSET, window.innerHeight - 160) : 0;
 
-  const nodes = timeline.map((ev, i) => {
+  // Merge timeline events and the board vote into one date-ordered sequence so
+  // the vote renders at its chronological position (e.g. between months of
+  // pre-vote discussion and later re-submission threads), not appended at the
+  // end. Same-date items keep events before the vote (the vote concludes the
+  // day). Votes without a date stay at the end.
+  type RenderItem =
+    | { kind: "event"; ev: TrackerTimelineEvent; idx: number; date: string }
+    | { kind: "vote"; date: string };
+  const items: RenderItem[] = timeline
+    .map((ev, idx) => ({ kind: "event" as const, ev, idx, date: ev.date || "" }));
+  if (vote) items.push({ kind: "vote", date: vote.date || "9999-12-31" });
+  items.sort((a, b) =>
+    a.date.localeCompare(b.date)
+    || (a.kind === "vote" ? 1 : 0) - (b.kind === "vote" ? 1 : 0));
+
+  const nodes = items.map((item, pos) => {
+    if (item.kind === "vote") {
+      const isLast = pos >= items.length - 1;
+      return (
+        <span key="board-vote" style={{ display: "inline-flex", alignItems: "center" }}>
+          {!isLast && <span className="tl-arrow">→</span>}
+          <span
+            className={`tl-node vote-${vote!.outcome || "neutral"}`}
+            onMouseEnter={(e) => setTip({
+              x: e.clientX, y: e.clientY,
+              type: t("tracker.voteHeader"), typeColor: TYPE_COLOR.board_decision,
+              stripeColor: vote!.outcome === "rejected" ? "#ef4444" : TYPE_COLOR.board_decision,
+              date: formatTrackerDate(vote!.date),
+              sender: "", snip: voteSummary(vote!, t), sentiment: "",
+            })}
+            onMouseMove={(e) => tip && setTip({ ...tip, x: e.clientX, y: e.clientY })}
+            onMouseLeave={() => setTip(null)}
+            onClick={(e) => { e.stopPropagation(); onVoteClick?.(); }}
+          >
+            {voteTally(vote!) ? `🗳️ ${voteTally(vote!)}` : vote!.outcome === "rejected" ? "🗳️ ✗" : vote!.outcome === "approved" ? "🗳️ ✓" : "🗳️"}
+          </span>
+        </span>
+      );
+    }
+    const ev = item.ev;
+    const i = item.idx;
     const d = formatTrackerShortDate(ev.date);
     const rawType = ev.type || "feedback";
     const label = rawType === "board_decision" ? "✓" : rawType === "withdrawal" ? "✗" : "";
@@ -108,9 +148,10 @@ export function TimelineStrip({
     const nodeHex = tint && tint !== "neutral" ? SENT_HEX[tint] : typeColor;
     const snip = (lang === "zh" ? ev.point_zh || ev.snippet : ev.snippet) || ev.subject || "";
     const isSubmitter = !!(submitter && ev.sender && ev.sender !== "Unknown" && ev.sender === submitter);
-    const isLast = i >= timeline.length - 1;
-    const crossesYear = !isLast && ev.date && timeline[i + 1].date &&
-      ev.date.slice(0, 4) !== timeline[i + 1].date!.slice(0, 4);
+    const next = items[pos + 1];
+    const isLast = !next;
+    const crossesYear = next && ev.date && next.date &&
+      ev.date.slice(0, 4) !== next.date.slice(0, 4);
 
     return (
       <span key={i} style={{ display: "inline-flex", alignItems: "center" }}>
@@ -141,26 +182,6 @@ export function TimelineStrip({
   return (
     <div className="timeline-strip">
       {nodes}
-      {vote && (
-        <span style={{ display: "inline-flex", alignItems: "center" }}>
-          {timeline.length > 0 && <span className="tl-arrow">→</span>}
-          <span
-            className={`tl-node vote-${vote.outcome || "neutral"}`}
-            onMouseEnter={(e) => setTip({
-              x: e.clientX, y: e.clientY,
-              type: t("tracker.voteHeader"), typeColor: TYPE_COLOR.board_decision,
-              stripeColor: vote.outcome === "rejected" ? "#ef4444" : TYPE_COLOR.board_decision,
-              date: formatTrackerDate(vote.date),
-              sender: "", snip: voteSummary(vote, t), sentiment: "",
-            })}
-            onMouseMove={(e) => tip && setTip({ ...tip, x: e.clientX, y: e.clientY })}
-            onMouseLeave={() => setTip(null)}
-            onClick={(e) => { e.stopPropagation(); onVoteClick?.(); }}
-          >
-            {voteTally(vote) ? `🗳️ ${voteTally(vote)}` : vote.outcome === "rejected" ? "🗳️ ✗" : vote.outcome === "approved" ? "🗳️ ✓" : "🗳️"}
-          </span>
-        </span>
-      )}
       {tip && createPortal(
         <div
           className="tl-tip show"
