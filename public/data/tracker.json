@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T19:32:21.533Z",
+    "generated_at": "2026-08-29T22:11:20.649Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-29T19:32:37.680Z",
+    "enriched_at": "2026-08-29T22:11:36.861Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-29T19:32:50.437Z",
+      "applied_at": "2026-08-29T22:11:45.790Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -93,7 +93,7 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 13
+          "message_count": 14
         },
         {
           "name": "Michael Dolan",
@@ -1004,13 +1004,26 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Suggests considering OpenMDW-1.0 for approval to defer the controversial copyright trigger question and asks if this scope reduction resolves sufficient concerns."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006200.html",
+          "sender": "Richard Fontana",
+          "snippet": "Raises a concern about patent-assertion-triggered termination, questioning if there are limits to how unrelated the assertion target and the terminated license can be, citing the Facebook React license.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "support",
+          "point": "Raises a concern about patent-assertion-triggered termination, questioning if there are limits to how unrelated the assertion target and the terminated license can be, citing the Facebook React license."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 62,
+        "total_messages": 63,
         "date_range": [
           "2026-08-13",
           "2026-08-29"
@@ -1044,7 +1057,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for approval in August 2026 and has undergone discussion with various feedback points, but there is no evidence of a final board vote, decision, rejection, or withdrawal. The status remains pending.",
+        "rationale": "The submission has a clear start date (2026-08-13) and active discussion continuing through at least 2026-08-29. There is no evidence of a board vote, final approval, rejection, or withdrawal in the provided timeline. The curated RWP entry also marks the status as pending. Therefore, the license remains under review.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1057,18 +1070,13 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#54",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#62",
             "supports": "pending",
-            "quote": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#61",
-            "supports": "pending",
-            "quote": "Suggests considering OpenMDW-1.0 for approval to defer the controversial copyright trigger question and asks if this scope reduction resolves sufficient concerns."
+            "quote": "Raises a concern about patent-assertion-triggered termination..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:5522d717cf64eb9d0564b1213e33949789d28fc3385cd66bac142715a67da279",
+        "input_hash": "sha256:89fd69a731b7d855a9060d0b738c856531ce783b746db97cd07f6b7e2f6ef592",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
