@@ -73,6 +73,12 @@ const SLUG_MAP: Record<string, string> = {
   "ecl-1.0": "educational-community-license-1",
   "c-fsl-1.1": "c-fsl-v1-1",
   "los-alamos-national-labs-bsd-3-variant": "los-alamos-national-labs-bsd-3-variant",
+  // The 2026 python-2-0 thread reviewed the PSF-2.0 text family as a set
+  // ("Python-2.0.1, PSF-2.0, and CNRI-Python-GPL-Compatible"); the OSI API
+  // models all of them under the single Python-2.0 entry.
+  "psf-2.0": "python-2-0",
+  "python-2.0.1": "python-2-0",
+  "cnri-python-gpl-compatible": "python-2-0",
 };
 
 /**
