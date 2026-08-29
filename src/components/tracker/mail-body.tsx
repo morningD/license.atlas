@@ -83,9 +83,13 @@ function parseBlocks(body: string): Block[] {
       (cur as { lines: string[] }).lines.push(line);
       continue;
     }
-    const quoteMatch = line.match(/^((?:>\s?)*)>\s?(.*)$/);
+    // Leading whitespace before ">" happens in the wild (client re-wraps,
+    // hand-typed " >> " quotes); it must not disqualify the line from being
+    // a quote. The depth comes from the ">" run itself — counting ">" across
+    // the whole line would let body text like "a > b" inflate the level.
+    const quoteMatch = line.match(/^[ \t]*((?:>[ \t]?)+)(.*)$/);
     if (quoteMatch) {
-      const level = (line.match(/>/g) || []).length;
+      const level = (quoteMatch[1].match(/>/g) || []).length;
       if (cur.kind === "quote" && cur.depth === level) {
         // The "On ... wrote:" line directly above a quote is its header.
         if (!cur.header) {
@@ -104,7 +108,11 @@ function parseBlocks(body: string): Block[] {
         cur = { kind: "quote", depth: level, header: null, lines: [quoteMatch[2]] };
       }
     } else {
-      if (cur.kind !== "text") flush();
+      // A non-blank line directly after a quote line is usually the quote's
+      // own wrapped continuation (clients drop ">" when re-wrapping); fold
+      // it into the open quote instead of shattering the block. A blank
+      // line ends the quote.
+      if (cur.kind === "quote" && line.trim() === "") flush();
       cur.lines.push(line);
     }
   }
@@ -117,6 +125,7 @@ function QuoteBlock({ depth, header, lines }: { depth: number; header: string | 
   const nested = parseQuoteLines(lines, depth);
   return (
     <blockquote
+      style={{ marginLeft: Math.min(depth - 1, 3) * 14 }}
       className={`my-2 border-l-2 pl-3 text-zinc-500 dark:text-zinc-400 ${depth === 1 ? "border-zinc-300 dark:border-zinc-700" : depth === 2 ? "border-zinc-200 dark:border-zinc-800" : "border-zinc-100 dark:border-zinc-800/60"}`}
     >
       {header && <p className="mb-1 text-xs italic opacity-70">{linkifyText(header)}</p>}
