@@ -44897,6 +44897,10 @@
       {
         "name": "modelgo.li",
         "url": "https://www.modelgo.li/"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005656.html"
       }
     ],
     "featured": false,
@@ -74674,33 +74678,6 @@
       {
         "name": "lists.opensource.org",
         "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-April/006078.html"
-      }
-    ],
-    "featured": false,
-    "created_at": "2026-08-29",
-    "proprietary": false
-  },
-  {
-    "slug": "modelgo-attribution-v2",
-    "title": "ModelGo License Family v2.0",
-    "spdx_id": "",
-    "osi_approved": false,
-    "fsf_libre": null,
-    "fsf_tags": [],
-    "deprecated": false,
-    "type": "software",
-    "version": "2.0",
-    "description": "",
-    "permissions": [],
-    "conditions": [],
-    "limitations": [],
-    "tags": [
-      "Custom"
-    ],
-    "sources": [
-      {
-        "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005656.html"
       }
     ],
     "featured": false,

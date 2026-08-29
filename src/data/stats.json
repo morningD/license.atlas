@@ -1,10 +1,10 @@
 {
-  "total": 2713,
+  "total": 2712,
   "osi_approved": 123,
   "fsf_libre": 146,
   "proprietary": 967,
   "by_type": {
-    "software": 2381,
+    "software": 2380,
     "data": 108,
     "model": 183,
     "agent": 25,
@@ -355,7 +355,7 @@
     "Creative Commons": 77,
     "Weak Copyleft": 16,
     "Proprietary": 967,
-    "Custom": 1961,
+    "Custom": 1960,
     "MCP Server": 13,
     "HuggingFace": 194,
     "Terms": 16,
