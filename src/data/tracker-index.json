@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "3b64ca75bb1722ff",
+    "source_hash": "d9132a370153ddc9",
     "index_schema_version": 5,
-    "generated_at": "2026-08-29T12:20:17.518Z",
+    "generated_at": "2026-08-29T19:32:37.680Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 61,
+      "total_messages": 62,
       "duration_days": 16,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 61,
+      "count": 62,
       "first": "2026-08-13",
       "last": "2026-08-29"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-29",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Argues that the license would likely have been rejected 10 years ago due to historical skepticism regarding patent-assertion-triggered termination provisions.",
+      "sentiment": "neutral",
+      "point": "Suggests considering OpenMDW-1.0 for approval to defer the controversial copyright trigger question and asks if this scope reduction resolves sufficient concerns.",
       "point_zh": ""
     }
   },
