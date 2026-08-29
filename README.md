@@ -2,7 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
-LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,644** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
+LicenseAtlas is a software, data, AI model, and agent license explorer covering **2,713** licenses and terms — searchable, filterable, comparable, and available in English and Chinese.
 
 **Live site**: [LicenseAtlas](https://morningd.github.io/license.atlas)
 
@@ -17,7 +17,7 @@ LicenseAtlas is a software, data, AI model, and agent license explorer covering 
 - **Popular Projects** — right-rail showcase of top GitHub, HuggingFace, and Kaggle projects for selected licenses, with source-aware incremental refresh
 - **Bilingual UI** — English/Chinese with automatic browser language detection
 - **Dark mode** — system preference + manual toggle
-- **Static export** — 2,644 pre-rendered license pages, fast loading
+- **Static export** — 2,713 pre-rendered license pages, fast loading
 
 ## Tech Stack
 

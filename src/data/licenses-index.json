@@ -41,6 +41,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Expat"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2007-December/000001.html"
       }
     ],
     "featured": false,
@@ -106,6 +110,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#apache2"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/apache-2-0"
       }
     ],
     "featured": false,
@@ -177,6 +185,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#GNUGPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-June/012888.html"
       }
     ],
     "featured": true,
@@ -251,6 +263,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#GPLv2"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-January/000058.html"
       }
     ],
     "featured": false,
@@ -373,6 +389,10 @@
       {
         "name": "tldrlegal.com",
         "url": "https://www.tldrlegal.com/license/bsd-3-clause-license-revised"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-May/005785.html"
       }
     ],
     "featured": false,
@@ -438,6 +458,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Unlicense"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/unlicense"
       }
     ],
     "featured": false,
@@ -569,6 +593,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#MPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2011-August/001294.html"
       }
     ],
     "featured": false,
@@ -804,6 +832,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#ISC"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2007-December/000001.html"
       }
     ],
     "featured": false,
@@ -865,6 +897,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/0BSD.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2015-August/002438.html"
       }
     ],
     "featured": false,
@@ -916,6 +952,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#boost"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-October/014445.html"
       }
     ],
     "featured": false,
@@ -1063,6 +1103,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#EPL2"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-June/003048.html"
       }
     ],
     "featured": false,
@@ -1181,6 +1225,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#EPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-March/007932.html"
       }
     ],
     "featured": false,
@@ -1415,6 +1463,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#ArtisticLicense2"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-March/012617.html"
       }
     ],
     "featured": false,
@@ -1473,6 +1525,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OFL-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/ofl-1-1"
       }
     ],
     "featured": false,
@@ -1532,6 +1588,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Zlib.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2010-August/016796.html"
       }
     ],
     "featured": false,
@@ -1640,6 +1700,10 @@
       {
         "name": "tldrlegal.com",
         "url": "https://www.tldrlegal.com/license/academic-free-license-3-0-afl"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-June/005432.html"
       }
     ],
     "featured": false,
@@ -1692,6 +1756,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/EUPL-1.2.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-May/003040.html"
       }
     ],
     "featured": false,
@@ -1887,6 +1955,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/ms-permissive-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-October/014347.html"
       }
     ],
     "featured": false,
@@ -2325,6 +2397,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#NCSA"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-January/004724.html"
       }
     ],
     "featured": false,
@@ -2509,6 +2585,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/PostgreSQL.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-September/000873.html"
       }
     ],
     "featured": false,
@@ -2799,6 +2879,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/ECL-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-May/012792.html"
       }
     ],
     "featured": false,
@@ -2900,6 +2984,10 @@
       {
         "name": "tldrlegal.com",
         "url": "https://www.tldrlegal.com/license/open-software-licence-3-0"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-June/000793.html"
       }
     ],
     "featured": false,
@@ -2956,6 +3044,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/EUPL-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-March/000104.html"
       }
     ],
     "featured": false,
@@ -3016,6 +3108,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/lppl-1.3b.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-September/000838.html"
       }
     ],
     "featured": false,
@@ -3185,6 +3281,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/BSD-1-Clause.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-December/004510.html"
       }
     ],
     "featured": false,
@@ -4084,6 +4184,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/APL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-May/006912.html"
       }
     ],
     "featured": false,
@@ -7236,6 +7340,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/APSL-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/apsl-2-0"
       }
     ],
     "featured": false,
@@ -7870,6 +7978,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#ArtisticLicense"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-July/000309.html"
       }
     ],
     "featured": false,
@@ -8382,6 +8494,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/AAL.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-May/005308.html"
       }
     ],
     "featured": false,
@@ -9977,6 +10093,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/BlueOak-1.0.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-November/005441.html"
       }
     ],
     "featured": false,
@@ -12201,6 +12321,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/BSD-3-Clause-Open-MPI.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-May/005785.html"
       }
     ],
     "featured": false,
@@ -12598,6 +12722,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/BSD-2-Clause-Patent.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2016-January/002640.html"
       }
     ],
     "featured": false,
@@ -13434,6 +13562,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CECILL-2.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2012-February/001603.html"
       }
     ],
     "featured": false,
@@ -13801,6 +13933,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CERN-OHL-P-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-June/004892.html"
       }
     ],
     "featured": false,
@@ -13834,6 +13970,10 @@
       {
         "name": "opensource.org",
         "url": "https://opensource.org/license/cern-ohl-s-2-0"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-June/004892.html"
       }
     ],
     "featured": false,
@@ -13869,6 +14009,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CERN-OHL-W-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-June/004892.html"
       }
     ],
     "featured": false,
@@ -14711,6 +14855,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/MIT-CMU.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2024-June/022276.html"
       }
     ],
     "featured": false,
@@ -15442,6 +15590,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CDDL-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-May/005756.html"
       }
     ],
     "featured": false,
@@ -15484,6 +15636,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#CDDL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-December/009124.html"
       }
     ],
     "featured": false,
@@ -15601,6 +15757,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#CPAL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-June/012848.html"
       }
     ],
     "featured": false,
@@ -15644,6 +15804,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/cpl-0.5.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2001-January/002803.html"
       }
     ],
     "featured": false,
@@ -18460,6 +18624,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CAL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/cal-1-0"
       }
     ],
     "featured": false,
@@ -18651,6 +18819,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CUA-OPL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-December/007485.html"
       }
     ],
     "featured": false,
@@ -21746,6 +21918,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#eCos20"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2014-August/002187.html"
       }
     ],
     "featured": false,
@@ -21983,6 +22159,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Eiffel"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-December/006315.html"
       }
     ],
     "featured": false,
@@ -22548,6 +22728,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Entessa.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-April/006826.html"
       }
     ],
     "featured": false,
@@ -22853,6 +23037,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/EUDatagrid.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-August/007071.html"
       }
     ],
     "featured": false,
@@ -23601,6 +23789,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Fair.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-January/007573.html"
       }
     ],
     "featured": false,
@@ -24508,6 +24700,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Frameworx-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-October/014507.html"
       }
     ],
     "featured": false,
@@ -26159,6 +26355,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/d-fsl-1.0-en.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-November/009046.html"
       }
     ],
     "featured": false,
@@ -26642,6 +26842,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#AGPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-January/000058.html"
       }
     ],
     "featured": false,
@@ -27702,6 +27906,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#LGPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-June/012888.html"
       }
     ],
     "featured": false,
@@ -29832,6 +30040,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/historical-sell-variant.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-November/006304.html"
       }
     ],
     "featured": false,
@@ -31505,6 +31717,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/IPL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/ipl-1-0"
       }
     ],
     "featured": false,
@@ -31649,6 +31865,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/slf4j-2005.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/icu"
       }
     ],
     "featured": false,
@@ -32925,6 +33145,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Intel.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2011-April/001257.html"
       }
     ],
     "featured": false,
@@ -33315,6 +33539,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/IPA.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/ipa"
       }
     ],
     "featured": false,
@@ -33744,6 +33972,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Jam.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-April/005139.html"
       }
     ],
     "featured": false,
@@ -35822,6 +36054,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/BSD-3-Clause-LBNL.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-May/004169.html"
       }
     ],
     "featured": false,
@@ -36484,6 +36720,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/LiLiQ-P-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/liliq-p-1-1"
       }
     ],
     "featured": false,
@@ -36513,6 +36753,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/LiLiQ-Rplus-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/liliq-rplus-1-1"
       }
     ],
     "featured": false,
@@ -36542,6 +36786,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/LiLiQ-R-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/liliq-r-1-1"
       }
     ],
     "featured": false,
@@ -38110,6 +38358,10 @@
       {
         "name": "opensource.org",
         "url": "https://opensource.org/license/los-alamos-national-labs-bsd-3-variant"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-June/005490.html"
       }
     ],
     "featured": false,
@@ -38391,6 +38643,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/LPL-1.02.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-September/007141.html"
       }
     ],
     "featured": false,
@@ -38421,6 +38677,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/LPL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-April/006800.html"
       }
     ],
     "featured": false,
@@ -42163,6 +42423,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/MS-RL.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/ms-rl"
       }
     ],
     "featured": false,
@@ -43831,6 +44095,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/MirOS.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-July/000301.html"
       }
     ],
     "featured": false,
@@ -44163,6 +44431,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/mit-readme.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-May/004856.html"
       }
     ],
     "featured": false,
@@ -45311,6 +45583,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Motosoto.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2001-May/003732.html"
       }
     ],
     "featured": false,
@@ -45403,6 +45679,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/MPL-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2010-October/001085.html"
       }
     ],
     "featured": false,
@@ -45816,6 +46096,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/mulanpsl-2.0-en.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-December/004451.html"
       }
     ],
     "featured": false,
@@ -45911,6 +46195,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/mulanpubl-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-October/005578.html"
       }
     ],
     "featured": false,
@@ -46082,6 +46370,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Multics.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-November/014714.html"
       }
     ],
     "featured": false,
@@ -46309,6 +46601,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#NASA"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-March/007997.html"
       }
     ],
     "featured": false,
@@ -47859,6 +48155,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/NPOSL-3.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-August/013298.html"
       }
     ],
     "featured": false,
@@ -48287,6 +48587,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/NTP.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-February/000085.html"
       }
     ],
     "featured": false,
@@ -49656,6 +49960,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OCLC-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-September/005803.html"
       }
     ],
     "featured": false,
@@ -51461,6 +51769,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OLFL-1.3.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-January/005332.html"
       }
     ],
     "featured": false,
@@ -51703,6 +52015,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OSL-2.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-March/007999.html"
       }
     ],
     "featured": false,
@@ -51740,6 +52056,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OSL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-July/005521.html"
       }
     ],
     "featured": false,
@@ -52244,6 +52564,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OLDAP-2.8.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-August/004266.html"
       }
     ],
     "featured": false,
@@ -52322,6 +52646,10 @@
       {
         "name": "nvidia.com",
         "url": "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-and-model-evaluation-license/"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006125.html"
       }
     ],
     "featured": false,
@@ -53562,6 +53890,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/OSC-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-December/005616.html"
       }
     ],
     "featured": false,
@@ -53598,6 +53930,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/osetpl-2.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/oset-pl-2-1"
       }
     ],
     "featured": false,
@@ -54800,6 +55136,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/PHP-3.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-May/006919.html"
       }
     ],
     "featured": false,
@@ -54836,6 +55176,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/PHP-3.01.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-March/004716.html"
       }
     ],
     "featured": false,
@@ -56494,6 +56838,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Python"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006157.html"
       }
     ],
     "featured": false,
@@ -57595,6 +57943,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/RPL-1.5.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-July/013075.html"
       }
     ],
     "featured": false,
@@ -57624,6 +57976,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/RPL-1.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-October/005862.html"
       }
     ],
     "featured": false,
@@ -60521,6 +60877,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/SSPL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003603.html"
       }
     ],
     "featured": false,
@@ -61168,6 +61528,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/SimPL-2.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-March/012630.html"
       }
     ],
     "featured": false,
@@ -64409,6 +64773,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/SISSL.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-August/005743.html"
       }
     ],
     "featured": false,
@@ -64845,6 +65213,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#SPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003603.html"
       }
     ],
     "featured": false,
@@ -66877,6 +67249,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CNRI-Python.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006061.html"
       }
     ],
     "featured": false,
@@ -67365,6 +67741,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Sleepycat.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-June/008366.html"
       }
     ],
     "featured": false,
@@ -67477,6 +67857,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#UPL"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2014-April/002096.html"
       }
     ],
     "featured": false,
@@ -67547,6 +67931,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#W3C"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-August/003070.html"
       }
     ],
     "featured": false,
@@ -67600,6 +67988,10 @@
       {
         "name": "opensource.org",
         "url": "https://opensource.org/license/wxwindows"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-October/005896.html"
       }
     ],
     "featured": false,
@@ -67629,6 +68021,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Xnet.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/xnet"
       }
     ],
     "featured": false,
@@ -68294,6 +68690,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/toppers-license.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2015-June/002338.html"
       }
     ],
     "featured": false,
@@ -69252,6 +69652,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Unicodev3"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-August/005404.html"
       }
     ],
     "featured": false,
@@ -69333,6 +69737,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Unicode-DFS-2016.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-November/003296.html"
       }
     ],
     "featured": false,
@@ -69835,6 +70243,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/UCL-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2016-October/002856.html"
       }
     ],
     "featured": false,
@@ -71542,6 +71954,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/WordNet.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://opensource.org/api/license/wordnet"
       }
     ],
     "featured": false,
@@ -73974,6 +74390,10 @@
       {
         "name": "GNU License List",
         "url": "https://www.gnu.org/licenses/license-list.en.html#Zope20"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2001-February/004584.html"
       }
     ],
     "featured": false,
@@ -74008,6 +74428,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/ZPL-2.1.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-April/005124.html"
       }
     ],
     "featured": false,
@@ -74093,5 +74517,1868 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "bos-public-license-v1-2",
+    "title": "The BOS Public License v1.2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-July/006121.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "linkumori-free-license-1-0",
+    "title": "Linkumori Free License, Version 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-June/006107.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "mutualist-license-v1-2",
+    "title": "The Mutualist License (MutuaL) v1.2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.2",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-June/006102.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "milenium-license-1-1",
+    "title": "Milenium License 1.1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-May/006094.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "milenium-license-1-0",
+    "title": "Milenium License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-May/006084.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "submission-companionation-public-licence-1-0",
+    "title": "CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-April/006078.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "modelgo-attribution-v2",
+    "title": "ModelGo License Family v2.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "2.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005656.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "public-benefit-zero-copyright",
+    "title": "Public Benefit Zero Copyright License v2.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-December/005593.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "resubmission-of-european-space-agency-public-licenses-for-approval",
+    "title": "European Space Agency Public Licenses (ESA-PL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "2.5",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-March/003337.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "modified-0bsd-license",
+    "title": "Modified 0BSD License (Maintenance-Required)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006046.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "open-source-copyleft-license-v1-0-2",
+    "title": "Open Source Copyleft License (OSCL) v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-February/006022.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "free-archive-license-1-0",
+    "title": "Free Archive License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-February/006007.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "project-tick-general-public-license-v2-for-osi-license-review",
+    "title": "Project Tick General Public License v2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-January/005997.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "idciymi-1-0",
+    "title": "IDCIYMI-1.0 (I Don't Care If You Mod It)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-January/005979.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "submission-of-orivex-syscall-note-license-for-osi-approval",
+    "title": "Orivex Syscall Note License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-October/005894.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "3d-slicer-license",
+    "title": "3D Slicer License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-May/005156.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "ritchey-permissive-license",
+    "title": "Ritchey Permissive License v11",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-February/005077.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "open-source-social-network",
+    "title": "Open Source Social Network License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-March/004761.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "vaccine-license",
+    "title": "The Vaccine License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-October/004420.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "twente-license",
+    "title": "Twente License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-February/003945.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "c-fsl-v1-3",
+    "title": "Convertible Free Software License v1.3 (C-FSL v1.3)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.3",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-January/003891.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "libpng-v2",
+    "title": "PNG Reference Library License v2.0 (libpng v2)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-November/003791.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "c-fsl-v1-1",
+    "title": "Convertible Free Software License v1.1 (C-FSL v1.1)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-September/003506.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "yetiforce-public-license-v3",
+    "title": "YetiForce Public License v3",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "3",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-June/003377.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "zentao-public-license",
+    "title": "ZENTAO PUBLIC LICENSE",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2016-June/002800.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "scripting-fsl-v1-3-6",
+    "title": "Scripting Free Software License v1.3.6 (S-FSL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.3.6",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2013-November/002040.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "scripting-fsl-v1-3-5",
+    "title": "Scripting Free Software License v1.3.5 (S-FSL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.3.5",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2013-November/002013.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "tidepool-open-access",
+    "title": "Tidepool Open Access to Health Data Software License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2013-October/001980.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "webm-license",
+    "title": "WebM License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2010-May/001008.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "socialtext-public-license",
+    "title": "Socialtext Public License (STPL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "2.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-March/012604.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "truecrypt-collective-license",
+    "title": "TrueCrypt Collective License v2.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "2.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2006-July/011565.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "nasa-osa-1-1",
+    "title": "NASA Open Source Agreement Version 1.1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-February/007697.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "open-source-software-alliance",
+    "title": "Open Source Software Alliance License (OSSAL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-September/007132.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "ai-mit-license",
+    "title": "AI-MIT License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006026.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl",
+    "title": "Barrer Free Software License (BFSL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-December/005962.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "license-review-qmdeve-license-1-0",
+    "title": "QmDeve License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-November/005920.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "oin-license",
+    "title": "Open Innovation License (OIN)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/004998.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "sspl-v2",
+    "title": "Server Side Public License, Version 2 (SSPL v2)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "2",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-November/003836.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "license-zero-reciprocal",
+    "title": "License Zero Reciprocal Public License (L0-R)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-September/003091.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "open-logistics-v1-2",
+    "title": "Open Logistics License v1.2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.2",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2022-December/005265.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "cal-beta-2",
+    "title": "Cryptographic Autonomy License (CAL) Beta 2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-August/004288.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-alternate-route-open-source-license",
+    "title": "Alternate Route Open Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/1999-September/000613.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-bento-poetic-license",
+    "title": "Bento Poetic License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-April/005258.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-compiere-open-source-license",
+    "title": "Compiere Open Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2001-January/002653.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-copyback-license",
+    "title": "Copyback License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2005-June/010284.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-encul",
+    "title": "ENCUL",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-May/006886.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-expiring-no-resale-license",
+    "title": "Expiring No-Resale License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-May/006916.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-free-machine-learning-license-fmll",
+    "title": "Free Machine Learning License (FMLL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-July/022574.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-hal-hermes-attribution-license",
+    "title": "HAL, Hermes Attribution License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-November/007391.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-integrity-open-source-license",
+    "title": "Integrity Open Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/1999-November/001163.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-linisys-open-source-license-v1-4",
+    "title": "Linisys Open Source License v1.4",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.4",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-January/007537.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-mgbopensource-proposed-license",
+    "title": "MGBopensource Proposed License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2024-November/022352.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-misty-foundation-license-6-3",
+    "title": "Misty Foundation License 6.3",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-December/022500.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-mixed-pickles-license-1-0",
+    "title": "Mixed Pickles License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-December/009250.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-open-realty-license",
+    "title": "Open-Realty License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2005-May/010236.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-open-test-license-v1-1",
+    "title": "Open Test License v1.1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-January/007536.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-open-tom-public-license-otpl",
+    "title": "OPEN TOM PUBLIC LICENSE (OTPL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.2",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-February/006445.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-opendesk-com-public-source-license",
+    "title": "OpenDesk.com Public Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/1999-November/001239.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-ozplb-licence",
+    "title": "OZPLB Licence",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-October/008848.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-privative-friendly-source-shared-license-pfssl-v1-0",
+    "title": "Privative-Friendly Source-Shared License (PFSSL) v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-May/022372.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-public-security-interrest-psi-license",
+    "title": "Public Security Interrest 'PSI' License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2003-September/007096.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-software-and-development-license-version-3-0",
+    "title": "Software and Development License version 3.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "3.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2024-January/022170.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-system-76-s-beanbooks-public-license-v1-0",
+    "title": "System 76's BeanBooks Public License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2013-August/018559.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-the-contribution-public-license",
+    "title": "The Contribution Public License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2019-August/020910.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-the-libre-source-license",
+    "title": "The Libre Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2019-August/020927.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-the-open-source-milestone-application-framework-software-lic",
+    "title": "The Open Source Milestone Application Framework Software License, Version 1.5",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-May/005267.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-u-s-army-research-laboratory-open-source-license-arl-osl",
+    "title": "U.S. Army Research Laboratory Open Source License (ARL OSL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "0.4.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2016-July/019406.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-ukl-universal-public-license",
+    "title": "UKL (Universal Public License)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2012-December/018102.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-universal-public-domain-license-1-5-2",
+    "title": "Universal Public Domain License 1.5.2",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-August/022592.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-08-29",
+    "proprietary": false
   }
 ]

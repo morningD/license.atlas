@@ -102,6 +102,9 @@ function recomputeStats(licenses, sourceStats) {
 function isTrustedStructuredNewLicense(license) {
   const sourceNames = (license.sources || []).map((source) => source.name || "");
   if (sourceNames.some((name) => name === "scancode-licensedb.aboutcode.org")) return true;
+  // OSI review corpus merges (KB merge-osi-review-into-corpus.mjs): entries
+  // built from OSI mailing-list review threads, structured and LLM-enriched.
+  if (sourceNames.some((name) => name === "lists.opensource.org")) return true;
   return CONFIRMED_CUSTOM_SLUGS.has(license.slug);
 }
 

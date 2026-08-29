@@ -126,8 +126,11 @@ if (!skipProjects) {
 
 if (!skipBuild) {
   run("npm run build");
+  // sitemap is not part of npm run build — regenerate for corpus changes
+  run("node scripts/build-sitemap.mjs");
 } else {
   run("node scripts/build-search-index.mjs");
+  run("node scripts/build-sitemap.mjs");
   console.log("\n↷ Skipping Next build (--skip-build)");
 }
 
