@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "b56cf29f560fd7cb",
+    "source_hash": "8b9d52da6eaa8c34",
     "index_schema_version": 5,
-    "generated_at": "2026-08-29T00:55:12.225Z",
+    "generated_at": "2026-08-29T01:40:16.245Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 57,
+      "total_messages": 59,
       "duration_days": 16,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 57,
+      "count": 59,
       "first": "2026-08-13",
       "last": "2026-08-29"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-29",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Rob Landley",
+      "sender": "Josh Berkus",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Distinguishes patents from copyrights, emphasizing that open source licenses primarily address automatic copyrights rather than manually approved patents, which most projects lack.",
+      "sentiment": "positive",
+      "point": "Argues the copyright antisuit clause is fair because it revokes rights only for the specific model being sued, not the entire portfolio.",
       "point_zh": ""
     }
   },

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T00:54:56.155Z",
+    "generated_at": "2026-08-29T01:40:00.213Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -13,13 +13,13 @@
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3437,
+      "mail_clusters": 3438,
       "rejected_withdrawn": 72,
       "license_text_files": 540,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-29T00:55:12.225Z",
+    "enriched_at": "2026-08-29T01:40:16.245Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-29T00:55:20.515Z",
+      "applied_at": "2026-08-29T01:40:22.193Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -98,7 +98,7 @@
         {
           "name": "Michael Dolan",
           "role": "submitter",
-          "message_count": 7
+          "message_count": 8
         },
         {
           "name": "Rob Landley",
@@ -158,6 +158,11 @@
         {
           "name": "Joshua Gay",
           "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Josh Berkus",
+          "role": "board_member",
           "message_count": 1
         }
       ],
@@ -934,13 +939,39 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Distinguishes patents from copyrights, emphasizing that open source licenses primarily address automatic copyrights rather than manually approved patents, which most projects lack."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006194.html",
+          "sender": "Michael Dolan",
+          "snippet": "Identifies additional uses of OpenMDW since submission and shares a link to track the license in public models.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Identifies additional uses of OpenMDW since submission and shares a link to track the license in public models."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006196.html",
+          "sender": "Josh Berkus",
+          "snippet": "Argues the copyright antisuit clause is fair because it revokes rights only for the specific model being sued, not the entire portfolio.",
+          "point_zh": null,
+          "sentiment": "positive",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues the copyright antisuit clause is fair because it revokes rights only for the specific model being sued, not the entire portfolio."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 57,
+        "total_messages": 59,
         "date_range": [
           "2026-08-13",
           "2026-08-29"
@@ -960,7 +991,8 @@
           "Simon Phipps",
           "Stefano Maffulli",
           "Nick Vidal",
-          "Joshua Gay"
+          "Joshua Gay",
+          "Josh Berkus"
         ]
       },
       "status_review": {
@@ -973,21 +1005,26 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence consists of an initial submission email and a series of discussion/feedback emails. None of the emails indicate a final board decision, vote, rejection, or withdrawal. The submission date is August 2026, and the latest activity is discussion on the review process, with no conclusion reached. Therefore, the status remains pending.",
+        "rationale": "The evidence shows a submission for the OpenMDW License Agreement 1.1 made in August 2026, followed by several days of discussion and feedback on the license-review list. There is no evidence of a board vote, a final approval decision, a rejection, or a withdrawal. The latest event dates to August 29, 2026, indicating the review is still active and unresolved.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": null
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval..."
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#58",
+            "supports": "pending",
+            "quote": "Argues the copyright antisuit clause is fair because it revokes rights only for the specific model being sued, not the entire portfolio."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:90bca96d07edc3ed85f8a5b55503074dbbdc5e0972142e3803fef959631bea82",
+        "input_hash": "sha256:e11d2262ba217be2cc84352b611ae9bbc3f4a6d4ea1d1884dc5c74c8d075d360",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
