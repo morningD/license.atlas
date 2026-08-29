@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "09630d4202db4c6a",
+    "source_hash": "7f0ec4edf72a865d",
     "index_schema_version": 5,
-    "generated_at": "2026-08-28T23:34:53.095Z",
+    "generated_at": "2026-08-29T00:14:24.667Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 55,
+      "total_messages": 56,
       "duration_days": 15,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 55,
+      "count": 56,
       "first": "2026-08-13",
       "last": "2026-08-28"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Nick Vidal",
+      "sender": "Joshua Gay",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues.",
+      "point": "Suggests OSI build a body of precedent by explaining how 'software freedom' applies in specific decisions rather than defining it rigidly upfront.",
       "point_zh": ""
     }
   },

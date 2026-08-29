@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-28T23:34:37.113Z",
+    "generated_at": "2026-08-29T00:14:08.401Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-28T23:34:53.095Z",
+    "enriched_at": "2026-08-29T00:14:24.667Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-28T23:34:53.365Z",
+      "applied_at": "2026-08-29T00:14:29.718Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -152,6 +152,11 @@
         },
         {
           "name": "Nick Vidal",
+          "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Joshua Gay",
           "role": "reviewer",
           "message_count": 1
         }
@@ -903,13 +908,26 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Thanks Luis for flagging the term \"Lebensraum\" and reminds participants to keep discussions respectful and focused on the substance of the issues."
+        },
+        {
+          "date": "2026-08-28",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006192.html",
+          "sender": "Joshua Gay",
+          "snippet": "Suggests OSI build a body of precedent by explaining how 'software freedom' applies in specific decisions rather than defining it rigidly upfront.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Suggests OSI build a body of precedent by explaining how 'software freedom' applies in specific decisions rather than defining it rigidly upfront."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 55,
+        "total_messages": 56,
         "date_range": [
           "2026-08-13",
           "2026-08-28"
@@ -928,7 +946,8 @@
           "Shuji Sado",
           "Simon Phipps",
           "Stefano Maffulli",
-          "Nick Vidal"
+          "Nick Vidal",
+          "Joshua Gay"
         ]
       },
       "status_review": {
@@ -941,27 +960,22 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence shows a license submission made in August 2026. The latest activity consists of discussion and feedback regarding the license's terms and evaluation criteria, with no board decision, rejection, or withdrawal recorded. The curated RWP entry lists the status as pending. Therefore, the review remains in a pending state.",
+        "rationale": "The evidence shows a submission for the OpenMDW License Agreement, version 1.1, made in August 2026. The curated entry and timeline summary explicitly list the status as 'pending'. The email exchanges consist of initial submission and ongoing debate regarding the application of the OSD and 'software freedom' concepts to this license, but no final board decision, vote, rejection, or withdrawal has been recorded. Therefore, the review remains incomplete.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": null
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#54",
-            "supports": "pending",
-            "quote": "reminds participants to keep discussions respectful and focused on the substance of the issues."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:507fb44a09d5b204a1d09336c6dc7266f065b9ddc45986d336189815d321f550",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:5024b739d269bb65cf8a2230850bb90633b5a96e33062035e81e9dfadf030211",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
     },
