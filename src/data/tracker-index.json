@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "8b9d52da6eaa8c34",
+    "source_hash": "4935c4b960a90eb9",
     "index_schema_version": 5,
-    "generated_at": "2026-08-29T01:40:16.245Z",
+    "generated_at": "2026-08-29T03:48:15.115Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 59,
+      "total_messages": 60,
       "duration_days": 16,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 59,
+      "count": 60,
       "first": "2026-08-13",
       "last": "2026-08-29"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-29",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Josh Berkus",
+      "sender": "McCoy Smith",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "positive",
-      "point": "Argues the copyright antisuit clause is fair because it revokes rights only for the specific model being sued, not the entire portfolio.",
+      "sentiment": "neutral",
+      "point": "Asserts that patent law does include a first sale doctrine called patent exhaustion and urges participants to avoid misstating legal facts when making their case.",
       "point_zh": ""
     }
   },
