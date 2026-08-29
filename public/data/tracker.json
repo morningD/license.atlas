@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T22:11:20.649Z",
+    "generated_at": "2026-08-29T22:53:17.252Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-29T22:11:36.861Z",
+    "enriched_at": "2026-08-29T22:53:33.434Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-29T22:11:45.790Z",
+      "applied_at": "2026-08-29T22:53:38.063Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -96,13 +96,13 @@
           "message_count": 14
         },
         {
-          "name": "Michael Dolan",
-          "role": "submitter",
-          "message_count": 8
-        },
-        {
           "name": "Pamela Chestek",
           "role": "board_member",
+          "message_count": 9
+        },
+        {
+          "name": "Michael Dolan",
+          "role": "submitter",
           "message_count": 8
         },
         {
@@ -1017,13 +1017,26 @@
           "source": "license-review",
           "position": "support",
           "point": "Raises a concern about patent-assertion-triggered termination, questioning if there are limits to how unrelated the assertion target and the terminated license can be, citing the Facebook React license."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006201.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 63,
+        "total_messages": 64,
         "date_range": [
           "2026-08-13",
           "2026-08-29"
@@ -1057,7 +1070,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission has a clear start date (2026-08-13) and active discussion continuing through at least 2026-08-29. There is no evidence of a board vote, final approval, rejection, or withdrawal in the provided timeline. The curated RWP entry also marks the status as pending. Therefore, the license remains under review.",
+        "rationale": "The submission is currently pending as evidenced by the curated list status and the ongoing discussion on the license-review mailing list. The timeline shows a submission event followed by discussion and feedback, but no final decision, withdrawal, or board vote has occurred.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1068,15 +1081,10 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#62",
-            "supports": "pending",
-            "quote": "Raises a concern about patent-assertion-triggered termination..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:89fd69a731b7d855a9060d0b738c856531ce783b746db97cd07f6b7e2f6ef592",
+        "input_hash": "sha256:9981e285fe107a8cefcae991077ec1d9747439adc881dc2ddf1b72cc65a6075f",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
