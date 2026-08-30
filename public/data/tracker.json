@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T00:02:25.932Z",
+    "generated_at": "2026-08-30T01:10:32.869Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-30T00:02:41.963Z",
+    "enriched_at": "2026-08-30T01:10:49.184Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-30T00:02:47.975Z",
+      "applied_at": "2026-08-30T01:10:55.145Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -78,7 +78,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-29"
+          "latest_event_date": "2026-08-30"
         },
         "board_vote": {
           "present": false
@@ -106,13 +106,13 @@
           "message_count": 8
         },
         {
-          "name": "Rob Landley",
-          "role": "reviewer",
-          "message_count": 7
-        },
-        {
           "name": "McCoy Smith",
           "role": "board_member",
+          "message_count": 8
+        },
+        {
+          "name": "Rob Landley",
+          "role": "reviewer",
           "message_count": 7
         },
         {
@@ -163,6 +163,11 @@
         {
           "name": "Josh Berkus",
           "role": "board_member",
+          "message_count": 1
+        },
+        {
+          "name": "John Colagioia",
+          "role": "reviewer",
           "message_count": 1
         }
       ],
@@ -1043,18 +1048,44 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Cites a specific NVIDIA repository using OpenMDW-1.1 as an example of the ambiguity problem regarding the scope of 'Model Materials' versus other included files."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, \tversions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006203.html",
+          "sender": "John Colagioia",
+          "snippet": "Argues the license fails as an Open Source license because AI models lack copyright protection and source code, rendering the granted rights meaningless.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues the license fails as an Open Source license because AI models lack copyright protection and source code, rendering the granted rights meaningless."
+        },
+        {
+          "date": "2026-08-30",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006204.html",
+          "sender": "McCoy Smith",
+          "snippet": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3.",
+          "point_zh": null,
+          "sentiment": "positive",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 65,
+        "total_messages": 67,
         "date_range": [
           "2026-08-13",
-          "2026-08-29"
+          "2026-08-30"
         ],
-        "duration_days": 16,
+        "duration_days": 17,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -1070,7 +1101,8 @@
           "Stefano Maffulli",
           "Nick Vidal",
           "Joshua Gay",
-          "Josh Berkus"
+          "Josh Berkus",
+          "John Colagioia"
         ]
       },
       "status_review": {
@@ -1083,7 +1115,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for approval on August 13, 2026. As of the latest event date (August 29, 2026), the discussion is ongoing with feedback and concerns raised by OSI participants and legal experts, but no board vote, final decision, or withdrawal has been recorded. The curated RWP entry explicitly lists the status as pending.",
+        "rationale": "The review is currently active with ongoing discussion but no final decision, rejection, or withdrawal. The submission occurred in August 2026, and the latest evidence indicates a 'pending' status with continued debate on technical and legal aspects, but no conclusive outcome.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1096,13 +1128,13 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#63",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#66",
             "supports": "pending",
-            "quote": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code."
+            "quote": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:45906f0f3e20315f364935b428e58237a59c25033786513a375b6b5982ebe9cc",
+        "input_hash": "sha256:5ee5d34e80f84e7c395ec7c834caa7c383374356611bcd70e23f6c9136a91ce2",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

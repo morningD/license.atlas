@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "1f9f0d841e95e575",
+    "source_hash": "3ee7893cef23b0cc",
     "index_schema_version": 5,
-    "generated_at": "2026-08-30T00:02:41.963Z",
+    "generated_at": "2026-08-30T01:10:49.184Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 65,
-      "duration_days": 16,
+      "total_messages": 67,
+      "duration_days": 17,
       "date_range": [
         "2026-08-13",
-        "2026-08-29"
+        "2026-08-30"
       ]
     },
     "has_vote": false,
@@ -47,18 +47,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 65,
+      "count": 67,
       "first": "2026-08-13",
-      "last": "2026-08-29"
+      "last": "2026-08-30"
     },
     "latest_event": {
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "McCoy Smith",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Cites a specific NVIDIA repository using OpenMDW-1.1 as an example of the ambiguity problem regarding the scope of 'Model Materials' versus other included files.",
+      "sentiment": "positive",
+      "point": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3.",
       "point_zh": ""
     }
   },
