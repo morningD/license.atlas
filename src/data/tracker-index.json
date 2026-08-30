@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "source_hash": "b226665158d990f8",
+    "source_hash": "733db73f695fc3ed",
     "index_schema_version": 5,
     "generated_at": "2026-08-30T08:52:33.735Z",
     "total_submissions": 253,
@@ -57,7 +57,7 @@
       "source": "license-review",
       "sender": "Shuji Sado",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions.",
       "point_zh": ""
     }
@@ -202,7 +202,7 @@
       "source": "license-review",
       "sender": "Carlo Piana",
       "subject": "[License-review] For Approval: The BOS Public License v1.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Agreed the submission lacked required text and information, and questioned the need for a new backlink condition that may add compliance friction.",
       "point_zh": "认为该提交缺少必要文本和信息，并质疑新增原项目链接条件的必要性，认为可能增加合规摩擦。"
     }
@@ -296,7 +296,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] The Mutualist License (MutuaL) v1.2",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that OSI review must rigorously pressure-test licenses for ecosystem health and legal clarity, because interpretive canons cannot reliably rescue ambiguous drafting.",
       "point_zh": "指出 OSI 审查应从生态健康和法律清晰度出发严格压力测试许可证，因为解释规则无法可靠弥补含糊起草。"
     }
@@ -736,7 +736,7 @@
       "source": "license-review",
       "sender": "Richard Fontana",
       "subject": "[License-review] For Legacy Approval: TOPPERS License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Prefers a professional translation affidavit and warns that extra translation evidence may still be requested, delaying approval.",
       "point_zh": "倾向于由专业翻译服务出具宣誓书，并提醒后续可能还会要求额外译文或第二份宣誓书，从而延迟批准。"
     }
@@ -1129,7 +1129,7 @@
       "source": "license-review",
       "sender": "Josh Berkus",
       "subject": "[License-review] Submission: Project Tick General Public License v2 for OSI License Review",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Board decision discussion for Project Tick General Public License v2 for OSI License Review.",
       "point_zh": "Project Tick General Public License v2 for OSI License Review 的董事会决议相关讨论。"
     }
@@ -1366,7 +1366,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] Request - For Approval - Ritchey Permissive License v11",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Announces that the OSI Board did not approve the Ritchey Permissive License v11.",
       "point_zh": "公告 OSI 董事会未批准 Ritchey Permissive License v11。"
     }
@@ -1412,7 +1412,7 @@
       "source": "license-review",
       "sender": "Syed Arsalan Hussain Shah",
       "subject": "[License-review] Fwd: For Approval | Open Source Social Network License 1.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Announces the license has been changed to CAL 1.0 and requests closing the approval request, thanking the community for their help.",
       "point_zh": "宣布许可证已更改为 CAL 1.0，请求关闭审批申请，并感谢社区的帮助。"
     }
@@ -1550,7 +1550,7 @@
       "source": "license-review",
       "sender": "Anand Chowdhary",
       "subject": "[License-review] For Approval: Twente License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Proposes replacing the privacy restriction with a Data Controller disclosure requirement and asks whether that could remain usable and OSI-compliant.",
       "point_zh": "提出用数据控制者披露要求来替代隐私限制，并询问这种做法是否还能保持可用性并符合 OSI 要求。"
     }
@@ -1596,7 +1596,7 @@
       "source": "license-review",
       "sender": "Rob Landley",
       "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.3 (C-FSL v1.3)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "C-FSL-type licenses are designed to allow companies to perform bait-and-switch tactics on users, and labeling such practices as 'open source' is nothing new.",
       "point_zh": "指出C-FSL这类许可证正是为了允许公司对用户进行诱骗式变更而设计的，将这种行为贴上'开源'标签的做法并不新鲜。"
     }
@@ -1688,7 +1688,7 @@
       "source": "license-review",
       "sender": "Carlo Piana",
       "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Considers original authors retaining re-licensing rights a major obstacle to approval; if not made reciprocal, it constitutes a discriminatory provision, and suggests extending that right to fork project authors.",
       "point_zh": "认为原始作者保留再许可权是批准的主要障碍，若不赋予对等权利则构成歧视性条款，建议将该权利扩展至分叉项目的作者。"
     }
@@ -1734,7 +1734,7 @@
       "source": "license-review",
       "sender": "Richard Fontana",
       "subject": "[License-review] Request for Approval for YetiForce Public License 3.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Reports that the OSI board decided at its November meeting to reject the YetiForce Public License 3.0.",
       "point_zh": "通报 OSI 董事会已在11月会议上决定拒绝 YetiForce Public License 3.0。"
     }
@@ -1780,7 +1780,7 @@
       "source": "license-review",
       "sender": "Fei Teng",
       "subject": "[License-review]  Approval request for ZENTAO PUBLIC LICENSE",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Explains that ZPL was drafted to protect developers' incentives and income in a market where users often remove attribution, and argues that practical sustainability matters more than absolute software freedom.",
       "point_zh": "解释称 ZPL 的制定是为了在用户常移除署名的环境下保护开发者的积极性和收入，并主张实践中的可持续性比绝对的软件自由更重要。"
     }
@@ -1872,7 +1872,7 @@
       "source": "license-review",
       "sender": "Josh Berkus",
       "subject": "[License-review] Request for approval of the Non-Coercive Copyleft Licence (NCCL) 1.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that a copyleft license cannot be non-coercive by the submitter's definition, because copyleft inherently requires enforcement of conditions.",
       "point_zh": "认为 copyleft 许可证按提交者的定义不可能是非强制性的，因为 copyleft 本质上需要强制执行条件。"
     }
@@ -1918,7 +1918,7 @@
       "source": "license-review",
       "sender": "John Cowan",
       "subject": "[License-review] For Approval: Scripting Free Software License, Version 1.3.6 (S-FSL v1.3.6)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Distinguishes BSD and GPL philosophies while saying both should oppose attempts to use open source without following open-source rules.",
       "point_zh": "区分 BSD 与 GPL 的理念，同时表示两者都应反对不遵守开源规则却想参与开源的人。"
     }
@@ -1964,7 +1964,7 @@
       "source": "license-review",
       "sender": "Rick Moen",
       "subject": "[License-review] For Approval: Scripting Free Software License, Version 1.3.5 (S-FSL v1.3.5)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Challenges the claim that open source sits outside copyright law and explains that copyright generally does not control mere use after lawful receipt.",
       "point_zh": "质疑开源脱离版权法的说法，并解释合法取得软件后版权通常不能控制单纯使用。"
     }
@@ -2010,7 +2010,7 @@
       "source": "license-review",
       "sender": "Howard Look",
       "subject": "[License-review] Request for approval by license steward:\tTidepool Open Access to Health Data Software License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Acknowledges that legislation could also secure patient access, but says lawmaking is outside the project’s scope and the proposal aims to combine open-source and open-data licensing.",
       "point_zh": "承认立法也能保障患者访问数据，但表示立法不在项目能力范围内，而该提案旨在结合开源与开放数据许可。"
     }
@@ -2197,7 +2197,7 @@
       "source": "license-review",
       "sender": "Rick Moen",
       "subject": "AW: For Approval: The netX Public Lisense (in plain text)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Notes that impossible notification obligations might become unenforceable, but still argues such clauses are bad drafting because they create avoidable legal uncertainty.",
       "point_zh": "指出无法履行的通知义务可能变得不可执行，但仍认为此类条款是糟糕起草，因为会制造本可避免的法律不确定性。"
     }
@@ -2337,7 +2337,7 @@
       "source": "license-review",
       "sender": "Zooko",
       "subject": "For Approval: Transitive Grace Period Public Licence, v1.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Distinguishes TGPPL's transitive delayed-source obligation from one-shot eventual-source releases, then shares empirical examples suggesting such models have mixed practical results.",
       "point_zh": "区分 TGPPL 的传递性延迟开源义务与一次性的 eventual-source 发布，并列举经验案例说明这类模式实践效果复杂。"
     }
@@ -2383,7 +2383,7 @@
       "source": "license-discuss",
       "sender": "Alexander Terekhov",
       "subject": "[repost] [j at uriah.heep.sax.de: For Approval: The beer-ware license]",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "An anonymous contributor cites case law (S.O.S. v. Payday, Sun Microsystems v. Microsoft) to argue that open source licenses as adhesion contracts are construed against the drafter, making ambiguous terms legally risky.",
       "point_zh": "一位匿名贡献者引用判例法（S.O.S. 诉 Payday、Sun Microsystems 诉 Microsoft），论证开源许可证作为附合合同应按不利于起草方的原则解释，使模糊条款面临法律风险。"
     }
@@ -2475,7 +2475,7 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "For Approval: Educational Community License 1.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that exclusive-licensing problems are systemic because approved patents overlap and can be nearly identical, so the flaw is not limited to any one organization.",
       "point_zh": "主张独家许可的弊端是系统性的，因为已授权专利之间相互重叠甚至近乎相同，问题并非某一机构的个别现象。"
     }
@@ -2659,7 +2659,7 @@
       "source": "license-discuss",
       "sender": "Tomas Novak",
       "subject": "For Approval: TrueCrypt Collective License Version 2.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Argues the clause is still needed because explicit license language is easier to enforce and trademark protection is inconsistent across countries.",
       "point_zh": "主张该条款仍有必要，因为把要求明确写入许可证更易执行，而且各国对商标的保护并不一致。"
     }
@@ -2705,7 +2705,7 @@
       "source": "license-discuss",
       "sender": "Mahesh T. Pai",
       "subject": "For Approval: MindTree Public License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues the vendor-specific framing is a drafting issue that discourages independent reuse, and suggests the OSD should require licenses not to name specific copyright holders to address license proliferation.",
       "point_zh": "认为供应商特定措辞是起草问题，阻碍独立开发者复用，并建议 OSD 应要求许可证不得指定特定版权持有者以解决许可证泛滥问题。"
     }
@@ -2751,7 +2751,7 @@
       "source": "license-discuss",
       "sender": "Lawrence Rosen",
       "subject": "For Approval: Academic Citing License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Explains that OSL clause 1(d) and clause 5 serve different purposes, and asserts confidence that the external deployment conditions are enforceable as contracts.",
       "point_zh": "解释OSL第1(d)条和第5条服务于不同目的，并确信外部部署条件作为合同是可执行的。"
     }
@@ -2843,7 +2843,7 @@
       "source": "license-discuss",
       "sender": "David Presotto",
       "subject": "For Approval: Open Source Software Alliance License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Says a different clause might have been less inflammatory, but he dislikes restrictions in both GPL and OSSAL and still regards both as open source.",
       "point_zh": "表示如果换一种条款可能没那么刺激，但他同样不喜欢 GPL 和 OSSAL 里的限制，并仍把两者都视为开源。"
     }
@@ -2981,7 +2981,7 @@
       "source": "license-discuss",
       "sender": "Rick Moen",
       "subject": "license submission: qmail",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that OSD clause 3 means a derived qmail build may not be redistributed on the original terms, while welcoming edge-case discussion.",
       "point_zh": "主张 OSD 第 3 条意味着 qmail 的衍生构建不能按原条款再分发，同时欢迎讨论边界情况。"
     }
@@ -3289,7 +3289,7 @@
       "source": "license-review",
       "sender": "Bruce Perens",
       "subject": "[License-review] Approval: Server Side Public License, Version 2 (SSPL v2)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Says extended copyleft models can be explored outside the open source label, and that such licenses should not be called open source.",
       "point_zh": "表示这类扩展型 copyleft 模式可以在不开源名义下实践，但不应被称作开源。"
     }
@@ -3568,7 +3568,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: The Cryptographic Autonomy License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Announces the OSI Board's decision to withhold approval of CAL 1.0 (vote 7-0-0) and that the license is now listed on the Not Approved Licenses wiki page.",
       "point_zh": "宣布 OSI 董事会决定不予批准 CAL 1.0（7-0-0 表决），该许可证已列入「未批准许可证」wiki 页面。"
     }
@@ -3616,7 +3616,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] Submission: CNRI-Python-GPL-Compatible",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Argues the clause does not violate OSD 10 because the clickwrap is stated in the alternative (\"or by copying\"), so agreement is possible with or without a GUI, providing the OSD 10 historical context.",
       "point_zh": "主张该条款不违反 OSD 10，因为点击包装以选择式表述（“或通过复制……”），无论是否有 GUI 都可表示同意，并提供了 OSD 10 的历史背景。"
     }
@@ -3764,7 +3764,7 @@
       "source": "license-review",
       "sender": "Josh Berkus",
       "subject": "[License-review] License Approval Request: BSD-3-Clause-Open-MPI",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
       "point_zh": "宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
     }
@@ -3812,7 +3812,7 @@
       "source": "license-review",
       "sender": "Josh Berkus",
       "subject": "[License-review] License Approval Request: BSD-3-Clause-Open-MPI",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Announces that the BSD-3-Clause-Open-MPI License has been approved by the OSI board.",
       "point_zh": "宣布 BSD-3-Clause-Open-MPI 许可证已获 OSI 董事会批准。"
     }
@@ -3956,7 +3956,7 @@
       "source": "license-review",
       "sender": "Josh Berkus",
       "subject": "[License-review] Legacy license suggestion: WordNet",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Announces that the WordNet 3.0 License was approved by the Board as an open-source legacy license.",
       "point_zh": "宣布 WordNet 3.0 许可证已被董事会批准为开源的遗留许可证。"
     }
@@ -4004,7 +4004,7 @@
       "source": "license-review",
       "sender": "McCoy Smith",
       "subject": "[License-review] Request for a new license review [Luther-LAW_DE.FID5237501]",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Agrees the license is probably not broadly useful outside Germany and says other jurisdictions already allow broader disclaimers.",
       "point_zh": "认为这种许可证大概只适合德国使用，且其他司法辖区本来就允许更宽泛的免责声明。"
     }
@@ -4052,7 +4052,7 @@
       "source": "license-review",
       "sender": "McCoy Smith",
       "subject": "[License-review] Request for a new license review [Luther-LAW_DE.FID5237501]",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Agrees the license is probably not broadly useful outside Germany and says other jurisdictions already allow broader disclaimers.",
       "point_zh": "认为这种许可证大概只适合德国使用，且其他司法辖区本来就允许更宽泛的免责声明。"
     }
@@ -4196,7 +4196,7 @@
       "source": "license-review",
       "sender": "Luis Villa",
       "subject": "[License-review] [new license] Blue Oak Model License 1.0.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks the community for their feedback on the Blue Oak Model License review.",
       "point_zh": "感谢社区对 Blue Oak Model License 审核提供的反馈。"
     }
@@ -4244,7 +4244,7 @@
       "source": "license-review",
       "sender": "Luis Villa",
       "subject": "[License-review] [new license] Blue Oak Model License 1.0.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks the community for their feedback on the Blue Oak Model License review.",
       "point_zh": "感谢社区对 Blue Oak Model License 审核提供的反馈。"
     }
@@ -4388,7 +4388,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: Open Logistics License v1.3 (was v1.2)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks Andreas and expresses that the process was a pleasure.",
       "point_zh": "感谢Andreas，表示这一过程非常愉快。"
     }
@@ -4436,7 +4436,7 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: Open Logistics License v1.3 (was v1.2)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks Andreas and expresses that the process was a pleasure.",
       "point_zh": "感谢Andreas，表示这一过程非常愉快。"
     }
@@ -5156,7 +5156,7 @@
       "source": "license-discuss",
       "sender": "Nigel T",
       "subject": "[License-discuss] For approval: The Cryptographic Autonomy License (Beta 4)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Expresses frustration that CAL compliance concerns were overlooked by the board, noting that these concerns had been raised earlier but not taken seriously.",
       "point_zh": "表达对CAL合规性问题被董事会忽视的不满，指出自己曾提出过相关担忧但未获重视。"
     }
@@ -5204,7 +5204,7 @@
       "source": "license-discuss",
       "sender": "Nigel T",
       "subject": "[License-discuss] For approval: The Cryptographic Autonomy License (Beta 4)",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Expresses frustration that CAL compliance concerns were overlooked by the board, noting that these concerns had been raised earlier but not taken seriously.",
       "point_zh": "表达对CAL合规性问题被董事会忽视的不满，指出自己曾提出过相关担忧但未获重视。"
     }
@@ -5636,7 +5636,7 @@
       "source": "license-review",
       "sender": "Jim Wright",
       "subject": "[License-review] For Approval: W3C Software and Document License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Agrees with Carlo that a license cannot exclude relevant patent rights and still count as open source.",
       "point_zh": "赞同 Carlo 的观点，认为许可证若排除相关专利权，就不能仍被视为开源许可证。"
     }
@@ -6836,7 +6836,7 @@
       "source": "license-review",
       "sender": "David A Smith",
       "subject": "New OSL for \"official Intelligence\"",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks for responses, agrees to use standard license formats for now to keep things simple, and plans to share a mission statement and white paper.",
       "point_zh": "感谢回复，同意先使用标准许可证格式以简化流程，并计划分享项目使命宣言和白皮书。"
     }
@@ -7028,7 +7028,7 @@
       "source": "license-review",
       "sender": "Dave Page",
       "subject": "Legacy approval request - BSD license (PostgreSQL variant)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Says the license will be revised and resubmitted following the feedback.",
       "point_zh": "表示会根据反馈修改后重新提交。"
     }
@@ -7172,7 +7172,7 @@
       "source": "license-review",
       "sender": "John Cowan",
       "subject": "For Approval 36 Open Software License Request",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Says the proposed license resembles LGPL, MPL, or EPL and recommends using one of those instead to avoid adding burden to developers.",
       "point_zh": "认为该提议与 LGPL、MPL 或 EPL 类似，建议改用这些现成许可证，以免增加开发者负担。"
     }
@@ -7220,7 +7220,7 @@
       "source": "license-review",
       "sender": "John Cowan",
       "subject": "For Approval 36 Open Software License Request",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Says the proposed license resembles LGPL, MPL, or EPL and recommends using one of those instead to avoid adding burden to developers.",
       "point_zh": "认为该提议与 LGPL、MPL 或 EPL 类似，建议改用这些现成许可证，以免增加开发者负担。"
     }
@@ -7268,7 +7268,7 @@
       "source": "license-review",
       "sender": "yuko.noguchi at mhmjapan.com",
       "subject": "For Approval: IPA Font License v1.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Thanks reviewers for their positive feedback and expresses hope for OSI approval of the IPA Font License at the next board meeting.",
       "point_zh": "感谢审阅者的积极反馈，并期望IPA字体许可证在下次董事会议上获得批准。"
     }
@@ -7556,7 +7556,7 @@
       "source": "license-review",
       "sender": "Matthew Flaschen",
       "subject": "Request for approval: EUPL (European Union Public Licence)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Supports approval of EUPL 1.1 while expressing disappointment that GPLv3/AGPLv3 were not added to the compatibility list, and flagging that the new Distribution definition makes the license Affero-style (still OSD-compliant).",
       "point_zh": "支持批准 EUPL 1.1，但对未将 GPLv3/AGPLv3 纳入兼容清单表示失望，并指出新的分发定义使许可证呈现 Affero 式特征（仍符合 OSD）。"
     }
@@ -7604,7 +7604,7 @@
       "source": "license-review",
       "sender": "Matthew Flaschen",
       "subject": "Request for approval: EUPL (European Union Public Licence)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Supports approval of EUPL 1.1 while expressing disappointment that GPLv3/AGPLv3 were not added to the compatibility list, and flagging that the new Distribution definition makes the license Affero-style (still OSD-compliant).",
       "point_zh": "支持批准 EUPL 1.1，但对未将 GPLv3/AGPLv3 纳入兼容清单表示失望，并指出新的分发定义使许可证呈现 Affero 式特征（仍符合 OSD）。"
     }
@@ -7652,7 +7652,7 @@
       "source": "license-review",
       "sender": "Lawrence Rosen",
       "subject": "request for Legacy Approval of the NTP License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Questions the practicality of approving near-duplicate license variants, asking whether reviewers actually verify the minor wording changes in each submission.",
       "point_zh": "质疑批准近乎重复的许可证变体的实际意义，询问审查者是否真的会逐一核实每次提交中的细微措辞变更。"
     }
@@ -7940,7 +7940,7 @@
       "source": "license-review",
       "sender": "Zooko",
       "subject": "Re: Æsthetic Permissive License - For Approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Expresses strong desire for an OSI-approved minimal permissive license, explaining that as an open source author he currently uses his own unapproved Simple Permissive Licence and falls back to BSD only in databases.",
       "point_zh": "表达了对 OSI 批准的最小宽松许可证的强烈需求，解释他作为开源作者目前使用自己未获批准的 Simple Permissive Licence，仅在数据库中被迫选择 BSD。"
     }
@@ -7988,7 +7988,7 @@
       "source": "license-review",
       "sender": "Zooko",
       "subject": "Re: Æsthetic Permissive License - For Approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Expresses strong desire for an OSI-approved minimal permissive license, explaining that as an open source author he currently uses his own unapproved Simple Permissive Licence and falls back to BSD only in databases.",
       "point_zh": "表达了对 OSI 批准的最小宽松许可证的强烈需求，解释他作为开源作者目前使用自己未获批准的 Simple Permissive Licence，仅在数据库中被迫选择 BSD。"
     }
@@ -8036,7 +8036,7 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "FOR APPROVAL: The license of Multics",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Supports approving the Multics license as open source while immediately deprecating it.",
       "point_zh": "支持批准 Multics 许可证为开源许可证，但同时立即废弃。"
     }
@@ -8324,7 +8324,7 @@
       "source": "license-discuss",
       "sender": "David Woolley",
       "subject": "For Approval: Non-Profit OSL 3.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that the warranty requirement discriminates against a field of endeavour and should be replaced with explanatory text about the benefits of offering warranties.",
       "point_zh": "主张该保修要求构成了对特定事业领域的歧视，应予以删除并附上解释性文字说明提供保修的好处。"
     }
@@ -8372,7 +8372,7 @@
       "source": "license-discuss",
       "sender": "David Woolley",
       "subject": "For Approval: Non-Profit OSL 3.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that the warranty requirement discriminates against a field of endeavour and should be replaced with explanatory text about the benefits of offering warranties.",
       "point_zh": "主张该保修要求构成了对特定事业领域的歧视，应予以删除并附上解释性文字说明提供保修的好处。"
     }
@@ -8804,7 +8804,7 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "For Approval: ECL 2.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that institution-wide implicit patent grants already exist under MIT/Apache/BSD, so the only open question is whether such an implied license would actually hold up.",
       "point_zh": "主张机构范围的隐含专利授权在 MIT/Apache/BSD 下早已普遍存在，因此真正待定的只是这种隐含授权能否经得起法律检验。"
     }
@@ -8852,7 +8852,7 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "For Approval: ECL 2.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Argues that institution-wide implicit patent grants already exist under MIT/Apache/BSD, so the only open question is whether such an implied license would actually hold up.",
       "point_zh": "主张机构范围的隐含专利授权在 MIT/Apache/BSD 下早已普遍存在，因此真正待定的只是这种隐含授权能否经得起法律检验。"
     }
@@ -8900,7 +8900,7 @@
       "source": "license-discuss",
       "sender": "Jim Sfekas",
       "subject": "For Approval: Simple Public License (SimPL)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Reports final SimPL revisions, accepts the suggested compatibility wording, and asks the board to consider SimPL in June.",
       "point_zh": "报告 SimPL 最终修订，接受建议的兼容性措辞，并请求董事会在六月审议 SimPL。"
     }
@@ -8948,7 +8948,7 @@
       "source": "license-discuss",
       "sender": "Jim Sfekas",
       "subject": "For Approval: Simple Public License (SimPL)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Reports final SimPL revisions, accepts the suggested compatibility wording, and asks the board to consider SimPL in June.",
       "point_zh": "报告 SimPL 最终修订，接受建议的兼容性措辞，并请求董事会在六月审议 SimPL。"
     }
@@ -9092,7 +9092,7 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "For Approval: Microsoft Permissive License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Dismisses the trademark concerns as speculative, noting the MS-PL trademark situation is the same as other OSI-approved licenses, and sees no obstacles to approval.",
       "point_zh": "驳斥商标担忧为推测性的，指出 MS-PL 的商标情况与其他 OSI 批准的许可证相同，认为批准不存在障碍。"
     }
@@ -9140,7 +9140,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "For Approval: Common Development and Distribution License (CDDL)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Clarifies he was conflated with Russell; states the MPL has flaws but not serious ones, and that the CDDL is an advance on it.",
       "point_zh": "澄清自己与 Russell 被混淆；表示 MPL 有缺陷但不严重，并认为 CDDL 是对它的改进。"
     }
@@ -9188,7 +9188,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "For Approval: Common Development and Distribution License (CDDL)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Clarifies he was conflated with Russell; states the MPL has flaws but not serious ones, and that the CDDL is an advance on it.",
       "point_zh": "澄清自己与 Russell 被混淆；表示 MPL 有缺陷但不严重，并认为 CDDL 是对它的改进。"
     }
@@ -9236,7 +9236,7 @@
       "source": "license-discuss",
       "sender": "Rick Moen",
       "subject": "The IBM Public License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Rebuts the privity argument by asserting that the GPL is not a contract, so contractual privity requirements are irrelevant to its enforcement.",
       "point_zh": "反驳合同关系论点，指出GPL根本不是合同，因此合同关系要求与其执行无关。"
     }
@@ -9284,7 +9284,7 @@
       "source": "license-discuss",
       "sender": "Rick Moen",
       "subject": "The IBM Public License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Rebuts the privity argument by asserting that the GPL is not a contract, so contractual privity requirements are irrelevant to its enforcement.",
       "point_zh": "反驳合同关系论点，指出GPL根本不是合同，因此合同关系要求与其执行无关。"
     }
@@ -9380,7 +9380,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "OSL/AFL version 2.1 submitted for approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Offers a simple +1 approval of the revised license.",
       "point_zh": "直接给出 +1，表示赞成该修订版许可证。"
     }
@@ -9428,7 +9428,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "OSL/AFL version 2.1 submitted for approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Offers a simple +1 approval of the revised license.",
       "point_zh": "直接给出 +1，表示赞成该修订版许可证。"
     }
@@ -9476,7 +9476,7 @@
       "source": "license-discuss",
       "sender": "jcowan at reutershealth.com",
       "subject": "For approval: NOSA version 1.3 now posted on the web",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Reviews NOSA 1.3 from scratch and reports that all previously identified problems seem to have been resolved.",
       "point_zh": "对 NOSA 1.3 进行了全新审查，认为之前发现的所有问题似乎都已解决。"
     }
@@ -9524,7 +9524,7 @@
       "source": "license-discuss",
       "sender": "jcowan at reutershealth.com",
       "subject": "For approval: NOSA version 1.3 now posted on the web",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Reviews NOSA 1.3 from scratch and reports that all previously identified problems seem to have been resolved.",
       "point_zh": "对 NOSA 1.3 进行了全新审查，认为之前发现的所有问题似乎都已解决。"
     }
@@ -9572,7 +9572,7 @@
       "source": "license-discuss",
       "sender": "Rod Dixon, J.D., LL.M.",
       "subject": "For Approval: Eclipse Public License - v 1.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Recommends approval of the EPL since the only change (removal of the CPL's patent-litigation clause) is not pertinent to the OSD; also suggests Eclipse clarify the EPL/CPL/IPL relationship on its website.",
       "point_zh": "建议批准 EPL，认为删除 CPL 专利诉讼条款的变更与 OSD 无关；并建议 Eclipse 在网站上澄清 EPL、CPL、IPL 三者关系。"
     }
@@ -9620,7 +9620,7 @@
       "source": "license-discuss",
       "sender": "Rod Dixon, J.D., LL.M.",
       "subject": "For Approval: Eclipse Public License - v 1.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Recommends approval of the EPL since the only change (removal of the CPL's patent-litigation clause) is not pertinent to the OSD; also suggests Eclipse clarify the EPL/CPL/IPL relationship on its website.",
       "point_zh": "建议批准 EPL，认为删除 CPL 专利诉讼条款的变更与 OSD 无关；并建议 Eclipse 在网站上澄清 EPL、CPL、IPL 三者关系。"
     }
@@ -9764,7 +9764,7 @@
       "source": "license-discuss",
       "sender": "James William Pye",
       "subject": "For Approval: Fair License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Acknowledges the concern that \"use\" may not clearly cover modification/distribution, agrees to expand the term in a new Fair License version, and requests the approval be put on hold in the meantime.",
       "point_zh": "承认「use」未必涵盖修改/分发的疑虑，同意在新版 Fair License 中扩展该词，并请求在此期间暂停审批。"
     }
@@ -9812,7 +9812,7 @@
       "source": "license-discuss",
       "sender": "Alexander Terekhov",
       "subject": "For Approval: CUA Office Public License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Points out that the proposed short name \"CPL\" collides with the existing Common Public License and sarcastically suggests using the real CPL instead.",
       "point_zh": "指出 CUA 拟用的简称「CPL」与既有的 Common Public License 撞名，戏谑地建议直接用「真正的 CPL」。"
     }
@@ -9860,7 +9860,7 @@
       "source": "license-discuss",
       "sender": "Alexander Terekhov",
       "subject": "For Approval: CUA Office Public License",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Points out that the proposed short name \"CPL\" collides with the existing Common Public License and sarcastically suggests using the real CPL instead.",
       "point_zh": "指出 CUA 拟用的简称「CPL」与既有的 Common Public License 撞名，戏谑地建议直接用「真正的 CPL」。"
     }
@@ -9908,7 +9908,7 @@
       "source": "license-discuss",
       "sender": "Ben Reser",
       "subject": "For Approval: Lucent Public License Version 1.02",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Reviews proposed changes to LPL 1.02, suggesting that the license modification clause should be more permissive and that the export control clause should use more general wording.",
       "point_zh": "审查 LPL 1.02 的拟议修改，建议许可证修改条款应更宽松，出口管制条款应使用更通用的措辞。"
     }
@@ -9956,7 +9956,7 @@
       "source": "license-discuss",
       "sender": "Ben Reser",
       "subject": "For Approval: Lucent Public License Version 1.02",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Reviews proposed changes to LPL 1.02, suggesting that the license modification clause should be more permissive and that the export control clause should use more general wording.",
       "point_zh": "审查 LPL 1.02 的拟议修改，建议许可证修改条款应更宽松，出口管制条款应使用更通用的措辞。"
     }
@@ -10052,7 +10052,7 @@
       "source": "license-discuss",
       "sender": "M. Drew Streib",
       "subject": "Apple Public Source License 2.0 submitted for OSI approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "After reading both versions, asserts APSL 2.0 is fully OSD-compliant and urges fast-tracking approval; asks whether an OSI board member can confirm a vote at the next meeting.",
       "point_zh": "认定 APSL 2.0 完全符合 OSD，呼吁尽快推进批准，并询问董事会能否在下次会议表决。"
     }
@@ -10100,7 +10100,7 @@
       "source": "license-discuss",
       "sender": "M. Drew Streib",
       "subject": "Apple Public Source License 2.0 submitted for OSI approval",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "After reading both versions, asserts APSL 2.0 is fully OSD-compliant and urges fast-tracking approval; asks whether an OSI board member can confirm a vote at the next meeting.",
       "point_zh": "认定 APSL 2.0 完全符合 OSD，呼吁尽快推进批准，并询问董事会能否在下次会议表决。"
     }
@@ -10148,7 +10148,7 @@
       "source": "license-discuss",
       "sender": "David Johnson",
       "subject": "Official approval for the PHP License v3.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Says wording and section 6 are imperfect but not disqualifying, and recommends approving the PHP license.",
       "point_zh": "认为措辞和第 6 条虽有问题但不足以否决，并建议批准 PHP 许可证。"
     }
@@ -10196,7 +10196,7 @@
       "source": "license-discuss",
       "sender": "David Johnson",
       "subject": "Official approval for the PHP License v3.0",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Says wording and section 6 are imperfect but not disqualifying, and recommends approving the PHP license.",
       "point_zh": "认为措辞和第 6 条虽有问题但不足以否决，并建议批准 PHP 许可证。"
     }
@@ -10340,7 +10340,7 @@
       "source": "license-discuss",
       "sender": "Riley, Jason",
       "subject": "discuss: Entessa Public License Version, 1.0 (EPL)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Asks whether EPL 1.0 will be added to the OSI approved list before the initiative's release, and argues the changes are trivial Apache templatization that should not even require Board approval.",
       "point_zh": "询问 EPL 1.0 是否将被列入 OSI 批准名单，并主张这些改动只是 Apache 模板化、本无需董事会审批。"
     }
@@ -10580,7 +10580,7 @@
       "source": "license-discuss",
       "sender": "Mike Haisley",
       "subject": "discuss: approval request: \"Historical Permission Notice and Disclaimer\"",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Supports acceptance of the HPND template and suggests that public domain declarations should also qualify under the same legacy category.",
       "point_zh": "支持接受HPND模板，并建议公共领域声明也应归入同一历史类别。"
     }
@@ -10772,7 +10772,7 @@
       "source": "license-discuss",
       "sender": "Nathan Kelley",
       "subject": "discuss: OCLC Office of Research Open Source License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "States the ORPL 2.0 appears OSD-compliant apart from issues already raised, and would support approval once those issues are clarified.",
       "point_zh": "认为 ORPL 2.0 除已提出的问题外基本符合 OSD，一旦这些问题得到澄清，将支持该许可证被纳入 OSI 批准许可证库。"
     }
@@ -10820,7 +10820,7 @@
       "source": "license-discuss",
       "sender": "Nathan Kelley",
       "subject": "discuss: OCLC Office of Research Open Source License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "States the ORPL 2.0 appears OSD-compliant apart from issues already raised, and would support approval once those issues are clarified.",
       "point_zh": "认为 ORPL 2.0 除已提出的问题外基本符合 OSD，一旦这些问题得到澄清，将支持该许可证被纳入 OSI 批准许可证库。"
     }
@@ -10868,7 +10868,7 @@
       "source": "license-discuss",
       "sender": "Danese Cooper",
       "subject": "Differences between LGPL and SISSL ?",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Explains that SISSL and LGPL are both free/open source, but SISSL behaves like BSD unless reuse deviates from referenced standards, at which point it requires disclosure of code or specifications.",
       "point_zh": "解释 SISSL 和 LGPL 都是自由/开源许可证，但 SISSL 在不偏离相关标准时类似 BSD；若偏离标准，则要求公开代码或规范。"
     }
@@ -10916,7 +10916,7 @@
       "source": "license-discuss",
       "sender": "Andy Tai",
       "subject": "Open Software License version 1.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Questions the license name, the scope of “open software,” OSI’s role in publishing licenses, and says the license is not GPL-compatible.",
       "point_zh": "质疑许可证名称、“开源软件”的范围、OSI 是否应参与发布许可证，并指出该许可证与 GPL 不兼容。"
     }
@@ -10964,7 +10964,7 @@
       "source": "license-discuss",
       "sender": "Andy Tai",
       "subject": "Open Software License version 1.0",
-      "sentiment": "negative",
+      "sentiment": "oppose",
       "point": "Questions the license name, the scope of “open software,” OSI’s role in publishing licenses, and says the license is not GPL-compatible.",
       "point_zh": "质疑许可证名称、“开源软件”的范围、OSI 是否应参与发布许可证，并指出该许可证与 GPL 不兼容。"
     }
@@ -11012,7 +11012,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Academic Free License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "States that the OSI board should promptly approve the revised AFL.",
       "point_zh": "指出OSI董事会应尽快批准修订后的AFL。"
     }
@@ -11060,7 +11060,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Academic Free License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "States that the OSI board should promptly approve the revised AFL.",
       "point_zh": "指出OSI董事会应尽快批准修订后的AFL。"
     }
@@ -11108,7 +11108,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Discuss: \"Attribution Assurance License\"",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Considers the license OSD-compliant and free-software compliant, and suggests requesting certification for a template form so others can reuse it.",
       "point_zh": "认为该许可证符合 OSD 与自由软件标准，建议申请模板形式认证以便他人复用。"
     }
@@ -11300,7 +11300,7 @@
       "source": "license-discuss",
       "sender": "Karsten M. Self",
       "subject": "FYI: New revision of the Zope Public License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Says the draft looks reasonable and appears compliant with both the OSD and GPL, with the key added clauses viewed as harmless clarifications.",
       "point_zh": "表示该草案看起来合理，并认为其同时符合 OSD 和 GPL，几个新增关键条款都只是无害的澄清。"
     }
@@ -11348,7 +11348,7 @@
       "source": "license-discuss",
       "sender": "Karsten M. Self",
       "subject": "FYI: New revision of the Zope Public License",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Says the draft looks reasonable and appears compliant with both the OSD and GPL, with the key added clauses viewed as harmless clarifications.",
       "point_zh": "表示该草案看起来合理，并认为其同时符合 OSD 和 GPL，几个新增关键条款都只是无害的澄清。"
     }
@@ -11396,7 +11396,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Common Public License (IBM)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Argues the CPL resolves the meta-license problem by letting any copyright holder reuse it, praises IBM, and urges OSI to fast-track approval.",
       "point_zh": "主张 CPL 解决了元许可证难题，使任何版权人都能复用该许可证，赞许 IBM 并敦促 OSI 加速批准。"
     }
@@ -11444,7 +11444,7 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Common Public License (IBM)",
-      "sentiment": "positive",
+      "sentiment": "support",
       "point": "Argues the CPL resolves the meta-license problem by letting any copyright holder reuse it, praises IBM, and urges OSI to fast-track approval.",
       "point_zh": "主张 CPL 解决了元许可证难题，使任何版权人都能复用该许可证，赞许 IBM 并敦促 OSI 加速批准。"
     }

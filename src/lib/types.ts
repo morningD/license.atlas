@@ -88,8 +88,7 @@ export type TrackerTimelineEventType =
   | "board_decision" | "feedback";
 
 export type TrackerSentiment =
-  | "positive" | "negative" | "neutral" | "question"
-  | "mixed" | "support" | "oppose" | "critical";
+  | "support" | "oppose" | "question" | "neutral" | "procedural";
 
 export interface TrackerTimelineEvent {
   date: string;

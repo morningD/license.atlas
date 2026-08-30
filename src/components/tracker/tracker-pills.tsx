@@ -2,13 +2,11 @@
 // Used by both the summary timeline rows and the full-text nav/detail views.
 
 export const SENT_PILL: Record<string, string> = {
-  positive: "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300",
   support: "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300",
-  negative: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
   oppose: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
-  critical: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300",
   question: "bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300",
-  mixed: "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300",
+  neutral: "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300",
+  procedural: "bg-sky-100 text-sky-700 dark:bg-sky-900/40 dark:text-sky-300",
 };
 
 export function sentimentPill(type: string, sentiment?: string | null): string | null {
