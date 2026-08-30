@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "3ee7893cef23b0cc",
+    "source_hash": "5966dc34114c3ad6",
     "index_schema_version": 5,
-    "generated_at": "2026-08-30T01:10:49.184Z",
+    "generated_at": "2026-08-30T02:23:49.698Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 67,
+      "total_messages": 68,
       "duration_days": 17,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 67,
+      "count": 68,
       "first": "2026-08-13",
       "last": "2026-08-30"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-30",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "positive",
-      "point": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3.",
+      "sentiment": "negative",
+      "point": "Argues the broad concept of 'Model Materials' creates practical difficulties in understanding the termination provision, highlighting it as a core feature that may be a basic flaw.",
       "point_zh": ""
     }
   },

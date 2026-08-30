@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T01:10:32.869Z",
+    "generated_at": "2026-08-30T02:23:33.441Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-30T01:10:49.184Z",
+    "enriched_at": "2026-08-30T02:23:49.698Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-30T01:10:55.145Z",
+      "applied_at": "2026-08-30T02:23:53.987Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -93,7 +93,7 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 15
+          "message_count": 16
         },
         {
           "name": "Pamela Chestek",
@@ -1074,13 +1074,26 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3."
+        },
+        {
+          "date": "2026-08-30",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006205.html",
+          "sender": "Richard Fontana",
+          "snippet": "Argues the broad concept of 'Model Materials' creates practical difficulties in understanding the termination provision, highlighting it as a core feature that may be a basic flaw.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues the broad concept of 'Model Materials' creates practical difficulties in understanding the termination provision, highlighting it as a core feature that may be a basic flaw."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 67,
+        "total_messages": 68,
         "date_range": [
           "2026-08-13",
           "2026-08-30"
@@ -1115,7 +1128,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review is currently active with ongoing discussion but no final decision, rejection, or withdrawal. The submission occurred in August 2026, and the latest evidence indicates a 'pending' status with continued debate on technical and legal aspects, but no conclusive outcome.",
+        "rationale": "The evidence shows a formal submission for approval on August 13, 2026, followed by a period of discussion and feedback but no final board decision, vote, or withdrawal notice. The latest event is feedback dated August 30, 2026. The curated source also lists the status as 'pending' with no rejection reason. Therefore, the review remains in a pending state.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1126,15 +1139,10 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#66",
-            "supports": "pending",
-            "quote": "Defends the license text against criticism regarding its definition of materials, arguing the wording is standard and comparable to widely used licenses like GPLv3."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:5ee5d34e80f84e7c395ec7c834caa7c383374356611bcd70e23f6c9136a91ce2",
+        "input_hash": "sha256:01142c6e42995e55c2f253104cbb5eed1471f925b7b0230b10c45d631f4035f0",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
