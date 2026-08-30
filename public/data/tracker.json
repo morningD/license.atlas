@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T06:43:00.269Z",
+    "generated_at": "2026-08-30T08:52:16.315Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-30T06:43:18.057Z",
+    "enriched_at": "2026-08-30T08:52:33.735Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-30T06:43:22.237Z",
+      "applied_at": "2026-08-30T08:52:40.975Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -116,12 +116,12 @@
           "message_count": 7
         },
         {
-          "name": "Luis Villa",
+          "name": "Shuji Sado",
           "role": "reviewer",
-          "message_count": 4
+          "message_count": 5
         },
         {
-          "name": "Shuji Sado",
+          "name": "Luis Villa",
           "role": "reviewer",
           "message_count": 4
         },
@@ -1105,13 +1105,26 @@
           "source": "license-review",
           "position": "support",
           "point": "Clarifies MG license scope and withdraws MG-BY-SA over unverifiable distillation, and warns that OpenMDW-1.1's copyright-termination clause would erode API users' trust in models released under it."
+        },
+        {
+          "date": "2026-08-30",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006207.html",
+          "sender": "Shuji Sado",
+          "snippet": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 69,
+        "total_messages": 70,
         "date_range": [
           "2026-08-13",
           "2026-08-30"
@@ -1147,21 +1160,26 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was formally submitted in August 2026. The evidence provided includes ongoing discussion and feedback regarding specific clauses (patent termination, scope of Model Materials) but contains no evidence of a board decision, vote, rejection, or withdrawal. The timeline summary confirms the lack of a board decision. Therefore, the status remains pending.",
+        "rationale": "The license was formally submitted for OSI approval on August 13, 2026. The latest recorded activity consists of email feedback and discussion regarding the license terms (specifically patent termination and definitions) through August 30, 2026. There is no evidence in the provided input of a board vote, final approval, rejection, or withdrawal. Therefore, the review remains in progress.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval..."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#69",
+            "supports": "pending",
+            "quote": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:da6b859ae5840afb0df45d016d5097c37e00870e2293c6fbc5d2e48ce072065c",
+        "input_hash": "sha256:821a5ddfb94a7a88c43ef441e8528f4a85cb18b025cf96d184495baa0985b3ce",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "728bcdfca5c459e1",
+    "source_hash": "b226665158d990f8",
     "index_schema_version": 5,
-    "generated_at": "2026-08-30T06:43:18.057Z",
+    "generated_at": "2026-08-30T08:52:33.735Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 69,
+      "total_messages": 70,
       "duration_days": 17,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 69,
+      "count": 70,
       "first": "2026-08-13",
       "last": "2026-08-30"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-30",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Shuji Sado",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Clarifies MG license scope and withdraws MG-BY-SA over unverifiable distillation, and warns that OpenMDW-1.1's copyright-termination clause would erode API users' trust in models released under it.",
+      "sentiment": "negative",
+      "point": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions.",
       "point_zh": ""
     }
   },
