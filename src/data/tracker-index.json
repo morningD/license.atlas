@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "94d99c66b23e7b6c",
+    "source_hash": "1f9f0d841e95e575",
     "index_schema_version": 5,
-    "generated_at": "2026-08-29T22:53:33.434Z",
+    "generated_at": "2026-08-30T00:02:41.963Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 64,
+      "total_messages": 65,
       "duration_days": 16,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 64,
+      "count": 65,
       "first": "2026-08-13",
       "last": "2026-08-29"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-29",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "negative",
-      "point": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code.",
+      "point": "Cites a specific NVIDIA repository using OpenMDW-1.1 as an example of the ambiguity problem regarding the scope of 'Model Materials' versus other included files.",
       "point_zh": ""
     }
   },

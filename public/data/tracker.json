@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T22:53:17.252Z",
+    "generated_at": "2026-08-30T00:02:25.932Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-29T22:53:33.434Z",
+    "enriched_at": "2026-08-30T00:02:41.963Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-29T22:53:38.063Z",
+      "applied_at": "2026-08-30T00:02:47.975Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -93,7 +93,7 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 14
+          "message_count": 15
         },
         {
           "name": "Pamela Chestek",
@@ -1030,13 +1030,26 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code."
+        },
+        {
+          "date": "2026-08-29",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006202.html",
+          "sender": "Richard Fontana",
+          "snippet": "Cites a specific NVIDIA repository using OpenMDW-1.1 as an example of the ambiguity problem regarding the scope of 'Model Materials' versus other included files.",
+          "point_zh": null,
+          "sentiment": "negative",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Cites a specific NVIDIA repository using OpenMDW-1.1 as an example of the ambiguity problem regarding the scope of 'Model Materials' versus other included files."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 64,
+        "total_messages": 65,
         "date_range": [
           "2026-08-13",
           "2026-08-29"
@@ -1070,7 +1083,7 @@
         "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission is currently pending as evidenced by the curated list status and the ongoing discussion on the license-review mailing list. The timeline shows a submission event followed by discussion and feedback, but no final decision, withdrawal, or board vote has occurred.",
+        "rationale": "The license was submitted for approval on August 13, 2026. As of the latest event date (August 29, 2026), the discussion is ongoing with feedback and concerns raised by OSI participants and legal experts, but no board vote, final decision, or withdrawal has been recorded. The curated RWP entry explicitly lists the status as pending.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1081,10 +1094,15 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#63",
+            "supports": "pending",
+            "quote": "Questions if the patent termination clause creates an OSD9 violation by causing the model license to terminate due to suits against separate, third-party inference code."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:9981e285fe107a8cefcae991077ec1d9747439adc881dc2ddf1b72cc65a6075f",
+        "input_hash": "sha256:45906f0f3e20315f364935b428e58237a59c25033786513a375b6b5982ebe9cc",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
