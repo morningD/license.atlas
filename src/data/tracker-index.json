@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "5966dc34114c3ad6",
+    "source_hash": "728bcdfca5c459e1",
     "index_schema_version": 5,
-    "generated_at": "2026-08-30T02:23:49.698Z",
+    "generated_at": "2026-08-30T06:43:18.057Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 82,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 68,
+      "total_messages": 69,
       "duration_days": 17,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 68,
+      "count": 69,
       "first": "2026-08-13",
       "last": "2026-08-30"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-30",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Moming Duan",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "negative",
-      "point": "Argues the broad concept of 'Model Materials' creates practical difficulties in understanding the termination provision, highlighting it as a core feature that may be a basic flaw.",
+      "sentiment": "neutral",
+      "point": "Clarifies MG license scope and withdraws MG-BY-SA over unverifiable distillation, and warns that OpenMDW-1.1's copyright-termination clause would erode API users' trust in models released under it.",
       "point_zh": ""
     }
   },
