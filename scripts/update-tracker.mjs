@@ -210,6 +210,13 @@ run("node scripts/apply-llm-batches.mjs" + (FULL ? "" : ""), KB_ROOT);
 // 3. Build base tracker
 run("node scripts/build-license-review-tracker.mjs", KB_ROOT);
 
+// 3.5 Point extraction for new timeline events. extract-full-bodies rebuilds
+// the per-submission packages from the fresh v2 (new mail lands there first),
+// then extract-all-points summarizes only events missing from the manifest.
+// Without this step new posts reach the coverage gate with no point and fail it.
+run("node scripts/extract-full-bodies.mjs", KB_ROOT);
+run("node scripts/extract-all-points.mjs", KB_ROOT);
+
 // 4. Enrich
 run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
 
