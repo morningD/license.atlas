@@ -1,15 +1,15 @@
 {
-  "source_hash": "733db73f695fc3ed",
+  "source_hash": "5f77afcd6341d1a8",
   "index_schema_version": 5,
-  "generated_at": "2026-08-30T08:52:33.735Z",
+  "generated_at": "2026-08-31T02:11:02.098Z",
   "total_submissions": 253,
   "by_status": {
-    "approved": 82,
-    "rejected": 42,
-    "withdrawn": 15,
-    "pending": 14,
-    "superseded": 6,
-    "legacy": 35,
+    "approved": 89,
+    "rejected": 41,
+    "withdrawn": 14,
+    "pending": 13,
+    "superseded": 5,
+    "legacy": 32,
     "discussion": 59
   }
 }

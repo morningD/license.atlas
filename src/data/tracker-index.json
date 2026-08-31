@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "733db73f695fc3ed",
+    "source_hash": "5f77afcd6341d1a8",
     "index_schema_version": 5,
-    "generated_at": "2026-08-30T08:52:33.735Z",
+    "generated_at": "2026-08-31T02:11:02.098Z",
     "total_submissions": 253,
     "by_status": {
-      "approved": 82,
-      "rejected": 42,
-      "withdrawn": 15,
-      "pending": 14,
-      "superseded": 6,
-      "legacy": 35,
+      "approved": 89,
+      "rejected": 41,
+      "withdrawn": 14,
+      "pending": 13,
+      "superseded": 5,
+      "legacy": 32,
       "discussion": 59
     }
   },
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 70,
-      "duration_days": 17,
+      "total_messages": 74,
+      "duration_days": 18,
       "date_range": [
         "2026-08-13",
-        "2026-08-30"
+        "2026-08-31"
       ]
     },
     "has_vote": false,
@@ -47,18 +47,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 70,
+      "count": 74,
       "first": "2026-08-13",
-      "last": "2026-08-30"
+      "last": "2026-08-31"
     },
     "latest_event": {
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Shuji Sado",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions.",
+      "sentiment": "question",
+      "point": "Traces the 'voluntarily participate' language to Microsoft's Open Specification Promise and Community Promise and to OWFa 1.0, doubts John's suggested interpretation of it, and questions what the term is specifically supposed to cover.",
       "point_zh": ""
     }
   },

@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-08-30T08:52:16.315Z",
+    "generated_at": "2026-08-31T02:10:44.462Z",
     "total_submissions": 253,
     "by_status": {
-      "approved": 82,
-      "rejected": 42,
-      "withdrawn": 15,
-      "pending": 14,
-      "superseded": 6,
-      "legacy": 35,
+      "approved": 89,
+      "rejected": 41,
+      "withdrawn": 14,
+      "pending": 13,
+      "superseded": 5,
+      "legacy": 32,
       "discussion": 59
     },
     "data_sources": {
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-08-30T08:52:33.735Z",
+    "enriched_at": "2026-08-31T02:11:02.098Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,11 +37,11 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-08-30T08:52:40.975Z",
-      "applied": 194,
+      "applied_at": "2026-08-31T02:38:47.701Z",
+      "applied": 13,
       "missing": 0,
-      "invalid": 0,
-      "manual_review_blocking": 90
+      "invalid": 181,
+      "manual_review_blocking": 181
     }
   },
   "submissions": [
@@ -78,7 +78,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-30"
+          "latest_event_date": "2026-08-31"
         },
         "board_vote": {
           "present": false
@@ -93,21 +93,21 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 16
+          "message_count": 17
         },
         {
           "name": "Pamela Chestek",
+          "role": "board_member",
+          "message_count": 11
+        },
+        {
+          "name": "McCoy Smith",
           "role": "board_member",
           "message_count": 9
         },
         {
           "name": "Michael Dolan",
           "role": "submitter",
-          "message_count": 8
-        },
-        {
-          "name": "McCoy Smith",
-          "role": "board_member",
           "message_count": 8
         },
         {
@@ -1118,18 +1118,70 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Contests the NVIDIA Nemotron-Parse-2.0 boundary example, arguing `latex2html.py` is not unrelated software since `postprocessing.py` imports its functions."
+        },
+        {
+          "date": "2026-08-30",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006208.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Defends the OpenMDW license, arguing that an enforcement mechanism not premised on copyright is not a reason to dismiss it, that Paragraph 5's termination trigger is typical of open source licenses, and that the criminal-statute objection is an overreach since it requires fraudulent intent.",
+          "point_zh": null,
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Defends the OpenMDW license, arguing that an enforcement mechanism not premised on copyright is not a reason to dismiss it, that Paragraph 5's termination trigger is typical of open source licenses, and that the criminal-statute objection is an overreach since it requires fraudulent intent."
+        },
+        {
+          "date": "2026-08-30",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006209.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Endorses defining 'software freedom' as the ability to do anything with the software, arguing that a 'providing software freedom' requirement is the piece missing from the OSD and would check licenses designed to give one entity superior rights or discourage use.",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Endorses defining 'software freedom' as the ability to do anything with the software, arguing that a 'providing software freedom' requirement is the piece missing from the OSD and would check licenses designed to give one entity superior rights or discourage use."
+        },
+        {
+          "date": "2026-08-31",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006210.html",
+          "sender": "McCoy Smith",
+          "snippet": "Raises two issues with the software-freedom test: license authors would have no articulable standard to satisfy it, and asks why terminating upon a copyright infringement claim is objectionable when approved licenses already terminate upon patent assertion.",
+          "point_zh": null,
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Raises two issues with the software-freedom test: license authors would have no articulable standard to satisfy it, and asks why terminating upon a copyright infringement claim is objectionable when approved licenses already terminate upon patent assertion."
+        },
+        {
+          "date": "2026-08-31",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006211.html",
+          "sender": "Richard Fontana",
+          "snippet": "Traces the 'voluntarily participate' language to Microsoft's Open Specification Promise and Community Promise and to OWFa 1.0, doubts John's suggested interpretation of it, and questions what the term is specifically supposed to cover.",
+          "point_zh": null,
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Traces the 'voluntarily participate' language to Microsoft's Open Specification Promise and Community Promise and to OWFa 1.0, doubts John's suggested interpretation of it, and questions what the term is specifically supposed to cover."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 70,
+        "total_messages": 74,
         "date_range": [
           "2026-08-13",
-          "2026-08-30"
+          "2026-08-31"
         ],
-        "duration_days": 17,
+        "duration_days": 18,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -90027,7 +90079,7 @@
           "sender": "McCoy Smith",
           "snippet": "Announces Board approval of CNRI-Python-GPL-Compatible and Python-2.0.1 as Legacy, superseding prior versions, and seeks clarity on PSF-2.0 status.",
           "point_zh": "宣布董事会已批准 CNRI-Python-GPL-Compatible 和 Python-2.0.1 为 Legacy 许可，取代旧版本，并就 PSF-2.0 的状态寻求澄清。",
-          "sentiment": "support",
+          "sentiment": "positive",
           "source": "license-review",
           "position": "procedural",
           "point": "Announces Board approval of CNRI-Python-GPL-Compatible and Python-2.0.1 as Legacy, superseding prior versions, and seeks clarity on PSF-2.0 status."
