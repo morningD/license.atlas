@@ -42,9 +42,9 @@ if (!existsSync(KB_ROOT)) {
   process.exit(1);
 }
 
-function run(cmd, cwd) {
+function run(cmd, cwd, env) {
   console.log(`\n▶ ${cmd}  (in ${cwd})`);
-  execSync(cmd, { cwd, stdio: "inherit" });
+  execSync(cmd, { cwd, stdio: "inherit", ...(env ? { env } : {}) });
 }
 
 function shellQuote(s) {
@@ -214,8 +214,14 @@ run("node scripts/build-license-review-tracker.mjs", KB_ROOT);
 // the per-submission packages from the fresh v2 (new mail lands there first),
 // then extract-all-points summarizes only events missing from the manifest.
 // Without this step new posts reach the coverage gate with no point and fail it.
-run("node scripts/extract-full-bodies.mjs", KB_ROOT);
-run("node scripts/extract-all-points.mjs", KB_ROOT);
+// Both call the LLM, so they need the key env (falls back to the opencode
+// config the same way adjudication retries do).
+{
+  const env = llmEnv();
+  if (!env) throw new Error("Point extraction needs ANTHROPIC_API_KEY (or a zhipuai-coding-plan key in ~/.config/opencode/opencode.json)");
+  run("node scripts/extract-full-bodies.mjs", KB_ROOT, env);
+  run("node scripts/extract-all-points.mjs", KB_ROOT, env);
+}
 
 // 4. Enrich
 run("node scripts/enrich-license-tracker.mjs", KB_ROOT);

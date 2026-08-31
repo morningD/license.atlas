@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "5f77afcd6341d1a8",
+    "source_hash": "a2cfbe52fa7e5cb4",
     "index_schema_version": 5,
-    "generated_at": "2026-08-31T02:11:02.098Z",
+    "generated_at": "2026-08-31T10:35:56.209Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
       "rejected": 41,
       "withdrawn": 14,
       "pending": 13,
-      "superseded": 5,
-      "legacy": 32,
+      "superseded": 4,
+      "legacy": 33,
       "discussion": 59
     }
   },
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 74,
+      "total_messages": 78,
       "duration_days": 18,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 74,
+      "count": 78,
       "first": "2026-08-13",
       "last": "2026-08-31"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-31",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Kevin P. Fleming",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Traces the 'voluntarily participate' language to Microsoft's Open Specification Promise and Community Promise and to OWFa 1.0, doubts John's suggested interpretation of it, and questions what the term is specifically supposed to cover.",
+      "sentiment": "oppose",
+      "point": "Argues the license prevents using the model to gather evidence for a copyright claim, forcing users to produce all necessary proof before filing any lawsuit.",
       "point_zh": ""
     }
   },
@@ -3532,7 +3532,7 @@
       "Cryptographic Autonomy License Version 1.0",
       "Cryptographic Autonomy License v1.0"
     ],
-    "status": "rejected",
+    "status": "superseded",
     "submitter": "Van Lindsay",
     "stats": {
       "total_messages": 163,
@@ -3546,8 +3546,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2019-04-22",
-      "decision": "2019-08-15",
-      "decision_status": "rejected"
+      "decision": "",
+      "decision_status": ""
     },
     "text_meta": {
       "count": 0,
@@ -3630,7 +3630,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "superseded",
+    "status": "legacy",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -3680,7 +3680,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "superseded",
+    "status": "legacy",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 21,
@@ -5456,7 +5456,7 @@
     "aliases": [
       "Approval: Server Side Public License, Version 1 (SSPL v1)"
     ],
-    "status": "pending",
+    "status": "approved",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5471,7 +5471,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -5504,7 +5504,7 @@
     "aliases": [
       "Approval: Server Side Public License, Version 1 (SSPL v1)"
     ],
-    "status": "pending",
+    "status": "approved",
     "submitter": "Eliot Horowitz",
     "stats": {
       "total_messages": 7,
@@ -5519,7 +5519,7 @@
     "review_dates": {
       "first_submitted": "2018-10-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -6800,7 +6800,7 @@
     "aliases": [
       "New OSL for \"official Intelligence\""
     ],
-    "status": "superseded",
+    "status": "approved",
     "submitter": "David Smith",
     "stats": {
       "total_messages": 6,
@@ -6815,7 +6815,7 @@
     "review_dates": {
       "first_submitted": "2011-04-16",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -7376,7 +7376,7 @@
     "aliases": [
       "REMOVE (entirely) the Artistic License 1.0?"
     ],
-    "status": "superseded",
+    "status": "approved",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -7390,8 +7390,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2007-06-05",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -7424,7 +7424,7 @@
     "aliases": [
       "REMOVE (entirely) the Artistic License 1.0?"
     ],
-    "status": "superseded",
+    "status": "approved",
     "submitter": "Russ Nelson",
     "stats": {
       "total_messages": 7,
@@ -7438,8 +7438,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2008-07-09",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2007-06-05",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -9776,7 +9776,7 @@
     "aliases": [
       "For Approval: CUA Office Public License"
     ],
-    "status": "withdrawn",
+    "status": "approved",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9790,8 +9790,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2018-10-10",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -9824,7 +9824,7 @@
     "aliases": [
       "For Approval: CUA Office Public License"
     ],
-    "status": "withdrawn",
+    "status": "approved",
     "submitter": "Patranun Limudomporn",
     "stats": {
       "total_messages": 7,
@@ -9838,8 +9838,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2003-12-20",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2018-10-10",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -10352,7 +10352,7 @@
     "aliases": [
       "discuss: Lucent Public License 1.0"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -10367,7 +10367,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -10400,7 +10400,7 @@
     "aliases": [
       "discuss: Lucent Public License 1.0"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "David Presotto",
     "stats": {
       "total_messages": 4,
@@ -10415,7 +10415,7 @@
     "review_dates": {
       "first_submitted": "2003-04-09",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 1,
@@ -10592,7 +10592,7 @@
     "aliases": [
       "discuss: Request for wxWindows License approval"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Julian Smart",
     "stats": {
       "total_messages": 7,
@@ -10607,7 +10607,7 @@
     "review_dates": {
       "first_submitted": "2002-10-22",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
@@ -11072,7 +11072,7 @@
     "aliases": [
       "Discuss: \"Attribution Assurance License\""
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Unknown",
     "stats": {
       "total_messages": 2,
@@ -11087,7 +11087,7 @@
     "review_dates": {
       "first_submitted": "2002-05-13",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 0,
