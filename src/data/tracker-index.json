@@ -1,15 +1,15 @@
 {
   "_meta": {
-    "source_hash": "a2cfbe52fa7e5cb4",
+    "source_hash": "7ba18bcef6a55f0a",
     "index_schema_version": 5,
-    "generated_at": "2026-08-31T10:35:56.209Z",
+    "generated_at": "2026-08-31T13:46:56.865Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
-      "rejected": 41,
+      "rejected": 42,
       "withdrawn": 14,
       "pending": 13,
-      "superseded": 4,
+      "superseded": 3,
       "legacy": 33,
       "discussion": 59
     }
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 78,
+      "total_messages": 79,
       "duration_days": 18,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 78,
+      "count": 79,
       "first": "2026-08-13",
       "last": "2026-08-31"
     },
@@ -55,10 +55,10 @@
       "date": "2026-08-31",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Kevin P. Fleming",
+      "sender": "Carlo Piana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "oppose",
-      "point": "Argues the license prevents using the model to gather evidence for a copyright claim, forcing users to produce all necessary proof before filing any lawsuit.",
+      "point": "Argues the license impacts non-software material and cannot be approved as pure software alone, cautioning against applying software reasoning to broader AI artifacts.",
       "point_zh": ""
     }
   },
@@ -1468,7 +1468,7 @@
     "name": "GPL-3+-with-whonix-additional-terms",
     "spdx_id": "",
     "aliases": [],
-    "status": "superseded",
+    "status": "rejected",
     "submitter": "Patrick Schleizer",
     "stats": {
       "total_messages": 22,
@@ -1483,7 +1483,7 @@
     "review_dates": {
       "first_submitted": "2019-03-15",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "rejected"
     },
     "text_meta": {
       "count": 0,
