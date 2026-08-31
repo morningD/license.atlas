@@ -1,23 +1,5 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-31T13:46:57.289Z",
-  "ids": [
-    "3d-slicer-license",
-    "bsd-3-clause-lbnl",
-    "cddl-1-1",
-    "cnri-python",
-    "ecos-2-0",
-    "jam",
-    "libpng-v2",
-    "los-alamos-national-labs-bsd-3-variant",
-    "multics",
-    "nccl",
-    "oldap-2-8",
-    "open-source-social-network",
-    "public-benefit-zero-copyright",
-    "python-2-0",
-    "svoboda",
-    "unicode-dfs-2016",
-    "wordnet"
-  ]
+  "updated_at": "2026-08-31T14:16:48.093Z",
+  "ids": []
 }

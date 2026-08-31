@@ -226,6 +226,13 @@ run("node scripts/build-license-review-tracker.mjs", KB_ROOT);
 // 4. Enrich
 run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
 
+// 3.6 Restore the last adjudicated state before preparing new inputs. build/
+// enrich rebuild v2 from source data and reset status + status_review to rule
+// values, which would (a) make prepare hash every entry as "changed" and
+// (b) silently drop human-calibrated statuses. apply-status-adjudications is
+// idempotent: it re-applies the recorded final statuses from the outputs.
+run("node scripts/apply-status-adjudications.mjs", KB_ROOT);
+
 // 4.5. Agent status adjudication. Rules only prepare evidence; final status is
 // supplied by the adjudicator output and applied before sync. Stale outputs
 // (input_hash drift after rebuild) are automatically re-adjudicated by the LLM.
