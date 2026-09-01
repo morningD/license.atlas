@@ -59,6 +59,8 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **自动重裁决 + 基线放行**（2026-08-23，`update-tracker.mjs` 内嵌）：历史三轮阻塞的根因是①灰色地带 manual review 每轮都 blocking、②重建后 input_hash/evidence ref 失效的旧输出需人工 `--mode local --ids` 重跑、③glm-4.6 偶发输出 schema 自相矛盾（conflicts 非空但 `requires_manual_review=false`）。现在编排器：默认对 apply/verify 传 `--allow-manual-pending`；apply 后解析 `manual-review.json` 中 `Invalid/Missing adjudication output` 的条目，自动以 `--mode local --ids` 重跑 LLM 再 apply（最多 3 轮）；LLM env 缺失时自动从 `~/.config/opencode/opencode.json` 的 `zhipuai-coding-plan` 读 key。point 提取步骤（编排器 3.5）同样注入该 env，且 `ANTHROPIC_BASE_URL` 缺省补 `https://open.bigmodel.cn/api/anthropic`（智谱 key 在官方 Anthropic 端点才有效；`coding/paas/v4` 端点 2026-09 起对该 key 返回 401，待维护者更新 key 后恢复 OpenAI 兼容通道）。
 
+**Point 提取与回填时序**（2026-09-01）：数据链是循环依赖（v2 → extract-full-bodies → extract-all-points → manifest → build → v2），point 合并只在 build 里做，因此新邮件的 LLM point 天然滞后一轮 build；build 对 manifest 没有的 URL 用 clean_body 兜底。修复：**enrich 加载 all-points-manifest 并优先于 build 兜底**（point/point_zh/sentiment 都回填），新邮件 point 在同一轮的 enrich 阶段落位，兜底原文不再泄漏（此前 Luis Villa 006228 的 point 是 647 字符邮件原文）。
+
 **Manual-review 基线**（`scripts/tracker-manual-baseline.json`，已提交）：已知灰色地带 id 集合（84 项起步）。运行时基线内的 id 静默放行（保持现状），**基线外的新 manual-review 项硬失败**（保留旧的"新冲突留人工"安全边界）；成功运行后自动 prune 已解决的 id（如 ncsa、motosoto 在 2026-08-23 轮离开 manual review）。人工确认新冲突后跑 `npm run update:tracker -- --rebaseline` 采纳新集合。`--strict-manual-pending` 恢复最严格的"任何 blocking 即失败"模式。
 
 **KB 侧 schema 矫正**（`KB/scripts/run-status-adjudication.mjs` 的 `validateOutput`）：模型输出 conflicts 非空但 `requires_manual_review≠true` 时直接矫正为 true（模型自己的规则就要求 conflicts ⇒ manual review，属输出纪律问题而非语义分歧），不再依赖重试碰运气。顺带补齐 native structured-output 路径缺失的 `schema_version` 字段。
