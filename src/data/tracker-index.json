@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "c1507565707977b9",
+    "source_hash": "3188240055353975",
     "index_schema_version": 5,
-    "generated_at": "2026-08-31T14:25:58.339Z",
+    "generated_at": "2026-09-01T03:06:31.908Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 79,
-      "duration_days": 18,
+      "total_messages": 86,
+      "duration_days": 19,
       "date_range": [
         "2026-08-13",
-        "2026-08-31"
+        "2026-09-01"
       ]
     },
     "has_vote": false,
@@ -47,18 +47,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 79,
+      "count": 86,
       "first": "2026-08-13",
-      "last": "2026-08-31"
+      "last": "2026-09-01"
     },
     "latest_event": {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Carlo Piana",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Argues the license impacts non-software material and cannot be approved as pure software alone, cautioning against applying software reasoning to broader AI artifacts.",
+      "sentiment": "question",
+      "point": "Notes that the term \"corresponding\" in the termination clause is ambiguous and questions its necessity, speculating it was intended to mean \"another.\"",
       "point_zh": ""
     }
   },
@@ -3633,17 +3633,17 @@
     "status": "legacy",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 21,
-      "duration_days": 175,
+      "total_messages": 25,
+      "duration_days": 178,
       "date_range": [
         "2026-03-06",
-        "2026-08-28"
+        "2026-08-31"
       ]
     },
     "has_vote": true,
     "has_timeline": true,
     "review_dates": {
-      "first_submitted": "2026-08-21",
+      "first_submitted": "2026-03-06",
       "decision": "",
       "decision_status": ""
     },
@@ -3656,18 +3656,18 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 21,
+      "count": 25,
       "first": "2026-03-06",
-      "last": "2026-08-28"
+      "last": "2026-08-31"
     },
     "latest_event": {
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "McCoy Smith",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
-      "point": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011.",
+      "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
       "point_zh": ""
     }
   },
@@ -3683,17 +3683,17 @@
     "status": "legacy",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 21,
-      "duration_days": 175,
+      "total_messages": 25,
+      "duration_days": 178,
       "date_range": [
         "2026-03-06",
-        "2026-08-28"
+        "2026-08-31"
       ]
     },
     "has_vote": true,
     "has_timeline": true,
     "review_dates": {
-      "first_submitted": "2026-08-21",
+      "first_submitted": "2026-03-06",
       "decision": "",
       "decision_status": ""
     },
@@ -3706,18 +3706,18 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 21,
+      "count": 25,
       "first": "2026-03-06",
-      "last": "2026-08-28"
+      "last": "2026-08-31"
     },
     "latest_event": {
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "McCoy Smith",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
-      "point": "Finds the provided information useful, noting it clarifies that the original discussion around the Python licenses occurred in 2011.",
+      "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
       "point_zh": ""
     }
   },

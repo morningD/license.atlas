@@ -231,7 +231,9 @@ run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
 // values, which would (a) make prepare hash every entry as "changed" and
 // (b) silently drop human-calibrated statuses. apply-status-adjudications is
 // idempotent: it re-applies the recorded final statuses from the outputs.
-run("node scripts/apply-status-adjudications.mjs", KB_ROOT);
+// Manual-review handling stays deferred to checkManualBaseline() below (same
+// as applyWithRetry), so gray-zone outputs restored here must not hard-fail.
+run(`node scripts/apply-status-adjudications.mjs${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
 
 // 4.5. Agent status adjudication. Rules only prepare evidence; final status is
 // supplied by the adjudicator output and applied before sync. Stale outputs

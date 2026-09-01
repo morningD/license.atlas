@@ -26,7 +26,13 @@ const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December'];
 
 const now = new Date();
-const monthUrl = `${BASE}/${now.getFullYear()}-${MONTHS[now.getMonth()]}/date.html`;
+// Probe the current month AND the previous one: pipermail archives keep
+// receiving late posts for days into the next month, and the current month's
+// directory does not exist until its first mail arrives (404 is normal).
+const targets = [0, 1].map((back) => {
+  const d = new Date(now.getFullYear(), now.getMonth() - back, 1);
+  return `${BASE}/${d.getFullYear()}-${MONTHS[d.getMonth()]}/date.html`;
+});
 
 const args = process.argv.slice(2);
 if (args.includes('--reset') && existsSync(STATE_PATH)) {
@@ -38,35 +44,45 @@ if (args.includes('--reset') && existsSync(STATE_PATH)) {
 let state = {};
 try { state = JSON.parse(readFileSync(STATE_PATH, 'utf8')); } catch { state = {}; }
 
-let res;
-try {
-  res = await fetch(monthUrl, { method: 'HEAD', redirect: 'follow' });
-} catch (e) {
-  console.error(`probe failed: ${e.message}`);
-  process.exit(2);
+const current = {};
+let changedUrl = '';
+for (const monthUrl of targets) {
+  let res;
+  try {
+    res = await fetch(monthUrl, { method: 'HEAD', redirect: 'follow' });
+  } catch (e) {
+    console.error(`probe failed: ${e.message}`);
+    process.exit(2);
+  }
+  if (res.status === 404) {
+    // No archive for this month yet (e.g. new month with no mail): not an error.
+    console.log(`archive absent (no mail yet): ${monthUrl}`);
+    continue;
+  }
+  if (!res.ok) {
+    console.error(`probe failed: HTTP ${res.status} for ${monthUrl}`);
+    process.exit(2);
+  }
+  current[monthUrl] = {
+    url: monthUrl,
+    lastModified: res.headers.get('last-modified') || '',
+    contentLength: res.headers.get('content-length') || '',
+  };
+  const prev = state[monthUrl];
+  if (!prev
+    || prev.lastModified !== current[monthUrl].lastModified
+    || prev.contentLength !== current[monthUrl].contentLength) {
+    changedUrl = monthUrl;
+  }
 }
-if (!res.ok) {
-  console.error(`probe failed: HTTP ${res.status} for ${monthUrl}`);
-  process.exit(2);
-}
 
-const current = {
-  url: monthUrl,
-  lastModified: res.headers.get('last-modified') || '',
-  contentLength: res.headers.get('content-length') || '',
-};
+// Keep both probed months in state; drop anything older to avoid unbounded growth.
+writeFileSync(STATE_PATH, JSON.stringify(current, null, 2) + '\n');
 
-const prev = state[current.url];
-const changed = !prev
-  || prev.lastModified !== current.lastModified
-  || prev.contentLength !== current.contentLength;
-
-// Keep only the newest month entry to avoid unbounded growth.
-writeFileSync(STATE_PATH, JSON.stringify({ [current.url]: current }, null, 2) + '\n');
-
-if (changed) {
-  console.log(`change detected: ${current.url} (Last-Modified: ${current.lastModified || 'n/a'})`);
+if (changedUrl) {
+  const c = current[changedUrl];
+  console.log(`change detected: ${changedUrl} (Last-Modified: ${c.lastModified || 'n/a'})`);
   process.exit(3);
 }
-console.log(`no change: ${current.url} (Last-Modified: ${current.lastModified || 'n/a'})`);
+console.log(`no change (probed ${Object.keys(current).length} month(s))`);
 process.exit(0);
