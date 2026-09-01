@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "3188240055353975",
+    "source_hash": "189e355344414b1d",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T03:06:31.908Z",
+    "generated_at": "2026-09-01T05:40:29.104Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 86,
+      "total_messages": 87,
       "duration_days": 19,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 86,
+      "count": 87,
       "first": "2026-08-13",
       "last": "2026-09-01"
     },
@@ -55,10 +55,10 @@
       "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
+      "sender": "Luis Villa",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Notes that the term \"corresponding\" in the termination clause is ambiguous and questions its necessity, speculating it was intended to mean \"another.\"",
+      "sentiment": "neutral",
+      "point": "\"Software freedom\" is the ability to do anything you want with the\nFWIW any or all of Pam's formulations of \"encouraging sharing of software\"\nor \"contributing to the health of the software commons\" or \"protecting the\nopen software ecosystem\" (from an opensource.com essay of yours, Pam, IIRC)\nwould be vastly superior to \"providing software freedom\".\n\nBesides the obvious point that software doesn't have freedom, any of those\nwould be much clearer to argue about, with less baggage. (There would still\nbe plenty of arguing; all of those still require value judgments. But at\nleast it'd be a value that one can attempt to decipher from the words.)",
       "point_zh": ""
     }
   },

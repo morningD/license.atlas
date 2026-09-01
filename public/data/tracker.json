@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T03:06:13.445Z",
+    "generated_at": "2026-09-01T05:39:11.478Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-01T03:06:31.908Z",
+    "enriched_at": "2026-09-01T05:40:29.104Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-01T03:07:48.989Z",
+      "applied_at": "2026-09-01T05:40:29.516Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -52,6 +52,7 @@
         "For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -122,7 +123,7 @@
         {
           "name": "Luis Villa",
           "role": "reviewer",
-          "message_count": 4
+          "message_count": 5
         },
         {
           "name": "Stefano Maffulli",
@@ -1330,13 +1331,26 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Notes that the term \"corresponding\" in the termination clause is ambiguous and questions its necessity, speculating it was intended to mean \"another.\""
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006228.html",
+          "sender": "Luis Villa",
+          "snippet": "\"Software freedom\" is the ability to do anything you want with the\nFWIW any or all of Pam's formulations of \"encouraging sharing of software\"\nor \"contributing to the health of the software commons\" or \"protecting the\nopen software ecosystem\" (from an opensource.com essay of yours, Pam, IIRC)\nwould be vastly superior to \"providing software freedom\".\n\nBesides the obvious point that software doesn't have freedom, any of those\nwould be much clearer to argue about, with less baggage. (There would still\nbe plenty of arguing; all of those still require value judgments. But at\nleast it'd be a value that one can attempt to decipher from the words.)",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "\"Software freedom\" is the ability to do anything you want with the\nFWIW any or all of Pam's formulations of \"encouraging sharing of software\"\nor \"contributing to the health of the software commons\" or \"protecting the\nopen software ecosystem\" (from an opensource.com essay of yours, Pam, IIRC)\nwould be vastly superior to \"providing software freedom\".\n\nBesides the obvious point that software doesn't have freedom, any of those\nwould be much clearer to argue about, with less baggage. (There would still\nbe plenty of arguing; all of those still require value judgments. But at\nleast it'd be a value that one can attempt to decipher from the words.)"
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 86,
+        "total_messages": 87,
         "date_range": [
           "2026-08-13",
           "2026-09-01"
@@ -1363,7 +1377,6 @@
           "Carlo Piana"
         ]
       },
-      "status": "pending",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -1371,15 +1384,31 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.95,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "Human-calibrated baseline restore after concurrent-run corruption.",
-        "evidence_refs": [],
+        "rationale": "The evidence provided shows a submission for approval on August 13, 2026, followed by ongoing discussion and feedback from OSI community members throughout late August and early September 2026. There is no evidence of a board vote, board decision, rejection, or withdrawal. The timeline indicates the latest event is on September 1, 2026, confirming the review is still active and undecided.",
+        "evidence_refs": [
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
+            "supports": "pending",
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
+            "supports": "pending",
+            "quote": null
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#86",
+            "supports": "pending",
+            "quote": "Discussion regarding the definition of 'software freedom' indicates ongoing review."
+          }
+        ],
         "conflicts": [],
-        "input_hash": "sha256:12a7e228a34fd07a238381ff0245cc54729777dfe05c681f81d60ad542d596d8",
+        "input_hash": "sha256:c4278a3e624fcd2410ed74bca0bab1f0c08b9d10005e3cba829678f579161969",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-204-clean-restore.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -1390,6 +1419,7 @@
         "The BOS Public License v1.0 (Lucy Randall)"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -1495,10 +1525,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:12146a97ca3ff944285b3e6d9afa48c279d70db5d0e950f8dab12e888968852b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "bos-public-license-v1-2",
@@ -1507,6 +1536,7 @@
         "For Approval: The BOS Public License v1.2"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -1669,10 +1699,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:cf082f29bdd4e39b98432cf0701c9d1a4f054b65745936a72d652cc354bf08ad",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "bos-public-license-v1-0",
@@ -1681,6 +1710,7 @@
         "For Approval: The BOS Public License v1.0"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -1824,10 +1854,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:8796e8bf637caf89fd7ec8c5ef6c365a3dfb6a315b3012748e5660742d910d3b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "linkumori-free-license-1-0",
@@ -1836,6 +1865,7 @@
         ": [License] Linkumori Free License, Version 1.0 – Submission for OSI Review"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -5241,16 +5271,16 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:75eecf1fd0130d90e908dee1b49e514202947c6ffa807119598ddd5609569188",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "mutualist-license-v1-2",
       "name": "The Mutualist License (MutuaL) v1.2",
       "aliases": [],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -5431,10 +5461,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:d27dae9c927f71231169adf5a58b9a5a07e7615a3bf68bae0be07ae7986c77c9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "milenium-license-1-1",
@@ -5443,6 +5472,7 @@
         "License Submission: Milenium License 1.1"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -5602,10 +5632,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:50fc0d2d6d4376b30a7fb01eccdddfbe6f8dd5b27428888263e4e1ea46a54ff2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "milenium-license-1-0",
@@ -5614,6 +5643,7 @@
         "License Submission: Milenium License 1.0"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -6077,10 +6107,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:f9c095162c7c50b3d967f0f21066171bffff195cb4ad94057746671018052edc",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "submission-companionation-public-licence-1-0",
@@ -6089,6 +6118,7 @@
         "[SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)"
       ],
       "spdx_id": "CNPL-1.0",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -7058,10 +7088,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:3c5e475c5d8446ba7632617c58742a9fe86f662a787ba68d48c5680a7a1c46e7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "modelgo-attribution-v2",
@@ -7077,6 +7106,7 @@
         "MG-BY-SA-2.0"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -16870,16 +16900,16 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:837565e5d98c4540840ea33c7b4fe4b557e3391e16acb26c8bfb868ea8be96d8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "public-benefit-zero-copyright",
       "name": "Public Benefit Zero Copyright License v2.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -17271,7 +17301,6 @@
           "Josh Berkus"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -17292,7 +17321,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:80a415b748094f1092f2b9a30d7b7d9fda706a55d240ff22d4f0dc4cd726fd8b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -17303,6 +17332,7 @@
         "Mulan Public License Version 2 (2024 resubmission)"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -18134,10 +18164,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:28e431622c781204f4c8728c0cb75eb6162d3d6f41f0796826784f9d8ce7685c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "resubmission-of-european-space-agency-public-licenses-for-approval",
@@ -18146,6 +18175,7 @@
         "Resubmission of the European Space Agency Public Licenses (ESA-PL) for approval"
       ],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -21660,16 +21690,16 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:18ae1f2ffd23ffde0cb7ec5312d7d6c71bb6dc6073599080152329caecde17fe",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "toppers-license",
       "name": "TOPPERS License",
       "aliases": [],
       "spdx_id": "",
+      "status": "pending",
       "source_status": "pending",
       "rule_status": "pending",
       "status_candidates": [
@@ -22440,10 +22470,9 @@
         "evidence_refs": [],
         "conflicts": [],
         "input_hash": "sha256:7c796dfde18cce81098a540608f1b8099c93f21faa62d95b058ebffd4bbbc6b9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "pending"
+      }
     },
     {
       "id": "modified-0bsd-license",
@@ -22453,6 +22482,7 @@
         "Modified 0BSD Standard License (Maintenance Required)"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -22773,10 +22803,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9cb913f5963b765d8ad1a0b087c7fae4ef9881bc8717fb1b853d4032688e598e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "modified-0bsd-license-2",
@@ -22786,6 +22815,7 @@
         "Modified 0BSD Standard License (Maintenance Required)"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -23106,10 +23136,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ebe738907437b5a359024df4a8b994a870810c15565d245f6fcfec0a9b29ec29",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "open-source-copyleft-license-v1-0-2",
@@ -23119,6 +23148,7 @@
         "Open Source Copyleft License 1.0"
       ],
       "spdx_id": "OSCL-1.0",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -24456,10 +24486,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a8bd1f7221dca2b8789b28abdfe2926fb750cd38752a1a1f08a21daa2e797cb3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "open-source-copyleft-license-v1-0",
@@ -24469,6 +24498,7 @@
         "Open Source Copyleft License 1.0"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -25805,10 +25835,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:361a7582a7ae5b7d9a8edd9540c6925ed10f3e3b2e760924516177240012601b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "free-archive-license-1-0",
@@ -25818,6 +25847,7 @@
         "FARCL-1.0"
       ],
       "spdx_id": "FARCL-1.0",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -26005,10 +26035,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a5cd46fa3942a09fb9843a79817386bb9a7edfc073138e9813b88de210261466",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "project-tick-general-public-license-v2-for-osi-license-review",
@@ -26019,6 +26048,7 @@
         "Project Tick General Public License v2 for OSI License Review"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -26226,10 +26256,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5b98c848eaeea767aa12e1e2d25567ca004e44619c90176121c9aff3d29b9f91",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "idciymi-1-0",
@@ -26239,6 +26268,7 @@
         "IDCIYMI-1.0"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -26514,10 +26544,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:470e442e7334fe7178ef2f737bfbc8d056b9380f012a6c10ce304c2e174c3bd0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "submission-of-orivex-syscall-note-license-for-osi-approval",
@@ -26526,6 +26555,7 @@
         "Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval"
       ],
       "spdx_id": "OSN-1.0",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -28762,16 +28792,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ff413536b274a6d1452cfac53ceacbd5b60a4f623d5045e8ea204353332cb3ba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "3d-slicer-license",
       "name": "3D Slicer License",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -29493,7 +29523,6 @@
           "Federico Leva"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -29514,7 +29543,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:47bfdcad80f6926ff9eaf692cbe0f658a5372d56972ffb6524250220bb705607",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -29523,6 +29552,7 @@
       "name": "Ritchey Permissive License v11",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -30253,16 +30283,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4289eb98915ad021ce33e0a1a6469bf937201b10ff2ef3fafbbb778bdd7e8c14",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "open-source-social-network",
       "name": "Open Source Social Network License 1.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -30866,7 +30896,6 @@
           "Henrik Ingo"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -30887,7 +30916,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:731e067829c734977f4b27078c7f9f946409b258789af10837edd49ee3f47ac9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -30896,6 +30925,7 @@
       "name": "The Vaccine License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -32349,16 +32379,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f12024be1de5eca49205b0c320ad874a4ed12d038271f37d20e3646515bb8728",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "whonix-gpl-additional-terms",
       "name": "GPL-3+-with-whonix-additional-terms",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -32743,16 +32773,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3a06314b1894da34b7a7bd4b5d9cef724824c33978c91b9692257ecf2f321e54",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "twente-license",
       "name": "Twente License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -33157,16 +33187,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:592fa334c6c6197fedcd41ab91080b2574a7c738b9d819473116005bf0d98eef",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "c-fsl-v1-3",
       "name": "Convertible Free Software License v1.3 (C-FSL v1.3)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -34413,16 +34443,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2a510c5789321de84af0d6f90395092be5058fe769a276c370b3d8597f861231",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "libpng-v2",
       "name": "PNG Reference Library License v2.0 (libpng v2)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -34933,7 +34963,6 @@
           "VanL"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -34954,7 +34983,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8b1b49d825ff889ebe1341532a2e6d648a70af49f28e74953af646c44a384267",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -34963,6 +34992,7 @@
       "name": "Convertible Free Software License v1.1 (C-FSL v1.1)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -36579,16 +36609,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:47741dbb92bafeed0da69c7658ecea387a13a92909306e49946291248a286937",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "yetiforce-public-license-v3",
       "name": "YetiForce Public License v3",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -39348,16 +39378,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:90ea56b6abc992e49bca122eeefa0eb6ef4b3940f31f44b7e469d81ceacee090",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "zentao-public-license",
       "name": "ZENTAO PUBLIC LICENSE",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -40241,16 +40271,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5861b30a9b45fb8ece2823b3f861e00c780399d9268fd31691d77648583a00d2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "moritz30-license",
       "name": "Moritz30-Projects Open Source License v1",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -40639,16 +40669,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ea911ccf62e48cb8c1da5e210ba987ad2f72f17edd29c418a248e62c7bee98be",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "nccl",
       "name": "Non-Coercive Copyleft Licence (NCCL) 1.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -41273,7 +41303,6 @@
           "Paul Tagliamonte"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -41294,7 +41323,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4512b43771cce6c2523ee578bdf9d95f27fe6282773fe164085410ecfb11c466",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -41303,6 +41332,7 @@
       "name": "Scripting Free Software License v1.3.6 (S-FSL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -42729,16 +42759,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b84546f28a4cac7a0ee419d52e169a9122388d88cdf380788f7780367c004470",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "scripting-fsl-v1-3-5",
       "name": "Scripting Free Software License v1.3.5 (S-FSL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -43483,16 +43513,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b9d1c7161769dda945694f807e1ec957783b0b5899a3eba7b9853869e6cf9d23",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "tidepool-open-access",
       "name": "Tidepool Open Access to Health Data Software License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -44023,16 +44053,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:87ddf15cb14e281af5841a711d43365bc0e4ff620a672dd6436b528245578136",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "mosl",
       "name": "Modular Open-source Software License (MOSL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -44472,16 +44502,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d539200c29104a1f1e8619e2a72cacdea9f17a2fe6f3ddceff1e4ada5f46e7ea",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "svoboda",
       "name": "Svoboda License",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -44912,7 +44942,6 @@
           "Karl Fogel"
         ]
       },
-      "status": "withdrawn",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -44933,7 +44962,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1c85faf4ea6d7a4b4ace4dbdc7dffad45ac5f10e8ff60e3c32804398ed611e05",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -44945,6 +44974,7 @@
         "PSF Python License Revision"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -45441,16 +45471,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:267604bbcb9bcf14e22e23f97bb3ad091f0dafeee1f0a78fda16ff41e9affaed",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "netx-public-license",
       "name": "netX Public License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -45941,10 +45971,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c531382055b8a0d35c2e060d7cb6332812e457554ecee73a2484aa5a1710d6d5",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "webm-license",
@@ -45953,6 +45982,7 @@
         "WebM License (third-party submission)"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -46487,16 +46517,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3534c0bf4b1abf08ebb8992add47fc4c257790d22a90d3fb9d368a594b775656",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "mxm-public-license",
       "name": "MXM Public License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -47180,16 +47210,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:32681cc47e4e9c620b70a89ad017c111ff01b4c8c827a3885d3daf8f481fd195",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "transitive-grace-period",
       "name": "Transitive Grace Period Public Licence v1.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -49004,16 +49034,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f3243ac8adf104f48658a1dccf61dd9106c98f6070ad220d65be22e2fa122537",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "beer-ware-license",
       "name": "The Beer-Ware License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -49486,16 +49516,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a31ad68aa592c5a61cb0afb13c7d0d2108ffffe057ef4374a162e9dea38c4d04",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "open-source-hardware-license",
       "name": "Open Source Hardware License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -50085,16 +50115,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2b9069ae8a34a2c1c94bc16feffab21354e0810da435a91753b2c849b1b7eb60",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "educational-community-license-1",
       "name": "Educational Community License 1.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -50479,16 +50509,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3199e1397979a52676d901191c6c938d65e7ac0ce475fde3877c694fc4bc8352",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "socialtext-public-license",
       "name": "Socialtext Public License (STPL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -53999,16 +54029,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5a3bde5c45d1fe284b923e3d35dff4b0feda24083d020c3e8d0e9dffb4e90450",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "generic-attribution-provision",
       "name": "Generic Attribution Provision",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -56635,16 +56665,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:77b1a9724ca102e68cf8fbc16b1e295123dff02442f026c985b4b65d305a932f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "broad-institute-public-license",
       "name": "Broad Institute Public License (BIPL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -57208,16 +57238,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b9afbbfd847582bfc89d03ef9c3ce5cf21d02b041cbf82077011f073a81eceba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "truecrypt-collective-license",
       "name": "TrueCrypt Collective License v2.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -57674,16 +57704,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4dbf55a3dc325b1eda820ab8440164086437b818298e04e99b70dcdd4bb7a4e1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "mindtree-public-license",
       "name": "MindTree Public License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -58103,16 +58133,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ad25fb96ec556309144aebab663a7c1224047a6ed1aec21fcf9f9e6f51e01c42",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "academic-citing-license",
       "name": "Academic Citing License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -58713,16 +58743,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:593113e136a8d3182fac0fc0d7c41360cb24a86712837b4c152ed1fab2ce8400",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "nasa-osa-1-1",
       "name": "NASA Open Source Agreement Version 1.1",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -60797,16 +60827,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cf6d4cc1118769b5d1442f2c472614b357e5946697ea82790ad08d97e2baeb4a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "open-source-software-alliance",
       "name": "Open Source Software Alliance License (OSSAL)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -64984,16 +65014,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c0d90ba53dd1f1659f656a52c7d6cc435ee714cb01b30e2e8e4167f6c8489928",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "bxapl",
       "name": "BXAPL",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -65372,16 +65402,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7b5e1f29300084cf1b34e684d06e49746c8eaecb0148d49cceb3fc3fe4934cdf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "apossl",
       "name": "APOSSL (Anti-Piracy Open Source Software License)",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -65946,16 +65976,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:11718492672587bb40f2f393d53109d83310ccffbf202afd48ba11587aec010c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "qmail-license",
       "name": "qmail License",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -66338,10 +66368,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0db9de538e2cc45660fc60c403f2da98ad05b1024129b8bcffe97684571c5163",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "dolby-atmos-vision-foss-license-1-0",
@@ -66352,6 +66381,7 @@
         "Dolby Vision License"
       ],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -66438,16 +66468,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d091073e9a110475e7659705d9e7033465c4f70d0c4a5674f510ea125158e16c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "license-as-this-is-a-translation-of-isc-license-which-is-already-approved",
       "name": "Открытый Пакет ПО license as this is a translation of the ISC license which is already approved",
       "aliases": [],
       "spdx_id": "",
+      "status": "rejected",
       "source_status": "rejected",
       "rule_status": "rejected",
       "status_candidates": [
@@ -66534,16 +66564,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:67e0a287afa4a33f83389441cba1c4a5d133d677326934ddf4659a76abe16e73",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "rejected"
+      }
     },
     {
       "id": "ai-mit-license",
       "name": "AI-MIT License 1.0",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "pending",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -68691,10 +68721,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3415a38392141a409feaac320adbdb475af010e1c941609de4f40918404dccb3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "withdrawal-of-license-submission-barrer-free-software-license-formerly-bosl-and-bsl",
@@ -68705,6 +68734,7 @@
         "Withdrawal of License Submission - Barrer Free Software License (BFSL) formerly BOSL and BSL"
       ],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -68970,10 +69000,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2c7e277521e3eabb451d3cf24c50e2959514b1e0795a5e161ac96e916ea511b1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "license-review-qmdeve-license-1-0",
@@ -68982,6 +69011,7 @@
         "[License-Review] QmDeve License 1.0"
       ],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -69163,16 +69193,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:73f987aaf4b4123b6e5cda67c38b3639735cebfa89c1d17c7f7fb78938dcafc7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "oin-license",
       "name": "Open Innovation License (OIN)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "pending",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -70415,16 +70445,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:264c3e24b006e1d01530d995b4e5fad3c06c9a83bd384589324547641b52f72b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "sspl-v2",
       "name": "Server Side Public License, Version 2 (SSPL v2)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -75526,16 +75556,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d230569d4a3bc2b8513cb37ad6f8d8bd807054d0c61bce68c1bddf1f2e932785",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "sspl-v1",
       "name": "Server Side Public License, Version 1 (SSPL v1)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -77237,16 +77267,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bcff49b3c0b6c61b0bd542d281ad8f8ef15dff29408ab7369ff87d9abab97932",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "license-zero-reciprocal-rewrite",
       "name": "License Zero Reciprocal Public License (Rewrite)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -77986,16 +78016,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:61d64a11b92810208009d03a731b12e8a323b34194b47d55e0955f80e5f67191",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "license-zero-reciprocal",
       "name": "License Zero Reciprocal Public License (L0-R)",
       "aliases": [],
       "spdx_id": "",
+      "status": "withdrawn",
       "source_status": "withdrawn",
       "rule_status": "withdrawn",
       "status_candidates": [
@@ -80818,16 +80848,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3d6d4af3032559fa15ea1446e25407937956ebb86c93889c70e603e160dfad3d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "withdrawn"
+      }
     },
     {
       "id": "open-logistics-v1-2",
       "name": "Open Logistics License v1.2",
       "aliases": [],
       "spdx_id": "",
+      "status": "superseded",
       "source_status": "superseded",
       "rule_status": "superseded",
       "status_candidates": [
@@ -81493,16 +81523,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:72bee82afbc726ff3a11ef62b04d4a1b89aa22a0d977204d045671c30615a04e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "superseded"
+      }
     },
     {
       "id": "cal-beta-2",
       "name": "Cryptographic Autonomy License (CAL) Beta 2",
       "aliases": [],
       "spdx_id": "",
+      "status": "superseded",
       "source_status": "superseded",
       "rule_status": "superseded",
       "status_candidates": [
@@ -85222,10 +85252,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b7e94f90d026d15f313182aa27d2dd9c241101f14933996db9f5bce17065b25f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "superseded"
+      }
     },
     {
       "id": "cal-original",
@@ -85235,6 +85264,7 @@
         "Cryptographic Autonomy License v1.0"
       ],
       "spdx_id": "",
+      "status": "superseded",
       "source_status": "superseded",
       "rule_status": "superseded",
       "status_candidates": [
@@ -87579,10 +87609,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f932293dd3e10aa318fc528b8adcfdb4dac3b35fb2846594b67ba392c7a6f28b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "superseded"
+      }
     },
     {
       "id": "cnri-python",
@@ -87591,6 +87620,7 @@
         "Submission: CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "CNRI-Python",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -88105,7 +88135,6 @@
           "Pamela Chestek"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -88126,7 +88155,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:a694d7707ac192054490615083159e1cddbaf8506451d9029656ff82c0960ed6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -88139,6 +88168,7 @@
         "Python-2.0.1 and CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "Python-2.0",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -89899,7 +89929,6 @@
           "Moming Duan"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -89920,7 +89949,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:be601be36c37b26657daf9ee2211ee0be2ab218fa82c02cf6ab366aa59f94056",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -89931,6 +89960,7 @@
         "License Approval Request: BSD-3-Clause-Open-MPI"
       ],
       "spdx_id": "BSD-3-Clause-Open-MPI",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -90189,10 +90219,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8b5a200b40dd9a7dc1a97850186cb7b15241888b83072c3e2fad76184afd4c12",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "bsd-3-clause",
@@ -90201,6 +90230,7 @@
         "License Approval Request: BSD-3-Clause-Open-MPI"
       ],
       "spdx_id": "BSD-3-Clause",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -90429,10 +90459,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:481719efa2422f0d5e921430bb31e62585fc7afa91e57cd17b2735fc8e7d3f51",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cddl-1-1",
@@ -90441,6 +90470,7 @@
         "Legacy license suggestion: CDDL 1.1"
       ],
       "spdx_id": "CDDL-1.1",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -90626,7 +90656,6 @@
           "Richard Fontana"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -90647,7 +90676,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:41797041b2d3ae113548eda948dac0c55c5f814c88d2cf6267d8f3ec815e414e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -90658,6 +90687,7 @@
         "Legacy license suggestion: WordNet"
       ],
       "spdx_id": "WordNet",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -90834,7 +90864,6 @@
           "McCoy Smith"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -90855,7 +90884,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:339c4108002ab6be7eb1d7e264088b5ccc186fb70565a2929545dec5e7ebb0f4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -90866,6 +90895,7 @@
         "Request for a new license review [Luther-LAW_DE.FID5237501]"
       ],
       "spdx_id": "OSC-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -91109,10 +91139,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e98fe78c7130c44ebe12cc9281645420eef25ad7af86abba8b72c6dbdb9c1def",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "los-alamos-national-labs-bsd-3-variant",
@@ -91121,6 +91150,7 @@
         "Los Alamos National Labs BSD-3 Variant License Approval"
       ],
       "spdx_id": "",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -91391,7 +91421,6 @@
           "Ariel Jolo"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -91412,7 +91441,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:de2a9d0a4ac9a13fcfa16e5be962c95f3263a2869bfc7755be97bbc7088389f0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -91423,6 +91452,7 @@
         "MIT-CMU license for Python Pillow"
       ],
       "spdx_id": "MIT-CMU",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -91651,10 +91681,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f1b7133ab9b6de04fa9b68761bde8ae629403c57b766575d054f6c250365ae35",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "blueoak-1-0-0",
@@ -91663,6 +91692,7 @@
         "[new license] Blue Oak Model License 1.0.0"
       ],
       "spdx_id": "BlueOak-1.0.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -92417,10 +92447,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:089f6bd06723d68d70d54b1e0da566df6145b7f3a7cb872593fe1da5101f18cd",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "unicode-3-0",
@@ -92429,6 +92458,7 @@
         "Request for Approval: Unicode License v3; Request for \"Retirement\": Unicode Inc License Agreement-Data Files and Software"
       ],
       "spdx_id": "Unicode-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -93563,10 +93593,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:43a7e2aa71e3a98bc554049c0e7395186f7ffbf5c1d522013f7ab184ea054c46",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "olfl-1-3",
@@ -93575,6 +93604,7 @@
         "For Approval: Open Logistics License v1.3"
       ],
       "spdx_id": "OLFL-1.3",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -93869,10 +93899,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f027e61dc7372cee57e0e407f40d8b616f6e60edac1c8edcfbc3548e2e9e5442",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "jam",
@@ -93881,6 +93910,7 @@
         "Legacy Approval, Licnese of Jam"
       ],
       "spdx_id": "Jam",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -94083,7 +94113,6 @@
           "J Lovejoy"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -94104,7 +94133,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d6ae6ec4d5b3ce48a485d497d5d1384726a536b6a5e9b643889894a0544a83e9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -94115,6 +94144,7 @@
         "For Legacy Approval: Zope Public License v2.1"
       ],
       "spdx_id": "ZPL-2.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -94375,10 +94405,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:37e2802308f12d64244b453cd0a63541f8aded61970b8e2ab60cb702526d2719",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cern-ohl-s-2-0",
@@ -94387,6 +94416,7 @@
         "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
       ],
       "spdx_id": "CERN-OHL-S-2.0 ",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -94653,10 +94683,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bec9db740b547c109d40bebd6af74040d42ddc37a70066597ae2c11f615797c4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cern-ohl-w-2-0",
@@ -94665,6 +94694,7 @@
         "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
       ],
       "spdx_id": "CERN-OHL-W-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -94931,10 +94961,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:dddfb2b24fdd16368564e978ef0c793c81b32f6fd67184b4213ef7b7118b8ed2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cern-ohl-p-2-0",
@@ -94943,6 +94972,7 @@
         "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
       ],
       "spdx_id": "CERN-OHL-P-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -95209,10 +95239,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cfcda0bb9764ad5505a182f5da2e7ed147031679acb1c6181458e849e49196db",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "mit-0",
@@ -95221,6 +95250,7 @@
         "Request for Legacy Approval of MIT No Attribution License"
       ],
       "spdx_id": "MIT-0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -95784,10 +95814,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f82990039b58f7fd165b9aa9df53e6e9443bc2931b26ce57d70af0218d3a559a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "unlicense",
@@ -95796,6 +95825,7 @@
         "Request for legacy approval: The Unlicense"
       ],
       "spdx_id": "Unlicense",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -96039,10 +96069,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3f0853e9c26634b498a3edb437891271c8357dd8ac114c7283d48581bd063ae1",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "php-3-01",
@@ -96051,6 +96080,7 @@
         "Request for Legacy Approval of PHP License 3.01"
       ],
       "spdx_id": "PHP-3.01",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -96751,10 +96781,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1f5235f5e23c5126356a6c3e676330a9211998bf5e25ec123ab1b4e7a3526c75",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "bsd-1-clause",
@@ -96763,6 +96792,7 @@
         "New legacy license for approval: BSD-1-Clause"
       ],
       "spdx_id": "BSD-1-Clause",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -97352,10 +97382,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e009501f489c4303e962b2348e57e59f37fd0a97f48835953b9493b2c8e10ae9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cal-1-0",
@@ -97364,6 +97393,7 @@
         "For approval: The Cryptographic Autonomy License (Beta 4)"
       ],
       "spdx_id": "CAL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -102263,10 +102293,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7cb62df3c1317232357e5a17493d3babe039bb803c0169ac7b32b17ddeb71ef4",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "mulanpsl-2-0",
@@ -102275,6 +102304,7 @@
         "[license review] Mulan PSL V1"
       ],
       "spdx_id": "MulanPSL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -116130,10 +116160,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:075dedc1afdb6746eb82168eeb023706a25c1c0419a37001314f7808b9fb821b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "oldap-2-8",
@@ -116142,6 +116171,7 @@
         "For Legacy Approval: OpenLDAP Public License"
       ],
       "spdx_id": "OLDAP-2.8",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -116888,7 +116918,6 @@
           "Pamela Chestek"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -116909,7 +116938,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8e64ace2242dbb92ef5af5772e6c863820d7b683fea4ad616acf19b8739b50c3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -116920,6 +116949,7 @@
         "For Legacy Approval: LBNL BSD"
       ],
       "spdx_id": "BSD-3-Clause-LBNL",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -117809,7 +117839,6 @@
           "Pamela Chestek"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -117830,7 +117859,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0e6b8ea2ae536583d1b53c1809c3749c71168143a46b3586e3262b12e47e11e9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -117841,6 +117870,7 @@
         "Approval: Server Side Public License, Version 1 (SSPL v1)"
       ],
       "spdx_id": "SPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -118061,10 +118091,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4d280cd2655c811b83b11af718334badb86671009e0ff918f680cf9cc2b295aa",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "unicode-dfs-2016",
@@ -118073,6 +118102,7 @@
         "Request for Legacy Approval: Unicode Data Files and Software License"
       ],
       "spdx_id": "Unicode-DFS-2016",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -118290,7 +118320,6 @@
           "John Cowan"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -118311,7 +118340,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1091aca43ab06f9be1ebb8b67aceaeb7d31a17579488a06366a7fd3b5e9746d0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -118322,6 +118351,7 @@
         "For Approval: W3C Software and Document License"
       ],
       "spdx_id": "W3C-20150513",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -118555,10 +118585,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:abc8f7794293984c06d16366e6a36ec461d39d1a880d333d8cd68e0e9ffc5cfc",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "epl-2-0",
@@ -118567,6 +118596,7 @@
         "For Approval: Eclipse Public LIcense version 2.0"
       ],
       "spdx_id": "EPL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -118830,10 +118860,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c1ef5b5013e4d15aed9ef9e3a8c4007af2e0c2ca425040762d5dbf39a1e01439",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "eupl-1-2",
@@ -118842,6 +118871,7 @@
         "EUPL v1.2"
       ],
       "spdx_id": "EUPL-1.2",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -119134,10 +119164,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:392d419a2194ef2ef65fae60229af5c27f75745799bfedabbd7ffedbb98a5e7c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ucl-1-0",
@@ -119146,6 +119175,7 @@
         "Submission of the Upstream Compatibility License v1.0 (UCL-1.0) for approval"
       ],
       "spdx_id": "UCL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -119350,10 +119380,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:42b504d27f9cda76a22a14fac8e2c7708d04c10593a1a9ba7d5ff05a1f946bba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "bsd-2-clause-patent",
@@ -119362,6 +119391,7 @@
         "Approval: BSD + Patent License"
       ],
       "spdx_id": "BSD-2-Clause-Patent",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -120517,10 +120547,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:37e8699a6158d9534d66cde2577af769245c535fe2e3fe526f1ad392d3786a60",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "liliq-rplus-1-1",
@@ -120529,6 +120558,7 @@
         "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
       ],
       "spdx_id": "LiLiQ-Rplus-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -122288,10 +122318,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bd60050ab12f1bf33eaff8f9488e3d788b625bd25c860a752b406fdf3d5e4faa",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "liliq-r-1-1",
@@ -122300,6 +122329,7 @@
         "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
       ],
       "spdx_id": "LiLiQ-R-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -124059,10 +124089,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:76b788b50993c79edc596a3367160e63cb1cc0db25d5ce56195d38f415a2cede",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "liliq-p-1-1",
@@ -124071,6 +124100,7 @@
         "International Licenses: Québec Free and Open-Source Licence (LiLiQ)"
       ],
       "spdx_id": "LiLiQ-P-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -125830,10 +125860,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:3e53505bf2d8a174fe8ff26bcb436be36a7937dd01d772d127b9b88e47856254",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "oset-pl-2-1",
@@ -125842,6 +125871,7 @@
         "Submission of OSET Public License for Approval"
       ],
       "spdx_id": "OSET-PL-2.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -126064,10 +126094,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:adaac77819f039f561da4a420e856b4306ae540cb21680117bf3d1bb9f93e2f3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "0bsd",
@@ -126076,6 +126105,7 @@
         "Approval Request: Free Public License 1.0.0"
       ],
       "spdx_id": "0BSD",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -126297,10 +126327,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6962f9b1cf2f67b73e689f818a179e1d0d43a3adb354c411d2c4b25d417edade",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ecos-2-0",
@@ -126309,6 +126338,7 @@
         "For Legacy Approval: eCos License version 2.0"
       ],
       "spdx_id": "eCos-2.0",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -126539,7 +126569,6 @@
           "Richard Fontana"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -126560,7 +126589,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:123330559595e1a3f3af82d0881b82cb3a59b81f8f430419f297a844ac708403",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -126571,6 +126600,7 @@
         "Request for Approval of Universal Permissive License (UPL)"
       ],
       "spdx_id": "UPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -126791,10 +126821,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4b39e580590fa11a323f983a1c59645e223102991340d4e6aa18adf04a319516",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cecill-2-1",
@@ -126803,6 +126832,7 @@
         "CeCILL license V2.1 for Approval"
       ],
       "spdx_id": "CECILL-2.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -140081,10 +140111,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7f84ab30e7ff6751449e28cc40fee08117b4317b7bcb486564c4dbad7e6608cf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "mpl-2-0",
@@ -140093,6 +140122,7 @@
         "MPL Release Candidate 1- formal request for OSI approval"
       ],
       "spdx_id": "MPL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144095,10 +144125,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:155ff4e62243016ce4b4adad0098ebffe277b1ee77939120b8806fb874311cb0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "intel",
@@ -144107,6 +144136,7 @@
         "New OSL for \"official Intelligence\""
       ],
       "spdx_id": "Intel",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144307,10 +144337,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2e3b2c78fea7522d7b623e7a94e1d682cf081c48fc1bfaad5006780e8bcc9016",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "mpl-1-1",
@@ -144319,6 +144348,7 @@
         "Mozilla Public License 2 Alpha 3; request for early review prior to formal submission for approval"
       ],
       "spdx_id": "MPL-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144545,10 +144575,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5f9a97023d09388a317a3d6c22d7ca0eecb51869222e88f29f9bf1f6ce3abd01",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "zlib",
@@ -144557,6 +144586,7 @@
         "Including a ZLib third-party source code in a Modified BSD Licensed Project"
       ],
       "spdx_id": "Zlib",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144732,10 +144762,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0b1ea495546f9cbc13dc2bf84fb9553aa13986e6cc3445806b20520613d4f15d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "postgresql",
@@ -144744,6 +144773,7 @@
         "Legacy approval request - BSD license (PostgreSQL variant)"
       ],
       "spdx_id": "PostgreSQL",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -144954,10 +144984,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e79f2964ee5d3ba7374a5db3a555f4b66745840009f7d69f959f10ead91eee9a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "lppl-1-3c",
@@ -144966,6 +144995,7 @@
         "Request for Legacy Approval for the LaTeX Project Public Licence"
       ],
       "spdx_id": "LPPL-1.3c",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -145188,10 +145218,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:95d78ba3c072cc2718b574787f2cd9b18f133f2116735d8ec5887927f17d5309",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "osl-3-0",
@@ -145200,6 +145229,7 @@
         "For Approval 36 Open Software License Request"
       ],
       "spdx_id": "OSL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -145363,10 +145393,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:707b3211c0bbd9455cee2a051af9c5db4708d7f099e5f8ac09527a915d7f5059",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ipa",
@@ -145375,6 +145404,7 @@
         "For Approval: IPA Font License v1.0"
       ],
       "spdx_id": "IPA",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -145605,10 +145635,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bd63894c482468a77b409f92a64be7ab36ef6a5923b90608a546c1eefd77468c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ofl-1-1",
@@ -145617,6 +145646,7 @@
         "For approval: SIL Open Font License 1.1"
       ],
       "spdx_id": "OFL-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -145845,10 +145875,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e6eb603280c0e09b207359f5a02bebb7eb9a420545501dff8d36c1e2b2f77acd",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "artistic-1-0",
@@ -145857,6 +145886,7 @@
         "REMOVE (entirely) the Artistic License 1.0?"
       ],
       "spdx_id": "Artistic-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -146078,10 +146108,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0c65dbc7aa4921535b5caa58167fd3b6ab6732758779e49aa95dfd021c7abaa5",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "miros",
@@ -146090,6 +146119,7 @@
         "For (Legacy?) Approval: The MirOS Licence"
       ],
       "spdx_id": "MirOS",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -146312,10 +146342,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:caa6b0d773e9e7253f727af1a7aff7cddab2ac12fd47196ceb5ce52fafbe12ce",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "eupl-1-1",
@@ -146324,6 +146353,7 @@
         "Request for approval: EUPL (European Union Public Licence)"
       ],
       "spdx_id": "EUPL-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -146550,10 +146580,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b04b542b457776cd4998960d641da1f5c339c43382bd022348350b6f210efd13",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ntp",
@@ -146562,6 +146591,7 @@
         "request for Legacy Approval of the NTP License"
       ],
       "spdx_id": "NTP",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -146737,10 +146767,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fb38ae7f12e46eb4bbb750ef413342a9f8ddac163e0dbf08a6ffa48c1a682746",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "agpl-3-0",
@@ -146749,6 +146778,7 @@
         "For approval: GNU Affero General Public License"
       ],
       "spdx_id": "AGPL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -147005,10 +147035,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:dacf0562580d0974531bdefa2349874174e21140f80f084e06a6d08c815b8350",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "gpl-2-0",
@@ -147017,6 +147046,7 @@
         "For approval: GNU Affero General Public License"
       ],
       "spdx_id": "GPL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -147278,10 +147308,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:184d351f29b052778c1de748d94c1463d3955a93f14a4d5a8b6534e91939ebf2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "icu",
@@ -147290,6 +147319,7 @@
         "Æsthetic Permissive License - For Approval"
       ],
       "spdx_id": "ICU",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -147525,10 +147555,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0339a459616df230da0d6c0157f78b1cc50c2271d01f3ceb7790000a4bc177d9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "isc",
@@ -147537,6 +147566,7 @@
         "Æsthetic Permissive License - For Approval"
       ],
       "spdx_id": "ISC",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -147762,10 +147792,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:56f3e89d19bd206c2983b4fcd5266d1c66730b11432de35e497d28923ce09d7a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "mit",
@@ -147774,6 +147803,7 @@
         "Æsthetic Permissive License - For Approval"
       ],
       "spdx_id": "MIT",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -147975,10 +148005,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9ce2dd77575472bc52befecd6bf0e4e2d6d717a1df8ab75e6ec1717ed80f98bd",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "multics",
@@ -147987,6 +148016,7 @@
         "FOR APPROVAL: The license of Multics"
       ],
       "spdx_id": "Multics",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -148169,7 +148199,6 @@
           "Zak Greant"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -148190,7 +148219,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b8e1817ea28867d3d42f92621ee28fd33fe38a59693fab9d78e84795e3d8f1c9",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -148201,6 +148230,7 @@
         "Frameworx license clause 3b"
       ],
       "spdx_id": "Frameworx-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -148414,10 +148444,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:2c2660c7e8553d5c7eadfdec56bd8fd818e06faf8f10adfae175b1d64a66280b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ms-pl",
@@ -148426,6 +148455,7 @@
         "For Approval: Microsoft Public License"
       ],
       "spdx_id": "MS-PL",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -148678,10 +148708,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0abaebdc17dec048439da9b3a3e4896f4313a1aca9f198f44dc56cc7094515ec",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "bsl-1-0",
@@ -148690,6 +148719,7 @@
         "For Approval: Boost Software License - Version 1.0 - August 17th, 2003"
       ],
       "spdx_id": "BSL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -148923,10 +148953,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7c108eb1f72243c15e75d6e763130837f7a2d09bb6051b97fa8486c1d2b5bd65",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "nposl-3-0",
@@ -148935,6 +148964,7 @@
         "For Approval: Non-Profit OSL 3.0"
       ],
       "spdx_id": "NPOSL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -149160,10 +149190,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:407220da115963ddd9805328dceda33e1eca30efba5292e4be1d2850008fb259",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "rpl-1-5",
@@ -149172,6 +149201,7 @@
         "For Approval: Reciprocal Public License 1.5 (upgrade)"
       ],
       "spdx_id": "RPL-1.5",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -149297,10 +149327,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5915cc710924e0c2ab0a7774a143c4c5132e7de555d7a9e6a77a4d1e9e38ff28",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "lgpl-3-0",
@@ -149309,6 +149338,7 @@
         "Submitting GPLv3 and LGPLv3 for OSI inclusion."
       ],
       "spdx_id": "LGPL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -149559,10 +149589,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:08050506497b93760ea441b8e094e3bb9e76199c30362507d6de101b963f02be",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "gpl-3-0",
@@ -149571,6 +149600,7 @@
         "Submitting GPLv3 and LGPLv3 for OSI inclusion."
       ],
       "spdx_id": "GPL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -149821,10 +149851,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:884d23a36108a972427c60f5a09e23359ed40cdc0b8d8e3914c2dfc60135f82f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cpal-1-0",
@@ -149833,6 +149862,7 @@
         "For Approval: Common Public Attribution License (CPAL)"
       ],
       "spdx_id": "CPAL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -151380,10 +151410,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:29927f4b6655b61f777759db08de153d264fc2f444c7caeaa391ade08a414103",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ecl-2-0",
@@ -151392,6 +151421,7 @@
         "For Approval: ECL 2.0"
       ],
       "spdx_id": "ECL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -151568,10 +151598,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e25ae9046828ee2dd484c40df7b85a410258f22f126042809a76875fcf437b45",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "simpl-2-0",
@@ -151580,6 +151609,7 @@
         "For Approval: Simple Public License (SimPL)"
       ],
       "spdx_id": "SimPL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -153535,10 +153565,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:39d6424e9c81286270a238ba7e4be215ea07c6e3ceda964b99785d938c20aa25",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "artistic-2-0",
@@ -153547,6 +153576,7 @@
         "For Approval: Artistic License 2.0"
       ],
       "spdx_id": "Artistic-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -153749,10 +153779,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:acdf89ee006204186fb3d817f9f1b549e29c35a46b516cd04c0b52f811ea09ba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ms-rl",
@@ -153761,6 +153790,7 @@
         "For Approval: Microsoft Permissive License"
       ],
       "spdx_id": "MS-RL",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -154218,10 +154248,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:28c8a298b42f4064b7dd7b7e7a9abbc7a74c6ed09368103dad319755254aba3b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cddl-1-0",
@@ -154230,6 +154259,7 @@
         "For Approval: Common Development and Distribution License (CDDL)"
       ],
       "spdx_id": "CDDL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -154424,10 +154454,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:da596ef2238f2fbe5491e5703dedc4492978829a826019282e2ea69938e9a040",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ipl-1-0",
@@ -154436,6 +154465,7 @@
         "The IBM Public License"
       ],
       "spdx_id": "IPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -154579,10 +154609,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:96f0ad806db3da5169e8c6177d71ad1acbc648900fcbc5504ae9b405357be04b",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "sleepycat",
@@ -154591,6 +154620,7 @@
         "Sleepycat license"
       ],
       "spdx_id": "Sleepycat",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -154696,10 +154726,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6d8fa4a9ac560db66c02e7f5cdf244137574f8eac3f8780ba7001e97c6139359",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "osl-2-1",
@@ -154708,6 +154737,7 @@
         "OSL/AFL version 2.1 submitted for approval"
       ],
       "spdx_id": "OSL-2.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -154832,10 +154862,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:89fbe50dabb70c52c6a722c8a0231fbe8a70afffef8dd7b8349ed06331896c04",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "nasa-1-3",
@@ -154844,6 +154873,7 @@
         "For approval: NOSA version 1.3 now posted on the web"
       ],
       "spdx_id": "NASA-1.3",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -155017,10 +155047,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0f791490d7768e1a3e7fd7749945dad6200eb1b3e4817ae9d1b1ef5994215028",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "epl-1-0",
@@ -155029,6 +155058,7 @@
         "For Approval: Eclipse Public License - v 1.0"
       ],
       "spdx_id": "EPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -155172,10 +155202,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9dd0fddd734596b3315bba10ddb71e39cda811f060023535f061715a4ae3e01e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "apache-2-0",
@@ -155184,6 +155213,7 @@
         "apache license 2.0 for consideration"
       ],
       "spdx_id": "Apache-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -155410,10 +155440,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cf96b4a58deac290bfb82a65b6d9a2ec6528cb27029e7cf0749e2789473eeda2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "fair",
@@ -155422,6 +155451,7 @@
         "For Approval: Fair License"
       ],
       "spdx_id": "Fair",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -155637,10 +155667,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:d11b02da4aa93044add72d7dd84b6aa33b239b94df8ba191f38844fd1190e389",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cua-opl-1-0",
@@ -155649,6 +155678,7 @@
         "For Approval: CUA Office Public License"
       ],
       "spdx_id": "CUA-OPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -155875,10 +155905,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:b8139d9fe792c9c038cbdd89771aab7c1a3df78235a2f468910eccdcae4fe46f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "lpl-1-02",
@@ -155887,6 +155916,7 @@
         "For Approval: Lucent Public License Version 1.02"
       ],
       "spdx_id": "LPL-1.02",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -156083,10 +156113,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:451b56fff58a08adfe74c6d0c972f99d84f42341edf8320271666db3c5b0fc08",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "eudatagrid",
@@ -156095,6 +156124,7 @@
         "For Approval: EU DataGrid Software License"
       ],
       "spdx_id": "EUDatagrid",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -156243,10 +156273,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:71e89b8a0271aaff118f8d9848a2a80d4383d5470a87a7b7bba45bde48382619",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "apsl-2-0",
@@ -156255,6 +156284,7 @@
         "Apple Public Source License 2.0 submitted for OSI approval"
       ],
       "spdx_id": "APSL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -156411,10 +156441,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:addd68364bba6586bf40effbe79d24162b1feba51787301299fafe2e06ce6d83",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "php-3-0",
@@ -156423,6 +156452,7 @@
         "Official approval for the PHP License v3.0"
       ],
       "spdx_id": "PHP-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157051,10 +157081,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:630585416559f357a8d674a3ae30b517d5006042a7c82d54aa1895a6728509eb",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "apl-1-0",
@@ -157063,6 +157092,7 @@
         "For Approval: Adaptive Public License"
       ],
       "spdx_id": "APL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157168,10 +157198,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ef8d08f76b8bbb84a8811f8e17934fc0e321e2e010f00c3e697d974fa342e9df",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "entessa",
@@ -157180,6 +157209,7 @@
         "discuss: Entessa Public License Version, 1.0 (EPL)"
       ],
       "spdx_id": "Entessa",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157298,10 +157328,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9598ad5a0a9a52d5b85beadb52330597e3dc834acca2cd91fca2fd7c93bce41d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "lpl-1-0",
@@ -157310,6 +157339,7 @@
         "discuss: Lucent Public License 1.0"
       ],
       "spdx_id": "LPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157490,10 +157520,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7dd0d22fab4e31d46c3c4dfe6c394931c89b21887f17b48b6e5a489f3399113c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "efl-2-0",
@@ -157502,6 +157531,7 @@
         "discuss: Eiffel Forum License version 2"
       ],
       "spdx_id": "EFL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157607,10 +157637,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e85d6c340f67fd301438c5d9c5a0c4d243a9a8b0d9dc9a12413899497cf2334a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "hpnd",
@@ -157619,6 +157648,7 @@
         "discuss: approval request: \"Historical Permission Notice and Disclaimer\""
       ],
       "spdx_id": "HPND",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157756,10 +157786,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:653d7ee97e98b73a0621c2ee56b7840ddf18e0849e5ad2b181cbc55532d92160",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "wxwindows",
@@ -157768,6 +157797,7 @@
         "discuss: Request for wxWindows License approval"
       ],
       "spdx_id": "wxWindows",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -157969,10 +157999,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fc6db54d2960f3885c2ccc1d3e3125b4dfb2af9e36b201c7ecbccf3706d496ef",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "rpl-1-1",
@@ -157981,6 +158010,7 @@
         "RPL version 1.1"
       ],
       "spdx_id": "RPL-1.1",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158144,10 +158174,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:09416ae1ec1d8343d0ef120369b15d1cc374e45353e37daa5260b6ac47bd47a5",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "oclc-2-0",
@@ -158156,6 +158185,7 @@
         "discuss: OCLC Office of Research Open Source License"
       ],
       "spdx_id": "OCLC-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158401,10 +158431,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:cf2ecc01220c31c9fc3e2f51fbbdfb8bf5383250cc05274388c370900b312ae6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "sissl",
@@ -158413,6 +158442,7 @@
         "Differences between LGPL and SISSL ?"
       ],
       "spdx_id": "SISSL",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158537,10 +158567,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:665061f348de744495f543b5e500e81f7a76e633dbd4376b1be110c3f39a7fe0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "osl-1-0",
@@ -158549,6 +158578,7 @@
         "Open Software License version 1.0"
       ],
       "spdx_id": "OSL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158673,10 +158703,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:695963b3286d108c1e90b3e0b0727d452d0aaf8414056dd2590fa5dc079e15bf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "afl-3-0",
@@ -158685,6 +158714,7 @@
         "Academic Free License"
       ],
       "spdx_id": "AFL-3.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -158892,10 +158922,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:dd556b244142daf5bbabef706c890d34d12618fd96d3fbbc1fd9a012f9ec664c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "aal",
@@ -158904,6 +158933,7 @@
         "Discuss: \"Attribution Assurance License\""
       ],
       "spdx_id": "AAL",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159028,10 +159058,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:988b0b2a51d34f8ae4289fdc8a7485380de7fbc5f3384c0a54273fd038437ae2",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "ncsa",
@@ -159040,6 +159069,7 @@
         "NCSA Open Source License"
       ],
       "spdx_id": "NCSA",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159284,10 +159314,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0e933a27013a1fee9a4a4706aae2460473a8854e6b9e1cffcadf563c6f2d2a5d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "xnet",
@@ -159296,6 +159325,7 @@
         "X.Net, Inc. License"
       ],
       "spdx_id": "Xnet",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159535,10 +159565,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bfa4f488d6ee087f103bc0d5a05e94f1a013af20878381928e4140103ec3ae5d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "motosoto",
@@ -159547,6 +159576,7 @@
         "Request for approval - MOSL"
       ],
       "spdx_id": "Motosoto",
+      "status": "legacy",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159632,7 +159662,6 @@
           "Leon Gommans"
         ]
       },
-      "status": "legacy",
       "status_review": {
         "schema_version": 1,
         "reviewer": {
@@ -159653,7 +159682,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0aa8202b5e983d277485aa993ff6b7222f50047c31bb194503e7d29fd65f159c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
       }
     },
@@ -159664,6 +159693,7 @@
         "FYI: New revision of the Zope Public License"
       ],
       "spdx_id": "ZPL-2.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -159851,10 +159881,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ea687c42b3ae4db48bc603004f3105c8bbe157e10b6786d85319bcea607ee779",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "cpl-1-0",
@@ -159863,6 +159892,7 @@
         "Common Public License (IBM)"
       ],
       "spdx_id": "CPL-1.0",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -161055,16 +161085,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6b6139cba007f0aaaee1b4f7e227f58f06d6398ab6592996867d75ec827e0a7f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "approved"
+      }
     },
     {
       "id": "lgpl-2-0",
       "name": "GNU Library General Public License version 2",
       "aliases": [],
       "spdx_id": "LGPL-2.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161165,16 +161195,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8065f1a63e092be5888b82bf15c2ef12676678d51e4dfcfd3b1d6a93e64b9006",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "artistic-1-0-perl",
       "name": "Artistic License (Perl) 1.0",
       "aliases": [],
       "spdx_id": "Artistic-1.0-Perl",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161275,16 +161305,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e2c54dda80738c1cd50c34c245e29eccb613e360253224cfe4195279b56b4f5a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "gpl-1-0",
       "name": "GNU General Public License, version 1",
       "aliases": [],
       "spdx_id": "GPL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161365,16 +161395,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:818e064f5fe483f88efe5631c21fc50da22119a9d28c23e83e6f5b2968219ccf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "vsl-1-0",
       "name": "The Vovida Software License v. 1.0",
       "aliases": [],
       "spdx_id": "VSL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161455,16 +161485,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f2f1cfd8e94ca2084a461f397d1cf1d448fa62ea7843468d16020eb0cd8615e0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "watcom-1-0",
       "name": "The Sybase Open Source Licence",
       "aliases": [],
       "spdx_id": "Watcom-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161545,16 +161575,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:6b027677e6b91bc94ef06d4ae0011d256656400bb5b809138f70769bed1ed27e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "rscpl",
       "name": "The Ricoh Source Code Public License",
       "aliases": [],
       "spdx_id": "RSCPL",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161635,16 +161665,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5a49af0368e93da6eb05b17bc7369ef91e5a2082c9ae964219c40ba89601477d",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "rpsl-1-0",
       "name": "RealNetworks Public Source License Version 1.0",
       "aliases": [],
       "spdx_id": "RPSL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161725,16 +161755,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0766a198e49e1e136ceb25ce72da79285bb853953c658174e4e3c0d4400685a8",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "qpl-1-0",
       "name": "The Q Public License Version",
       "aliases": [],
       "spdx_id": "QPL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161815,16 +161845,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:8e0a5911824fb4790479f7b1c8dcfba83ebb040d8139adb1261c6bf93d12677a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "ogtsl",
       "name": "Open Group Test Suite License",
       "aliases": [],
       "spdx_id": "OGTSL",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161905,16 +161935,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5ddb462ab6051264d503179fc4d411f2f74a4fce7258fb2f1b3dfcfeaf8c7fd7",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "nokia",
       "name": "Nokia Open Source License Version 1.0a",
       "aliases": [],
       "spdx_id": "NOKIA",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -161995,16 +162025,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c2675b33788382d5b1e36eb1e779423bc2955c9f420e0d9241e911abdb533d50",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "ngpl",
       "name": "The Nethack General Public License",
       "aliases": [],
       "spdx_id": "NGPL",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162085,16 +162115,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:4ab328d20af089d7b9c10faa5960864a3dd3c6b4e8c995ee6c696dbe4076ce3e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "naumen",
       "name": "NAUMEN Public License",
       "aliases": [],
       "spdx_id": "Naumen",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162175,16 +162205,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:bb1f0659c748104871e74ee93be96fad7a7953e64c99a6d33580980802b7ebb0",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "mpl-1-0",
       "name": "Mozilla Public License, version 1.0",
       "aliases": [],
       "spdx_id": "MPL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162290,16 +162320,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:979327d96e84ab030db8939ee195a10bbf8578b20276f3939f68c2bfbe45c511",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "cvw",
       "name": "MITRE Collaborative Virtual Workspace License",
       "aliases": [],
       "spdx_id": "",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162380,16 +162410,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f329be7c7232318ba3fc2f6d207abbcd41c6a979bbede73a6a54e8673076a45c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "jabberpl",
       "name": "Jabber Open Source License",
       "aliases": [],
       "spdx_id": "",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162470,16 +162500,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:47d8494fcfeeb5096654682d100bfc3c5cd994ba4a2bc6ca3e1bc5f388ab7902",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "lgpl-2-1",
       "name": "GNU Lesser General Public License version 2.1",
       "aliases": [],
       "spdx_id": "LGPL-2.1",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162580,16 +162610,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f5f826d640944e184229dc02d35c35343b81260dacbb96b7af288b4d88b3b910",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "efl-1-0",
       "name": "Eiffel Forum License, version 1",
       "aliases": [],
       "spdx_id": "EFL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162695,16 +162725,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e103071a79e5d4bdcd5f8b4981297eb6cf71d0c548d87439090d03a275dd8c8f",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "ecl-1-0",
       "name": "Educational Community License, Version 1.0",
       "aliases": [],
       "spdx_id": "ECL-1.0",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162805,16 +162835,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:e8c1705876b57518bec06d040e7bdc891eae91de6a755f70ec9c0f27f4fb801e",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "catosl-1-1",
       "name": "Computer Associates Trusted Open Source License 1.1",
       "aliases": [],
       "spdx_id": "CATOSL-1.1",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162895,16 +162925,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:9246e690fcba2b5de1f43d0de65986494d08f20bdf7ee9480f6128235c7413cb",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "bsd-2-clause",
       "name": "The 2-Clause BSD License",
       "aliases": [],
       "spdx_id": "BSD-2-Clause",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -162985,16 +163015,16 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:ad70db937a2075622cc311a415c8afd6053f8e9e002a6fed07be0ca5cae9f4c6",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "apache-1-1",
       "name": "Apache Software License, version 1.1",
       "aliases": [],
       "spdx_id": "Apache-1.1",
+      "status": "legacy",
       "source_status": "legacy",
       "rule_status": "legacy",
       "status_candidates": [
@@ -163075,10 +163105,9 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:607f71b73992e661d101a091caa3d82cc98ae90e087a47a598f79b25535e87ba",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-204-clean-restore.out.jsonl"
-      },
-      "status": "legacy"
+      }
     },
     {
       "id": "discussion-ace-license",
@@ -163087,6 +163116,7 @@
         "For Approval: ACE License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -163223,8 +163253,7 @@
           "Forrest J. Cavalier III",
           "Rod Dixon, J.D., LL.M."
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-alternate-route-open-source-license",
@@ -163233,6 +163262,7 @@
         "Request for Open Source License Approval"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -163382,8 +163412,7 @@
           "Seth David Schoen",
           "Bruce"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-at-t-source-code-agreement",
@@ -163392,6 +163421,7 @@
         "For Approval: AT&T Source Code Agreement"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -163461,8 +163491,7 @@
           "Stephen C. North",
           "Mahesh T. Pai"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-bento-poetic-license",
@@ -163471,6 +163500,7 @@
         "License Submission"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -163934,8 +163964,7 @@
         "unique_participants": [
           "Michael St . Hippolyte"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-bsd-license-with-express-disclaimer-of-noninfringement-added",
@@ -163944,6 +163973,7 @@
         "For Approval: BSD License (with express disclaimer of noninfringement added)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164030,8 +164060,7 @@
           "Wilson, Andrew",
           "Arnoud Engelfriet"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-cephira-public-license",
@@ -164040,6 +164069,7 @@
         "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164109,8 +164139,7 @@
           "Zooko",
           "Donovan Hawkins"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-compiere-open-source-license",
@@ -164119,6 +164148,7 @@
         "FW: Compiere Open Source License Approval"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164229,8 +164259,7 @@
           "Jorg Janke",
           "David Johnson"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-copyback-license",
@@ -164239,6 +164268,7 @@
         "Copyback license (for discussion)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164316,8 +164346,7 @@
         "unique_participants": [
           "Chris Zumbrunn"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-danielmd-license",
@@ -164326,6 +164355,7 @@
         "Proposed DanielMD License for Review."
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164495,8 +164525,7 @@
           "Ian Lance Taylor",
           "Jeffry Smith"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-does-this-look-like-an-open-source-license",
@@ -164505,6 +164534,7 @@
         "[License-discuss] Does this look like an open source license?"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -164742,8 +164772,7 @@
           "Tom Callaway",
           "Wilson, Andrew"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-encul",
@@ -164752,6 +164781,7 @@
         "For approval: ENCUL"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -165103,8 +165133,7 @@
           "Lawrence E. Rosen",
           "Russell Nelson"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-expiring-no-resale-license",
@@ -165113,6 +165142,7 @@
         "ENRL, was: For approval: ENCUL"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -165195,8 +165225,7 @@
         "unique_participants": [
           "Charles W. Swiger"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-foobar-webserver-license",
@@ -165205,6 +165234,7 @@
         "new license to review"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -165509,8 +165539,7 @@
           "Tim Pierce",
           "Mark Bainter"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-free-machine-learning-license-fmll",
@@ -165519,6 +165548,7 @@
         "[License-discuss] DIscussion on FMLL v1.0: A License for Free Artificial Intelligence"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -166514,8 +166544,7 @@
           "Mihail Poteha",
           "David Woolley"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-german-free-software-license",
@@ -166525,6 +166554,7 @@
         "AW: For Approval: German Free Software License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167133,8 +167163,7 @@
           "Bjorn Reese",
           "Jan Dockx"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-hal-hermes-attribution-license",
@@ -167143,6 +167172,7 @@
         "For Approval: HAL, Hermes Attribution License (revisited)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167225,8 +167255,7 @@
         "unique_participants": [
           "Staff di Filosofiateoretica.it"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-integrity-open-source-license",
@@ -167235,6 +167264,7 @@
         "New license: Integrity Open Source License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167317,8 +167347,7 @@
         "unique_participants": [
           "Forrest J. Cavalier III"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-intradat-public-license",
@@ -167327,6 +167356,7 @@
         "Request for approval: IPL 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167430,8 +167460,7 @@
           "Ralf Schwoebel",
           "Frank LaMonica"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-jbind-license",
@@ -167441,6 +167470,7 @@
         "Correction (was: Re: discuss: Update for Submitted License)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167538,8 +167568,7 @@
           "Mahesh T Pai",
           "Nathan Kelley"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-linisys-open-source-license-v1-4",
@@ -167548,6 +167577,7 @@
         "For Approval: Linisys Open Source License v1.4"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167641,8 +167671,7 @@
         "unique_participants": [
           "Chris Tusa"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-lucent-technologies-inc-micromonitor-software-public-license",
@@ -167651,6 +167680,7 @@
         "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167793,8 +167823,7 @@
           "Andy Tai",
           "Ken Brown"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mgbopensource-proposed-license",
@@ -167803,6 +167832,7 @@
         "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -167919,8 +167949,7 @@
           "Lukas Atkinson",
           "Pamela Chestek"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mindmason-license-mml",
@@ -167929,6 +167958,7 @@
         "For Approval: mindmason license (MML)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -168165,8 +168195,7 @@
           "Glen Martin",
           "John Cowan"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-misty-foundation-license-6-3",
@@ -168175,6 +168204,7 @@
         "[License-discuss] Approval of my own License,Misty Foundation License 6.3:"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -168372,8 +168402,7 @@
           "Mistypigeon",
           "Josh Berkus"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mixed-pickles-license-1-0",
@@ -168382,6 +168411,7 @@
         "for discussion: Mixed Pickles License 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -168464,8 +168494,7 @@
         "unique_participants": [
           "Bernhard Fastenrath"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mll",
@@ -168474,6 +168503,7 @@
         "For Approval: MLL (minimal library license)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -168699,8 +168729,7 @@
           "John Cowan",
           "Chris Travers"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mn-open-content-license-1-0",
@@ -168709,6 +168738,7 @@
         "For Approval: MN Open Content License 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -168823,8 +168853,7 @@
           "Michał Nazarewicz",
           "Lawrence Rosen"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-mn-open-documentation-license-1-0",
@@ -168833,6 +168862,7 @@
         "For Approval: MN Open Documentation License 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -169019,8 +169049,7 @@
           "Roddixon",
           "John Cowan"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-novell-cooperative-license",
@@ -169029,6 +169058,7 @@
         "Novell Cooperative License version 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -169120,8 +169150,7 @@
           "Bruce Perens",
           "John Cowan"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-project-public-license-oppl",
@@ -169130,6 +169159,7 @@
         "For Approval: Open Project Public License (OPPL)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -169343,8 +169373,7 @@
           "John Cowan",
           "Russell Nelson"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-realty-license",
@@ -169353,6 +169382,7 @@
         "For Approval: Open-Realty License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -170046,8 +170076,7 @@
           "Ryan C. Bonham",
           "Alex Bligh"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-source-shareware",
@@ -170056,6 +170085,7 @@
         "Version 2. Open source shareware"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -170147,8 +170177,7 @@
           "Forrest J. Cavalier III",
           "John Cowan"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-test-license-v1-1",
@@ -170157,6 +170186,7 @@
         "For approval: Open Test License v1.1"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -170698,8 +170728,7 @@
           "Rod Dixon, J.D., LL.M.",
           "Lawrence E. Rosen"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-tom-public-license-otpl",
@@ -170709,6 +170738,7 @@
         "[License-discuss] [NEW LICENSE] OTPL (OPEN TOM PUBLIC LICENSE) v1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -170942,8 +170972,7 @@
           "Iamgpedit",
           "Josh Berkus"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-open-vendor-public-license-ovpl",
@@ -170953,6 +170982,7 @@
         "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -171378,8 +171408,7 @@
           "peter.moldave",
           "Mdpoole"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-opendesk-com-public-source-license",
@@ -171388,6 +171417,7 @@
         "Draft 1 of the OpenDesk.com Public Source License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -171832,8 +171862,7 @@
           "Scott Johnston",
           "Phred"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-owl",
@@ -171842,6 +171871,7 @@
         "Q: Comments on this draft"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -171894,8 +171924,7 @@
         "unique_participants": [
           "mirabilos {Thorsten Glaser}"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-ozplb-licence",
@@ -171905,6 +171934,7 @@
         "RESUBMISSION FOR APPROVAL: OZPLB Licence"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -172664,8 +172694,7 @@
           "John Cowan",
           "Russell McOrmond"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-panda3d-public-license-version-1-0",
@@ -172674,6 +172703,7 @@
         "For Approval: Panda3D Public License Version 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -172771,8 +172801,7 @@
           "John Cowan",
           "Rod Dixon, J.D., LL.M."
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-privative-friendly-source-shared-license-pfssl-v1-0",
@@ -172781,6 +172810,7 @@
         "[License-discuss] Submission of PFSSL v1.0 for OSI Review and Approval"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -172908,8 +172938,7 @@
           "Kevin P. Fleming",
           "Josh Berkus"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-public-security-interrest-psi-license",
@@ -172918,6 +172947,7 @@
         "For Approval: Public Security Interrest \"PSI\" License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -173095,8 +173125,7 @@
           "Alex Russell",
           "James Michael DuPont"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-public-software-license",
@@ -173105,6 +173134,7 @@
         "[License-discuss] For Approval: Public Software License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -173157,8 +173187,7 @@
         "unique_participants": [
           "Nikolaos-Modestos Kougioulis"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-short-permissive-no-attribution-quid-open-source-license",
@@ -173169,6 +173198,7 @@
         "[License-discuss] Short permissive no attribution required open source license"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -173430,8 +173460,7 @@
           "Radcliffe, Mark",
           "Tim Makarios"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-simplified-artistic-license",
@@ -173441,6 +173470,7 @@
         "Formal Request for Approval: Simplified Artistic License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -173560,8 +173590,7 @@
           "Russell Nelson",
           "David Johnson"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-software-and-development-license-version-3-0",
@@ -173570,6 +173599,7 @@
         "[License-discuss] Request for Comment: Software and Development License, version 3.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -174136,8 +174166,7 @@
           "McCoy Smith",
           "Bruce Perens"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-sos-simple-open-source-license",
@@ -174150,6 +174179,7 @@
         "SOS license v1.05"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -174430,8 +174460,7 @@
           "Arandir",
           "Angelo Schneider"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-system-76-s-beanbooks-public-license-v1-0",
@@ -174440,6 +174469,7 @@
         "[License-discuss] System 76's BeanBooks Public License v1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -174662,8 +174692,7 @@
           "Ken Arromdee",
           "Pamela Chestek"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-the-contribution-public-license",
@@ -174672,6 +174701,7 @@
         "[License-discuss] For Public Comment: The Contribution Public License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -175986,8 +176016,7 @@
           "Pamela Chestek",
           "Nicholas Matthew Neft Weinstock"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-the-libre-source-license",
@@ -175996,6 +176025,7 @@
         "[License-discuss] For Public Comment: The Libre Source License"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -176717,8 +176747,7 @@
           "Johnny A. Solbu",
           "Roger Fujii"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-the-open-source-milestone-application-framework-software-lic",
@@ -176727,6 +176756,7 @@
         "The Open Source Milestone Application Framework Software License, Version 1.5"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -176843,8 +176873,7 @@
           "John Cowan",
           "David Johnson"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-the-testament",
@@ -176853,6 +176882,7 @@
         "repost for discussion"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -176955,8 +176985,7 @@
           "Cityhunter",
           "James Michael DuPont"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-the-wilhelm-svenselius-open-source-license-version-1-1",
@@ -176966,6 +176995,7 @@
         "For Approval: The Wilhelm Svenselius Open Source License version 1.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -177063,8 +177093,7 @@
           "John Cowan",
           "Mário Amado Alves"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-tomsrtbt-license",
@@ -177073,6 +177102,7 @@
         "tomsrtbt, 3rd draft..."
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -177136,8 +177166,7 @@
         "unique_participants": [
           "Tom Oehser"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-total-reciprocity-public-license",
@@ -177146,6 +177175,7 @@
         "[License-discuss] Total Reciprocity Public License (TRPL v1.0)"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -177443,8 +177473,7 @@
           "Josh Berkus",
           "Shuji Sado"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-turkix-public-license",
@@ -177453,6 +177482,7 @@
         "For Approval: TURKIX PUBLIC LICENSE"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -177745,8 +177775,7 @@
           "Michael R. Bernstein",
           "Stephen C. North"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-u-s-army-research-laboratory-open-source-license-arl-osl",
@@ -177756,6 +177785,7 @@
         "[License-discuss] U.S. Army Research Laboratory Open Source License (ARL OSL) 0.4.0"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -178220,8 +178250,7 @@
           "Tzeng, Nigel H.",
           "Engel Nyst"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-ukl-universal-public-license",
@@ -178230,6 +178259,7 @@
         "[License-discuss] APPROVAL: Universal Public License Agreement v1"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -178346,8 +178376,7 @@
           "John Cowan",
           "David Woolley"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-universal-public-domain-license-1-5-2",
@@ -178356,6 +178385,7 @@
         "[License-discuss] Advice for submitting a new license"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -178517,8 +178547,7 @@
           "Rob Landley",
           "Subham Mahesh"
         ]
-      },
-      "status": "discussion"
+      }
     },
     {
       "id": "discussion-xxx-library-public-license-version-1-0",
@@ -178527,6 +178556,7 @@
         "A new open source license"
       ],
       "spdx_id": "",
+      "status": "discussion",
       "source_status": "discussion",
       "rule_status": "discussion",
       "status_candidates": [],
@@ -178669,8 +178699,7 @@
           "Matěj Cepl",
           "Martin Pool"
         ]
-      },
-      "status": "discussion"
+      }
     }
   ]
 }
