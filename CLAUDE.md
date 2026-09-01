@@ -75,7 +75,7 @@ No data processing scripts in this project — KB is the single source of truth.
 
 ### 状态裁决（LLM）
 
-多源状态矛盾由 glm-4.6 裁决。**默认走 OpenAI 兼容单次调用通道**（2026-08-28 起）：`ADJUDICATION_OPENAI_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4` + `response_format: json_object` + `thinking: disabled`，单条裁决 ~2-15s；旧的 Anthropic 兼容端点（`open.bigmodel.cn/api/anthropic`）structured output 每次都失败再 fallback，双倍耗时且易截断，仅作兜底（不设 `ADJUDICATION_OPENAI_BASE_URL` 时启用）。key 读自 opencode 全局配置 provider `zhipuai-coding-plan`。**批量与并发**：`ADJUDICATION_BATCH`（默认 1）/`ADJUDICATION_CONCURRENCY`（默认 1）；golden 测试集实测 **batch=4 + 并发=2 为甜点档**（质量 100%、3.5s/条、3.9× 提速；batch=8 输出预算安全但质量 95%，自动更新 runner 已配 4/2）。约束：输出预算 8192 tokens（batch≥12 最坏越界），并发勿超 2（Pro 套餐为其他 session 预留）。**A/B 结论（2026-08-28）**：glm-4.6 保留为裁决模型（不被 API 元数据带偏，判断准）；glm-5.3-flash 略快但判断质量欠一次样本验证，暂不采用。**增量裁决**：输入 hash 未变的条目直接沿用旧输出，每轮只裁决有新证据的条目。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。**回归测试**：改裁决 prompt/模型/批量参数前，跑 golden 测试集（`KB/data/osi/status-adjudication/test-set.json`，19 分层案例；`prepare-status-adjudication.mjs --export-all-inputs` + `test-status-adjudication.mjs`），质量不低于基线再上线。
+多源状态矛盾由 glm-4.6 裁决。**传输通道**：默认走 OpenAI 兼容端点 `ADJUDICATION_OPENAI_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4` + `response_format: json_object` + `thinking: disabled`（单条 ~2-15s）；**注意 2026-09 起该端点对现有 zhipuai key 返回 401（待更新 key），当前实际走 Anthropic 兼容兜底端点（`open.bigmodel.cn/api/anthropic`，编排器会自动补 `ANTHROPIC_BASE_URL`），structured output 失败再 fallback 双倍耗时**。key 读自 opencode 全局配置 provider `zhipuai-coding-plan`。**批量与并发**：`ADJUDICATION_BATCH`（自动更新 runner 已配 4）/`ADJUDICATION_CONCURRENCY`（2，勿超——Pro 套餐为其他 session 预留）；输出预算 8192 tokens（batch≥12 最坏越界）。**A/B 结论（2026-08-28）**：glm-4.6 保留为裁决模型；glm-5.3-flash 判断质量差半档，暂不采用。**增量裁决 + 语义 hash（2026-09-01）**：`input_hash` 剔除 evidence 的 `sentiment`/`point_zh` 衍生字段——词汇迁移、point 重写等非语义变更不再触发全量重裁；输入未变的条目直接沿用旧输出。**裁决状态持久层（2026-09-01）**：build/enrich 会把 v2 的 status/status_review 重置回规则值，编排器在 prepare 前先幂等 `apply-status-adjudications.mjs` 恢复上次裁决终态（步骤 3.6）——没有这步，每轮都会全量重裁并反复翻掉人工校准状态。**outputs 单一人工基线批**（`batch-204-clean-restore.out.jsonl`，从最后推送的 tracker 合成）：不要混留多个 hash 世代的批，apply 的 hash-mismatch fallback 会静默采用"最后一行"，陈旧/截断行会写坏 v2（曾致 status=undefined）。`evidence_refs[]` 每项必须带 `supports` 字段。Prompt v2 定义了 "approve in the legacy category" → legacy 规则。**回归测试**：改裁决 prompt/模型/批量参数前，跑 golden 测试集（`KB/data/osi/status-adjudication/test-set.json`，19 分层案例），质量不低于基线再上线。
 
 ### Points 质量门（2026-08-28）
 
@@ -85,12 +85,13 @@ timeline point（`all-points-manifest.json`）有 root 质量控制：`KB/script
 
 - `TimelineStrip` 把 board vote 作为合成节点按 `vote.date` **插入日期排序位置**（同日期排事件后，无日期保持末尾），不是 append 到末尾——vote 常发生在两个 thread 之间（如 python-2-0 的 6/29 vote 位于 5 月讨论与 8 月重提之间）。事件节点保留原 timeline 索引（详情 tab 联动依赖它）。
 - KB `classifyEvent` 对"回顾历史批准"措辞（"OSI **only/already/previously** approved X..."）不判 board_decision，防止 discuss 预讨论邮件出现假 ✓ vote 标记。
+- message sentiment 统一立场词汇（2026-08-31）：`support / oppose / question / neutral / procedural`，UI pill 绿/红/紫/灰/天蓝；LLM point prompt、批次校验器（`VALID_SENTIMENT`）、修复校验器同步该枚举。存量 positive→support、negative→oppose 已迁移。
 
-**编排器自动化**（2026-08-23，`update-tracker.mjs`）：灰色地带 manual review 按 `scripts/tracker-manual-baseline.json` 基线放行，**基线外新项硬失败**留人工（确认后 `--rebaseline` 采纳，成功运行自动 prune 已解决 id）；invalid/missing 裁决自动 LLM 重跑最多 3 轮（key 缺失自动读 opencode 配置）；KB run 脚本对 "conflicts 未置 requires_manual_review" 的输出直接矫正。`--strict-manual-pending` 恢复任何 blocking 即失败的旧模式。
+**编排器自动化**（2026-08-23，`update-tracker.mjs`）：灰色地带 manual review 按 `scripts/tracker-manual-baseline.json` 基线放行，**基线外新项硬失败**留人工（确认后 `--rebaseline` 采纳，成功运行自动 prune 已解决 id）；invalid/missing 裁决自动 LLM 重跑最多 3 轮（key 缺失自动读 opencode 配置）；KB run 脚本对 "conflicts 未置 requires_manual_review" 的输出直接矫正。`--strict-manual-pending` 恢复任何 blocking 即失败的旧模式。**编排器步骤**：邮件抓取 → apply-llm-batches → build → **3.5 point 提取**（extract-full-bodies 刷包 + extract-all-points 增量，LLM env 注入——没有这步新邮件会卡 coverage 门）→ enrich → **3.6 裁决状态恢复**（apply 幂等重放 outputs）→ prepare/裁决/verify → 基线检查 → 质量门 → sync。2026-09-01 起稳态：全链路 ~3 分钟、零 LLM（除非有新邮件/新矛盾）。
 
 ### 自动更新（事件触发，2026-08）
 
-launchd `com.momo.license-atlas.tracker` 每 3 小时 HEAD 探测 OSI 当月归档页：无变化秒退（零 LLM）；有变化则 `opencode run` 非交互跑全链路（质量门全绿才 push，失败回滚）。
+launchd `com.momo.license-atlas.tracker` 每 3 小时 HEAD 探测 OSI 归档页：**双月探测（2026-09-01）**——上月+当月都探（跨月后上月归档仍会补帖，实测 August 在 UTC 9/1 还有更新）；当月目录 404（当月尚无邮件）视为无变化静默跳过，**不是错误**。无变化秒退（零 LLM）；有变化则 `opencode run` 非交互跑全链路（质量门全绿才 push，失败回滚）。
 
 - runner 在 `~/.local/share/license-atlas-tracker/`（绕开 macOS 26 对 launchd bash 的 Documents TCC 门控）；仓库 `scripts/auto-update-tracker.sh` + `scripts/check-tracker-updates.mjs` 是 source of truth
 - 非交互 opencode 权限预授权：runner 目录下 `opencode.json`（bash/edit/webfetch/external_directory 全 allow）
@@ -197,7 +198,7 @@ Server components (`licenses/[slug]/page.tsx`) are split into:
 
 ## 常见陷阱
 
-- **共享 KB 目录多操作者并发**：KB 是本机共享目录（非 git），launchd runner、其他 opencode session、手动链路**同时跑 update:tracker 会互踩**裁决输出/索引文件（实测曾三方交错导致裁决输出 missing 暴涨）。跑链路前 `pgrep -fl 'update-tracker|run-status-adjudication'`，发现僵死 runner（日志 `~/.local/share/license-atlas-tracker/logs/`）先杀再跑。
+- **共享 KB 目录多操作者并发**：KB 是本机共享目录（非 git），launchd runner、其他 opencode session、手动链路**同时跑 update:tracker 会互踩**裁决输出/索引文件（实测曾三方交错导致裁决输出 missing 暴涨）。跑链路前 `pgrep -fl 'update-tracker|run-status-adjudication'`，发现僵死 runner（日志 `~/.local/share/license-atlas-tracker/logs/`）先杀再跑。**中途 kill 的代价**：LLM 输出文件可能留下半截 JSON 行，apply 的 hash-mismatch fallback 会把它写进 v2（曾致 253 条 status=undefined）——杀进程后必须清空 outputs 重新从推送基线合成，不要直接续跑。
 - **静态导出 + CDN 缓存**：GitHub Pages 有 `max-age=600`（10分钟），部署后需等待缓存过期或强制刷新
 - **Safari favicon 缓存**：独立于浏览器缓存，存储在 `~/Library/Safari/Favicon Cache/*`，需要完全磁盘访问权限才能清除
 - **ICO 格式**：必须是 proper multi-size ICO，不能是重命名的 PNG

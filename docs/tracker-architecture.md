@@ -47,7 +47,17 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **增量裁决**（2026-08）：prepare 读取已落盘输出的 `{submission_id → input_hash}`，输入未变的条目不进 batch，manifest 记录 `skipped_unchanged`；apply 对 skipped 条目按记录的 hash 复验旧输出后直接沿用。效果：已裁决且无新证据的条目（约 190+ 条）永不重跑 LLM，每轮只裁决真正变化的条目（如 OpenMDW 新邮件）——已定终态不会被无关变化重掷。
 
-**自动重裁决 + 基线放行**（2026-08-23，`update-tracker.mjs` 内嵌）：历史三轮阻塞的根因是①灰色地带 manual review 每轮都 blocking、②重建后 input_hash/evidence ref 失效的旧输出需人工 `--mode local --ids` 重跑、③glm-4.6 偶发输出 schema 自相矛盾（conflicts 非空但 `requires_manual_review=false`）。现在编排器：默认对 apply/verify 传 `--allow-manual-pending`；apply 后解析 `manual-review.json` 中 `Invalid/Missing adjudication output` 的条目，自动以 `--mode local --ids` 重跑 LLM 再 apply（最多 3 轮）；LLM env 缺失时自动从 `~/.config/opencode/opencode.json` 的 `zhipuai-coding-plan` 读 key。
+**语义 hash**（2026-09-01）：`input_hash` 只对语义内容计算，剔除 evidence 对象里的衍生字段（`sentiment`、`point_zh`）——词汇迁移、point 双语重写等非语义变更不再触发全量重裁决（LLM 输入仍包含这些字段）。此前 2026-08-31 的 sentiment 词汇迁移（positive/negative → support/oppose）改了 1650 处 evidence 标签，字节级 hash 判定全部条目"已变化"，引发一轮全量重裁决并翻掉 19 条人工校准状态，是本机制引入的直接动因。
+
+**裁决状态持久层**（2026-09-01）：`build/enrich` 每次从源数据重建 v2，会把 `status`/`status_review` 重置回规则值——裁决结果没有任何持久层，导致每轮 prepare 都把全部条目算成"已变化"。编排器现在在 prepare 之前跑一次幂等的 `apply-status-adjudications.mjs`，把 outputs 里记录的最终状态恢复进 v2（编排器步骤 3.6）。这是 2026-08-31/09-01 连续多轮 baseline 拦截的根因：拦截的从来不是"新邮件的裁决问题"，而是历史灰色地带条目被反复重裁后反复置 manual review。
+
+**人工基线输出批**（2026-09-01）：outputs 目录只保留一个全量人工基线批 `batch-204-clean-restore.out.jsonl`（194 条 agent-eligible 条目，final_status 取自最后推送的 tracker），此前所有 LLM 输出批已退役。人工裁决记录：`unicode-dfs-2016 = legacy`（2018-09-04 board 邮件明载 "granted Legacy Approval"，OSI API 的 legacy 标志位滞后）、`public-benefit-zero-copyright = withdrawn`（2025-01-22 官方撤回邮件，curated 记录滞后）、`python-2-0 = legacy`（2026-06-29 board vote 批准 Python-2.0.1 as Legacy，tracker 单条目承载整个家族终态，superseded 无承接对象）。维护规则：人工裁决变更后直接改 v2 + 重新 prepare + 按新 hash 重新合成基线批，不要留多个 hash 世代混杂的批——apply 在 exact hash 匹配失败时会 fallback 到"最后一个副本"，陈旧批会静默覆盖人工值。
+
+**apply fallback 风险**：`apply-status-adjudications.mjs` 在 hash 精确匹配失败时取"最后一行"兜底。若某输出文件被截断（如 runner 被中途 kill 留下半截 JSON 行），fallback 会把 `undefined` 写进 `submission.status`。清理方式：退役全部输出批 → 用推送基线重刷 v2 → 重新 prepare/合成 → apply/verify 全绿。
+
+**Evidence refs schema**（2026-09-01）：LLM/人工输出的 `evidence_refs[]` 每项必须带 `supports` 字段（`apply` 做 `VALID_STATUSES.has(ref.supports)` 校验），缺字段会被判 invalid 且因 hash 已记录而无法自动重跑。合成人工批时一并写 `{evidence_id, supports, quote}`。
+
+**自动重裁决 + 基线放行**（2026-08-23，`update-tracker.mjs` 内嵌）：历史三轮阻塞的根因是①灰色地带 manual review 每轮都 blocking、②重建后 input_hash/evidence ref 失效的旧输出需人工 `--mode local --ids` 重跑、③glm-4.6 偶发输出 schema 自相矛盾（conflicts 非空但 `requires_manual_review=false`）。现在编排器：默认对 apply/verify 传 `--allow-manual-pending`；apply 后解析 `manual-review.json` 中 `Invalid/Missing adjudication output` 的条目，自动以 `--mode local --ids` 重跑 LLM 再 apply（最多 3 轮）；LLM env 缺失时自动从 `~/.config/opencode/opencode.json` 的 `zhipuai-coding-plan` 读 key。point 提取步骤（编排器 3.5）同样注入该 env，且 `ANTHROPIC_BASE_URL` 缺省补 `https://open.bigmodel.cn/api/anthropic`（智谱 key 在官方 Anthropic 端点才有效；`coding/paas/v4` 端点 2026-09 起对该 key 返回 401，待维护者更新 key 后恢复 OpenAI 兼容通道）。
 
 **Manual-review 基线**（`scripts/tracker-manual-baseline.json`，已提交）：已知灰色地带 id 集合（84 项起步）。运行时基线内的 id 静默放行（保持现状），**基线外的新 manual-review 项硬失败**（保留旧的"新冲突留人工"安全边界）；成功运行后自动 prune 已解决的 id（如 ncsa、motosoto 在 2026-08-23 轮离开 manual review）。人工确认新冲突后跑 `npm run update:tracker -- --rebaseline` 采纳新集合。`--strict-manual-pending` 恢复最严格的"任何 blocking 即失败"模式。
 
@@ -67,13 +77,13 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **输入构成**：每条 timeline 事件的摘要卡（subject/sender/1-2 句 point 摘要，非邮件原文）+ board minutes motion（截断 1800 字符）+ OSI API / curated RWP 元数据。取「关键事件（submission/withdrawal/board_decision/revision）+ 最近 8 条」上限 30。测试证明不能只保留投票/撤回事件（会丢失讨论中的隐含撤回线索，libpng-v2 会误判 rejected）。
 
-**已知灰色地带**（manual review 长期 ~84 项：证据冲突类 + curated 唯一证据无邮件/board vote 佐证类，含 open-source-social-network、whonix、libpng-v2、c-fsl-v1-1、cal-beta-2、mosl、python-2-0、cnri-python 等；update:tracker 默认放行保持现状，条目仍登记在 `manual-review.json` 留人工复核）。新增证据冲突明显增多时在总结中报告并人工确认。
+**已知灰色地带**（2026-09-01 已全量人工基线化：verify 0 critical / 0 manual review，requires_agent 稳态为 0；历史冲突条目（unicode-dfs-2016、public-benefit-zero-copyright、python-2-0 等）全部固化在人工基线批里，`manual-review.json` 仅作历史台账）。runner 每轮只在出现**真正的新矛盾**时拦截——这是预期行为，人工确认后 `--rebaseline` 采纳。
 
 **Prompt 规则**（v2）：`approve in the legacy category` / `legacy approval` 的 motion 判 **legacy** 而非 approved（2026-08 修复：v1 缺此规则导致 cddl-1.1、wordnet、oldap-2.8、bsd-3-clause-lbnl、multics 被误判 approved）。PROMPT_VERSION 变更会使全部条目 hash 失效，触发一次性全量重裁决迁移。
 
 ## 自动更新（事件触发）
 
-每 3 小时 launchd agent（`com.momo.license-atlas.tracker`）探测 OSI Pipermail 当月归档页（HEAD Last-Modified/Content-Length，毫秒级）：
+每 3 小时 launchd agent（`com.momo.license-atlas.tracker`）探测 OSI Pipermail 归档页（HEAD Last-Modified/Content-Length，毫秒级）。**双月探测**（2026-09-01）：同时 HEAD 上月和当月——pipermail 上月归档在跨月后仍会收到补发帖（实测 August 归档在 UTC 9/1 00:01 还有更新，只探当月会永久漏掉），当月目录要到第一封邮件到达才创建，**404 视为"当月尚无邮件"静默跳过而非错误**（此前 404 重试 3 轮后整轮放弃，跨月当天必卡）。state 保留两个月份条目。
 
 - **无变化** → 短路退出，零 LLM 调用
 - **有变化** → `opencode run` 非交互执行全链路（update:tracker，内嵌 stale 裁决自动重跑 + 质量门 → sync → lint）
@@ -94,12 +104,12 @@ KB（source of truth）→ license-atlas 单向同步：
 
 ## 当前同步快照
 
-- `source_hash`: `51dd9bdf25e31325`
-- `index_schema_version`: `4`
-- 194 个 submissions：approved 102 / rejected 47 / withdrawn 8 / pending 14 / superseded 3 / legacy 20
-- 86 个 submissions 含 `license_texts`（共 208 条记录），其中 155 条可直接回链 timeline event，43 条重复内容标记 `duplicate_of`，76 个同系列相邻版本 diff
+- `source_hash`: `3188240055353975`
+- `index_schema_version`: `5`（index 条目携带 aliases）
+- 253 个 submissions：approved 89 / rejected 42 / withdrawn 14 / pending 13 / superseded 3 / legacy 33 / discussion 59
+- message sentiment 统一为立场词汇 `support / oppose / question / neutral / procedural`（2026-08-31 迁移，positive→support、negative→oppose；LLM point 提取 prompt 与批次校验器同步改为该枚举）
 - 89 个 `board_vote`：minutes 61 / timeline 4 / osi_api 24
-- tracker → Atlas 正式许可证的映射数以 `resolveTrackerEntry()` 运行时计算为准（见 `src/lib/tracker-match.ts`），未映射的 submission 即首页 `Review Tracker Match` 搜索分组的 tracker-only 候选
+- tracker → Atlas 正式许可证的映射数以 `resolveTrackerEntry()` 运行时计算为准（见 `src/lib/tracker-match.ts`），未映射的 submission 即首页 `Review Tracker Match` 搜索分组的 tracker-only 候选；SLUG_MAP 含 python 家族桥接（psf-2.0 / python-2.0.1 / cnri-python-gpl-compatible → python-2-0）
 
 ### License text 抽取口径（2026-08 增强）
 
@@ -140,5 +150,5 @@ KB（source of truth）→ license-atlas 单向同步：
 - ModelGo 在 tracker 中显示为 `ModelGo License Family v2.0`，不是单个 `Attribution` 变体；四个具体变体保留在 aliases 和 License Texts series 中：`MG0` / `MG-BY` / `MG-BY-OS` / `MG-BY-SA`。
 - 当前 License Texts 保守口径来自 KB `enrich-license-tracker.mjs`：119 条文本、78 条直接回链 timeline、15 条重复内容标记。Linkumori 从 006108 的内联最终草案恢复为 1 条 `Linkumori Free License` 正文；ModelGo 保留 22 条高可信附件/MIME 文本；BSD-3-Clause-Open-MPI、普通 BSD、MS-PL、QPL、EPL 2.0、EFL 2.0 的讨论片段被过滤。
 - 多个 tracker 卡片可同时展开；展开一个 license 不会折叠其他已展开 license。
-- Timeline hover tooltip 的事件类型首字母大写，并在 `Feedback` 后紧跟 sentiment tag（如 `negative`）。
+- Timeline hover tooltip 的事件类型首字母大写，并在 `Feedback` 后紧跟 sentiment tag（立场词汇 `support` / `oppose` / `question` / `neutral`，procedural 为天蓝色 pill）。
 - 详情页内嵌 `LicenseReviewBlock` 显示 `First Submitted` 和最终 `Approved Date` / `Rejected Date`。
