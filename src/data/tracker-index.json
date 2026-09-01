@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "faf33156e5bd01ea",
+    "source_hash": "49f3ed4a728d7330",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T15:37:34.388Z",
+    "generated_at": "2026-09-01T17:42:47.016Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 89,
+      "total_messages": 90,
       "duration_days": 19,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 89,
+      "count": 90,
       "first": "2026-08-13",
       "last": "2026-09-01"
     },
@@ -55,10 +55,10 @@
       "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Summarizes the explanation that API users are not licensees and 'provided to you' implies material transfer, requesting confirmation of this interpretation.",
+      "sentiment": "oppose",
+      "point": "Contends that the submitter's interpretation reflects intent rather than legal operation, and argues that FAQs cannot prevent unintended legal interpretations.",
       "point_zh": ""
     }
   },
