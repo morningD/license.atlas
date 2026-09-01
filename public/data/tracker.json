@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T07:05:03.620Z",
+    "generated_at": "2026-09-01T14:26:43.316Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-01T07:06:05.183Z",
+    "enriched_at": "2026-09-01T14:28:00.240Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-01T07:06:05.328Z",
+      "applied_at": "2026-09-01T14:28:00.675Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -101,14 +101,14 @@
           "message_count": 13
         },
         {
-          "name": "McCoy Smith",
-          "role": "board_member",
+          "name": "Michael Dolan",
+          "role": "submitter",
           "message_count": 9
         },
         {
-          "name": "Michael Dolan",
-          "role": "submitter",
-          "message_count": 8
+          "name": "McCoy Smith",
+          "role": "board_member",
+          "message_count": 9
         },
         {
           "name": "Rob Landley",
@@ -1344,13 +1344,26 @@
           "source": "license-review",
           "position": "neutral",
           "point": "Suggests replacing 'providing software freedom' with clearer alternatives like 'encouraging sharing of software' or 'protecting the open software ecosystem' to avoid conceptual ambiguity and baggage."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006229.html",
+          "sender": "Michael Dolan",
+          "snippet": "A few points raised since Friday were new, so I will share my view on those\nin case it helps everyone's understanding. It’s challenging to keep up with\nall the points raised and comments. I will then ",
+          "point_zh": null,
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Clarifies the 'voluntarily participate' clause is intended to prevent evading patent non-assert obligations through proxies, citing OWFa 1.0 origins and distinguishing it from compelled legal actions."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 87,
+        "total_messages": 88,
         "date_range": [
           "2026-08-13",
           "2026-09-01"
@@ -1387,26 +1400,26 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence provided shows a submission for approval on August 13, 2026, followed by ongoing discussion and feedback from OSI community members throughout late August and early September 2026. There is no evidence of a board vote, board decision, rejection, or withdrawal. The timeline indicates the latest event is on September 1, 2026, confirming the review is still active and undecided.",
+        "rationale": "The evidence shows a submission made on 2026-08-13 and ongoing discussion with feedback and questions from community members through 2026-09-01. There is no evidence of a board vote, withdrawal, or final approval decision in the provided data. The latest event indicates continued discussion without resolution.",
         "evidence_refs": [
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
-            "supports": "pending",
-            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
-          },
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
             "quote": null
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#86",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Discussion regarding the definition of 'software freedom' indicates ongoing review."
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#87",
+            "supports": "pending",
+            "quote": "A few points raised since Friday were new, so I will share my view on those in case it helps everyone's understanding."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:c4278a3e624fcd2410ed74bca0bab1f0c08b9d10005e3cba829678f579161969",
+        "input_hash": "sha256:bb59158d95511fe36b1b2283bade4e6d55ec8a998bb8d83c93938626a16805c1",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

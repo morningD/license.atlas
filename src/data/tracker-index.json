@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "7e83836324599d83",
+    "source_hash": "801d774ea20891e3",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T07:06:05.183Z",
+    "generated_at": "2026-09-01T14:28:00.240Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 87,
+      "total_messages": 88,
       "duration_days": 19,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 87,
+      "count": 88,
       "first": "2026-08-13",
       "last": "2026-09-01"
     },
@@ -55,11 +55,11 @@
       "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Luis Villa",
+      "sender": "Michael Dolan",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Suggests replacing 'providing software freedom' with clearer alternatives like 'encouraging sharing of software' or 'protecting the open software ecosystem' to avoid conceptual ambiguity and baggage.",
-      "point_zh": "建议用更清晰的表述（如「鼓励软件共享」或「保护开放软件生态」）替换「提供软件自由」，以避免概念歧义和语义包袱。"
+      "sentiment": "support",
+      "point": "Clarifies the 'voluntarily participate' clause is intended to prevent evading patent non-assert obligations through proxies, citing OWFa 1.0 origins and distinguishing it from compelled legal actions.",
+      "point_zh": ""
     }
   },
   "bos-public-license-v1-0-2": {
