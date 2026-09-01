@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "189e355344414b1d",
+    "source_hash": "7e83836324599d83",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T05:40:29.104Z",
+    "generated_at": "2026-09-01T07:06:05.183Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -57,9 +57,9 @@
       "source": "license-review",
       "sender": "Luis Villa",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "\"Software freedom\" is the ability to do anything you want with the\nFWIW any or all of Pam's formulations of \"encouraging sharing of software\"\nor \"contributing to the health of the software commons\" or \"protecting the\nopen software ecosystem\" (from an opensource.com essay of yours, Pam, IIRC)\nwould be vastly superior to \"providing software freedom\".\n\nBesides the obvious point that software doesn't have freedom, any of those\nwould be much clearer to argue about, with less baggage. (There would still\nbe plenty of arguing; all of those still require value judgments. But at\nleast it'd be a value that one can attempt to decipher from the words.)",
-      "point_zh": ""
+      "sentiment": "oppose",
+      "point": "Suggests replacing 'providing software freedom' with clearer alternatives like 'encouraging sharing of software' or 'protecting the open software ecosystem' to avoid conceptual ambiguity and baggage.",
+      "point_zh": "建议用更清晰的表述（如「鼓励软件共享」或「保护开放软件生态」）替换「提供软件自由」，以避免概念歧义和语义包袱。"
     }
   },
   "bos-public-license-v1-0-2": {
@@ -12648,8 +12648,8 @@
       "source": "license-discuss",
       "sender": "Rod Dixon, J.D., LL.M.",
       "subject": "For Approval: ACE License",
-      "sentiment": "",
-      "point": " If this license cannot be revised, I recommend that OSI withhold approval. With a minor revision, I world agree that approval is warranted. The second paragraph should be revised.",
+      "sentiment": "oppose",
+      "point": "Recommends withholding approval if the license cannot be revised, citing concerns that the second paragraph may violate OSD articles by allowing proprietary distribution.",
       "point_zh": ""
     }
   },
@@ -12696,8 +12696,8 @@
       "source": "license-discuss",
       "sender": "Seth David Schoen",
       "subject": "Request for Open Source License Approval",
-      "sentiment": "",
-      "point": " bruce at perens.com writes: > I concur with Seth. Don't directly modify the GPL without asking FSF, it's > copyrighted. Also, if you ask FSF, they are going to want you to not use",
+      "sentiment": "neutral",
+      "point": "Explains that requiring additional terms outside the GPL makes distribution forbidden, but notes this is resolved if the FSF grants permission for a new license.",
       "point_zh": ""
     }
   },
@@ -12744,8 +12744,8 @@
       "source": "license-discuss",
       "sender": "Mahesh T. Pai",
       "subject": "For Approval: AT&T Source Code Agreement",
-      "sentiment": "",
-      "point": " Stephen C. North said on Wed, May 12, 2004 at 04:10:15PM -0400,: > 1. If you are an entity, or an individual other than the person > accepting this Agreement, the person accepting",
+      "sentiment": "oppose",
+      "point": "Critiques the license for imposing obligations, creating circular dependencies, and violating OSD clauses 7 and 8.",
       "point_zh": ""
     }
   },
@@ -12792,7 +12792,7 @@
       "source": "license-discuss",
       "sender": "Michael St . Hippolyte",
       "subject": "License Submission",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Greetings, I would like to submit a license for approval on behalf of bentodev.org, a community of developers implementing a new non-proprietary web development language called Be",
       "point_zh": ""
     }
@@ -12840,8 +12840,8 @@
       "source": "license-discuss",
       "sender": "Arnoud Engelfriet",
       "subject": "For Approval: BSD License (with express disclaimer of noninfringement added)",
-      "sentiment": "",
-      "point": " Wilson, Andrew wrote: > BSD is one of the best known and widely used of all open source > licenses. Creating a variant at this late date simply because you have > a single contrib",
+      "sentiment": "neutral",
+      "point": "Suggests using the MIT/X11 license or the Academic Free License instead of creating a new BSD variant with a noninfringement disclaimer.",
       "point_zh": ""
     }
   },
@@ -12888,8 +12888,8 @@
       "source": "license-discuss",
       "sender": "Donovan Hawkins",
       "subject": "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0",
-      "sentiment": "",
-      "point": " On Thu, 26 Feb 2009, zooko wrote: > Thank you for posting about the possibility that the TGPPL could engender > greater production of open source software. That is indeed exactly ",
+      "sentiment": "neutral",
+      "point": "Describes a similar time-delayed GPL concept and discusses the difficulties of enforcing eventual source code release without escrow.",
       "point_zh": ""
     }
   },
@@ -12936,8 +12936,8 @@
       "source": "license-discuss",
       "sender": "Jorg Janke",
       "subject": "Compiere Open Source License Approval",
-      "sentiment": "",
-      "point": " Hi David, I see your point. The software comes with a toolkit. If possible, I would like to prevent that people just use the toolkit. The objective of the toolkit is to support th",
+      "sentiment": "neutral",
+      "point": "Explains the desire to prevent people from using just the toolkit independently of the ERP application.",
       "point_zh": ""
     }
   },
@@ -12984,7 +12984,7 @@
       "source": "license-discuss",
       "sender": "Chris Zumbrunn",
       "subject": "Copyback license (for discussion)",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Since I posted an earlier draft of the Copyback license, I've incorporated feedback, improved the language of the license to avoid using the same words with different meaning and ",
       "point_zh": ""
     }
@@ -13032,8 +13032,8 @@
       "source": "license-discuss",
       "sender": "Karsten M. Self",
       "subject": "Proposed DanielMD License for Review.",
-      "sentiment": "",
-      "point": " on Sun, Sep 02, 2001 at 05:25:02PM +0100, Daniel MD (IM-Thinking at clix.pt) wrote: > My intentions with the DanielMD sketch license proposal, was to solve one > of the open sourc",
+      "sentiment": "neutral",
+      "point": "Suggests that the problem of finding a single point of contact is a perception issue not solvable through licensing.",
       "point_zh": ""
     }
   },
@@ -13080,8 +13080,8 @@
       "source": "license-discuss",
       "sender": "Wilson, Andrew",
       "subject": "[License-discuss] Does this look like an open source license?",
-      "sentiment": "",
-      "point": " Tom Callaway wrote: > I would suggest that it would be better to have a proper legal translation done of the 3c-BSD into Chinese, > than to have a weak \"simple English\" version fo",
+      "sentiment": "support",
+      "point": "Endorses the idea of legally translating standard licenses into Asian languages to aid regional developers.",
       "point_zh": ""
     }
   },
@@ -13128,8 +13128,8 @@
       "source": "license-discuss",
       "sender": "Russell Nelson",
       "subject": "For approval: ENCUL",
-      "sentiment": "",
-      "point": " Chuck Swiger writes: > Given the following two choices: > > A: software sits on the shelf, unseen, for X years, then is released > under, say, the BSD license (if anyone still rem",
+      "sentiment": "oppose",
+      "point": "Recommends the board reject the license submission but invites the submitter to try again with a revised version.",
       "point_zh": ""
     }
   },
@@ -13176,7 +13176,7 @@
       "source": "license-discuss",
       "sender": "Charles W. Swiger",
       "subject": "ENRL, was: For approval: ENCUL",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Based on the feedback I've received, here is an updated version. HTML version is available at http://www.pkix.net/~chuck/Licenses/ENRL.html. /* * Expiring No-Resale License, Versi",
       "point_zh": ""
     }
@@ -13224,8 +13224,8 @@
       "source": "license-discuss",
       "sender": "Mark Bainter",
       "subject": "new license to review",
-      "sentiment": "",
-      "point": " Russell Nelson [nelson at crynwr.com] wrote: > Someone wrote, and they weren't the only one: > > Why the sighs Russ? If we wanted only one license for software, I'm > > sure Micro",
+      "sentiment": "oppose",
+      "point": "Agrees that proliferation of similar licenses hurts more than helps, particularly when poorly written, while acknowledging the value of choice.",
       "point_zh": ""
     }
   },
@@ -13272,8 +13272,8 @@
       "source": "license-discuss",
       "sender": "David Woolley",
       "subject": "[License-discuss] DIscussion on FMLL v1.0: A License for Free Artificial Intelligence",
-      "sentiment": "",
-      "point": " On Fri, 2026-07-17 at 23:48 +1000, Mihail Poteha wrote: > for example, they might contain private data) If they contain private data, you cannot license them at all, so there is n",
+      "sentiment": "oppose",
+      "point": "Argues that private data cannot be licensed, so no special provision is needed, and notes that fine-tuning involving human judgment creates reproducibility challenges.",
       "point_zh": ""
     }
   },
@@ -13321,8 +13321,8 @@
       "source": "license-discuss",
       "sender": "Jan Dockx",
       "subject": "AW: For Approval: German Free Software License",
-      "sentiment": "",
-      "point": " On 2 Dec 2004, at 12:01h, Axel Metzger wrote: > > However: there are a number of requirements state authorities have to > meet, > when licensing their software. Hence some interna",
+      "sentiment": "neutral",
+      "point": "Asks for a list of the specific requirements state authorities must meet when licensing software.",
       "point_zh": ""
     }
   },
@@ -13369,7 +13369,7 @@
       "source": "license-discuss",
       "sender": "Staff di Filosofiateoretica.it",
       "subject": "For Approval: HAL, Hermes Attribution License (revisited)",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Thank you for your suggests, we have a problem with OSL because it seems not to consider totally the content of the products developed: our software (and so many others) will be d",
       "point_zh": ""
     }
@@ -13417,7 +13417,7 @@
       "source": "license-discuss",
       "sender": "Forrest J. Cavalier III",
       "subject": "New license: Integrity Open Source License",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Of the popular OSD compliant licenses, I like the MIT style license, but I wanted something that goes a little bit further in protecting the author's name and integrity of origina",
       "point_zh": ""
     }
@@ -13465,8 +13465,8 @@
       "source": "license-discuss",
       "sender": "Frank LaMonica",
       "subject": "Request for approval: IPL 1.0",
-      "sentiment": "",
-      "point": " Ralf, There are many entities who release what they claim are \"OpenSource\" licenses, but differ from the GPL or LGPL. Each such license places additional burdens on the entire ope",
+      "sentiment": "oppose",
+      "point": "Criticizes the license for poor grammar and unclear legal terminology, suggesting a lawyer review it.",
       "point_zh": ""
     }
   },
@@ -13514,8 +13514,8 @@
       "source": "license-discuss",
       "sender": "Nathan Kelley",
       "subject": "Correction (was: Re: discuss: Update for Submitted License)",
-      "sentiment": "",
-      "point": " To OSI License Discussion subscribers, >> From: Stefan Wachter <Stefan.Wachter at gmx.de>, > From: Nathan Kelley <phyax at runbox.com>, >> 4. You may use the Package, a Modified P",
+      "sentiment": "oppose",
+      "point": "Clarifies that the license also violates OSD item 7 by requiring commercial third parties to seek additional permission.",
       "point_zh": ""
     }
   },
@@ -13562,8 +13562,8 @@
       "source": "license-discuss",
       "sender": "Chris Tusa",
       "subject": "For Approval: Linisys Open Source License v1.4",
-      "sentiment": "",
-      "point": " Greetings, We submitted our proposed License several weeks ago and havent seen any response. Can I get confirmation that it was recieved? -- Chris Tusa Linisys, Computing Evolutio",
+      "sentiment": "neutral",
+      "point": "Asks for confirmation that the previously submitted license was received.",
       "point_zh": ""
     }
   },
@@ -13610,8 +13610,8 @@
       "source": "license-discuss",
       "sender": "Ed Sutter",
       "subject": "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT",
-      "sentiment": "",
-      "point": " Dave, Here's the scoop from Lucent Legal... > Lucent has made a policy decision not to seek third party > approvals of any of our licensing agreements. Hopefully, you can live wit",
+      "sentiment": "support",
+      "point": "States that the license was drafted to be as close to open source as internal IP practices allow, seeing no problems for external users.",
       "point_zh": ""
     }
   },
@@ -13660,8 +13660,8 @@
       "source": "license-discuss",
       "sender": "Pamela Chestek",
       "subject": "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License",
-      "sentiment": "",
-      "point": " Comment below. Pamela S. Chestek (in my personal capacity) Chestek Legal 4641 Post St. Unit 4316 El Dorado Hills, CA 95762 +1 919-800-8033 pamela at chesteklegal www.chesteklegal.",
+      "sentiment": "neutral",
+      "point": "Agrees that there is no legal difference between the Apache and MGB patent clauses, as both define the scope of infringement the licensor will tolerate.",
       "point_zh": ""
     }
   },
@@ -13708,8 +13708,8 @@
       "source": "license-discuss",
       "sender": "Stephan Meyer",
       "subject": "For Approval: mindmason license (MML)",
-      "sentiment": "",
-      "point": " > The \"offer of contract to any party\" originated from the author. > Based on > the license text, the intent is that when I redistribute the software, > I am communicating that sa",
+      "sentiment": "neutral",
+      "point": "Argues the OSD cannot require the impossible, such as forcing authors to bind heirs to contract offers, claiming the license itself does not restrict redistribution.",
       "point_zh": ""
     }
   },
@@ -13756,8 +13756,8 @@
       "source": "license-discuss",
       "sender": "Josh Berkus",
       "subject": "[License-discuss] Approval of my own License,Misty Foundation License 6.3:",
-      "sentiment": "",
-      "point": " On 12/16/25 4:25 PM, mistypigeon via License-discuss wrote: > Here is the license text: > > Misty Foundation License 6.3 > As this is license-discuss, not license-review, did you ",
+      "sentiment": "neutral",
+      "point": "Asks if there is a specific topic to discuss and notes the submitted license text appears identical to the 2-clause BSD license.",
       "point_zh": ""
     }
   },
@@ -13804,7 +13804,7 @@
       "source": "license-discuss",
       "sender": "Bernhard Fastenrath",
       "subject": "for discussion: Mixed Pickles License 1.0",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Rational: This license tries to make it easy to distribute source trees based on different open source licensing schemes. Since the number of receivers of such a source tree who n",
       "point_zh": ""
     }
@@ -13852,8 +13852,8 @@
       "source": "license-discuss",
       "sender": "Matthew Flaschen",
       "subject": "For Approval: MLL (minimal library license)",
-      "sentiment": "",
-      "point": " Chris Travers wrote: > Do we have a written statement from UC Berkeley to that effect? The written statement is of course the license. See e.g. http://www.cs.berkeley.edu/~lazzaro",
+      "sentiment": "neutral",
+      "point": "Provides a link to the canonical 3-clause BSD license on a Berkeley page noting it matches the OSI version, and clarifies the origin of the MIT license.",
       "point_zh": ""
     }
   },
@@ -13900,8 +13900,8 @@
       "source": "license-discuss",
       "sender": "Lawrence Rosen",
       "subject": "For Approval: MN Open Content License 1.0",
-      "sentiment": "",
-      "point": " > > However, I would like to understand exactly what problem you are trying > > to solve that isn't well addressed by existing licenses. In > > particular, how does this handle do",
+      "sentiment": "neutral",
+      "point": "Asks what specific problem the submitter is trying to solve, noting that the AFL also does not require source to be distributed along with the work.",
       "point_zh": ""
     }
   },
@@ -13948,8 +13948,8 @@
       "source": "license-discuss",
       "sender": "Michal Nazarewicz",
       "subject": "For Approval: MN Open Documentation License 1.0",
-      "sentiment": "",
-      "point": " -----BEGIN PGP SIGNED MESSAGE----- Hash: SHA1 On Saturday 18 of December 2004 00:08, John Cowan wrote: > The main problem with using the GPL for documentation is that the > requir",
+      "sentiment": "neutral",
+      "point": "Questions what source code policy would be acceptable, noting reluctance to waive the requirement for printed copies to ensure access.",
       "point_zh": ""
     }
   },
@@ -13996,8 +13996,8 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Novell Cooperative License version 1.0",
-      "sentiment": "",
-      "point": " Bruce Perens wrote: > I don't see that a non-US court would uphold a requirement to arbitrate > through a U.S. association when one or both litigants are non-US. Sure it would (bu",
+      "sentiment": "support",
+      "point": "Argues that foreign courts would normally defer to an arbitrator unless the procedure was manifestly unreliable.",
       "point_zh": ""
     }
   },
@@ -14044,8 +14044,8 @@
       "source": "license-discuss",
       "sender": "Russell Nelson",
       "subject": "For Approval: Open Project Public License (OPPL)",
-      "sentiment": "",
-      "point": " Larry Masters writes: > May have to put this back on the drawing board. Basically what we are > wanting to do with the license is \"control\" code created to work with > the license",
+      "sentiment": "oppose",
+      "point": "States the desired control is unavailable to OSI Certified Open Source Software because it attempts to control use.",
       "point_zh": ""
     }
   },
@@ -14092,8 +14092,8 @@
       "source": "license-discuss",
       "sender": "Ryan C. Bonham",
       "subject": "For Approval: Open-Realty License",
-      "sentiment": "",
-      "point": " Alex, You worded Attribution Text section perfect. I will be submiting this all for OSI approval later today, as well as updating our software and website to use the new version o",
+      "sentiment": "support",
+      "point": "Accepts the suggested wording for the attribution section and confirms the license will be submitted.",
       "point_zh": ""
     }
   },
@@ -14140,8 +14140,8 @@
       "source": "license-discuss",
       "sender": "John Cowan",
       "subject": "Version 2. Open source shareware",
-      "sentiment": "",
-      "point": " Forrest J. Cavalier III scripsit: > I am not a lawyer either, and I would not have known about > MAI vs Peak unless it was brought up on this list. BTW, one of Paula Samuelson's p",
+      "sentiment": "neutral",
+      "point": "Notes that the DMCA may have overturned the legal precedent cited in the previous message.",
       "point_zh": ""
     }
   },
@@ -14188,8 +14188,8 @@
       "source": "license-discuss",
       "sender": "Alex Rousskov",
       "subject": "For approval: Open Test License v1.1",
-      "sentiment": "",
-      "point": " On Fri, 9 Jan 2004, Rod Dixon, J.D., LL.M. wrote: > You are correct that a weak trademark will require vigorous > enforcement to avoid losing the distinctive quality of the mark; ",
+      "sentiment": "neutral",
+      "point": "Reasserts that license clauses do not require constant enforcement and questions the distinction with approved licenses.",
       "point_zh": ""
     }
   },
@@ -14237,8 +14237,8 @@
       "source": "license-discuss",
       "sender": "Josh Berkus",
       "subject": "[License-discuss] [NEW LICENSE] OTPL (OPEN TOM PUBLIC LICENSE) v1.0",
-      "sentiment": "",
-      "point": " Tom, > I would like to submit a new license for discussion: the OPEN TOM PUBLIC > LICENSE (OTPL) version 1.2. Overall, this is pretty standard. Are you sure there's not an existin",
+      "sentiment": "oppose",
+      "point": "Questions whether an existing license could be used instead, argues the license is actually soft copyleft rather than permissive, and notes the source distribution requirement seems outdated.",
       "point_zh": ""
     }
   },
@@ -14286,8 +14286,8 @@
       "source": "license-discuss",
       "sender": "Wilson, Andrew",
       "subject": "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)",
-      "sentiment": "",
-      "point": " Alex Bligh wrote: > You are quite correct that IF every contributor signed a contribution > agreement, then the effect would not doubt be the same (for the initial > developer) as",
+      "sentiment": "oppose",
+      "point": "Reiterates the -1 vote, arguing that the mandatory license-back to the Initial Developer constitutes coercion inappropriate for an open source license.",
       "point_zh": ""
     }
   },
@@ -14334,8 +14334,8 @@
       "source": "license-discuss",
       "sender": "Bruce Perens",
       "subject": "Draft 1 of the OpenDesk.com Public Source License",
-      "sentiment": "",
-      "point": " Who at OpenDesk is responsible for this license and how do I contact them? Thanks Bruce",
+      "sentiment": "neutral",
+      "point": "Asks who is responsible for the OpenDesk license and how to contact them.",
       "point_zh": ""
     }
   },
@@ -14382,7 +14382,7 @@
       "source": "license-discuss",
       "sender": "mirabilos {Thorsten Glaser}",
       "subject": "Q: Comments on this draft",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " Hello, I would like to hear any comments on this draft which I have reworked several times in order to remove flaws I could find. Purpose: - small (2k, not 24k) - similar to LGPL ",
       "point_zh": ""
     }
@@ -14431,8 +14431,8 @@
       "source": "license-discuss",
       "sender": "ian.oi",
       "subject": "RESUBMISSION FOR APPROVAL: OZPLB Licence",
-      "sentiment": "",
-      "point": " BLAKE DAWSON WALDRON Lawyers This is a resubmission of the amended OZPLB licence for OSI approval. The amended text is set out at the end of this email. The main changes address c",
+      "sentiment": "neutral",
+      "point": "Submits the amended OZPLB license for OSI approval, detailing changes that allow for dual licensing based on the country of the institution to address Australian trade laws.",
       "point_zh": ""
     }
   },
@@ -14479,8 +14479,8 @@
       "source": "license-discuss",
       "sender": "Jesse Schell",
       "subject": "For Approval: Panda3D Public License Version 1.0",
-      "sentiment": "",
-      "point": " I apologize for my slow reply to the very sensible comments below. These all make sense to me, and I have discussed them with the other key members of the Panda3D team at Disney, ",
+      "sentiment": "neutral",
+      "point": "Acknowledges the feedback received on the Panda3D license but states that getting a new Disney lawyer to review and implement changes is taking time.",
       "point_zh": ""
     }
   },
@@ -14527,8 +14527,8 @@
       "source": "license-discuss",
       "sender": "Rafael",
       "subject": "[License-discuss] Submission of PFSSL v1.0 for OSI Review and Approval",
-      "sentiment": "",
-      "point": " Hello Josh, The license isn’t directly based on any single one, but most of its clauses are inspired by well-known licenses such as MIT, MPL, GPL, and Apache. I also aimed to make",
+      "sentiment": "neutral",
+      "point": "Clarifies that the PFSSL is not directly based on a single license but is inspired by MIT, MPL, GPL, and Apache, with a focus on user-friendly language.",
       "point_zh": ""
     }
   },
@@ -14575,8 +14575,8 @@
       "source": "license-discuss",
       "sender": "James Michael DuPont",
       "subject": "For Approval: Public Security Interrest \"PSI\" License",
-      "sentiment": "",
-      "point": " --- Wolfram Kleff <xenonfs at users.sourceforge.net> wrote: > > Hello Mike, > > > --- Wolfram Kleff <xenonfs at users.sourceforge.net> wrote: > > > With GPL it would be no problem",
+      "sentiment": "neutral",
+      "point": "Argues that the security described can be achieved by an agreement on the specific software version used in a transaction, rather than through the GPL.",
       "point_zh": ""
     }
   },
@@ -14623,7 +14623,7 @@
       "source": "license-discuss",
       "sender": "Nikolaos-Modestos Kougioulis",
       "subject": "[License-discuss] For Approval: Public Software License",
-      "sentiment": "",
+      "sentiment": "neutral",
       "point": " To whom it may concern, I am writing you this e-mail to request approval for my License, regarding the Open Source definition. 1) The Cryptix General License is the most similar O",
       "point_zh": ""
     }
@@ -14673,8 +14673,8 @@
       "source": "license-discuss",
       "sender": "Tim Makarios",
       "subject": "[License-discuss] Short permissive no attribution required open source license",
-      "sentiment": "",
-      "point": " On Wed, 2015-10-21 at 11:56 +0530, Sagar wrote: > Do you think the community will be interested in a shorter license? You might be interested in the Free Public License, which is ",
+      "sentiment": "neutral",
+      "point": "Suggests looking at the Free Public License, which is currently under review, as a potential fit for a short permissive license.",
       "point_zh": ""
     }
   },
@@ -14722,8 +14722,8 @@
       "source": "license-discuss",
       "sender": "Robert Samuel White",
       "subject": "Formal Request for Approval: Simplified Artistic License",
-      "sentiment": "",
-      "point": " I have significantly modified the license. I apologize for not making these changes before sending my original request for approval. These changes were necessary however. I am goi",
+      "sentiment": "neutral",
+      "point": "Posts a significantly revised version of the Simplified Artistic License with clarifications and added protections for Board review.",
       "point_zh": ""
     }
   },
@@ -14770,8 +14770,8 @@
       "source": "license-discuss",
       "sender": "Alec Bloss",
       "subject": "[License-discuss] Request for Comment: Software and Development License, version 3.0",
-      "sentiment": "",
-      "point": " On Jan 29 2024, at 5:47 am, Kevin P. Fleming <lists.osi-license-discuss at kevin.km6g.us> wrote: > On Sun, Jan 28, 2024, at 14:47, Alec Bloss wrote: > > > Hi all, > > > > > > I wa",
+      "sentiment": "support",
+      "point": "Defends the license clauses, noting the patent grant exists in B.3 and the AI clause serves as a helpful reminder.",
       "point_zh": ""
     }
   },
@@ -14822,8 +14822,8 @@
       "source": "license-discuss",
       "sender": "Alex Nicolaou",
       "subject": "SOS license v1.05",
-      "sentiment": "",
-      "point": " Here's an attempt at addressing the \"exception\" nature of the license. I've tried hard to make it work but am worried that you'll still think it is a license full of exceptions. L",
+      "sentiment": "support",
+      "point": "Posts version 1.05 in an attempt to address concerns about the license's exception-based nature.",
       "point_zh": ""
     }
   },
@@ -14870,8 +14870,8 @@
       "source": "license-discuss",
       "sender": "Luis Villa",
       "subject": "[License-discuss] System 76's BeanBooks Public License v1.0",
-      "sentiment": "",
-      "point": " I have not had time to do this myself but it is probably a reasonable idea. Luis On Sep 19, 2013 7:40 PM, \"Bradley M. Kuhn\" <bkuhn at ebb.org> wrote: > It seems that at least a fe",
+      "sentiment": "support",
+      "point": "Agrees that contacting System76 to discuss the license is a reasonable idea.",
       "point_zh": ""
     }
   },
@@ -14918,8 +14918,8 @@
       "source": "license-discuss",
       "sender": "Nicholas Matthew Neft Weinstock",
       "subject": "[License-discuss] For Public Comment: The Contribution Public License",
-      "sentiment": "",
-      "point": " You may not want to start having a section of defined terms, but MPLv2 has a definition of the term \"Modifications\" that seems to be what you're describing for changes: 1.10. \"Mod",
+      "sentiment": "neutral",
+      "point": "Suggests adopting the MPLv2 definition of 'Modifications' to clearly define the scope of required publication.",
       "point_zh": ""
     }
   },
@@ -14966,8 +14966,8 @@
       "source": "license-discuss",
       "sender": "Roger Fujii",
       "subject": "[License-discuss] For Public Comment: The Libre Source License",
-      "sentiment": "",
-      "point": " On 8/23/2019 1:23 PM, Lawrence Rosen wrote: > > Roger Fujii wrote: > > Now I'm confused. Are you saying there is no \"fair use\" when the > target is software? While one can weaken\"",
+      "sentiment": "neutral",
+      "point": "Argues that if fair use is a right, some modifications should be covered, and suggests licenses and OSI should clarify their stance on fair use.",
       "point_zh": ""
     }
   },
@@ -15014,8 +15014,8 @@
       "source": "license-discuss",
       "sender": "David Johnson",
       "subject": "The Open Source Milestone Application Framework Software License, Version 1.5",
-      "sentiment": "",
-      "point": " On Friday 03 May 2002 10:22 am, Akil Franklin wrote: > After reviewing and the feedback from the discussion list, we would like > to modify our original submission. This new submi",
+      "sentiment": "support",
+      "point": "Approves of the license but suggests writing it as a template to allow name changes without further OSI approval.",
       "point_zh": ""
     }
   },
@@ -15062,8 +15062,8 @@
       "source": "license-discuss",
       "sender": "James Michael DuPont",
       "subject": "repost for discussion",
-      "sentiment": "",
-      "point": " --- cityhunter <x-y-z at laposte.net> wrote: > the testament is available in html format at : Well you can't say that I dont try! http://malet.jeanclaude.free.fr/TESTAMENT.html-->",
+      "sentiment": "neutral",
+      "point": "Reports that the provided HTML link returns a 'Forbidden' error.",
       "point_zh": ""
     }
   },
@@ -15111,8 +15111,8 @@
       "source": "license-discuss",
       "sender": "Wilhelm Svenselius",
       "subject": "For Approval: The Wilhelm Svenselius Open Source License version 1.1",
-      "sentiment": "",
-      "point": " Having taken to heart some of the comments on my WSOSL 1.0 which were posted to this mailing list a few days ago, I now present to you a somewhat modified version. The full text o",
+      "sentiment": "neutral",
+      "point": "Posts a revised version 1.1 of the WSOSL, incorporating comments from the previous review.",
       "point_zh": ""
     }
   },
@@ -15159,8 +15159,8 @@
       "source": "license-discuss",
       "sender": "Tom Oehser",
       "subject": "tomsrtbt, 3rd draft...",
-      "sentiment": "",
-      "point": " > It sounds for me it may be better you use the modified BSD-license > for the software you have the complete rights for instead of create > another license with much the same mea",
+      "sentiment": "neutral",
+      "point": "Clarifies that the license's intent to require attribution differs fundamentally from the BSD license's intent to avoid liability.",
       "point_zh": ""
     }
   },
@@ -15207,8 +15207,8 @@
       "source": "license-discuss",
       "sender": "Shuji Sado",
       "subject": "[License-discuss] Total Reciprocity Public License (TRPL v1.0)",
-      "sentiment": "",
-      "point": " Hi Jay, Josh, and all, https://discuss.opensource.org/t/distillation-and-oss-licensing/1333 I just noticed that Josh-san’s Discourse thread on distillation and copyleft-style mode",
+      "sentiment": "oppose",
+      "point": "Raises legal concerns that enforcing reciprocity on functional output relies on contract law, creating jurisdictional uncertainty.",
       "point_zh": ""
     }
   },
@@ -15255,8 +15255,8 @@
       "source": "license-discuss",
       "sender": "Michael R. Bernstein",
       "subject": "For Approval: TURKIX PUBLIC LICENSE",
-      "sentiment": "",
-      "point": " On Thu, 2004-10-28 at 08:17, Emre Sokullu wrote: > Yes I see that AGPL is satisfactory for most cases. But i didn't know > that it wasn't OSI approved. Will it be approved soon, o",
+      "sentiment": "neutral",
+      "point": "Explains that dual licensing with AGPL allows charging for proprietary service derivatives while benefiting from community enhancements.",
       "point_zh": ""
     }
   },
@@ -15304,8 +15304,8 @@
       "source": "license-discuss",
       "sender": "Engel Nyst",
       "subject": "[License-discuss] U.S. Army Research Laboratory Open Source License (ARL OSL) 0.4.0",
-      "sentiment": "",
-      "point": " On Thu, Jul 28, 2016 at 3:50 PM, Karan, Cem F CIV USARMY RDECOM ARL (US) <cem.f.karan.civ at mail.mil> wrote: > \"License\" shall mean the terms and conditions for use, reproduction",
+      "sentiment": "neutral",
+      "point": "Suggests updating the section count and adding 'if copyright exists' conditions, and asks why a severability clause was omitted.",
       "point_zh": ""
     }
   },
@@ -15352,8 +15352,8 @@
       "source": "license-discuss",
       "sender": "David Woolley",
       "subject": "[License-discuss] APPROVAL: Universal Public License Agreement v1",
-      "sentiment": "",
-      "point": " BIRGUL KARAMIZRAK wrote: > Signing of the Contract > > The license will take effect upon signing personally by the license provider > and the licensee. The signature owner is requ",
+      "sentiment": "oppose",
+      "point": "Agrees the license is not Open Source and notes a conflict between the restrictions and the term 'public' in the name.",
       "point_zh": ""
     }
   },
@@ -15400,8 +15400,8 @@
       "source": "license-discuss",
       "sender": "Subham Mahesh",
       "subject": "[License-discuss] Advice for submitting a new license",
-      "sentiment": "",
-      "point": " Hi AMOGUSForever, I took a look at your draft of the *Universal Public Domain License 1.5.2* and made a few improvements that you might want to consider. I think they help clarify",
+      "sentiment": "neutral",
+      "point": "Offers drafted improvements to the Universal Public Domain License to clarify intent and avoid legal issues.",
       "point_zh": ""
     }
   },
@@ -15448,8 +15448,8 @@
       "source": "license-discuss",
       "sender": "Martin Pool",
       "subject": "A new open source license",
-      "sentiment": "",
-      "point": " Ken Arromdee wrote: > On Mon, 17 May 1999, [iso-8859-2] Matìj Cepl wrote: > > [MCepl] I am not sure, that you are correct. What clause five > > actually says is, that GNU GPL is a",
+      "sentiment": "neutral",
+      "point": "Notes that acceptance by conduct is standard in Commonwealth law and suggests courts may consider the licensee frustrated by export laws.",
       "point_zh": ""
     }
   }
