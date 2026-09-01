@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "801d774ea20891e3",
+    "source_hash": "faf33156e5bd01ea",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T14:28:00.240Z",
+    "generated_at": "2026-09-01T15:37:34.388Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 88,
+      "total_messages": 89,
       "duration_days": 19,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 88,
+      "count": 89,
       "first": "2026-08-13",
       "last": "2026-09-01"
     },
@@ -55,10 +55,10 @@
       "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Michael Dolan",
+      "sender": "Moming Duan",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "support",
-      "point": "Clarifies the 'voluntarily participate' clause is intended to prevent evading patent non-assert obligations through proxies, citing OWFa 1.0 origins and distinguishing it from compelled legal actions.",
+      "sentiment": "question",
+      "point": "Summarizes the explanation that API users are not licensees and 'provided to you' implies material transfer, requesting confirmation of this interpretation.",
       "point_zh": ""
     }
   },

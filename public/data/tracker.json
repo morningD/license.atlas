@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T14:26:43.316Z",
+    "generated_at": "2026-09-01T15:31:27.551Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-01T14:28:00.240Z",
+    "enriched_at": "2026-09-01T15:37:34.388Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-01T14:28:00.675Z",
+      "applied_at": "2026-09-01T15:37:39.768Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -133,7 +133,7 @@
         {
           "name": "Moming Duan",
           "role": "reviewer",
-          "message_count": 3
+          "message_count": 4
         },
         {
           "name": "Eric Schultz",
@@ -1351,19 +1351,32 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006229.html",
           "sender": "Michael Dolan",
-          "snippet": "A few points raised since Friday were new, so I will share my view on those\nin case it helps everyone's understanding. It’s challenging to keep up with\nall the points raised and comments. I will then ",
+          "snippet": "Clarifies the 'voluntarily participate' clause is intended to prevent evading patent non-assert obligations through proxies, citing OWFa 1.0 origins and distinguishing it from compelled legal actions.",
           "point_zh": null,
           "sentiment": "support",
           "source": "license-review",
           "position": "oppose",
           "point": "Clarifies the 'voluntarily participate' clause is intended to prevent evading patent non-assert obligations through proxies, citing OWFa 1.0 origins and distinguishing it from compelled legal actions."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006230.html",
+          "sender": "Moming Duan",
+          "snippet": "4. The API and RAG hypo (Moming's point).\n\nMoming, I don't think your hypothetical works as stated under the definition of Model Materials. Model Materials means the materials \"provided to you\" under ",
+          "point_zh": null,
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "support",
+          "point": "Summarizes the explanation that API users are not licensees and 'provided to you' implies material transfer, requesting confirmation of this interpretation."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 88,
+        "total_messages": 89,
         "date_range": [
           "2026-08-13",
           "2026-09-01"
@@ -1400,12 +1413,12 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence shows a submission made on 2026-08-13 and ongoing discussion with feedback and questions from community members through 2026-09-01. There is no evidence of a board vote, withdrawal, or final approval decision in the provided data. The latest event indicates continued discussion without resolution.",
+        "rationale": "The submission is currently under review. The latest evidence provided consists of a formal submission and subsequent discussion threads from August and September 2026. While there are opposing viewpoints and questions raised by reviewers (Pamela Chestek, John Colagioia, Luis Villa, Richard Fontana, Carlo Piana), there is no evidence of a final board decision, rejection motion, or withdrawal by the submitter. The timeline indicates ongoing discussion, and the curated status is explicitly pending.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1413,13 +1426,13 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#87",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#81",
             "supports": "pending",
-            "quote": "A few points raised since Friday were new, so I will share my view on those in case it helps everyone's understanding."
+            "quote": "Rejects the argument that users wouldn't agree to restrictive terms..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:bb59158d95511fe36b1b2283bade4e6d55ec8a998bb8d83c93938626a16805c1",
+        "input_hash": "sha256:8d5673fa9fa962d53916b895206248ecbae859d94de6cff7e3344412452175e9",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
