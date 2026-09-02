@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "5cadcadf25c0b297",
+    "source_hash": "fbc64d18598a3fae",
     "index_schema_version": 5,
-    "generated_at": "2026-09-02T01:12:27.713Z",
+    "generated_at": "2026-09-02T16:44:38.417Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 94,
-      "duration_days": 19,
+      "total_messages": 95,
+      "duration_days": 20,
       "date_range": [
         "2026-08-13",
-        "2026-09-01"
+        "2026-09-02"
       ]
     },
     "has_vote": false,
@@ -47,18 +47,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 94,
+      "count": 95,
       "first": "2026-08-13",
-      "last": "2026-09-01"
+      "last": "2026-09-02"
     },
     "latest_event": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Simon Phipps",
+      "sender": "Shuji Sado",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Warns that copyright-based termination clauses impact every contributor and risk enabling dark patterns to chill complaints about corporate behavior.",
+      "sentiment": "question",
+      "point": "Asks for clarification on what \"indirectly infringe\" in Section 5 is intended to cover — whether it means secondary liability such as contributory, vicarious, or induced infringement, or more broadly claims based on infringement occurring during training.",
       "point_zh": ""
     }
   },
