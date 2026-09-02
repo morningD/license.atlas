@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "49f3ed4a728d7330",
+    "source_hash": "5cadcadf25c0b297",
     "index_schema_version": 5,
-    "generated_at": "2026-09-01T17:42:47.016Z",
+    "generated_at": "2026-09-02T01:12:27.713Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 90,
+      "total_messages": 94,
       "duration_days": 19,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 90,
+      "count": 94,
       "first": "2026-08-13",
       "last": "2026-09-01"
     },
@@ -55,10 +55,10 @@
       "date": "2026-09-01",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Simon Phipps",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "oppose",
-      "point": "Contends that the submitter's interpretation reflects intent rather than legal operation, and argues that FAQs cannot prevent unintended legal interpretations.",
+      "point": "Warns that copyright-based termination clauses impact every contributor and risk enabling dark patterns to chill complaints about corporate behavior.",
       "point_zh": ""
     }
   },

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-01T17:41:29.799Z",
+    "generated_at": "2026-09-02T01:11:10.866Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-01T17:42:47.016Z",
+    "enriched_at": "2026-09-02T01:12:27.713Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-01T17:42:53.109Z",
+      "applied_at": "2026-09-02T01:12:39.386Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -93,7 +93,7 @@
         {
           "name": "Richard Fontana",
           "role": "board_member",
-          "message_count": 19
+          "message_count": 20
         },
         {
           "name": "Pamela Chestek",
@@ -103,7 +103,7 @@
         {
           "name": "Michael Dolan",
           "role": "submitter",
-          "message_count": 9
+          "message_count": 10
         },
         {
           "name": "McCoy Smith",
@@ -146,6 +146,16 @@
           "message_count": 2
         },
         {
+          "name": "Simon Phipps",
+          "role": "board_member",
+          "message_count": 2
+        },
+        {
+          "name": "Josh Berkus",
+          "role": "board_member",
+          "message_count": 2
+        },
+        {
           "name": "John Colagioia",
           "role": "reviewer",
           "message_count": 2
@@ -161,11 +171,6 @@
           "message_count": 1
         },
         {
-          "name": "Simon Phipps",
-          "role": "board_member",
-          "message_count": 1
-        },
-        {
           "name": "Nick Vidal",
           "role": "reviewer",
           "message_count": 1
@@ -173,11 +178,6 @@
         {
           "name": "Joshua Gay",
           "role": "reviewer",
-          "message_count": 1
-        },
-        {
-          "name": "Josh Berkus",
-          "role": "board_member",
           "message_count": 1
         }
       ],
@@ -1377,19 +1377,71 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006231.html",
           "sender": "Pamela Chestek",
-          "snippet": "These are all statements of how you believe that the license should be\ninterpreted. But a number of people have explained how a party or a\ncourt could find ways to construe it differently. As an examp",
+          "snippet": "Contends that the submitter's interpretation reflects intent rather than legal operation, and argues that FAQs cannot prevent unintended legal interpretations.",
           "point_zh": null,
           "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
           "point": "Contends that the submitter's interpretation reflects intent rather than legal operation, and argues that FAQs cannot prevent unintended legal interpretations."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006232.html",
+          "sender": "Michael Dolan",
+          "snippet": "Pam, three responses to your latest email, which, in my opinion,\ncharacterized our position in a way I feel compelled to correct.\n\nOn dual licensing: I do not see the inconsistency with (d). Passing t",
+          "point_zh": null,
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Defends the dual licensing mechanism as consistent with OSD clause (d) and argues the clearance paragraph drafting reflects standard license steward behavior regarding imperfect text."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006233.html",
+          "sender": "Josh Berkus",
+          "snippet": "Thanks for that perspective.\n\nI'll stand by my claim, though, that any argument that can be made\nagainst the principle* of a copyright antisuit provision applies equally\nto a patent one.  And that if ",
+          "point_zh": null,
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues that arguments against copyright antisuit provisions apply equally to patent ones, warning that rejecting the former would require revisiting many existing licenses."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006234.html",
+          "sender": "Richard Fontana",
+          "snippet": "This is clearly one of the questions the OSI needs to resolve: is there\nsomething special about copyright? Or is there something special about\npatent?\n\nIn terms of historical precedent, I think we can",
+          "point_zh": null,
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Questions whether copyright or patent is unique regarding termination triggers and asks if allowing copyright triggers would extend to trademarks or trade secrets."
+        },
+        {
+          "date": "2026-09-01",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006235.html",
+          "sender": "Simon Phipps",
+          "snippet": "This is at the heart of the matter, yes. Another dimension to consider is\nthat while almost all patent litigation involves only patent-holding\ncorporations, outside the direct experience of most users",
+          "point_zh": null,
+          "sentiment": "oppose",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Warns that copyright-based termination clauses impact every contributor and risk enabling dark patterns to chill complaints about corporate behavior."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 90,
+        "total_messages": 94,
         "date_range": [
           "2026-08-13",
           "2026-09-01"
@@ -1423,10 +1475,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 1,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for approval on August 13, 2026. The subsequent discussion includes feedback and questions regarding specific clauses (e.g., termination, 'corresponding lawsuit', and definitions), but there is no evidence of a formal board decision, vote, withdrawal, or rejection. The latest event date is September 1, 2026, indicating ongoing review. Therefore, the status remains pending.",
+        "rationale": "The submission is currently under active review. The timeline shows a submission event in August 2026 followed by multiple discussion threads and feedback in September 2026. There is no evidence of a board vote, final approval, rejection, or withdrawal. The latest activity consists of debate regarding legal interpretations (e.g., 'voluntarily participate', anti-suit provisions), indicating the review process is ongoing.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1439,13 +1491,18 @@
             "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#89",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#86",
             "supports": "pending",
-            "quote": "These are all statements of how you believe that the license should be interpreted. But a number of people have explained how a party or a court could find ways to construe it differently."
+            "quote": "Suggests replacing 'providing software freedom' with clearer alternatives like 'encouraging sharing of software' or 'protecting the open software ecosystem' to avoid conceptual ambiguity and baggage."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#93",
+            "supports": "pending",
+            "quote": "This is at the heart of the matter, yes. Another dimension to consider is that while almost all patent litigation involves only patent-holding corporations, outside the direct experience of most users"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:04b7d880a185e0499cd16daf4b1047d1556c555f915cb73c3dad1981cf236b0f",
+        "input_hash": "sha256:86c839320312efcca9e1d17efd9f0a925f25aa9b354e00c2071a077d4546999e",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
