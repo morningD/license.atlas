@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T23:03:51.609Z",
+    "generated_at": "2026-09-03T00:07:13.896Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-02T23:04:21.330Z",
+    "enriched_at": "2026-09-03T00:07:47.666Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-02T23:04:28.944Z",
+      "applied_at": "2026-09-03T00:07:54.923Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -98,7 +98,7 @@
         {
           "name": "Pamela Chestek",
           "role": "board_member",
-          "message_count": 14
+          "message_count": 15
         },
         {
           "name": "Michael Dolan",
@@ -1455,19 +1455,32 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006237.html",
           "sender": "McCoy Smith",
-          "snippet": "Litigation termination triggers seem to be the one area where the\ndiscussion is converging on: what sort of litigation can properly\nterminate grants in a license, and what grants can be terminated?\n\nS",
+          "snippet": "Notes the discussion converging on which litigation should trigger license termination; argues broad patent triggers covering 'any software' and triggers extending to Derivative Materials are too broad, and disputes that OpenMDW-1.1's trigger reaches things unconnected to the licensed software or model.",
           "point_zh": null,
           "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
           "point": "Notes the discussion converging on which litigation should trigger license termination; argues broad patent triggers covering 'any software' and triggers extending to Derivative Materials are too broad, and disputes that OpenMDW-1.1's trigger reaches things unconnected to the licensed software or model."
+        },
+        {
+          "date": "2026-09-02",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006238.html",
+          "sender": "Pamela Chestek",
+          "snippet": "I believe we are seeing a philosophical divide. I wouldn't consider the\nmore expansive view a slippery slope, but it is more generous to the\nlicensor because of the philosophical underpinnings.\n\nOn on",
+          "point_zh": null,
+          "sentiment": "question",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Frames the patent retaliation trigger debate as a philosophical divide: an expansive fairness-based view extending the trigger to any claim type versus a patents-are-special view, asking which is the better path. Clarifies OpenMDW grants patent, copyright, trade secret, and database rights, but only patent and copyright infringement trigger termination."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 96,
+        "total_messages": 97,
         "date_range": [
           "2026-08-13",
           "2026-09-02"
@@ -1501,29 +1514,29 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.85,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted on 2026-08-13 and active discussion continued through 2026-09-02 with mixed feedback and open questions. There is no board vote, board decision, rejection, withdrawal, or supersession evidence, so the review remains pending.",
+        "rationale": "The license was submitted on 2026-08-13 and the thread shows ongoing discussion through 2026-09-02 with no board vote, decision, rejection, or withdrawal. Curated status is pending and status_evidence confirms no board decision or withdrawal.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval as a permissive license covering heterogeneous AI model materials and all applicable IP regimes."
+            "quote": "Formally submits OpenMDW License Agreement 1.1 for OSI approval"
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#95",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#96",
             "supports": "pending",
-            "quote": "Litigation termination triggers seem to be the one area where the discussion is converging on..."
+            "quote": "I believe we are seeing a philosophical divide."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:1eb73c12cfd754ce5f21df60155a5bb9d2096809db6647b2443949445210920c",
+        "input_hash": "sha256:c3e6a1e5b670fe2055195c181dcf80b731f1fd3e26331348d488fd15c3b28a8e",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

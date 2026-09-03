@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "a8b2d5382f46e928",
+    "source_hash": "41cd03bb5a17aa46",
     "index_schema_version": 5,
-    "generated_at": "2026-09-02T23:04:21.330Z",
+    "generated_at": "2026-09-03T00:07:47.666Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 96,
+      "total_messages": 97,
       "duration_days": 20,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 96,
+      "count": 97,
       "first": "2026-08-13",
       "last": "2026-09-02"
     },
@@ -55,10 +55,10 @@
       "date": "2026-09-02",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Notes the discussion converging on which litigation should trigger license termination; argues broad patent triggers covering 'any software' and triggers extending to Derivative Materials are too broad, and disputes that OpenMDW-1.1's trigger reaches things unconnected to the licensed software or model.",
+      "sentiment": "question",
+      "point": "Frames the patent retaliation trigger debate as a philosophical divide: an expansive fairness-based view extending the trigger to any claim type versus a patents-are-special view, asking which is the better path. Clarifies OpenMDW grants patent, copyright, trade secret, and database rights, but only patent and copyright infringement trigger termination.",
       "point_zh": ""
     }
   },
