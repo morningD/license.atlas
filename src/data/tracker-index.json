@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "a7b3734a07a76ad1",
+    "source_hash": "15dadf34901de0a1",
     "index_schema_version": 5,
-    "generated_at": "2026-09-03T18:12:24.727Z",
+    "generated_at": "2026-09-03T19:37:36.446Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -548,9 +548,9 @@
       "source": "license-review",
       "sender": "横井雄太",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
-      "sentiment": "neutral",
-      "point": "I have one question about how the final MG-BY-2.0 text is intended to\noperate when Distribution consists solely of remote access.\n\nThe definition of “Distribution” expressly includes:\n\n“providing the ",
-      "point_zh": ""
+      "sentiment": "question",
+      "point": "Asks how MG-BY-2.0's Section 2.2(a) notice and license-copy conditions are intended to operate when Distribution consists solely of hosted or API-based remote access with no underlying model artifact delivered, and requests steward clarification for downstream users.",
+      "point_zh": "询问 MG-BY-2.0 第 2.2(a) 条在仅以托管或 API 远程访问构成 Distribution、不交付模型制品时应如何适用，请管理者予以澄清。"
     }
   },
   "public-benefit-zero-copyright": {

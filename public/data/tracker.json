@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-03T18:02:50.066Z",
+    "generated_at": "2026-09-03T19:37:15.400Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-03T18:12:24.727Z",
+    "enriched_at": "2026-09-03T19:37:36.446Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-03T18:15:53.096Z",
+      "applied_at": "2026-09-03T19:37:36.886Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -615,7 +615,7 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006155.html",
           "sender": "Michael Dolan",
-          "snippet": "Defends OpenMDW-1.1 against multiple objections, citing OSI-approved licenses as precedent for the litigation termination trigger, clarifying Model Materials scope, and arguing the 'solely responsible' paragraph is a risk disclaimer, not a covenant; open to parallel review of OpenMDW-1.0 but expects 1.1 to be the path forward.",
+          "snippet": "Defends OpenMDW-1.1 against the objections raised; open to parallel review of OpenMDW-1.0 but expects 1.1 to be the path forward.",
           "point_zh": "维护 OpenMDW-1.1 以回应各项质疑；可并行评审 OpenMDW-1.0，但预期 1.1 才是前进方向。",
           "sentiment": "support",
           "source": "license-review",
@@ -1239,7 +1239,7 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006216.html",
           "sender": "Carlo Piana",
-          "snippet": "Partially disagrees that the software test suffices and argues litigation retaliation must be proportionate — not a general waiver of claims against the licensor. Suggests requiring downstream recipients' grants to survive termination and restricting termination to the subject matter of the litigation.",
+          "snippet": "Partially disagrees that the software test suffices: litigation retaliation must be proportionate, not a general waiver of claims against the licensor.",
           "point_zh": "部分不同意软件测试即足够：诉讼报复必须相称，而非对针对许可人索赔的一般性放弃。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -1265,7 +1265,7 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006221.html",
           "sender": "Shuji Sado",
-          "snippet": "Agrees a plain software test is insufficient and that OpenMDW would fit the Special Purpose category; distinguishes waiver from termination, cites OCLC's IP-infringement termination trigger, and reframes the issue as proportionality over the licensed unit, with software freedom a backstop rather than a free-standing test.",
+          "snippet": "Agrees a plain software test is insufficient — OpenMDW fits the Special Purpose category — and reframes the issue as proportionality over the licensed unit, with software freedom a backstop rather than a free-standing test.",
           "point_zh": "同意单纯软件测试不足，OpenMDW 应属 Special Purpose 类，问题应按许可单元相称性衡量，软件自由仅为兜底而非独立标准。",
           "sentiment": "question",
           "source": "license-review",
@@ -7183,7 +7183,7 @@
           "subject": "[License-review] [SUBMISSION] CompanioNation Public Licence, version 1.0 (CNPL-1.0)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-April/006080.html",
           "sender": "Pamela Chestek",
-          "snippet": "Raises multiple objections: the name and text cannot include \"CompanionNation\"; the grant omits public performance and display rights; ambiguous \"Software\"/\"modification\" definitions may make it copyleft and risk OSD 9; corrects the Apache/MIT comparisons and notes a license cannot change during review.",
+          "snippet": "Objects that the name and text cannot include \"CompanionNation\", the grant omits public performance and display rights, and ambiguous \"Software\"/\"modification\" definitions risk making it copyleft and failing OSD 9; also corrects the Apache/MIT comparisons.",
           "point_zh": "反对：名称与文本不得含\"CompanionNation\"；授权缺公开表演与展示权；\"Software\"/\"modification\"定义含糊，恐致copyleft且不符OSD 9；并纠正Apache/MIT对比。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -7233,7 +7233,7 @@
         "rationale": "Human-calibrated baseline (full-length point re-extraction).",
         "evidence_refs": [],
         "conflicts": [],
-        "input_hash": "sha256:128bda81355b1c008ecf416be52c7b3c415d37986dc077982768d2b6060e5430",
+        "input_hash": "sha256:e0e519a13d0969f21508bd2d761bc8007b24204d69f9e6e78bf1d429c4eec105",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
@@ -16660,7 +16660,7 @@
           "subject": "[License-review] [2nd Resubmission] ModelGo Attribution License, Version 2.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-October/005916.html",
           "sender": "Carlo Piana",
-          "snippet": "Objects that the improvements were not ported to the Open Source version, criticizes the 'Source Code Form' definition as misleading, and doubts Output can be included in the Derivative definition; not inclined to approve the ModelGo Open Source license, though sees no major problems with the Attribution license.",
+          "snippet": "Not inclined to approve the ModelGo Open Source license, citing the misleading 'Source Code Form' definition and doubts that Output fits the Derivative definition; sees no major problems with the Attribution license.",
           "point_zh": "不倾向批准ModelGo Open Source许可：\"Source Code Form\"定义有误导性、且怀疑Output能纳入Derivative；对Attribution许可无重大异议。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -17017,12 +17017,12 @@
           "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006241.html",
           "sender": "横井雄太",
-          "snippet": "I have one question about how the final MG-BY-2.0 text is intended to operate when Distribution consists solely of remote access. The definition of “Distribution” expressly includes: “providing the",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Asks how MG-BY-2.0's Section 2.2(a) notice and license-copy conditions are intended to operate when Distribution consists solely of hosted or API-based remote access with no underlying model artifact delivered, and requests steward clarification for downstream users.",
+          "point_zh": "询问 MG-BY-2.0 第 2.2(a) 条在仅以托管或 API 远程访问构成 Distribution、不交付模型制品时应如何适用，请管理者予以澄清。",
+          "sentiment": "question",
           "source": "license-review",
           "position": "question",
-          "point": "I have one question about how the final MG-BY-2.0 text is intended to\noperate when Distribution consists solely of remote access.\n\nThe definition of “Distribution” expressly includes:\n\n“providing the "
+          "point": "Asks how MG-BY-2.0's Section 2.2(a) notice and license-copy conditions are intended to operate when Distribution consists solely of hosted or API-based remote access with no underlying model artifact delivered, and requests steward clarification for downstream users."
         }
       ],
       "board_vote": null,
@@ -17064,7 +17064,7 @@
         "rationale": "Human-calibrated baseline (full-length point re-extraction).",
         "evidence_refs": [],
         "conflicts": [],
-        "input_hash": "sha256:b49a8cb6f526c8369f83c0cc7479c019a214f65c47ef6978dd679e9932a3df9d",
+        "input_hash": "sha256:dfcefed5f93d56572fae5b694dbce9f4e0331f7cbd1b409f7bd17694c301d57e",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
@@ -28821,7 +28821,7 @@
           "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-October/005895.html",
           "sender": "Carlo Piana",
-          "snippet": "Finds multiple flaws on a first reading: the ambiguous Licensor definition discriminates between classes of copyright holders (potentially against OSD #5), jurisdiction clauses are disfavored, Section 7 hinders porting, and the copyright grant does not clearly enable distribution; approval would be hard at this version.",
+          "snippet": "First reading already surfaces multiple flaws, including a Licensor definition that may discriminate among copyright-holder classes, so approval would be hard at this version.",
           "point_zh": "初读已发现多处缺陷，包括可能歧视不同类别版权人的模糊 Licensor 定义，此版本很难获得批准。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -28834,7 +28834,7 @@
           "subject": "[License-review] Submission of Orivex Syscall Note License (OSN-1.0) for OSI Approval",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-October/005896.html",
           "sender": "Shuji Sado",
-          "snippet": "Broadly agrees with the prior critique and adds three issues: sublicensing inconsistency between §2.2 and §4.6, a mandatory fixed attribution phrase in §4.3, and making SPDX identifiers a redistribution condition in §4.1; suggests reusing Linux-syscall-note with a standard license instead of a new one.",
+          "snippet": "Broadly agrees with the prior critique and adds further issues; suggests reusing Linux-syscall-note with a standard license instead of writing a new one.",
           "point_zh": "基本认同前述批评并补充若干问题；建议复用 Linux-syscall-note 搭配标准许可证，而非另立新许可证。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -28956,7 +28956,7 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:a2ad9a09a8f8cfdd5f7093d883eceb69a107bbbeb35d9931d0a45861d28763da",
+        "input_hash": "sha256:60e13ad941d3d06eb8ba70d671bb2d9c566a57bbe217b5571f55bb6b5c49a4a7",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
@@ -29396,12 +29396,12 @@
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005181.html",
           "sender": "Lawrence Rosen",
-          "snippet": "Thank you, McCoy, for supporting what I said. But it is important to read the rest of the sentence in §15. By its promise, the licensor disclaims any copyright breach claim if the licensee breaks the",
-          "point_zh": "感谢 McCoy 支持，并阐释 §15 的单方合同性质：许可人承诺不对违法使用主张侵权索赔，这是承诺而非条件，适于只有许可人作出承诺的单方合同。",
-          "sentiment": "positive",
+          "snippet": "Argues AFL 3.0 §15 contains the licensor's promise not to interfere with and disclaim copyright claims over unlawful use — a promise, not a condition, appropriate in a unilateral contract where only the licensor makes promises.",
+          "point_zh": "认为 AFL 3.0 §15 是许可人的承诺——不干涉违法使用并放弃版权违约索赔——属于承诺而非条件，在仅由许可人作出承诺的单边合同中是恰当的。",
+          "sentiment": "neutral",
           "source": "license-review",
           "position": "support",
-          "point": "Thanks McCoy for the support and explains the unilateral contract nature of Section 15: the licensor promises not to make copyright infringement claims for unlawful use, which is a promise rather than a condition, appropriate in a unilateral contract where only the licensor makes commitments."
+          "point": "Argues AFL 3.0 §15 contains the licensor's promise not to interfere with and disclaim copyright claims over unlawful use — a promise, not a condition, appropriate in a unilateral contract where only the licensor makes promises."
         },
         {
           "date": "2021-06-08",
@@ -29409,12 +29409,12 @@
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005182.html",
           "sender": "Lawrence Rosen",
-          "snippet": "Eric Schultz wrote: “I may be interpreting that wrong (IANAL) but if true that would seem to imply the license only applies to legal uses.” Nobody can license illegal uses of software. … And Simon, I",
-          "point_zh": null,
+          "snippet": "Counters that nobody can license illegal uses of software, so AFL 3.0 §15 does not confine the license to legal uses; notes to Simon the same presumably applies in Thailand.",
+          "point_zh": "回应称无人能许可软件的违法使用，因此 AFL 3.0 §15 并未把许可限定于合法用途；并向 Simon 指出这在泰国应同样适用。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "support",
-          "point": "Asserts that illegal uses cannot be licensed and implies this principle applies universally."
+          "point": "Counters that nobody can license illegal uses of software, so AFL 3.0 §15 does not confine the license to legal uses; notes to Simon the same presumably applies in Thailand."
         },
         {
           "date": "2021-06-08",
@@ -29422,12 +29422,12 @@
           "subject": "[License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2021-June/005183.html",
           "sender": "McCoy Smith",
-          "snippet": "I wasn’t talking about your license, Larry, but instead the license currently being requested for approval. IIRC your license was approved quite some time ago, so more appropriate for discussion on t",
-          "point_zh": "澄清自己评论的是待审批的许可证而非 Larry 的许可证；认为此类条款不必要，但多余条款本身并不违反 OSD；建议 Larry 的许可证讨论移至 license-discuss。",
-          "sentiment": "neutral",
+          "snippet": "Clarifies his criticism targets the 3D Slicer License under review, not Rosen's already-approved AFL, and suggests such discussion belongs on license-discuss; reiterates that such law-compliance clauses are unnecessary but not themselves OSD violations.",
+          "point_zh": "澄清其批评针对正在评审的 3D Slicer License 而非 Rosen 已获批的 AFL，并建议此类讨论应转到 license-discuss 列表；重申这类守法条款虽多余但本身并不违反 OSD。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "support",
-          "point": "Clarifies the comment was about the license pending approval, not Larry's own license; thinks such clauses are unnecessary though unnecessary clauses do not themselves violate OSD; suggests Larry's license discussion belongs on license-discuss rather than license-review."
+          "point": "Clarifies his criticism targets the 3D Slicer License under review, not Rosen's already-approved AFL, and suggests such discussion belongs on license-discuss; reiterates that such law-compliance clauses are unnecessary but not themselves OSD violations."
         },
         {
           "date": "2021-06-08",
@@ -29474,12 +29474,12 @@
           "subject": "[License-discuss] [License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2021-June/021948.html",
           "sender": "Lawrence Rosen",
-          "snippet": "If you believe that the language in the 3D Slicer license doesn't terminate the license I'd be interested in hearing how you parse the sentence. For your reference, the sentence is: \"You further agree",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues that requiring licensees to \"agree\" to comply with the law turns the 3D Slicer license into a bilateral contract, and agrees such a requirement goes beyond the OSD — though government, not the licensor, penalizes unlawful use, making the clause surplusage.",
+          "point_zh": "认为 3D Slicer License 要求被许可人\"同意\"守法，使其成为双边合同，并认同该要求超出了 OSD；不过违法使用本就会受政府处罚，该条款可能是多余的。",
+          "sentiment": "oppose",
           "source": "license-discuss",
           "position": "support",
-          "point": "Analyzes the 3D Slicer license's language as creating a bilateral contract that imposes conditions beyond the open source definition."
+          "point": "Argues that requiring licensees to \"agree\" to comply with the law turns the 3D Slicer license into a bilateral contract, and agrees such a requirement goes beyond the OSD — though government, not the licensor, penalizes unlawful use, making the clause surplusage."
         },
         {
           "date": "2021-06-09",
@@ -29487,12 +29487,12 @@
           "subject": "[License-discuss] [License-review] request for review of the 3D Slicer License",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2021-June/021949.html",
           "sender": "Lawrence Rosen",
-          "snippet": "[Returning this to license-discuss@] Pam, you are misreading my response. If the word “agree” turns this license into a bilateral license, even then the provision is enforceable and the license is co",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues that even if \"agree\" makes the 3D Slicer license a bilateral contract, the provision is enforceable and the license contrary to the OSD, treating the licensee's agreement as an enforceable condition; laments that such license debates are a waste of energy.",
+          "point_zh": "认为即使\"同意\"使 3D Slicer License 成为双边合同，该条款仍可执行且该许可证违反 OSD，被许可人的同意构成可执行的条件；并感叹此类许可证争论是浪费精力。",
+          "sentiment": "oppose",
           "source": "license-discuss",
           "position": "support",
-          "point": "Argues that requiring a licensee's agreement creates an enforceable condition, making the 3D Slicer license a bilateral contract."
+          "point": "Argues that even if \"agree\" makes the 3D Slicer license a bilateral contract, the provision is enforceable and the license contrary to the OSD, treating the licensee's agreement as an enforceable condition; laments that such license debates are a waste of energy."
         },
         {
           "date": "2021-06-09",
@@ -34178,12 +34178,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.3 (C-FSL v1.3)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-January/003894.html",
           "sender": "Carlo Piana",
-          "snippet": "Elmar, all, on a quick reading, I see there is a substantial effort to overcome most of the criticism to the original version of the license. of the criticism to the original version of the license.",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Reviews C-FSL v1.3, acknowledging substantial effort to address prior criticism, but argues the substance is unchanged: the power to authorize relicensing and appoint new Original Authors remains with the Original Authors rather than copyright holders, so the criticism stands.",
+          "point_zh": "审阅 C-FSL v1.3:肯定修订的努力,但认为实质未变——再授权及增补 Original Authors 的权力仍归 Original Authors 而非版权持有者,批评依然成立。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "Elmar, all,\n\non a quick reading, I see there is a substantial effort to overcome most of the criticism to the original version of the license.\nof the criticism to the original version of the license.\n"
+          "point": "Reviews C-FSL v1.3, acknowledging substantial effort to address prior criticism, but argues the substance is unchanged: the power to authorize relicensing and appoint new Original Authors remains with the Original Authors rather than copyright holders, so the criticism stands."
         },
         {
           "date": "2019-01-08",
@@ -34217,12 +34217,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.3 (C-FSL v1.3)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-January/003897.html",
           "sender": "Brendan Hickey",
-          "snippet": "My understanding from last time is as follows: you believe that contributors will decline to sign a CLA with you so you want to simulate a CLA with a license. Your solution vests different authors wit",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues the license simulates a CLA and vests different authors with varying rights, so it will never conform to the OSD; controlling forks and privileging certain authors is at odds with free software. Also notes clause 7.5 lets a forker combine CFSL code with a larger body and convert the entire work.",
+          "point_zh": "认为该许可证模拟 CLA 且赋予作者不同权利,永不符合 OSD;控制 fork、特权化部分作者与自由软件相悖,应称专有而非开源;并指出 7.5 条可被滥用以整体转换代码。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "neutral",
-          "point": "My understanding from last time is as follows: you believe that\ncontributors will decline to sign a CLA with you so you want to simulate a\nCLA with a license. Your solution vests different authors wit"
+          "point": "Argues the license simulates a CLA and vests different authors with varying rights, so it will never conform to the OSD; controlling forks and privileging certain authors is at odds with free software. Also notes clause 7.5 lets a forker combine CFSL code with a larger body and convert the entire work."
         },
         {
           "date": "2019-01-09",
@@ -35871,12 +35871,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-September/003535.html",
           "sender": "Bruce Perens",
-          "snippet": "I don't really have a problem with OSI stating that approved licenses are not precedential. But McCoy, none of these submitted licenses are doing *exactly* what the others are, so in general the argum",
-          "point_zh": null,
+          "snippet": "Concedes OSI can state approvals are not precedential, but argues precedent-based objections are a stretch, that approver latitude remains necessary to prevent gaming of the OSD (as with case law), and that critics should draw up their own rules under another name.",
+          "point_zh": "承认 OSI 可以声明已批准的许可证不设先例，但认为各许可证各不相同、先例论据牵强，审批者的裁量对防止钻 OSD 空子仍然必要；建议批评者自定规则并另用名目。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "oppose",
-          "point": "I don't really have a problem with OSI stating that approved licenses are\nnot precedential. But McCoy, none of these submitted licenses are doing\n*exactly* what the others are, so in general the argum"
+          "point": "Concedes OSI can state approvals are not precedential, but argues precedent-based objections are a stretch, that approver latitude remains necessary to prevent gaming of the OSD (as with case law), and that critics should draw up their own rules under another name."
         },
         {
           "date": "2018-09-28",
@@ -35910,12 +35910,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-September/003538.html",
           "sender": "Bruce Perens",
-          "snippet": "It's taken from a Monty Python sketch and sure, it's pejorative. Over the 20 year history of Open Source we have learned the value of legal practitioners, perhaps you shouldn't complain :-) He's hand",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues the root problem of the license is drafting without a lawyer — no longer acceptable practice; contends FSF's stance on private modifications is not grounded in the Four Freedoms and is wrong for the cloud era; agrees identifying developers and copyright holders is permissible.",
+          "point_zh": "认为该许可证的根本问题是未经律师起草——这在今天已不可行；指出 FSF 关于私有修改的立场缺乏四大自由依据，在云时代如此处理亦属错误；认同标识开发者与版权人的要求。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "support",
-          "point": "It's taken from a Monty Python sketch and sure, it's pejorative. Over the\n20 year history of Open Source we have learned the value of legal\npractitioners, perhaps you shouldn't complain :-)\n\nHe's hand"
+          "point": "Argues the root problem of the license is drafting without a lawyer — no longer acceptable practice; contends FSF's stance on private modifications is not grounded in the Four Freedoms and is wrong for the cloud era; agrees identifying developers and copyright holders is permissible."
         },
         {
           "date": "2018-09-28",
@@ -36248,12 +36248,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003566.html",
           "sender": "Nigel T",
-          "snippet": "I wasn't going to bring it up but there is an approved special purpose license that may meet your needs. UCL v1.0 (https://opensource.org/licenses/UCL-1.0) is a copyleft license based on Laurence Ros",
-          "point_zh": null,
+          "snippet": "Points the submitter to the OSI-approved UCL v1.0, an OSL-derived copyleft license whose requirement that derivatives be dual-licensed under UCL and Apache 2.0+ gives a CLA-like effect; offers to repair the license's broken web page formatting.",
+          "point_zh": "向提交者推荐已获批准的 UCL v1.0：基于 OSL 的著佐权许可证，要求衍生作品以 UCL 和 Apache 2.0+ 双许可，效果近似 CLA；并表示愿帮忙修复该许可证网页的排版。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "oppose",
-          "point": "I wasn't going to bring it up but there is an approved special purpose\nlicense that may meet your needs.\n\nUCL v1.0 (https://opensource.org/licenses/UCL-1.0) is a copyleft license\nbased on Laurence Ros"
+          "point": "Points the submitter to the OSI-approved UCL v1.0, an OSL-derived copyleft license whose requirement that derivatives be dual-licensed under UCL and Apache 2.0+ gives a CLA-like effect; offers to repair the license's broken web page formatting."
         },
         {
           "date": "2018-10-03",
@@ -36443,12 +36443,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003595.html",
           "sender": "Simon Phipps",
-          "snippet": "For the list's convenience, and in the absence of similar diligence by the author, I have attempted to accumulate the open issues. My apologies if I have missed or misunderstood any. They would probab",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Compiles a digest of unresolved reviewer objections to C-FSL 1.1 — discrimination under OSD #5, fork prevention under OSD #3, vague drafting — and says a revised license is the minimum needed; would not vote to approve as it stands.",
+          "point_zh": "汇总 C-FSL 1.1 的各项未决异议（OSD #5 歧视、OSD #3 防分叉、措辞含糊等），称至少须先修订草案解决起草问题；就现状而言不会投票批准。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "For the list's convenience, and in the absence of similar diligence by the\nauthor, I have attempted to accumulate the open issues. My apologies if I\nhave missed or misunderstood any. They would probab"
+          "point": "Compiles a digest of unresolved reviewer objections to C-FSL 1.1 — discrimination under OSD #5, fork prevention under OSD #3, vague drafting — and says a revised license is the minimum needed; would not vote to approve as it stands."
         },
         {
           "date": "2018-10-15",
@@ -36456,12 +36456,12 @@
           "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-October/003596.html",
           "sender": "Smith, McCoy",
-          "snippet": "Not to toot my horn but I had a fairly lengthy list of issues for this one: Response by author one of those issues: Sent: Monday, October 15, 2018 2:20 PM To: estellnb at elstel.org Subject: Re: [Li",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Notes having previously compiled a lengthy list of issues with C-FSL 1.1, and reposts the reviewers' issue digest showing the author's responses leave the drafting, OSD #3 and OSD #5 problems unresolved.",
+          "point_zh": "表示自己此前已就 C-FSL 1.1 提出一长串问题，并转载评审人汇总的异议清单，其中起草及 OSD #3、OSD #5 等问题仍未解决。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "Not to toot my horn but I had a fairly lengthy list of issues for this one:\n\nResponse by author one of those issues:\n\nSent: Monday, October 15, 2018 2:20 PM\nTo: estellnb at elstel.org\nSubject: Re: [Li"
+          "point": "Notes having previously compiled a lengthy list of issues with C-FSL 1.1, and reposts the reviewers' issue digest showing the author's responses leave the drafting, OSD #3 and OSD #5 problems unresolved."
         },
         {
           "date": "2018-10-15",
@@ -44039,7 +44039,7 @@
           "subject": "[License-review] Request for approval by license steward:\tTidepool Open Access to Health Data Software License",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2013-October/001998.html",
           "sender": "Lawrence Rosen",
-          "snippet": "Questions whether a license is needed at all since patients are already entitled to their health data in the US, warns the license cannot guarantee the confidentiality protections HIPAA demands, and suggests strict open source software principles may be inappropriate for health data on privacy grounds.",
+          "snippet": "Questions whether a license is needed at all since US patients are already entitled to their health data, warns it cannot guarantee the confidentiality HIPAA demands, and argues strict open source principles may be inappropriate for health data on privacy grounds.",
           "point_zh": "质疑是否根本需要许可——美国患者本就有权获得自身健康数据；警告该许可无法保证HIPAA所要求的保密性；并认为基于隐私考虑，严格的开源原则可能不适合健康数据。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -48532,7 +48532,7 @@
           "subject": "For Approval: Transitive Grace Period Public Licence, v1.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2009-February/000570.html",
           "sender": "Michael Tiemann",
-          "snippet": "Argues commercially controlled license-switching devices need no OSI approval and may meet the OSD's letter while violating open source's spirit, illustrating with a made-up 'Arbitrary and Capricious License'; TGPPL's versioning problems remain, so the elegant solution is to pick a position and stick with it.",
+          "snippet": "Commercially controlled license-switching devices need no OSI approval and can meet the OSD's letter while violating open source's spirit. TGPPL's versioning problems remain, so the elegant solution is to pick a position and stick with it.",
           "point_zh": "商业控制的许可证切换装置无需OSI批准，可能符合OSD字面却违背开源精神。TGPPL的版本问题依旧，优雅的解决办法是选好立场并坚持到底。",
           "sentiment": "oppose",
           "source": "license-review",
@@ -60480,12 +60480,12 @@
           "subject": "For Approval: NASA Open Source Agreement Version 1.1",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-February/007716.html",
           "sender": "Richard Schilling",
-          "snippet": "O.K. - I'm going to rant. Nothing personal here Bryan, but NASA put some good time into this so I'm going to pick apart your resonse as a non-NASA person. Specifically, you state some views that are",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Defends the NASA license's liability, indemnification, and venue provisions against criticism, arguing its lawyer-drafted wording may be the best that money can buy and that 'armchair lawyer' nitpicking degrades the discussion.",
+          "point_zh": "为 NASA 许可证的责任、赔偿与管辖条款辩护，称其由专业律师起草、堪称最佳，并批评“扶手椅律师”式挑剔有损讨论价值。",
+          "sentiment": "support",
           "source": "license-discuss",
           "position": "oppose",
-          "point": "O.K. - I'm going to rant.  Nothing personal here Bryan, but NASA put\nsome good time into this so I'm going to pick apart your resonse as a\nnon-NASA person.  Specifically, you state some views that are"
+          "point": "Defends the NASA license's liability, indemnification, and venue provisions against criticism, arguing its lawyer-drafted wording may be the best that money can buy and that 'armchair lawyer' nitpicking degrades the discussion."
         },
         {
           "date": "2004-02-13",
@@ -60506,12 +60506,12 @@
           "subject": "For Approval: NASA Open Source Agreement Version 1.1",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-February/007719.html",
           "sender": "Ben Reser",
-          "snippet": "First of all general comments. I see real problems for this license in cases where the software was written entirely by civil servents. In such a case it can't be a bare license. It'd have to be a",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Raises several concerns about the license: software written by civil servants would form a contract rather than a bare license, the missing mere-aggregation exception violates OSD section 9, and the sublicense termination clause discriminates based on whom one received the software from.",
+          "point_zh": "对该许可证提出多项关切：公务员编写的软件只能构成合同而非单纯许可，缺少聚合例外违反 OSD 第 9 条，再许可终止条款按软件来源歧视接收者。",
+          "sentiment": "oppose",
           "source": "license-discuss",
           "position": "support",
-          "point": "First of all general comments.  I see real problems for this license in\ncases where the software was written entirely by civil servents.  In\nsuch a case it can't be a bare license.  It'd have to be a "
+          "point": "Raises several concerns about the license: software written by civil servants would form a contract rather than a bare license, the missing mere-aggregation exception violates OSD section 9, and the sublicense termination clause discriminates based on whom one received the software from."
         },
         {
           "date": "2004-02-13",
@@ -60532,12 +60532,12 @@
           "subject": "For Approval: NASA Open Source Agreement Version 1.1",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-February/007723.html",
           "sender": "Richard Schilling",
-          "snippet": "I'm just saying that a stance that NASA, a US government agency with \"deep pockets\", should remove imdenification wording is a haneous idea. And in general bashing the license on non-licensing issues",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Maintains that asking NASA to remove its indemnification wording is a heinous idea, that bashing the license on non-licensing issues harms open source development, and that tracking use per se does not make a license non-open-source.",
+          "point_zh": "坚持要求 NASA 删除赔偿条款是极糟的主意，以非许可问题抨击该许可证有损开源发展，且使用追踪本身并不会使许可证失去开源性质。",
+          "sentiment": "support",
           "source": "license-discuss",
           "position": "neutral",
-          "point": "I'm just saying that a stance that NASA, a US government agency with\n\"deep pockets\", should remove imdenification wording is a haneous\nidea.  And in general bashing the license on non-licensing issues"
+          "point": "Maintains that asking NASA to remove its indemnification wording is a heinous idea, that bashing the license on non-licensing issues harms open source development, and that tracking use per se does not make a license non-open-source."
         },
         {
           "date": "2004-02-13",
@@ -60545,12 +60545,12 @@
           "subject": "For Approval: NASA Open Source Agreement Version 1.1",
           "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2004-February/007724.html",
           "sender": "Ben Reser",
-          "snippet": "You mean like Larry? From what I understand he practices law in this very subject matter. I find it odd that you keep going on about legitimate legal analysis. Why don't you provide your analysis a",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Rebuts the license's defense, arguing that OSD compliance matters regardless of the opportunity it offers: registration requirements could impede free distribution, and NASA should justify its one-sided indemnification clause that omits contributors.",
+          "point_zh": "反驳对该许可证的辩护，称无论机会多好都必须符合 OSD：注册要求可能妨碍自由分发，NASA 应说明其不含贡献者的单方赔偿条款的必要性。",
+          "sentiment": "oppose",
           "source": "license-discuss",
           "position": "neutral",
-          "point": "You mean like Larry?  From what I understand he practices law in this\nvery subject matter.  I find it odd that you keep going on about\nlegitimate legal analysis.\n\nWhy don't you provide your analysis a"
+          "point": "Rebuts the license's defense, arguing that OSD compliance matters regardless of the opportunity it offers: registration requirements could impede free distribution, and NASA should justify its one-sided indemnification clause that omits contributors."
         },
         {
           "date": "2004-02-13",
@@ -70337,12 +70337,12 @@
           "subject": "[License-review] Approval: OIN License (Open Innovation License)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/005020.html",
           "sender": "Andrew Nassief",
-          "snippet": "Hi, the usage of difficult words doesn't break OSD standards and that premise doesn't seem to make sense for me. Also, I don't know of many cultures that require you to agree to create technology for",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues that difficult wording doesn't violate the OSD and that the non-binding clause prevents cultural conflicts; contends rejecting the license could itself violate OSD clause 6 (No Discrimination Against Fields of Endeavor) and promises a license-by-license analysis soon.",
+          "point_zh": "认为晦涩用词不违反 OSD,非约束性条款可避免文化冲突;主张拒绝该许可证可能违反 OSD 第 6 条(不歧视活动领域),并将很快逐条分析各许可证。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "support",
-          "point": "Hi, the usage of difficult words doesn't break OSD standards and that\npremise doesn't seem to make sense for me. Also, I don't know of many\ncultures that require you to agree to create technology for "
+          "point": "Argues that difficult wording doesn't violate the OSD and that the non-binding clause prevents cultural conflicts; contends rejecting the license could itself violate OSD clause 6 (No Discrimination Against Fields of Endeavor) and promises a license-by-license analysis soon."
         },
         {
           "date": "2020-12-27",
@@ -70350,12 +70350,12 @@
           "subject": "[License-review] Approval: OIN License (Open Innovation License)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/005021.html",
           "sender": "Thorsten Glaser",
-          "snippet": "Of course it doesn’t (but some legislations require user agreements to be written in comprehensible language), merely pointing out that this does not seem to be well thought-out / written. Don’t twis",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues the license's morally binding requirements (e.g. promoting 'technology for the betterment of humanity') exceed the scope of the licensed work, fail OSD compliance and the C.D. freeness test, and formally objects to its approval.",
+          "point_zh": "认为许可证中“betterment of humanity”等要求超出被许可工作的范围，不符合 OSD 及 C.D. freeness test，并正式反对其通过。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "neutral",
-          "point": "Of course it doesn’t (but some legislations require user agreements\nto be written in comprehensible language), merely pointing out that\nthis does not seem to be well thought-out / written.\n\nDon’t twis"
+          "point": "Argues the license's morally binding requirements (e.g. promoting 'technology for the betterment of humanity') exceed the scope of the licensed work, fail OSD compliance and the C.D. freeness test, and formally objects to its approval."
         },
         {
           "date": "2020-12-27",
@@ -70363,12 +70363,12 @@
           "subject": "[License-review] Approval: OIN License (Open Innovation License)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-December/005022.html",
           "sender": "Andrew Nassief",
-          "snippet": "Hi, the Chinese government monitors all network packets of people's IP included distributed software. Lots of open source software is specifically illegal in a communist regime and one would state tha",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues that even the OSD itself would not pass a Chinese dissent test and that requiring technology not be intentionally built to harm humanity is a very low moral bar; laments being vetoed before his analysis and announces an upcoming license-by-license analysis.",
+          "point_zh": "认为连 OSD 本身也通不过“中国异见测试”，要求技术并非有意伤害人类已是极低的道德门槛；抱怨分析未发表即遭否决，并预告即将提供逐项许可证分析。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "oppose",
-          "point": "Hi, the Chinese government monitors all network packets of people's IP\nincluded distributed software. Lots of open source software is specifically\nillegal in a communist regime and one would state tha"
+          "point": "Argues that even the OSD itself would not pass a Chinese dissent test and that requiring technology not be intentionally built to harm humanity is a very low moral bar; laments being vetoed before his analysis and announces an upcoming license-by-license analysis."
         },
         {
           "date": "2020-12-27",
@@ -74974,7 +74974,7 @@
           "subject": "[License-review] Approval: Server Side Public License, Version 2 (SSPL v2)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-November/003836.html",
           "sender": "Eliot Horowitz",
-          "snippet": "Submits a revised Server Side Public License v2 in lieu of v1.0, with significant Section 13 changes: the source-sharing condition now excludes Major Components and System Libraries and permits releasing Service Source Code under OSI or FSF approved licenses, addressing feasibility and OSD 9 concerns.",
+          "snippet": "Submits a revised Server Side Public License v2 in lieu of v1.0: Section 13 now excludes Major Components and System Libraries and allows Service Source Code under OSI/FSF approved licenses, addressing feasibility and OSD 9 concerns.",
           "point_zh": "提交修订版 Server Side Public License v2 取代 v1.0：第13条改为排除 Major Components 与 System Libraries，允许以 OSI/FSF 认可许可证发布 Service Source Code，回应可行性与 OSD 9 疑虑。",
           "sentiment": "neutral",
           "source": "license-review",
@@ -75720,7 +75720,7 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:1afc2faeb31e497f5bfaf94b8484032d2a6a5c824b285c463bda23b4be1e344e",
+        "input_hash": "sha256:2522b19ab180f69f9fa389030ed0f1f2a5d6b20d2432bbd1da0f3044ca1b80c9",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
@@ -77046,7 +77046,7 @@
           "subject": "[License-review] Approval: Server Side Public License, Version 1 (SSPL v1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2018-November/003800.html",
           "sender": "Kyle Mitchell",
-          "snippet": "Posts a systematic review of OSD copyleft criteria, concluding SSPLv1 conforms to the Definition, while arguing OSD leaves copyleft limits undefined and OSI should transparently state any additional criteria; holds one substantial reservation about section 13's \"offering ... primary purpose\" language.",
+          "snippet": "Concludes SSPLv1 conforms to the OSD, arguing copyleft limits are left undefined and OSI should state any additional criteria transparently; holds one substantial reservation about section 13's \"offering ... primary purpose\" language.",
           "point_zh": "SSPLv1符合OSD,但其copyleft限制未界定,OSI应透明说明额外标准;对第13条“offering ... primary purpose”措辞持重大保留。",
           "sentiment": "support",
           "source": "license-review",
@@ -84883,12 +84883,12 @@
           "subject": "[License-review] For approval: The Cryptographic Autonomy License (Beta 2)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-August/004381.html",
           "sender": "Pamela Chestek",
-          "snippet": "Combining your two emails. and You have described \"distributing.\" What, then, do \"displaying,\" \"communicating,\" or \"making perceptible\" \"any part, aspect, or element of the Work\" mean if they don't",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Presses that 'displaying' or 'making perceptible' the Work under CAL would cover a mere red square appearing on a website, citing Copyright Compendium § 721.10(A) that programs and their screen displays are one work; does not dispute that copyleft could reach new API implementations under CAL or GPL.",
+          "point_zh": "坚持认为在 CAL 下“展示”或“使作品可被感知”涵盖网页上出现红方块的情形，援引 Copyright Compendium § 721.10(A)（程序与其屏幕显示为同一作品）；且不否认 copyleft 可依 CAL 或 GPL 延伸至新的 API 实现。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "neutral",
-          "point": "Combining your two emails.\n\nand\n\nYou have described \"distributing.\" What, then, do \"displaying,\"\n\"communicating,\" or \"making perceptible\" \"any part, aspect, or element\nof the Work\" mean if they don't "
+          "point": "Presses that 'displaying' or 'making perceptible' the Work under CAL would cover a mere red square appearing on a website, citing Copyright Compendium § 721.10(A) that programs and their screen displays are one work; does not dispute that copyleft could reach new API implementations under CAL or GPL."
         },
         {
           "date": "2019-08-26",
@@ -117878,12 +117878,12 @@
           "subject": "[License-review] For Legacy Approval: LBNL BSD",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-May/004169.html",
           "sender": "Sebastian Ainslie",
-          "snippet": "The license: Copyright (c) XXXX, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy",
-          "point_zh": null,
+          "snippet": "Posts the full text of the Lawrence Berkeley National Laboratory BSD-style license, including its redistribution conditions and the Enhancements grant-back clause, for review discussion.",
+          "point_zh": "贴出 Lawrence Berkeley National Laboratory BSD 风格许可证的完整文本（含 Enhancements 回授条款），供评审讨论。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "support",
-          "point": "The license:\n\nCopyright (c) XXXX, The Regents of the University of California, through\nLawrence Berkeley National Laboratory (subject to receipt of any required\napprovals from the U.S. Dept. of Energy"
+          "point": "Posts the full text of the Lawrence Berkeley National Laboratory BSD-style license, including its redistribution conditions and the Enhancements grant-back clause, for review discussion."
         },
         {
           "date": "2019-05-17",
@@ -118023,7 +118023,7 @@
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:23758c9e90f06198bdf651fad964c0856f1d3269dd7046d45215aca91271c489",
+        "input_hash": "sha256:c377e547db1752fe8d092936604fb09be3fd76089ca33ad7ec45d97ee491953c",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
@@ -177125,9 +177125,9 @@
           "sender": "Russell McOrmond",
           "snippet": "On Wed, Aug 21, 2019 at 3:39 PM Christopher Sean Morrison via License-discuss <license-discuss at lists.opensource.org> wrote: > > You are trying to state copyright law in reverse",
           "source": "license-discuss",
-          "point": " On Wed, Aug 21, 2019 at 3:39 PM Christopher Sean Morrison via License-discuss <license-discuss at lists.opensource.org> wrote: > > You are trying to state copyright law in reverse",
-          "point_zh": null,
-          "sentiment": "neutral"
+          "point": "Argues software licensing is a matter of copyright, patent and contract law offering only a limited bundle of rights, and that using license terms to regulate cloud providers or protect employees falls outside the proper jurisdiction of license agreements.",
+          "point_zh": "认为软件许可属于著作权、专利和合同法范畴，仅授予有限权利；利用许可条款监管云服务商或保护雇员超出了许可协议的适用范围。",
+          "sentiment": "oppose"
         },
         {
           "date": "2019-08-21",
@@ -177137,9 +177137,9 @@
           "sender": "Russell McOrmond",
           "snippet": "On Wed, Aug 21, 2019 at 2:16 PM Howard Chu <hyc at openldap.org> wrote: > Fwiw, most of the free software I released in the 1980s, before GPL > existed, had the clause > \"You are",
           "source": "license-discuss",
-          "point": " On Wed, Aug 21, 2019 at 2:16 PM Howard Chu <hyc at openldap.org> wrote: > Fwiw, most of the free software I released in the 1980s, before GPL > existed, had the clause > \"You are ",
-          "point_zh": null,
-          "sentiment": "neutral"
+          "point": "Argues that forced contributions — requiring private modifications to be made public — are contrary to the FSF's four freedoms and the OSI's OSD, though this is not yet a settled discussion; freedom 0 places no obligations on pure software use.",
+          "point_zh": "认为强制贡献——要求私有修改也须公开——违背 FSF 四大自由与 OSD,但此事尚无定论;freedom 0 不对纯软件使用施加义务。",
+          "sentiment": "oppose"
         },
         {
           "date": "2019-08-21",
@@ -177173,9 +177173,9 @@
           "sender": "Lawrence Rosen",
           "snippet": "Russell, please clarify something for me about your opinion about copyright policy: Is any license whatsoever required in order for a private party to copy or modify a work of sof",
           "source": "license-discuss",
-          "point": " Russell, please clarify something for me about your opinion about copyright policy: Is any license whatsoever required in order for a private party to copy or modify a work of sof",
-          "point_zh": null,
-          "sentiment": "neutral"
+          "point": "Asks Russell to clarify whether any license is required for a private party to copy or modify software for private purposes, asserting software is copyrightable under US law and Berne, and questioning how anyone could avoid a license for private uses.",
+          "point_zh": "请 Russell 澄清：私人复制、修改软件是否需要任何许可证；指出软件在美国法律及《伯尔尼公约》下受版权保护，并质疑私人使用如何能避开许可证。",
+          "sentiment": "question"
         },
         {
           "date": "2019-08-21",
@@ -177209,9 +177209,9 @@
           "sender": "Christopher Sean Morrison",
           "snippet": "> > You are trying to state copyright law in reverse, presuming the right to control culture and science is natural and any limitations on that (such as the protection of privacy",
           "source": "license-discuss",
-          "point": " > > You are trying to state copyright law in reverse, presuming the right to control culture and science is natural and any limitations on that (such as the protection of privacy ",
-          "point_zh": null,
-          "sentiment": "neutral"
+          "point": "Pushes back that the lengthy philosophical reply reads more as soapboxing than discourse, and reasserts that imposing terms based on creator rights is not obviously illegitimate — attempts to use licensing to keep code open are entirely consistent with the OSD.",
+          "point_zh": "批评对方冗长的哲学式回复更像说教而非讨论，并重申基于创作者权利施加条款的立场并非明显不合法，用许可保持代码开放与 OSD 完全一致。",
+          "sentiment": "support"
         },
         {
           "date": "2019-08-22",
@@ -177221,9 +177221,9 @@
           "sender": "Russell McOrmond",
           "snippet": "On Wed, Aug 21, 2019 at 8:39 PM Lawrence Rosen <lrosen at rosenlaw.com> wrote: > Russell, please clarify something for me about your opinion about > copyright policy: Is any licen",
           "source": "license-discuss",
-          "point": " On Wed, Aug 21, 2019 at 8:39 PM Lawrence Rosen <lrosen at rosenlaw.com> wrote: > Russell, please clarify something for me about your opinion about > copyright policy: Is any licen",
-          "point_zh": null,
-          "sentiment": "neutral"
+          "point": "Argues whether private modification requires permission depends on jurisdiction, purpose, and source; as a matter of policy the FSF and OSI should reject licenses that regulate private modification, and lists ways to avoid such licenses.",
+          "point_zh": "认为私人修改是否需要许可取决于辖区、用途和来源；从政策角度 FSF 和 OSI 应拒绝规范私人修改的许可证，并列举规避此类许可证的方法。",
+          "sentiment": "oppose"
         },
         {
           "date": "2019-08-22",
@@ -177233,8 +177233,8 @@
           "sender": "Lawrence Rosen",
           "snippet": "Russell, what you said is not true in the United States. I dare not speak to Canadian law. Russell wrote: * What is the purpose of the copying or modification of the work. If the",
           "source": "license-discuss",
-          "point": " Russell, what you said is not true in the United States. I dare not speak to Canadian law. Russell wrote: * What is the purpose of the copying or modification of the work. If the ",
-          "point_zh": null,
+          "point": "Corrects Russell on US law: compatibility copying requires the copyright holder's permission (unlike Canada's exceptions), and backups only for holders of licensed copies per 17 USC 117; rejects amending the law or forking OSI/FSF, saying don't change our law or licenses without permission.",
+          "point_zh": "纠正Russell关于美国法的说法：兼容性复制需版权人许可，备份仅限获许可副本持有者（17 USC 117）；反对修改法律或分叉OSI/FSF，称未经许可勿改法律或许可证。",
           "sentiment": "neutral"
         },
         {
