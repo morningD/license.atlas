@@ -61,6 +61,10 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **Point 提取与回填时序**（2026-09-01）：数据链是循环依赖（v2 → extract-full-bodies → extract-all-points → manifest → build → v2），point 合并只在 build 里做，因此新邮件的 LLM point 天然滞后一轮 build；build 对 manifest 没有的 URL 用 clean_body 兜底。修复：**enrich 加载 all-points-manifest 并优先于 build 兜底**（point/point_zh/sentiment 都回填），新邮件 point 在同一轮的 enrich 阶段落位，兜底原文不再泄漏（此前 Luis Villa 006228 的 point 是 647 字符邮件原文）。
 
+**双语 point 与 UI 口径**（2026-09-02）：`extract-all-point.md` prompt 直接输出 `point_zh`（≤80 字符，许可证名/条款名保留原文）；`extract-all-points.mjs --fill-zh` 只译已有 point 的 zh（不碰 en/sentiment，不触发裁决 hash 变化），历史 650+ 条 null 已补齐。`compress-long-points.mjs` 压缩超长 point（>300 字符，超出 ~50 词风格规则）并补 zh——**压缩 point 会改裁决 hash，跑完必须走 prepare → 基线重合成 → apply → verify 闭环**。UI 口径：timeline tooltip / 详情行 / full-view 正文一律 `point`（zh 模式 `point_zh || point`）优先，snippet 仅作缺失兜底（此前英文模式直接显示 200 字符原文截断，带换行符）；build 的 snippet 兜底在 enrich 里压平空白。
+
+**语义 hash 剔除裁决输出**（2026-09-02）：`current_status`/`rule_status`/`source_status` 不进 input_hash——它们是裁决的输出（apply 会改写 v2 status），编进 hash 会形成"apply 改状态 → hash 变 → 又要求重裁"的自引用循环。副作用：hash 世代切换需一次性重合成基线批（batch-207，194 行，唯一保留的 outputs）。维护规则不变：改 point/裁决输入语义后，prepare → 按基线重合成单一批 → apply → verify → prepare 复查 requires_agent=0。
+
 **Manual-review 基线**（`scripts/tracker-manual-baseline.json`，已提交）：已知灰色地带 id 集合（84 项起步）。运行时基线内的 id 静默放行（保持现状），**基线外的新 manual-review 项硬失败**（保留旧的"新冲突留人工"安全边界）；成功运行后自动 prune 已解决的 id（如 ncsa、motosoto 在 2026-08-23 轮离开 manual review）。人工确认新冲突后跑 `npm run update:tracker -- --rebaseline` 采纳新集合。`--strict-manual-pending` 恢复最严格的"任何 blocking 即失败"模式。
 
 **KB 侧 schema 矫正**（`KB/scripts/run-status-adjudication.mjs` 的 `validateOutput`）：模型输出 conflicts 非空但 `requires_manual_review≠true` 时直接矫正为 true（模型自己的规则就要求 conflicts ⇒ manual review，属输出纪律问题而非语义分歧），不再依赖重试碰运气。顺带补齐 native structured-output 路径缺失的 `schema_version` 字段。
