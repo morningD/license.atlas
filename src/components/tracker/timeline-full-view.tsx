@@ -36,7 +36,7 @@ export function TimelineFullView({
   participants: TrackerParticipant[];
   onOpenText: (textId: string | null) => void;
 }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const [selected, setSelected] = useState<number | null>(null);
   const navRefs = useRef<Record<number, HTMLButtonElement | null>>({});
   // sender name (normalized) → role key, from the participants list.
@@ -206,7 +206,7 @@ export function TimelineFullView({
                 ) : (
                   <div>
                     <p className="mb-2 inline-block rounded border border-dashed border-zinc-300 px-1.5 py-0.5 text-[10px] text-zinc-400 dark:border-zinc-700">{t("tracker.fullNoBody")}</p>
-                    <p className="whitespace-pre-wrap text-sm text-zinc-600 dark:text-zinc-300">{selEvent.point || selEvent.snippet}</p>
+                    <p className="whitespace-pre-wrap text-sm text-zinc-600 dark:text-zinc-300">{(lang === "zh" ? selEvent.point_zh || selEvent.point : selEvent.point) || selEvent.snippet}</p>
                   </div>
                 )}
               </div>

@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "41cd03bb5a17aa46",
+    "source_hash": "b4b997e395049a80",
     "index_schema_version": 5,
-    "generated_at": "2026-09-03T00:07:47.666Z",
+    "generated_at": "2026-09-03T11:42:58.935Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -58,8 +58,8 @@
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "question",
-      "point": "Frames the patent retaliation trigger debate as a philosophical divide: an expansive fairness-based view extending the trigger to any claim type versus a patents-are-special view, asking which is the better path. Clarifies OpenMDW grants patent, copyright, trade secret, and database rights, but only patent and copyright infringement trigger termination.",
-      "point_zh": ""
+      "point": "Posits the patent retaliation trigger debate as a philosophical divide: extend the trigger to any claim type for fairness, or treat patents as special — which path is better?",
+      "point_zh": "将专利报复触发条件的争论视为哲学分歧:基于公平将触发扩展到任何主张类型,还是视专利为特殊——哪条是更好路径?"
     }
   },
   "bos-public-license-v1-0-2": {
@@ -252,7 +252,7 @@
       "subject": "[License-discuss] Linkumori Free License, Version 1.0 – Submission for OSI Review",
       "sentiment": "neutral",
       "point": "Clarifies that while the submitter does not need USA approval to use a license, they have asked for OSI approval which is a different matter.",
-      "point_zh": ""
+      "point_zh": "澄清:提交者使用许可虽无需美国批准,但其请求的是 OSI 批准,这是另一回事。"
     }
   },
   "mutualist-license-v1-2": {
@@ -1506,7 +1506,7 @@
       "subject": "[License-review] [Whonix-devel] For Approval: GPL-3+-with-whonix-additional-terms - GPLv3 with improved, legal protections as per GNU GPL version 3 section 7",
       "sentiment": "neutral",
       "point": "Withdraws the GPL-3+-with-whonix-additional-terms submission to incorporate feedback into a revised version.",
-      "point_zh": ""
+      "point_zh": "撤回 GPL-3+-with-whonix-additional-terms 提交，以便将反馈纳入修订版本中。"
     }
   },
   "twente-license": {
@@ -3429,7 +3429,7 @@
       "subject": "[License-review] License Zero Reciprocal Public License",
       "sentiment": "neutral",
       "point": "Notes that the OSI board made no decision on L0-R because the submitter appears to have effectively withdrawn the license.",
-      "point_zh": ""
+      "point_zh": "指出 OSI 董事会对 L0-R 未作决定,因为提交者实际上已撤回该许可。"
     }
   },
   "open-logistics-v1-2": {
@@ -3668,7 +3668,7 @@
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
       "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
-      "point_zh": ""
+      "point_zh": "提供历史董事会会议记录，表明此前的 PSF 许可证提交很可能被搁置或未获解决。"
     }
   },
   "python-2-0": {
@@ -3718,7 +3718,7 @@
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
       "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
-      "point_zh": ""
+      "point_zh": "提供历史董事会会议记录，表明此前的 PSF 许可证提交很可能被搁置或未获解决。"
     }
   },
   "bsd-3-clause-open-mpi": {
@@ -12650,7 +12650,7 @@
       "subject": "For Approval: ACE License",
       "sentiment": "oppose",
       "point": "Recommends withholding approval if the license cannot be revised, citing concerns that the second paragraph may violate OSD articles by allowing proprietary distribution.",
-      "point_zh": ""
+      "point_zh": "建议若许可无法修订则暂缓批准，理由是第二段可能因允许专有分发而违反 OSD 条款。"
     }
   },
   "discussion-alternate-route-open-source-license": {
@@ -12698,7 +12698,7 @@
       "subject": "Request for Open Source License Approval",
       "sentiment": "neutral",
       "point": "Explains that requiring additional terms outside the GPL makes distribution forbidden, but notes this is resolved if the FSF grants permission for a new license.",
-      "point_zh": ""
+      "point_zh": "解释在 GPL 之外要求附加条款会使分发被禁止，但若 FSF 允许新许可则此问题可解决。"
     }
   },
   "discussion-at-t-source-code-agreement": {
@@ -12746,7 +12746,7 @@
       "subject": "For Approval: AT&T Source Code Agreement",
       "sentiment": "oppose",
       "point": "Critiques the license for imposing obligations, creating circular dependencies, and violating OSD clauses 7 and 8.",
-      "point_zh": ""
+      "point_zh": "批评该许可施加义务、造成循环依赖，并违反 OSD 第 7 和第 8 条款。"
     }
   },
   "discussion-bento-poetic-license": {
@@ -12842,7 +12842,7 @@
       "subject": "For Approval: BSD License (with express disclaimer of noninfringement added)",
       "sentiment": "neutral",
       "point": "Suggests using the MIT/X11 license or the Academic Free License instead of creating a new BSD variant with a noninfringement disclaimer.",
-      "point_zh": ""
+      "point_zh": "建议使用 MIT/X11 license 或 Academic Free License，而非创建带不侵权免责声明的新 BSD 变体。"
     }
   },
   "discussion-cephira-public-license": {
@@ -12890,7 +12890,7 @@
       "subject": "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0",
       "sentiment": "neutral",
       "point": "Describes a similar time-delayed GPL concept and discusses the difficulties of enforcing eventual source code release without escrow.",
-      "point_zh": ""
+      "point_zh": "描述类似的时间延迟 GPL 概念，并讨论在无第三方托管的情况下强制最终发布源码的困难。"
     }
   },
   "discussion-compiere-open-source-license": {
@@ -12938,7 +12938,7 @@
       "subject": "Compiere Open Source License Approval",
       "sentiment": "neutral",
       "point": "Explains the desire to prevent people from using just the toolkit independently of the ERP application.",
-      "point_zh": ""
+      "point_zh": "解释了希望防止人们在 ERP 应用之外单独使用该工具包的想法。"
     }
   },
   "discussion-copyback-license": {
@@ -13034,7 +13034,7 @@
       "subject": "Proposed DanielMD License for Review.",
       "sentiment": "neutral",
       "point": "Suggests that the problem of finding a single point of contact is a perception issue not solvable through licensing.",
-      "point_zh": ""
+      "point_zh": "认为寻找单一联系点的问题是认知问题,无法通过许可证解决。"
     }
   },
   "discussion-does-this-look-like-an-open-source-license": {
@@ -13082,7 +13082,7 @@
       "subject": "[License-discuss] Does this look like an open source license?",
       "sentiment": "support",
       "point": "Endorses the idea of legally translating standard licenses into Asian languages to aid regional developers.",
-      "point_zh": ""
+      "point_zh": "赞同将标准许可证以具法律效力的方式译成亚洲语言以帮助该地区开发者的想法。"
     }
   },
   "discussion-encul": {
@@ -13130,7 +13130,7 @@
       "subject": "For approval: ENCUL",
       "sentiment": "oppose",
       "point": "Recommends the board reject the license submission but invites the submitter to try again with a revised version.",
-      "point_zh": ""
+      "point_zh": "建议委员会否决该许可证提交，但邀请提交者以修订版重新尝试。"
     }
   },
   "discussion-expiring-no-resale-license": {
@@ -13226,7 +13226,7 @@
       "subject": "new license to review",
       "sentiment": "oppose",
       "point": "Agrees that proliferation of similar licenses hurts more than helps, particularly when poorly written, while acknowledging the value of choice.",
-      "point_zh": ""
+      "point_zh": "认同相似许可证的泛滥弊大于利,尤其是写得糟糕时,同时承认选择的价值。"
     }
   },
   "discussion-free-machine-learning-license-fmll": {
@@ -13274,7 +13274,7 @@
       "subject": "[License-discuss] DIscussion on FMLL v1.0: A License for Free Artificial Intelligence",
       "sentiment": "oppose",
       "point": "Argues that private data cannot be licensed, so no special provision is needed, and notes that fine-tuning involving human judgment creates reproducibility challenges.",
-      "point_zh": ""
+      "point_zh": "认为私有数据无法被许可,因此无需特别条款,并指出涉及人工判断的微调会带来可复现性挑战。"
     }
   },
   "discussion-german-free-software-license": {
@@ -13323,7 +13323,7 @@
       "subject": "AW: For Approval: German Free Software License",
       "sentiment": "neutral",
       "point": "Asks for a list of the specific requirements state authorities must meet when licensing software.",
-      "point_zh": ""
+      "point_zh": "要求提供国家机关在软件许可时必须满足的具体要求清单。"
     }
   },
   "discussion-hal-hermes-attribution-license": {
@@ -13467,7 +13467,7 @@
       "subject": "Request for approval: IPL 1.0",
       "sentiment": "oppose",
       "point": "Criticizes the license for poor grammar and unclear legal terminology, suggesting a lawyer review it.",
-      "point_zh": ""
+      "point_zh": "批评该许可证语法不佳、法律术语不清晰，建议由律师审阅。"
     }
   },
   "discussion-jbind-license": {
@@ -13516,7 +13516,7 @@
       "subject": "Correction (was: Re: discuss: Update for Submitted License)",
       "sentiment": "oppose",
       "point": "Clarifies that the license also violates OSD item 7 by requiring commercial third parties to seek additional permission.",
-      "point_zh": ""
+      "point_zh": "澄清该许可证还因要求商业第三方寻求额外许可而违反OSD第7条。"
     }
   },
   "discussion-linisys-open-source-license-v1-4": {
@@ -13564,7 +13564,7 @@
       "subject": "For Approval: Linisys Open Source License v1.4",
       "sentiment": "neutral",
       "point": "Asks for confirmation that the previously submitted license was received.",
-      "point_zh": ""
+      "point_zh": "请求确认之前提交的许可证是否已收到。"
     }
   },
   "discussion-lucent-technologies-inc-micromonitor-software-public-license": {
@@ -13612,7 +13612,7 @@
       "subject": "LUCENT TECHNOLOGIES INC. MICROMONITOR SOFTWARE PUBLIC LICENSE AGREEMENT",
       "sentiment": "support",
       "point": "States that the license was drafted to be as close to open source as internal IP practices allow, seeing no problems for external users.",
-      "point_zh": ""
+      "point_zh": "表示该许可证在内部知识产权规范允许范围内尽量贴近开源，认为对外部用户没有问题。"
     }
   },
   "discussion-mgbopensource-proposed-license": {
@@ -13662,7 +13662,7 @@
       "subject": "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License",
       "sentiment": "neutral",
       "point": "Agrees that there is no legal difference between the Apache and MGB patent clauses, as both define the scope of infringement the licensor will tolerate.",
-      "point_zh": ""
+      "point_zh": "同意Apache与MGB专利条款在法律上没有区别，因为两者都界定了许可人愿意容忍的侵权范围。"
     }
   },
   "discussion-mindmason-license-mml": {
@@ -13710,7 +13710,7 @@
       "subject": "For Approval: mindmason license (MML)",
       "sentiment": "neutral",
       "point": "Argues the OSD cannot require the impossible, such as forcing authors to bind heirs to contract offers, claiming the license itself does not restrict redistribution.",
-      "point_zh": ""
+      "point_zh": "主张OSD不能要求不可能之事，如强迫作者让继承人受合同要约约束，并称许可证本身并未限制再分发。"
     }
   },
   "discussion-misty-foundation-license-6-3": {
@@ -13758,7 +13758,7 @@
       "subject": "[License-discuss] Approval of my own License,Misty Foundation License 6.3:",
       "sentiment": "neutral",
       "point": "Asks if there is a specific topic to discuss and notes the submitted license text appears identical to the 2-clause BSD license.",
-      "point_zh": ""
+      "point_zh": "询问是否有具体讨论主题，并指出所提交的许可证文本似乎与2-clause BSD许可证相同。"
     }
   },
   "discussion-mixed-pickles-license-1-0": {
@@ -13854,7 +13854,7 @@
       "subject": "For Approval: MLL (minimal library license)",
       "sentiment": "neutral",
       "point": "Provides a link to the canonical 3-clause BSD license on a Berkeley page noting it matches the OSI version, and clarifies the origin of the MIT license.",
-      "point_zh": ""
+      "point_zh": "提供伯克利页面上标准 3-clause BSD 许可的链接并指出其与 OSI 版本一致，同时澄清 MIT 许可的来源。"
     }
   },
   "discussion-mn-open-content-license-1-0": {
@@ -13902,7 +13902,7 @@
       "subject": "For Approval: MN Open Content License 1.0",
       "sentiment": "neutral",
       "point": "Asks what specific problem the submitter is trying to solve, noting that the AFL also does not require source to be distributed along with the work.",
-      "point_zh": ""
+      "point_zh": "询问提交者想解决什么具体问题，并指出 AFL 同样不要求源代码随作品一起分发。"
     }
   },
   "discussion-mn-open-documentation-license-1-0": {
@@ -13950,7 +13950,7 @@
       "subject": "For Approval: MN Open Documentation License 1.0",
       "sentiment": "neutral",
       "point": "Questions what source code policy would be acceptable, noting reluctance to waive the requirement for printed copies to ensure access.",
-      "point_zh": ""
+      "point_zh": "质疑何种源代码政策方可接受，并表示不愿为印刷副本豁免该要求以确保获取。"
     }
   },
   "discussion-novell-cooperative-license": {
@@ -13998,7 +13998,7 @@
       "subject": "Novell Cooperative License version 1.0",
       "sentiment": "support",
       "point": "Argues that foreign courts would normally defer to an arbitrator unless the procedure was manifestly unreliable.",
-      "point_zh": ""
+      "point_zh": "认为外国法院通常会尊重仲裁员的决定，除非仲裁程序明显不可靠。"
     }
   },
   "discussion-open-project-public-license-oppl": {
@@ -14046,7 +14046,7 @@
       "subject": "For Approval: Open Project Public License (OPPL)",
       "sentiment": "oppose",
       "point": "States the desired control is unavailable to OSI Certified Open Source Software because it attempts to control use.",
-      "point_zh": ""
+      "point_zh": "指出OSI Certified Open Source Software无法实现所期望的控制，因为其试图控制使用。"
     }
   },
   "discussion-open-realty-license": {
@@ -14094,7 +14094,7 @@
       "subject": "For Approval: Open-Realty License",
       "sentiment": "support",
       "point": "Accepts the suggested wording for the attribution section and confirms the license will be submitted.",
-      "point_zh": ""
+      "point_zh": "接受关于署名部分的建议措辞，并确认许可证将提交。"
     }
   },
   "discussion-open-source-shareware": {
@@ -14142,7 +14142,7 @@
       "subject": "Version 2. Open source shareware",
       "sentiment": "neutral",
       "point": "Notes that the DMCA may have overturned the legal precedent cited in the previous message.",
-      "point_zh": ""
+      "point_zh": "指出DMCA可能已推翻前一条消息所引用的法律先例。"
     }
   },
   "discussion-open-test-license-v1-1": {
@@ -14190,7 +14190,7 @@
       "subject": "For approval: Open Test License v1.1",
       "sentiment": "neutral",
       "point": "Reasserts that license clauses do not require constant enforcement and questions the distinction with approved licenses.",
-      "point_zh": ""
+      "point_zh": "重申许可条款无需持续执行，并质疑其与已批准许可之间的区别。"
     }
   },
   "discussion-open-tom-public-license-otpl": {
@@ -14239,7 +14239,7 @@
       "subject": "[License-discuss] [NEW LICENSE] OTPL (OPEN TOM PUBLIC LICENSE) v1.0",
       "sentiment": "oppose",
       "point": "Questions whether an existing license could be used instead, argues the license is actually soft copyleft rather than permissive, and notes the source distribution requirement seems outdated.",
-      "point_zh": ""
+      "point_zh": "质疑能否改用现有许可证，认为该许可证实为弱 copyleft 而非宽松型，并指出源代码分发要求似乎过时。"
     }
   },
   "discussion-open-vendor-public-license-ovpl": {
@@ -14288,7 +14288,7 @@
       "subject": "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)",
       "sentiment": "oppose",
       "point": "Reiterates the -1 vote, arguing that the mandatory license-back to the Initial Developer constitutes coercion inappropriate for an open source license.",
-      "point_zh": ""
+      "point_zh": "重申-1票，认为强制向Initial Developer许可回授构成胁迫，不适合开源许可证。"
     }
   },
   "discussion-opendesk-com-public-source-license": {
@@ -14336,7 +14336,7 @@
       "subject": "Draft 1 of the OpenDesk.com Public Source License",
       "sentiment": "neutral",
       "point": "Asks who is responsible for the OpenDesk license and how to contact them.",
-      "point_zh": ""
+      "point_zh": "询问OpenDesk许可证的负责人是谁以及如何联系。"
     }
   },
   "discussion-owl": {
@@ -14433,7 +14433,7 @@
       "subject": "RESUBMISSION FOR APPROVAL: OZPLB Licence",
       "sentiment": "neutral",
       "point": "Submits the amended OZPLB license for OSI approval, detailing changes that allow for dual licensing based on the country of the institution to address Australian trade laws.",
-      "point_zh": ""
+      "point_zh": "提交修订后的OZPLB许可证供OSI批准，详述允许基于机构所在国进行双重许可的修改，以应对澳大利亚贸易法。"
     }
   },
   "discussion-panda3d-public-license-version-1-0": {
@@ -14481,7 +14481,7 @@
       "subject": "For Approval: Panda3D Public License Version 1.0",
       "sentiment": "neutral",
       "point": "Acknowledges the feedback received on the Panda3D license but states that getting a new Disney lawyer to review and implement changes is taking time.",
-      "point_zh": ""
+      "point_zh": "感谢对Panda3D许可证的反馈，但表示安排新的Disney律师审阅并落实修改需要时间。"
     }
   },
   "discussion-privative-friendly-source-shared-license-pfssl-v1-0": {
@@ -14529,7 +14529,7 @@
       "subject": "[License-discuss] Submission of PFSSL v1.0 for OSI Review and Approval",
       "sentiment": "neutral",
       "point": "Clarifies that the PFSSL is not directly based on a single license but is inspired by MIT, MPL, GPL, and Apache, with a focus on user-friendly language.",
-      "point_zh": ""
+      "point_zh": "澄清PFSSL并非直接基于单一许可证，而是受MIT、MPL、GPL和Apache启发，注重易用的语言。"
     }
   },
   "discussion-public-security-interrest-psi-license": {
@@ -14577,7 +14577,7 @@
       "subject": "For Approval: Public Security Interrest \"PSI\" License",
       "sentiment": "neutral",
       "point": "Argues that the security described can be achieved by an agreement on the specific software version used in a transaction, rather than through the GPL.",
-      "point_zh": ""
+      "point_zh": "认为所述安全性可通过就交易中使用的具体软件版本达成协议来实现,而非通过GPL。"
     }
   },
   "discussion-public-software-license": {
@@ -14675,7 +14675,7 @@
       "subject": "[License-discuss] Short permissive no attribution required open source license",
       "sentiment": "neutral",
       "point": "Suggests looking at the Free Public License, which is currently under review, as a potential fit for a short permissive license.",
-      "point_zh": ""
+      "point_zh": "建议关注正在审查中的Free Public License,它可能适合作为简短的宽松许可。"
     }
   },
   "discussion-simplified-artistic-license": {
@@ -14724,7 +14724,7 @@
       "subject": "Formal Request for Approval: Simplified Artistic License",
       "sentiment": "neutral",
       "point": "Posts a significantly revised version of the Simplified Artistic License with clarifications and added protections for Board review.",
-      "point_zh": ""
+      "point_zh": "发布大幅修订的Simplified Artistic License版本,含澄清及新增保护条款,供董事会审查。"
     }
   },
   "discussion-software-and-development-license-version-3-0": {
@@ -14772,7 +14772,7 @@
       "subject": "[License-discuss] Request for Comment: Software and Development License, version 3.0",
       "sentiment": "support",
       "point": "Defends the license clauses, noting the patent grant exists in B.3 and the AI clause serves as a helpful reminder.",
-      "point_zh": ""
+      "point_zh": "为许可证条款辩护，指出专利授权见于 B.3，且 AI 条款可起有益提醒作用。"
     }
   },
   "discussion-sos-simple-open-source-license": {
@@ -14824,7 +14824,7 @@
       "subject": "SOS license v1.05",
       "sentiment": "support",
       "point": "Posts version 1.05 in an attempt to address concerns about the license's exception-based nature.",
-      "point_zh": ""
+      "point_zh": "发布1.05版本，试图回应关于该许可以例外为基础这一性质的担忧。"
     }
   },
   "discussion-system-76-s-beanbooks-public-license-v1-0": {
@@ -14872,7 +14872,7 @@
       "subject": "[License-discuss] System 76's BeanBooks Public License v1.0",
       "sentiment": "support",
       "point": "Agrees that contacting System76 to discuss the license is a reasonable idea.",
-      "point_zh": ""
+      "point_zh": "同意联系System76讨论该许可是一个合理的主意。"
     }
   },
   "discussion-the-contribution-public-license": {
@@ -14920,7 +14920,7 @@
       "subject": "[License-discuss] For Public Comment: The Contribution Public License",
       "sentiment": "neutral",
       "point": "Suggests adopting the MPLv2 definition of 'Modifications' to clearly define the scope of required publication.",
-      "point_zh": ""
+      "point_zh": "建议采用 MPLv2 中\"Modifications\"的定义，以明确须发布内容的范围。"
     }
   },
   "discussion-the-libre-source-license": {
@@ -14968,7 +14968,7 @@
       "subject": "[License-discuss] For Public Comment: The Libre Source License",
       "sentiment": "neutral",
       "point": "Argues that if fair use is a right, some modifications should be covered, and suggests licenses and OSI should clarify their stance on fair use.",
-      "point_zh": ""
+      "point_zh": "主张若合理使用是一项权利，某些修改应被涵盖，并建议许可证和OSI澄清对合理使用的立场。"
     }
   },
   "discussion-the-open-source-milestone-application-framework-software-lic": {
@@ -15016,7 +15016,7 @@
       "subject": "The Open Source Milestone Application Framework Software License, Version 1.5",
       "sentiment": "support",
       "point": "Approves of the license but suggests writing it as a template to allow name changes without further OSI approval.",
-      "point_zh": ""
+      "point_zh": "认可该许可证，但建议将其写成模板，以便更改名称而无需再经OSI批准。"
     }
   },
   "discussion-the-testament": {
@@ -15064,7 +15064,7 @@
       "subject": "repost for discussion",
       "sentiment": "neutral",
       "point": "Reports that the provided HTML link returns a 'Forbidden' error.",
-      "point_zh": ""
+      "point_zh": "报告提供的HTML链接返回“Forbidden”错误。"
     }
   },
   "discussion-the-wilhelm-svenselius-open-source-license-version-1-1": {
@@ -15113,7 +15113,7 @@
       "subject": "For Approval: The Wilhelm Svenselius Open Source License version 1.1",
       "sentiment": "neutral",
       "point": "Posts a revised version 1.1 of the WSOSL, incorporating comments from the previous review.",
-      "point_zh": ""
+      "point_zh": "发布WSOSL修订版1.1，纳入了此前审查的意见。"
     }
   },
   "discussion-tomsrtbt-license": {
@@ -15161,7 +15161,7 @@
       "subject": "tomsrtbt, 3rd draft...",
       "sentiment": "neutral",
       "point": "Clarifies that the license's intent to require attribution differs fundamentally from the BSD license's intent to avoid liability.",
-      "point_zh": ""
+      "point_zh": "澄清该许可证要求注明出处的意图与BSD许可证免责的意图有根本区别。"
     }
   },
   "discussion-total-reciprocity-public-license": {
@@ -15209,7 +15209,7 @@
       "subject": "[License-discuss] Total Reciprocity Public License (TRPL v1.0)",
       "sentiment": "oppose",
       "point": "Raises legal concerns that enforcing reciprocity on functional output relies on contract law, creating jurisdictional uncertainty.",
-      "point_zh": ""
+      "point_zh": "提出法律顾虑:对功能性输出强制互惠依赖合同法,造成司法辖区的不确定性。"
     }
   },
   "discussion-turkix-public-license": {
@@ -15257,7 +15257,7 @@
       "subject": "For Approval: TURKIX PUBLIC LICENSE",
       "sentiment": "neutral",
       "point": "Explains that dual licensing with AGPL allows charging for proprietary service derivatives while benefiting from community enhancements.",
-      "point_zh": ""
+      "point_zh": "解释与AGPL双许可允许对专有服务衍生品收费，同时受益于社区改进。"
     }
   },
   "discussion-u-s-army-research-laboratory-open-source-license-arl-osl": {
@@ -15306,7 +15306,7 @@
       "subject": "[License-discuss] U.S. Army Research Laboratory Open Source License (ARL OSL) 0.4.0",
       "sentiment": "neutral",
       "point": "Suggests updating the section count and adding 'if copyright exists' conditions, and asks why a severability clause was omitted.",
-      "point_zh": ""
+      "point_zh": "建议更新条款数量并添加'if copyright exists'条件，并询问为何省略可分割性条款。"
     }
   },
   "discussion-ukl-universal-public-license": {
@@ -15354,7 +15354,7 @@
       "subject": "[License-discuss] APPROVAL: Universal Public License Agreement v1",
       "sentiment": "oppose",
       "point": "Agrees the license is not Open Source and notes a conflict between the restrictions and the term 'public' in the name.",
-      "point_zh": ""
+      "point_zh": "同意该许可证非开源，并指出限制与名称中的'public'一词相冲突。"
     }
   },
   "discussion-universal-public-domain-license-1-5-2": {
@@ -15402,7 +15402,7 @@
       "subject": "[License-discuss] Advice for submitting a new license",
       "sentiment": "neutral",
       "point": "Offers drafted improvements to the Universal Public Domain License to clarify intent and avoid legal issues.",
-      "point_zh": ""
+      "point_zh": "提供对 Universal Public Domain License 的修改草案,以澄清意图并避免法律问题。"
     }
   },
   "discussion-xxx-library-public-license-version-1-0": {
@@ -15450,7 +15450,7 @@
       "subject": "A new open source license",
       "sentiment": "neutral",
       "point": "Notes that acceptance by conduct is standard in Commonwealth law and suggests courts may consider the licensee frustrated by export laws.",
-      "point_zh": ""
+      "point_zh": "指出行为接受在英联邦法中是标准做法,并暗示法院可能认为出口法使被许可方的合同目的受挫。"
     }
   }
 }

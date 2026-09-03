@@ -146,7 +146,7 @@ export function TimelineStrip({
     const tint = SENT_TINT[sentiment] || "neutral";
     const sentClass = tint && tint !== "neutral" ? ` sent-${tint}` : "";
     const nodeHex = tint && tint !== "neutral" ? SENT_HEX[tint] : typeColor;
-    const snip = (lang === "zh" ? ev.point_zh || ev.snippet : ev.snippet) || ev.subject || "";
+    const snip = (lang === "zh" ? ev.point_zh || ev.point : ev.point) || ev.snippet || ev.subject || "";
     // Purple ring = who sent a submission email. A submission can span several
     // people across resubmissions/threads (14/194 entries), the submitter
     // field only records the first, and exact-match misses name variants —
