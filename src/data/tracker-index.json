@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "b4b997e395049a80",
+    "source_hash": "a7b3734a07a76ad1",
     "index_schema_version": 5,
-    "generated_at": "2026-09-03T11:42:58.935Z",
+    "generated_at": "2026-09-03T18:12:24.727Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 97,
-      "duration_days": 20,
+      "total_messages": 99,
+      "duration_days": 21,
       "date_range": [
         "2026-08-13",
-        "2026-09-02"
+        "2026-09-03"
       ]
     },
     "has_vote": false,
@@ -47,19 +47,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 97,
+      "count": 99,
       "first": "2026-08-13",
-      "last": "2026-09-02"
+      "last": "2026-09-03"
     },
     "latest_event": {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Richard Fontana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Posits the patent retaliation trigger debate as a philosophical divide: extend the trigger to any claim type for fairness, or treat patents as special — which path is better?",
-      "point_zh": "将专利报复触发条件的争论视为哲学分歧:基于公平将触发扩展到任何主张类型,还是视专利为特殊——哪条是更好路径?"
+      "sentiment": "neutral",
+      "point": "Argues the historical record shows the OSI community has always seen patents as a unique open source problem deserving unique (if any) treatment, though opinions on how licenses should properly deal with patents have shifted over time.",
+      "point_zh": "认为历史记录表明 OSI 社区一直视专利为开源的独特问题、值得独特对待,尽管关于许可证应如何恰当处理专利的看法随时间有所变化。"
     }
   },
   "bos-public-license-v1-0-2": {
@@ -297,8 +297,8 @@
       "sender": "Pamela Chestek",
       "subject": "[License-review] The Mutualist License (MutuaL) v1.2",
       "sentiment": "oppose",
-      "point": "Argues that OSI review must rigorously pressure-test licenses for ecosystem health and legal clarity, because interpretive canons cannot reliably rescue ambiguous drafting.",
-      "point_zh": "指出 OSI 审查应从生态健康和法律清晰度出发严格压力测试许可证，因为解释规则无法可靠弥补含糊起草。"
+      "point": "Explains the OSI reviews licenses to ensure courts will interpret them in ways that protect the open source ecosystem, and argues this license is too poorly drafted to assure that, so it should not be approved — the problem is inexact drafting, not plain language.",
+      "point_zh": "阐明 OSI 审查许可证是为了确保法院以保护开源生态的方式解释它们，认为该许可证起草太差无法保证这一点，不应获批；问题在于起草不严谨，而非通俗语言。"
     }
   },
   "milenium-license-1-1": {
@@ -392,9 +392,9 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] License Submission: Milenium License 1.0",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Milenium License 1.0 thread.",
-      "point_zh": "Milenium License 1.0 评审线程中的反馈意见。"
+      "sentiment": "oppose",
+      "point": "Argues Section 4's ambiguous 'proprietary' likely violates OSD 6, and Section 6's copyright credit for independent projects violates OSD 9 and the license-reusability approval standard; also notes 'millennium' is misspelled.",
+      "point_zh": "指第4条中 'proprietary' 一词语义含糊，可能违反 OSD 6；第6条要求为独立项目保留版权署名，违反 OSD 9 及许可证可复用性审批标准；并指出 millennium 拼写有误。"
     }
   },
   "cnpl-1.0": {
@@ -510,11 +510,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 116,
-      "duration_days": 564,
+      "total_messages": 117,
+      "duration_days": 570,
       "date_range": [
         "2025-02-10",
-        "2026-08-28"
+        "2026-09-03"
       ]
     },
     "has_vote": false,
@@ -538,19 +538,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 116,
+      "count": 117,
       "first": "2025-02-10",
-      "last": "2026-08-28"
+      "last": "2026-09-03"
     },
     "latest_event": {
-      "date": "2026-08-28",
+      "date": "2026-09-03",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "横井雄太",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
       "sentiment": "neutral",
-      "point": "Confirms GitHub repos contain the final texts for MG0-2.0 and MG-BY-2.0, notes university web pages are outdated, and verifies the \"Attribution-Open Source\" variant is withdrawn.",
-      "point_zh": "确认 GitHub 仓库中的 MG0-2.0 和 MG-BY-2.0 文本为最终版本，指出大学网页已过时，并核实「Attribution-Open Source」变体已撤回。"
+      "point": "I have one question about how the final MG-BY-2.0 text is intended to\noperate when Distribution consists solely of remote access.\n\nThe definition of “Distribution” expressly includes:\n\n“providing the ",
+      "point_zh": ""
     }
   },
   "public-benefit-zero-copyright": {
@@ -642,9 +642,9 @@
       "source": "license-review",
       "sender": "Nadia Jiang",
       "subject": "[License-review] 回复：Re:  Submission for review of Mulan Public License，Version 2",
-      "sentiment": "question",
-      "point": "Asks whether she may proceed with resubmitting the license now that no further comments or criticisms have come from others.",
-      "point_zh": "询问其他评审者已无更多意见或批评，现在是否可以推进重新提交。"
+      "sentiment": "neutral",
+      "point": "Notes that there appear to be no further comments or criticisms of the license and asks whether to proceed with resubmitting it for the review process now.",
+      "point_zh": "表示似乎没有其他人再对该许可证提出意见或批评，询问现在是否可以重新提交许可证进入审查流程。"
     }
   },
   "resubmission-of-european-space-agency-public-licenses-for-approval": {
@@ -785,9 +785,9 @@
       "source": "license-review",
       "sender": "Carlo Piana",
       "subject": "[License-review] Official Submission: Modified 0BSD License (Maintenance-Required)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
-      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
+      "sentiment": "oppose",
+      "point": "Argues the Maintenance Obligation is largely unenforceable, vague, and contractually ill-conceived, imposing a positive obligation that conflicts with OSD clauses 1 and 2, and concludes the license is not suitable for approval.",
+      "point_zh": "主张 Maintenance Obligation 基本不可执行、含糊且合同设计不当，其积极义务与 OSD 第 1、2 条冲突，结论是该许可证不适合批准。"
     }
   },
   "modified-0bsd-license-2": {
@@ -834,9 +834,9 @@
       "source": "license-review",
       "sender": "Carlo Piana",
       "subject": "[License-review] Official Submission: Modified 0BSD License (Maintenance-Required)",
-      "sentiment": "neutral",
-      "point": "License-review feedback in the Modified 0BSD License (Maintenance-Required) thread.",
-      "point_zh": "Modified 0BSD License (Maintenance-Required) 评审线程中的反馈意见。"
+      "sentiment": "oppose",
+      "point": "Argues the Maintenance Obligation is largely unenforceable, vague, and contractually ill-conceived, imposing a positive obligation that conflicts with OSD clauses 1 and 2, and concludes the license is not suitable for approval.",
+      "point_zh": "主张 Maintenance Obligation 基本不可执行、含糊且合同设计不当，其积极义务与 OSD 第 1、2 条冲突，结论是该许可证不适合批准。"
     }
   },
   "oscl-1.0": {
@@ -1551,8 +1551,8 @@
       "sender": "Anand Chowdhary",
       "subject": "[License-review] For Approval: Twente License",
       "sentiment": "support",
-      "point": "Proposes replacing the privacy restriction with a Data Controller disclosure requirement and asks whether that could remain usable and OSI-compliant.",
-      "point_zh": "提出用数据控制者披露要求来替代隐私限制，并询问这种做法是否还能保持可用性并符合 OSI 要求。"
+      "point": "Explains that in the fork scenario repository B stays open-source while proprietary application C need only include notices plus a Data Controllers statement, asks Lukas to clarify the binary-distribution concern, and remains motivated to revise the license for OSI compliance.",
+      "point_zh": "说明分叉场景中仓库 B 仍为开源，专有应用 C 只需附声明及数据控制者清单，请 Lukas 澄清二进制分发的疑虑，并表示有动力修改许可证以符合 OSI 要求。"
     }
   },
   "c-fsl-v1-3": {
@@ -1781,8 +1781,8 @@
       "sender": "Fei Teng",
       "subject": "[License-review]  Approval request for ZENTAO PUBLIC LICENSE",
       "sentiment": "support",
-      "point": "Explains that ZPL was drafted to protect developers' incentives and income in a market where users often remove attribution, and argues that practical sustainability matters more than absolute software freedom.",
-      "point_zh": "解释称 ZPL 的制定是为了在用户常移除署名的环境下保护开发者的积极性和收入，并主张实践中的可持续性比绝对的软件自由更重要。"
+      "point": "Explains ZPL was drafted to protect developers' enthusiasm and income, arguing \"free\" should come with prerequisites; asks that developers' efforts be weighed alongside users' rights, even if the license is not approved.",
+      "point_zh": "解释起草 ZPL 是为保护开发者的热情和收入，认为\"自由\"应有前提；即使许可证可能不获批准，也希望在用户权利之外兼顾开发者的付出。"
     }
   },
   "moritz30-license": {
@@ -1827,8 +1827,8 @@
       "sender": "Matthias Merkel",
       "subject": "[License-review] License submission for approval for Moritz30-Projects Open Source License Version 1",
       "sentiment": "neutral",
-      "point": "Announces an updated draft that adds a sub-version number, removes the 'original' definition, and replaces the linking requirement with a simple copyright notice, noting the license is now very permissive except that modifications must remain open source.",
-      "point_zh": "发布更新后的草案，添加子版本号、移除「original」定义、将链接要求替换为版权声明，并指出许可证现在非常宽松，唯一要求是修改版本也必须开源。"
+      "point": "Announces Moritz30-Projects Open Source License Version 1.1: removes the 'original' definition and the homepage-linking requirement in favor of an appropriate copyright notice, stating the license is very free and the only requirement is that modifications also be open source.",
+      "point_zh": "发布 Moritz30-Projects Open Source License 1.1 版:删除 'original' 定义与主页链接要求,改为附版权声明;称许可证很自由,唯一要求是修改版也开源。"
     }
   },
   "nccl": {
@@ -2197,9 +2197,9 @@
       "source": "license-review",
       "sender": "Rick Moen",
       "subject": "AW: For Approval: The netX Public Lisense (in plain text)",
-      "sentiment": "oppose",
-      "point": "Notes that impossible notification obligations might become unenforceable, but still argues such clauses are bad drafting because they create avoidable legal uncertainty.",
-      "point_zh": "指出无法履行的通知义务可能变得不可执行，但仍认为此类条款是糟糕起草，因为会制造本可避免的法律不确定性。"
+      "sentiment": "neutral",
+      "point": "Objectively impossible obligations generally become unenforceable rather than voiding the licence grant; notification clauses lacking impossibility provisions are a bad idea, and companies should consult OSI when drafting rather than seek rubber-stamp approval.",
+      "point_zh": "客观上无法履行的义务一般不再可执行,而非使许可授权失效;未含履行不能情形的通知条款是坏主意,公司起草时应咨询OSI而非寻求橡皮图章式批准。"
     }
   },
   "webm-license": {
@@ -2337,9 +2337,9 @@
       "source": "license-review",
       "sender": "Zooko",
       "subject": "For Approval: Transitive Grace Period Public Licence, v1.0",
-      "sentiment": "support",
-      "point": "Distinguishes TGPPL's transitive delayed-source obligation from one-shot eventual-source releases, then shares empirical examples suggesting such models have mixed practical results.",
-      "point_zh": "区分 TGPPL 的传递性延迟开源义务与一次性的 eventual-source 发布，并列举经验案例说明这类模式实践效果复杂。"
+      "sentiment": "neutral",
+      "point": "Distinguishes the TGPPL's transitive twelve-month opening obligation from the Aladdin Free Public License's one-shot \"eventual source\" strategy, and shares empirical data points (Ghostscript, Id Software, Lustre, Tahoe) on delayed-open-source licensing in practice.",
+      "point_zh": "区分 TGPPL 的传递性十二个月开源义务与 Aladdin Free Public License 一次性的 \"eventual source\" 策略，并分享 Ghostscript、Id Software、Lustre、Tahoe 等延迟开源许可的实践经验。"
     }
   },
   "beer-ware-license": {
@@ -2384,8 +2384,8 @@
       "sender": "Alexander Terekhov",
       "subject": "[repost] [j at uriah.heep.sax.de: For Approval: The beer-ware license]",
       "sentiment": "oppose",
-      "point": "An anonymous contributor cites case law (S.O.S. v. Payday, Sun Microsystems v. Microsoft) to argue that open source licenses as adhesion contracts are construed against the drafter, making ambiguous terms legally risky.",
-      "point_zh": "一位匿名贡献者引用判例法（S.O.S. 诉 Payday、Sun Microsystems 诉 Microsoft），论证开源许可证作为附合合同应按不利于起草方的原则解释，使模糊条款面临法律风险。"
+      "point": "Argues that the Artistic License is a public contract of adhesion offered to millions without negotiation, so courts should construe it against the drafter, and criticizes open source license drafters for making murky contracts and outrageous construction claims.",
+      "point_zh": "主张 Artistic License 是面向数百万人的格式合同（未经协商），法院应作出不利于起草者的解释，并批评开源许可证起草者拟定晦涩可疑的合同并作出荒谬的解释主张。"
     }
   },
   "open-source-hardware-license": {
@@ -2706,8 +2706,8 @@
       "sender": "Mahesh T. Pai",
       "subject": "For Approval: MindTree Public License",
       "sentiment": "oppose",
-      "point": "Argues the vendor-specific framing is a drafting issue that discourages independent reuse, and suggests the OSD should require licenses not to name specific copyright holders to address license proliferation.",
-      "point_zh": "认为供应商特定措辞是起草问题，阻碍独立开发者复用，并建议 OSD 应要求许可证不得指定特定版权持有者以解决许可证泛滥问题。"
+      "point": "Clarifies the concerns are drafting issues rather than OSD non-compliance: MTPL's assertion that MindTree owns the software discourages independent developers, and argues the OSD should require licenses not be specific to particular copyright holders to curb license proliferation.",
+      "point_zh": "澄清这些是起草问题而非 OSD 合规问题：MTPL 声称 MindTree 拥有软件会阻碍独立开发者使用；并主张 OSD 应要求许可证不得针对特定版权持有人，以遏制许可证泛滥。"
     }
   },
   "academic-citing-license": {
@@ -2889,9 +2889,9 @@
       "source": "license-discuss",
       "sender": "Abe Kornelis",
       "subject": "Approval request for BXAPL",
-      "sentiment": "question",
-      "point": "Acknowledges that the definitions of Distributor and Contributor in the BXAPL are confusing and counter-intuitive, and states the need to untangle these terms.",
-      "point_zh": "承认 BXAPL 中 Distributor 和 Contributor 的定义相互混淆且反直觉，表示需要重新梳理这两个术语的定义。"
+      "sentiment": "support",
+      "point": "Concedes the BXAPL's Contributor/Distributor definitions are prone to misunderstanding, explains why Distributors were folded into Contributor, and accepts the definitions likely need untangling, inviting better suggestions.",
+      "point_zh": "承认 BXAPL 的 Contributor/Distributor 定义易生误解,解释将 Distributor 并入 Contributor 的原因,认为定义需重新梳理,并征求更好建议。"
     }
   },
   "apossl": {
@@ -7557,8 +7557,8 @@
       "sender": "Matthew Flaschen",
       "subject": "Request for approval: EUPL (European Union Public Licence)",
       "sentiment": "support",
-      "point": "Supports approval of EUPL 1.1 while expressing disappointment that GPLv3/AGPLv3 were not added to the compatibility list, and flagging that the new Distribution definition makes the license Affero-style (still OSD-compliant).",
-      "point_zh": "支持批准 EUPL 1.1，但对未将 GPLv3/AGPLv3 纳入兼容清单表示失望，并指出新的分发定义使许可证呈现 Affero 式特征（仍符合 OSD）。"
+      "point": "Notes the revised 'Distribution and/or Communication' definition makes EUPL an Affero-style license requiring source for SaaS use, but is overall satisfied with the improvements and currently supports approval.",
+      "point_zh": "指出修订后的 'Distribution and/or Communication' 定义使 EUPL 成为类 Affero 许可证、SaaS 使用须提供源码，但总体满意改进并目前支持批准。"
     }
   },
   "eupl-1-1": {
@@ -7605,8 +7605,8 @@
       "sender": "Matthew Flaschen",
       "subject": "Request for approval: EUPL (European Union Public Licence)",
       "sentiment": "support",
-      "point": "Supports approval of EUPL 1.1 while expressing disappointment that GPLv3/AGPLv3 were not added to the compatibility list, and flagging that the new Distribution definition makes the license Affero-style (still OSD-compliant).",
-      "point_zh": "支持批准 EUPL 1.1，但对未将 GPLv3/AGPLv3 纳入兼容清单表示失望，并指出新的分发定义使许可证呈现 Affero 式特征（仍符合 OSD）。"
+      "point": "Notes the revised 'Distribution and/or Communication' definition makes EUPL an Affero-style license requiring source for SaaS use, but is overall satisfied with the improvements and currently supports approval.",
+      "point_zh": "指出修订后的 'Distribution and/or Communication' 定义使 EUPL 成为类 Affero 许可证、SaaS 使用须提供源码，但总体满意改进并目前支持批准。"
     }
   },
   "ntp": {
@@ -7941,8 +7941,8 @@
       "sender": "Zooko",
       "subject": "Re: Æsthetic Permissive License - For Approval",
       "sentiment": "support",
-      "point": "Expresses strong desire for an OSI-approved minimal permissive license, explaining that as an open source author he currently uses his own unapproved Simple Permissive Licence and falls back to BSD only in databases.",
-      "point_zh": "表达了对 OSI 批准的最小宽松许可证的强烈需求，解释他作为开源作者目前使用自己未获批准的 Simple Permissive Licence，仅在数据库中被迫选择 BSD。"
+      "point": "Strongly favors an OSI-approved minimal permissive licence, noting database registration forces choosing \"BSD\" even when a simpler licence is actually used, and would switch to such an approved licence if one existed.",
+      "point_zh": "非常希望看到一个获 OSI 批准的极简宽松许可证；指出数据库登记只能选 BSD，即使代码里实际用的是更简单的自己的 Simple Permissive Licence，若有此类许可证便会采用。"
     }
   },
   "mit": {
@@ -7989,8 +7989,8 @@
       "sender": "Zooko",
       "subject": "Re: Æsthetic Permissive License - For Approval",
       "sentiment": "support",
-      "point": "Expresses strong desire for an OSI-approved minimal permissive license, explaining that as an open source author he currently uses his own unapproved Simple Permissive Licence and falls back to BSD only in databases.",
-      "point_zh": "表达了对 OSI 批准的最小宽松许可证的强烈需求，解释他作为开源作者目前使用自己未获批准的 Simple Permissive Licence，仅在数据库中被迫选择 BSD。"
+      "point": "Strongly favors an OSI-approved minimal permissive licence, noting database registration forces choosing \"BSD\" even when a simpler licence is actually used, and would switch to such an approved licence if one existed.",
+      "point_zh": "非常希望看到一个获 OSI 批准的极简宽松许可证；指出数据库登记只能选 BSD，即使代码里实际用的是更简单的自己的 Simple Permissive Licence，若有此类许可证便会采用。"
     }
   },
   "multics": {
@@ -10868,9 +10868,9 @@
       "source": "license-discuss",
       "sender": "Danese Cooper",
       "subject": "Differences between LGPL and SISSL ?",
-      "sentiment": "support",
-      "point": "Explains that SISSL and LGPL are both free/open source, but SISSL behaves like BSD unless reuse deviates from referenced standards, at which point it requires disclosure of code or specifications.",
-      "point_zh": "解释 SISSL 和 LGPL 都是自由/开源许可证，但 SISSL 在不偏离相关标准时类似 BSD；若偏离标准，则要求公开代码或规范。"
+      "sentiment": "neutral",
+      "point": "Explains how Sun's SISSL differs from the LGPL in the OpenOffice.org dual-license: the LGPL excepts dynamic linking from GPL inheritance, while the SISSL acts like BSD unless code reuse deviates from the referenced standards, where it acts more like GPL.",
+      "point_zh": "解释 Sun 在 OpenOffice.org 双许可中 SISSL 与 LGPL 的区别：LGPL 对动态链接豁免 GPL 继承性；SISSL 类似 BSD，但代码偏离引用标准时则更接近 GPL。"
     }
   },
   "osl-1.0": {
@@ -12745,8 +12745,8 @@
       "sender": "Mahesh T. Pai",
       "subject": "For Approval: AT&T Source Code Agreement",
       "sentiment": "oppose",
-      "point": "Critiques the license for imposing obligations, creating circular dependencies, and violating OSD clauses 7 and 8.",
-      "point_zh": "批评该许可施加义务、造成循环依赖，并违反 OSD 第 7 和第 8 条款。"
+      "point": "Criticizes the AT&T Source Code Agreement, questioning its acceptance mechanism, patch obligations, circular definitions, and termination upon third-party claims, and concludes it fails OSD 7 and 8.",
+      "point_zh": "批评 AT&T Source Code Agreement，质疑其接受方式、补丁义务、循环定义及第三方索赔即终止权利，认为整体不符合 OSD 7 和 OSD 8。"
     }
   },
   "discussion-bento-poetic-license": {
@@ -12889,8 +12889,8 @@
       "sender": "Donovan Hawkins",
       "subject": "motivation Re: For Approval: Transitive Grace Period Public Licence, v1.0",
       "sentiment": "neutral",
-      "point": "Describes a similar time-delayed GPL concept and discusses the difficulties of enforcing eventual source code release without escrow.",
-      "point_zh": "描述类似的时间延迟 GPL 概念，并讨论在无第三方托管的情况下强制最终发布源码的困难。"
+      "point": "Describes a prior time-delayed GPL-based license draft (the Cephira Public License) with source-code escrow, abandoned because ensuring eventual release compliance seemed nearly impossible, and shares the text for reference.",
+      "point_zh": "介绍其先前的时间延迟型 GPL 草案（Cephira Public License）及源码托管设想，因难以确保最终开源合规而放弃，并附文本供参考。"
     }
   },
   "discussion-compiere-open-source-license": {
@@ -13660,9 +13660,9 @@
       "source": "license-discuss",
       "sender": "Pamela Chestek",
       "subject": "[License-discuss] Protection of Academic Medical Center Patent Portfolio via MGBopensource Proposed License",
-      "sentiment": "neutral",
-      "point": "Agrees that there is no legal difference between the Apache and MGB patent clauses, as both define the scope of infringement the licensor will tolerate.",
-      "point_zh": "同意Apache与MGB专利条款在法律上没有区别，因为两者都界定了许可人愿意容忍的侵权范围。"
+      "sentiment": "oppose",
+      "point": "Seconding the criticism, argues there is no legal difference between Apache-2.0's 'necessarily infringed' and MGB's 'necessary to exploit' patent-grant scopes, warns Section 2 may fail to grant a license to sell and import, and says Section 7 makes the license non-free and violates OSD6.",
+      "point_zh": "附议批评意见：认为 Apache-2.0 与 MGB 的专利授权范围在法律上无区别，第 2 条可能未授予销售和进口许可，第 7 条使许可证不自由并违反 OSD6。"
     }
   },
   "discussion-mindmason-license-mml": {
@@ -14287,8 +14287,8 @@
       "sender": "Wilson, Andrew",
       "subject": "For Approval: Open Vendor Public License (OVPL) and Open Vendor Lesser Public License (OVLPL)",
       "sentiment": "oppose",
-      "point": "Reiterates the -1 vote, arguing that the mandatory license-back to the Initial Developer constitutes coercion inappropriate for an open source license.",
-      "point_zh": "重申-1票，认为强制向Initial Developer许可回授构成胁迫，不适合开源许可证。"
+      "point": "Finds a coercive whiff in OVPL/OVLPL's mandatory license-back to the initial developer, calling coercion inappropriate in an open source license, and remains at -1.",
+      "point_zh": "认为 OVPL/OVLPL 强制向初始开发者回馈许可带有胁迫意味，而胁迫不适合开源许可证，故维持 -1 反对。"
     }
   },
   "discussion-opendesk-com-public-source-license": {
@@ -14432,8 +14432,8 @@
       "sender": "ian.oi",
       "subject": "RESUBMISSION FOR APPROVAL: OZPLB Licence",
       "sentiment": "neutral",
-      "point": "Submits the amended OZPLB license for OSI approval, detailing changes that allow for dual licensing based on the country of the institution to address Australian trade laws.",
-      "point_zh": "提交修订后的OZPLB许可证供OSI批准，详述允许基于机构所在国进行双重许可的修改，以应对澳大利亚贸易法。"
+      "point": "Resubmits the amended OZPLB v1.1 for OSI approval, adding dual licensing that applies the Australianised terms only when the institution's country is Australia and otherwise applies the University of Illinois/NCSA license.",
+      "point_zh": "重新提交修订后的 OZPLB v1.1 供 OSI 审批：新增双许可条款，仅当机构所在国为澳大利亚时适用澳化条款，否则适用 University of Illinois/NCSA 许可证。"
     }
   },
   "discussion-panda3d-public-license-version-1-0": {
@@ -14723,8 +14723,8 @@
       "sender": "Robert Samuel White",
       "subject": "Formal Request for Approval: Simplified Artistic License",
       "sentiment": "neutral",
-      "point": "Posts a significantly revised version of the Simplified Artistic License with clarifications and added protections for Board review.",
-      "point_zh": "发布大幅修订的Simplified Artistic License版本,含澄清及新增保护条款,供董事会审查。"
+      "point": "Announces a significantly revised Simplified Artistic License, adding forum-selection and lawsuit-based termination clauses as protections, and considers it ready for OSI Board review.",
+      "point_zh": "发布大幅修订后的 Simplified Artistic License，新增管辖法院选择与提起诉讼即终止许可等保护条款，并认为已可提交 OSI 董事会审查。"
     }
   },
   "discussion-software-and-development-license-version-3-0": {
@@ -14771,8 +14771,8 @@
       "sender": "Alec Bloss",
       "subject": "[License-discuss] Request for Comment: Software and Development License, version 3.0",
       "sentiment": "support",
-      "point": "Defends the license clauses, noting the patent grant exists in B.3 and the AI clause serves as a helpful reminder.",
-      "point_zh": "为许可证条款辩护，指出专利授权见于 B.3，且 AI 条款可起有益提醒作用。"
+      "point": "Responds to review feedback: agrees to consider renaming, clarifies earlier SADL versions won't be submitted, defends the F.2 compatibility intent and the B.3 patent grant, and says the draft will be revised and reviewed by legal counsel before submission.",
+      "point_zh": "回应评审意见：同意考虑改名，澄清早期版本不会提交，为 F.2 兼容性意图与 B.3 专利条款辩护，称提交前将经法律顾问审阅修订。"
     }
   },
   "discussion-sos-simple-open-source-license": {
@@ -14823,8 +14823,8 @@
       "sender": "Alex Nicolaou",
       "subject": "SOS license v1.05",
       "sentiment": "support",
-      "point": "Posts version 1.05 in an attempt to address concerns about the license's exception-based nature.",
-      "point_zh": "发布1.05版本，试图回应关于该许可以例外为基础这一性质的担忧。"
+      "point": "Posts SOS v1.05, an attempt to address the criticism that the license is full of exceptions, and asks whether this version is better, worse, or still misses the issue.",
+      "point_zh": "发布 SOS v1.05，试图回应许可证充满例外的批评，并询问此版本更好、更糟还是仍未解决问题。"
     }
   },
   "discussion-system-76-s-beanbooks-public-license-v1-0": {
@@ -15112,8 +15112,8 @@
       "sender": "Wilhelm Svenselius",
       "subject": "For Approval: The Wilhelm Svenselius Open Source License version 1.1",
       "sentiment": "neutral",
-      "point": "Posts a revised version 1.1 of the WSOSL, incorporating comments from the previous review.",
-      "point_zh": "发布WSOSL修订版1.1，纳入了此前审查的意见。"
+      "point": "Posts the revised full text of WSOSL 1.1, updated in response to comments on version 1.0, and refers readers to the original approval posting for context.",
+      "point_zh": "发布根据 1.0 版收到的意见修订后的 WSOSL 1.1 全文，并指引读者查阅原审批帖了解背景。"
     }
   },
   "discussion-tomsrtbt-license": {
@@ -15208,8 +15208,8 @@
       "sender": "Shuji Sado",
       "subject": "[License-discuss] Total Reciprocity Public License (TRPL v1.0)",
       "sentiment": "oppose",
-      "point": "Raises legal concerns that enforcing reciprocity on functional output relies on contract law, creating jurisdictional uncertainty.",
-      "point_zh": "提出法律顾虑:对功能性输出强制互惠依赖合同法,造成司法辖区的不确定性。"
+      "point": "TRPL Section 4.1 \"Functional Output\" reciprocity is likely unenforceable—if weights aren't derivative works, only a poor-fitting contract remains; narrow 4.1 to cases where identifiable portions of the Program are actually incorporated into the output.",
+      "point_zh": "TRPL第4.1条\"Functional Output\"互惠很可能不可执行：权重若非衍生作品便仅剩合同；建议将4.1限缩于Program可识别部分实际并入输出的情形。"
     }
   },
   "discussion-turkix-public-license": {
