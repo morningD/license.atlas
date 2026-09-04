@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "8022b15f7392cc61",
+    "source_hash": "fb603879301c1f46",
     "index_schema_version": 5,
-    "generated_at": "2026-09-03T21:17:36.363Z",
+    "generated_at": "2026-09-04T00:28:21.196Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 100,
+      "total_messages": 101,
       "duration_days": 21,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 100,
+      "count": 101,
       "first": "2026-08-13",
       "last": "2026-09-03"
     },
@@ -55,11 +55,11 @@
       "date": "2026-09-03",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Michael Dolan",
+      "sender": "Shuji Sado",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "support",
-      "point": "Answers questions on the OpenMDW-1.1 termination trigger: 'directly or indirectly infringe' covers secondary liability, matching Apache-2.0's style, and only patent or copyright claims trigger termination — not database rights or trade secrets — because the trigger targets realistic litigation threats rather than matching the grant scope.",
-      "point_zh": "解答 OpenMDW-1.1 终止触发问题：“直接或间接侵权”涵盖次级责任，同 Apache-2.0；仅专利或版权主张触发终止，数据库权利与商业秘密不触发，因触发条款针对现实诉讼威胁而非匹配授权范围。"
+      "point": "Argues that Mike's clarification narrows the Section 5 termination trigger to claims against the Model Materials themselves rather than training-data disputes, and proposes a general principle: defensive termination may be acceptable where the assertion targets the licensed subject matter and the termination is proportionate.",
+      "point_zh": "认为经 Mike 澄清,Section 5 触发条款限于针对 Model Materials 本身的主张,并提出原则:防御性终止在指向被许可标的且范围相称时可接受。"
     }
   },
   "bos-public-license-v1-0-2": {
