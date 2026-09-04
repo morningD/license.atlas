@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "fb603879301c1f46",
+    "source_hash": "d252ebf074e43cb2",
     "index_schema_version": 5,
-    "generated_at": "2026-09-04T00:28:21.196Z",
+    "generated_at": "2026-09-04T03:37:19.296Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 101,
-      "duration_days": 21,
+      "total_messages": 102,
+      "duration_days": 22,
       "date_range": [
         "2026-08-13",
-        "2026-09-03"
+        "2026-09-04"
       ]
     },
     "has_vote": false,
@@ -47,19 +47,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 101,
+      "count": 102,
       "first": "2026-08-13",
-      "last": "2026-09-03"
+      "last": "2026-09-04"
     },
     "latest_event": {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Shuji Sado",
+      "sender": "Joshua Gay",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "support",
-      "point": "Argues that Mike's clarification narrows the Section 5 termination trigger to claims against the Model Materials themselves rather than training-data disputes, and proposes a general principle: defensive termination may be acceptable where the assertion targets the licensed subject matter and the termination is proportionate.",
-      "point_zh": "认为经 Mike 澄清,Section 5 触发条款限于针对 Model Materials 本身的主张,并提出原则:防御性终止在指向被许可标的且范围相称时可接受。"
+      "sentiment": "oppose",
+      "point": "Argues that patent-termination precedent cannot justify OpenMDW's copyright termination provision: terminating all grants upon merely filing a claim, before any merits determination and against any party, is disproportionate and lacks an open-source justification.",
+      "point_zh": "认为专利终止先例无法证成 OpenMDW 的版权终止条款：仅凭起诉即终止全部授权、且可针对任何一方，并不成比例，缺乏开源原则上的正当性。"
     }
   },
   "bos-public-license-v1-0-2": {
