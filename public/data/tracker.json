@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-05T03:28:48.442Z",
+    "generated_at": "2026-09-05T12:49:30.108Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -13,13 +13,13 @@
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3438,
+      "mail_clusters": 3439,
       "rejected_withdrawn": 72,
-      "license_text_files": 540,
+      "license_text_files": 541,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-05T03:29:12.902Z",
+    "enriched_at": "2026-09-05T12:49:51.520Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-05T03:29:13.408Z",
+      "applied_at": "2026-09-05T12:49:52.003Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -7346,7 +7346,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-09-04"
+          "latest_event_date": "2026-09-05"
         },
         "board_vote": {
           "present": false
@@ -7421,6 +7421,11 @@
         {
           "name": "横井雄太",
           "role": "board_member",
+          "message_count": 1
+        },
+        {
+          "name": "Ruby Anna",
+          "role": "reviewer",
           "message_count": 1
         }
       ],
@@ -17104,18 +17109,31 @@
           "source": "license-review",
           "position": "question",
           "point": "Yokoi-san,\n\nThank you for the careful reading. Let me answer from the text as written.\n\n1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within "
+        },
+        {
+          "date": "2026-09-05",
+          "type": "feedback",
+          "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006248.html",
+          "sender": "Ruby Anna",
+          "snippet": "Thank you for taking the time to review the text and dig into the March 2025 history. You have interpreted the text and our intent perfectly. Your understanding is 100% correct: hosted-only access doe",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Thank you for taking the time to review the text and dig into the March\n2025 history.\nYou have interpreted the text and our intent perfectly. Your understanding\nis 100% correct: hosted-only access doe"
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 118,
+        "total_messages": 119,
         "date_range": [
           "2025-02-10",
-          "2026-09-04"
+          "2026-09-05"
         ],
-        "duration_days": 571,
+        "duration_days": 572,
         "unique_participants": [
           "Moming Duan",
           "McCoy Smith",
@@ -17129,7 +17147,8 @@
           "Simon Phipps",
           "Dirk Riehle",
           "Richard Fontana",
-          "横井雄太"
+          "横井雄太",
+          "Ruby Anna"
         ]
       },
       "status_review": {
@@ -17142,34 +17161,39 @@
         "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The ModelGo licenses went through multiple resubmissions; the curated entry records them as pending as of 2025 and still under review. No board vote or decision exists. They were scheduled for the September 24, 2026 board meeting with final comments invited by September 17, 2026, and the submitter confirmed final texts — but no decision evidence is present, so the review remains pending. The withdrawal of the Attribution-OpenSource variant does not resolve the status of MG0-2.0 and MG-BY-2.0, which this submission covers.",
+        "rationale": "The ModelGo licenses (MG0-2.0, MG-BY-2.0) were submitted for OSI review in February 2025, resubmitted multiple times, and as of the latest evidence (2026-09-05) are scheduled for the September 24, 2026 Board meeting with final comments requested by September 17, 2026. No board decision, vote result, approval, or rejection is present in the evidence; the review is still awaiting the board meeting outcome. The Attribution-OpenSource variant was withdrawn, but that concerns a different variant of the family, not this submission. Therefore the review remains pending, which is the safe fallback since no terminal decision is supported.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
-            "quote": "2nd resubmission as of 2025; still under review."
+            "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#78",
+            "supports": "pending",
+            "quote": "Submits the revised ModelGo Attribution License (MG-BY-2.0) for OSI review, highlighting removal of model-output restrictions, automatic termination, and a narrowed Derivative Materials definition."
           },
           {
             "evidence_id": "timeline:modelgo-attribution-v2#114",
             "supports": "pending",
-            "quote": "the ModelGo licenses (MG0-2.0, MG-BY-2.0) are on the agenda for the September 24 Board meeting... invites final comments by September 17, 2026"
+            "quote": "Explains the ModelGo licenses (MG0-2.0, MG-BY-2.0) are on the agenda for the September 24 Board meeting due to the two-month review cycle and no August meeting; asks the submitter to confirm the final texts on GitHub and invites final comments by September 17, 2026."
           },
           {
-            "evidence_id": "timeline:modelgo-attribution-v2#113",
+            "evidence_id": "timeline:modelgo-attribution-v2#118",
             "supports": "pending",
-            "quote": "asking OSI for an answer — approval or rejection — rather than continued silence"
+            "quote": "Thank you for taking the time to review the text and dig into the March 2025 history. You have interpreted the text and our intent perfectly. Your understanding is 100% correct: hosted-only access doe"
           }
         ],
         "conflicts": [
           {
             "source": "timeline:modelgo-attribution-v2#115",
-            "observed_status": "withdrawn (partial)",
-            "explanation": "The submitter confirms the 'Attribution-Open Source' variant is withdrawn, but the MG0-2.0 and MG-BY-2.0 variants covered by this submission remain under review, so the overall status stays pending."
+            "observed_status": "withdrawn (variant-level)",
+            "explanation": "The 'Attribution-Open Source' variant was confirmed withdrawn by the submitter on 2026-08-28; this applies only to that family variant, not to MG0-2.0/MG-BY-2.0 under review, so it does not change the submission's pending status."
           }
         ],
-        "input_hash": "sha256:cce2e33b1871f124d741830ddeba9c637b040fb00e5d4a8588d55a76abd2ddf6",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:7220bd600a3e0187b1400b6e717508e6e7a2e6a33ecf16479e9e84a7ff9004ef",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {

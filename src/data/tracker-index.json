@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "5b998e399229f585",
+    "source_hash": "70373093373d8177",
     "index_schema_version": 5,
-    "generated_at": "2026-09-05T03:29:12.902Z",
+    "generated_at": "2026-09-05T12:49:51.520Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -510,11 +510,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 118,
-      "duration_days": 571,
+      "total_messages": 119,
+      "duration_days": 572,
       "date_range": [
         "2025-02-10",
-        "2026-09-04"
+        "2026-09-05"
       ]
     },
     "has_vote": false,
@@ -538,18 +538,18 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 118,
+      "count": 119,
       "first": "2025-02-10",
-      "last": "2026-09-04"
+      "last": "2026-09-05"
     },
     "latest_event": {
-      "date": "2026-09-04",
+      "date": "2026-09-05",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Ruby Anna",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
       "sentiment": "neutral",
-      "point": "Yokoi-san,\n\nThank you for the careful reading. Let me answer from the text as written.\n\n1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within ",
+      "point": "Thank you for taking the time to review the text and dig into the March\n2025 history.\nYou have interpreted the text and our intent perfectly. Your understanding\nis 100% correct: hosted-only access doe",
       "point_zh": ""
     }
   },
