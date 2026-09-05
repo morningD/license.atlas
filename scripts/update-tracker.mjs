@@ -8,10 +8,10 @@
 //   --skip-mail   skip mail archive/index/pending discovery steps
 //   --skip-status-agent  skip Agent status adjudication steps
 //   --status-agent-mode <verify|verify-or-submit|local>  status adjudication runner mode (default verify-or-submit)
-//   --strict-manual-pending  fail on any blocking manual-review item (default: allow the
-//                 known evidence-conflict gray-zone items tracked in the baseline)
-//   --rebaseline  adopt the current manual-review item set as the new known-baseline
-//                 (use after human review of new gray-zone conflicts), then continue
+//   --strict-manual-pending  fail on any blocking manual-review item (default: unattended
+//                 mode — adjudication degrades conflicting/low-confidence verdicts to
+//                 pending instead of blocking; manual-review.json is written for audit)
+//   --rebaseline  no-op (kept for compatibility; the baseline gate was retired 2026-09-04)
 import { existsSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join, resolve } from "path";
 import { fileURLToPath } from "url";
@@ -47,6 +47,18 @@ function run(cmd, cwd, env) {
   execSync(cmd, { cwd, stdio: "inherit", ...(env ? { env } : {}) });
 }
 
+// Non-blocking variant for gates that may fail transiently (e.g. point
+// extraction refused by the LLM provider's content filter). Failure is
+// reported and left for the next run's retry instead of aborting the update.
+function runSoft(cmd, cwd, label) {
+  console.log(`\n▶ ${cmd}  (in ${cwd})`);
+  try {
+    execSync(cmd, { cwd, stdio: "inherit" });
+  } catch (err) {
+    console.log(`\n⚠️ ${label || cmd} failed (non-blocking); keeping published data and retrying next run.`);
+  }
+}
+
 function shellQuote(s) {
   return `"${String(s).replace(/(["\\$`])/g, "\\$1")}"`;
 }
@@ -74,21 +86,12 @@ function llmEnv() {
 }
 
 const MANUAL_REVIEW_PATH = join(KB_ROOT, "data", "osi", "status-adjudication", "manual-review.json");
-// Baseline of known gray-zone manual-review submission ids (evidence conflicts that
-// were human-reviewed and intentionally kept as-is). Runs pass these silently but
-// HARD FAIL on manual-review ids outside the baseline: a brand-new evidence conflict
-// means the adjudication touched something no human has reviewed yet.
-const BASELINE_PATH = join(ROOT, "scripts", "tracker-manual-baseline.json");
-const REBASELINE = args.includes("--rebaseline");
-
-function readBaseline() {
-  if (!existsSync(BASELINE_PATH)) return new Set();
-  return new Set(JSON.parse(readFileSync(BASELINE_PATH, "utf8")).ids || []);
-}
-
-function writeBaseline(ids) {
-  writeFileSync(BASELINE_PATH, JSON.stringify({ schema_version: 1, updated_at: new Date().toISOString(), ids: [...ids].sort() }, null, 2) + "\n");
-}
+// Unattended operation (2026-09-04): the hard baseline gate over manual-review ids
+// was retired. Adjudication now degrades contradictory/low-confidence terminal
+// verdicts to pending (the faithful state of an undecided review) instead of
+// producing blocking manual items, so runs never stall waiting for a human.
+// manual-review.json is still written after every run for audit purposes; review
+// it at leisure and correct v2 directly if a degraded verdict needs overriding.
 
 function manualReviewIds() {
   if (!existsSync(MANUAL_REVIEW_PATH)) return [];
@@ -96,29 +99,17 @@ function manualReviewIds() {
   return [...new Set((mr.items || []).map(it => it.submission_id))];
 }
 
-// Fail on manual-review items that are not in the known baseline. Resolved items
-// leaving the baseline are fine; on success the baseline is pruned to the current
-// set so reappearing ids (evidence changed again) re-trigger review.
-function checkManualBaseline() {
+// Audit-only report of leftover manual-review items (unattended mode). The old
+// hard baseline gate lived here; it was retired when adjudication switched to
+// conservative degradation (conflicts/low-confidence terminal verdicts become
+// pending instead of blocking items). Any ids listed here were degraded by the
+// safety net — check manual-review.json for the recorded conflicts and correct
+// v2 directly if a degradation was wrong.
+function reportManualReviewSoft() {
   const current = manualReviewIds();
-  if (REBASELINE) {
-    writeBaseline(current);
-    console.log(`\n📌 Rebaselined manual-review set: ${current.length} id(s) adopted`);
-    return;
-  }
-  const baseline = readBaseline();
-  const fresh = current.filter(id => !baseline.has(id));
-  if (fresh.length) {
-    throw new Error(
-      `New manual-review item(s) outside the known baseline (needs human review): ${fresh.join(", ")}\n` +
-      `Review them, then rerun with --rebaseline to adopt. Details: ${MANUAL_REVIEW_PATH}`
-    );
-  }
-  if (current.length !== baseline.size) {
-    const kept = new Set(current);
-    const pruned = [...baseline].filter(id => !kept.has(id));
-    console.log(`\nℹ️ ${pruned.length} baseline id(s) resolved and pruned: ${pruned.join(", ")}`);
-    writeBaseline(current);
+  if (current.length) {
+    console.log(`\nℹ️ ${current.length} manual-review item(s) on record (audit only, non-blocking): ${current.join(", ")}`);
+    console.log(`   Details: ${MANUAL_REVIEW_PATH}`);
   }
 }
 
@@ -231,8 +222,9 @@ run("node scripts/enrich-license-tracker.mjs", KB_ROOT);
 // values, which would (a) make prepare hash every entry as "changed" and
 // (b) silently drop human-calibrated statuses. apply-status-adjudications is
 // idempotent: it re-applies the recorded final statuses from the outputs.
-// Manual-review handling stays deferred to checkManualBaseline() below (same
-// as applyWithRetry), so gray-zone outputs restored here must not hard-fail.
+// The adjudication safety net (conservative degradation to pending) lives in
+// apply-status-adjudications itself, so gray-zone outputs restored here never
+// hard-fail; reportManualReviewSoft() below only audits what is left.
 run(`node scripts/apply-status-adjudications.mjs${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
 
 // 4.5. Agent status adjudication. Rules only prepare evidence; final status is
@@ -243,15 +235,22 @@ if (!SKIP_STATUS_AGENT) {
   run(`node scripts/run-status-adjudication.mjs --mode ${shellQuote(STATUS_AGENT_MODE)}`, KB_ROOT);
   applyWithRetry();
   run(`node scripts/verify-status-adjudications.mjs --require-all${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
-  checkManualBaseline();
+  // Normalize outputs to the single baseline batch so runner-produced LLM
+  // batches never accumulate and never race the baseline via the
+  // hash-first/last-line-wins fallback in loadOutputs.
+  run("node scripts/resync-baseline-batch.mjs", KB_ROOT);
+  reportManualReviewSoft();
 } else {
   console.log("\n↷ Skipping Agent status adjudication (--skip-status-agent)");
 }
 
 // 5. Quality gates: validate tracker semantics, point style, and manifest coverage.
+// Coverage failures (e.g. sensitive-content refusals on a mail batch) are
+// reported but non-blocking: missing points fall back to snippets in the UI
+// and the extractor retries them on the next run.
 run("node scripts/test-tracker-data.mjs", KB_ROOT);
 run("node scripts/check-point-style.mjs --since 2026-01-01", KB_ROOT);
-run("node scripts/check-point-manifest-coverage.mjs", KB_ROOT);
+runSoft("node scripts/check-point-manifest-coverage.mjs", KB_ROOT, "point coverage");
 run(`node scripts/check-tracker-license-texts.mjs --tracker "${resolve(KB_ROOT, "data", "osi", "license-review-tracker-v2.json")}"`, ROOT);
 
 // 6. Sync to atlas

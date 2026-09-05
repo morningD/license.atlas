@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-04T03:32:09.915Z",
+    "generated_at": "2026-09-05T03:23:44.344Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-04T03:37:19.296Z",
+    "enriched_at": "2026-09-05T03:24:12.916Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-04T03:37:32.480Z",
+      "applied_at": "2026-09-05T03:24:13.436Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -171,6 +171,11 @@
           "message_count": 2
         },
         {
+          "name": "横井雄太",
+          "role": "board_member",
+          "message_count": 2
+        },
+        {
           "name": "David Rudin",
           "role": "reviewer",
           "message_count": 1
@@ -178,11 +183,6 @@
         {
           "name": "Nick Vidal",
           "role": "reviewer",
-          "message_count": 1
-        },
-        {
-          "name": "横井雄太",
-          "role": "board_member",
           "message_count": 1
         }
       ],
@@ -1538,19 +1538,32 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006244.html",
           "sender": "Joshua Gay",
-          "snippet": "Respectfully, I have serious concerns with where this conversation is going. I think the \"fruit of my labor\" framing obscures why patent termination has traditionally been accepted in open-source lic",
+          "snippet": "Argues that patent-termination precedent cannot justify OpenMDW's copyright termination provision: terminating all grants upon merely filing a claim, before any merits determination and against any party, is disproportionate and lacks an open-source justification.",
           "point_zh": "认为专利终止先例无法证成 OpenMDW 的版权终止条款：仅凭起诉即终止全部授权、且可针对任何一方，并不成比例，缺乏开源原则上的正当性。",
           "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
           "point": "Argues that patent-termination precedent cannot justify OpenMDW's copyright termination provision: terminating all grants upon merely filing a claim, before any merits determination and against any party, is disproportionate and lacks an open-source justification."
+        },
+        {
+          "date": "2026-09-04",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006246.html",
+          "sender": "横井雄太",
+          "snippet": "Josh, Mike, Sado-san, Pamela, Richard, and all, Josh's latest message helped me isolate what I think may be the threshold question in this discussion. Mike's response to my earlier question clarifie",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Josh, Mike, Sado-san, Pamela, Richard, and all,\n\nJosh's latest message helped me isolate what I think may be the threshold\nquestion in this discussion.\n\nMike's response to my earlier question clarifie"
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 102,
+        "total_messages": 103,
         "date_range": [
           "2026-08-13",
           "2026-09-04"
@@ -1588,12 +1601,12 @@
         "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for review on 2026-08-13, and the thread shows only discussion/feedback through 2026-09-04. There is no board decision, vote, rejection, or withdrawal evidence; no OSI API or board vote evidence is present. The curated entry is pending and consistent with the timeline. Therefore the review remains pending.",
+        "rationale": "The license was submitted on 2026-08-13 and the latest thread activity (2026-09-04) consists of community discussion and questions with no board vote, no board decision, no withdrawal, and no supersession evidence. The curated source status is pending. Ongoing debate about the termination trigger does not constitute approval or rejection.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": null
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1601,15 +1614,15 @@
             "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#101",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#102",
             "supports": "pending",
-            "quote": "Respectfully, I have serious concerns with where this conversation is going."
+            "quote": "Josh's latest message helped me isolate what I think may be the threshold question in this discussion."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:4d55e0d2ddfb56f13183f65f5693c0c2462c88879b7007f297e0de975611ea7e",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "input_hash": "sha256:a07d152eeffc5f828e52e9acd9dfb3dbffb3a1cf6db1bef06b16172aa0e7a340",
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
@@ -7333,7 +7346,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-09-03"
+          "latest_event_date": "2026-09-04"
         },
         "board_vote": {
           "present": false
@@ -7348,7 +7361,7 @@
         {
           "name": "Moming Duan",
           "role": "submitter",
-          "message_count": 54
+          "message_count": 55
         },
         {
           "name": "Pamela Chestek",
@@ -17078,18 +17091,31 @@
           "source": "license-review",
           "position": "question",
           "point": "Asks how MG-BY-2.0's Section 2.2(a) notice and license-copy conditions are intended to operate when Distribution consists solely of hosted or API-based remote access with no underlying model artifact delivered, and requests steward clarification for downstream users."
+        },
+        {
+          "date": "2026-09-04",
+          "type": "feedback",
+          "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006245.html",
+          "sender": "Moming Duan",
+          "snippet": "Yokoi-san, Thank you for the careful reading. Let me answer from the text as written. 1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "question",
+          "point": "Yokoi-san,\n\nThank you for the careful reading. Let me answer from the text as written.\n\n1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within "
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 117,
+        "total_messages": 118,
         "date_range": [
           "2025-02-10",
-          "2026-09-03"
+          "2026-09-04"
         ],
-        "duration_days": 570,
+        "duration_days": 571,
         "unique_participants": [
           "Moming Duan",
           "McCoy Smith",
@@ -17113,13 +17139,35 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.95,
+        "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "Human-calibrated baseline (full-length point re-extraction).",
-        "evidence_refs": [],
-        "conflicts": [],
-        "input_hash": "sha256:dfcefed5f93d56572fae5b694dbce9f4e0331f7cbd1b409f7bd17694c301d57e",
+        "rationale": "The ModelGo licenses went through multiple resubmissions; the curated entry records them as pending as of 2025 and still under review. No board vote or decision exists. They were scheduled for the September 24, 2026 board meeting with final comments invited by September 17, 2026, and the submitter confirmed final texts — but no decision evidence is present, so the review remains pending. The withdrawal of the Attribution-OpenSource variant does not resolve the status of MG0-2.0 and MG-BY-2.0, which this submission covers.",
+        "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:modelgo-attribution-v2",
+            "supports": "pending",
+            "quote": "2nd resubmission as of 2025; still under review."
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#114",
+            "supports": "pending",
+            "quote": "the ModelGo licenses (MG0-2.0, MG-BY-2.0) are on the agenda for the September 24 Board meeting... invites final comments by September 17, 2026"
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#113",
+            "supports": "pending",
+            "quote": "asking OSI for an answer — approval or rejection — rather than continued silence"
+          }
+        ],
+        "conflicts": [
+          {
+            "source": "timeline:modelgo-attribution-v2#115",
+            "observed_status": "withdrawn (partial)",
+            "explanation": "The submitter confirms the 'Attribution-Open Source' variant is withdrawn, but the MG0-2.0 and MG-BY-2.0 variants covered by this submission remain under review, so the overall status stays pending."
+          }
+        ],
+        "input_hash": "sha256:cce2e33b1871f124d741830ddeba9c637b040fb00e5d4a8588d55a76abd2ddf6",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }

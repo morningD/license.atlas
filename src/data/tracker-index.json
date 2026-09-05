@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "d252ebf074e43cb2",
+    "source_hash": "07484f32348248d9",
     "index_schema_version": 5,
-    "generated_at": "2026-09-04T03:37:19.296Z",
+    "generated_at": "2026-09-05T03:24:12.916Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -24,7 +24,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 102,
+      "total_messages": 103,
       "duration_days": 22,
       "date_range": [
         "2026-08-13",
@@ -47,7 +47,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 102,
+      "count": 103,
       "first": "2026-08-13",
       "last": "2026-09-04"
     },
@@ -55,11 +55,11 @@
       "date": "2026-09-04",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Joshua Gay",
+      "sender": "横井雄太",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "oppose",
-      "point": "Argues that patent-termination precedent cannot justify OpenMDW's copyright termination provision: terminating all grants upon merely filing a claim, before any merits determination and against any party, is disproportionate and lacks an open-source justification.",
-      "point_zh": "认为专利终止先例无法证成 OpenMDW 的版权终止条款：仅凭起诉即终止全部授权、且可针对任何一方，并不成比例，缺乏开源原则上的正当性。"
+      "sentiment": "neutral",
+      "point": "Josh, Mike, Sado-san, Pamela, Richard, and all,\n\nJosh's latest message helped me isolate what I think may be the threshold\nquestion in this discussion.\n\nMike's response to my earlier question clarifie",
+      "point_zh": ""
     }
   },
   "bos-public-license-v1-0-2": {
@@ -510,11 +510,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 117,
-      "duration_days": 570,
+      "total_messages": 118,
+      "duration_days": 571,
       "date_range": [
         "2025-02-10",
-        "2026-09-03"
+        "2026-09-04"
       ]
     },
     "has_vote": false,
@@ -538,19 +538,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 117,
+      "count": 118,
       "first": "2025-02-10",
-      "last": "2026-09-03"
+      "last": "2026-09-04"
     },
     "latest_event": {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "type": "feedback",
       "source": "license-review",
-      "sender": "横井雄太",
+      "sender": "Moming Duan",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
-      "sentiment": "question",
-      "point": "Asks how MG-BY-2.0's Section 2.2(a) notice and license-copy conditions are intended to operate when Distribution consists solely of hosted or API-based remote access with no underlying model artifact delivered, and requests steward clarification for downstream users.",
-      "point_zh": "询问 MG-BY-2.0 第 2.2(a) 条在仅以托管或 API 远程访问构成 Distribution、不交付模型制品时应如何适用，请管理者予以澄清。"
+      "sentiment": "neutral",
+      "point": "Yokoi-san,\n\nThank you for the careful reading. Let me answer from the text as written.\n\n1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within ",
+      "point_zh": ""
     }
   },
   "public-benefit-zero-copyright": {
