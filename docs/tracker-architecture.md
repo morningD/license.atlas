@@ -48,7 +48,7 @@ KB（source of truth）→ license-atlas 单向同步：
 **无人值守裁决语义**（2026-09-04）：从"人工门"改为"保守降级 + 事后审计"。触发背景：ModelGo 的矛盾证据（提交者确认 Attribution-OpenSource 变体撤回，但 MG0-2.0/MG-BY-2.0 仍在 board 议程）落在基线门之外 → 流水线停更等人工 `--rebaseline`。
 - **降级规则**（run 与 apply 双保险同构）：终态（approved/rejected/withdrawn/superseded/legacy）携带 conflicts 或 confidence<0.75 → 降级 pending，rationale 加 `[conservative fallback]`，conflicts 留档，`requires_manual_review` 恒 false。pending 是安全态：不宣称批准也不宣称拒绝。
 - **验证端**（verify / test-tracker-data）：只对"终态仍带矛盾/低置信"报 critical（降级网漏了）；board_vote 结果 / withdrawal 事件存在但 pending 降为 warning（家族式部分撤回的 pending 合法）。
-- **基线门退役**：`checkManualBaseline` → `reportManualReportSoft` 软审计；`tracker-manual-baseline.json` 与 `--rebaseline` 退役；manual-review.json 仍生成供翻案（直接改 v2 + 重新锚定基线批）。
+- **基线门退役**：`checkManualBaseline` → `reportManualReviewSoft` 软审计；`tracker-manual-baseline.json` 与 `--rebaseline` 退役；manual-review.json 仍生成供翻案（直接改 v2 + 重新锚定基线批）。
 - **point coverage 非阻塞**：`runSoft` 包裹（1301 敏感拒绝等瞬时失败不阻塞 push，snippet 兜底 + 下轮重试）。
 - **输出批自动归一**：verify 后跑 KB `scripts/resync-baseline-batch.mjs`，以 v2 status_review（含 input_hash）重写 outputs 为单基线批，多余批退役——根治 runner LLM 批与人工基线批共存、loadOutputs 按 hash/最后一行静默抢占的问题。
 
