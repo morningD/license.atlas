@@ -100,6 +100,8 @@ KB（source of truth）→ license-atlas 单向同步：
 
 每 3 小时 launchd agent（`com.momo.license-atlas.tracker`）探测 OSI Pipermail 归档页（HEAD Last-Modified/Content-Length，毫秒级）。**双月探测**（2026-09-01）：同时 HEAD 上月和当月——pipermail 上月归档在跨月后仍会收到补发帖（实测 August 归档在 UTC 9/1 00:01 还有更新，只探当月会永久漏掉），当月目录要到第一封邮件到达才创建，**404 视为"当月尚无邮件"静默跳过而非错误**（此前 404 重试 3 轮后整轮放弃，跨月当天必卡）。state 保留两个月份条目。
 
+**归档延迟与排查**（2026-09-05 实测）：mailman 分发是即时的（订阅者邮箱先于归档收到新帖），但 pipermail 归档由 qrunner 周期重建，可滞后近一天——症状：`Last-Modified` 停滞、date.html 索引缺帖（9-05 时索引只列 4 封而实际已有 20 封）、thread.html 的 `Ending`/`Archived on` 时间戳不动、顺延编号单页（如 006247.html）404。此时探测报 no change **属预期而非 runner 故障**，归档重建后下轮自动抓取。排查路径：CDP/curl 打开当月 thread.html 看底部 Ending/Archived on 时间戳，再试探顺延编号单页确认是否已写入归档。
+
 - **无变化** → 短路退出，零 LLM 调用
 - **有变化** → `opencode run` 非交互执行全链路（update:tracker，内嵌 stale 裁决自动重跑 + 质量门 → sync → lint）
 
