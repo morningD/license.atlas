@@ -45,6 +45,13 @@ KB（source of truth）→ license-atlas 单向同步：
 
 **传输通道**（2026-08-28）：默认走 OpenAI 兼容端点 `https://open.bigmodel.cn/api/coding/paas/v4`（env `ADJUDICATION_OPENAI_BASE_URL`）：`response_format: json_object` + `thinking: disabled`（`ADJUDICATION_THINKING=enabled` 可开），单次调用，单条 2-15s。此前用的 Anthropic 兼容端点（`/api/anthropic`）structured output 每次调用都失败再 fallback 到内联 schema 重发，双倍耗时且输出常被截断（`Unexpected end of JSON input` 皆源于此），现仅作兜底。**模型对照（同通道 qpl-1-0 实测）**：glm-4.6 保留（发现证据错配且不被 API 元数据带偏）；glm-5.3-flash 略快但判断质量差半档，暂不采用。
 
+**无人值守裁决语义**（2026-09-04）：从"人工门"改为"保守降级 + 事后审计"。触发背景：ModelGo 的矛盾证据（提交者确认 Attribution-OpenSource 变体撤回，但 MG0-2.0/MG-BY-2.0 仍在 board 议程）落在基线门之外 → 流水线停更等人工 `--rebaseline`。
+- **降级规则**（run 与 apply 双保险同构）：终态（approved/rejected/withdrawn/superseded/legacy）携带 conflicts 或 confidence<0.75 → 降级 pending，rationale 加 `[conservative fallback]`，conflicts 留档，`requires_manual_review` 恒 false。pending 是安全态：不宣称批准也不宣称拒绝。
+- **验证端**（verify / test-tracker-data）：只对"终态仍带矛盾/低置信"报 critical（降级网漏了）；board_vote 结果 / withdrawal 事件存在但 pending 降为 warning（家族式部分撤回的 pending 合法）。
+- **基线门退役**：`checkManualBaseline` → `reportManualReportSoft` 软审计；`tracker-manual-baseline.json` 与 `--rebaseline` 退役；manual-review.json 仍生成供翻案（直接改 v2 + 重新锚定基线批）。
+- **point coverage 非阻塞**：`runSoft` 包裹（1301 敏感拒绝等瞬时失败不阻塞 push，snippet 兜底 + 下轮重试）。
+- **输出批自动归一**：verify 后跑 KB `scripts/resync-baseline-batch.mjs`，以 v2 status_review（含 input_hash）重写 outputs 为单基线批，多余批退役——根治 runner LLM 批与人工基线批共存、loadOutputs 按 hash/最后一行静默抢占的问题。
+
 **增量裁决**（2026-08）：prepare 读取已落盘输出的 `{submission_id → input_hash}`，输入未变的条目不进 batch，manifest 记录 `skipped_unchanged`；apply 对 skipped 条目按记录的 hash 复验旧输出后直接沿用。效果：已裁决且无新证据的条目（约 190+ 条）永不重跑 LLM，每轮只裁决真正变化的条目（如 OpenMDW 新邮件）——已定终态不会被无关变化重掷。
 
 **语义 hash**（2026-09-01）：`input_hash` 只对语义内容计算，剔除 evidence 对象里的衍生字段（`sentiment`、`point_zh`）——词汇迁移、point 双语重写等非语义变更不再触发全量重裁决（LLM 输入仍包含这些字段）。此前 2026-08-31 的 sentiment 词汇迁移（positive/negative → support/oppose）改了 1650 处 evidence 标签，字节级 hash 判定全部条目"已变化"，引发一轮全量重裁决并翻掉 19 条人工校准状态，是本机制引入的直接动因。
