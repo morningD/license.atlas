@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "70373093373d8177",
+    "source_hash": "be30801c4c008c12",
     "index_schema_version": 5,
-    "generated_at": "2026-09-05T12:49:51.520Z",
+    "generated_at": "2026-09-06T06:22:10.586Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -57,9 +57,9 @@
       "source": "license-review",
       "sender": "横井雄太",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Josh, Mike, Sado-san, Pamela, Richard, and all,\n\nJosh's latest message helped me isolate what I think may be the threshold\nquestion in this discussion.\n\nMike's response to my earlier question clarifie",
-      "point_zh": ""
+      "sentiment": "question",
+      "point": "Proposes isolating the threshold question of whether copyright litigation may legitimately serve as a termination trigger at all, using a minimal narrowly-matched copyright-for-copyright hypothetical to locate where OpenMDW-1.1's Section 5 crosses the open-source boundary; takes no side.",
+      "point_zh": "提出以“版权对版权”最小终止条款假设，检验版权诉讼能否作为终止触发条件这一根本问题，以定位 OpenMDW-1.1 的 Section 5 在何处越过开源边界；未表明立场。"
     }
   },
   "bos-public-license-v1-0-2": {
@@ -548,9 +548,9 @@
       "source": "license-review",
       "sender": "Ruby Anna",
       "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
-      "sentiment": "neutral",
-      "point": "Thank you for taking the time to review the text and dig into the March\n2025 history.\nYou have interpreted the text and our intent perfectly. Your understanding\nis 100% correct: hosted-only access doe",
-      "point_zh": ""
+      "sentiment": "support",
+      "point": "Confirms the reviewer's interpretation is fully correct: hosted-only access counts as Distribution but remote users receive only Output, so Section 2.2(a) notice obligations don't apply; removing the Output-notice obligation was deliberate to ensure OSD compliance.",
+      "point_zh": "确认审阅者的理解完全正确：仅托管访问属于 Distribution，但远程用户只收到 Output，Section 2.2(a) 的声明义务不适用；删除 Output 声明义务是为符合 OSD 的有意之举。"
     }
   },
   "public-benefit-zero-copyright": {

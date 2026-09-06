@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-05T12:49:30.108Z",
+    "generated_at": "2026-09-06T06:21:47.411Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -13,13 +13,13 @@
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3439,
+      "mail_clusters": 3440,
       "rejected_withdrawn": 72,
       "license_text_files": 541,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-05T12:49:51.520Z",
+    "enriched_at": "2026-09-06T06:22:10.586Z",
     "coverage": {
       "submissions_with_license_text": 123,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-05T12:49:52.003Z",
+      "applied_at": "2026-09-06T06:22:40.956Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -1551,12 +1551,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006246.html",
           "sender": "横井雄太",
-          "snippet": "Josh, Mike, Sado-san, Pamela, Richard, and all, Josh's latest message helped me isolate what I think may be the threshold question in this discussion. Mike's response to my earlier question clarifie",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Proposes isolating the threshold question of whether copyright litigation may legitimately serve as a termination trigger at all, using a minimal narrowly-matched copyright-for-copyright hypothetical to locate where OpenMDW-1.1's Section 5 crosses the open-source boundary; takes no side.",
+          "point_zh": "提出以“版权对版权”最小终止条款假设，检验版权诉讼能否作为终止触发条件这一根本问题，以定位 OpenMDW-1.1 的 Section 5 在何处越过开源边界；未表明立场。",
+          "sentiment": "question",
           "source": "license-review",
           "position": "oppose",
-          "point": "Josh, Mike, Sado-san, Pamela, Richard, and all,\n\nJosh's latest message helped me isolate what I think may be the threshold\nquestion in this discussion.\n\nMike's response to my earlier question clarifie"
+          "point": "Proposes isolating the threshold question of whether copyright litigation may legitimately serve as a termination trigger at all, using a minimal narrowly-matched copyright-for-copyright hypothetical to locate where OpenMDW-1.1's Section 5 crosses the open-source boundary; takes no side."
         }
       ],
       "board_vote": null,
@@ -1598,31 +1598,36 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.85,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted on 2026-08-13 and the latest thread activity (2026-09-04) consists of community discussion and questions with no board vote, no board decision, no withdrawal, and no supersession evidence. The curated source status is pending. Ongoing debate about the termination trigger does not constitute approval or rejection.",
+        "rationale": "The evidence shows the OpenMDW License Agreement 1.1 was submitted to the OSI license-review list on 2026-08-13 for approval, followed by active community discussion through 2026-09-04 that includes supportive, questioning, and opposing feedback (e.g., McCoy Smith in support, Joshua Gay opposing the copyright termination provision). No evidence exists of an OSI board vote, board decision, rejection, withdrawal, or supersession; the OSI API evidence is absent, and the curated RWP source records the status as pending with no rejection reason. The timeline summary confirms a submission exists but no withdrawal and no board decision, with the latest event on 2026-09-04. Because no terminal outcome (approval, rejection, withdrawal, supersession) is supported by the evidence, and the review thread is demonstrably still in active discussion, the faithful status is pending. This is a strong, non-contradictory basis for pending, so confidence is high.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "curated RWP entry records status 'pending' with rejection_reason null"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
+            "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license — a permissive instrument covering model materials across IP regimes, with no restrictions on outputs."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#101",
+            "supports": "pending",
+            "quote": "Argues that patent-termination precedent cannot justify OpenMDW's copyright termination provision: terminating all grants upon merely filing a claim, before any merits determination and against any party, is disproportionate and lacks an open-source justification."
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#102",
             "supports": "pending",
-            "quote": "Josh's latest message helped me isolate what I think may be the threshold question in this discussion."
+            "quote": "Proposes isolating the threshold question of whether copyright litigation may legitimately serve as a termination trigger at all... takes no side."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:a07d152eeffc5f828e52e9acd9dfb3dbffb3a1cf6db1bef06b16172aa0e7a340",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:f044ce08ee73ec681aef52fcbab8690172e691e7f66721be95940d2851a9f4a7",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -17103,12 +17108,12 @@
           "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006245.html",
           "sender": "Moming Duan",
-          "snippet": "Yokoi-san, Thank you for the careful reading. Let me answer from the text as written. 1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Confirms hosted/API access counts as Distribution as defined, but a provider offering only hosted access owes no Section 2.2(a) obligations to API users since no Licensed Materials are transferred; new attribution wording should be a method of satisfying attribution, not a condition on use.",
+          "point_zh": "澄清托管/API 访问属于 Distribution，但因未转移 Licensed Materials，仅托管服务的提供商对 API 用户不承担 2.2(a) 义务；新措辞应作为满足署名的方式而非使用条件。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "question",
-          "point": "Yokoi-san,\n\nThank you for the careful reading. Let me answer from the text as written.\n\n1) Your reading of the definition is correct: providing the model as a hosted or API-based service falls within "
+          "point": "Confirms hosted/API access counts as Distribution as defined, but a provider offering only hosted access owes no Section 2.2(a) obligations to API users since no Licensed Materials are transferred; new attribution wording should be a method of satisfying attribution, not a condition on use."
         },
         {
           "date": "2026-09-05",
@@ -17116,12 +17121,12 @@
           "subject": "[License-review] [3rd Resubmission] ModelGo Zero License (MG0-2.0) AND ModelGo Attribution License (MG-BY-2.0)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006248.html",
           "sender": "Ruby Anna",
-          "snippet": "Thank you for taking the time to review the text and dig into the March 2025 history. You have interpreted the text and our intent perfectly. Your understanding is 100% correct: hosted-only access doe",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Confirms the reviewer's interpretation is fully correct: hosted-only access counts as Distribution but remote users receive only Output, so Section 2.2(a) notice obligations don't apply; removing the Output-notice obligation was deliberate to ensure OSD compliance.",
+          "point_zh": "确认审阅者的理解完全正确：仅托管访问属于 Distribution，但远程用户只收到 Output，Section 2.2(a) 的声明义务不适用；删除 Output 声明义务是为符合 OSD 的有意之举。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "support",
-          "point": "Thank you for taking the time to review the text and dig into the March\n2025 history.\nYou have interpreted the text and our intent perfectly. Your understanding\nis 100% correct: hosted-only access doe"
+          "point": "Confirms the reviewer's interpretation is fully correct: hosted-only access counts as Distribution but remote users receive only Output, so Section 2.2(a) notice obligations don't apply; removing the Output-notice obligation was deliberate to ensure OSD compliance."
         }
       ],
       "board_vote": null,
@@ -17158,10 +17163,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.85,
+        "confidence": 0.93,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The ModelGo licenses (MG0-2.0, MG-BY-2.0) were submitted for OSI review in February 2025, resubmitted multiple times, and as of the latest evidence (2026-09-05) are scheduled for the September 24, 2026 Board meeting with final comments requested by September 17, 2026. No board decision, vote result, approval, or rejection is present in the evidence; the review is still awaiting the board meeting outcome. The Attribution-OpenSource variant was withdrawn, but that concerns a different variant of the family, not this submission. Therefore the review remains pending, which is the safe fallback since no terminal decision is supported.",
+        "rationale": "The evidence shows an active, undecided review. The ModelGo licenses were submitted to license-review in February 2025, revised and resubmitted multiple times (2nd resubmission June 2025; 3rd resubmission January 2026), and as of 2026-08-28 were placed on the agenda for the September 24, 2026 OSI Board meeting, with final comments requested by September 17, 2026. The latest thread activity (2026-09-05) consists of ongoing technical clarifications about Section 2.2(a), with no board vote, board decision, approval, rejection, or submitter withdrawal of the primary variants (MG0-2.0 and MG-BY-2.0) recorded. The curated source independently records the review as 'still under review' as of the 2nd resubmission. The only withdrawal in the record concerns the separate 'Attribution-OpenSource' (MG-BY-OS-2.0) variant, not the licenses under active board consideration, so it does not support a family-wide withdrawn status. With no terminal decision supported by any evidence, pending is the faithful status.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
@@ -17174,6 +17179,11 @@
             "quote": "Submits the revised ModelGo Attribution License (MG-BY-2.0) for OSI review, highlighting removal of model-output restrictions, automatic termination, and a narrowed Derivative Materials definition."
           },
           {
+            "evidence_id": "timeline:modelgo-attribution-v2#111",
+            "supports": "pending",
+            "quote": "Asks whether a discussion or voting schedule exists after a month of no new comments, and offers additional information while stating readiness to move to the next steps."
+          },
+          {
             "evidence_id": "timeline:modelgo-attribution-v2#114",
             "supports": "pending",
             "quote": "Explains the ModelGo licenses (MG0-2.0, MG-BY-2.0) are on the agenda for the September 24 Board meeting due to the two-month review cycle and no August meeting; asks the submitter to confirm the final texts on GitHub and invites final comments by September 17, 2026."
@@ -17181,17 +17191,17 @@
           {
             "evidence_id": "timeline:modelgo-attribution-v2#118",
             "supports": "pending",
-            "quote": "Thank you for taking the time to review the text and dig into the March 2025 history. You have interpreted the text and our intent perfectly. Your understanding is 100% correct: hosted-only access doe"
+            "quote": "Confirms the reviewer's interpretation is fully correct: hosted-only access counts as Distribution but remote users receive only Output, so Section 2.2(a) notice obligations don't apply; removing the Output-notice obligation was deliberate to ensure OSD compliance."
           }
         ],
         "conflicts": [
           {
             "source": "timeline:modelgo-attribution-v2#115",
-            "observed_status": "withdrawn (variant-level)",
-            "explanation": "The 'Attribution-Open Source' variant was confirmed withdrawn by the submitter on 2026-08-28; this applies only to that family variant, not to MG0-2.0/MG-BY-2.0 under review, so it does not change the submission's pending status."
+            "observed_status": "withdrawn",
+            "explanation": "The submitter confirmed the 'Attribution-Open Source' (MG-BY-OS-2.0) variant is withdrawn; however, this applies only to that variant. The primary variants under review (MG0-2.0 and MG-BY-2.0) remain active with final texts confirmed and a board meeting scheduled, so the overall family review remains pending rather than withdrawn."
           }
         ],
-        "input_hash": "sha256:7220bd600a3e0187b1400b6e717508e6e7a2e6a33ecf16479e9e84a7ff9004ef",
+        "input_hash": "sha256:7796c6d21c3b54979130f411d9c04d42b34b18111f00bee8912f324b9d1cbe91",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
