@@ -1,63 +1,17 @@
 {
   "_meta": {
-    "source_hash": "9f1e4a57a5759865",
+    "source_hash": "08ce6ee723e1ca05",
     "index_schema_version": 5,
-    "generated_at": "2026-09-06T06:58:23.294Z",
-    "total_submissions": 255,
+    "generated_at": "2026-09-06T08:47:10.320Z",
+    "total_submissions": 252,
     "by_status": {
       "approved": 89,
       "rejected": 42,
       "withdrawn": 14,
-      "pending": 15,
+      "pending": 12,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
-    }
-  },
-  "bos-public-license-v1-3": {
-    "id": "bos-public-license-v1-3",
-    "name": "Bos Public License V1.3",
-    "spdx_id": "",
-    "aliases": [],
-    "status": "pending",
-    "submitter": "Harz Tronics",
-    "stats": {
-      "total_messages": 1,
-      "duration_days": 0,
-      "date_range": [
-        "2026-09-05",
-        "2026-09-05"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-09-05",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 1,
-      "linked_count": 1,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2026-09-05"
-    },
-    "timeline_meta": {
-      "count": 1,
-      "first": "2026-09-05",
-      "last": "2026-09-05"
-    },
-    "latest_event": {
-      "date": "2026-09-05",
-      "type": "submission",
-      "source": "license-review",
-      "sender": "Harz Tronics",
-      "subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
-      "sentiment": "neutral",
-      "point": "Submits BOS Public License v1.3 for OSI review: an MIT-based permissive license adding UPSTREAM.txt and CREDITS.txt preservation terms so downstream forks keep an immutable pointer to the upstream repository without network-uptime liability.",
-      "point_zh": "提交 BOS Public License v1.3 参加 OSI 审查：基于 MIT 的宽松许可证，新增 UPSTREAM.txt 与 CREDITS.txt 保留条款，让下游 fork 保留指向上游仓库的不可变指针，且不因网络中断产生违约责任。"
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -108,118 +62,25 @@
       "point_zh": "提出以“版权对版权”最小终止条款假设，检验版权诉讼能否作为终止触发条件这一根本问题，以定位 OpenMDW-1.1 的 Section 5 在何处越过开源边界；未表明立场。"
     }
   },
-  "bos-public-license-v1-0-2": {
-    "id": "bos-public-license-v1-0-2",
-    "name": "The BOS Public License v1.0",
+  "bos-public-license-family": {
+    "id": "bos-public-license-family",
+    "name": "BOS Public License Family",
     "spdx_id": "",
     "aliases": [
+      "For Approval: The BOS Public License v1.0",
       "For Approval: The BOS Public License v1.0 (Lucy Randall)",
-      "The BOS Public License v1.0 (Lucy Randall)"
-    ],
-    "status": "pending",
-    "submitter": "Lucy Ada Randall",
-    "stats": {
-      "total_messages": 2,
-      "duration_days": 1,
-      "date_range": [
-        "2026-07-24",
-        "2026-07-25"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-07-24",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 2,
-      "first": "2026-07-24",
-      "last": "2026-07-25"
-    },
-    "latest_event": {
-      "date": "2026-07-25",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Rob Landley",
-      "subject": "[License-review] For Approval: The BOS Public License v1.0 (Lucy Randall)",
-      "sentiment": "oppose",
-      "point": "Criticizes using copyright to mandate attribution as a historically failed approach, citing the collapse of the XFree86 project.",
-      "point_zh": "批评利用版权强制归属的做法，引用 XFree86 项目崩溃的案例称这是历史上失败的理念。"
-    }
-  },
-  "bos-public-license-v1-2": {
-    "id": "bos-public-license-v1-2",
-    "name": "The BOS Public License v1.2",
-    "spdx_id": "",
-    "aliases": [
-      "For Approval: The BOS Public License v1.2"
+      "For Approval: The BOS Public License v1.2",
+      "Request for Approval: BOS Public License v1.3",
+      "The BOS Public License"
     ],
     "status": "pending",
     "submitter": "Harz Tronics",
     "stats": {
-      "total_messages": 2,
-      "duration_days": 1,
-      "date_range": [
-        "2026-07-24",
-        "2026-07-25"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2026-07-24",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 1,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": "2026-07-24"
-    },
-    "timeline_meta": {
-      "count": 2,
-      "first": "2026-07-24",
-      "last": "2026-07-25"
-    },
-    "latest_event": {
-      "date": "2026-07-25",
-      "type": "feedback",
-      "source": "license-review",
-      "sender": "Pamela Chestek",
-      "subject": "[License-review] For Approval: The BOS Public License v1.2",
-      "sentiment": "neutral",
-      "point": "Requests the submitter provide the remaining information required for a valid license submission.",
-      "point_zh": "要求提交者提供有效许可申请所需的其余信息。"
-    }
-  },
-  "bos-public-license-v1-0": {
-    "id": "bos-public-license-v1-0",
-    "name": "The BOS Public License v1.0",
-    "spdx_id": "",
-    "aliases": [
-      "For Approval: The BOS Public License v1.0"
-    ],
-    "status": "pending",
-    "submitter": "Harz Tronics",
-    "stats": {
-      "total_messages": 4,
-      "duration_days": 2,
+      "total_messages": 9,
+      "duration_days": 45,
       "date_range": [
         "2026-07-22",
-        "2026-07-24"
+        "2026-09-05"
       ]
     },
     "has_vote": false,
@@ -230,27 +91,27 @@
       "decision_status": ""
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
+      "count": 3,
+      "linked_count": 3,
+      "duplicate_count": 1,
+      "diff_count": 1,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2026-09-05"
     },
     "timeline_meta": {
-      "count": 4,
+      "count": 9,
       "first": "2026-07-22",
-      "last": "2026-07-24"
+      "last": "2026-09-05"
     },
     "latest_event": {
-      "date": "2026-07-24",
+      "date": "2026-09-05",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Carlo Piana",
-      "subject": "[License-review] For Approval: The BOS Public License v1.0",
-      "sentiment": "oppose",
-      "point": "Agreed the submission lacked required text and information, and questioned the need for a new backlink condition that may add compliance friction.",
-      "point_zh": "认为该提交缺少必要文本和信息，并质疑新增原项目链接条件的必要性，认为可能增加合规摩擦。"
+      "sender": "Harz Tronics",
+      "subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
+      "sentiment": "neutral",
+      "point": "Submits BOS Public License v1.3 for OSI review: an MIT-based permissive license adding UPSTREAM.txt and CREDITS.txt preservation terms so downstream forks keep an immutable pointer to the upstream repository without network-uptime liability.",
+      "point_zh": "提交 BOS Public License v1.3 参加 OSI 审查：基于 MIT 的宽松许可证，新增 UPSTREAM.txt 与 CREDITS.txt 保留条款，让下游 fork 保留指向上游仓库的不可变指针，且不因网络中断产生违约责任。"
     }
   },
   "linkumori-free-license-1-0": {
