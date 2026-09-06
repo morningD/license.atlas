@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-09-06T06:21:47.411Z",
-    "total_submissions": 253,
+    "generated_at": "2026-09-06T06:58:01.901Z",
+    "total_submissions": 255,
     "by_status": {
       "approved": 89,
       "rejected": 42,
       "withdrawn": 14,
-      "pending": 13,
+      "pending": 15,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
@@ -19,9 +19,9 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-06T06:22:10.586Z",
+    "enriched_at": "2026-09-06T06:58:23.294Z",
     "coverage": {
-      "submissions_with_license_text": 123,
+      "submissions_with_license_text": 124,
       "submissions_with_board_vote": 85,
       "board_vote_by_source": {
         "minutes": 57,
@@ -37,14 +37,142 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-06T06:22:40.956Z",
-      "applied": 194,
+      "applied_at": "2026-09-06T06:59:24.626Z",
+      "applied": 196,
       "missing": 0,
       "invalid": 0,
       "manual_review_blocking": 0
     }
   },
   "submissions": [
+    {
+      "id": "bos-public-license-v1-3",
+      "name": "Bos Public License V1.3",
+      "aliases": [],
+      "spdx_id": "",
+      "status": "pending",
+      "source_status": "pending",
+      "rule_status": "pending",
+      "status_candidates": [
+        {
+          "status": "pending",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": true,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": "2026-09-05"
+        },
+        "board_vote": {
+          "present": false
+        }
+      },
+      "submitter": {
+        "name": "Harz Tronics"
+      },
+      "participants": [
+        {
+          "name": "Harz Tronics",
+          "role": "submitter",
+          "message_count": 1
+        }
+      ],
+      "license_texts": [
+        {
+          "id": "bos-public-license-v1-3--license-review-license-review-request-for-approval-bos-publi--3ea3fe81c3",
+          "filename": "license-review-license-review-request-for-approval-bos-public-license-v1--inline-3ea3fe81.txt",
+          "title": "Copyright (c) 2026 [Your Name or Organization]",
+          "version": "1",
+          "version_label": "1",
+          "revision_label": "",
+          "series": "",
+          "date": "2026-09-05",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006247.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006247.html",
+          "message_subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
+          "type": "license-inline-block",
+          "downloaded_at": "",
+          "sha256": "3ea3fe81c3114388d037ac57f0bc6b1e5da46c3ea74b01bcb60eaf04977e1712",
+          "duplicate_of": "",
+          "extraction_confidence": "medium",
+          "text": "Copyright (c) 2026 [Your Name or Organization]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the “Software”), to\ndeal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice, this permission notice, and the additional terms\nbelow shall be included in all copies, forks, or substantial portions of\nthe Software.\n\nADDITIONAL TERMS:\n(Note: The additional terms below apply strictly to public Source Code\ndistribution and repositories, not to compiled binaries or object code.)\n\n1. Upstream Identification: If the Software includes an UPSTREAM.txt file\nat\n   its root containing a URL or reference to the upstream repository, this\nfile\n   must be preserved without removal or alteration in all public\ndistributions\n   of the source code. The downstream modifier is not legally responsible\nfor\n   the ongoing availability, validity, or uptime of the URL specified\nwithin\n   the file, only for the preservation of the text file itself. Downstream\n   modifiers are permitted to append their own repository location to this\nfile.\n\n2. Preservation of Credits: If the Software contains a CREDITS.txt file,\n   existing names and credits within this file must be preserved without\nremoval\n   or alteration in all forks, modifications, or republished versions of\nthe\n   Software. You are permitted to add new credits or names (for yourself or\n   other contributors) to the file.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+          "display_text": "Copyright (c) 2026 [Your Name or Organization]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the “Software”), to\ndeal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice, this permission notice, and the additional terms\nbelow shall be included in all copies, forks, or substantial portions of\nthe Software.\n\nADDITIONAL TERMS:\n(Note: The additional terms below apply strictly to public Source Code\ndistribution and repositories, not to compiled binaries or object code.)\n\n1. Upstream Identification: If the Software includes an UPSTREAM.txt file\nat\n   its root containing a URL or reference to the upstream repository, this\nfile\n   must be preserved without removal or alteration in all public\ndistributions\n   of the source code. The downstream modifier is not legally responsible\nfor\n   the ongoing availability, validity, or uptime of the URL specified\nwithin\n   the file, only for the preservation of the text file itself. Downstream\n   modifiers are permitted to append their own repository location to this\nfile.\n\n2. Preservation of Credits: If the Software contains a CREDITS.txt file,\n   existing names and credits within this file must be preserved without\nremoval\n   or alteration in all forks, modifications, or republished versions of\nthe\n   Software. You are permitted to add new credits or names (for yourself or\n   other contributors) to the file.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+          "normalized_text": "Copyright (c) 2026 [Your Name or Organization]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the “Software”), to\ndeal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice, this permission notice, and the additional terms\nbelow shall be included in all copies, forks, or substantial portions of\nthe Software.\n\nADDITIONAL TERMS:\n(Note: The additional terms below apply strictly to public Source Code\ndistribution and repositories, not to compiled binaries or object code.)\n\n1. Upstream Identification: If the Software includes an UPSTREAM.txt file\nat\n   its root containing a URL or reference to the upstream repository, this\nfile\n   must be preserved without removal or alteration in all public\ndistributions\n   of the source code. The downstream modifier is not legally responsible\nfor\n   the ongoing availability, validity, or uptime of the URL specified\nwithin\n   the file, only for the preservation of the text file itself. Downstream\n   modifiers are permitted to append their own repository location to this\nfile.\n\n2. Preservation of Credits: If the Software contains a CREDITS.txt file,\n   existing names and credits within this file must be preserved without\nremoval\n   or alteration in all forks, modifications, or republished versions of\nthe\n   Software. You are permitted to add new credits or names (for yourself or\n   other contributors) to the file.\n\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+          "content_preview": "Copyright (c) 2026 [Your Name or Organization]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the “Software”), to\ndeal\nin the Software without restriction,",
+          "size": 2626,
+          "match_score": 80,
+          "event_index": 0,
+          "event_type": "submission"
+        }
+      ],
+      "license_text_diffs": [],
+      "timeline": [
+        {
+          "date": "2026-09-05",
+          "type": "submission",
+          "subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006247.html",
+          "sender": "Harz Tronics",
+          "snippet": "I am formally submitting the BOS Public License v1.3 for review and OSI approval. The BOS Public License is a permissive, file-based attribution license based structurally on the standard MIT License,",
+          "point_zh": "提交 BOS Public License v1.3 参加 OSI 审查：基于 MIT 的宽松许可证，新增 UPSTREAM.txt 与 CREDITS.txt 保留条款，让下游 fork 保留指向上游仓库的不可变指针，且不因网络中断产生违约责任。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Submits BOS Public License v1.3 for OSI review: an MIT-based permissive license adding UPSTREAM.txt and CREDITS.txt preservation terms so downstream forks keep an immutable pointer to the upstream repository without network-uptime liability.",
+          "text_ids": [
+            "bos-public-license-v1-3--license-review-license-review-request-for-approval-bos-publi--3ea3fe81c3"
+          ]
+        }
+      ],
+      "board_vote": null,
+      "rejection_reason": "",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 1,
+        "date_range": [
+          "2026-09-05",
+          "2026-09-05"
+        ],
+        "duration_days": 0,
+        "unique_participants": [
+          "Harz Tronics"
+        ]
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "pending",
+        "confidence": 0.9,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The only available evidence is the initial license-review mailing list submission (2026-09-05) formally requesting OSI approval of the BOS Public License v1.3. The timeline summary confirms a submission exists but no withdrawal and no board decision; there is no OSI API status, no curated record, and no board vote evidence. No evidence supports approval, rejection, withdrawal, supersession, or legacy treatment, and the current, rule, and source statuses all indicate pending. Pending is therefore the faithful terminal-undetermined state for this still-open review.",
+        "evidence_refs": [
+          {
+            "evidence_id": "timeline:bos-public-license-v1-3#0",
+            "supports": "pending",
+            "quote": "I am formally submitting the BOS Public License v1.3 for review and OSI approval. The BOS Public License is a permissive, file-based attribution license based structurally on the standard MIT License,"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:af3834524ac9983b655f5a3de35caee28ed3be97bab1b1ede1548a8f78ff3ab0",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
     {
       "id": "openmdw-license-agreement-1-1",
       "name": "OpenMDW License Agreement, version 1.1",
@@ -1626,8 +1754,8 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:f044ce08ee73ec681aef52fcbab8690172e691e7f66721be95940d2851a9f4a7",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
@@ -17202,8 +17330,8 @@
           }
         ],
         "input_hash": "sha256:7796c6d21c3b54979130f411d9c04d42b34b18111f00bee8912f324b9d1cbe91",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
@@ -21994,6 +22122,104 @@
         "input_hash": "sha256:8f6464e3d9c78ee36e9d38fd2e69e2bb936d72e6fb4ba2f99424f4f77200e85e",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
+      }
+    },
+    {
+      "id": "oset-public-license-for-approval",
+      "name": "Oset Public License For Approval]",
+      "aliases": [],
+      "spdx_id": "",
+      "status": "pending",
+      "source_status": "pending",
+      "rule_status": "pending",
+      "status_candidates": [
+        {
+          "status": "pending",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": true,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": "2015-09-03"
+        },
+        "board_vote": {
+          "present": false
+        }
+      },
+      "submitter": {
+        "name": "David RR Webber"
+      },
+      "participants": [
+        {
+          "name": "David RR Webber",
+          "role": "submitter",
+          "message_count": 1
+        }
+      ],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [
+        {
+          "date": "2015-09-03",
+          "type": "submission",
+          "subject": "[License-discuss] [FWD: RE: [CAVO] Fwd: Re: [License-review] Submission of OSET Public License for Approval]",
+          "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2015-September/019290.html",
+          "sender": "David RR Webber",
+          "snippet": "An HTML attachment was scrubbed...",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-discuss",
+          "position": "neutral",
+          "point": "An HTML attachment was scrubbed..."
+        }
+      ],
+      "board_vote": null,
+      "rejection_reason": "",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 1,
+        "date_range": [
+          "2015-09-03",
+          "2015-09-03"
+        ],
+        "duration_days": 0,
+        "unique_participants": [
+          "David RR Webber"
+        ]
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "pending",
+        "confidence": 0.85,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The only available evidence is the original submission of the OSET Public License to the license-discuss mailing list on 2015-09-03. No evidence of an OSI board vote, board decision, approval, rejection, withdrawal, or superseding submission exists in the record: the OSI API and curated review data are absent, and the timeline summary confirms a submission with no withdrawal and no board decision. With no terminal decision supported by evidence, the conservative fallback of pending is the faithful status. All source statuses (current, rule, source) also indicate pending, and no contradictions were observed.",
+        "evidence_refs": [
+          {
+            "evidence_id": "timeline:oset-public-license-for-approval#0",
+            "supports": "pending",
+            "quote": "[License-discuss] [FWD: RE: [CAVO] Fwd: Re: [License-review] Submission of OSET Public License for Approval]"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:7fe38d9338e8f1b7e4748ef90bd8417153c6e1d05a8424083e735927964d21e7",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {

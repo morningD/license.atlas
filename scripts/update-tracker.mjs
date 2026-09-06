@@ -232,7 +232,18 @@ run(`node scripts/apply-status-adjudications.mjs${ALLOW_MANUAL_PENDING ? " --all
 // (input_hash drift after rebuild) are automatically re-adjudicated by the LLM.
 if (!SKIP_STATUS_AGENT) {
   run("node scripts/prepare-status-adjudication.mjs", KB_ROOT);
-  run(`node scripts/run-status-adjudication.mjs --mode ${shellQuote(STATUS_AGENT_MODE)}`, KB_ROOT);
+  // verify-or-submit only validates existing outputs (runner fast path); when
+  // outputs are missing (new submissions / hash drift) fall back to local LLM
+  // adjudication in-process. The local run itself degrades provider refusals
+  // (e.g. content-filter 1301) to conservative rule-status verdicts, so a
+  // blocked adjudication never stalls the pipeline.
+  const env = llmEnv();
+  try {
+    run(`node scripts/run-status-adjudication.mjs --mode ${shellQuote(STATUS_AGENT_MODE)}`, KB_ROOT);
+  } catch {
+    console.log("\n↷ verify-or-submit found missing outputs; running local LLM adjudication");
+    run(`node scripts/run-status-adjudication.mjs --mode local`, KB_ROOT, env);
+  }
   applyWithRetry();
   run(`node scripts/verify-status-adjudications.mjs --require-all${ALLOW_MANUAL_PENDING ? " --allow-manual-pending" : ""}`, KB_ROOT);
   // Normalize outputs to the single baseline batch so runner-produced LLM

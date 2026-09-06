@@ -1,17 +1,63 @@
 {
   "_meta": {
-    "source_hash": "be30801c4c008c12",
+    "source_hash": "9f1e4a57a5759865",
     "index_schema_version": 5,
-    "generated_at": "2026-09-06T06:22:10.586Z",
-    "total_submissions": 253,
+    "generated_at": "2026-09-06T06:58:23.294Z",
+    "total_submissions": 255,
     "by_status": {
       "approved": 89,
       "rejected": 42,
       "withdrawn": 14,
-      "pending": 13,
+      "pending": 15,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
+    }
+  },
+  "bos-public-license-v1-3": {
+    "id": "bos-public-license-v1-3",
+    "name": "Bos Public License V1.3",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Harz Tronics",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2026-09-05",
+        "2026-09-05"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-09-05",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-09-05"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2026-09-05",
+      "last": "2026-09-05"
+    },
+    "latest_event": {
+      "date": "2026-09-05",
+      "type": "submission",
+      "source": "license-review",
+      "sender": "Harz Tronics",
+      "subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
+      "sentiment": "neutral",
+      "point": "Submits BOS Public License v1.3 for OSI review: an MIT-based permissive license adding UPSTREAM.txt and CREDITS.txt preservation terms so downstream forks keep an immutable pointer to the upstream repository without network-uptime liability.",
+      "point_zh": "提交 BOS Public License v1.3 参加 OSI 审查：基于 MIT 的宽松许可证，新增 UPSTREAM.txt 与 CREDITS.txt 保留条款，让下游 fork 保留指向上游仓库的不可变指针，且不因网络中断产生违约责任。"
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -693,6 +739,52 @@
       "sentiment": "neutral",
       "point": "Corrects the claim that OSI went silent after 2018, notes that the 2019 follow-up received no response, and points the submitter back to those messages before proceeding.",
       "point_zh": "纠正“OSI 在 2018 年后未再沟通”的说法，指出 2019 年其实已有跟进但未收到回复，并在继续推进前把提交者指回那些历史邮件。"
+    }
+  },
+  "oset-public-license-for-approval": {
+    "id": "oset-public-license-for-approval",
+    "name": "Oset Public License For Approval]",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "David RR Webber",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2015-09-03",
+        "2015-09-03"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2015-09-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2015-09-03",
+      "last": "2015-09-03"
+    },
+    "latest_event": {
+      "date": "2015-09-03",
+      "type": "submission",
+      "source": "license-discuss",
+      "sender": "David RR Webber",
+      "subject": "[License-discuss] [FWD: RE: [CAVO] Fwd: Re: [License-review] Submission of OSET Public License for Approval]",
+      "sentiment": "neutral",
+      "point": "An HTML attachment was scrubbed...",
+      "point_zh": ""
     }
   },
   "toppers-license": {
