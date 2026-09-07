@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "81d34b1aaaee0526",
+    "source_hash": "0027411bbdc56162",
     "index_schema_version": 5,
-    "generated_at": "2026-09-06T15:31:25.901Z",
+    "generated_at": "2026-09-07T08:40:45.961Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -76,11 +76,11 @@
     "status": "pending",
     "submitter": "Harz Tronics",
     "stats": {
-      "total_messages": 9,
-      "duration_days": 45,
+      "total_messages": 10,
+      "duration_days": 47,
       "date_range": [
         "2026-07-22",
-        "2026-09-05"
+        "2026-09-07"
       ]
     },
     "has_vote": false,
@@ -99,19 +99,19 @@
       "latest_text_date": "2026-09-05"
     },
     "timeline_meta": {
-      "count": 9,
+      "count": 10,
       "first": "2026-07-22",
-      "last": "2026-09-05"
+      "last": "2026-09-07"
     },
     "latest_event": {
-      "date": "2026-09-05",
+      "date": "2026-09-07",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Harz Tronics",
+      "sender": "Carlo Piana",
       "subject": "[License-review] [License Review] Request for Approval: BOS Public License v1.3",
       "sentiment": "neutral",
-      "point": "Submits BOS Public License v1.3 for OSI review: an MIT-based permissive license adding UPSTREAM.txt and CREDITS.txt preservation terms so downstream forks keep an immutable pointer to the upstream repository without network-uptime liability.",
-      "point_zh": "提交 BOS Public License v1.3 参加 OSI 审查：基于 MIT 的宽松许可证，新增 UPSTREAM.txt 与 CREDITS.txt 保留条款，让下游 fork 保留指向上游仓库的不可变指针，且不因网络中断产生违约责任。"
+      "point": "Finds only minor problems with the license text itself, noting it is the 10,354th MIT derivative, but declines to comment because the submission omits required information; suggests fixing the deficiencies and resubmitting per the OSI review process.",
+      "point_zh": "认为许可证文本本身仅有小问题，但指出这是第 10,354 个 MIT 衍生许可证；因提交缺少必需信息而暂不评论，建议按 OSI 审查流程补正后重新提交。"
     }
   },
   "linkumori-free-license-1-0": {
