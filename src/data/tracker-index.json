@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "2b5524e5f78d752b",
+    "source_hash": "d40daebc29b1a85a",
     "index_schema_version": 5,
-    "generated_at": "2026-09-07T19:05:39.024Z",
+    "generated_at": "2026-09-07T19:41:11.312Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -417,7 +417,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 121,
+      "total_messages": 122,
       "duration_days": 574,
       "date_range": [
         "2025-02-10",
@@ -445,7 +445,7 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 121,
+      "count": 122,
       "first": "2025-02-10",
       "last": "2026-09-07"
     },
@@ -453,10 +453,10 @@
       "date": "2026-09-07",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "McCoy Smith",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "neutral",
-      "point": "Can you provide a link or copy of the text of each license?\n\nThanks,\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\n",
+      "point": "ModelGo Zero:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG0/LICENSE\nModelGo Attribution:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG-BY/LICENSE",
       "point_zh": ""
     }
   },
