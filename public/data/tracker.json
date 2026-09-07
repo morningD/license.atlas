@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T18:00:12.194Z",
+    "generated_at": "2026-09-07T19:05:19.074Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-07T18:00:37.994Z",
+    "enriched_at": "2026-09-07T19:05:39.024Z",
     "coverage": {
       "submissions_with_license_text": 124,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-07T18:00:47.813Z",
+      "applied_at": "2026-09-07T19:05:47.132Z",
       "applied": 193,
       "missing": 0,
       "invalid": 0,
@@ -2881,8 +2881,8 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:db664906e0fda23d5b8a554041f13b5712c0a7520d884000d217a71d3bd63c37",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
@@ -8179,7 +8179,7 @@
         {
           "name": "Pamela Chestek",
           "role": "board_member",
-          "message_count": 20
+          "message_count": 21
         },
         {
           "name": "Josh Berkus",
@@ -17948,13 +17948,26 @@
           "source": "license-review",
           "position": "support",
           "point": "All:\n\nThere are two ModelGo licenses currently up for consideration:\n\n1. ModelGo Zero (basically, a -0 version of these licenses, with no\nobligations on licensee);\n\n2. ModelGo Attribution (basically a"
+        },
+        {
+          "date": "2026-09-07",
+          "type": "feedback",
+          "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006251.html",
+          "sender": "Pamela Chestek",
+          "snippet": "Can you provide a link or copy of the text of each license? Thanks, Pam Pamela S. Chestek Chestek Legal 4641 Post St. Unit 4316 El Dorado Hills, CA 95762 +1 919-800-8033 pamela at chesteklegal.com",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Can you provide a link or copy of the text of each license?\n\nThanks,\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\n"
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 120,
+        "total_messages": 121,
         "date_range": [
           "2025-02-10",
           "2026-09-07"
@@ -17987,12 +18000,17 @@
         "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "No final OSI decision is evidenced. The licenses were slated for the September 24, 2026 board meeting and a final call for comments was issued on 2026-09-07, but no board vote, approval, rejection, or withdrawal of the MG0-2.0/MG-BY-2.0 licenses appears. Although the Attribution-OpenSource variant was withdrawn, the family as a whole (the adjudicated submission) remains under review.",
+        "rationale": "No board decision, OSI API listing, or board vote evidence exists. Timeline shows active review: submissions, resubmissions, a September 24, 2026 board meeting agenda placement, and a final call for comments dated 2026-09-07, but no approval or rejection. The Attribution-OpenSource variant was withdrawn, but MG0-2.0 and MG-BY-2.0 remain undecided. Pending is the faithful status.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
-            "quote": "2nd resubmission as of 2025; still under review."
+            "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#78",
+            "supports": "pending",
+            "quote": "Submits the revised ModelGo Attribution License (MG-BY-2.0) for OSI review"
           },
           {
             "evidence_id": "timeline:modelgo-attribution-v2#114",
@@ -18003,10 +18021,15 @@
             "evidence_id": "timeline:modelgo-attribution-v2#119",
             "supports": "pending",
             "quote": "There are two ModelGo licenses currently up for consideration"
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#115",
+            "supports": "withdrawn",
+            "quote": "verifies the \"Attribution-Open Source\" variant is withdrawn"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:4117f5f8a0fd5dc351b050522f4a363899bee28ff533c177df5d7e5b9606d1ce",
+        "input_hash": "sha256:b84c1a5ad5916c18e5c2c1073aba5852f8ea4e3e8a5a0d364fc091be86034956",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

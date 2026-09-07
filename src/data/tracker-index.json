@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "2c0954f79149039b",
+    "source_hash": "2b5524e5f78d752b",
     "index_schema_version": 5,
-    "generated_at": "2026-09-07T18:00:37.994Z",
+    "generated_at": "2026-09-07T19:05:39.024Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -417,7 +417,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 120,
+      "total_messages": 121,
       "duration_days": 574,
       "date_range": [
         "2025-02-10",
@@ -445,7 +445,7 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 120,
+      "count": 121,
       "first": "2025-02-10",
       "last": "2026-09-07"
     },
@@ -453,10 +453,10 @@
       "date": "2026-09-07",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "neutral",
-      "point": "All:\n\nThere are two ModelGo licenses currently up for consideration:\n\n1. ModelGo Zero (basically, a -0 version of these licenses, with no\nobligations on licensee);\n\n2. ModelGo Attribution (basically a",
+      "point": "Can you provide a link or copy of the text of each license?\n\nThanks,\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\n",
       "point_zh": ""
     }
   },
