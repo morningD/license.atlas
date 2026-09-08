@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "1323c1ed8e1882f8",
+    "source_hash": "0251412136b2a2aa",
     "index_schema_version": 5,
-    "generated_at": "2026-09-08T05:18:35.103Z",
+    "generated_at": "2026-09-08T13:21:03.476Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 103,
-      "duration_days": 22,
+      "total_messages": 104,
+      "duration_days": 26,
       "date_range": [
         "2026-08-13",
-        "2026-09-04"
+        "2026-09-08"
       ]
     },
     "has_vote": false,
@@ -47,19 +47,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 103,
+      "count": 104,
       "first": "2026-08-13",
-      "last": "2026-09-04"
+      "last": "2026-09-08"
     },
     "latest_event": {
-      "date": "2026-09-04",
+      "date": "2026-09-08",
       "type": "feedback",
       "source": "license-review",
-      "sender": "横井雄太",
+      "sender": "Preston Maness",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Proposes isolating the threshold question of whether copyright litigation may legitimately serve as a termination trigger at all, using a minimal narrowly-matched copyright-for-copyright hypothetical to locate where OpenMDW-1.1's Section 5 crosses the open-source boundary; takes no side.",
-      "point_zh": "提出以“版权对版权”最小终止条款假设，检验版权诉讼能否作为终止触发条件这一根本问题，以定位 OpenMDW-1.1 的 Section 5 在何处越过开源边界；未表明立场。"
+      "sentiment": "neutral",
+      "point": "Howdy folks,\n\nI was first alerted to this particular license and discussion on the\nFediverse a couple weeks ago:\n\nhttps://fedi.copyleft.org/@bkuhn/117169388027479476\n\nI've done a breadth-first search ",
+      "point_zh": ""
     }
   },
   "bos-public-license-family": {
