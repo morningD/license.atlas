@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-07T19:40:51.055Z",
+    "generated_at": "2026-09-08T05:18:13.764Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-07T19:41:11.312Z",
+    "enriched_at": "2026-09-08T05:18:35.103Z",
     "coverage": {
       "submissions_with_license_text": 124,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-07T19:41:19.857Z",
+      "applied_at": "2026-09-08T05:18:45.228Z",
       "applied": 193,
       "missing": 0,
       "invalid": 0,
@@ -8159,7 +8159,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-09-07"
+          "latest_event_date": "2026-09-08"
         },
         "board_vote": {
           "present": false
@@ -8174,7 +8174,7 @@
         {
           "name": "Moming Duan",
           "role": "submitter",
-          "message_count": 55
+          "message_count": 56
         },
         {
           "name": "Pamela Chestek",
@@ -17974,18 +17974,31 @@
           "source": "license-review",
           "position": "neutral",
           "point": "ModelGo Zero:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG0/LICENSE\nModelGo Attribution:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG-BY/LICENSE"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "feedback",
+          "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006253.html",
+          "sender": "Moming Duan",
+          "snippet": "Thank you for the careful review and the structured questions. On the preamble difference: There is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "Thank you for the careful review and the structured questions.\n\nOn the preamble difference:\n\nThere is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero "
         }
       ],
       "board_vote": null,
       "rejection_reason": "2nd resubmission as of 2025; still under review. Related to AI model output licensing.",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 122,
+        "total_messages": 123,
         "date_range": [
           "2025-02-10",
-          "2026-09-07"
+          "2026-09-08"
         ],
-        "duration_days": 574,
+        "duration_days": 575,
         "unique_participants": [
           "Moming Duan",
           "McCoy Smith",
@@ -18013,12 +18026,12 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review is actively ongoing: the licenses were submitted in February 2025, revised and resubmitted multiple times, and as of September 2026 a final call for comments was issued ahead of a September 24 board meeting. No board vote, approval, rejection, or withdrawal evidence exists. The curated source confirms '2nd resubmission as of 2025; still under review.' Note: the 'Attribution-OpenSource' variant was withdrawn, but this submission (ModelGo Attribution / MG-BY-2.0) remains under consideration, so pending is the correct status. The scheduled board meeting is not a decision, so no terminal status is supported.",
+        "rationale": "The review is still actively in progress: after the 2nd resubmission in June 2025, a 3rd resubmission and a FINAL CALL FOR COMMENTS occurred as recently as September 2026, with no board vote, no approval, and no rejection recorded. Only the Attribution-OpenSource variant was withdrawn, not the ModelGo Attribution (MG-BY-2.0) license under review here. Conservative evidence supports pending.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
-            "quote": "2nd resubmission as of 2025; still under review."
+            "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
           },
           {
             "evidence_id": "timeline:modelgo-attribution-v2#78",
@@ -18026,18 +18039,24 @@
             "quote": "Submits the revised ModelGo Attribution License (MG-BY-2.0) for OSI review"
           },
           {
-            "evidence_id": "timeline:modelgo-attribution-v2#114",
-            "supports": "pending",
-            "quote": "the ModelGo licenses (MG0-2.0, MG-BY-2.0) are on the agenda for the September 24 Board meeting"
-          },
-          {
             "evidence_id": "timeline:modelgo-attribution-v2#119",
             "supports": "pending",
-            "quote": "FINAL CALL FOR COMMENTS"
+            "quote": "ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS"
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#115",
+            "supports": "pending",
+            "quote": "verifies the \"Attribution-Open Source\" variant is withdrawn."
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:08a2c0ac07bebe7da756eb523ca4d63a120a6212f2d466a34122e8bf93865848",
+        "conflicts": [
+          {
+            "source": "timeline:modelgo-attribution-v2#115",
+            "observed_status": "withdrawn",
+            "explanation": "The Attribution-OpenSource variant (MG-BY-OS-2.0) was withdrawn, but this submission concerns the ModelGo Attribution License family review (MG-BY-2.0), which remains under active review."
+          }
+        ],
+        "input_hash": "sha256:0a4762e044591f4458416a19923ccf6f2d6d19c0ba8cac4af660b08349b5b573",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }

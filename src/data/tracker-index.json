@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "d40daebc29b1a85a",
+    "source_hash": "1323c1ed8e1882f8",
     "index_schema_version": 5,
-    "generated_at": "2026-09-07T19:41:11.312Z",
+    "generated_at": "2026-09-08T05:18:35.103Z",
     "total_submissions": 252,
     "by_status": {
       "approved": 89,
@@ -417,11 +417,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 122,
-      "duration_days": 574,
+      "total_messages": 123,
+      "duration_days": 575,
       "date_range": [
         "2025-02-10",
-        "2026-09-07"
+        "2026-09-08"
       ]
     },
     "has_vote": false,
@@ -445,18 +445,18 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 122,
+      "count": 123,
       "first": "2025-02-10",
-      "last": "2026-09-07"
+      "last": "2026-09-08"
     },
     "latest_event": {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "neutral",
-      "point": "ModelGo Zero:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG0/LICENSE\nModelGo Attribution:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG-BY/LICENSE",
+      "point": "Thank you for the careful review and the structured questions.\n\nOn the preamble difference:\n\nThere is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero ",
       "point_zh": ""
     }
   },
