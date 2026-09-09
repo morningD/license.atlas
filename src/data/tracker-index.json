@@ -1,17 +1,65 @@
 {
   "_meta": {
-    "source_hash": "0251412136b2a2aa",
+    "source_hash": "d82cbf51e1c9b37b",
     "index_schema_version": 5,
-    "generated_at": "2026-09-08T13:21:03.476Z",
-    "total_submissions": 252,
+    "generated_at": "2026-09-09T11:19:35.759Z",
+    "total_submissions": 253,
     "by_status": {
       "approved": 89,
       "rejected": 42,
       "withdrawn": 14,
-      "pending": 12,
+      "pending": 13,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
+    }
+  },
+  "psf-2-0": {
+    "id": "psf-2-0",
+    "name": "PSF-2.0",
+    "spdx_id": "",
+    "aliases": [
+      "Submission: PSF-2.0"
+    ],
+    "status": "pending",
+    "submitter": "Max Mehl",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2026-09-09",
+        "2026-09-09"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-09-09",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2026-09-09"
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2026-09-09",
+      "last": "2026-09-09"
+    },
+    "latest_event": {
+      "date": "2026-09-09",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Max Mehl",
+      "subject": "[License-review] Submission: PSF-2.0",
+      "sentiment": "neutral",
+      "point": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached.\n\nPSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples:\n\n*\nhttps://github.com/jython/jython\n*\nhttps://github.com/marcelotduarte/cx_Freeze\n*\nhttps://github.com/chianjin/PDFeXpress\n\nGiven that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license.\n\nThe license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this.\n\nI hope to have provided all required information and hope for a swift and positive review and approval. Thanks!\n\nBest,\n\n--\nMax Mehl\nOpen Source / Supply Chain\nChief Technology & Enterprise Architecture Office\nDB Systel GmbH / Deutsche Bahn\n\nSchedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
+      "point_zh": ""
     }
   },
   "openmdw-license-agreement-1-1": {

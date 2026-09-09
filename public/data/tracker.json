@@ -1,27 +1,27 @@
 {
   "meta": {
-    "generated_at": "2026-09-08T13:20:41.309Z",
-    "total_submissions": 252,
+    "generated_at": "2026-09-09T11:19:11.947Z",
+    "total_submissions": 253,
     "by_status": {
       "approved": 89,
       "rejected": 42,
       "withdrawn": 14,
-      "pending": 12,
+      "pending": 13,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3441,
-      "rejected_withdrawn": 70,
-      "license_text_files": 552,
+      "mail_clusters": 3444,
+      "rejected_withdrawn": 71,
+      "license_text_files": 553,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-08T13:21:03.476Z",
+    "enriched_at": "2026-09-09T11:19:35.759Z",
     "coverage": {
-      "submissions_with_license_text": 124,
+      "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
       "board_vote_by_source": {
         "minutes": 57,
@@ -37,14 +37,153 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-08T13:21:09.841Z",
-      "applied": 193,
+      "applied_at": "2026-09-09T11:19:42.400Z",
+      "applied": 194,
       "missing": 0,
       "invalid": 0,
       "manual_review_blocking": 0
     }
   },
   "submissions": [
+    {
+      "id": "psf-2-0",
+      "name": "PSF-2.0",
+      "aliases": [
+        "Submission: PSF-2.0"
+      ],
+      "spdx_id": "",
+      "status": "pending",
+      "source_status": "pending",
+      "rule_status": "pending",
+      "status_candidates": [
+        {
+          "status": "pending",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": [
+            "curated_rwp"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": true,
+          "status": "pending",
+          "rejection_reason": null
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": "2026-09-09"
+        },
+        "board_vote": {
+          "present": false
+        }
+      },
+      "submitter": {
+        "name": "Max Mehl"
+      },
+      "participants": [
+        {
+          "name": "Max Mehl",
+          "role": "submitter",
+          "message_count": 1
+        }
+      ],
+      "license_texts": [
+        {
+          "id": "psf-2-0--license-review-submission-psf-20-part-2-fdd14f67txt--fdd14f678b",
+          "filename": "license-review-submission-psf-20--part-2-fdd14f67.txt",
+          "title": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2",
+          "version": "2",
+          "version_label": "2",
+          "revision_label": "",
+          "series": "",
+          "date": "2026-09-09",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006255.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006255.html",
+          "message_subject": "[License-review] Submission: PSF-2.0",
+          "type": "license-mime-part",
+          "downloaded_at": "",
+          "sha256": "fdd14f678bc0f17dc3bfbc8ef829d0dbeac129edb7974d7516088fbe4e660f0c",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and\n   the Individual or Organization (\"Licensee\") accessing and otherwise using this\n   software (\"Python\") in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\n   grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\n   analyze, test, perform and/or display publicly, prepare derivative works,\n   distribute, and otherwise use Python alone or in any derivative\n   version, provided, however, that PSF's License Agreement and PSF's notice of\n   copyright, i.e., \"Copyright Â© 2001 Python Software Foundation; All Rights\n   Reserved\" are retained in Python alone or in any derivative version\n   prepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on or\n   incorporates Python or any part thereof, and wants to make the\n   derivative work available to others as provided herein, then Licensee hereby\n   agrees to include in any such work a brief summary of the changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\" basis.\n   PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF\n   EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR\n   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE\n   USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n   FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF\n   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE\n   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of\n   its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any relationship\n   of agency, partnership, or joint venture between PSF and Licensee.  This License\n   Agreement does not grant permission to use PSF trademarks or trade name in a\n   trademark sense to endorse or promote products or services of Licensee, or any\n   third party.\n\n8. By copying, installing or otherwise using Python, Licensee agrees\n   to be bound by the terms and conditions of this License Agreement.",
+          "display_text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and\n   the Individual or Organization (\"Licensee\") accessing and otherwise using this\n   software (\"Python\") in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\n   grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\n   analyze, test, perform and/or display publicly, prepare derivative works,\n   distribute, and otherwise use Python alone or in any derivative\n   version, provided, however, that PSF's License Agreement and PSF's notice of\n   copyright, i.e., \"Copyright Â© 2001 Python Software Foundation; All Rights\n   Reserved\" are retained in Python alone or in any derivative version\n   prepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on or\n   incorporates Python or any part thereof, and wants to make the\n   derivative work available to others as provided herein, then Licensee hereby\n   agrees to include in any such work a brief summary of the changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\" basis.\n   PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF\n   EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR\n   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE\n   USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n   FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF\n   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE\n   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of\n   its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any relationship\n   of agency, partnership, or joint venture between PSF and Licensee.  This License\n   Agreement does not grant permission to use PSF trademarks or trade name in a\n   trademark sense to endorse or promote products or services of Licensee, or any\n   third party.\n\n8. By copying, installing or otherwise using Python, Licensee agrees\n   to be bound by the terms and conditions of this License Agreement.",
+          "normalized_text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and\n   the Individual or Organization (\"Licensee\") accessing and otherwise using this\n   software (\"Python\") in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\n   grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\n   analyze, test, perform and/or display publicly, prepare derivative works,\n   distribute, and otherwise use Python alone or in any derivative\n   version, provided, however, that PSF's License Agreement and PSF's notice of\n   copyright, i.e., \"Copyright Â© 2001 Python Software Foundation; All Rights\n   Reserved\" are retained in Python alone or in any derivative version\n   prepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on or\n   incorporates Python or any part thereof, and wants to make the\n   derivative work available to others as provided herein, then Licensee hereby\n   agrees to include in any such work a brief summary of the changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\" basis.\n   PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF\n   EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR\n   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE\n   USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n   FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF\n   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE\n   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of\n   its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any relationship\n   of agency, partnership, or joint venture between PSF and Licensee.  This License\n   Agreement does not grant permission to use PSF trademarks or trade name in a\n   trademark sense to endorse or promote products or services of Licensee, or any\n   third party.\n\n8. By copying, installing or otherwise using Python, Licensee agrees\n   to be bound by the terms and conditions of this License Agreement.",
+          "content_preview": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and\n   the Individual or Organization (\"Licensee\") accessing and otherwise using this\n   software (\"Python\") in sourc",
+          "size": 2807,
+          "match_score": 1,
+          "event_index": 0,
+          "event_type": "feedback"
+        }
+      ],
+      "license_text_diffs": [],
+      "timeline": [
+        {
+          "date": "2026-09-09",
+          "type": "feedback",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006255.html",
+          "sender": "Max Mehl",
+          "snippet": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached. PSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples: * https://github.com/jython/jython * https://github.com/marcelotduarte/cx_Freeze * https://github.com/chianjin/PDFeXpress Given that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license. The license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this. I hope to have provided all required information and hope for a swift and positive review and approval. Thanks! Best, -- Max Mehl Open Source / Supply Chain Chief Technology & Enterprise Architecture Office DB Systel GmbH / Deutsche Bahn Schedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
+          "subject": "[License-review] Submission: PSF-2.0",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached.\n\nPSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples:\n\n*\nhttps://github.com/jython/jython\n*\nhttps://github.com/marcelotduarte/cx_Freeze\n*\nhttps://github.com/chianjin/PDFeXpress\n\nGiven that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license.\n\nThe license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this.\n\nI hope to have provided all required information and hope for a swift and positive review and approval. Thanks!\n\nBest,\n\n--\nMax Mehl\nOpen Source / Supply Chain\nChief Technology & Enterprise Architecture Office\nDB Systel GmbH / Deutsche Bahn\n\nSchedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "text_ids": [
+            "psf-2-0--license-review-submission-psf-20-part-2-fdd14f67txt--fdd14f678b"
+          ]
+        }
+      ],
+      "board_vote": null,
+      "rejection_reason": "",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 1,
+        "date_range": [
+          "2026-09-09",
+          "2026-09-09"
+        ],
+        "duration_days": 0,
+        "unique_participants": [
+          "Max Mehl"
+        ]
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "pending",
+        "confidence": 0.9,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "The submission of PSF-2.0 shows only an initial submission and a feedback email; there is no evidence of an OSI board decision, rejection, withdrawal, or supersession. The curated status is pending. Conservative fallback confirms pending as the faithful status.",
+        "evidence_refs": [
+          {
+            "evidence_id": "curated_rwp:psf-2-0",
+            "supports": "pending",
+            "quote": "status: pending, rejection_reason: null"
+          },
+          {
+            "evidence_id": "timeline:psf-2-0#0",
+            "supports": "pending",
+            "quote": "Submission: PSF-2.0 ... ask the team and board to review and approve the \"Python Software Foundation License 2.0\""
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:e4528cb6adfcdcead13664928b5c112969f350c39d0f8846b1a3fd6f5fab329a",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
     {
       "id": "openmdw-license-agreement-1-1",
       "name": "OpenMDW License Agreement, version 1.1",
@@ -1640,8 +1779,8 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:37c41fd9a9ade415e2d717934ffdd420a9d18824eb6b03834e29835cf6aea72f",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
