@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T18:10:19.703Z",
+    "generated_at": "2026-09-11T19:18:47.321Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-11T18:15:09.807Z",
+    "enriched_at": "2026-09-11T19:19:09.349Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-11T18:15:09.964Z",
+      "applied_at": "2026-09-11T19:19:15.018Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -280,6 +280,11 @@
           "message_count": 3
         },
         {
+          "name": "Josh Berkus",
+          "role": "board_member",
+          "message_count": 3
+        },
+        {
           "name": "Eric Schultz",
           "role": "reviewer",
           "message_count": 2
@@ -292,11 +297,6 @@
         {
           "name": "Joshua Gay",
           "role": "reviewer",
-          "message_count": 2
-        },
-        {
-          "name": "Josh Berkus",
-          "role": "board_member",
           "message_count": 2
         },
         {
@@ -1825,19 +1825,32 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006265.html",
           "sender": "Simon Phipps",
-          "snippet": "Because it is still delivering valuable results? Because, having discovered it uses your work, you feel more entitled to benefit from it not less? Because you have a paid account to a larger service o",
+          "snippet": "Argues that threatening users with loss of needed capabilities is unreasonably chilling, and that while reciprocal denial may suit patent disputes between patent-holding aggressors, the copyright termination trigger goes far beyond that case to touch individuals and communities enforcing open source licenses.",
           "point_zh": "认为以丧失所需能力威胁用户会不合理地造成寒蝉效应；互惠中止或适用于专利持有者之间的专利许可，但版权终止触发远超该特例，波及只想执行开源许可证的个人与社区。",
           "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
           "point": "Argues that threatening users with loss of needed capabilities is unreasonably chilling, and that while reciprocal denial may suit patent disputes between patent-holding aggressors, the copyright termination trigger goes far beyond that case to touch individuals and communities enforcing open source licenses."
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006266.html",
+          "sender": "Josh Berkus",
+          "snippet": "??? Speaking as a software developer, accidental infringing copying happens all the time. Now, if a court finds the copying was accidental, generally the only penalty leveled is a prohibition on usin",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "??? Speaking as a software developer, accidental infringing copying\nhappens all the time.  Now, if a court finds the copying was accidental,\ngenerally the only penalty leveled is a prohibition on usin"
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 113,
+        "total_messages": 114,
         "date_range": [
           "2026-08-13",
           "2026-09-11"
@@ -1873,10 +1886,10 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.8,
+        "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for OSI review (2026-08-13), but the timeline shows only ongoing discussion with no board decision, vote, withdrawal, or supersession. Curated status is pending. Despite active opposition in the thread, no terminal outcome is evidenced, so the conservative pending status stands.",
+        "rationale": "The review was submitted on 2026-08-13 and active discussion continued through 2026-09-11 with mixed feedback (both support and opposition) and no board decision, vote, rejection, withdrawal, or supersession in evidence. The curated RWP entry records pending. Pending is the faithful terminal-undecided state.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
@@ -1892,12 +1905,17 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#107",
             "supports": "pending",
             "quote": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed"
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#112",
+            "supports": "pending",
+            "quote": "Argues that threatening users with loss of needed capabilities is unreasonably chilling"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:41e29a7ea786efd1309f8e79f5265c15e192c6af77c294455d2d13657840142e",
+        "input_hash": "sha256:ca939cda9cbdb4261eaeccf3a630d709baac8ea79645eef23419c853c931bdc9",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
