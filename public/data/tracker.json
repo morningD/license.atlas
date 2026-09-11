@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T03:04:10.184Z",
+    "generated_at": "2026-09-11T07:17:33.834Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-11T03:04:32.578Z",
+    "enriched_at": "2026-09-11T07:17:56.640Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-11T03:04:33.091Z",
+      "applied_at": "2026-09-11T07:18:04.568Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -262,7 +262,7 @@
         {
           "name": "Luis Villa",
           "role": "reviewer",
-          "message_count": 6
+          "message_count": 7
         },
         {
           "name": "Stefano Maffulli",
@@ -1740,13 +1740,26 @@
           "source": "license-review",
           "position": "support",
           "point": "With the usual caveat that I’m just dipping my toe in this thread and\nreading every fifth post at best:\n\nThis conflates two different things: copying is always intentional, but not\nall copying is copy"
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006259.html",
+          "sender": "Luis Villa",
+          "snippet": "I’d add that many of us here[1] strongly supported intentional copying that was found to be fair use in Google-Oracle, even arguing in amici that deliberate copying was a useful and important part of",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "I’d add that many of us here[1] strongly supported intentional copying that\nwas found to be fair use in Google-Oracle, even arguing in amici that\ndeliberate copying was a useful and important part of "
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 106,
+        "total_messages": 107,
         "date_range": [
           "2026-08-13",
           "2026-09-11"
@@ -1785,12 +1798,12 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The license was submitted for review on 2026-08-13, followed by ongoing community discussion with no board decision, vote, rejection, or withdrawal recorded. The curated source status is pending. No terminal status is supported, so the conservative fallback of pending applies with high confidence.",
+        "rationale": "The review thread shows a submission (2026-08-13) followed by active discussion through 2026-09-11, with no board decision, vote, rejection, or withdrawal recorded. The curated status is pending, consistent with an open review. Conservative fallback to pending is confirmed by evidence.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": "status: pending, rejection_reason: null"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1798,15 +1811,15 @@
             "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#105",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#106",
             "supports": "pending",
-            "quote": "With the usual caveat that I’m just dipping my toe in this thread..."
+            "quote": "This conflates two different things: copying is always intentional, but not all copying is copy..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:154585ba40b8beb44946d62df17804b2640bbb6c48602251fc6a1871175bbd35",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:ddb1aec6cc030ce91a0ccd9a6eea6640356d103dcc66eb992778c3439cc56987",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
