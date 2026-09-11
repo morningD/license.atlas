@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-09T13:05:30.402Z",
+    "generated_at": "2026-09-11T02:29:35.353Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-09T13:05:52.577Z",
+    "enriched_at": "2026-09-11T02:29:57.283Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-09T13:05:53.038Z",
+      "applied_at": "2026-09-11T02:30:03.842Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -217,7 +217,7 @@
           "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-09-08"
+          "latest_event_date": "2026-09-11"
         },
         "board_vote": {
           "present": false
@@ -237,7 +237,7 @@
         {
           "name": "Pamela Chestek",
           "role": "board_member",
-          "message_count": 15
+          "message_count": 16
         },
         {
           "name": "Michael Dolan",
@@ -262,7 +262,7 @@
         {
           "name": "Luis Villa",
           "role": "reviewer",
-          "message_count": 5
+          "message_count": 6
         },
         {
           "name": "Stefano Maffulli",
@@ -1714,18 +1714,44 @@
           "source": "license-review",
           "position": "oppose",
           "point": "Howdy folks,\n\nI was first alerted to this particular license and discussion on the\nFediverse a couple weeks ago:\n\nhttps://fedi.copyleft.org/@bkuhn/117169388027479476\n\nI've done a breadth-first search "
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006257.html",
+          "sender": "Pamela Chestek",
+          "snippet": "I would like to thank Yuta-san for their insightful view on the termination provision, which I find helpful. I would also like to build on what Joshua wrote below. What I find distinguishable about a",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "I would like to thank Yuta-san for their insightful view on the\ntermination provision, which I find helpful. I would also like to build\non what Joshua wrote below.\n\nWhat I find distinguishable about a"
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006258.html",
+          "sender": "Luis Villa",
+          "snippet": "With the usual caveat that I’m just dipping my toe in this thread and reading every fifth post at best: This conflates two different things: copying is always intentional, but not all copying is copy",
+          "point_zh": null,
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "support",
+          "point": "With the usual caveat that I’m just dipping my toe in this thread and\nreading every fifth post at best:\n\nThis conflates two different things: copying is always intentional, but not\nall copying is copy"
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 104,
+        "total_messages": 106,
         "date_range": [
           "2026-08-13",
-          "2026-09-08"
+          "2026-09-11"
         ],
-        "duration_days": 26,
+        "duration_days": 29,
         "unique_participants": [
           "Michael Dolan",
           "Richard Fontana",
@@ -1759,12 +1785,12 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review thread shows a submission (2026-08-13) followed by active discussion and feedback, with no board decision, vote, rejection, or withdrawal recorded; curated status is pending. With no terminal decision evidence, the conservative fallback is pending.",
+        "rationale": "The license was submitted for review on 2026-08-13, followed by ongoing community discussion with no board decision, vote, rejection, or withdrawal recorded. The curated source status is pending. No terminal status is supported, so the conservative fallback of pending applies with high confidence.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1772,15 +1798,15 @@
             "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#103",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#105",
             "supports": "pending",
-            "quote": "Howdy folks, I was first alerted to this particular license and discussion on the Fediverse a couple weeks ago"
+            "quote": "With the usual caveat that I’m just dipping my toe in this thread..."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:37c41fd9a9ade415e2d717934ffdd420a9d18824eb6b03834e29835cf6aea72f",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:154585ba40b8beb44946d62df17804b2640bbb6c48602251fc6a1871175bbd35",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {

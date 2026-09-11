@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "d1de28d78c11af4a",
+    "source_hash": "28c94b17783cd94c",
     "index_schema_version": 5,
-    "generated_at": "2026-09-09T13:05:52.577Z",
+    "generated_at": "2026-09-11T02:29:57.283Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -72,11 +72,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 104,
-      "duration_days": 26,
+      "total_messages": 106,
+      "duration_days": 29,
       "date_range": [
         "2026-08-13",
-        "2026-09-08"
+        "2026-09-11"
       ]
     },
     "has_vote": false,
@@ -95,18 +95,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 104,
+      "count": 106,
       "first": "2026-08-13",
-      "last": "2026-09-08"
+      "last": "2026-09-11"
     },
     "latest_event": {
-      "date": "2026-09-08",
+      "date": "2026-09-11",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Preston Maness",
+      "sender": "Luis Villa",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Howdy folks,\n\nI was first alerted to this particular license and discussion on the\nFediverse a couple weeks ago:\n\nhttps://fedi.copyleft.org/@bkuhn/117169388027479476\n\nI've done a breadth-first search ",
+      "point": "With the usual caveat that I’m just dipping my toe in this thread and\nreading every fifth post at best:\n\nThis conflates two different things: copying is always intentional, but not\nall copying is copy",
       "point_zh": ""
     }
   },
