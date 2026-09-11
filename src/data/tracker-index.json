@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "256f077e17752554",
+    "source_hash": "6245378625ed6673",
     "index_schema_version": 5,
-    "generated_at": "2026-09-11T16:36:42.430Z",
+    "generated_at": "2026-09-11T17:35:31.239Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -72,7 +72,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 110,
+      "total_messages": 112,
       "duration_days": 29,
       "date_range": [
         "2026-08-13",
@@ -95,7 +95,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 110,
+      "count": 112,
       "first": "2026-08-13",
       "last": "2026-09-11"
     },
@@ -105,9 +105,9 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "I very carefully did not say that all copying was copyright\ninfringement. But the license doesn't distinguish. Someone could\nintentionally and knowingly infringe copyright, slap this license on it,\nan",
-      "point_zh": ""
+      "sentiment": "oppose",
+      "point": "Argues OpenMDW-1.1 puts the burden of avoiding infringement on the potentially wronged party rather than the licensor, questions any justification for excusing licensor copyright infringement, and notes licensees cannot know if their work is in the AI training corpus before agreeing.",
+      "point_zh": "认为 OpenMDW-1.1 将避免侵权的负担加于潜在受害方而非许可方,质疑为许可方侵犯版权开脱有何正当性,并指出被许可人同意前无法知晓其作品是否在训练语料中。"
     }
   },
   "bos-public-license-family": {
@@ -503,9 +503,9 @@
       "source": "license-review",
       "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
-      "sentiment": "neutral",
-      "point": "Thank you for the careful review and the structured questions.\n\nOn the preamble difference:\n\nThere is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero ",
-      "point_zh": ""
+      "sentiment": "support",
+      "point": "Explains the preamble difference between ModelGo Zero and ModelGo Attribution—MG0 has no obligations so its acceptance clause only asks the user to read and understand, while MG-BY keeps the agree-to-be-bound structure—and compiles prior review-thread background answering questions Q1–Q4, offering further clarification.",
+      "point_zh": "解释 ModelGo Zero 与 ModelGo Attribution 的序言差异：MG0 无义务，接受条款仅要求阅读理解，MG-BY 保留同意受约束结构，并整理历次评审背景回应 Q1–Q4。"
     }
   },
   "public-benefit-zero-copyright": {

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T16:36:18.547Z",
+    "generated_at": "2026-09-11T17:34:54.554Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-11T16:36:42.430Z",
+    "enriched_at": "2026-09-11T17:35:31.239Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-11T16:36:48.221Z",
+      "applied_at": "2026-09-11T17:35:43.499Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -237,7 +237,7 @@
         {
           "name": "Pamela Chestek",
           "role": "board_member",
-          "message_count": 17
+          "message_count": 18
         },
         {
           "name": "Michael Dolan",
@@ -247,7 +247,7 @@
         {
           "name": "McCoy Smith",
           "role": "board_member",
-          "message_count": 10
+          "message_count": 11
         },
         {
           "name": "Shuji Sado",
@@ -1708,12 +1708,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006254.html",
           "sender": "Preston Maness",
-          "snippet": "Howdy folks, I was first alerted to this particular license and discussion on the Fediverse a couple weeks ago: https://fedi.copyleft.org/@bkuhn/117169388027479476 I've done a breadth-first search",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues that a model's complete corresponding source code would necessarily include training data, which the license does not require to be distributed, making 'Open Model, Data, and Weights' a misnomer. Urges OSI not to approve this license or any other with similar flaws.",
+          "point_zh": "认为模型源码必然包含训练数据,而该许可证不要求分发训练数据,故 'Open Model, Data, and Weights' 名不副实;呼吁 OSI 勿批准此许可证或有类似缺陷的许可证。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "Howdy folks,\n\nI was first alerted to this particular license and discussion on the\nFediverse a couple weeks ago:\n\nhttps://fedi.copyleft.org/@bkuhn/117169388027479476\n\nI've done a breadth-first search "
+          "point": "Argues that a model's complete corresponding source code would necessarily include training data, which the license does not require to be distributed, making 'Open Model, Data, and Weights' a misnomer. Urges OSI not to approve this license or any other with similar flaws."
         },
         {
           "date": "2026-09-11",
@@ -1721,12 +1721,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006257.html",
           "sender": "Pamela Chestek",
-          "snippet": "I would like to thank Yuta-san for their insightful view on the termination provision, which I find helpful. I would also like to build on what Joshua wrote below. What I find distinguishable about a",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Thanks Yuta-san and builds on Joshua's point, arguing the termination provision lets deliberate copyright infringers escape consequences, since infringement is always intentional conduct. Finds this inconsistent with open source ethics—not an AI-only issue—and asks others to explain why it is acceptable.",
+          "point_zh": "感谢 Yuta 并延续 Joshua 的观点,认为终止条款让故意侵权者逃避后果,因为版权侵权必然是故意行为;这与开源伦理不符,且并非仅是 AI 问题,并希望他人解释为何可接受。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "I would like to thank Yuta-san for their insightful view on the\ntermination provision, which I find helpful. I would also like to build\non what Joshua wrote below.\n\nWhat I find distinguishable about a"
+          "point": "Thanks Yuta-san and builds on Joshua's point, arguing the termination provision lets deliberate copyright infringers escape consequences, since infringement is always intentional conduct. Finds this inconsistent with open source ethics—not an AI-only issue—and asks others to explain why it is acceptable."
         },
         {
           "date": "2026-09-11",
@@ -1734,12 +1734,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006258.html",
           "sender": "Luis Villa",
-          "snippet": "With the usual caveat that I’m just dipping my toe in this thread and reading every fifth post at best: This conflates two different things: copying is always intentional, but not all copying is copy",
-          "point_zh": null,
+          "snippet": "Argues the thread conflates copying with copyright infringement: copying is intentional, but not all copying is infringement, and good-faith arguments exist under the EU TDM exception and US fair use that the copying at issue is not infringement.",
+          "point_zh": "指出讨论混淆了复制与版权侵权：复制总是有意的，但并非所有复制都构成侵权；依据欧盟 TDM 例外与美国合理使用，所讨论的复制可能并非侵权。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "support",
-          "point": "With the usual caveat that I’m just dipping my toe in this thread and\nreading every fifth post at best:\n\nThis conflates two different things: copying is always intentional, but not\nall copying is copy"
+          "point": "Argues the thread conflates copying with copyright infringement: copying is intentional, but not all copying is infringement, and good-faith arguments exist under the EU TDM exception and US fair use that the copying at issue is not infringement."
         },
         {
           "date": "2026-09-11",
@@ -1747,12 +1747,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006259.html",
           "sender": "Luis Villa",
-          "snippet": "I’d add that many of us here[1] strongly supported intentional copying that was found to be fair use in Google-Oracle, even arguing in amici that deliberate copying was a useful and important part of",
-          "point_zh": null,
+          "snippet": "Adds that many here supported intentional copying found to be fair use in Google-Oracle, and that CC2+, GPL3, and MPL2 explicitly affirm fair use — copying has very different valence in FOSS, so broad statements about copying deserve caution.",
+          "point_zh": "补充指出：许多人曾在 Google-Oracle 案中支持构成合理使用的复制，且 CC2+、GPL3、MPL2 均明确肯定合理使用，对“复制”不宜作笼统论断。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "neutral",
-          "point": "I’d add that many of us here[1] strongly supported intentional copying that\nwas found to be fair use in Google-Oracle, even arguing in amici that\ndeliberate copying was a useful and important part of "
+          "point": "Adds that many here supported intentional copying found to be fair use in Google-Oracle, and that CC2+, GPL3, and MPL2 explicitly affirm fair use — copying has very different valence in FOSS, so broad statements about copying deserve caution."
         },
         {
           "date": "2026-09-11",
@@ -1760,12 +1760,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006260.html",
           "sender": "Richard Fontana",
-          "snippet": "Thinking about Luis's comment about Oracle/Google: I would assert that in FOSS, copying and reimplementing APIs has, in a non-strictly-legal sense, basically not been considered \"wrongful\" by those ca",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed: its policy justification applies only to pretrained model weights, yet it improperly sweeps in ordinary materials like code, making the license problematic for general software.",
+          "point_zh": "认为 OpenMDW-1.1 史无前例的版权触发终止条款存在根本缺陷:其政策理由仅适用于预训练模型权重,却不当波及代码等普通材料,使该许可证难以适用于一般软件。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "oppose",
-          "point": "Thinking about Luis's comment about Oracle/Google: I would assert that\nin FOSS, copying and reimplementing APIs has, in a non-strictly-legal\nsense, basically not been considered \"wrongful\" by those ca"
+          "point": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed: its policy justification applies only to pretrained model weights, yet it improperly sweeps in ordinary materials like code, making the license problematic for general software."
         },
         {
           "date": "2026-09-11",
@@ -1773,12 +1773,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006261.html",
           "sender": "Shuji Sado",
-          "snippet": "Joshua-san, I had been sitting back for a few days because of an unrelated side issue, but I think your argument remains the most important unresolved issue in this discussion. I agree with you that",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Agrees a \"realistic threat\" alone cannot justify a restriction in an open source license, but argues reciprocity may justify terminating grants when a licensee asserts patents or copyright against the same licensed subject matter, suggesting termination provisions be evaluated across multiple dimensions via proportionality.",
+          "point_zh": "同意仅凭“现实威胁”不足以证明许可证限制的正当性，但主张互惠原则可在针对同一标的主张专利或版权时为终止条款提供依据，建议以比例原则多维度评估。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "support",
-          "point": "Joshua-san,\n\nI had been sitting back for a few days because of an unrelated side issue,\nbut I think your argument remains the most important unresolved issue in\nthis discussion.\n\nI agree with you that"
+          "point": "Agrees a \"realistic threat\" alone cannot justify a restriction in an open source license, but argues reciprocity may justify terminating grants when a licensee asserts patents or copyright against the same licensed subject matter, suggesting termination provisions be evaluated across multiple dimensions via proportionality."
         },
         {
           "date": "2026-09-11",
@@ -1786,19 +1786,45 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006262.html",
           "sender": "Pamela Chestek",
-          "snippet": "I very carefully did not say that all copying was copyright infringement. But the license doesn't distinguish. Someone could intentionally and knowingly infringe copyright, slap this license on it, an",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Clarifies the scenario of concern: the license does not distinguish lawful copying from infringement, so an intentional infringer could apply it and restrict the wronged party from using their own software or AI model/system.",
+          "point_zh": "澄清所担忧的情形：该许可证不区分合法复制与侵权，故意侵权者可对其适用该许可证，从而限制受害方使用自己的软件或 AI 模型/系统。",
+          "sentiment": "oppose",
           "source": "license-review",
           "position": "neutral",
-          "point": "I very carefully did not say that all copying was copyright\ninfringement. But the license doesn't distinguish. Someone could\nintentionally and knowingly infringe copyright, slap this license on it,\nan"
+          "point": "Clarifies the scenario of concern: the license does not distinguish lawful copying from infringement, so an intentional infringer could apply it and restrict the wronged party from using their own software or AI model/system."
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006263.html",
+          "sender": "McCoy Smith",
+          "snippet": "Argues that anyone who truly believes the model infringes their copyright would not want to continue using it, noting that initial use for pre-trial discovery of a copyright claim is not a termination event under the license.",
+          "point_zh": "认为若真相信模型侵犯自己的版权,便不会想继续使用它;并指出为审前取证而作的初步使用并不构成该许可证下的终止事件。",
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Argues that anyone who truly believes the model infringes their copyright would not want to continue using it, noting that initial use for pre-trial discovery of a copyright claim is not a termination event under the license."
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006264.html",
+          "sender": "Pamela Chestek",
+          "snippet": "You're putting the burden on the potentially wronged party to limit their choices rather than on the licensor to avoid wrongful conduct. I do not think open source licenses should be encouraging volit",
+          "point_zh": "认为 OpenMDW-1.1 将避免侵权的负担加于潜在受害方而非许可方,质疑为许可方侵犯版权开脱有何正当性,并指出被许可人同意前无法知晓其作品是否在训练语料中。",
+          "sentiment": "oppose",
+          "source": "license-review",
+          "position": "support",
+          "point": "Argues OpenMDW-1.1 puts the burden of avoiding infringement on the potentially wronged party rather than the licensor, questions any justification for excusing licensor copyright infringement, and notes licensees cannot know if their work is in the AI training corpus before agreeing."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 110,
+        "total_messages": 112,
         "date_range": [
           "2026-08-13",
           "2026-09-11"
@@ -1834,15 +1860,15 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.85,
+        "confidence": 0.8,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review thread shows only a submission and ongoing discussion with no board decision, vote, rejection, or withdrawal. The curated RWP entry lists the review as pending, and the timeline contains no terminal event. Conservative adjudication therefore yields pending.",
+        "rationale": "The evidence shows a submission on 2026-08-13 followed by active community discussion (including opposition from some reviewers) as late as 2026-09-11, with no board decision, vote, withdrawal, or supersession recorded. The curated status is pending. Discussion and opposition alone do not establish rejection. Conservative fallback: pending.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1850,13 +1876,18 @@
             "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#109",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#107",
             "supports": "pending",
-            "quote": "I very carefully did not say that all copying was copyright infringement. But the license doesn't distinguish."
+            "quote": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed"
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#111",
+            "supports": "pending",
+            "quote": "I do not think open source licenses should be encouraging volit"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:d26eb17f114b16078986e6531e91699fecf3f98d134dc132d56ab6a62b588431",
+        "input_hash": "sha256:fa49f27c72a71df8cc69070114997a935eae27febef95912e3098b3d091eecb1",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
@@ -18173,12 +18204,12 @@
           "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006250.html",
           "sender": "McCoy Smith",
-          "snippet": "All: There are two ModelGo licenses currently up for consideration: 1. ModelGo Zero (basically, a -0 version of these licenses, with no obligations on licensee); 2. ModelGo Attribution (basically a",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Invites further community comment on the ModelGo Zero 2.0 and ModelGo Attribution 2.0 licenses, sharing a redline comparison, and asks whether hosted-service obligations, combining Model and Complimentary Materials, and patent-assertion termination clauses pose problems, plus a drafting question for Dr. Duan.",
+          "point_zh": "邀请社区再就 ModelGo Zero 2.0 与 ModelGo Attribution 2.0 发表意见,提供红线对比,并就托管服务义务、合并授权材料及专利终止条款是否构成问题提问,另向起草人提问差异原因。",
+          "sentiment": "question",
           "source": "license-review",
           "position": "support",
-          "point": "All:\n\nThere are two ModelGo licenses currently up for consideration:\n\n1. ModelGo Zero (basically, a -0 version of these licenses, with no\nobligations on licensee);\n\n2. ModelGo Attribution (basically a"
+          "point": "Invites further community comment on the ModelGo Zero 2.0 and ModelGo Attribution 2.0 licenses, sharing a redline comparison, and asks whether hosted-service obligations, combining Model and Complimentary Materials, and patent-assertion termination clauses pose problems, plus a drafting question for Dr. Duan."
         },
         {
           "date": "2026-09-07",
@@ -18186,12 +18217,12 @@
           "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006251.html",
           "sender": "Pamela Chestek",
-          "snippet": "Can you provide a link or copy of the text of each license? Thanks, Pam Pamela S. Chestek Chestek Legal 4641 Post St. Unit 4316 El Dorado Hills, CA 95762 +1 919-800-8033 pamela at chesteklegal.com",
-          "point_zh": null,
+          "snippet": "Requests a link or a copy of the text of each license.",
+          "point_zh": "请求提供每个许可证文本的链接或副本。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "neutral",
-          "point": "Can you provide a link or copy of the text of each license?\n\nThanks,\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\n"
+          "point": "Requests a link or a copy of the text of each license."
         },
         {
           "date": "2026-09-07",
@@ -18199,12 +18230,12 @@
           "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006252.html",
           "sender": "McCoy Smith",
-          "snippet": "ModelGo Zero: https://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG0/LICENSE ModelGo Attribution: https://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG-BY/LICENSE",
-          "point_zh": null,
+          "snippet": "Provides GitHub links to the ModelGo Zero and ModelGo Attribution license texts.",
+          "point_zh": "提供 ModelGo Zero 与 ModelGo Attribution 许可证文本的 GitHub 链接。",
           "sentiment": "neutral",
           "source": "license-review",
           "position": "neutral",
-          "point": "ModelGo Zero:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG0/LICENSE\nModelGo Attribution:\nhttps://github.com/Xtra-Computing/ModelGo/blob/main/MGL/V2/MG-BY/LICENSE"
+          "point": "Provides GitHub links to the ModelGo Zero and ModelGo Attribution license texts."
         },
         {
           "date": "2026-09-08",
@@ -18212,12 +18243,12 @@
           "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006253.html",
           "sender": "Moming Duan",
-          "snippet": "Thank you for the careful review and the structured questions. On the preamble difference: There is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Explains the preamble difference between ModelGo Zero and ModelGo Attribution—MG0 has no obligations so its acceptance clause only asks the user to read and understand, while MG-BY keeps the agree-to-be-bound structure—and compiles prior review-thread background answering questions Q1–Q4, offering further clarification.",
+          "point_zh": "解释 ModelGo Zero 与 ModelGo Attribution 的序言差异：MG0 无义务，接受条款仅要求阅读理解，MG-BY 保留同意受约束结构，并整理历次评审背景回应 Q1–Q4。",
+          "sentiment": "support",
           "source": "license-review",
           "position": "support",
-          "point": "Thank you for the careful review and the structured questions.\n\nOn the preamble difference:\n\nThere is a difference in the language in the preamble of ModelGo Zero vs ModelGo Attribution. ModelGo Zero "
+          "point": "Explains the preamble difference between ModelGo Zero and ModelGo Attribution—MG0 has no obligations so its acceptance clause only asks the user to read and understand, while MG-BY keeps the agree-to-be-bound structure—and compiles prior review-thread background answering questions Q1–Q4, offering further clarification."
         }
       ],
       "board_vote": null,
@@ -18254,42 +18285,42 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 0.8,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review is still actively in progress: after the 2nd resubmission in June 2025, a 3rd resubmission and a FINAL CALL FOR COMMENTS occurred as recently as September 2026, with no board vote, no approval, and no rejection recorded. Only the Attribution-OpenSource variant was withdrawn, not the ModelGo Attribution (MG-BY-2.0) license under review here. Conservative evidence supports pending.",
+        "rationale": "Timeline shows multiple resubmissions and an ongoing 'FINAL CALL FOR COMMENTS' as of 2026-09-07/08, with no board decision, vote, or OSI-approval evidence. Note: the 'Attribution-OpenSource' variant was reportedly withdrawn by the submitter, but this adjudication covers the ModelGo family submission as a whole (MG0-2.0 and MG-BY-2.0), which remains under active review. Pending is the faithful status.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:modelgo-attribution-v2",
             "supports": "pending",
-            "quote": "2nd resubmission as of 2025; still under review. Related to AI model output licensing."
-          },
-          {
-            "evidence_id": "timeline:modelgo-attribution-v2#78",
-            "supports": "pending",
-            "quote": "Submits the revised ModelGo Attribution License (MG-BY-2.0) for OSI review"
+            "quote": "2nd resubmission as of 2025; still under review."
           },
           {
             "evidence_id": "timeline:modelgo-attribution-v2#119",
             "supports": "pending",
-            "quote": "ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS"
+            "quote": "Invites further community comment on the ModelGo Zero 2.0 and ModelGo Attribution 2.0 licenses... FINAL CALL FOR COMMENTS"
           },
           {
             "evidence_id": "timeline:modelgo-attribution-v2#115",
             "supports": "pending",
-            "quote": "verifies the \"Attribution-Open Source\" variant is withdrawn."
+            "quote": "verifies the \"Attribution-Open Source\" variant is withdrawn"
+          },
+          {
+            "evidence_id": "timeline:modelgo-attribution-v2#122",
+            "supports": "pending",
+            "quote": "compiles prior review-thread background answering questions Q1–Q4, offering further clarification"
           }
         ],
         "conflicts": [
           {
             "source": "timeline:modelgo-attribution-v2#115",
             "observed_status": "withdrawn",
-            "explanation": "The Attribution-OpenSource variant (MG-BY-OS-2.0) was withdrawn, but this submission concerns the ModelGo Attribution License family review (MG-BY-2.0), which remains under active review."
+            "explanation": "The MG-BY-OS variant was withdrawn by the submitter, but MG0-2.0 and MG-BY-2.0 remain under review, so the overall family submission is not withdrawn."
           }
         ],
-        "input_hash": "sha256:0a4762e044591f4458416a19923ccf6f2d6d19c0ba8cac4af660b08349b5b573",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:ec6010b4f3c62ce0676d1043230d007d21113a3cd73c78de0be929161b178b7f",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
