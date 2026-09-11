@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "fe542607d56e29c0",
+    "source_hash": "cc93646d6d534a8c",
     "index_schema_version": 5,
-    "generated_at": "2026-09-11T19:19:09.349Z",
+    "generated_at": "2026-09-11T19:55:19.649Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -72,7 +72,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 114,
+      "total_messages": 115,
       "duration_days": 29,
       "date_range": [
         "2026-08-13",
@@ -95,7 +95,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 114,
+      "count": 115,
       "first": "2026-08-13",
       "last": "2026-09-11"
     },
@@ -103,10 +103,10 @@
       "date": "2026-09-11",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Josh Berkus",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "??? Speaking as a software developer, accidental infringing copying\nhappens all the time.  Now, if a court finds the copying was accidental,\ngenerally the only penalty leveled is a prohibition on usin",
+      "point": "Can you explain how?\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\nwww.chesteklegal.com",
       "point_zh": ""
     }
   },
