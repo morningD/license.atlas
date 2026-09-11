@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T17:34:54.554Z",
+    "generated_at": "2026-09-11T18:10:19.703Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-11T17:35:31.239Z",
+    "enriched_at": "2026-09-11T18:15:09.807Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-11T17:35:43.499Z",
+      "applied_at": "2026-09-11T18:15:09.964Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -275,6 +275,11 @@
           "message_count": 4
         },
         {
+          "name": "Simon Phipps",
+          "role": "board_member",
+          "message_count": 3
+        },
+        {
           "name": "Eric Schultz",
           "role": "reviewer",
           "message_count": 2
@@ -282,11 +287,6 @@
         {
           "name": "Kevin P. Fleming",
           "role": "reviewer",
-          "message_count": 2
-        },
-        {
-          "name": "Simon Phipps",
-          "role": "board_member",
           "message_count": 2
         },
         {
@@ -1812,19 +1812,32 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006264.html",
           "sender": "Pamela Chestek",
-          "snippet": "You're putting the burden on the potentially wronged party to limit their choices rather than on the licensor to avoid wrongful conduct. I do not think open source licenses should be encouraging volit",
+          "snippet": "Argues OpenMDW-1.1 puts the burden of avoiding infringement on the potentially wronged party rather than the licensor, questions any justification for excusing licensor copyright infringement, and notes licensees cannot know if their work is in the AI training corpus before agreeing.",
           "point_zh": "认为 OpenMDW-1.1 将避免侵权的负担加于潜在受害方而非许可方,质疑为许可方侵犯版权开脱有何正当性,并指出被许可人同意前无法知晓其作品是否在训练语料中。",
           "sentiment": "oppose",
           "source": "license-review",
           "position": "support",
           "point": "Argues OpenMDW-1.1 puts the burden of avoiding infringement on the potentially wronged party rather than the licensor, questions any justification for excusing licensor copyright infringement, and notes licensees cannot know if their work is in the AI training corpus before agreeing."
+        },
+        {
+          "date": "2026-09-11",
+          "type": "feedback",
+          "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006265.html",
+          "sender": "Simon Phipps",
+          "snippet": "Because it is still delivering valuable results? Because, having discovered it uses your work, you feel more entitled to benefit from it not less? Because you have a paid account to a larger service o",
+          "point_zh": "认为以丧失所需能力威胁用户会不合理地造成寒蝉效应；互惠中止或适用于专利持有者之间的专利许可，但版权终止触发远超该特例，波及只想执行开源许可证的个人与社区。",
+          "sentiment": "oppose",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Argues that threatening users with loss of needed capabilities is unreasonably chilling, and that while reciprocal denial may suit patent disputes between patent-holding aggressors, the copyright termination trigger goes far beyond that case to touch individuals and communities enforcing open source licenses."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 112,
+        "total_messages": 113,
         "date_range": [
           "2026-08-13",
           "2026-09-11"
@@ -1863,12 +1876,12 @@
         "confidence": 0.8,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The evidence shows a submission on 2026-08-13 followed by active community discussion (including opposition from some reviewers) as late as 2026-09-11, with no board decision, vote, withdrawal, or supersession recorded. The curated status is pending. Discussion and opposition alone do not establish rejection. Conservative fallback: pending.",
+        "rationale": "The license was submitted for OSI review (2026-08-13), but the timeline shows only ongoing discussion with no board decision, vote, withdrawal, or supersession. Curated status is pending. Despite active opposition in the thread, no terminal outcome is evidenced, so the conservative pending status stands.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": "status: pending"
+            "quote": null
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
@@ -1879,17 +1892,12 @@
             "evidence_id": "timeline:openmdw-license-agreement-1-1#107",
             "supports": "pending",
             "quote": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed"
-          },
-          {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#111",
-            "supports": "pending",
-            "quote": "I do not think open source licenses should be encouraging volit"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:fa49f27c72a71df8cc69070114997a935eae27febef95912e3098b3d091eecb1",
+        "input_hash": "sha256:41e29a7ea786efd1309f8e79f5265c15e192c6af77c294455d2d13657840142e",
         "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
@@ -18319,8 +18327,8 @@
           }
         ],
         "input_hash": "sha256:ec6010b4f3c62ce0676d1043230d007d21113a3cd73c78de0be929161b178b7f",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {

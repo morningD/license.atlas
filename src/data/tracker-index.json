@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "6245378625ed6673",
+    "source_hash": "676527c1a45b066f",
     "index_schema_version": 5,
-    "generated_at": "2026-09-11T17:35:31.239Z",
+    "generated_at": "2026-09-11T18:15:09.807Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -72,7 +72,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 112,
+      "total_messages": 113,
       "duration_days": 29,
       "date_range": [
         "2026-08-13",
@@ -95,7 +95,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 112,
+      "count": 113,
       "first": "2026-08-13",
       "last": "2026-09-11"
     },
@@ -103,11 +103,11 @@
       "date": "2026-09-11",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Simon Phipps",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "oppose",
-      "point": "Argues OpenMDW-1.1 puts the burden of avoiding infringement on the potentially wronged party rather than the licensor, questions any justification for excusing licensor copyright infringement, and notes licensees cannot know if their work is in the AI training corpus before agreeing.",
-      "point_zh": "认为 OpenMDW-1.1 将避免侵权的负担加于潜在受害方而非许可方,质疑为许可方侵犯版权开脱有何正当性,并指出被许可人同意前无法知晓其作品是否在训练语料中。"
+      "point": "Argues that threatening users with loss of needed capabilities is unreasonably chilling, and that while reciprocal denial may suit patent disputes between patent-holding aggressors, the copyright termination trigger goes far beyond that case to touch individuals and communities enforcing open source licenses.",
+      "point_zh": "认为以丧失所需能力威胁用户会不合理地造成寒蝉效应；互惠中止或适用于专利持有者之间的专利许可，但版权终止触发远超该特例，波及只想执行开源许可证的个人与社区。"
     }
   },
   "bos-public-license-family": {
