@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "cc93646d6d534a8c",
+    "source_hash": "c9b74bac6480cd68",
     "index_schema_version": 5,
-    "generated_at": "2026-09-11T19:55:19.649Z",
+    "generated_at": "2026-09-12T05:59:43.470Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -58,8 +58,8 @@
       "sender": "Max Mehl",
       "subject": "[License-review] Submission: PSF-2.0",
       "sentiment": "neutral",
-      "point": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached.\n\nPSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples:\n\n*\nhttps://github.com/jython/jython\n*\nhttps://github.com/marcelotduarte/cx_Freeze\n*\nhttps://github.com/chianjin/PDFeXpress\n\nGiven that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license.\n\nThe license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this.\n\nI hope to have provided all required information and hope for a swift and positive review and approval. Thanks!\n\nBest,\n\n--\nMax Mehl\nOpen Source / Supply Chain\nChief Technology & Enterprise Architecture Office\nDB Systel GmbH / Deutsche Bahn\n\nSchedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
-      "point_zh": ""
+      "point": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review: Python-2.0.1 was approved as a combined license, but PSF-2.0 is also used verbatim and standalone by projects like Jython and cx_Freeze, so a distinct approval would serve the Python ecosystem; text matches SPDX.",
+      "point_zh": "提交 PSF-2.0（Python 软件基金会许可证 2.0）申请 OSI 单独审批：Python-2.0.1 已作为组合许可证获批，但 PSF-2.0 亦被 Jython、cx_Freeze 等项目原样独立使用，单独批准有助于 Python 生态；文本与 SPDX 一致。"
     }
   },
   "openmdw-license-agreement-1-1": {
@@ -105,9 +105,9 @@
       "source": "license-review",
       "sender": "Pamela Chestek",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "neutral",
-      "point": "Can you explain how?\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\nwww.chesteklegal.com",
-      "point_zh": ""
+      "sentiment": "question",
+      "point": "Asks the other party to explain how that is the case.",
+      "point_zh": "要求对方解释具体情况究竟是如何成立的。"
     }
   },
   "bos-public-license-family": {

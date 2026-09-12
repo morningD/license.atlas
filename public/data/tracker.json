@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T19:54:52.207Z",
+    "generated_at": "2026-09-12T05:59:20.634Z",
     "total_submissions": 253,
     "by_status": {
       "approved": 89,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-11T19:55:19.649Z",
+    "enriched_at": "2026-09-12T05:59:43.470Z",
     "coverage": {
       "submissions_with_license_text": 125,
       "submissions_with_board_vote": 85,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-11T19:55:27.033Z",
+      "applied_at": "2026-09-12T06:00:23.288Z",
       "applied": 194,
       "missing": 0,
       "invalid": 0,
@@ -133,8 +133,8 @@
           "subject": "[License-review] Submission: PSF-2.0",
           "source": "license-review",
           "position": "neutral",
-          "point": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached.\n\nPSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples:\n\n*\nhttps://github.com/jython/jython\n*\nhttps://github.com/marcelotduarte/cx_Freeze\n*\nhttps://github.com/chianjin/PDFeXpress\n\nGiven that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license.\n\nThe license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this.\n\nI hope to have provided all required information and hope for a swift and positive review and approval. Thanks!\n\nBest,\n\n--\nMax Mehl\nOpen Source / Supply Chain\nChief Technology & Enterprise Architecture Office\nDB Systel GmbH / Deutsche Bahn\n\nSchedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
-          "point_zh": null,
+          "point": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review: Python-2.0.1 was approved as a combined license, but PSF-2.0 is also used verbatim and standalone by projects like Jython and cx_Freeze, so a distinct approval would serve the Python ecosystem; text matches SPDX.",
+          "point_zh": "提交 PSF-2.0（Python 软件基金会许可证 2.0）申请 OSI 单独审批：Python-2.0.1 已作为组合许可证获批，但 PSF-2.0 亦被 Jython、cx_Freeze 等项目原样独立使用，单独批准有助于 Python 生态；文本与 SPDX 一致。",
           "sentiment": "neutral",
           "text_ids": [
             "psf-2-0--license-review-submission-psf-20-part-2-fdd14f67txt--fdd14f678b"
@@ -1838,12 +1838,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006266.html",
           "sender": "Josh Berkus",
-          "snippet": "??? Speaking as a software developer, accidental infringing copying happens all the time. Now, if a court finds the copying was accidental, generally the only penalty leveled is a prohibition on usin",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Argues the infringement/justice line of argument is unhelpful for deciding whether OpenMDW is open source, and proposes instead assessing the clause as a restriction on use. Asks whether antisuit reciprocity is justified despite that restriction, concluding it is a complicated question with no obvious answer.",
+          "point_zh": "认为侵权公正性论证无助于判断 OpenMDW 是否开源,应考察该条款作为使用限制的影响;追问 antisuit 互惠作为使用限制是否正当,称问题复杂、无明显答案。",
+          "sentiment": "question",
           "source": "license-review",
           "position": "support",
-          "point": "??? Speaking as a software developer, accidental infringing copying\nhappens all the time.  Now, if a court finds the copying was accidental,\ngenerally the only penalty leveled is a prohibition on usin"
+          "point": "Argues the infringement/justice line of argument is unhelpful for deciding whether OpenMDW is open source, and proposes instead assessing the clause as a restriction on use. Asks whether antisuit reciprocity is justified despite that restriction, concluding it is a complicated question with no obvious answer."
         },
         {
           "date": "2026-09-11",
@@ -1851,12 +1851,12 @@
           "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006267.html",
           "sender": "Pamela Chestek",
-          "snippet": "Can you explain how? Pam Pamela S. Chestek Chestek Legal 4641 Post St. Unit 4316 El Dorado Hills, CA 95762 +1 919-800-8033 pamela at chesteklegal.com www.chesteklegal.com",
-          "point_zh": null,
-          "sentiment": "neutral",
+          "snippet": "Asks the other party to explain how that is the case.",
+          "point_zh": "要求对方解释具体情况究竟是如何成立的。",
+          "sentiment": "question",
           "source": "license-review",
           "position": "neutral",
-          "point": "Can you explain how?\n\nPam\n\nPamela S. Chestek\nChestek Legal\n4641 Post St.\nUnit 4316\nEl Dorado Hills, CA 95762\n+1 919-800-8033\npamela at chesteklegal.com\nwww.chesteklegal.com"
+          "point": "Asks the other party to explain how that is the case."
         }
       ],
       "board_vote": null,
@@ -1899,34 +1899,39 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.9,
+        "confidence": 0.92,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The review was submitted on 2026-08-13 and the latest evidence (2026-09-11) consists only of discussion/feedback, with no board decision, vote, rejection, or withdrawal recorded. All status evidence (curated RWP entry, timeline summary) supports an undecided review. Terminal statuses are unsupported, so the conservative and faithful outcome is pending.",
+        "rationale": "The evidence uniformly supports an undecided review. OpenMDW-1.1 was submitted for OSI approval on 2026-08-13 by Michael Dolan on behalf of The Linux Foundation, and the license-review thread shows active, contested discussion through the latest event on 2026-09-11: several participants (Fontana, Chestek, Phipps) raise substantive objections to the copyright-triggered termination provision, while others (Sado, Smith) defend or probe it, and Berkus characterizes the central question as unresolved. There is no OSI API record, no board vote, and no board decision evidence; the timeline confirms has_withdrawal=false and has_board_decision=false; and the curated RWP entry records the review as pending with no rejection reason. The critical list feedback expresses opinions but is not board/minutes/list evidence of an actual rejection decision, and no withdrawal by the submitter is recorded. With no terminal decision, withdrawal, supersession, or legacy categorization supported, pending is the faithful status.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:openmdw-license-agreement-1-1",
             "supports": "pending",
-            "quote": null
+            "quote": "curated RWP entry status: pending; rejection_reason: null"
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#0",
             "supports": "pending",
-            "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license"
+            "quote": "Submits OpenMDW-1.1 on behalf of steward The Linux Foundation for OSI approval as a new license — a permissive instrument covering model materials across IP regimes, with no restrictions on outputs."
           },
           {
             "evidence_id": "timeline:openmdw-license-agreement-1-1#107",
             "supports": "pending",
-            "quote": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed"
+            "quote": "Argues OpenMDW-1.1's unprecedented copyright-triggered termination provision is fundamentally flawed... making the license problematic for general software."
           },
           {
-            "evidence_id": "timeline:openmdw-license-agreement-1-1#112",
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#108",
             "supports": "pending",
-            "quote": "the copyright termination trigger goes far beyond that case to touch individuals and communities enforcing open source licenses"
+            "quote": "Agrees a \"realistic threat\" alone cannot justify a restriction... suggesting termination provisions be evaluated across multiple dimensions via proportionality."
+          },
+          {
+            "evidence_id": "timeline:openmdw-license-agreement-1-1#113",
+            "supports": "pending",
+            "quote": "Asks whether antisuit reciprocity is justified despite that restriction, concluding it is a complicated question with no obvious answer."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:e5ded9f591b5ed5c94d03a603f6172f68117da6bf0470210f418cc5ccbbbc255",
+        "input_hash": "sha256:0f5d34251bf6fe169b8e0a2e7422b3e5de2cf9667cb38251390420e5571ed65b",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
