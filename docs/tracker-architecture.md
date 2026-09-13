@@ -46,7 +46,7 @@ KB（source of truth）→ license-atlas 单向同步：
 **传输通道**（2026-08-28）：默认走 OpenAI 兼容端点 `https://open.bigmodel.cn/api/coding/paas/v4`（env `ADJUDICATION_OPENAI_BASE_URL`）：`response_format: json_object` + `thinking: disabled`（`ADJUDICATION_THINKING=enabled` 可开），单次调用，单条 2-15s。此前用的 Anthropic 兼容端点（`/api/anthropic`）structured output 每次调用都失败再 fallback 到内联 schema 重发，双倍耗时且输出常被截断（`Unexpected end of JSON input` 皆源于此），现仅作兜底。**模型对照（同通道 qpl-1-0 实测）**：glm-4.6 保留（发现证据错配且不被 API 元数据带偏）；glm-5.3-flash 略快但判断质量差半档，暂不采用。
 
 **无人值守裁决语义**（2026-09-04）：从"人工门"改为"保守降级 + 事后审计"。触发背景：ModelGo 的矛盾证据（提交者确认 Attribution-OpenSource 变体撤回，但 MG0-2.0/MG-BY-2.0 仍在 board 议程）落在基线门之外 → 流水线停更等人工 `--rebaseline`。
-- **降级规则**（run 与 apply 双保险同构）：终态（approved/rejected/withdrawn/superseded/legacy）携带 conflicts 或 confidence<0.75 → 降级 pending，rationale 加 `[conservative fallback]`，conflicts 留档，`requires_manual_review` 恒 false。pending 是安全态：不宣称批准也不宣称拒绝。
+- **降级规则**（run 与 apply 双保险同构）：终态（approved/rejected/withdrawn/superseded/legacy）携带 conflicts 或 confidence<0.75 → **降级到规则状态 rule_status**（rationale 加 `[conservative fallback]`，conflicts 留档，`requires_manual_review` 恒 false）。降级目标不能是一律 pending：2026-09-12 实测，fold 历史线程进 API 条目后重裁置信度下降，把 OSI 已批准的 CAL/UCL/EUPL 等 8 条降成 pending——curated/API 的终态是权威事实，回规则状态才是"保守"。
 - **验证端**（verify / test-tracker-data）：只对"终态仍带矛盾/低置信"报 critical（降级网漏了）；board_vote 结果 / withdrawal 事件存在但 pending 降为 warning（家族式部分撤回的 pending 合法）。
 - **基线门退役**：`checkManualBaseline` → `reportManualReviewSoft` 软审计；`tracker-manual-baseline.json` 与 `--rebaseline` 退役；manual-review.json 仍生成供翻案（直接改 v2 + 重新锚定基线批）。
 - **point coverage 非阻塞**：`runSoft` 包裹（1301 敏感拒绝等瞬时失败不阻塞 push，snippet 兜底 + 下轮重试）。
@@ -118,6 +118,10 @@ KB（source of truth）→ license-atlas 单向同步：
 - `src/components/license-review-block.tsx` — 详情页内嵌块
 - `src/lib/search.ts` — 正式 Atlas MiniSearch 结果之外，在有搜索查询时动态加载 `tracker-index.json` 并生成 `Review Tracker Match` 搜索分组；只作为跳转入口，不把 review submissions 并入正式许可证库
 - `src/components/footer.tsx` — 全站页脚显示最新数据更新时间，取 `src/data/stats.json.updated`、`src/data/tracker-meta.json.generated_at` 与 `src/data/osadl-meta.json.generated_at` 中最新者
+
+## 历史线程折叠与规模警告（2026-09-12）
+
+build 第 4 步 provisional 机制放开裸 subject 线程后引入 `findOwningEntry`：显著词重叠（停用词表剔除 license/agreement/public 等无信号词）决定未覆盖线程归属既有 curated/API 条目（timeline 折叠进主条目，**不**新建条目），真孤儿（API 从未收录的提交，如 TVA 2009、BY-S GPL 2009、MGB 2025、木兰owl 2023 等 24 个）才建 provisional。**一次性大 fold 的连锁规模**：~900 条 point 提取（125 批）+ ~40 条裁决重跑，合计 1.5-2 小时——point 提取与全链路都要 nohup 后台跑。fold 后的完整数据流（顺序错误会消费污染数据）：`extract-full-bodies`（刷 per-submission 包，provisional/fold 消息只有刷包后才进提取视野）→ `extract-all-points` → `enrich` → `update:tracker`。**v2 消费时序铁律**：prepare 会把 v2 的 status/status_review 重置回规则值，任何对 v2 的手工恢复/编辑之后必须先 `apply-status-adjudications.mjs` 重放裁决终态，再让 verify/sync 等下游读 v2；恢复终态的权威来源是 atlas git 里最后推送的 `public/data/tracker.json`（KB 自身无 git）。
 
 ## 当前同步快照
 
