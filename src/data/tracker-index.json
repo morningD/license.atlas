@@ -1,14 +1,14 @@
 {
   "_meta": {
-    "source_hash": "c9b74bac6480cd68",
+    "source_hash": "b33d845f4cc1058a",
     "index_schema_version": 5,
-    "generated_at": "2026-09-12T05:59:43.470Z",
-    "total_submissions": 253,
+    "generated_at": "2026-09-12T18:59:49.939Z",
+    "total_submissions": 276,
     "by_status": {
       "approved": 89,
-      "rejected": 42,
-      "withdrawn": 14,
-      "pending": 13,
+      "rejected": 44,
+      "withdrawn": 15,
+      "pending": 33,
       "superseded": 3,
       "legacy": 33,
       "discussion": 59
@@ -72,11 +72,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 115,
-      "duration_days": 29,
+      "total_messages": 116,
+      "duration_days": 30,
       "date_range": [
         "2026-08-13",
-        "2026-09-11"
+        "2026-09-12"
       ]
     },
     "has_vote": false,
@@ -95,19 +95,19 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 115,
+      "count": 116,
       "first": "2026-08-13",
-      "last": "2026-09-11"
+      "last": "2026-09-12"
     },
     "latest_event": {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Preston Maness",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
-      "sentiment": "question",
-      "point": "Asks the other party to explain how that is the case.",
-      "point_zh": "要求对方解释具体情况究竟是如何成立的。"
+      "sentiment": "neutral",
+      "point": "Orthogonal to the topic at hand, but I'd support having a process for\nde-listing licenses. No person or group can get the right or best answer\nall of the time. Sometimes only history can inform whethe",
+      "point_zh": ""
     }
   },
   "bos-public-license-family": {
@@ -448,6 +448,144 @@
       "point_zh": "解释将公司商标作为许可证名称不可接受，因为许可证若被广泛复用，就会削弱对公司名称本身的控制。"
     }
   },
+  "of-the-resubmitted-new-mgb-1-0": {
+    "id": "of-the-resubmitted-new-mgb-1-0",
+    "name": "Of The Resubmitted New \"Mgb 1.0\"",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Barksdale, Marvin",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2025-02-27",
+        "2025-02-27"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-02-27",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2025-02-27",
+      "last": "2025-02-27"
+    },
+    "latest_event": {
+      "date": "2025-02-27",
+      "type": "submission",
+      "source": "license-review",
+      "sender": "Barksdale, Marvin",
+      "subject": "[License-review] Request for approval of the resubmitted new \"MGB 1.0\"",
+      "sentiment": "neutral",
+      "point": "Continued thanks for the notes, suggestions, and discussion. Many of the notes added perspective to concerns via suggestions that I believe we will be able to implement through a resubmitted license, ",
+      "point_zh": ""
+    }
+  },
+  "of-the-resubmitted-new-mgb-1-0-license": {
+    "id": "of-the-resubmitted-new-mgb-1-0-license",
+    "name": "Of The Resubmitted New \"Mgb 1.0\" License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Barksdale, Marvin",
+    "stats": {
+      "total_messages": 8,
+      "duration_days": 4,
+      "date_range": [
+        "2025-02-21",
+        "2025-02-25"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-02-21",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 8,
+      "first": "2025-02-21",
+      "last": "2025-02-25"
+    },
+    "latest_event": {
+      "date": "2025-02-25",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Simon Phipps",
+      "subject": "[License-review] Request for approval of the resubmitted new \"MGB 1.0\" license",
+      "sentiment": "oppose",
+      "point": "States the decisive point: a license is open source only if it delivers all rights to everyone regardless of how they are exercised; if there is a risk some rights are not delivered, it should not be approved.",
+      "point_zh": "认为决定性标准是：许可证必须向所有人交付全部权利且不限行使方式；若存在权利未被交付的风险（尤其属故意），就不应批准。"
+    }
+  },
+  "of-new-mgb-1-0-license-pamela-chestek": {
+    "id": "of-new-mgb-1-0-license-pamela-chestek",
+    "name": "Of New \"Mgb 1.0\" License (Pamela Chestek)",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Barksdale, Marvin",
+    "stats": {
+      "total_messages": 4,
+      "duration_days": 1,
+      "date_range": [
+        "2025-02-19",
+        "2025-02-20"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-02-19",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 4,
+      "first": "2025-02-19",
+      "last": "2025-02-20"
+    },
+    "latest_event": {
+      "date": "2025-02-20",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Request for approval of new \"MGB 1.0\" license (Pamela Chestek)",
+      "sentiment": "oppose",
+      "point": "Argues this makes it not an open source license: the licensee must be free to use the licensed software without potential infringement claims under any infringement theory.",
+      "point_zh": "认为这使其不成其为开源许可证:被许可人必须能在任何侵权理论下自由使用软件而不面临潜在侵权索赔。"
+    }
+  },
   "modelgo-attribution-v2": {
     "id": "modelgo-attribution-v2",
     "name": "ModelGo License Family v2.0",
@@ -506,6 +644,54 @@
       "sentiment": "support",
       "point": "Explains the preamble difference between ModelGo Zero and ModelGo Attribution—MG0 has no obligations so its acceptance clause only asks the user to read and understand, while MG-BY keeps the agree-to-be-bound structure—and compiles prior review-thread background answering questions Q1–Q4, offering further clarification.",
       "point_zh": "解释 ModelGo Zero 与 ModelGo Attribution 的序言差异：MG0 无义务，接受条款仅要求阅读理解，MG-BY 保留同意受约束结构，并整理历次评审背景回应 Q1–Q4。"
+    }
+  },
+  "of-new-mgb-1-0-license": {
+    "id": "of-new-mgb-1-0-license",
+    "name": "Of New \"Mgb 1.0\" License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Barksdale, Marvin",
+    "stats": {
+      "total_messages": 15,
+      "duration_days": 237,
+      "date_range": [
+        "2025-02-04",
+        "2025-09-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2025-02-04",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [
+        "MG-BY-OS"
+      ],
+      "latest_text_date": "2025-09-19"
+    },
+    "timeline_meta": {
+      "count": 15,
+      "first": "2025-02-04",
+      "last": "2025-09-29"
+    },
+    "latest_event": {
+      "date": "2025-09-29",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "McCoy Smith",
+      "subject": "[License-review] Request for approval of new \"MGB 1.0\" license",
+      "sentiment": "oppose",
+      "point": "Assumes a revision is coming and presses on the patent grant: suggests adopting MPL-2.0's grant, challenges the GPL-3.0 and Rosen rationales, and warns that excluding the Contribution grant may violate OSD 1 while excluding the combination grant may conflict with Quanta/LGE patent exhaustion.",
+      "point_zh": "预期将修订并追问专利授权:建议采用 MPL-2.0 的授权,质疑 GPL-3.0 类比,并警告排除贡献授权或违反 OSD 1,排除组合授权或与 Quanta/LGE 专利权用尽判例冲突。"
     }
   },
   "public-benefit-zero-copyright": {
@@ -602,6 +788,374 @@
       "point_zh": "表示似乎没有其他人再对该许可证提出意见或批评，询问现在是否可以重新提交许可证进入审查流程。"
     }
   },
+  "and-approval-of-the-open-source-protection-license-ospl": {
+    "id": "and-approval-of-the-open-source-protection-license-ospl",
+    "name": "And Approval Of The Open Source Protection License (Ospl)",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Harvey Washington",
+    "stats": {
+      "total_messages": 8,
+      "duration_days": 124,
+      "date_range": [
+        "2024-06-03",
+        "2024-10-05"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2024-06-03",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2024-09-14"
+    },
+    "timeline_meta": {
+      "count": 8,
+      "first": "2024-06-03",
+      "last": "2024-10-05"
+    },
+    "latest_event": {
+      "date": "2024-10-05",
+      "type": "board_decision",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Request for Review and Approval of the Open Source Protection License (OSPL)",
+      "sentiment": "neutral",
+      "point": "At its September 20, 2024 meeting, the Board adopted the License Review Committee's recommendation and did NOT approve the Open Source Protection License as an OSI Certified License.",
+      "point_zh": "董事会在2024年9月20日会议上采纳许可证审查委员会建议，未批准 Open Source Protection License 为 OSI 认证许可证。"
+    }
+  },
+  "of-the-updated-w3c-software-license": {
+    "id": "of-the-updated-w3c-software-license",
+    "name": "Of The Updated W3c Software License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Rigo Wenning",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 143,
+      "date_range": [
+        "2024-04-18",
+        "2024-09-08"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2024-04-18",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2024-08-13"
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2024-04-18",
+      "last": "2024-09-08"
+    },
+    "latest_event": {
+      "date": "2024-09-08",
+      "type": "board_decision",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Request for approval of the updated W3C Software license",
+      "sentiment": "neutral",
+      "point": "Reports that at the August 16 meeting the Board adopted the License Committee's recommendation that the W3C Software and Document license - 2023 version is not a new license, with the OSI website text to be modified accordingly.",
+      "point_zh": "报告董事会已于 8 月 16 日会议采纳许可委员会建议:W3C Software and Document license - 2023 version 不构成新许可证,OSI 网站文本将相应修改。"
+    }
+  },
+  "of-new-open-constitution-license-x": {
+    "id": "of-new-open-constitution-license-x",
+    "name": "Of 'New' Open Constitution License X",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Legal Desk",
+    "stats": {
+      "total_messages": 6,
+      "duration_days": 1,
+      "date_range": [
+        "2023-08-25",
+        "2023-08-26"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2023-08-25",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2023-08-25"
+    },
+    "timeline_meta": {
+      "count": 6,
+      "first": "2023-08-25",
+      "last": "2023-08-26"
+    },
+    "latest_event": {
+      "date": "2023-08-26",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Request for Approval of 'new' Open Constitution License X",
+      "sentiment": "neutral",
+      "point": "Moves the discussion to the license-discuss list.",
+      "point_zh": "将讨论移至 license-discuss 列表。"
+    }
+  },
+  "mulanowl-by-v1-mulanowl-by-sa-v1-mulanowl-by-pl-v1-mulanowl-by-pl-sa-v1": {
+    "id": "mulanowl-by-v1-mulanowl-by-sa-v1-mulanowl-by-pl-v1-mulanowl-by-pl-sa-v1",
+    "name": "Mulanowl By V1; Mulanowl By-Sa V1; Mulanowl By-Pl V1; Mulanowl By-Pl-Sa V1",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "rejected",
+    "submitter": "卢遥",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 248,
+      "date_range": [
+        "2023-02-10",
+        "2023-10-16"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2023-02-10",
+      "decision": "",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 1,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2023-02-10"
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2023-02-10",
+      "last": "2023-10-16"
+    },
+    "latest_event": {
+      "date": "2023-10-16",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] For Approval: MulanOWL BY v1; MulanOWL BY-SA v1; MulanOWL BY-PL v1; MulanOWL BY-PL-SA v1",
+      "sentiment": "neutral",
+      "point": "Reports that at the September 15, 2023 Board meeting, the Board voted not to approve the Mulan Open Works Licenses.",
+      "point_zh": "报告称在2023年9月15日的董事会会议上,董事会投票不批准 Mulan Open Works Licenses。"
+    }
+  },
+  "license-mapod4d-for-approval": {
+    "id": "license-mapod4d-for-approval",
+    "name": "License \"Mapod4d\" For Approval",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Dr.ssa Serenella Saccon",
+    "stats": {
+      "total_messages": 7,
+      "duration_days": 4,
+      "date_range": [
+        "2023-01-13",
+        "2023-01-17"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2023-01-13",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2023-01-13"
+    },
+    "timeline_meta": {
+      "count": 7,
+      "first": "2023-01-13",
+      "last": "2023-01-17"
+    },
+    "latest_event": {
+      "date": "2023-01-17",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] Submission of license \"MAPOD4D\" for approval",
+      "sentiment": "oppose",
+      "point": "Agrees the submitter's stated aim—promoting code circulation while preventing the software from being marketed as a commercial product—directly contradicts OSD6, so the license could never be approved.",
+      "point_zh": "认同提交者声明的目标——促进代码流通却阻止软件作为商业产品上市——直接违背 OSD6，该许可证因而绝无可能获批。"
+    }
+  },
+  "yateam-public-license-version-1": {
+    "id": "yateam-public-license-version-1",
+    "name": "Yateam Public License Version 1",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "rejected",
+    "submitter": "Forever☆七夜草°",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 574,
+      "date_range": [
+        "2022-03-21",
+        "2023-10-16"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2022-03-21",
+      "decision": "",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2022-06-13"
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2022-03-21",
+      "last": "2023-10-16"
+    },
+    "latest_event": {
+      "date": "2023-10-16",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] For Approval: YATeam Public License Version 1",
+      "sentiment": "neutral",
+      "point": "Reports that the Board voted at its September 15, 2023 meeting not to approve the YATeam Public License Version 1.",
+      "point_zh": "报告董事会在 2023 年 9 月 15 日的会议上投票否决了 YATeam Public License Version 1。"
+    }
+  },
+  "of-casperlabs-open-source-license-cosl": {
+    "id": "of-casperlabs-open-source-license-cosl",
+    "name": "Of 'Casperlabs Open Source License (Cosl)",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "withdrawn",
+    "submitter": "Ashok Ranadive",
+    "stats": {
+      "total_messages": 15,
+      "duration_days": 30,
+      "date_range": [
+        "2019-12-10",
+        "2020-01-09"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2019-12-10",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 15,
+      "first": "2019-12-10",
+      "last": "2020-01-09"
+    },
+    "latest_event": {
+      "date": "2020-01-09",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "VanL",
+      "subject": "[License-review] Request for Approval of 'CasperLabs Open Source License (COSL)",
+      "sentiment": "neutral",
+      "point": "Suggests the OSI contact CasperLabs to modify the wording on their website (\"Review our Open Source License\" under \"Get Involved in the Community\").",
+      "point_zh": "建议 OSI 联系 CasperLabs,请其修改网站上\"Review our Open Source License\"的措辞。"
+    }
+  },
+  "master-consoles-open-source-definitive-licensemcopdl": {
+    "id": "master-consoles-open-source-definitive-licensemcopdl",
+    "name": "Master-Console'S Open-Source Definitive License(Mcopdl)",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Wayne A Rangel",
+    "stats": {
+      "total_messages": 12,
+      "duration_days": 2,
+      "date_range": [
+        "2019-05-27",
+        "2019-05-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2019-05-27",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2019-05-27"
+    },
+    "timeline_meta": {
+      "count": 12,
+      "first": "2019-05-27",
+      "last": "2019-05-29"
+    },
+    "latest_event": {
+      "date": "2019-05-29",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Pamela Chestek",
+      "subject": "[License-review] For Approval: Master-Console's Open-Source Definitive License(MCopdl)",
+      "sentiment": "neutral",
+      "point": "States that, since the submitter started a discussion of the license on license-discuss, the committee will assume the submission is withdrawn from OSI consideration for now.",
+      "point_zh": "表示由于提交者已在 license-discuss 上发起对该许可证的讨论，委员会将视其为暂时撤回了 OSI 审议。"
+    }
+  },
   "resubmission-of-european-space-agency-public-licenses-for-approval": {
     "id": "resubmission-of-european-space-agency-public-licenses-for-approval",
     "name": "European Space Agency Public Licenses (ESA-PL)",
@@ -650,52 +1204,6 @@
       "point_zh": "纠正“OSI 在 2018 年后未再沟通”的说法，指出 2019 年其实已有跟进但未收到回复，并在继续推进前把提交者指回那些历史邮件。"
     }
   },
-  "oset-public-license-for-approval": {
-    "id": "oset-public-license-for-approval",
-    "name": "Oset Public License For Approval]",
-    "spdx_id": "",
-    "aliases": [],
-    "status": "pending",
-    "submitter": "David RR Webber",
-    "stats": {
-      "total_messages": 1,
-      "duration_days": 0,
-      "date_range": [
-        "2015-09-03",
-        "2015-09-03"
-      ]
-    },
-    "has_vote": false,
-    "has_timeline": true,
-    "review_dates": {
-      "first_submitted": "2015-09-03",
-      "decision": "",
-      "decision_status": ""
-    },
-    "text_meta": {
-      "count": 0,
-      "linked_count": 0,
-      "duplicate_count": 0,
-      "diff_count": 0,
-      "series": [],
-      "latest_text_date": ""
-    },
-    "timeline_meta": {
-      "count": 1,
-      "first": "2015-09-03",
-      "last": "2015-09-03"
-    },
-    "latest_event": {
-      "date": "2015-09-03",
-      "type": "submission",
-      "source": "license-discuss",
-      "sender": "David RR Webber",
-      "subject": "[License-discuss] [FWD: RE: [CAVO] Fwd: Re: [License-review] Submission of OSET Public License for Approval]",
-      "sentiment": "neutral",
-      "point": "An HTML attachment was scrubbed...",
-      "point_zh": ""
-    }
-  },
   "toppers-license": {
     "id": "toppers-license",
     "name": "TOPPERS License",
@@ -740,6 +1248,558 @@
       "sentiment": "oppose",
       "point": "Prefers a professional translation affidavit and warns that extra translation evidence may still be requested, delaying approval.",
       "point_zh": "倾向于由专业翻译服务出具宣誓书，并提醒后续可能还会要求额外译文或第二份宣誓书，从而延迟批准。"
+    }
+  },
+  "public-software-license": {
+    "id": "public-software-license",
+    "name": "Public Software License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Nikolaos-Modestos Kougioulis",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 13,
+      "date_range": [
+        "2014-03-01",
+        "2014-03-14"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2014-03-01",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2014-03-01",
+      "last": "2014-03-14"
+    },
+    "latest_event": {
+      "date": "2014-03-14",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] For Approval: Public Software License",
+      "sentiment": "neutral",
+      "point": "Yes, why wouldn't it be?  He's looking for approval of a license.\n\n--Josh Berkus",
+      "point_zh": ""
+    }
+  },
+  "symisc-public-license-spl": {
+    "id": "symisc-public-license-spl",
+    "name": "Symisc Public License (Spl)",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Mrad Chems Eddine",
+    "stats": {
+      "total_messages": 2,
+      "duration_days": 0,
+      "date_range": [
+        "2012-09-25",
+        "2012-09-25"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2012-09-25",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 2,
+      "first": "2012-09-25",
+      "last": "2012-09-25"
+    },
+    "latest_event": {
+      "date": "2012-09-25",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Bruce Perens",
+      "subject": "[License-review] Request for Approval: Symisc Public License (SPL)",
+      "sentiment": "neutral",
+      "point": "Before we template the Sleepycat license, or have a version of it that\nis owned by another company, we should ask if the text of the Sleepycat\nlicense is copyrighted or copyrightable in any way that w",
+      "point_zh": ""
+    }
+  },
+  "of-no-nonsense-open-source-license": {
+    "id": "of-no-nonsense-open-source-license",
+    "name": "Of No Nonsense Open Source License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Love Nystrom",
+    "stats": {
+      "total_messages": 10,
+      "duration_days": 0,
+      "date_range": [
+        "2012-06-08",
+        "2012-06-08"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2012-06-08",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 2,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2012-06-08"
+    },
+    "timeline_meta": {
+      "count": 10,
+      "first": "2012-06-08",
+      "last": "2012-06-08"
+    },
+    "latest_event": {
+      "date": "2012-06-08",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Rick Moen",
+      "subject": "[License-review] Request for Approval of NO NONSENSE OPEN SOURCE LICENSE",
+      "sentiment": "support",
+      "point": "Argues redistributors' high fees are self-limiting because anyone can undercut them, and a sole holder of a lost work has no real obligation or recourse against him; there is no effort to be an ideological cause.",
+      "point_zh": "认为再分发者收取高价会自我限制，任何人都可压价竞争；唯一副本持有者索要高价也无从追责，此事并非意识形态运动。"
+    }
+  },
+  "forget-me-not": {
+    "id": "forget-me-not",
+    "name": "\"Forget Me Not\"",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Clark C. Evans",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2012-01-21",
+        "2012-01-21"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2012-01-21",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2012-01-21",
+      "last": "2012-01-21"
+    },
+    "latest_event": {
+      "date": "2012-01-21",
+      "type": "submission",
+      "source": "license-review",
+      "sender": "Clark C. Evans",
+      "subject": "[License-review] For Approval - \"Forget Me Not\"",
+      "sentiment": "neutral",
+      "point": "This _miscellaneous_ license is intended to be a short, reusable,\npermissive license requiring commensurate attribution for applications\nhaving user interfaces that display attributions or copyright n",
+      "point_zh": ""
+    }
+  },
+  "chicken-dance-license": {
+    "id": "chicken-dance-license",
+    "name": "Chicken Dance License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Andrew Harris",
+    "stats": {
+      "total_messages": 9,
+      "duration_days": 1,
+      "date_range": [
+        "2011-03-25",
+        "2011-03-26"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2011-03-25",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 9,
+      "first": "2011-03-25",
+      "last": "2011-03-26"
+    },
+    "latest_event": {
+      "date": "2011-03-26",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Matthew Flaschen",
+      "subject": "Request for Approval -- Chicken Dance License",
+      "sentiment": "neutral",
+      "point": "Don't forget Clause 4 Subclause 2 (\"two (2) or more persons affiliated\nwith the entity\" which also violates OSD clause 5 by discriminating\nagainst independent, unaffiliated developers (which may be a ",
+      "point_zh": ""
+    }
+  },
+  "by-license-steward-a-license-recognizing-public-domain-derivation": {
+    "id": "by-license-steward-a-license-recognizing-public-domain-derivation",
+    "name": "By License Steward, A License Recognizing Public Domain Derivation",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Joel Rees",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2010-04-11",
+        "2010-04-11"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2010-04-11",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2010-04-11",
+      "last": "2010-04-11"
+    },
+    "latest_event": {
+      "date": "2010-04-11",
+      "type": "submission",
+      "source": "license-review",
+      "sender": "Joel Rees",
+      "subject": "For approval, by license steward, a license recognizing public domain derivation",
+      "sentiment": "neutral",
+      "point": "I am using this license in distributing an implementation of FORTH\nderived mostly from the public domain fig-FORTH models.\n\nThe repository is at\n\nhttp://bif-c.svn.sourceforge.net/viewvc/bif-c/\n\nBecaus",
+      "point_zh": ""
+    }
+  },
+  "tva-open-source-license": {
+    "id": "tva-open-source-license",
+    "name": "Tva Open Source License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Carroll, James Ritchie",
+    "stats": {
+      "total_messages": 18,
+      "duration_days": 1,
+      "date_range": [
+        "2009-09-11",
+        "2009-09-12"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2009-09-11",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 18,
+      "first": "2009-09-11",
+      "last": "2009-09-12"
+    },
+    "latest_event": {
+      "date": "2009-09-12",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Carroll, James Ritchie",
+      "subject": "For Approval: TVA Open Source License",
+      "sentiment": "neutral",
+      "point": "My apologies, contacting OSI was my idea, not the TVA lawyers. I\nasked them to help me choose a suitable open source agreement so that we\ncould move our source code to the public. I provided them with",
+      "point_zh": ""
+    }
+  },
+  "the-azure-license": {
+    "id": "the-azure-license",
+    "name": "The Azure License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Kenneth Ballenegger",
+    "stats": {
+      "total_messages": 10,
+      "duration_days": 37,
+      "date_range": [
+        "2009-07-07",
+        "2009-08-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2009-07-07",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 10,
+      "first": "2009-07-07",
+      "last": "2009-08-13"
+    },
+    "latest_event": {
+      "date": "2009-08-13",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Kenneth Ballenegger",
+      "subject": "For Approval: The Azure License",
+      "sentiment": "neutral",
+      "point": "Just to follow up, step 2 says: “The Trac Maintainers will file\nappropriate tickets.”\n\nHow would I get that to happen?\n\nWe discussed the license and made quite a few rounds of revisions.\nLogically thi",
+      "point_zh": ""
+    }
+  },
+  "by-s-gpl": {
+    "id": "by-s-gpl",
+    "name": "By: S-Gpl",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Zhihang Wang",
+    "stats": {
+      "total_messages": 18,
+      "duration_days": 1,
+      "date_range": [
+        "2009-05-28",
+        "2009-05-29"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2009-05-28",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 18,
+      "first": "2009-05-28",
+      "last": "2009-05-29"
+    },
+    "latest_event": {
+      "date": "2009-05-29",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Rick Moen",
+      "subject": "For Approval By: S-GPL",
+      "sentiment": "oppose",
+      "point": "Concludes the submitted license is proprietary and plainly fails the OSD, so its business on the list is done; defends Qt-style dual licensing as longstanding common practice, and advises writing a new license that actually complies with the OSD.",
+      "point_zh": "断言所提交的许可证属专有且明显不符合 OSD，讨论到此为止；为 Qt 式双许可这一长期通行做法辩护，并建议撰写真正符合 OSD 的新许可证。"
+    }
+  },
+  "iggy-wanna-licence": {
+    "id": "iggy-wanna-licence",
+    "name": "Iggy Wanna Licence",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Brendan Scott",
+    "stats": {
+      "total_messages": 11,
+      "duration_days": 1,
+      "date_range": [
+        "2008-05-26",
+        "2008-05-27"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2008-05-26",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 1,
+      "linked_count": 1,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": "2008-05-26"
+    },
+    "timeline_meta": {
+      "count": 11,
+      "first": "2008-05-26",
+      "last": "2008-05-27"
+    },
+    "latest_event": {
+      "date": "2008-05-27",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Russ Nelson",
+      "subject": "Request For Approval:  Iggy Wanna Licence",
+      "sentiment": "oppose",
+      "point": "Tells Brendan he errs by inferring the OSD from previously approved licenses, since past approval guarantees nothing; argues that going through an API defeats any claim of a single combined work, so copyright law falls away.",
+      "point_zh": "指出从已批准许可证反推 OSD 是逻辑错误，过去批准不代表会再批准；并认为经由 API 调用即不构成单一作品，版权法无从适用。"
+    }
+  },
+  "iggy-wanna-licence-legal-analysis": {
+    "id": "iggy-wanna-licence-legal-analysis",
+    "name": "Iggy Wanna Licence - Legal Analysis",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Brendan Scott",
+    "stats": {
+      "total_messages": 1,
+      "duration_days": 0,
+      "date_range": [
+        "2008-05-26",
+        "2008-05-26"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2008-05-26",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2008-05-26",
+      "last": "2008-05-26"
+    },
+    "latest_event": {
+      "date": "2008-05-26",
+      "type": "submission",
+      "source": "license-review",
+      "sender": "Brendan Scott",
+      "subject": "Request For Approval:  Iggy Wanna Licence - Legal Analysis",
+      "sentiment": "neutral",
+      "point": "Re: Request for Approval of Iggy Wanna Licence - Legal Analysis\n\nThis email contains the available legal analysis of the Iggy Wanna licence as foreshadowed in the email requesting approval of the lice",
+      "point_zh": ""
+    }
+  },
+  "anonymous-hero-public-license": {
+    "id": "anonymous-hero-public-license",
+    "name": "Anonymous Hero Public License",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "pending",
+    "submitter": "Julien Cayzac",
+    "stats": {
+      "total_messages": 6,
+      "duration_days": 0,
+      "date_range": [
+        "2008-02-13",
+        "2008-02-13"
+      ]
+    },
+    "has_vote": false,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2008-02-13",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 6,
+      "first": "2008-02-13",
+      "last": "2008-02-13"
+    },
+    "latest_event": {
+      "date": "2008-02-13",
+      "type": "feedback",
+      "source": "license-review",
+      "sender": "Russ Nelson",
+      "subject": "For Approval: Anonymous Hero Public License",
+      "sentiment": "neutral",
+      "point": "Thanks the submitter, noting the message makes the withdrawal intent clear.",
+      "point_zh": "感谢提交者,表示该邮件已清楚表明其撤回意向。"
     }
   },
   "modified-0bsd-license": {
@@ -1210,14 +2270,14 @@
     },
     "text_meta": {
       "count": 3,
-      "linked_count": 2,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 2,
       "series": [],
-      "latest_text_date": "2025-10-20"
+      "latest_text_date": "2025-10-25"
     },
     "timeline_meta": {
-      "count": 8,
+      "count": 14,
       "first": "2025-10-20",
       "last": "2026-01-09"
     },
@@ -1258,14 +2318,14 @@
     },
     "text_meta": {
       "count": 3,
-      "linked_count": 2,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 2,
       "series": [],
-      "latest_text_date": "2025-10-20"
+      "latest_text_date": "2025-10-25"
     },
     "timeline_meta": {
-      "count": 8,
+      "count": 14,
       "first": "2025-10-20",
       "last": "2026-01-09"
     },
@@ -1657,10 +2717,10 @@
     "submitter": "Elmar Stellnberger",
     "stats": {
       "total_messages": 90,
-      "duration_days": 75,
+      "duration_days": 169,
       "date_range": [
         "2018-09-26",
-        "2018-12-10"
+        "2019-03-14"
       ]
     },
     "has_vote": false,
@@ -1671,27 +2731,27 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
-      "duplicate_count": 0,
-      "diff_count": 1,
+      "count": 5,
+      "linked_count": 5,
+      "duplicate_count": 1,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2018-09-26"
+      "latest_text_date": "2019-01-22"
     },
     "timeline_meta": {
-      "count": 90,
+      "count": 93,
       "first": "2018-09-26",
-      "last": "2018-12-10"
+      "last": "2019-03-14"
     },
     "latest_event": {
-      "date": "2018-12-10",
+      "date": "2019-03-14",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Carlo Piana",
-      "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.1 (C-FSL v1.1)",
-      "sentiment": "oppose",
-      "point": "Considers original authors retaining re-licensing rights a major obstacle to approval; if not made reciprocal, it constitutes a discriminatory provision, and suggests extending that right to fork project authors.",
-      "point_zh": "认为原始作者保留再许可权是批准的主要障碍，若不赋予对等权利则构成歧视性条款，建议将该权利扩展至分叉项目的作者。"
+      "sender": "Richard Fontana",
+      "subject": "[License-review] For Approval: Convertible Free Software License, Version 1.4 (C-FSL v1.4)",
+      "sentiment": "neutral",
+      "point": "Reports that the OSI board decided to reject the Convertible Free Software License v1.4, in line with community consensus on the list and because further OSD-conforming revision seems unlikely.",
+      "point_zh": "报告 OSI 董事会决定拒绝 C-FSL v1.4，理由是符合列表上的社区共识，且进一步修订使其符合 OSD 的可能性不大。"
     }
   },
   "yetiforce-public-license-v3": {
@@ -2025,10 +3085,10 @@
     "submitter": "Niklas Saers",
     "stats": {
       "total_messages": 25,
-      "duration_days": 6,
+      "duration_days": 134,
       "date_range": [
         "2012-09-23",
-        "2012-09-29"
+        "2013-02-04"
       ]
     },
     "has_vote": false,
@@ -2039,27 +3099,27 @@
       "decision_status": "rejected"
     },
     "text_meta": {
-      "count": 0,
-      "linked_count": 0,
+      "count": 1,
+      "linked_count": 1,
       "duplicate_count": 0,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2013-01-30"
     },
     "timeline_meta": {
-      "count": 25,
+      "count": 45,
       "first": "2012-09-23",
-      "last": "2012-09-29"
+      "last": "2013-02-04"
     },
     "latest_event": {
-      "date": "2012-09-29",
+      "date": "2013-02-04",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Asreq Asen",
-      "subject": "[License-review] Request for Approval : Modular Open-source Software License (MOSL)",
+      "sender": "John Cowan",
+      "subject": "[License-review] Request for Approval : Modular Open Software License (MOSL)",
       "sentiment": "neutral",
-      "point": "Contains only a quoted-reply lead-in after cleanup, with no substantive MOSL review comment preserved.",
-      "point_zh": "清洗后只剩引用回复引导语，没有保留实质 MOSL 审查意见。"
+      "point": "Clarifies that a software license is a list of permissions, absolute or conditional, that the right to use must be granted absolutely for software to be open source, and notes that in practice all developers disclaim every warranty they can.",
+      "point_zh": "澄清软件许可是绝对或有条件的权限清单，开放源代码必须绝对授予使用权，并指出实际上所有开发者都会尽最大可能免除担保。"
     }
   },
   "svoboda": {
@@ -2166,9 +3226,9 @@
     "submitter": "Christian Solmecke",
     "stats": {
       "total_messages": 27,
-      "duration_days": 25,
+      "duration_days": 27,
       "date_range": [
-        "2010-10-06",
+        "2010-10-04",
         "2010-10-31"
       ]
     },
@@ -2188,8 +3248,8 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 27,
-      "first": "2010-10-06",
+      "count": 29,
+      "first": "2010-10-04",
       "last": "2010-10-31"
     },
     "latest_event": {
@@ -4357,9 +5417,9 @@
     "submitter": "Andreas Nettsträter",
     "stats": {
       "total_messages": 7,
-      "duration_days": 64,
+      "duration_days": 342,
       "date_range": [
-        "2023-01-17",
+        "2022-04-14",
         "2023-03-22"
       ]
     },
@@ -4371,16 +5431,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
-      "linked_count": 3,
-      "duplicate_count": 2,
-      "diff_count": 0,
+      "count": 6,
+      "linked_count": 6,
+      "duplicate_count": 4,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2023-01-17"
     },
     "timeline_meta": {
-      "count": 7,
-      "first": "2023-01-17",
+      "count": 32,
+      "first": "2022-04-14",
       "last": "2023-03-22"
     },
     "latest_event": {
@@ -4405,9 +5465,9 @@
     "submitter": "Andreas Nettsträter",
     "stats": {
       "total_messages": 7,
-      "duration_days": 64,
+      "duration_days": 342,
       "date_range": [
-        "2023-01-17",
+        "2022-04-14",
         "2023-03-22"
       ]
     },
@@ -4419,16 +5479,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 3,
-      "linked_count": 3,
-      "duplicate_count": 2,
-      "diff_count": 0,
+      "count": 6,
+      "linked_count": 6,
+      "duplicate_count": 4,
+      "diff_count": 1,
       "series": [],
       "latest_text_date": "2023-01-17"
     },
     "timeline_meta": {
-      "count": 7,
-      "first": "2023-01-17",
+      "count": 32,
+      "first": "2022-04-14",
       "last": "2023-03-22"
     },
     "latest_event": {
@@ -4597,9 +5657,9 @@
     "submitter": "Andrew Katz",
     "stats": {
       "total_messages": 6,
-      "duration_days": 202,
+      "duration_days": 4012,
       "date_range": [
-        "2020-06-29",
+        "2010-01-23",
         "2021-01-17"
       ]
     },
@@ -4611,16 +5671,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
+      "count": 5,
+      "linked_count": 5,
       "duplicate_count": 1,
-      "diff_count": 0,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2020-06-29"
+      "latest_text_date": "2021-01-09"
     },
     "timeline_meta": {
-      "count": 6,
-      "first": "2020-06-29",
+      "count": 47,
+      "first": "2010-01-23",
       "last": "2021-01-17"
     },
     "latest_event": {
@@ -4645,9 +5705,9 @@
     "submitter": "Andrew Katz",
     "stats": {
       "total_messages": 6,
-      "duration_days": 202,
+      "duration_days": 4012,
       "date_range": [
-        "2020-06-29",
+        "2010-01-23",
         "2021-01-17"
       ]
     },
@@ -4659,16 +5719,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 2,
-      "linked_count": 2,
+      "count": 5,
+      "linked_count": 5,
       "duplicate_count": 1,
-      "diff_count": 0,
+      "diff_count": 3,
       "series": [],
-      "latest_text_date": "2020-06-29"
+      "latest_text_date": "2021-01-09"
     },
     "timeline_meta": {
-      "count": 6,
-      "first": "2020-06-29",
+      "count": 47,
+      "first": "2010-01-23",
       "last": "2021-01-17"
     },
     "latest_event": {
@@ -5125,9 +6185,9 @@
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 7,
-      "duration_days": 100,
+      "duration_days": 207,
       "date_range": [
-        "2019-12-04",
+        "2019-08-19",
         "2020-03-13"
       ]
     },
@@ -5140,15 +6200,15 @@
     },
     "text_meta": {
       "count": 4,
-      "linked_count": 1,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 3,
       "series": [],
       "latest_text_date": "2020-02-09"
     },
     "timeline_meta": {
-      "count": 8,
-      "first": "2019-12-04",
+      "count": 204,
+      "first": "2019-08-19",
       "last": "2020-03-13"
     },
     "latest_event": {
@@ -5173,9 +6233,9 @@
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 7,
-      "duration_days": 100,
+      "duration_days": 207,
       "date_range": [
-        "2019-12-04",
+        "2019-08-19",
         "2020-03-13"
       ]
     },
@@ -5188,15 +6248,15 @@
     },
     "text_meta": {
       "count": 4,
-      "linked_count": 1,
+      "linked_count": 3,
       "duplicate_count": 0,
       "diff_count": 3,
       "series": [],
       "latest_text_date": "2020-02-09"
     },
     "timeline_meta": {
-      "count": 8,
-      "first": "2019-12-04",
+      "count": 204,
+      "first": "2019-08-19",
       "last": "2020-03-13"
     },
     "latest_event": {
@@ -5627,7 +6687,7 @@
       "latest_text_date": "2017-08-09"
     },
     "timeline_meta": {
-      "count": 6,
+      "count": 11,
       "first": "2017-08-09",
       "last": "2017-08-16"
     },
@@ -5867,7 +6927,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 61,
       "first": "2016-10-24",
       "last": "2017-04-03"
     },
@@ -5878,8 +6938,8 @@
       "sender": "Nigel T",
       "subject": "[License-review] Submission of the Upstream Compatibility License v1.0 (UCL-1.0) for approval",
       "sentiment": "neutral",
-      "point": "Apologizes for the delay and says the revised UCL text will be submitted as a formal application.",
-      "point_zh": "对延迟表示歉意，并表示会把修订后的 UCL 文本正式提交申请。"
+      "point": "Submitting the Upstream Compatible License (UCL) v1.0 for OSI approval: based on OSL v3.0, copyleft for downstream developers but permissive for upstream, with derivative works dual-licensed under Apache 2.0 or later.",
+      "point_zh": "提交 Upstream Compatible License (UCL) v1.0 供 OSI 审批；基于 OSL v3.0，对下游为 Copyleft、对上游宽松，衍生作品额外以 Apache 2.0 或更新版本授权。"
     }
   },
   "ucl-1-0": {
@@ -5915,7 +6975,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 61,
       "first": "2016-10-24",
       "last": "2017-04-03"
     },
@@ -5926,8 +6986,8 @@
       "sender": "Nigel T",
       "subject": "[License-review] Submission of the Upstream Compatibility License v1.0 (UCL-1.0) for approval",
       "sentiment": "neutral",
-      "point": "Apologizes for the delay and says the revised UCL text will be submitted as a formal application.",
-      "point_zh": "对延迟表示歉意，并表示会把修订后的 UCL 文本正式提交申请。"
+      "point": "Submitting the Upstream Compatible License (UCL) v1.0 for OSI approval: based on OSL v3.0, copyleft for downstream developers but permissive for upstream, with derivative works dual-licensed under Apache 2.0 or later.",
+      "point_zh": "提交 Upstream Compatible License (UCL) v1.0 供 OSI 审批；基于 OSL v3.0，对下游为 Copyleft、对上游宽松，衍生作品额外以 Apache 2.0 或更新版本授权。"
     }
   },
   "bsd-2-clause-patent": {
@@ -5989,10 +7049,10 @@
     "submitter": "Simon Johnson-Bégin",
     "stats": {
       "total_messages": 6,
-      "duration_days": 125,
+      "duration_days": 3318,
       "date_range": [
         "2015-09-15",
-        "2016-01-18"
+        "2024-10-15"
       ]
     },
     "has_vote": true,
@@ -6011,19 +7071,19 @@
       "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 12,
       "first": "2015-09-15",
-      "last": "2016-01-18"
+      "last": "2024-10-15"
     },
     "latest_event": {
-      "date": "2016-01-18",
+      "date": "2024-10-15",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
-      "subject": "[License-review] International Licenses: Québec Free and Open-Source Licence (LiLiQ)",
+      "sender": "Luciano Girotti",
+      "subject": "[License-review] Submission of Forever Free & Open License (FFOL) for OSI Approval",
       "sentiment": "neutral",
-      "point": "Reports that the LiLiQ licenses are now published on opensource.org, with English translations included below the license texts.",
-      "point_zh": "通报 LiLiQ 许可证已在 opensource.org 发布，英文翻译附在许可证文本下方。"
+      "point": "An HTML attachment was scrubbed...",
+      "point_zh": ""
     }
   },
   "liliq-rplus-1-1": {
@@ -6037,10 +7097,10 @@
     "submitter": "Simon Johnson-Bégin",
     "stats": {
       "total_messages": 6,
-      "duration_days": 125,
+      "duration_days": 3318,
       "date_range": [
         "2015-09-15",
-        "2016-01-18"
+        "2024-10-15"
       ]
     },
     "has_vote": true,
@@ -6059,19 +7119,19 @@
       "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 12,
       "first": "2015-09-15",
-      "last": "2016-01-18"
+      "last": "2024-10-15"
     },
     "latest_event": {
-      "date": "2016-01-18",
+      "date": "2024-10-15",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Richard Fontana",
-      "subject": "[License-review] International Licenses: Québec Free and Open-Source Licence (LiLiQ)",
+      "sender": "Luciano Girotti",
+      "subject": "[License-review] Submission of Forever Free & Open License (FFOL) for OSI Approval",
       "sentiment": "neutral",
-      "point": "Reports that the LiLiQ licenses are now published on opensource.org, with English translations included below the license texts.",
-      "point_zh": "通报 LiLiQ 许可证已在 opensource.org 发布，英文翻译附在许可证文本下方。"
+      "point": "An HTML attachment was scrubbed...",
+      "point_zh": ""
     }
   },
   "liliq-r-1.1": {
@@ -6181,9 +7241,9 @@
     "submitter": "Simon Johnson-Bégin",
     "stats": {
       "total_messages": 6,
-      "duration_days": 125,
+      "duration_days": 673,
       "date_range": [
-        "2015-09-15",
+        "2014-03-16",
         "2016-01-18"
       ]
     },
@@ -6195,16 +7255,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 4,
-      "linked_count": 0,
+      "count": 5,
+      "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 3,
+      "diff_count": 4,
       "series": [],
       "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
-      "count": 7,
-      "first": "2015-09-15",
+      "count": 18,
+      "first": "2014-03-16",
       "last": "2016-01-18"
     },
     "latest_event": {
@@ -6229,9 +7289,9 @@
     "submitter": "Simon Johnson-Bégin",
     "stats": {
       "total_messages": 6,
-      "duration_days": 125,
+      "duration_days": 673,
       "date_range": [
-        "2015-09-15",
+        "2014-03-16",
         "2016-01-18"
       ]
     },
@@ -6243,16 +7303,16 @@
       "decision_status": "approved"
     },
     "text_meta": {
-      "count": 4,
-      "linked_count": 0,
+      "count": 5,
+      "linked_count": 1,
       "duplicate_count": 0,
-      "diff_count": 3,
+      "diff_count": 4,
       "series": [],
       "latest_text_date": "2015-10-12"
     },
     "timeline_meta": {
-      "count": 7,
-      "first": "2015-09-15",
+      "count": 18,
+      "first": "2014-03-16",
       "last": "2016-01-18"
     },
     "latest_event": {
@@ -6299,7 +7359,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 53,
       "first": "2015-09-01",
       "last": "2015-09-12"
     },
@@ -6347,7 +7407,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 53,
       "first": "2015-09-01",
       "last": "2015-09-12"
     },
@@ -6539,7 +7599,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 148,
       "first": "2014-04-11",
       "last": "2015-02-20"
     },
@@ -6547,11 +7607,11 @@
       "date": "2015-02-20",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Jim Jagielski",
-      "subject": "[License-review] Request for Approval of Universal Permissive\tLicense (UPL)",
-      "sentiment": "support",
-      "point": "Expresses support (+1).",
-      "point_zh": "表示支持（+1）。"
+      "sender": "Allison Randal",
+      "subject": "[License-review] Request for Approval of Universal Permissive License (UPL)",
+      "sentiment": "neutral",
+      "point": "Announces that approval has been decreed and the license will be added to the website, thanking all contributors to the review.",
+      "point_zh": "宣布已颁令批准,该许可证将被添加到网站上,并感谢所有参与评审的人。"
     }
   },
   "upl-1-0": {
@@ -6587,7 +7647,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 148,
       "first": "2014-04-11",
       "last": "2015-02-20"
     },
@@ -6595,11 +7655,11 @@
       "date": "2015-02-20",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Jim Jagielski",
-      "subject": "[License-review] Request for Approval of Universal Permissive\tLicense (UPL)",
-      "sentiment": "support",
-      "point": "Expresses support (+1).",
-      "point_zh": "表示支持（+1）。"
+      "sender": "Allison Randal",
+      "subject": "[License-review] Request for Approval of Universal Permissive License (UPL)",
+      "sentiment": "neutral",
+      "point": "Announces that approval has been decreed and the license will be added to the website, thanking all contributors to the review.",
+      "point_zh": "宣布已颁令批准,该许可证将被添加到网站上,并感谢所有参与评审的人。"
     }
   },
   "cecill-2.1": {
@@ -7237,9 +8297,9 @@
     "submitter": "Yuko Noguchi",
     "stats": {
       "total_messages": 6,
-      "duration_days": 54,
+      "duration_days": 145,
       "date_range": [
-        "2009-02-04",
+        "2008-11-05",
         "2009-03-30"
       ]
     },
@@ -7259,8 +8319,8 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
-      "first": "2009-02-04",
+      "count": 82,
+      "first": "2008-11-05",
       "last": "2009-03-30"
     },
     "latest_event": {
@@ -7547,7 +8607,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 65,
       "first": "2008-03-14",
       "last": "2009-02-06"
     },
@@ -7595,7 +8655,7 @@
       "latest_text_date": ""
     },
     "timeline_meta": {
-      "count": 7,
+      "count": 65,
       "first": "2008-03-14",
       "last": "2009-02-06"
     },
@@ -9445,10 +10505,10 @@
     "submitter": "Robert Padilla",
     "stats": {
       "total_messages": 2,
-      "duration_days": 0,
+      "duration_days": 3977,
       "date_range": [
         "2004-03-23",
-        "2004-03-23"
+        "2015-02-11"
       ]
     },
     "has_vote": false,
@@ -9460,26 +10520,26 @@
     },
     "text_meta": {
       "count": 2,
-      "linked_count": 0,
+      "linked_count": 2,
       "duplicate_count": 1,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-02-04"
     },
     "timeline_meta": {
-      "count": 2,
+      "count": 20,
       "first": "2004-03-23",
-      "last": "2004-03-23"
+      "last": "2015-02-11"
     },
     "latest_event": {
-      "date": "2004-03-23",
+      "date": "2015-02-11",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "jcowan at reutershealth.com",
-      "subject": "For approval: NOSA version 1.3 now posted on the web",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] FW: For Approval: NASA Open Source Agreement 2.0",
       "sentiment": "support",
-      "point": "Reviews NOSA 1.3 from scratch and reports that all previously identified problems seem to have been resolved.",
-      "point_zh": "对 NOSA 1.3 进行了全新审查，认为之前发现的所有问题似乎都已解决。"
+      "point": "Speaking for the committee's developer wing, says the submitter has satisfied him, but he cannot speak for the legal wing.",
+      "point_zh": "代表委员会的开发者一方表示提交方已令其满意，但无法代表法律一方表态。"
     }
   },
   "nasa-1-3": {
@@ -9493,10 +10553,10 @@
     "submitter": "Robert Padilla",
     "stats": {
       "total_messages": 2,
-      "duration_days": 0,
+      "duration_days": 3977,
       "date_range": [
         "2004-03-23",
-        "2004-03-23"
+        "2015-02-11"
       ]
     },
     "has_vote": false,
@@ -9508,26 +10568,26 @@
     },
     "text_meta": {
       "count": 2,
-      "linked_count": 0,
+      "linked_count": 2,
       "duplicate_count": 1,
       "diff_count": 0,
       "series": [],
-      "latest_text_date": ""
+      "latest_text_date": "2015-02-04"
     },
     "timeline_meta": {
-      "count": 2,
+      "count": 20,
       "first": "2004-03-23",
-      "last": "2004-03-23"
+      "last": "2015-02-11"
     },
     "latest_event": {
-      "date": "2004-03-23",
+      "date": "2015-02-11",
       "type": "feedback",
-      "source": "license-discuss",
-      "sender": "jcowan at reutershealth.com",
-      "subject": "For approval: NOSA version 1.3 now posted on the web",
+      "source": "license-review",
+      "sender": "Josh Berkus",
+      "subject": "[License-review] FW: For Approval: NASA Open Source Agreement 2.0",
       "sentiment": "support",
-      "point": "Reviews NOSA 1.3 from scratch and reports that all previously identified problems seem to have been resolved.",
-      "point_zh": "对 NOSA 1.3 进行了全新审查，认为之前发现的所有问题似乎都已解决。"
+      "point": "Speaking for the committee's developer wing, says the submitter has satisfied him, but he cannot speak for the legal wing.",
+      "point_zh": "代表委员会的开发者一方表示提交方已令其满意，但无法代表法律一方表态。"
     }
   },
   "epl-1.0": {
