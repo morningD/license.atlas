@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "be76a1acab9ec5e2",
+    "source_hash": "b382c88cdd9a915b",
     "index_schema_version": 5,
-    "generated_at": "2026-09-13T14:48:46.205Z",
+    "generated_at": "2026-09-14T12:54:27.585Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -72,11 +72,11 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 116,
-      "duration_days": 30,
+      "total_messages": 117,
+      "duration_days": 32,
       "date_range": [
         "2026-08-13",
-        "2026-09-12"
+        "2026-09-14"
       ]
     },
     "has_vote": false,
@@ -95,18 +95,18 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 116,
+      "count": 117,
       "first": "2026-08-13",
-      "last": "2026-09-12"
+      "last": "2026-09-14"
     },
     "latest_event": {
-      "date": "2026-09-12",
+      "date": "2026-09-14",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Preston Maness",
+      "sender": "Carlo Piana",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Orthogonal to the topic at hand, but I'd support having a process for\nde-listing licenses. No person or group can get the right or best answer\nall of the time. Sometimes only history can inform whethe",
+      "point": "This is not something that can be easily thrown in as a \"by the way\" ;-)\n\nIt's a hell of an important issue and whichever decision would bring unintended consequences. We have discussed internally man",
       "point_zh": ""
     }
   },
