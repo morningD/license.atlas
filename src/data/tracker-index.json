@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "9d050062ac924b70",
+    "source_hash": "d402caaa2634937e",
     "index_schema_version": 5,
-    "generated_at": "2026-09-14T19:06:22.533Z",
+    "generated_at": "2026-09-15T00:18:32.911Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -72,7 +72,7 @@
     "status": "pending",
     "submitter": "Michael Dolan",
     "stats": {
-      "total_messages": 118,
+      "total_messages": 119,
       "duration_days": 32,
       "date_range": [
         "2026-08-13",
@@ -95,7 +95,7 @@
       "latest_text_date": "2026-08-13"
     },
     "timeline_meta": {
-      "count": 118,
+      "count": 119,
       "first": "2026-08-13",
       "last": "2026-09-14"
     },
@@ -103,10 +103,10 @@
       "date": "2026-09-14",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Michael Dolan",
+      "sender": "Josh Berkus",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "...\n\nRichard, I understand that OpenMDW may seem novel in bundling disparate\nartifacts under one license, but that is how most technical packages (open\nand closed source) are licensed and received – e",
+      "point": "Sure!  Here's a few ways I've seen folks accidentally copy code in a way\nthat's infringing, although most of the time nobody does anything about it:\n\n- Stack overflow\n- GenAI & Autocomplete\n- Copying ",
       "point_zh": ""
     }
   },
