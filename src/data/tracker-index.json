@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "d402caaa2634937e",
+    "source_hash": "4545dfc8b7df7295",
     "index_schema_version": 5,
-    "generated_at": "2026-09-15T00:18:32.911Z",
+    "generated_at": "2026-09-18T13:12:12.271Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -603,11 +603,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 123,
-      "duration_days": 575,
+      "total_messages": 125,
+      "duration_days": 585,
       "date_range": [
         "2025-02-10",
-        "2026-09-08"
+        "2026-09-18"
       ]
     },
     "has_vote": false,
@@ -631,19 +631,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 123,
+      "count": 125,
       "first": "2025-02-10",
-      "last": "2026-09-08"
+      "last": "2026-09-18"
     },
     "latest_event": {
-      "date": "2026-09-08",
+      "date": "2026-09-18",
       "type": "feedback",
       "source": "license-review",
       "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "support",
-      "point": "Explains the preamble difference between ModelGo Zero and ModelGo Attribution—MG0 has no obligations so its acceptance clause only asks the user to read and understand, while MG-BY keeps the agree-to-be-bound structure—and compiles prior review-thread background answering questions Q1–Q4, offering further clarification.",
-      "point_zh": "解释 ModelGo Zero 与 ModelGo Attribution 的序言差异：MG0 无义务，接受条款仅要求阅读理解，MG-BY 保留同意受约束结构，并整理历次评审背景回应 Q1–Q4。"
+      "point": "Defends the termination provision: Licensor is a role that travels with sublicensing, so downstream patent claims do trigger termination; argues the clause discriminates against no one and asks to keep the current wording.",
+      "point_zh": "辩护称 Licensor 是随分发转移的角色,下游专利主张仍会触发终止;认为该条款不歧视任何人,希望保留现有措辞。"
     }
   },
   "of-new-mgb-1-0-license": {
