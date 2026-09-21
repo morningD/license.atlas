@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "4545dfc8b7df7295",
+    "source_hash": "0363b6abdce1442d",
     "index_schema_version": 5,
-    "generated_at": "2026-09-18T13:12:12.271Z",
+    "generated_at": "2026-09-21T01:21:21.224Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -603,11 +603,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 125,
-      "duration_days": 585,
+      "total_messages": 126,
+      "duration_days": 588,
       "date_range": [
         "2025-02-10",
-        "2026-09-18"
+        "2026-09-21"
       ]
     },
     "has_vote": false,
@@ -631,19 +631,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 125,
+      "count": 126,
       "first": "2025-02-10",
-      "last": "2026-09-18"
+      "last": "2026-09-21"
     },
     "latest_event": {
-      "date": "2026-09-18",
+      "date": "2026-09-21",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Shuji Sado",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
-      "sentiment": "support",
-      "point": "Defends the termination provision: Licensor is a role that travels with sublicensing, so downstream patent claims do trigger termination; argues the clause discriminates against no one and asks to keep the current wording.",
-      "point_zh": "辩护称 Licensor 是随分发转移的角色,下游专利主张仍会触发终止;认为该条款不歧视任何人,希望保留现有措辞。"
+      "sentiment": "neutral",
+      "point": "McCoy-san,\n\nOn your Q4, I have become a little more concerned about the Derivative Materials part after reading Moming-san's latest explanation.\nMaterials part after reading Moming-san's latest explan",
+      "point_zh": ""
     }
   },
   "of-new-mgb-1-0-license": {
