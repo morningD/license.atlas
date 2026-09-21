@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "0363b6abdce1442d",
+    "source_hash": "19d5f4dcd4826127",
     "index_schema_version": 5,
-    "generated_at": "2026-09-21T01:21:21.224Z",
+    "generated_at": "2026-09-21T06:58:25.572Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -106,8 +106,8 @@
       "sender": "Josh Berkus",
       "subject": "[License-review] For Approval: OpenMDW License Agreement, versions 1.1 (OpenMDW-1.1)",
       "sentiment": "neutral",
-      "point": "Sure!  Here's a few ways I've seen folks accidentally copy code in a way\nthat's infringing, although most of the time nobody does anything about it:\n\n- Stack overflow\n- GenAI & Autocomplete\n- Copying ",
-      "point_zh": ""
+      "point": "Lists common ways developers accidentally copy infringing code — Stack Overflow, GenAI and autocomplete, vendored code, conference tutorials, concurrent projects — arguing accidental and intentional copying happens constantly, though the vast majority is never worth prosecuting.",
+      "point_zh": "列举开发者无意侵权复制代码的常见情形(Stack Overflow、AI 补全、未署名 vendor 代码、会议教程等),指出无意与有意复制经常发生,只是绝大多数不值得追究。"
     }
   },
   "bos-public-license-family": {
@@ -603,7 +603,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 126,
+      "total_messages": 127,
       "duration_days": 588,
       "date_range": [
         "2025-02-10",
@@ -631,7 +631,7 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 126,
+      "count": 127,
       "first": "2025-02-10",
       "last": "2026-09-21"
     },
@@ -639,11 +639,11 @@
       "date": "2026-09-21",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Shuji Sado",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
-      "sentiment": "neutral",
-      "point": "McCoy-san,\n\nOn your Q4, I have become a little more concerned about the Derivative Materials part after reading Moming-san's latest explanation.\nMaterials part after reading Moming-san's latest explan",
-      "point_zh": ""
+      "sentiment": "oppose",
+      "point": "Walks through a four-party scenario showing the termination clause only terminates licenses of contributors who added copyrightable content, leaving mere users exposed to patent suits — the discrimination McCoy described — and questions the \"the Licensor\" versus \"a Licensor\" wording.",
+      "point_zh": "以四方情景论证终止条款仅对贡献可版权内容者终止,普通用户仍可能被诉专利——即 McCoy 所指的歧视;并质疑“the Licensor”应为“a Licensor”的措辞问题。"
     }
   },
   "of-new-mgb-1-0-license": {
@@ -1292,8 +1292,8 @@
       "sender": "Josh Berkus",
       "subject": "[License-review] For Approval: Public Software License",
       "sentiment": "neutral",
-      "point": "Yes, why wouldn't it be?  He's looking for approval of a license.\n\n--Josh Berkus",
-      "point_zh": ""
+      "point": "Confirms this is the correct forum, noting the submitter is seeking approval of a license.",
+      "point_zh": "确认这里是正确的渠道，因为提交者正是在寻求许可证批准。"
     }
   },
   "symisc-public-license-spl": {
@@ -1337,9 +1337,9 @@
       "source": "license-review",
       "sender": "Bruce Perens",
       "subject": "[License-review] Request for Approval: Symisc Public License (SPL)",
-      "sentiment": "neutral",
-      "point": "Before we template the Sleepycat license, or have a version of it that\nis owned by another company, we should ask if the text of the Sleepycat\nlicense is copyrighted or copyrightable in any way that w",
-      "point_zh": ""
+      "sentiment": "question",
+      "point": "Questions whether the Sleepycat text is copyrighted in a way that would prevent a company-owned version, noting 17 USC 102(b) may make functional text uncopyrightable; has not yet reviewed Tunisian copyright law.",
+      "point_zh": "提出应先确认 Sleepycat 文本是否有版权而妨碍制作公司版本;援引 17 USC 102(b) 认为功能性文本可能不受保护,尚未查证突尼斯版权法。"
     }
   },
   "of-no-nonsense-open-source-license": {
@@ -1475,9 +1475,9 @@
       "source": "license-review",
       "sender": "Matthew Flaschen",
       "subject": "Request for Approval -- Chicken Dance License",
-      "sentiment": "neutral",
-      "point": "Don't forget Clause 4 Subclause 2 (\"two (2) or more persons affiliated\nwith the entity\" which also violates OSD clause 5 by discriminating\nagainst independent, unaffiliated developers (which may be a ",
-      "point_zh": ""
+      "sentiment": "oppose",
+      "point": "Points out that Clause 4 Subclause 2 ('two (2) or more persons affiliated with the entity') also violates OSD clause 5 by discriminating against independent, unaffiliated developers.",
+      "point_zh": "指出 Clause 4 Subclause 2（'two (2) or more persons affiliated with the entity'）同样违反 OSD 第 5 条，歧视独立的非关联开发者。"
     }
   },
   "by-license-steward-a-license-recognizing-public-domain-derivation": {
@@ -1568,8 +1568,8 @@
       "sender": "Carroll, James Ritchie",
       "subject": "For Approval: TVA Open Source License",
       "sentiment": "neutral",
-      "point": "My apologies, contacting OSI was my idea, not the TVA lawyers. I\nasked them to help me choose a suitable open source agreement so that we\ncould move our source code to the public. I provided them with",
-      "point_zh": ""
+      "point": "Explains that contacting OSI was his own idea and TVA lawyers adapted NOSA for TVA's needs; concedes it is essentially a vanity license and says he will release the code with the agreement as-is on October 7 unless OSI accepts such an offshoot.",
+      "point_zh": "说明联系 OSI 是他本人的主意，TVA 律师基于 TVA 需求改写了 NOSA；承认这实质上是虚荣许可证，除非 OSI 接受此类衍生协议，否则将于 10 月 7 日按原样发布代码。"
     }
   },
   "the-azure-license": {
@@ -1614,8 +1614,8 @@
       "sender": "Kenneth Ballenegger",
       "subject": "For Approval: The Azure License",
       "sentiment": "neutral",
-      "point": "Just to follow up, step 2 says: “The Trac Maintainers will file\nappropriate tickets.”\n\nHow would I get that to happen?\n\nWe discussed the license and made quite a few rounds of revisions.\nLogically thi",
-      "point_zh": ""
+      "point": "Follows up asking how to get the Trac maintainers to file the next-step tickets, noting the license has already been through several rounds of discussion and revision.",
+      "point_zh": "跟进询问如何让 Trac 维护者提交下一步的工单,并指出该许可证已经过多轮讨论与修订。"
     }
   },
   "by-s-gpl": {
@@ -15685,8 +15685,8 @@
       "sender": "Nikolaos-Modestos Kougioulis",
       "subject": "[License-discuss] For Approval: Public Software License",
       "sentiment": "neutral",
-      "point": " To whom it may concern, I am writing you this e-mail to request approval for my License, regarding the Open Source definition. 1) The Cryptix General License is the most similar O",
-      "point_zh": ""
+      "point": "Submits the Public Software License 1.0 for OSI approval as a permissive license, based on the Cryptix General License but with clearer disambiguation between warranty disclaimer and limitation of liability.",
+      "point_zh": "提交 Public Software License 1.0 供 OSI 审批，称其为基于 Cryptix General License 的宽松许可证，但对免责声明与责任限制作了更清晰的区分。"
     }
   },
   "discussion-short-permissive-no-attribution-quid-open-source-license": {
