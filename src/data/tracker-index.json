@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "19d5f4dcd4826127",
+    "source_hash": "c14a042da54779d7",
     "index_schema_version": 5,
-    "generated_at": "2026-09-21T06:58:25.572Z",
+    "generated_at": "2026-09-21T10:48:12.448Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -603,7 +603,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 127,
+      "total_messages": 128,
       "duration_days": 588,
       "date_range": [
         "2025-02-10",
@@ -631,7 +631,7 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 127,
+      "count": 128,
       "first": "2025-02-10",
       "last": "2026-09-21"
     },
@@ -639,11 +639,11 @@
       "date": "2026-09-21",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
-      "sentiment": "oppose",
-      "point": "Walks through a four-party scenario showing the termination clause only terminates licenses of contributors who added copyrightable content, leaving mere users exposed to patent suits — the discrimination McCoy described — and questions the \"the Licensor\" versus \"a Licensor\" wording.",
-      "point_zh": "以四方情景论证终止条款仅对贡献可版权内容者终止,普通用户仍可能被诉专利——即 McCoy 所指的歧视;并质疑“the Licensor”应为“a Licensor”的措辞问题。"
+      "sentiment": "support",
+      "point": "Rebuts the OSD 5 objection to MG-BY's patent termination clause: as a single-grantor license it terminates only when a licensee sues the Licensor, and this asymmetry—like Apache's contributor/recipient split—does not classify persons. Offers to revise if OSI establishes that patent-termination shields must protect everyone.",
+      "point_zh": "反驳 MG-BY 专利终止条款违反 OSD 5 的质疑:单一授权方许可证仅在起诉 Licensor 时终止,该不对称不构成对人的分类;若确立更广保护原则愿修订条款。"
     }
   },
   "of-new-mgb-1-0-license": {
