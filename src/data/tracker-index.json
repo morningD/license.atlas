@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "c14a042da54779d7",
+    "source_hash": "a9e52c653e43d3db",
     "index_schema_version": 5,
-    "generated_at": "2026-09-21T10:48:12.448Z",
+    "generated_at": "2026-09-23T01:23:03.096Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -603,11 +603,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 128,
-      "duration_days": 588,
+      "total_messages": 129,
+      "duration_days": 589,
       "date_range": [
         "2025-02-10",
-        "2026-09-21"
+        "2026-09-22"
       ]
     },
     "has_vote": false,
@@ -631,19 +631,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 128,
+      "count": 129,
       "first": "2025-02-10",
-      "last": "2026-09-21"
+      "last": "2026-09-22"
     },
     "latest_event": {
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "type": "feedback",
       "source": "license-review",
-      "sender": "Moming Duan",
+      "sender": "Pamela Chestek",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
-      "sentiment": "support",
-      "point": "Rebuts the OSD 5 objection to MG-BY's patent termination clause: as a single-grantor license it terminates only when a licensee sues the Licensor, and this asymmetry—like Apache's contributor/recipient split—does not classify persons. Offers to revise if OSI establishes that patent-termination shields must protect everyone.",
-      "point_zh": "反驳 MG-BY 专利终止条款违反 OSD 5 的质疑:单一授权方许可证仅在起诉 Licensor 时终止,该不对称不构成对人的分类;若确立更广保护原则愿修订条款。"
+      "sentiment": "neutral",
+      "point": "Your response is quite troubling to me. I read it as saying that the\ndisparate treatment of copyright owners versus mere users of the\nsoftware is intentional.  As Joshua Gay described in the OpenMDW t",
+      "point_zh": ""
     }
   },
   "of-new-mgb-1-0-license": {
