@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "8160136768839625",
+    "source_hash": "4ccd4e02bfd08e69",
     "index_schema_version": 5,
-    "generated_at": "2026-09-23T06:21:37.438Z",
+    "generated_at": "2026-09-23T16:32:41.585Z",
     "total_submissions": 276,
     "by_status": {
-      "approved": 91,
+      "approved": 92,
       "rejected": 44,
       "withdrawn": 15,
       "pending": 31,
       "superseded": 3,
-      "legacy": 33,
+      "legacy": 32,
       "discussion": 59
     }
   },
@@ -603,7 +603,7 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 130,
+      "total_messages": 132,
       "duration_days": 590,
       "date_range": [
         "2025-02-10",
@@ -631,19 +631,19 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 130,
+      "count": 132,
       "first": "2025-02-10",
       "last": "2026-09-23"
     },
     "latest_event": {
       "date": "2026-09-23",
-      "type": "revision",
+      "type": "feedback",
       "source": "license-review",
       "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "neutral",
-      "point": "Your response is quite troubling to me. I read it as saying that the\n\nThank you for being direct. I can see why my earlier response was\ntroubling. I was trying to explain why the original trigger was ",
-      "point_zh": ""
+      "point": "Announces the MG-BY-2.0 license text has been updated on GitHub, notes MG0 is unchanged since it contains no patent-assertion termination provision, and asks recipients to disregard the outdated university-hosted copy.",
+      "point_zh": "宣布 MG-BY-2.0 许可证文本已在 GitHub 上更新，说明 MG0 因不含专利主张终止条款而未改动，并请暂勿参考大学服务器上的旧版本。"
     }
   },
   "of-new-mgb-1-0-license": {
@@ -4691,7 +4691,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 25,
@@ -4705,8 +4705,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-06",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
@@ -4741,7 +4741,7 @@
       "Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "Python-2.0.1 and CNRI-Python-GPL-Compatible"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
       "total_messages": 25,
@@ -4755,8 +4755,8 @@
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-06",
-      "decision": "",
-      "decision_status": ""
+      "decision": "2026-06-29",
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 3,
