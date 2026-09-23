@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "a9e52c653e43d3db",
+    "source_hash": "8160136768839625",
     "index_schema_version": 5,
-    "generated_at": "2026-09-23T01:23:03.096Z",
+    "generated_at": "2026-09-23T06:21:37.438Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 91,
@@ -603,11 +603,11 @@
     "status": "pending",
     "submitter": "Moming Duan",
     "stats": {
-      "total_messages": 129,
-      "duration_days": 589,
+      "total_messages": 130,
+      "duration_days": 590,
       "date_range": [
         "2025-02-10",
-        "2026-09-22"
+        "2026-09-23"
       ]
     },
     "has_vote": false,
@@ -631,18 +631,18 @@
       "latest_text_date": "2025-12-09"
     },
     "timeline_meta": {
-      "count": 129,
+      "count": 130,
       "first": "2025-02-10",
-      "last": "2026-09-22"
+      "last": "2026-09-23"
     },
     "latest_event": {
-      "date": "2026-09-22",
-      "type": "feedback",
+      "date": "2026-09-23",
+      "type": "revision",
       "source": "license-review",
-      "sender": "Pamela Chestek",
+      "sender": "Moming Duan",
       "subject": "[License-review] ModelGo Attribution License, Version 2.0 FINAL CALL FOR COMMENTS",
       "sentiment": "neutral",
-      "point": "Your response is quite troubling to me. I read it as saying that the\ndisparate treatment of copyright owners versus mere users of the\nsoftware is intentional.  As Joshua Gay described in the OpenMDW t",
+      "point": "Your response is quite troubling to me. I read it as saying that the\n\nThank you for being direct. I can see why my earlier response was\ntroubling. I was trying to explain why the original trigger was ",
       "point_zh": ""
     }
   },
