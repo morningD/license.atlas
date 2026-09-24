@@ -8,6 +8,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { TrackerParticipant, TrackerTimelineEvent, TrackerSubmission } from "@/lib/types";
 import { useLang } from "@/lib/i18n";
+import { cleanTrackerPoint } from "@/lib/tracker-point";
 import { MailBody } from "./mail-body";
 import { rolePillClass, roleKey, roleLabel, sentimentPill, sentimentLabel, normSender } from "./tracker-pills";
 
@@ -206,7 +207,7 @@ export function TimelineFullView({
                 ) : (
                   <div>
                     <p className="mb-2 inline-block rounded border border-dashed border-zinc-300 px-1.5 py-0.5 text-[10px] text-zinc-400 dark:border-zinc-700">{t("tracker.fullNoBody")}</p>
-                    <p className="whitespace-pre-wrap text-sm text-zinc-600 dark:text-zinc-300">{(lang === "zh" ? selEvent.point_zh || selEvent.point : selEvent.point) || selEvent.snippet}</p>
+                    <p className="whitespace-pre-wrap text-sm text-zinc-600 dark:text-zinc-300">{cleanTrackerPoint((lang === "zh" ? selEvent.point_zh || selEvent.point : selEvent.point) || selEvent.snippet)}</p>
                   </div>
                 )}
               </div>

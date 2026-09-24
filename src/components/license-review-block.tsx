@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { resolveTrackerEntry, hasReviewContent } from "@/lib/tracker-match";
 import { statusLabel } from "@/components/tracker/tracker-card";
 import { formatTrackerDate } from "@/lib/tracker-date";
+import { cleanTrackerPoint } from "@/lib/tracker-point";
 
 function sourceLabel(source: string | undefined, t: (key: string) => string): string {
   if (source === "license-discuss") return t("tracker.source-discuss");
@@ -64,7 +65,7 @@ export function LicenseReviewBlock({ license }: {
       : "";
   const decisionIcon = reviewDates.decision_status === "rejected" ? "✗" : "✓";
   const latest = entry.latest_event;
-  const latestPoint = latest ? (lang === "zh" ? latest.point_zh || latest.point : latest.point) : "";
+  const latestPoint = latest ? cleanTrackerPoint(lang === "zh" ? latest.point_zh || latest.point : latest.point) : "";
 
   // Compressed strip: a visual tease of the timeline shape.
   // Derive node count from timeline_meta.count (capped for layout).

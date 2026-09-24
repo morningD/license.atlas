@@ -4,6 +4,7 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import { useLang } from "@/lib/i18n";
 import { formatTrackerDate, formatTrackerShortDate } from "@/lib/tracker-date";
+import { cleanTrackerPoint } from "@/lib/tracker-point";
 import { describeVote, voteCompactLabel } from "@/lib/tracker-vote";
 import type { TrackerTimelineEvent, TrackerBoardVote } from "@/lib/types";
 
@@ -146,7 +147,7 @@ export function TimelineStrip({
     const tint = SENT_TINT[sentiment] || "neutral";
     const sentClass = tint && tint !== "neutral" ? ` sent-${tint}` : "";
     const nodeHex = tint && tint !== "neutral" ? SENT_HEX[tint] : typeColor;
-    const snip = (lang === "zh" ? ev.point_zh || ev.point : ev.point) || ev.snippet || ev.subject || "";
+    const snip = cleanTrackerPoint((lang === "zh" ? ev.point_zh || ev.point : ev.point) || ev.snippet || ev.subject);
     // Purple ring = who sent a submission email. A submission can span several
     // people across resubmissions/threads (14/194 entries), the submitter
     // field only records the first, and exact-match misses name variants —

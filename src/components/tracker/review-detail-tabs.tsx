@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLang } from "@/lib/i18n";
 import { formatTrackerDate } from "@/lib/tracker-date";
+import { cleanTrackerPoint } from "@/lib/tracker-point";
 import type { TrackerSubmission } from "@/lib/types";
 import { ParticipantsList } from "./participants-list";
 import { BoardVoteCard } from "./board-vote-card";
@@ -376,7 +377,7 @@ export function ReviewDetailTabs({
                       )}
                     </div>
                     {ev.sender && ev.sender !== "Unknown" && <span className="font-medium">{ev.sender}: </span>}
-                    <span className="text-zinc-600 dark:text-zinc-300">{(lang === "zh" ? ev.point_zh || ev.point : ev.point) || ev.snippet || ev.subject?.slice(0, 100)}</span>
+                    <span className="text-zinc-600 dark:text-zinc-300">{cleanTrackerPoint((lang === "zh" ? ev.point_zh || ev.point : ev.point) || ev.snippet || ev.subject?.slice(0, 100))}</span>
                     {ev.url && <a href={ev.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="ml-1 inline-flex shrink-0 whitespace-nowrap text-xs text-[#7c3aed] hover:underline dark:text-[#a78bfa]">{t("tracker.sourceLink")}</a>}
                   </div>
                 </div>
