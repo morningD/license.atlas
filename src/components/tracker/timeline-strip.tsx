@@ -51,7 +51,7 @@ interface TipState {
   x: number; y: number;
   type: string; typeColor: string; stripeColor: string;
   date: string; sender: string; snip: string;
-  submitter?: boolean; sentiment?: string;
+  submitter?: boolean; sentiment?: string; hasText?: boolean;
 }
 
 const TIP_W = 340;
@@ -154,6 +154,7 @@ export function TimelineStrip({
     // so highlight by event type, falling back to the submitter field match.
     const isSubmitter = rawType === "submission" ||
       !!(submitter && ev.sender && ev.sender !== "Unknown" && ev.sender === submitter);
+    const hasText = !!ev.text_ids?.length;
     const next = items[pos + 1];
     const isLast = !next;
     const crossesYear = next && ev.date && next.date &&
@@ -169,12 +170,13 @@ export function TimelineStrip({
             date: formatTrackerDate(ev.date),
             sender: ev.sender && ev.sender !== "Unknown" ? ev.sender : "",
             snip, submitter: isSubmitter, sentiment,
+            hasText: !!ev.text_ids?.length,
           })}
           onMouseMove={(e) => tip && setTip({ ...tip, x: e.clientX, y: e.clientY })}
           onMouseLeave={() => setTip(null)}
           onClick={(e) => { e.stopPropagation(); onNodeClick?.("timeline", i); }}
         >
-          {d}{label ? " " + label : ""}
+          {hasText ? "📄" : ""}{d}{label ? " " + label : ""}
         </span>
         {!isLast && (
           <span className={`tl-arrow${crossesYear ? " tl-cross-year" : ""}`}>
@@ -202,6 +204,11 @@ export function TimelineStrip({
               <span className="tt-type" style={{ color: tip.typeColor }}>
                 {tip.type}
               </span>
+              {tip.hasText && (
+                <span className="tt-sentiment" style={{ background: "rgba(6,182,212,0.12)", color: "#0891b2", borderRadius: 999, padding: "1px 7px", fontSize: 10, fontWeight: 700, lineHeight: 1.4 }}>
+                  {t("tracker.text")}
+                </span>
+              )}
               {tip.sentiment && (
                 <span
                   className="tt-sentiment"
