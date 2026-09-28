@@ -176,7 +176,7 @@ export function TimelineStrip({
           onMouseLeave={() => setTip(null)}
           onClick={(e) => { e.stopPropagation(); onNodeClick?.("timeline", i); }}
         >
-          {hasText ? "📄" : ""}{d}{label ? " " + label : ""}
+          {hasText ? "📄 " : ""}{d}{label ? " " + label : ""}
         </span>
         {!isLast && (
           <span className={`tl-arrow${crossesYear ? " tl-cross-year" : ""}`}>
