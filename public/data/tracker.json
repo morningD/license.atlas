@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-27T15:10:41.407Z",
+    "generated_at": "2026-09-28T13:20:39.238Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-09-27T15:11:03.203Z",
+    "enriched_at": "2026-09-28T13:21:01.429Z",
     "coverage": {
       "submissions_with_license_text": 136,
       "submissions_with_board_vote": 87,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-09-27T15:11:03.707Z",
+      "applied_at": "2026-09-28T13:21:09.702Z",
       "applied": 217,
       "missing": 0,
       "invalid": 0,
@@ -90010,7 +90010,7 @@
           "has_submission": false,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-08-31"
+          "latest_event_date": "2026-09-28"
         },
         "board_vote": {
           "present": true,
@@ -90027,7 +90027,7 @@
         {
           "name": "Max Mehl",
           "role": "submitter",
-          "message_count": 6
+          "message_count": 7
         },
         {
           "name": "McCoy Smith",
@@ -90040,13 +90040,13 @@
           "message_count": 5
         },
         {
-          "name": "Pamela Chestek",
-          "role": "board_member",
-          "message_count": 2
-        },
-        {
           "name": "Nico Rikken",
           "role": "reviewer",
+          "message_count": 3
+        },
+        {
+          "name": "Pamela Chestek",
+          "role": "board_member",
           "message_count": 2
         },
         {
@@ -90066,6 +90066,11 @@
         },
         {
           "name": "Moming Duan",
+          "role": "reviewer",
+          "message_count": 1
+        },
+        {
+          "name": "Nick Vidal",
           "role": "reviewer",
           "message_count": 1
         }
@@ -91017,6 +91022,45 @@
           "source": "license-review",
           "position": "procedural",
           "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved."
+        },
+        {
+          "date": "2026-09-27",
+          "type": "feedback",
+          "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006282.html",
+          "sender": "Nico Rikken",
+          "snippet": "Thanks the board for approving Python-2.0.1 and CNRI-Python-GPL-Compatible, and notes the OSI licenses page lists the incorrect SPDX ID 'Python-2-0-1' instead of 'Python-2.0.1'. Also asks that PSF-2.0 be reviewed given its stand-alone use in matplotlib, and whether to file a separate email.",
+          "point_zh": "感谢批准 Python-2.0.1 与 CNRI-Python-GPL-Compatible,并指出 OSI 页面的 SPDX ID 拼写有误;另提议审查 PSF-2.0,询问是否单独发邮件。",
+          "sentiment": "support",
+          "source": "license-review",
+          "position": "oppose",
+          "point": "Thanks the board for approving Python-2.0.1 and CNRI-Python-GPL-Compatible, and notes the OSI licenses page lists the incorrect SPDX ID 'Python-2-0-1' instead of 'Python-2.0.1'. Also asks that PSF-2.0 be reviewed given its stand-alone use in matplotlib, and whether to file a separate email."
+        },
+        {
+          "date": "2026-09-28",
+          "type": "feedback",
+          "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006281.html",
+          "sender": "Max Mehl",
+          "snippet": "Agrees that the SPDX identifier for Python-2.0.1 is wrong and asks Nick to correct it.",
+          "point_zh": "认同 Python-2.0.1 的 SPDX 标识符有误这一观点,并请 Nick 予以更正。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Agrees that the SPDX identifier for Python-2.0.1 is wrong and asks Nick to correct it."
+        },
+        {
+          "date": "2026-09-28",
+          "type": "feedback",
+          "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006283.html",
+          "sender": "Nick Vidal",
+          "snippet": "Apologizes for the earlier mistake and confirms it has now been fixed.",
+          "point_zh": "就之前的错误致歉,并确认现已修复。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Apologizes for the earlier mistake and confirms it has now been fixed."
         }
       ],
       "board_vote": {
@@ -91044,12 +91088,12 @@
         "board_minutes": ""
       },
       "stats": {
-        "total_messages": 25,
+        "total_messages": 28,
         "date_range": [
           "2026-03-06",
-          "2026-08-31"
+          "2026-09-28"
         ],
-        "duration_days": 178,
+        "duration_days": 206,
         "unique_participants": [
           "Max Mehl",
           "Richard Fontana",
@@ -91059,7 +91103,8 @@
           "Gregor Hoffleit",
           "Joshua Gay",
           "Nico Rikken",
-          "Moming Duan"
+          "Moming Duan",
+          "Nick Vidal"
         ]
       },
       "status_review": {
@@ -91072,21 +91117,29 @@
         "confidence": 0.75,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "[conservative fallback] repeated structured-output truncation this run; kept rule status (approved) — OSI API approval and board vote are authoritative and unchanged.",
+        "rationale": "[conservative fallback] contradictory/low-confidence LLM reading; kept rule status (approved). The board vote evidence explicitly approves the license 'as Legacy, Supersede prior version'. Per the policy, a motion approving in the legacy category means legacy, not approved. The OSI API lists the license as approved, which is consistent with legacy approval but the specific motion text governs the category. No rejection or withdrawal evidence exists.",
         "evidence_refs": [
           {
-            "evidence_id": "osi_api:python-2-0",
-            "supports": "approved"
+            "evidence_id": "board_vote:python-2-0",
+            "supports": "legacy",
+            "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version"
           },
           {
-            "evidence_id": "board_vote:python-2-0",
-            "supports": "approved"
+            "evidence_id": "osi_api:python-2-0",
+            "supports": "approved",
+            "quote": "Python License, Version 2"
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:07789dc60893c7db0bb17159150b26138236893a255c4e5acc604b991a7a6eb9",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "conflicts": [
+          {
+            "source": "osi-api",
+            "observed_status": "approved",
+            "explanation": "The OSI API lists the license as normally approved, while the board motion specifically approved it as Legacy, so the legacy category is used."
+          }
+        ],
+        "input_hash": "sha256:07f11b39814b8feda6aa4f0c126128b08339678ba9adf68904dee409b1b43f59",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {

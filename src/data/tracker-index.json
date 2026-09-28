@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "92772055de37e16b",
+    "source_hash": "62967b56c9fffece",
     "index_schema_version": 5,
-    "generated_at": "2026-09-27T15:11:03.203Z",
+    "generated_at": "2026-09-28T13:21:01.429Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -4694,11 +4694,11 @@
     "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 25,
-      "duration_days": 178,
+      "total_messages": 28,
+      "duration_days": 206,
       "date_range": [
         "2026-03-06",
-        "2026-08-31"
+        "2026-09-28"
       ]
     },
     "has_vote": true,
@@ -4717,19 +4717,19 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 25,
+      "count": 28,
       "first": "2026-03-06",
-      "last": "2026-08-31"
+      "last": "2026-09-28"
     },
     "latest_event": {
-      "date": "2026-08-31",
+      "date": "2026-09-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Nick Vidal",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
-      "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
-      "point_zh": "提供历史董事会会议记录，表明此前的 PSF 许可证提交很可能被搁置或未获解决。"
+      "point": "Apologizes for the earlier mistake and confirms it has now been fixed.",
+      "point_zh": "就之前的错误致歉,并确认现已修复。"
     }
   },
   "python-2-0": {
@@ -4744,11 +4744,11 @@
     "status": "approved",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 25,
-      "duration_days": 178,
+      "total_messages": 28,
+      "duration_days": 206,
       "date_range": [
         "2026-03-06",
-        "2026-08-31"
+        "2026-09-28"
       ]
     },
     "has_vote": true,
@@ -4767,19 +4767,19 @@
       "latest_text_date": "2026-03-20"
     },
     "timeline_meta": {
-      "count": 25,
+      "count": 28,
       "first": "2026-03-06",
-      "last": "2026-08-31"
+      "last": "2026-09-28"
     },
     "latest_event": {
-      "date": "2026-08-31",
+      "date": "2026-09-28",
       "type": "feedback",
       "source": "license-review",
-      "sender": "McCoy Smith",
+      "sender": "Nick Vidal",
       "subject": "[License-review] Python licenses: Python-2.0.1, PSF-2.0, CNRI-Python-GPL-Compatible",
       "sentiment": "neutral",
-      "point": "Provides historical board minutes indicating previous PSF license submissions were likely dropped or unresolved.",
-      "point_zh": "提供历史董事会会议记录，表明此前的 PSF 许可证提交很可能被搁置或未获解决。"
+      "point": "Apologizes for the earlier mistake and confirms it has now been fixed.",
+      "point_zh": "就之前的错误致歉,并确认现已修复。"
     }
   },
   "bsd-3-clause-open-mpi": {
