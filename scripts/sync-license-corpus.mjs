@@ -154,6 +154,31 @@ if (!allowNewLicenses && existsSync(ATLAS_INDEX)) {
     !trustedNewSlugs.has(license.slug) && !allowedNewSlugs.has(license.slug)
   );
 
+  // Lint gate on new entries (KB/scripts/lib/license-entry-lint.mjs): catch
+  // subject-fragment titles and markdown residue BEFORE they ship — the two
+  // incident classes from 2026-09-27 (CC md-links, MGB fragment titles).
+  // Trusted-source entries are linted too: trusted means vetted provenance,
+  // not vetted text quality. Errors block the sync; --allow-new-licenses
+  // still overrides after human review (lint output shown for that review).
+  if (newLicenses.length) {
+    const { lintLicenseCorpus, formatLintReport } = await import(
+      join(KB_ROOT, "scripts", "lib", "license-entry-lint.mjs")
+    );
+    // Lint full entries (licenses.json has the body text; the index does not).
+    const newSlugs = new Set(newLicenses.map((license) => license.slug));
+    const lintReport = lintLicenseCorpus(licenses.filter((license) => newSlugs.has(license.slug)));
+    if (lintReport.errors > 0) {
+      console.error(`✗ Lint gate: ${lintReport.errors} error(s) in new license slug(s):`);
+      console.error(formatLintReport(lintReport));
+      if (!allowNewLicenses) {
+        console.error("  Fix the KB cleaning for these entries, or pass --allow-new-licenses after manual review.");
+        process.exit(3);
+      }
+    } else if (lintReport.warns > 0) {
+      console.log(`ℹ Lint gate: ${lintReport.warns} warning(s) on new slugs (non-blocking)`);
+    }
+  }
+
   if (blockedNewLicenses.length > 0 && allowedNewSlugs.size === 0) {
     console.error(`✗ Refusing to sync ${blockedNewLicenses.length} new license slug(s) before confirmation.`);
     console.error("  Run the KB dedupe + LLM cleanup + confirmation workflow first, then rerun with --allow-new-license <slug> for each confirmed new slug, or --allow-new-licenses after reviewing all.");

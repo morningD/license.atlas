@@ -39,6 +39,21 @@ A comprehensive license collection website — software, AI model, and data lice
    `update-readme-counts.mjs` 自动刷。`--interactive` 回退旧人工审核流。人工出口仅剩：
    LLM 3 次未解决的 temp 候选、未审核来源的新 slug（sync 拦截需 `--allow-new-licenses`）。
 
+1.5 **Lint 门（2026-09-27）**：`KB/scripts/lib/license-entry-lint.mjs` 对新 slug 强制
+   质量规则（fragment-title 邮件 subject 碎片、md-links 正文 markdown 残留、mail-head、
+   tiny-body 仅警告），`sync-license-corpus.mjs` 在确认 gate 前对新增条目跑，error 级
+   exit 3 拦截（`--allow-new-licenses` 人工复核后可越过，lint 报告供复核）。KB
+   `clean-licenses.mjs` 末尾对全量 corpus 只报告不拦截。测试集即 2026-09-27 两次事故
+   案例（CC markdown 残留、MGB subject 碎片）+ 反例（"Standard ML of New Jersey
+   License" 等合法名称不得误报）：`node --test KB/scripts/tests/license-entry-lint.test.mjs`。
+   注意 "trusted 来源 ≠ 干净文本"：ScanCode 信任路径同样过 lint。存量污染（~51 条
+   md-links，多为 HF/GitHub custom 爬取；curl 条目混入 Cloudflare email-protection）
+   只在 KB clean 报告中出现，待按来源专项清理。CC 系列清洗走 `cleanCcBody`（clean 里
+   `cc-*`/`creative-commons-*` slug 或 cc family 触发，主正文 + 多语言 body 都过）。
+   **clean → merge 顺序硬规则**：clean-licenses 重写 cleaned 时会丢 OSI review 累积
+   条目（~81 条），merge-osi-review-into-corpus 必须在 clean 之后跑（含 title sync，
+   把 tracker name override 传播进 corpus review-origin 条目）。
+
 1. KB `scripts/clean-licenses.mjs` reads crawled data → outputs `data/licenses/cleaned/`
    - `licenses.json` — full data with body text (for detail pages, build-time only)
    - `licenses-index.json` — lightweight without body (for homepage, ~0.6MB vs 11MB)
