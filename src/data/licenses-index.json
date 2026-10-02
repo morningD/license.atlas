@@ -41060,6 +41060,10 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/mgb-1.0.html"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005642.html"
       }
     ],
     "featured": false,
@@ -69389,7 +69393,7 @@
   },
   {
     "slug": "toppers-license",
-    "title": "TOPPERS License Agreement",
+    "title": "TOPPERS License",
     "spdx_id": "",
     "osi_approved": false,
     "fsf_libre": null,
@@ -75472,33 +75476,6 @@
       {
         "name": "lists.opensource.org",
         "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-April/006078.html"
-      }
-    ],
-    "featured": false,
-    "created_at": "2026-10-02",
-    "proprietary": false
-  },
-  {
-    "slug": "of-new-mgb-1-0-license",
-    "title": "Of New \"Mgb 1.0\" License",
-    "spdx_id": "",
-    "osi_approved": false,
-    "fsf_libre": null,
-    "fsf_tags": [],
-    "deprecated": false,
-    "type": "software",
-    "version": "",
-    "description": "",
-    "permissions": [],
-    "conditions": [],
-    "limitations": [],
-    "tags": [
-      "Custom"
-    ],
-    "sources": [
-      {
-        "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005642.html"
       }
     ],
     "featured": false,

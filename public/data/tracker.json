@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-02T10:59:43.454Z",
+    "generated_at": "2026-10-02T11:21:54.373Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-10-02T11:00:06.186Z",
+    "enriched_at": "2026-10-02T11:22:16.359Z",
     "coverage": {
       "submissions_with_license_text": 136,
       "submissions_with_board_vote": 87,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-10-02T11:00:06.673Z",
+      "applied_at": "2026-10-02T11:27:32.326Z",
       "applied": 217,
       "missing": 0,
       "invalid": 0,
@@ -6632,7 +6632,7 @@
     },
     {
       "id": "of-the-resubmitted-new-mgb-1-0",
-      "name": "Of The Resubmitted New \"Mgb 1.0\"",
+      "name": "MGB Open-Source License 1.0 (resubmission, corrected thread)",
       "aliases": [],
       "spdx_id": "",
       "status": "pending",
@@ -6711,26 +6711,26 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.8,
+        "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "Only a single 2025-02-27 submission-thread message discussing plans for a resubmitted license is available. There is no evidence of a board decision, rejection, withdrawal, or supersession. With no terminal evidence, the review remains pending.",
+        "rationale": "The only available evidence is the 2025-02-27 license-review submission request for the resubmitted 'MGB 1.0', in which the submitter acknowledges discussion and suggests changes would be implemented via a resubmitted license. There is no OSI API record, no curated review data, no board vote, no board decision, and no withdrawal in the timeline. Nothing supports a terminal status (approved, rejected, withdrawn, superseded, or legacy), and no contradictory evidence exists. Per the conservative fallback, the review remains pending: the submission is under discussion with no final decision recorded.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0#0",
             "supports": "pending",
-            "quote": "Continued thanks for the notes, suggestions, and discussion... via suggestions that I believe we will be able to implement through a resubmitted license"
+            "quote": "Continued thanks for the notes, suggestions, and discussion. Many of the notes added perspective to concerns via suggestions that I believe we will be able to implement through a resubmitted license,"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:0033a8c661f14111877a2e7ff9907f5f3f326cbb1b0154f13d06a1d184b78942",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:40efc2ed5dd72d712ac4b6c977e57bb969bdace33a0e027464f48b16ff3e42cf",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
       "id": "of-the-resubmitted-new-mgb-1-0-license",
-      "name": "Of The Resubmitted New \"Mgb 1.0\" License",
+      "name": "MGB Open-Source License 1.0 (resubmission)",
       "aliases": [],
       "spdx_id": "",
       "status": "pending",
@@ -6924,31 +6924,57 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.8,
+        "confidence": 0.85,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The thread contains a resubmission and multiple opposing reviewer comments through 2025-02-25, but no board vote, rejection, withdrawal, or supersession is evidenced. Strong community opposition does not by itself constitute an official rejection, so the conservative fallback is pending.",
+        "rationale": "The resubmission of the MGB 1.0 license was formally proposed to the license-review list on 2025-02-21, and the thread shows active discussion through 2025-02-25. Several prominent reviewers (Piana, Smith, Chestek, Phipps) expressed clear opposition to approval on patent-grant and OSD-compliance grounds. However, individual reviewer opposition in a discussion thread is not authoritative evidence of a formal OSI rejection: the timeline records no board vote, no board decision, and no withdrawal (has_board_decision=false, has_withdrawal=false), and no OSI API or curated status source reports a terminal outcome. Under the conservative fallback, weak or missing evidence for a terminal status requires final_status=pending. The review remains open and undecided; the strong community opposition is recorded as a conflict rather than treated as a board rejection.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#0",
             "supports": "pending",
-            "quote": "MGB License 1.0 - OSI Formal Proposal for RESUBMITTED New License Review"
+            "quote": "MGB License 1.0 - OSI Formal Proposal for RESUBMITTED New License Review I Marvin Barksdale JD, the license steward and license submitter, attests that this new resubmitted MGB 1.0 license complies w"
+          },
+          {
+            "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#1",
+            "supports": "rejected",
+            "quote": "I don't believe Section 7 could withstand the scrutiny of OSD or OSAID and I am pretty sure this language does not belong in a license, but rather in the acceptance criteria for submission to a projec"
+          },
+          {
+            "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#2",
+            "supports": "rejected",
+            "quote": "Some comments below on the DoE issue. As I believe I've said before, is there any case law or statutory support for the idea that a license text scoped by \"infringed by\" includes both literal infring"
+          },
+          {
+            "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#4",
+            "supports": "rejected",
+            "quote": "I think we agree? I'm less inclined than you to trust the language of the instrument because language is so imperfect. But you make allowances for the case where the intended goal is against the OSD,"
+          },
+          {
+            "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#6",
+            "supports": "rejected",
+            "quote": "Pam, my reasoning was probably a bit convoluted because I was sort of thinking aloud, but I reckon that we agree by and large, including in the specific case. I think, in short, the intent of the dra"
           },
           {
             "evidence_id": "timeline:of-the-resubmitted-new-mgb-1-0-license#7",
-            "supports": "pending",
-            "quote": "A license is only an open source license if it delivers all rights necessary to use, improve..."
+            "supports": "rejected",
+            "quote": "Hi! As a non-lawyer struggling to follow the wall of text in the thread, this is the decisive point for me. A license is only an open source license if it delivers all rights necessary to use, improv"
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:6d09bd4a85f11bff3808c575b351b1c7dfe63b12cf549337be437e6d68ef94c4",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "conflicts": [
+          {
+            "source": "license-review list thread (2025-02-24 to 2025-02-25)",
+            "observed_status": "opposed / rejection-leaning feedback",
+            "explanation": "Multiple reviewers voiced opposition to approval of the MGB 1.0 resubmission, which could suggest a future rejection. However, no board vote, board decision, formal rejection notice, or withdrawal is recorded in the timeline, OSI API, or curated sources, so this sentiment cannot support a terminal 'rejected' status. The absence of any decision evidence is consistent with 'pending'."
+          }
+        ],
+        "input_hash": "sha256:5443b2927380a8acf419a9d5c2efe7ba9eb52f13dd0eb7168486baecfa1c7f55",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {
       "id": "of-new-mgb-1-0-license-pamela-chestek",
-      "name": "Of New \"Mgb 1.0\" License (Pamela Chestek)",
+      "name": "MGB Open-Source License 1.0 (Pamela Chestek review)",
       "aliases": [],
       "spdx_id": "",
       "status": "pending",
@@ -7084,25 +7110,35 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.8,
+        "confidence": 0.88,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The thread shows an earlier submission discussion (2025-02-19 to 2025-02-20) with opposing feedback and an announced intent to resubmit, but no board decision, rejection, withdrawal, or supersession evidence. Although a later resubmission exists in a separate thread, no evidence shows this review itself was formally superseded or decided, so pending is the faithful status.",
+        "rationale": "The timeline shows this license was submitted for review on 2025-02-19, followed by active discussion through 2025-02-20. Several reviewers (Carlo Piana, McCoy Smith, Pamela Chestek) raised substantive objections regarding patent grant scope, OSD compliance, and enforceability, and the submitter indicated preparation to resubmit with revisions. However, no board vote, board decision, withdrawal, or supersession event is present in the evidence: osi_api, curated_rwp, and board_vote data are absent, and the timeline flags has_withdrawal=false and has_board_decision=false. Community opposition during discussion is not equivalent to a formal board rejection, so a terminal 'rejected' status is not supported. Likewise, no evidence supports approval, withdrawal, supersession, or legacy treatment. The review is therefore faithfully recorded as pending.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:of-new-mgb-1-0-license-pamela-chestek#0",
             "supports": "pending",
-            "quote": "as we prepare to resubmit the MGB 1.0 according to the guidance to date"
+            "quote": "[License-review] Request for approval of new \"MGB 1.0\" license (Pamela Chestek) ... we prepare to resubmit the MGB 1.0 according to the guidance to date"
+          },
+          {
+            "evidence_id": "timeline:of-new-mgb-1-0-license-pamela-chestek#1",
+            "supports": "pending",
+            "quote": "I am not sure how this email does respond to the objections raised by Pam, which are not just the"
+          },
+          {
+            "evidence_id": "timeline:of-new-mgb-1-0-license-pamela-chestek#2",
+            "supports": "pending",
+            "quote": "So, disclaim a license to any equivalen"
           },
           {
             "evidence_id": "timeline:of-new-mgb-1-0-license-pamela-chestek#3",
             "supports": "pending",
-            "quote": "And this is what makes it not an open source license."
+            "quote": "And this is what makes it not an open source license. The licensee must be free to use the licensed software free of any potential claim for infringement under any infringement theory."
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:241f8297449bb4dcbb953768eb1a68e2d88eccbbb132f03f131aa2ea95a44da4",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:98f3fd772fd76a451b94fc0d55733789d33b3a3055131fbc0c06e99af5d5b242",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
@@ -16301,7 +16337,7 @@
     },
     {
       "id": "of-new-mgb-1-0-license",
-      "name": "Of New \"Mgb 1.0\" License",
+      "name": "MGB Open-Source License 1.0",
       "aliases": [],
       "spdx_id": "",
       "status": "pending",
@@ -16385,7 +16421,7 @@
           "normalized_text": "MGB OPEN SOURCE LICENSE 1.0\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, MODIFICATION, AND DISTRIBUTION\n\n1. Definitions.\n\n\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"\n\n\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.\n\n\"Contributor Version\" shall mean a Contribution in the form it exists immediately after the Contributor makes its Contribution.\n\n\"Derivative Works\" shall mean any work that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.\n\n\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition,  control  means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding voting shares of such entity, or (iii) beneficial ownership of such entity.\n\n\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 10 of this document.\n\n\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.\n\n\"Model Materials\" shall mean the materials provided to you under this agreement that may be embodied in an artificial intelligence or machine learning model, including without limitation a collective work of authorship spanning model architecture, code in Source or Object Form, parameters, data descriptions, data, model weights, and all related artifacts.\n\n\"Object Form\" shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.\n Source Form  shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.\n\n\"Work\" shall mean the work, including without limitation software whether in Source or Object form, data, databases, graphs, Model Materials, and documentation, made available under the License, as may be indicated by the Licensor applying these license terms to such Work.\n\n\"You\" (or \"Your\" shall mean an individual or Legal Entity exercising permissions granted by this License.\n\n2. Grant of Rights.\n\nA. Under Non-Patent Rights: Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works. Such license is granted under all rights of the Contributor, other than patent rights, including without limitation copyright, trade secret, and database rights.\n\nB. Under Patent Rights: Subject to the terms and conditions of this License, each Contributor hereby grants to You a worldwide, non-exclusive, sublicensable, no-charge, royalty-free, irrevocable (except as stated in this section) patent license, under any patent claims owned or controlled by the Contributor, to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work and Derivative Works, but only to the extent such patent claims claim inventions embodied in the Contributor Version. Such license is granted for the duration of the patents containing such claims. For clarity, no patent license is granted by a Contributor for infringements caused by: (i) your or any other party s Derivative Works, or (ii) the combination of the Work with anything other than the Contributor Version. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then all licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.\n\n3. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:\n\n(a)  You must give any other recipients of the Work or Derivative Works a copy of this License; and\n(b) You must cause any modified files to carry prominent notices stating that You changed the files; and\n(c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and\n(d) If you make Your Derivative Work available to others, You must, and must require your permitted sublicensees to, acknowledge Licensor by conspicuously marking any portion of the Work included with or integrated into Your Derivative Work with the following statement and attribution, or a permanent hyperlink to such a statement:\n\n\"[AUTHOR(S)]; Copyright [YEAR] [LICENSOR NAME]. Licensed with permission.\"\n\n(e) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.\n\nYou may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.\n\n4. Included Data; Personal Information. The Work may include data, graphs, and Models, and if so, You may use and modify such data, graphs, and Models, provided that You may have obligations to comply with laws concerning privacy or protected health information (hereinafter referred to as \"PHI\"), including as defined in 45 CFR  160.103 of the Health Insurance Portability and Accountability Act (HIPAA) of the United States, and this license does not excuse or limit  any such obligations. The Licensor makes no warranty that, by exercising this license, you will be able to comply with such obligations.\n\n5. No Additional Rights. The licenses granted in Section 2 are the only rights granted under this license. No additional rights or licenses will be implied from the distribution or licensing of Work under this license.\n\n6. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.\n\n7. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.\n\n8. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.\n\n9. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.\n\n10. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.\n\nEND OF TERMS AND CONDITIONS",
           "content_preview": "MGB OPEN SOURCE LICENSE 1.0\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, MODIFICATION, AND DISTRIBUTION\n\n1. Definitions.\n\n\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or",
           "size": 11680,
-          "match_score": 80,
+          "match_score": 1,
           "event_index": 5,
           "event_type": "feedback"
         }
@@ -16616,20 +16652,30 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "pending",
-        "confidence": 0.6,
+        "confidence": 0.72,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The MGB 1.0 review shows an active discussion with multiple opposing reviewer comments and no board vote, committee decision, or OSI listing evidence. Although one submitter message's summary suggests a possible withdrawal of the submitted version, the English text is ambiguous and the structured timeline explicitly reports has_withdrawal=false, so withdrawal is not adequately supported. Discussion was still ongoing at the latest event (2025-09-29). Conservative fallback is pending.",
+        "rationale": "The submission entered license-review on 2025-02-04 and the thread remains active through the latest event on 2025-09-29. No approval, board vote, board decision, or rejection evidence exists (osi_api, curated_rwp, and board_vote absent; timeline_summary has_board_decision: false). Reviewers raised substantive objections (patent grant termination, attribution and privacy clauses), but opposition in discussion is not a formal rejection. The submitter clarified that the updated text is a modification of the pending submission rather than a second license, which rules out superseded. One message annotation (#12) claims the submission was withdrawn, but this is contradicted by timeline_summary (has_withdrawal: false), by the quoted snippet which only acknowledges formatting issues, and by subsequent messages on 2025-09-29 that continue discussing anticipated revisions to the license. Because the only terminal-status signal (withdrawal) is weak and contradicted, the conservative fallback is final_status=pending; the review is unresolved as of the latest evidence.",
         "evidence_refs": [
           {
             "evidence_id": "timeline:of-new-mgb-1-0-license#0",
             "supports": "pending",
-            "quote": "I Marvin Barksdale JD, the license steward and license submitter, attests that this new \"MGB 1.0\" license complies with the Open Source Definition"
+            "quote": "I Marvin Barksdale JD, the license steward and license submitter, attests that this new \"MGB 1.0\" license complies with the Open Source Definition, including: OSD 3 - The license must allow modificati"
           },
           {
-            "evidence_id": "timeline:of-new-mgb-1-0-license#10",
+            "evidence_id": "timeline:of-new-mgb-1-0-license#7",
             "supports": "pending",
-            "quote": "I also have similar remarks. As I read this license, the patent grant only goes to the contributed version in the identical as made by the patent holder"
+            "quote": "By way of our previous submissions, MGB has been explicit in the fact that it \"looks forward to putting the full weight of its internal and external resources b"
+          },
+          {
+            "evidence_id": "timeline:of-new-mgb-1-0-license#9",
+            "supports": "pending",
+            "quote": "I believe this license is still problematic for several reasons. _Section 2(B), patent grant_ (why is B uppercase here, but lowercase in Section 3?) This language withholds the patent license the mo"
+          },
+          {
+            "evidence_id": "timeline:of-new-mgb-1-0-license#12",
+            "supports": "withdrawn",
+            "quote": "撤回 MGB 1.0 提交并澄清争议条款：承认组合免责条款确有矛盾，辩护限定贡献范围的专利授权类似 GPL-3.0，并主张署名与隐私条款有实际价值。"
           },
           {
             "evidence_id": "timeline:of-new-mgb-1-0-license#14",
@@ -16640,12 +16686,17 @@
         "conflicts": [
           {
             "source": "timeline:of-new-mgb-1-0-license#12",
-            "observed_status": "withdrawn (possible)",
-            "explanation": "The Chinese-language summary of the submitter's 2025-09-24 message indicates withdrawal of the MGB 1.0 submission, but the English snippet does not clearly state a withdrawal and timeline_summary reports has_withdrawal=false, so withdrawal cannot be confirmed."
+            "observed_status": "withdrawn",
+            "explanation": "The Chinese annotation of this message states the submitter withdrew the MGB 1.0 submission, but the quoted English snippet only acknowledges formatting/corruption issues and does not contain an explicit withdrawal statement. timeline_summary records has_withdrawal: false, and later messages #13 and #14 (2025-09-29, after this message) continue discussing the license and anticipated revisions, which is inconsistent with a completed withdrawal. Withdrawal therefore cannot be confirmed and is recorded as an unresolved contradiction."
+          },
+          {
+            "source": "license-review thread feedback (#9, #10, #11, #14)",
+            "observed_status": "opposed (no formal rejection)",
+            "explanation": "Multiple reviewers (Pamela Chestek, Carlo Piana, McCoy Smith) expressed opposition to the license terms, but no board vote, board decision, or list announcement of rejection exists in the evidence. Reviewer opposition alone cannot support a rejected status."
           }
         ],
-        "input_hash": "sha256:92b5c5068150370d1fcc547c056b18f5d72a56995d6b7392ec03bee2fb45bb9d",
-        "prompt_version": "osi-status-adjudicator-v1",
+        "input_hash": "sha256:5a67605f36bcfafad75dd8f6629f4baf181d032d57e48f140d4612d0071efd48",
+        "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },

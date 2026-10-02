@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "8aecbebc3c5081b6",
+    "source_hash": "48015ca87ebee80f",
     "index_schema_version": 5,
-    "generated_at": "2026-10-02T11:00:06.186Z",
+    "generated_at": "2026-10-02T11:22:16.359Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -450,7 +450,7 @@
   },
   "of-the-resubmitted-new-mgb-1-0": {
     "id": "of-the-resubmitted-new-mgb-1-0",
-    "name": "Of The Resubmitted New \"Mgb 1.0\"",
+    "name": "MGB Open-Source License 1.0 (resubmission, corrected thread)",
     "spdx_id": "",
     "aliases": [],
     "status": "pending",
@@ -496,7 +496,7 @@
   },
   "of-the-resubmitted-new-mgb-1-0-license": {
     "id": "of-the-resubmitted-new-mgb-1-0-license",
-    "name": "Of The Resubmitted New \"Mgb 1.0\" License",
+    "name": "MGB Open-Source License 1.0 (resubmission)",
     "spdx_id": "",
     "aliases": [],
     "status": "pending",
@@ -542,7 +542,7 @@
   },
   "of-new-mgb-1-0-license-pamela-chestek": {
     "id": "of-new-mgb-1-0-license-pamela-chestek",
-    "name": "Of New \"Mgb 1.0\" License (Pamela Chestek)",
+    "name": "MGB Open-Source License 1.0 (Pamela Chestek review)",
     "spdx_id": "",
     "aliases": [],
     "status": "pending",
@@ -648,7 +648,7 @@
   },
   "of-new-mgb-1-0-license": {
     "id": "of-new-mgb-1-0-license",
-    "name": "Of New \"Mgb 1.0\" License",
+    "name": "MGB Open-Source License 1.0",
     "spdx_id": "",
     "aliases": [],
     "status": "pending",
