@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T07:15:47.589Z",
+    "generated_at": "2026-10-02T11:00:27.137Z",
     "source": "OSADL Open Source License Checklists",
     "source_url": "https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html",
     "checklist_project_url": "https://www.osadl.org/OSADL-Open-Source-License-Checklists.oss-compliance-lists.0.html",
@@ -13,10 +13,10 @@
     "draft_note": "OSADL states the checklist material is work in progress/draft state; use as informational data, not legal advice.",
     "timestamp": "2026-02-12T16:31:00+0000",
     "timeformat": "%Y-%m-%dT%H:%M:%S%z",
-    "matrix_timestamp": "2026-08-04T15:39:00+0000",
-    "copyleft_timestamp": "2026-08-04T15:39:00+0000",
-    "source_disclosure_timestamp": "2026-08-04T15:39:00+0000",
-    "alltimestamps_count": 606,
+    "matrix_timestamp": "2026-09-23T08:44:00+0000",
+    "copyleft_timestamp": "2026-08-20T12:46:00+0000",
+    "source_disclosure_timestamp": "2026-08-20T12:46:00+0000",
+    "alltimestamps_count": 607,
     "matrix_license_count": 119,
     "compatibility_values": [
       "Check dependency",

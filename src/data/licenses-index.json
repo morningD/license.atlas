@@ -50,22 +50,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 19400908,
+    "popularity": 19410902,
     "github_repos": 19090657,
     "kaggle_datasets": 64671,
     "trend": [
-      4444,
-      3994,
-      4787,
-      5473,
-      5326,
-      8998,
-      6852,
-      6349,
-      6737,
-      6989,
-      9784,
-      6527
+      4669,
+      5267,
+      5320,
+      8978,
+      6673,
+      6343,
+      6690,
+      6949,
+      9536,
+      6301,
+      7594,
+      8643
     ],
     "blueoak_tier": "Silver"
   },
@@ -119,22 +119,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 4643259,
+    "popularity": 4671691,
     "github_repos": 3913687,
     "kaggle_datasets": 105065,
     "trend": [
-      13896,
-      13095,
-      12311,
-      12551,
-      14525,
-      14999,
-      21847,
-      20102,
-      23775,
-      25110,
-      20913,
-      24014
+      11794,
+      11746,
+      14426,
+      14903,
+      21775,
+      19747,
+      24085,
+      25629,
+      20642,
+      23723,
+      25083,
+      22607
     ],
     "blueoak_tier": "Silver"
   },
@@ -194,22 +194,22 @@
     "featured": true,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 3475494,
+    "popularity": 3475593,
     "github_repos": 3469773,
     "kaggle_datasets": 713,
     "trend": [
-      60,
-      48,
       54,
-      69,
-      105,
-      72,
+      68,
+      104,
+      71,
       75,
       69,
       71,
-      70,
-      91,
-      86
+      71,
+      90,
+      80,
+      95,
+      71
     ]
   },
   {
@@ -272,12 +272,10 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 630260,
+    "popularity": 630271,
     "github_repos": 628284,
     "kaggle_datasets": 1519,
     "trend": [
-      5,
-      6,
       3,
       2,
       29,
@@ -285,9 +283,11 @@
       7,
       5,
       4,
-      5,
+      6,
       8,
-      4
+      4,
+      7,
+      9
     ]
   },
   {
@@ -328,22 +328,22 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 541153,
+    "popularity": 541192,
     "github_repos": 375540,
     "kaggle_datasets": 160262,
     "trend": [
-      16,
-      18,
       30,
-      26,
+      25,
       187,
-      80,
+      78,
       28,
-      24,
-      30,
-      49,
+      23,
+      29,
+      48,
       34,
-      46
+      46,
+      25,
+      37
     ],
     "blueoak_tier": "Bronze"
   },
@@ -398,21 +398,21 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 491809,
+    "popularity": 493433,
     "github_repos": 488473,
     "trend": [
-      48,
-      22,
-      22,
-      22,
-      306,
+      23,
+      23,
+      307,
       119,
-      58,
-      66,
-      133,
-      163,
+      60,
       67,
-      105
+      133,
+      132,
+      67,
+      117,
+      647,
+      1182
     ],
     "blueoak_tier": "Bronze"
   },
@@ -467,11 +467,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 424055,
+    "popularity": 424070,
     "github_repos": 422624,
     "trend": [
-      15,
-      16,
       128,
       16,
       33,
@@ -481,7 +479,9 @@
       14,
       8,
       12,
-      40
+      41,
+      13,
+      13
     ],
     "blueoak_tier": "Bronze"
   },
@@ -533,11 +533,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162585,
+    "popularity": 162605,
     "github_repos": 161050,
     "trend": [
-      5,
-      9,
       3,
       3,
       453,
@@ -547,7 +545,9 @@
       2,
       6,
       8,
-      5
+      5,
+      20,
+      6
     ],
     "blueoak_tier": "Silver"
   },
@@ -602,11 +602,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162284,
+    "popularity": 162296,
     "github_repos": 161993,
     "trend": [
-      2,
-      3,
       3,
       7,
       45,
@@ -616,7 +614,9 @@
       12,
       11,
       12,
-      1
+      1,
+      5,
+      10
     ]
   },
   {
@@ -698,22 +698,22 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 148751,
+    "popularity": 147614,
     "github_repos": 106281,
     "kaggle_datasets": 8160,
     "trend": [
-      163,
-      178,
-      139,
-      194,
-      259,
-      264,
-      250,
-      441,
-      2043,
-      2294,
-      548,
-      587
+      141,
+      195,
+      258,
+      263,
+      249,
+      447,
+      545,
+      813,
+      567,
+      587,
+      1497,
+      1246
     ]
   },
   {
@@ -776,8 +776,6 @@
     "popularity": 74744,
     "github_repos": 74627,
     "trend": [
-      0,
-      1,
       1,
       0,
       30,
@@ -786,6 +784,8 @@
       2,
       1,
       2,
+      0,
+      0,
       0,
       0
     ]
@@ -841,11 +841,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 65585,
+    "popularity": 65587,
     "github_repos": 65480,
     "trend": [
-      0,
-      0,
       0,
       0,
       26,
@@ -855,6 +853,8 @@
       0,
       0,
       1,
+      2,
+      2,
       2
     ],
     "blueoak_tier": "Silver"
@@ -961,11 +961,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 48475,
+    "popularity": 48478,
     "github_repos": 47059,
     "trend": [
-      1,
-      6,
       3,
       8,
       289,
@@ -975,7 +973,9 @@
       2,
       6,
       6,
-      5
+      5,
+      3,
+      2
     ],
     "blueoak_tier": "Silver"
   },
@@ -1052,22 +1052,22 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 48079,
+    "popularity": 48300,
     "github_repos": 32502,
     "kaggle_datasets": 6990,
     "trend": [
-      60,
-      65,
-      40,
+      39,
       43,
-      90,
+      91,
       73,
-      40,
+      42,
       117,
       180,
       204,
-      74,
-      100
+      89,
+      100,
+      137,
+      154
     ]
   },
   {
@@ -1115,8 +1115,6 @@
     "popularity": 47092,
     "github_repos": 46947,
     "trend": [
-      1,
-      0,
       6,
       1,
       36,
@@ -1126,7 +1124,9 @@
       1,
       0,
       0,
-      2
+      2,
+      0,
+      0
     ]
   },
   {
@@ -1167,11 +1167,9 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 40301,
+    "popularity": 40314,
     "github_repos": 38815,
     "trend": [
-      16,
-      18,
       10,
       12,
       44,
@@ -1181,7 +1179,9 @@
       8,
       16,
       14,
-      17
+      17,
+      10,
+      12
     ],
     "blueoak_tier": "Lead"
   },
@@ -1234,11 +1234,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 38655,
+    "popularity": 38656,
     "github_repos": 38536,
     "trend": [
-      1,
-      0,
       1,
       1,
       30,
@@ -1248,7 +1246,9 @@
       0,
       0,
       0,
-      0
+      0,
+      0,
+      1
     ]
   },
   {
@@ -1320,21 +1320,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 28753,
+    "popularity": 30216,
     "kaggle_datasets": 2471,
     "trend": [
-      265,
-      289,
       214,
-      423,
-      360,
-      294,
-      396,
-      1204,
-      532,
-      1565,
-      476,
-      640
+      422,
+      359,
+      293,
+      398,
+      1206,
+      529,
+      1566,
+      494,
+      641,
+      876,
+      1174
     ]
   },
   {
@@ -1405,21 +1405,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 18379,
+    "popularity": 18706,
     "kaggle_datasets": 8683,
     "trend": [
-      116,
-      67,
-      104,
+      105,
       108,
       133,
-      124,
-      103,
-      146,
-      265,
-      203,
-      203,
-      243
+      122,
+      100,
+      145,
+      266,
+      197,
+      200,
+      282,
+      233,
+      257
     ]
   },
   {
@@ -1472,21 +1472,21 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 14905,
+    "popularity": 14933,
     "github_repos": 11281,
     "trend": [
-      21,
-      37,
       19,
       20,
       356,
       219,
-      101,
-      20,
+      100,
+      21,
       19,
-      16,
+      15,
       10,
-      16
+      15,
+      23,
+      13
     ],
     "blueoak_tier": "Bronze"
   },
@@ -1534,12 +1534,10 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 10908,
+    "popularity": 10909,
     "github_repos": 10857,
     "trend": [
       0,
-      1,
-      0,
       0,
       3,
       3,
@@ -1548,7 +1546,9 @@
       0,
       1,
       0,
-      1
+      1,
+      1,
+      0
     ]
   },
   {
@@ -1597,11 +1597,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 9934,
+    "popularity": 9933,
     "github_repos": 9820,
     "trend": [
-      0,
-      1,
       1,
       1,
       8,
@@ -1610,6 +1608,8 @@
       1,
       0,
       1,
+      0,
+      0,
       0,
       0
     ],
@@ -1709,11 +1709,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8352,
+    "popularity": 8378,
     "github_repos": 2007,
     "trend": [
-      39,
-      44,
       35,
       38,
       414,
@@ -1723,7 +1721,9 @@
       27,
       31,
       33,
-      20
+      20,
+      46,
+      21
     ],
     "blueoak_tier": "Bronze"
   },
@@ -1765,11 +1765,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8003,
+    "popularity": 8004,
     "github_repos": 7853,
     "trend": [
-      0,
-      2,
       0,
       3,
       34,
@@ -1779,6 +1777,8 @@
       25,
       0,
       0,
+      1,
+      1,
       1
     ]
   },
@@ -1849,20 +1849,20 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 4806,
+    "popularity": 4878,
     "kaggle_datasets": 1129,
     "trend": [
-      40,
-      60,
       41,
       50,
-      70,
+      71,
       82,
-      52,
+      53,
       40,
-      49,
-      72,
+      51,
+      75,
       18,
+      60,
+      45,
       61
     ]
   },
@@ -1898,21 +1898,21 @@
     "family": "by-sa",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 2694,
+    "popularity": 2711,
     "kaggle_datasets": 1071,
     "trend": [
-      0,
-      3,
       3,
       1,
       65,
       34,
       12,
+      5,
       6,
-      6,
-      2,
       1,
-      10
+      1,
+      9,
+      13,
+      13
     ]
   },
   {
@@ -1964,11 +1964,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 2434,
+    "popularity": 2439,
     "github_repos": 2231,
     "trend": [
-      0,
-      0,
       4,
       3,
       22,
@@ -1978,7 +1976,9 @@
       2,
       2,
       1,
-      1
+      1,
+      4,
+      3
     ],
     "blueoak_tier": "Silver"
   },
@@ -2006,11 +2006,9 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 1347,
+    "popularity": 1350,
     "kaggle_datasets": 1052,
     "trend": [
-      1,
-      2,
       1,
       0,
       38,
@@ -2020,7 +2018,9 @@
       0,
       1,
       1,
-      2
+      2,
+      2,
+      5
     ]
   },
   {
@@ -2051,8 +2051,6 @@
     "kaggle_datasets": 798,
     "trend": [
       0,
-      0,
-      0,
       1,
       29,
       16,
@@ -2061,7 +2059,9 @@
       0,
       0,
       0,
-      1
+      1,
+      0,
+      0
     ]
   },
   {
@@ -2134,11 +2134,9 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 896,
+    "popularity": 902,
     "kaggle_datasets": 185,
     "trend": [
-      11,
-      6,
       6,
       5,
       42,
@@ -2146,9 +2144,11 @@
       6,
       5,
       11,
-      3,
       4,
-      5
+      4,
+      5,
+      8,
+      4
     ]
   },
   {
@@ -2187,11 +2187,9 @@
     "family": "by",
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 877,
+    "popularity": 881,
     "kaggle_datasets": 154,
     "trend": [
-      3,
-      4,
       6,
       1,
       56,
@@ -2201,7 +2199,9 @@
       3,
       3,
       2,
-      0
+      0,
+      3,
+      3
     ]
   },
   {
@@ -2236,10 +2236,8 @@
     "family": "by",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 863,
+    "popularity": 867,
     "trend": [
-      7,
-      8,
       3,
       21,
       91,
@@ -2249,7 +2247,9 @@
       4,
       7,
       4,
-      6
+      6,
+      4,
+      4
     ]
   },
   {
@@ -2286,19 +2286,19 @@
     "family": "by-nc",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 721,
+    "popularity": 724,
     "trend": [
-      12,
-      6,
       5,
       4,
       61,
       32,
       10,
       2,
-      6,
+      5,
       6,
       21,
+      5,
+      1,
       5
     ]
   },
@@ -2338,10 +2338,8 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 710,
+    "popularity": 719,
     "trend": [
-      0,
-      4,
       2,
       3,
       198,
@@ -2351,6 +2349,8 @@
       3,
       5,
       1,
+      9,
+      4,
       9
     ],
     "blueoak_tier": "Bronze"
@@ -2411,12 +2411,12 @@
     "trend": [
       0,
       0,
-      0,
-      0,
       23,
       8,
       6,
       1,
+      1,
+      0,
       1,
       0,
       1,
@@ -2448,10 +2448,8 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 596,
+    "popularity": 607,
     "trend": [
-      5,
-      4,
       5,
       1,
       44,
@@ -2460,8 +2458,10 @@
       8,
       6,
       13,
-      7,
-      5
+      6,
+      4,
+      11,
+      3
     ]
   },
   {
@@ -2536,10 +2536,8 @@
     "family": "by-nc",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 472,
+    "popularity": 480,
     "trend": [
-      4,
-      2,
       4,
       2,
       49,
@@ -2549,7 +2547,9 @@
       7,
       7,
       3,
-      2
+      2,
+      5,
+      8
     ]
   },
   {
@@ -2594,11 +2594,9 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 423,
+    "popularity": 424,
     "github_repos": 327,
     "trend": [
-      2,
-      0,
       0,
       1,
       5,
@@ -2608,6 +2606,8 @@
       1,
       0,
       1,
+      0,
+      2,
       0
     ],
     "blueoak_tier": "Silver"
@@ -2646,8 +2646,6 @@
     "proprietary": false,
     "popularity": 390,
     "trend": [
-      2,
-      3,
       0,
       1,
       87,
@@ -2657,7 +2655,58 @@
       1,
       1,
       1,
+      0,
+      1,
       0
+    ]
+  },
+  {
+    "slug": "cc-by-nc-sa-3.0",
+    "title": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
+    "spdx_id": "CC-BY-NC-SA-3.0",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Creative Commons",
+      "Copyleft",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "creativecommons.org",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt"
+      },
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0.html"
+      }
+    ],
+    "featured": false,
+    "family": "by-nc-sa",
+    "created_at": "2026-04-30",
+    "proprietary": true,
+    "popularity": 361,
+    "trend": [
+      1,
+      1,
+      35,
+      22,
+      10,
+      5,
+      18,
+      2,
+      4,
+      3,
+      4,
+      4
     ]
   },
   {
@@ -2698,55 +2747,6 @@
     "kaggle_datasets": 356
   },
   {
-    "slug": "cc-by-nc-sa-3.0",
-    "title": "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported",
-    "spdx_id": "CC-BY-NC-SA-3.0",
-    "osi_approved": false,
-    "fsf_libre": null,
-    "fsf_tags": [],
-    "deprecated": false,
-    "type": "data",
-    "version": "",
-    "description": "",
-    "permissions": [],
-    "conditions": [],
-    "limitations": [],
-    "tags": [
-      "Creative Commons",
-      "Copyleft",
-      "Proprietary"
-    ],
-    "sources": [
-      {
-        "name": "creativecommons.org",
-        "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode.txt"
-      },
-      {
-        "name": "spdx.org",
-        "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0.html"
-      }
-    ],
-    "featured": false,
-    "family": "by-nc-sa",
-    "created_at": "2026-04-30",
-    "proprietary": true,
-    "popularity": 354,
-    "trend": [
-      2,
-      1,
-      1,
-      1,
-      35,
-      22,
-      10,
-      5,
-      18,
-      2,
-      4,
-      3
-    ]
-  },
-  {
     "slug": "cc-by-nc-nd-3.0",
     "title": "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported",
     "spdx_id": "CC-BY-NC-ND-3.0",
@@ -2778,10 +2778,8 @@
     "family": "by-nc-nd",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 323,
+    "popularity": 325,
     "trend": [
-      2,
-      2,
       2,
       0,
       43,
@@ -2791,7 +2789,9 @@
       1,
       0,
       0,
-      0
+      0,
+      3,
+      2
     ]
   },
   {
@@ -2827,10 +2827,8 @@
     "family": "by-nc-sa",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 259,
+    "popularity": 261,
     "trend": [
-      0,
-      2,
       9,
       2,
       41,
@@ -2840,7 +2838,9 @@
       0,
       0,
       1,
-      1
+      1,
+      1,
+      3
     ]
   },
   {
@@ -2888,10 +2888,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 250,
+    "popularity": 251,
     "trend": [
-      2,
-      1,
       1,
       6,
       32,
@@ -2901,7 +2899,9 @@
       3,
       1,
       6,
-      5
+      5,
+      1,
+      0
     ],
     "blueoak_tier": "Silver"
   },
@@ -2931,8 +2931,6 @@
     "proprietary": false,
     "popularity": 242,
     "trend": [
-      1,
-      1,
       0,
       1,
       35,
@@ -2942,6 +2940,8 @@
       1,
       2,
       1,
+      0,
+      0,
       0
     ]
   },
@@ -2993,10 +2993,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 226,
+    "popularity": 229,
     "trend": [
-      1,
-      0,
       5,
       6,
       24,
@@ -3006,7 +3004,9 @@
       1,
       1,
       2,
-      1
+      1,
+      1,
+      3
     ]
   },
   {
@@ -3047,7 +3047,7 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-March/000104.html"
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2008-March/015704.html"
       }
     ],
     "featured": false,
@@ -3055,13 +3055,13 @@
     "proprietary": false,
     "popularity": 148,
     "trend": [
-      0,
-      0,
       1,
       1,
       27,
       11,
       6,
+      0,
+      0,
       0,
       0,
       0,
@@ -3117,10 +3117,8 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 120,
+    "popularity": 122,
     "trend": [
-      1,
-      1,
       0,
       0,
       30,
@@ -3130,7 +3128,9 @@
       0,
       0,
       0,
-      3
+      3,
+      1,
+      1
     ],
     "blueoak_tier": "Bronze"
   },
@@ -3179,10 +3179,8 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 110,
+    "popularity": 113,
     "trend": [
-      0,
-      0,
       0,
       0,
       39,
@@ -3192,7 +3190,9 @@
       5,
       1,
       8,
-      3
+      3,
+      2,
+      2
     ]
   },
   {
@@ -8281,6 +8281,31 @@
     "proprietary": true
   },
   {
+    "slug": "atc-game",
+    "title": "atc Game License",
+    "spdx_id": "atc-game",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/atc-game.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "ati-eula",
     "title": "ATI Software End User License Agreement",
     "spdx_id": "",
@@ -10625,6 +10650,31 @@
     "proprietary": false
   },
   {
+    "slug": "brian-gladman-3-clause-no-conversion",
+    "title": "Brian Gladman 3-Clause License (no conversion clause)",
+    "spdx_id": "Brian-Gladman-3-Clause-no-conversion",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/Brian-Gladman-3-Clause-no-conversion.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "broadcom-cfe",
     "title": "Broadcom CFE License",
     "spdx_id": "",
@@ -10997,6 +11047,31 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "bsd-ask-to-endorse",
+    "title": "BSD - ask to endorse",
+    "spdx_id": "BSD-ask-to-endorse",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSD-ask-to-endorse.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "bsd-1988",
     "title": "BSD 1988",
     "spdx_id": "",
@@ -11074,6 +11149,31 @@
     "blueoak_tier": "Lead"
   },
   {
+    "slug": "bsd-2-clause-pos-unchanged",
+    "title": "BSD 2-Clause - position unchanged variant",
+    "spdx_id": "BSD-2-Clause-pos-unchanged",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSD-2-Clause-pos-unchanged.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "bsd-2-clause-pkgconf-disclaimer",
     "title": "BSD 2-Clause pkgconf disclaimer variant",
     "spdx_id": "BSD-2-Clause-pkgconf-disclaimer",
@@ -11123,6 +11223,31 @@
     "created_at": "2026-05-14",
     "proprietary": false,
     "blueoak_tier": "Silver"
+  },
+  {
+    "slug": "bsd-3-clause-openwebui",
+    "title": "BSD 3-Clause - OpenWebUI variant",
+    "spdx_id": "BSD-3-Clause-OpenWebUI",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSD-3-Clause-OpenWebUI.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
   },
   {
     "slug": "bsd-3-clause-acpica",
@@ -12014,6 +12139,62 @@
     "proprietary": false
   },
   {
+    "slug": "bsd-source-alt-gpl",
+    "title": "BSD Source Code Attribution - GPL alternative",
+    "spdx_id": "BSD-Source-alt-GPL",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSD-Source-alt-GPL.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "bsd-source-code-no-disclaimer",
+    "title": "BSD Source Code Attribution - no disclaimer",
+    "spdx_id": "BSD-Source-Code-no-disclaimer",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "* Redistribution and use in source and binary forms, with or without  * modification, are permitted provided that the following conditions  * are met:  * 1. Redistributions of source code must retain",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSD-Source-Code-no-disclaimer.html"
+      },
+      {
+        "name": "scancode-licensedb.aboutcode.org",
+        "url": "https://scancode-licensedb.aboutcode.org/bsd-no-disclaimer-unmodified.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "bsd-3-clause-attribution",
     "title": "BSD with attribution",
     "spdx_id": "BSD-3-Clause-Attribution",
@@ -12110,32 +12291,6 @@
       {
         "name": "scancode-licensedb.aboutcode.org",
         "url": "https://scancode-licensedb.aboutcode.org/bsd-no-disclaimer.html"
-      }
-    ],
-    "featured": false,
-    "proprietary": false,
-    "created_at": "2026-05-29"
-  },
-  {
-    "slug": "bsd-no-disclaimer-unmodified",
-    "title": "BSD-2-Clause without Warranty Disclaimer with Unmodified requirement",
-    "spdx_id": "",
-    "osi_approved": false,
-    "fsf_libre": null,
-    "deprecated": false,
-    "type": "software",
-    "version": "",
-    "description": "* Redistribution and use in source and binary forms, with or without  * modification, are permitted provided that the following conditions  * are met:  * 1. Redistributions of source code must retain",
-    "permissions": [],
-    "conditions": [],
-    "limitations": [],
-    "tags": [
-      "Custom"
-    ],
-    "sources": [
-      {
-        "name": "scancode-licensedb.aboutcode.org",
-        "url": "https://scancode-licensedb.aboutcode.org/bsd-no-disclaimer-unmodified.html"
       }
     ],
     "featured": false,
@@ -12810,6 +12965,31 @@
     "proprietary": false
   },
   {
+    "slug": "bugroff",
+    "title": "Bugroff License",
+    "spdx_id": "Bugroff",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/Bugroff.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "bugsense-sdk",
     "title": "BugSense SDK License",
     "spdx_id": "",
@@ -13428,6 +13608,33 @@
     "proprietary": false
   },
   {
+    "slug": "causilo-license-v1-0",
+    "title": "Causilo License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "nums-ai/causilo",
+        "url": "https://huggingface.co/nums-ai/causilo"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "cavium-linux-firmware",
     "title": "Cavium Linux Firmware License",
     "spdx_id": "",
@@ -13973,7 +14180,7 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2020-June/004892.html"
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2010-January/000961.html"
       }
     ],
     "featured": false,
@@ -14953,7 +15160,7 @@
     "slug": "cnri-python-gpl-compatible",
     "title": "CNRI Python Open Source GPL Compatible License Agreement",
     "spdx_id": "CNRI-Python-GPL-Compatible",
-    "osi_approved": false,
+    "osi_approved": true,
     "fsf_libre": null,
     "fsf_tags": [],
     "deprecated": false,
@@ -14968,6 +15175,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/CNRI-Python-GPL-Compatible.html"
+      },
+      {
+        "name": "opensource.org",
+        "url": "https://opensource.org/license/cnri-python-gpl-compatible"
       }
     ],
     "featured": false,
@@ -17293,6 +17504,40 @@
     "family": "by-nc",
     "variant": "de",
     "created_at": "2026-05-14",
+    "proprietary": true
+  },
+  {
+    "slug": "cc-by-nc-3.0-igo",
+    "title": "Creative Commons Attribution Non Commercial 3.0 IGO",
+    "spdx_id": "CC-BY-NC-3.0-IGO",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Creative Commons",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/CC-BY-NC-3.0-IGO.html"
+      },
+      {
+        "name": "creativecommons.org",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/igo/legalcode.en"
+      }
+    ],
+    "featured": false,
+    "family": "by-nc",
+    "variant": "igo",
+    "created_at": "2026-10-02",
     "proprietary": true
   },
   {
@@ -24481,6 +24726,33 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "flux-kommunity-license",
+    "title": "FLUX Kommunity License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "black-forest-labs/flux-3-action-base",
+        "url": "https://huggingface.co/black-forest-labs/flux-3-action-base"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "flux-non-commercial-license",
     "title": "FLUX Non-Commercial License",
     "spdx_id": "",
@@ -24737,6 +25009,31 @@
     ],
     "featured": false,
     "created_at": "2026-05-14",
+    "proprietary": false
+  },
+  {
+    "slug": "fdk-mpeg-h",
+    "title": "Fraunhofer FDK MPEG-H Software",
+    "spdx_id": "FDK-MPEG-H",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/FDK-MPEG-H.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -26656,6 +26953,37 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "glm-5-3-license",
+    "title": "GLM-5.3 License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "zai-org/GLM-5.3",
+        "url": "https://huggingface.co/zai-org/GLM-5.3"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false,
+    "languages": [
+      "en",
+      "zh"
+    ]
   },
   {
     "slug": "gtpl-v1",
@@ -29237,6 +29565,33 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "h3-longvideos-licence",
+    "title": "H3-LongVideos — Licence",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Smite79/MiniMax-H3-Longvideos",
+        "url": "https://huggingface.co/Smite79/MiniMax-H3-Longvideos"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "hacking-license",
     "title": "Hacking License",
     "spdx_id": "",
@@ -29840,6 +30195,31 @@
     ],
     "featured": false,
     "created_at": "2026-05-14",
+    "proprietary": false
+  },
+  {
+    "slug": "hippocratic-3.0-core",
+    "title": "Hippocratic License 3.0",
+    "spdx_id": "Hippocratic-3.0-core",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/Hippocratic-3.0-core.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -31293,6 +31673,33 @@
     "proprietary": false
   },
   {
+    "slug": "hypit-open-source-license",
+    "title": "Hypit Open Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "agent",
+    "version": "",
+    "description": "Open Source License  Hypit is licensed under a modified version of the Apache License 2.0, with the following additional conditions:  1. Hypit may be utilized commercially for your own organization's",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "Agent Framework"
+    ],
+    "sources": [
+      {
+        "name": "hypit-ai/hypit",
+        "url": "https://github.com/hypit-ai/hypit"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "ian-kaplan",
     "title": "Ian Kaplan License",
     "spdx_id": "",
@@ -32611,6 +33018,31 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "informatica",
+    "title": "Informatica License",
+    "spdx_id": "Informatica",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [],
+    "sources": [
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/Informatica.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "initial-developer-public",
     "title": "Initial Developer Public License",
     "spdx_id": "",
@@ -33542,12 +33974,40 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://opensource.org/api/license/ipa"
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-November/000386.html"
       }
     ],
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false
+  },
+  {
+    "slug": "ipollowork-source-available-license",
+    "title": "iPolloWork Source Available License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "agent",
+    "version": "",
+    "description": "iPolloWork Source Available License Version 1.0, 13 July 2026  Copyright (c) 2026 Different AI, Inc. All rights reserved.  By using, copying, modifying, or distributing the Software, You accept this L",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "Agent Skill",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Devin-AXIS/iPolloWork",
+        "url": "https://github.com/Devin-AXIS/iPolloWork"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": true
   },
   {
     "slug": "irfanview-eula",
@@ -46467,28 +46927,27 @@
   {
     "slug": "mvt-1.1",
     "title": "MVT License 1.1",
-    "spdx_id": "",
+    "spdx_id": "MVT-1.1",
     "osi_approved": false,
     "fsf_libre": null,
+    "fsf_tags": [],
     "deprecated": false,
     "type": "software",
     "version": "",
-    "description": "MVT License 1.1 ===============  1. Definitions --------------  1.1. \"Contributor\"     means each individual or legal entity that creates, contributes to     the creation of, or owns Covered Software.",
+    "description": "",
     "permissions": [],
     "conditions": [],
     "limitations": [],
-    "tags": [
-      "Custom"
-    ],
+    "tags": [],
     "sources": [
       {
-        "name": "scancode-licensedb.aboutcode.org",
-        "url": "https://scancode-licensedb.aboutcode.org/mvt-1.1.html"
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/MVT-1.1.html"
       }
     ],
     "featured": false,
-    "proprietary": false,
-    "created_at": "2026-05-29"
+    "created_at": "2026-05-29",
+    "proprietary": false
   },
   {
     "slug": "mx4j",
@@ -47798,7 +48257,7 @@
     "slug": "nist-software",
     "title": "NIST Software License",
     "spdx_id": "NIST-Software",
-    "osi_approved": false,
+    "osi_approved": true,
     "fsf_libre": null,
     "fsf_tags": [],
     "deprecated": false,
@@ -47813,6 +48272,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/NIST-Software.html"
+      },
+      {
+        "name": "opensource.org",
+        "url": "https://opensource.org/license/nist-software"
       }
     ],
     "featured": false,
@@ -51776,7 +52239,7 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-January/005332.html"
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2022-May/005256.html"
       }
     ],
     "featured": false,
@@ -52307,6 +52770,33 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "open-aoe-dataset-license",
+    "title": "Open-AoE Dataset License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "inclusionAI/OpenAoE-2000h",
+        "url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
   },
   {
     "slug": "openai-terms-of-use",
@@ -56778,12 +57268,12 @@
     "slug": "python-2.0.1",
     "title": "Python License 2.0.1",
     "spdx_id": "Python-2.0.1",
-    "osi_approved": false,
+    "osi_approved": true,
     "fsf_libre": true,
     "fsf_tags": [],
     "deprecated": false,
     "type": "software",
-    "version": "",
+    "version": "2.0.1",
     "description": "Permission to use, copy, modify, and distribute this software and its  documentation for any purpose and without fee is hereby granted,  provided that the above copyright notice appear in all copies a",
     "permissions": [],
     "conditions": [],
@@ -56795,6 +57285,10 @@
       {
         "name": "spdx.org",
         "url": "https://spdx.org/licenses/Python-2.0.1.html"
+      },
+      {
+        "name": "opensource.org",
+        "url": "https://opensource.org/license/python-2-0-1"
       },
       {
         "name": "GNU License List",
@@ -56845,7 +57339,7 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-August/006157.html"
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-March/022526.html"
       }
     ],
     "featured": false,
@@ -57386,6 +57880,33 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "quran-lab-no-profit-license",
+    "title": "Quran-Lab No-Profit License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Quran-Lab/zipformer_p-arabic-v3",
+        "url": "https://huggingface.co/Quran-Lab/zipformer_p-arabic-v3"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "quran-lab-no-profit-license-v1-1",
     "title": "Quran-Lab No-Profit License v1.1",
     "spdx_id": "",
@@ -57412,6 +57933,33 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-08-15"
+  },
+  {
+    "slug": "qwen-community-license-1-0",
+    "title": "Qwen Community License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Qwen/Qwen3.8-Flash-Next",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
   },
   {
     "slug": "qwen-2024",
@@ -59551,6 +60099,33 @@
     "proprietary": true
   },
   {
+    "slug": "s-lab-license-1-0-2",
+    "title": "S-Lab License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "ACERobotics/Puffin-16M",
+        "url": "https://huggingface.co/datasets/ACERobotics/Puffin-16M"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "s-lab-1.0",
     "title": "S-Lab License 1.0",
     "spdx_id": "",
@@ -60279,6 +60854,33 @@
     "created_at": "2026-05-14",
     "proprietary": false,
     "blueoak_tier": "Bronze"
+  },
+  {
+    "slug": "scienta-lab-eva-model-license-agreement",
+    "title": "Scienta Lab EVA Model License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "ScientaLab/eva-rna",
+        "url": "https://huggingface.co/ScientaLab/eva-rna"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
   },
   {
     "slug": "scilab-en-2005",
@@ -63393,6 +63995,34 @@
     "proprietary": true
   },
   {
+    "slug": "stableai-limix-non-commercial-license",
+    "title": "StableAI LimiX Non-Commercial License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": true
+  },
+  {
     "slug": "selv1",
     "title": "Stalwart Enterprise License 1.0 (SELv1) Agreement",
     "spdx_id": "",
@@ -63897,6 +64527,33 @@
     "featured": false,
     "created_at": "2026-05-08",
     "proprietary": true
+  },
+  {
+    "slug": "subject-to-your-continued-compliance-with-these-terms-variant-grants-you-a",
+    "title": "subject-to-your-continued-compliance-with-these-terms-variant-grants-you-a",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "agent",
+    "version": "",
+    "description": "Copyright © 2026 Variant. All rights reserved.  This software, including its source code, assets, and documentation (the \"Software\"), is the proprietary and confidential property of Variant. The Softw",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "MCP Server"
+    ],
+    "sources": [
+      {
+        "name": "oooscoos/Benzi",
+        "url": "https://github.com/oooscoos/Benzi"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
   },
   {
     "slug": "sudo",
@@ -66109,6 +66766,34 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "tabpfn-3-5-non-commercial-license",
+    "title": "TABPFN-3.5 Non-Commercial License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Prior-Labs/tabpfn_3_5",
+        "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": true
   },
   {
     "slug": "ogdl-taiwan-1.0",
@@ -68455,6 +69140,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "timesfm-non-commercial-license-v1-0",
+    "title": "TimesFM Non-Commercial License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "google/timesfm-3.0-pytorch",
+        "url": "https://huggingface.co/google/timesfm-3.0-pytorch"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": true
+  },
+  {
     "slug": "timestamp-picker",
     "title": "Timestamp Picker License",
     "spdx_id": "",
@@ -70250,7 +70963,7 @@
       },
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2016-October/002856.html"
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2017-March/003001.html"
       }
     ],
     "featured": false,
@@ -72126,6 +72839,33 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "wsl-manager-commercial-license-agreement",
+    "title": "WSL Manager Commercial License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "agent",
+    "version": "",
+    "description": "Dual Licensing Notice: WSL Manager is available under two different licenses:  Copyright (C) 2021 Eric Trenkel  1. Commercial License: Governed by the terms outlined in this document. Applicable to co",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "MCP Server"
+    ],
+    "sources": [
+      {
+        "name": "bostrot/wslmanager",
+        "url": "https://github.com/bostrot/wslmanager"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "wsuipa",
     "title": "Wsuipa License",
     "spdx_id": "Wsuipa",
@@ -73663,6 +74403,33 @@
     "created_at": "2026-08-15"
   },
   {
+    "slug": "yo-cpt-kk-license",
+    "title": "YO-CPT-kk License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "NCSpeech/YO-CPT-kk",
+        "url": "https://huggingface.co/datasets/NCSpeech/YO-CPT-kk"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
     "slug": "yo-cpt-ru-dataset-license-notice",
     "title": "YO-CPT-ru Dataset License Notice",
     "spdx_id": "",
@@ -74523,15 +75290,15 @@
     "created_at": "2026-05-29"
   },
   {
-    "slug": "bos-public-license-v1-2",
-    "title": "The BOS Public License v1.2",
+    "slug": "psf-2-0",
+    "title": "PSF-2.0",
     "spdx_id": "",
     "osi_approved": false,
     "fsf_libre": null,
     "fsf_tags": [],
     "deprecated": false,
     "type": "software",
-    "version": "",
+    "version": "2",
     "description": "",
     "permissions": [],
     "conditions": [],
@@ -74542,11 +75309,38 @@
     "sources": [
       {
         "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-July/006121.html"
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006255.html"
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "bos-public-license-family",
+    "title": "BOS Public License Family",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.3",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-July/006116.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74573,7 +75367,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74600,7 +75394,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74627,7 +75421,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74654,7 +75448,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74681,7 +75475,34 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "of-new-mgb-1-0-license",
+    "title": "Of New \"Mgb 1.0\" License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2025-February/005642.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74708,7 +75529,196 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "and-approval-of-the-open-source-protection-license-ospl",
+    "title": "And Approval Of The Open Source Protection License (Ospl)",
+    "spdx_id": "",
+    "osi_approved": true,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-June/005480.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "of-the-updated-w3c-software-license",
+    "title": "Of The Updated W3c Software License",
+    "spdx_id": "",
+    "osi_approved": true,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2024-April/005464.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "of-new-open-constitution-license-x",
+    "title": "Of 'New' Open Constitution License X",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-August/005405.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "mulanowl-by-v1-mulanowl-by-sa-v1-mulanowl-by-pl-v1-mulanowl-by-pl-sa-v1",
+    "title": "Mulanowl By V1; Mulanowl By-Sa V1; Mulanowl By-Pl V1; Mulanowl By-Pl-Sa V1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-February/005356.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "license-mapod4d-for-approval",
+    "title": "License \"Mapod4d\" For Approval",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2023-January/005324.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "yateam-public-license-version-1",
+    "title": "Yateam Public License Version 1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2022-March/005223.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "master-consoles-open-source-definitive-licensemcopdl",
+    "title": "Master-Console'S Open-Source Definitive License(Mcopdl)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2019-May/004199.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74735,7 +75745,61 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "of-no-nonsense-open-source-license",
+    "title": "Of No Nonsense Open Source License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2012-June/001775.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "iggy-wanna-licence",
+    "title": "Iggy Wanna Licence",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2008-May/000233.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74762,7 +75826,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74789,7 +75853,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74816,7 +75880,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74843,7 +75907,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74870,7 +75934,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74897,7 +75961,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74924,7 +75988,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74951,7 +76015,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -74978,7 +76042,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75005,7 +76069,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75032,7 +76096,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75059,7 +76123,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75086,7 +76150,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75098,7 +76162,7 @@
     "fsf_tags": [],
     "deprecated": false,
     "type": "software",
-    "version": "1.1",
+    "version": "1.4",
     "description": "",
     "permissions": [],
     "conditions": [],
@@ -75113,7 +76177,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75140,7 +76204,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75167,7 +76231,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75194,7 +76258,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75221,7 +76285,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75248,7 +76312,34 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "mosl",
+    "title": "Modular Open-source Software License (MOSL)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2012-September/001805.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75275,7 +76366,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75302,7 +76393,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75329,7 +76420,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75356,7 +76447,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75383,7 +76474,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75410,7 +76501,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75437,7 +76528,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75464,7 +76555,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75491,7 +76582,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75518,7 +76609,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75545,7 +76636,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75572,7 +76663,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75599,7 +76690,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75626,7 +76717,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75653,7 +76744,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75680,7 +76771,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75707,7 +76798,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75734,7 +76825,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75761,7 +76852,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75788,7 +76879,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75815,7 +76906,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75842,7 +76933,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75869,7 +76960,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75896,7 +76987,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75923,7 +77014,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75950,7 +77041,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -75977,7 +77068,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76004,7 +77095,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76031,7 +77122,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76058,7 +77149,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76085,7 +77176,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76112,7 +77203,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76139,7 +77230,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76166,7 +77257,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76193,7 +77284,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76220,7 +77311,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76247,7 +77338,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76274,7 +77365,34 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "discussion-total-reciprocity-public-license",
+    "title": "Total Reciprocity Public License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "fsf_tags": [],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom"
+    ],
+    "sources": [
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2025-December/022459.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76301,7 +77419,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76328,7 +77446,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   },
   {
@@ -76355,7 +77473,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-08-29",
+    "created_at": "2026-10-02",
     "proprietary": false
   }
 ]
