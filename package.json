@@ -14,6 +14,7 @@
     "update:osadl": "node scripts/update-osadl.mjs",
     "sync:tracker": "node scripts/sync-tracker.mjs",
     "update:tracker": "node scripts/update-tracker.mjs",
+    "check:runner-sync": "node scripts/check-runner-sync.mjs",
     "start": "next start",
     "lint": "eslint"
   },

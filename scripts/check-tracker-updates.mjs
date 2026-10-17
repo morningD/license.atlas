@@ -21,7 +21,15 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const STATE_PATH = join(__dirname, '.tracker-watch-state.json');
-const BASE = 'https://lists.opensource.org/pipermail/license-review_lists.opensource.org';
+// Both lists feed the tracker (update-tracker.mjs joins their mails into
+// timelines): license-review is the legacy submission queue, license-discuss
+// hosts the active review discussions. 2026-10-17: review went silent after
+// 09-28 while discuss carried 7 October mails — probing review only would
+// have starved the tracker even with a healthy probe loop.
+const LISTS = [
+  'https://lists.opensource.org/pipermail/license-review_lists.opensource.org',
+  'https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org',
+];
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
   'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -29,10 +37,10 @@ const now = new Date();
 // Probe the current month AND the previous one: pipermail archives keep
 // receiving late posts for days into the next month, and the current month's
 // directory does not exist until its first mail arrives (404 is normal).
-const targets = [0, 1].map((back) => {
+const targets = LISTS.flatMap((BASE) => [0, 1].map((back) => {
   const d = new Date(now.getFullYear(), now.getMonth() - back, 1);
   return `${BASE}/${d.getFullYear()}-${MONTHS[d.getMonth()]}/date.html`;
-});
+}));
 
 const args = process.argv.slice(2);
 if (args.includes('--reset') && existsSync(STATE_PATH)) {

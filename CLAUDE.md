@@ -108,9 +108,10 @@ timeline point（`all-points-manifest.json`）有 root 质量控制（**提取�
 
 ### 自动更新（事件触发，2026-08）
 
-launchd `com.momo.license-atlas.tracker` 每 3 小时 HEAD 探测 OSI 归档页：**双月探测（2026-09-01）**——上月+当月都探（跨月后上月归档仍会补帖，实测 August 在 UTC 9/1 还有更新）；当月目录 404（当月尚无邮件）视为无变化静默跳过，**不是错误**。**归档延迟（2026-09-05 实测）**：mailman 分发即时（订阅者邮箱先收到），但 pipermail 归档由 qrunner 周期重建、可滞后近一天（thread.html 的 Ending/Archived on 时间戳停滞，date.html 索引缺帖，顺延编号单页 404）——探测 no change 属预期不是故障，等归档重建后下轮自动抓到；排查用 CDP/curl 看归档页时间戳 + 试探顺延编号单页。无变化秒退（零 LLM）；有变化则 `opencode run` 非交互跑全链路（质量门全绿才 push，失败回滚）。
+launchd `com.momo.license-atlas.tracker` 每 30 分钟 HEAD 探测 OSI 归档页：**双列表×双月探测（2026-10-17）**——license-review + license-discuss 各探上月+当月（review 是遗留 submission 队列、discuss 才是活跃讨论区，2026-09-28 后 review 死寂而 discuss 承载全部新流量，只盯 review 会饿死 tracker）；跨月后上月归档仍会补帖，实测 August 在 UTC 9/1 还有更新；当月目录 404（当月尚无邮件）视为无变化静默跳过，**不是错误**。**归档延迟（2026-09-05 实测）**：mailman 分发即时（订阅者邮箱先收到），但 pipermail 归档由 qrunner 周期重建、可滞后近一天（thread.html 的 Ending/Archived on 时间戳停滞，date.html 索引缺帖，顺延编号单页 404）——探测 no change 属预期不是故障，等归档重建后下轮自动抓到；排查用 CDP/curl 看归档页时间戳 + 试探顺延编号单页。无变化秒退（零 LLM）；有变化则 `opencode run` 非交互跑全链路（质量门全绿才 push，失败回滚）。
 
 - runner 在 `~/.local/share/license-atlas-tracker/`（绕开 macOS 26 对 launchd bash 的 Documents TCC 门控）；仓库 `scripts/auto-update-tracker.sh` + `scripts/check-tracker-updates.mjs` 是 source of truth
+- **改仓库脚本后必须手动 cp 到 runner**（2026-10-17 事故）：TCC 同样拦截 `run-tracker-update.sh` 从 Documents 自动刷新（日志出现 `repo copy blocked`），runner 会一直用旧副本——仓库 9/1 已修的 404 容忍没同步过去，10/1 跨月 probe 连挂 19 天无人知。同步：`cp scripts/{check-tracker-updates.mjs,auto-update-tracker.sh} ~/.local/share/license-atlas-tracker/`；验证用红绿测试 `npm run check:runner-sync`（查副本漂移 + probe state 超 48h 停摆，改完脚本跑一次必须全绿）
 - 非交互 opencode 权限预授权：runner 目录下 `opencode.json`（bash/edit/webfetch/external_directory 全 allow）
 - 日志：`~/.local/share/license-atlas-tracker/logs/auto-update-YYYYMMDD.log`
 - LLM 模型固定 glm-4.6（实测最稳；4.6v/5.3/4.5-air 各有纪律问题，详见 tracker-architecture.md）
