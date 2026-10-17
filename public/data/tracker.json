@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-02T11:21:54.373Z",
+    "generated_at": "2026-10-17T09:23:24.034Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -13,15 +13,15 @@
     },
     "data_sources": {
       "osi_api": 122,
-      "mail_clusters": 3446,
+      "mail_clusters": 3448,
       "rejected_withdrawn": 71,
-      "license_text_files": 554,
+      "license_text_files": 556,
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-10-02T11:22:16.359Z",
+    "enriched_at": "2026-10-17T09:23:46.130Z",
     "coverage": {
-      "submissions_with_license_text": 136,
+      "submissions_with_license_text": 137,
       "submissions_with_board_vote": 87,
       "board_vote_by_source": {
         "minutes": 57,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-10-02T11:27:32.326Z",
+      "applied_at": "2026-10-17T09:23:46.633Z",
       "applied": 217,
       "missing": 0,
       "invalid": 0,
@@ -6724,7 +6724,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:40efc2ed5dd72d712ac4b6c977e57bb969bdace33a0e027464f48b16ff3e42cf",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
@@ -6968,7 +6968,7 @@
           }
         ],
         "input_hash": "sha256:5443b2927380a8acf419a9d5c2efe7ba9eb52f13dd0eb7168486baecfa1c7f55",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
@@ -7138,7 +7138,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:98f3fd772fd76a451b94fc0d55733789d33b3a3055131fbc0c06e99af5d5b242",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
@@ -16696,7 +16696,7 @@
           }
         ],
         "input_hash": "sha256:5a67605f36bcfafad75dd8f6629f4baf181d032d57e48f140d4612d0071efd48",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
@@ -136277,7 +136277,32 @@
           "message_count": 1
         }
       ],
-      "license_texts": [],
+      "license_texts": [
+        {
+          "id": "0bsd--license-discuss-pre-submission-discussion-zero-clause-bsd-wi--185a0ddb45",
+          "filename": "license-discuss-pre-submission-discussion-zero-clause-bsd-with-patent-gr--part-2-185a0ddb.txt",
+          "title": "for failure to satisfy the conditions of this license) patent license",
+          "version": "1.0",
+          "version_label": "1.0",
+          "revision_label": "",
+          "series": "",
+          "date": "2026-10-11",
+          "source_url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-October/022611.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2026-October/022611.html",
+          "message_subject": "[License-discuss] Pre-submission discussion: Zero-Clause BSD with Patent Grant (0BSD-P)",
+          "type": "license-mime-part",
+          "downloaded_at": "",
+          "sha256": "185a0ddb4558080b81c2e9d04452f335dbb6ea14301b8cf9fbc4863749d6b09a",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "Zero-Clause BSD with Patent Grant (0BSD-P)\nVersion 1.0\n\nCopyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted.\n\nSubject to the terms and conditions of this license, the copyright holder\nhereby grants to those receiving rights under this license a perpetual,\nworldwide, non-exclusive, no-charge, royalty-free, irrevocable (except\nfor failure to satisfy the conditions of this license) patent license\nto make, have made, use, offer to sell, sell, import, and otherwise transfer\nthis software, where such license applies only to those patent claims,\nalready acquired or hereafter acquired, licensable by the copyright holder\nthat are necessarily infringed by this software alone or by combination of\nthis software with the work to which such software was added.\nThe patent license shall not apply to any other combinations which include\nthis software.\nExcept as expressly stated above, no other rights or licenses from the\ncopyright holder are granted under this license, whether expressly, by\nimplication, estoppel or otherwise.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\nAND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+          "display_text": "Zero-Clause BSD with Patent Grant (0BSD-P)\nVersion 1.0\n\nCopyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted.\n\nSubject to the terms and conditions of this license, the copyright holder\nhereby grants to those receiving rights under this license a perpetual,\nworldwide, non-exclusive, no-charge, royalty-free, irrevocable (except\nfor failure to satisfy the conditions of this license) patent license\nto make, have made, use, offer to sell, sell, import, and otherwise transfer\nthis software, where such license applies only to those patent claims,\nalready acquired or hereafter acquired, licensable by the copyright holder\nthat are necessarily infringed by this software alone or by combination of\nthis software with the work to which such software was added.\nThe patent license shall not apply to any other combinations which include\nthis software.\nExcept as expressly stated above, no other rights or licenses from the\ncopyright holder are granted under this license, whether expressly, by\nimplication, estoppel or otherwise.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\nAND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+          "normalized_text": "Zero-Clause BSD with Patent Grant (0BSD-P)\nVersion 1.0\n\nCopyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted.\n\nSubject to the terms and conditions of this license, the copyright holder\nhereby grants to those receiving rights under this license a perpetual,\nworldwide, non-exclusive, no-charge, royalty-free, irrevocable (except\nfor failure to satisfy the conditions of this license) patent license\nto make, have made, use, offer to sell, sell, import, and otherwise transfer\nthis software, where such license applies only to those patent claims,\nalready acquired or hereafter acquired, licensable by the copyright holder\nthat are necessarily infringed by this software alone or by combination of\nthis software with the work to which such software was added.\nThe patent license shall not apply to any other combinations which include\nthis software.\nExcept as expressly stated above, no other rights or licenses from the\ncopyright holder are granted under this license, whether expressly, by\nimplication, estoppel or otherwise.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH\nREGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY\nAND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,\nINDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM\nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR\nOTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.",
+          "content_preview": "Zero-Clause BSD with Patent Grant (0BSD-P)\nVersion 1.0\n\nCopyright (C) YEAR by AUTHOR EMAIL\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted.\n\nSubject to the terms and co",
+          "size": 2104,
+          "match_score": 80
+        }
+      ],
       "license_text_diffs": [],
       "timeline": [
         {
