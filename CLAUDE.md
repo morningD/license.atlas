@@ -122,6 +122,7 @@ launchd `com.momo.license-atlas.tracker` 每 30 分钟 HEAD 探测 OSI 归档页
 1. `npm run sync:tracker`（或直接 `npm run build`，会自动同步）
 2. 若要重跑 KB 全链路：`npm run update:tracker`（增量 LLM）/ `--full`（全量）
 3. 详情页 review 块自动从 `tracker-index.json` 读取；footer/about 从 `tracker-meta.json` 读取更新时间和汇总数，无需额外操作
+4. 前端正文库 `KB/data/osi/mail-bodies.json` 由 update:tracker 自动重建（2026-10-17 起，编排器步骤 1 内 runSoft；此前是手动步骤、曾静默失修 6 周）。单独重建：`node ../KB/scripts/extract-mail-bodies.mjs`；shards 由 sync:tracker 按其 hash 门控增量更新
 
 ## i18n
 

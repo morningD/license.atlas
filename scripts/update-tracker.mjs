@@ -189,6 +189,12 @@ if (!SKIP_MAIL) {
   run(`node scripts/update-mail-archives.mjs ${passThroughMailArgs()}`, KB_ROOT);
   run("PLAYWRIGHT_CHANNEL=msedge node crawlers/osi_crawl.js --source minutes", KB_ROOT);
   run("node scripts/rebuild-mail-indexes.mjs", KB_ROOT);
+  // Bodies extraction reads the monthly md files just fetched above. It used
+  // to be a manual step and silently stalled on 2026-08-30 — the front-end
+  // full-text view then missed every new mail for six weeks until someone
+  // remembered to run it. Keep it in the chain; non-blocking like the other
+  // soft gates so a transient failure retries next run instead of aborting.
+  runSoft("node scripts/extract-mail-bodies.mjs", KB_ROOT, "mail body extraction");
   run(`node scripts/update-pending-submissions.mjs ${pendingSinceArg()}`, KB_ROOT);
 } else {
   console.log("\n↷ Skipping mail archive/index refresh (--skip-mail)");
