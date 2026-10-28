@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-02T11:00:27.137Z",
+    "generated_at": "2026-10-27T12:46:05.045Z",
     "source": "OSADL Open Source License Checklists",
     "source_url": "https://www.osadl.org/Access-to-raw-data.oss-compliance-raw-data-access.0.html",
     "checklist_project_url": "https://www.osadl.org/OSADL-Open-Source-License-Checklists.oss-compliance-lists.0.html",
@@ -13,11 +13,11 @@
     "draft_note": "OSADL states the checklist material is work in progress/draft state; use as informational data, not legal advice.",
     "timestamp": "2026-02-12T16:31:00+0000",
     "timeformat": "%Y-%m-%dT%H:%M:%S%z",
-    "matrix_timestamp": "2026-09-23T08:44:00+0000",
-    "copyleft_timestamp": "2026-08-20T12:46:00+0000",
-    "source_disclosure_timestamp": "2026-08-20T12:46:00+0000",
-    "alltimestamps_count": 607,
-    "matrix_license_count": 119,
+    "matrix_timestamp": "2026-10-22T15:26:00+0000",
+    "copyleft_timestamp": "2026-09-30T14:03:00+0000",
+    "source_disclosure_timestamp": "2026-09-30T14:03:00+0000",
+    "alltimestamps_count": 609,
+    "matrix_license_count": 120,
     "compatibility_values": [
       "Check dependency",
       "No",
@@ -503,6 +503,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the 0BSD license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the 0BSD license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -664,7 +669,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -1316,6 +1321,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the AFL-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the AFL-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -1477,7 +1487,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2129,6 +2139,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the AFL-2.1 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the AFL-2.1 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -2290,7 +2305,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -2943,6 +2958,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the AFL-3.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the AFL-3.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -3104,7 +3124,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -4603,6 +4623,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the AGPL-3.0-only license is explicitly stated in the AGPL-3.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the AGPL-3.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the AGPL-3.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the AGPL-3.0-only license is explicitly stated in the AGPL-3.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -4767,7 +4792,7 @@
         "yes": 64,
         "no": 32,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 8
       }
     },
@@ -6260,6 +6285,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the AGPL-3.0-or-later license is explicitly stated in the AGPL-3.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the AGPL-3.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the AGPL-3.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the AGPL-3.0-or-later license is explicitly stated in the AGPL-3.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -6424,7 +6454,7 @@
         "yes": 63,
         "no": 33,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 8
       }
     },
@@ -7059,6 +7089,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Apache-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Apache-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -7220,7 +7255,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -7844,6 +7879,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Apache-1.1 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Apache-1.1 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -8005,7 +8045,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -8775,6 +8815,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Apache-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Apache-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -8936,7 +8981,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -9964,6 +10009,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the APSL-2.0 license is explicitly stated in the APSL-2.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the APSL-2.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the APSL-2.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the APSL-2.0 license is explicitly stated in the APSL-2.0 license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -10128,7 +10178,7 @@
         "yes": 57,
         "no": 45,
         "same": 1,
-        "unknown": 16,
+        "unknown": 17,
         "check_dependency": 0
       }
     },
@@ -10926,6 +10976,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Artistic-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Artistic-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -11087,7 +11142,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -11880,6 +11935,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Artistic-1.0-Perl license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Artistic-1.0-Perl license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -12041,7 +12101,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13138,6 +13198,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Artistic-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Artistic-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -13299,7 +13364,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -13873,6 +13938,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Bitstream-Vera license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Bitstream-Vera license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -14034,7 +14104,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -14516,6 +14586,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the blessing license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the blessing license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -14677,7 +14752,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -15208,6 +15283,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BlueOak-1.0.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BlueOak-1.0.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -15369,7 +15449,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -15884,6 +15964,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-1-Clause license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-1-Clause license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -16045,7 +16130,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -16587,6 +16672,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-2-Clause license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-2-Clause license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -16748,7 +16838,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -17292,6 +17382,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-2-Clause-Patent license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-2-Clause-Patent license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -17453,7 +17548,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -18014,6 +18109,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-3-Clause license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-3-Clause license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -18175,7 +18275,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -18736,6 +18836,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-3-Clause-Open-MPI license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-3-Clause-Open-MPI license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -18897,7 +19002,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -19494,6 +19599,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-4-Clause license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-4-Clause license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -19655,7 +19765,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -20252,6 +20362,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-4-Clause-UC license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-4-Clause-UC license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -20413,7 +20528,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -20942,6 +21057,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-4.3TAHOE license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-4.3TAHOE license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -21103,7 +21223,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -21639,6 +21759,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSD-Source-Code license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSD-Source-Code license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -21800,7 +21925,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -22315,6 +22440,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the BSL-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the BSL-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -22476,7 +22606,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -23068,6 +23198,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the bzip2-1.0.5 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the bzip2-1.0.5 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -23229,7 +23364,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -23819,6 +23954,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the bzip2-1.0.6 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the bzip2-1.0.6 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -23980,7 +24120,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -26658,6 +26798,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the CDDL-1.0 license is explicitly stated in the CDDL-1.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the CDDL-1.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the CDDL-1.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -26822,7 +26967,7 @@
         "yes": 49,
         "no": 29,
         "same": 1,
-        "unknown": 40,
+        "unknown": 41,
         "check_dependency": 0
       }
     },
@@ -27691,6 +27836,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the CDDL-1.1 license is explicitly stated in the CDDL-1.1 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the CDDL-1.1 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the CDDL-1.1 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -27855,7 +28005,7 @@
         "yes": 50,
         "no": 28,
         "same": 1,
-        "unknown": 40,
+        "unknown": 41,
         "check_dependency": 0
       }
     },
@@ -28731,6 +28881,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the CPL-1.0 license is explicitly stated in the CPL-1.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the CPL-1.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the CPL-1.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -28895,7 +29050,7 @@
         "yes": 52,
         "no": 27,
         "same": 1,
-        "unknown": 39,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -29407,6 +29562,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the curl license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the curl license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -29568,7 +29728,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -30126,6 +30286,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ECL-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ECL-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -30287,7 +30452,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -31038,6 +31203,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ECL-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ECL-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -31199,7 +31369,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -31704,6 +31874,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the EFL-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the EFL-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -31865,7 +32040,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -32753,6 +32928,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the EPL-1.0 license is explicitly stated in the EPL-1.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the EPL-1.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the EPL-1.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -32917,7 +33097,7 @@
         "yes": 55,
         "no": 25,
         "same": 1,
-        "unknown": 38,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -33920,6 +34100,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the EPL-2.0 license is explicitly stated in the EPL-2.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the EPL-2.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the EPL-2.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -34084,7 +34269,7 @@
         "yes": 53,
         "no": 27,
         "same": 1,
-        "unknown": 38,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -35071,6 +35256,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the EUPL-1.1 license is explicitly stated in the EUPL-1.1 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the EUPL-1.1 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the EUPL-1.1 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the EUPL-1.1 license is explicitly stated in the EUPL-1.1 license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -35235,7 +35425,7 @@
         "yes": 50,
         "no": 42,
         "same": 1,
-        "unknown": 26,
+        "unknown": 27,
         "check_dependency": 0
       }
     },
@@ -36227,6 +36417,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the EUPL-1.2 license is explicitly stated in the EUPL-1.2 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the EUPL-1.2 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the EUPL-1.2 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the EUPL-1.2 license is explicitly stated in the EUPL-1.2 license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -36391,7 +36586,7 @@
         "yes": 51,
         "no": 39,
         "same": 1,
-        "unknown": 27,
+        "unknown": 28,
         "check_dependency": 1
       }
     },
@@ -36899,6 +37094,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the FSFAP license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the FSFAP license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -37060,7 +37260,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -37542,6 +37742,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the FSFUL license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the FSFUL license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -37703,7 +37908,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -38207,6 +38412,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the FSFULLR license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the FSFULLR license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -38368,7 +38578,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -38876,6 +39086,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the FSFULLRWD license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the FSFULLRWD license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -39037,7 +39252,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -39619,6 +39834,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the FTL license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the FTL license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -39780,7 +40000,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -40881,6 +41101,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-1.0-only license is explicitly stated in the GPL-1.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-1.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-1.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-1.0-only license is explicitly stated in the GPL-1.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -41045,7 +41270,7 @@
         "yes": 59,
         "no": 45,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 0
       }
     },
@@ -42169,6 +42394,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-1.0-or-later license is explicitly stated in the GPL-1.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-1.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-1.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-1.0-or-later license is explicitly stated in the GPL-1.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -42333,7 +42563,7 @@
         "yes": 58,
         "no": 37,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 9
       }
     },
@@ -43503,6 +43733,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-2.0-only license is explicitly stated in the GPL-2.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-2.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-2.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-2.0-only license is explicitly stated in the GPL-2.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -43667,7 +43902,7 @@
         "yes": 63,
         "no": 36,
         "same": 1,
-        "unknown": 15,
+        "unknown": 16,
         "check_dependency": 4
       }
     },
@@ -44837,6 +45072,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-2.0-only WITH Classpath-exception-2.0 license is explicitly stated in the GPL-2.0-only WITH Classpath-exception-2.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-2.0-only WITH Classpath-exception-2.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-2.0-only WITH Classpath-exception-2.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-2.0-only WITH Classpath-exception-2.0 license is explicitly stated in the GPL-2.0-only WITH Classpath-exception-2.0 license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -45001,7 +45241,7 @@
         "yes": 60,
         "no": 37,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 7
       }
     },
@@ -46174,6 +46414,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-2.0-or-later license is explicitly stated in the GPL-2.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-2.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-2.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-2.0-or-later license is explicitly stated in the GPL-2.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -46338,7 +46583,7 @@
         "yes": 66,
         "no": 35,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 3
       }
     },
@@ -47831,6 +48076,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-3.0-only license is explicitly stated in the GPL-3.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-3.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-3.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-3.0-only license is explicitly stated in the GPL-3.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -47995,7 +48245,7 @@
         "yes": 72,
         "no": 30,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 2
       }
     },
@@ -49482,6 +49732,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the GPL-3.0-or-later license is explicitly stated in the GPL-3.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the GPL-3.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the GPL-3.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the GPL-3.0-or-later license is explicitly stated in the GPL-3.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -49646,7 +49901,7 @@
         "yes": 70,
         "no": 32,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 2
       }
     },
@@ -50165,6 +50420,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the HPND license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the HPND license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -50326,7 +50586,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -50833,6 +51093,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the IBM-pibs license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the IBM-pibs license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -50994,7 +51259,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -51523,6 +51788,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ICU license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ICU license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -51684,7 +51954,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -52257,6 +52527,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the IJG license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the IJG license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -52418,7 +52693,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -53169,6 +53444,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ImageMagick license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ImageMagick license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -53330,7 +53610,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -53977,6 +54257,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Info-ZIP license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Info-ZIP license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -54138,7 +54423,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -55027,6 +55312,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the IPL-1.0 license is explicitly stated in the IPL-1.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the IPL-1.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the IPL-1.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -55191,7 +55481,7 @@
         "yes": 51,
         "no": 27,
         "same": 1,
-        "unknown": 40,
+        "unknown": 41,
         "check_dependency": 0
       }
     },
@@ -55693,6 +55983,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ISC license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ISC license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -55854,7 +56149,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -56375,6 +56670,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the JasPer-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the JasPer-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -56536,7 +56836,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -58389,6 +58689,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-2.0-only license is explicitly stated in the LGPL-2.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-2.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-2.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-2.0-only license is explicitly stated in the LGPL-2.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -58553,7 +58858,7 @@
         "yes": 60,
         "no": 40,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 4
       }
     },
@@ -60400,6 +60705,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-2.0-or-later license is explicitly stated in the LGPL-2.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-2.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-2.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-2.0-or-later license is explicitly stated in the LGPL-2.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -60564,7 +60874,7 @@
         "yes": 59,
         "no": 41,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 4
       }
     },
@@ -62457,6 +62767,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-2.1-only license is explicitly stated in the LGPL-2.1-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-2.1-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-2.1-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-2.1-only license is explicitly stated in the LGPL-2.1-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -62621,7 +62936,7 @@
         "yes": 61,
         "no": 40,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 3
       }
     },
@@ -64511,6 +64826,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-2.1-or-later license is explicitly stated in the LGPL-2.1-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-2.1-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-2.1-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-2.1-or-later license is explicitly stated in the LGPL-2.1-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -64675,7 +64995,7 @@
         "yes": 60,
         "no": 41,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 3
       }
     },
@@ -67568,6 +67888,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-3.0-only license is explicitly stated in the LGPL-3.0-only license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-3.0-only license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-3.0-only license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-3.0-only license is explicitly stated in the LGPL-3.0-only license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -67732,7 +68057,7 @@
         "yes": 65,
         "no": 37,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 2
       }
     },
@@ -70622,6 +70947,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the LGPL-3.0-or-later license is explicitly stated in the LGPL-3.0-or-later license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the LGPL-3.0-or-later license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the LGPL-3.0-or-later license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "No",
           "explanation": "Incompatibility of the OpenSSL license with the LGPL-3.0-or-later license is explicitly stated in the LGPL-3.0-or-later license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -70786,7 +71116,7 @@
         "yes": 64,
         "no": 38,
         "same": 1,
-        "unknown": 14,
+        "unknown": 15,
         "check_dependency": 2
       }
     },
@@ -71320,6 +71650,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Libpng license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Libpng license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -71481,7 +71816,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -72038,6 +72373,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the libpng-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the libpng-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -72199,7 +72539,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -72728,6 +73068,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the libtiff license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the libtiff license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -72889,7 +73234,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -73418,6 +73763,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the LicenseRef-scancode-bsla-no-advert license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the LicenseRef-scancode-bsla-no-advert license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -73579,7 +73929,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -74217,6 +74567,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the LicenseRef-scancode-info-zip-2003-05 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the LicenseRef-scancode-info-zip-2003-05 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -74378,7 +74733,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -74902,6 +75257,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the LicenseRef-scancode-ppp license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the LicenseRef-scancode-ppp license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -75063,7 +75423,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -75691,6 +76051,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Minpack license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Minpack license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -75852,7 +76217,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -76405,6 +76770,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the MirOS license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the MirOS license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -76566,7 +76936,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -77078,6 +77448,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the MIT license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the MIT license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -77239,7 +77614,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -77721,6 +78096,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the MIT-0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the MIT-0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -77882,7 +78262,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -78404,6 +78784,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the MIT-CMU license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the MIT-CMU license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -78565,7 +78950,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -79672,6 +80057,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the MPL-1.1 license is explicitly stated in the MPL-1.1 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the MPL-1.1 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the MPL-1.1 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -79836,7 +80226,7 @@
         "yes": 50,
         "no": 30,
         "same": 1,
-        "unknown": 38,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -80654,6 +81044,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the MPL-2.0 license is explicitly stated in the MPL-2.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the MPL-2.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the MPL-2.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -80818,7 +81213,7 @@
         "yes": 53,
         "no": 27,
         "same": 1,
-        "unknown": 38,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -81633,6 +82028,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the MPL-2.0-no-copyleft-exception license is explicitly stated in the MPL-2.0-no-copyleft-exception license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the MPL-2.0-no-copyleft-exception license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the MPL-2.0-no-copyleft-exception license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -81797,7 +82197,7 @@
         "yes": 52,
         "no": 28,
         "same": 1,
-        "unknown": 38,
+        "unknown": 39,
         "check_dependency": 0
       }
     },
@@ -82528,6 +82928,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the MS-PL license is explicitly stated in the MS-PL license checklist. Interpretation: It is unclear whether &quot;any portion of the software&quot; assumes code changes and additions that also must be distributed &quot;only under this license&quot;. In addition, a &quot;license that complies with this license&quot; may or may not be interpreted as a copyleft clause. If not, the copyleft condition would depend on the mode of delivery which would require a case-by-case assessment. Therefore, a general recommendation on the compatibility of the MS-PL license can only be given for selected cases."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "It is unclear whether &quot;any portion of the software&quot; assumes code changes and additions that also must be distributed &quot;only under this license&quot;. In addition, a &quot;license that complies with this license&quot; may or may not be interpreted as a copyleft clause. If not, the copyleft condition would depend on the mode of delivery which would require a case-by-case assessment. Therefore, a general recommendation on the compatibility of the MS-PL license can only be given for selected cases. Interpretation: It is unclear whether &quot;any portion of the software&quot; assumes code changes and additions that also must be distributed &quot;only under this license&quot;. In addition, a &quot;license that complies with this license&quot; may or may not be interpreted as a copyleft clause. If not, the copyleft condition would depend on the mode of delivery which would require a case-by-case assessment. Therefore, a general recommendation on the compatibility of the MS-PL license can only be given for selected cases."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -82692,7 +83097,7 @@
         "yes": 53,
         "no": 30,
         "same": 1,
-        "unknown": 35,
+        "unknown": 36,
         "check_dependency": 0
       }
     },
@@ -83456,6 +83861,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the MS-RL license is explicitly stated in the MS-RL license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the MS-RL license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the MS-RL license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -83620,7 +84030,7 @@
         "yes": 50,
         "no": 29,
         "same": 1,
-        "unknown": 39,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -84279,6 +84689,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the NBPL-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the NBPL-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -84440,7 +84855,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -85001,6 +85416,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the NCSA license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the NCSA license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -85162,7 +85582,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -85684,6 +86104,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the NTP license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the NTP license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -85845,7 +86270,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -86619,6 +87044,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the OGC-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the OGC-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -86780,7 +87210,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -87341,6 +87771,11 @@
           "explanation": "n.a."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the OLDAP-2.8 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -87502,7 +87937,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -88369,6 +88804,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the OpenSSL license is explicitly stated in the OpenSSL license checklist. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Same",
           "explanation": "n.a."
@@ -88533,7 +88973,7 @@
         "yes": 52,
         "no": 30,
         "same": 1,
-        "unknown": 36,
+        "unknown": 37,
         "check_dependency": 0
       }
     },
@@ -89465,6 +89905,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the OSL-3.0 license is explicitly stated in the OSL-3.0 license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the OSL-3.0 license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the OSL-3.0 license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -89629,7 +90074,7 @@
         "yes": 52,
         "no": 27,
         "same": 1,
-        "unknown": 39,
+        "unknown": 40,
         "check_dependency": 0
       }
     },
@@ -90251,6 +90696,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the PHP-3.01 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the PHP-3.01 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -90412,7 +90862,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -90924,6 +91374,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the PostgreSQL license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the PostgreSQL license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -91085,7 +91540,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -91609,6 +92064,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the PSF-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the PSF-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -91770,7 +92230,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -92318,6 +92778,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Python-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Python-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -92479,7 +92944,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -93032,6 +93497,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Qhull license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Qhull license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -93193,7 +93663,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -93742,6 +94212,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the RSA-MD license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the RSA-MD license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -93903,7 +94378,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -94500,6 +94975,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Saxpath license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Saxpath license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -94661,7 +95141,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -95201,6 +95681,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the SGI-B-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the SGI-B-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -95362,7 +95847,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -96324,6 +96809,11 @@
           "explanation": "Compatibility of the OLDAP-2.8 license with the Sleepycat license is explicitly stated in the Sleepycat license checklist."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Unknown",
+          "explanation": "There is insufficient information or knowledge whether the OLFL-1.3 license is compatible with the Sleepycat license or not. Therefore, a general recommendation on the compatibility of the OLFL-1.3 license with the Sleepycat license cannot be given."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -96488,7 +96978,7 @@
         "yes": 48,
         "no": 30,
         "same": 1,
-        "unknown": 40,
+        "unknown": 41,
         "check_dependency": 0
       }
     },
@@ -97014,6 +97504,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the SMLNJ license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the SMLNJ license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -97175,7 +97670,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -97700,6 +98195,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Spencer-86 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Spencer-86 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -97861,7 +98361,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -98386,6 +98886,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the SSH-OpenSSH license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the SSH-OpenSSH license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -98547,7 +99052,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -99072,6 +99577,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the SSH-short license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the SSH-short license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -99233,7 +99743,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -99737,6 +100247,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the SunPro license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the SunPro license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -99898,7 +100413,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -100449,6 +100964,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the TCL license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the TCL license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -100610,7 +101130,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -101115,6 +101635,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the TCP-wrappers license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the TCP-wrappers license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -101276,7 +101801,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -102093,6 +102618,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Unicode-3.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Unicode-3.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -102254,7 +102784,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -102834,6 +103364,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Unicode-DFS-2015 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Unicode-DFS-2015 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -102995,7 +103530,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -103544,6 +104079,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Unicode-DFS-2016 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Unicode-DFS-2016 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -103705,7 +104245,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -104187,6 +104727,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Unlicense license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Unlicense license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -104348,7 +104893,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -104880,6 +105425,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the UPL-1.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the UPL-1.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -105041,7 +105591,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -105604,6 +106154,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the W3C license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the W3C license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -105765,7 +106320,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -106328,6 +106883,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the W3C-19980720 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the W3C-19980720 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -106489,7 +107049,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -107043,6 +107603,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the W3C-20150513 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the W3C-20150513 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -107204,7 +107769,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -107686,6 +108251,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the WTFPL license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the WTFPL license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -107847,7 +108417,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -108362,6 +108932,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the X11 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the X11 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -108523,7 +109098,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -109152,6 +109727,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the XFree86-1.1 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the XFree86-1.1 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -109313,7 +109893,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -109861,6 +110441,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the Zlib license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the Zlib license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -110022,7 +110607,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -110601,6 +111186,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the zlib-acknowledgement license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the zlib-acknowledgement license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -110762,7 +111352,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,
@@ -111401,6 +111991,11 @@
           "explanation": "Non-copyleft licenses such as the OLDAP-2.8 license and the ZPL-2.0 license are generally considered mutually compatible."
         },
         {
+          "target_spdx_id": "OLFL-1.3",
+          "verdict": "Yes",
+          "explanation": "Non-copyleft licenses such as the OLFL-1.3 license and the ZPL-2.0 license are generally considered mutually compatible."
+        },
+        {
           "target_spdx_id": "OpenSSL",
           "verdict": "Unknown",
           "explanation": "The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases. Interpretation: The final statement of the appended SSLeay License &quot;The licence and distribution terms for any publically available version or derivative of this code cannot be changed&quot; normally must be interpreted as a copyleft clause, but there is no general consensus on this interpretation. Therefore, a recommendation on the compatibility of the OpenSSL license can only be given for selected cases."
@@ -111562,7 +112157,7 @@
         }
       ],
       "compatibility_summary": {
-        "yes": 86,
+        "yes": 87,
         "no": 30,
         "same": 1,
         "unknown": 2,

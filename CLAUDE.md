@@ -39,6 +39,13 @@ A comprehensive license collection website — software, AI model, and data lice
    `update-readme-counts.mjs` 自动刷。`--interactive` 回退旧人工审核流。人工出口仅剩：
    LLM 3 次未解决的 temp 候选、未审核来源的新 slug（sync 拦截需 `--allow-new-licenses`）。
 
+0.5 **长链后台运行的故障恢复**（2026-10-27 经验）：`update:data` 后台跑曾无声死亡且日志
+   随任务记录消失。跑长链必须 `> /tmp/atlas-update.log 2>&1` 持久化日志；判断死在哪一步
+   用产物时间戳链 `KB cleaned/stats.json → src/data/licenses.json → public/data/tracker.json
+   → out/index.html`；采集阶段幂等落盘后用 `node scripts/update-data.mjs --skip-fetch`
+   从 LLM 审核/清洗续跑，不要整链重来。KB 侧同类事故（GB 级 parquet 下载、GitHub search
+   二级限流）的根因与修复记录在 `KB/docs/license-update-guide.md` 的「经验教训」。
+
 1.5 **Lint 门（2026-09-27）**：`KB/scripts/lib/license-entry-lint.mjs` 对新 slug 强制
    质量规则（fragment-title 邮件 subject 碎片、md-links 正文 markdown 残留、mail-head、
    tiny-body 仅警告），`sync-license-corpus.mjs` 在确认 gate 前对新增条目跑，error 级

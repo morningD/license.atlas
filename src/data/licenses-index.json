@@ -50,22 +50,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 19410902,
+    "popularity": 19419391,
     "github_repos": 19090657,
     "kaggle_datasets": 64671,
     "trend": [
-      4669,
-      5267,
-      5320,
-      8978,
-      6673,
-      6343,
-      6690,
-      6949,
-      9536,
-      6301,
-      7594,
-      8643
+      4658,
+      5250,
+      5314,
+      9039,
+      6632,
+      6326,
+      6662,
+      6988,
+      9501,
+      6281,
+      7417,
+      9635
     ],
     "blueoak_tier": "Silver"
   },
@@ -119,22 +119,22 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 4671691,
+    "popularity": 4694820,
     "github_repos": 3913687,
     "kaggle_datasets": 105065,
     "trend": [
-      11794,
-      11746,
-      14426,
-      14903,
-      21775,
-      19747,
-      24085,
-      25629,
-      20642,
-      23723,
-      25083,
-      22607
+      11737,
+      11736,
+      14395,
+      14894,
+      21728,
+      19708,
+      24233,
+      25808,
+      20637,
+      23562,
+      24700,
+      22466
     ],
     "blueoak_tier": "Silver"
   },
@@ -194,22 +194,22 @@
     "featured": true,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 3475593,
+    "popularity": 3475738,
     "github_repos": 3469773,
     "kaggle_datasets": 713,
     "trend": [
       54,
-      68,
+      67,
       104,
       71,
       75,
       69,
-      71,
-      71,
-      90,
-      80,
-      95,
-      71
+      70,
+      70,
+      98,
+      81,
+      94,
+      75
     ]
   },
   {
@@ -272,7 +272,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 630271,
+    "popularity": 630276,
     "github_repos": 628284,
     "kaggle_datasets": 1519,
     "trend": [
@@ -282,7 +282,7 @@
       12,
       7,
       5,
-      4,
+      5,
       6,
       8,
       4,
@@ -328,22 +328,22 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 541192,
+    "popularity": 541237,
     "github_repos": 375540,
     "kaggle_datasets": 160262,
     "trend": [
       30,
-      25,
-      187,
-      78,
-      28,
+      24,
+      188,
+      79,
+      29,
       23,
       29,
       48,
-      34,
-      46,
-      25,
-      37
+      32,
+      45,
+      24,
+      41
     ],
     "blueoak_tier": "Bronze"
   },
@@ -398,21 +398,21 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 493433,
+    "popularity": 495117,
     "github_repos": 488473,
     "trend": [
       23,
       23,
-      307,
+      309,
       119,
-      60,
-      67,
+      76,
+      69,
       133,
       132,
       67,
-      117,
+      118,
       647,
-      1182
+      1185
     ],
     "blueoak_tier": "Bronze"
   },
@@ -467,7 +467,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 424070,
+    "popularity": 424074,
     "github_repos": 422624,
     "trend": [
       128,
@@ -479,9 +479,9 @@
       14,
       8,
       12,
-      41,
+      39,
       13,
-      13
+      14
     ],
     "blueoak_tier": "Bronze"
   },
@@ -533,7 +533,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162605,
+    "popularity": 162633,
     "github_repos": 161050,
     "trend": [
       3,
@@ -602,7 +602,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 162296,
+    "popularity": 162310,
     "github_repos": 161993,
     "trend": [
       3,
@@ -616,7 +616,7 @@
       12,
       1,
       5,
-      10
+      11
     ]
   },
   {
@@ -698,22 +698,22 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 147614,
+    "popularity": 149233,
     "github_repos": 106281,
     "kaggle_datasets": 8160,
     "trend": [
-      141,
+      140,
       195,
+      250,
       258,
-      263,
-      249,
-      447,
-      545,
-      813,
+      241,
+      443,
+      583,
+      810,
       567,
-      587,
-      1497,
-      1246
+      585,
+      1493,
+      1325
     ]
   },
   {
@@ -773,7 +773,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 74744,
+    "popularity": 74743,
     "github_repos": 74627,
     "trend": [
       1,
@@ -782,7 +782,7 @@
       13,
       3,
       2,
-      1,
+      0,
       2,
       0,
       0,
@@ -841,7 +841,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 65587,
+    "popularity": 65588,
     "github_repos": 65480,
     "trend": [
       0,
@@ -909,75 +909,6 @@
     "popularity": 65321,
     "github_repos": 65321,
     "blueoak_tier": "Bronze"
-  },
-  {
-    "slug": "bsl-1.0",
-    "title": "Boost Software License 1.0",
-    "spdx_id": "BSL-1.0",
-    "osi_approved": true,
-    "fsf_libre": true,
-    "fsf_tags": [
-      "gpl-2-compatible",
-      "gpl-3-compatible",
-      "libre"
-    ],
-    "deprecated": false,
-    "type": "software",
-    "version": "1.0",
-    "description": "",
-    "permissions": [],
-    "conditions": [],
-    "limitations": [],
-    "tags": [
-      "Permissive",
-      "tl;drLegal Verified"
-    ],
-    "sources": [
-      {
-        "name": "opensource.org",
-        "url": "https://opensource.org/license/bsl-1-0"
-      },
-      {
-        "name": "tldrlegal.com",
-        "url": "https://www.tldrlegal.com/license/boost-software-license-1-0-explained"
-      },
-      {
-        "name": "choosealicense.com",
-        "url": "https://choosealicense.com/licenses/bsl-1.0/"
-      },
-      {
-        "name": "spdx.org",
-        "url": "https://spdx.org/licenses/BSL-1.0.html"
-      },
-      {
-        "name": "GNU License List",
-        "url": "https://www.gnu.org/licenses/license-list.en.html#boost"
-      },
-      {
-        "name": "lists.opensource.org",
-        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-October/014445.html"
-      }
-    ],
-    "featured": false,
-    "created_at": "2026-04-19",
-    "proprietary": false,
-    "popularity": 48478,
-    "github_repos": 47059,
-    "trend": [
-      3,
-      8,
-      289,
-      142,
-      60,
-      11,
-      2,
-      6,
-      6,
-      5,
-      3,
-      2
-    ],
-    "blueoak_tier": "Silver"
   },
   {
     "slug": "cc-by-sa-4.0",
@@ -1052,7 +983,7 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 48300,
+    "popularity": 48503,
     "github_repos": 32502,
     "kaggle_datasets": 6990,
     "trend": [
@@ -1061,14 +992,83 @@
       91,
       73,
       42,
-      117,
+      116,
       180,
       204,
       89,
       100,
-      137,
-      154
+      136,
+      155
     ]
+  },
+  {
+    "slug": "bsl-1.0",
+    "title": "Boost Software License 1.0",
+    "spdx_id": "BSL-1.0",
+    "osi_approved": true,
+    "fsf_libre": true,
+    "fsf_tags": [
+      "gpl-2-compatible",
+      "gpl-3-compatible",
+      "libre"
+    ],
+    "deprecated": false,
+    "type": "software",
+    "version": "1.0",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Permissive",
+      "tl;drLegal Verified"
+    ],
+    "sources": [
+      {
+        "name": "opensource.org",
+        "url": "https://opensource.org/license/bsl-1-0"
+      },
+      {
+        "name": "tldrlegal.com",
+        "url": "https://www.tldrlegal.com/license/boost-software-license-1-0-explained"
+      },
+      {
+        "name": "choosealicense.com",
+        "url": "https://choosealicense.com/licenses/bsl-1.0/"
+      },
+      {
+        "name": "spdx.org",
+        "url": "https://spdx.org/licenses/BSL-1.0.html"
+      },
+      {
+        "name": "GNU License List",
+        "url": "https://www.gnu.org/licenses/license-list.en.html#boost"
+      },
+      {
+        "name": "lists.opensource.org",
+        "url": "https://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2007-October/014445.html"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-04-19",
+    "proprietary": false,
+    "popularity": 48487,
+    "github_repos": 47059,
+    "trend": [
+      3,
+      8,
+      289,
+      142,
+      60,
+      11,
+      2,
+      7,
+      6,
+      5,
+      3,
+      2
+    ],
+    "blueoak_tier": "Silver"
   },
   {
     "slug": "epl-2.0",
@@ -1112,7 +1112,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 47092,
+    "popularity": 47094,
     "github_repos": 46947,
     "trend": [
       6,
@@ -1167,7 +1167,7 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 40314,
+    "popularity": 40325,
     "github_repos": 38815,
     "trend": [
       10,
@@ -1320,21 +1320,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 30216,
+    "popularity": 31343,
     "kaggle_datasets": 2471,
     "trend": [
       214,
-      422,
-      359,
+      417,
+      355,
       293,
       398,
-      1206,
-      529,
-      1566,
-      494,
-      641,
-      876,
-      1174
+      1210,
+      528,
+      1564,
+      497,
+      645,
+      857,
+      1155
     ]
   },
   {
@@ -1405,21 +1405,21 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 18706,
+    "popularity": 19115,
     "kaggle_datasets": 8683,
     "trend": [
       105,
       108,
-      133,
-      122,
+      134,
+      121,
       100,
-      145,
-      266,
+      144,
+      269,
       197,
-      200,
-      282,
-      233,
-      257
+      206,
+      289,
+      244,
+      273
     ]
   },
   {
@@ -1472,12 +1472,12 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 14933,
+    "popularity": 14937,
     "github_repos": 11281,
     "trend": [
       19,
       20,
-      356,
+      354,
       219,
       100,
       21,
@@ -1534,7 +1534,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 10909,
+    "popularity": 10910,
     "github_repos": 10857,
     "trend": [
       0,
@@ -1597,7 +1597,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 9933,
+    "popularity": 9935,
     "github_repos": 9820,
     "trend": [
       1,
@@ -1709,21 +1709,21 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8378,
+    "popularity": 8394,
     "github_repos": 2007,
     "trend": [
       35,
       38,
       414,
       264,
-      99,
+      100,
       44,
       27,
       31,
       33,
       20,
       46,
-      21
+      22
     ],
     "blueoak_tier": "Bronze"
   },
@@ -1765,7 +1765,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 8004,
+    "popularity": 8005,
     "github_repos": 7853,
     "trend": [
       0,
@@ -1849,7 +1849,7 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 4878,
+    "popularity": 4908,
     "kaggle_datasets": 1129,
     "trend": [
       41,
@@ -1857,13 +1857,13 @@
       71,
       82,
       53,
-      40,
+      42,
       51,
-      75,
+      76,
       18,
-      60,
+      59,
       45,
-      61
+      57
     ]
   },
   {
@@ -1898,7 +1898,7 @@
     "family": "by-sa",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 2711,
+    "popularity": 2721,
     "kaggle_datasets": 1071,
     "trend": [
       3,
@@ -1910,7 +1910,7 @@
       6,
       1,
       1,
-      9,
+      8,
       13,
       13
     ]
@@ -1964,7 +1964,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 2439,
+    "popularity": 2441,
     "github_repos": 2231,
     "trend": [
       4,
@@ -2006,7 +2006,7 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 1350,
+    "popularity": 1352,
     "kaggle_datasets": 1052,
     "trend": [
       1,
@@ -2047,7 +2047,7 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 950,
+    "popularity": 951,
     "kaggle_datasets": 798,
     "trend": [
       0,
@@ -2134,7 +2134,7 @@
       "zh-hant",
       "ko"
     ],
-    "popularity": 902,
+    "popularity": 907,
     "kaggle_datasets": 185,
     "trend": [
       6,
@@ -2144,7 +2144,7 @@
       6,
       5,
       11,
-      4,
+      3,
       4,
       5,
       8,
@@ -2187,7 +2187,7 @@
     "family": "by",
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 881,
+    "popularity": 885,
     "kaggle_datasets": 154,
     "trend": [
       6,
@@ -2236,7 +2236,7 @@
     "family": "by",
     "created_at": "2026-04-30",
     "proprietary": false,
-    "popularity": 867,
+    "popularity": 872,
     "trend": [
       3,
       21,
@@ -2286,7 +2286,7 @@
     "family": "by-nc",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 724,
+    "popularity": 728,
     "trend": [
       5,
       4,
@@ -2338,7 +2338,7 @@
     "featured": false,
     "created_at": "2026-04-20",
     "proprietary": false,
-    "popularity": 719,
+    "popularity": 718,
     "trend": [
       2,
       3,
@@ -2406,7 +2406,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 702,
+    "popularity": 704,
     "github_repos": 607,
     "trend": [
       0,
@@ -2448,7 +2448,7 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 607,
+    "popularity": 609,
     "trend": [
       5,
       1,
@@ -2538,9 +2538,9 @@
     "proprietary": true,
     "popularity": 480,
     "trend": [
-      4,
+      5,
       2,
-      49,
+      47,
       37,
       6,
       4,
@@ -2548,7 +2548,7 @@
       7,
       3,
       2,
-      5,
+      4,
       8
     ]
   },
@@ -2652,7 +2652,7 @@
       38,
       8,
       0,
-      1,
+      0,
       1,
       1,
       0,
@@ -2693,7 +2693,7 @@
     "family": "by-nc-sa",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 361,
+    "popularity": 376,
     "trend": [
       1,
       1,
@@ -2827,7 +2827,7 @@
     "family": "by-nc-sa",
     "created_at": "2026-04-30",
     "proprietary": true,
-    "popularity": 261,
+    "popularity": 262,
     "trend": [
       9,
       2,
@@ -2993,7 +2993,7 @@
     "featured": false,
     "created_at": "2026-04-19",
     "proprietary": false,
-    "popularity": 229,
+    "popularity": 232,
     "trend": [
       5,
       6,
@@ -3179,7 +3179,7 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false,
-    "popularity": 113,
+    "popularity": 114,
     "trend": [
       0,
       0,
@@ -3192,7 +3192,7 @@
       8,
       3,
       2,
-      2
+      1
     ]
   },
   {
@@ -8531,6 +8531,33 @@
     "blueoak_tier": "Lead"
   },
   {
+    "slug": "audarai-open-license-version-1-0",
+    "title": "AudarAI Open License, Version 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "audarai/Audar-TTS-V1-Flash",
+        "url": "https://huggingface.co/audarai/Audar-TTS-V1-Flash"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "audio8-community-license-v1-0",
     "title": "Audio8 Community License v1.0",
     "spdx_id": "",
@@ -13075,6 +13102,33 @@
     "proprietary": true
   },
   {
+    "slug": "by-accessing-or-otherwise-using-this-dataset-you-agree-to-the-following-terms-an",
+    "title": "by-accessing-or-otherwise-using-this-dataset-you-agree-to-the-following-terms-an",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Lakera/b3-agent-security-benchmark-weak",
+        "url": "https://huggingface.co/datasets/Lakera/b3-agent-security-benchmark-weak"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "bytemark",
     "title": "BYTEmark License",
     "spdx_id": "",
@@ -13632,6 +13686,33 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "causilo-license-v1-0-2",
+    "title": "Causilo License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "nums-ai/causilo",
+        "url": "https://huggingface.co/nums-ai/causilo"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -24753,6 +24834,33 @@
     "proprietary": false
   },
   {
+    "slug": "flux-kommunity-license-2",
+    "title": "FLUX Kommunity License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "black-forest-labs/flux-3-action-base",
+        "url": "https://huggingface.co/black-forest-labs/flux-3-action-base"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "flux-non-commercial-license",
     "title": "FLUX Non-Commercial License",
     "spdx_id": "",
@@ -26979,6 +27087,37 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": false,
+    "languages": [
+      "en",
+      "zh"
+    ]
+  },
+  {
+    "slug": "glm-5-3-license-2",
+    "title": "GLM-5.3 License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "zai-org/GLM-5.3",
+        "url": "https://huggingface.co/zai-org/GLM-5.3"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": false,
     "languages": [
       "en",
@@ -29592,6 +29731,33 @@
     "proprietary": false
   },
   {
+    "slug": "h3-longvideos-licence-2",
+    "title": "H3-LongVideos — Licence",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Smite79/MiniMax-H3-Longvideos",
+        "url": "https://huggingface.co/Smite79/MiniMax-H3-Longvideos"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "hacking-license",
     "title": "Hacking License",
     "spdx_id": "",
@@ -29668,6 +29834,36 @@
     "featured": false,
     "created_at": "2026-05-14",
     "proprietary": false
+  },
+  {
+    "slug": "hast-sec-0-1",
+    "title": "HAST-SEC 非商业学习与研究许可证 0.1",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "sola1039/HAST-SEC",
+        "url": "https://huggingface.co/sola1039/HAST-SEC"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false,
+    "languages": [
+      "zh"
+    ]
   },
   {
     "slug": "hateful-memes-dataset-license-agreement",
@@ -30146,6 +30342,33 @@
     "created_at": "2026-05-14",
     "proprietary": false,
     "blueoak_tier": "Bronze"
+  },
+  {
+    "slug": "hi3d-open-license-agreement-version-1-0",
+    "title": "Hi3D Open License Agreement Version 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "hi3d-official/Hi3Dv1.0",
+        "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
   },
   {
     "slug": "hidapi",
@@ -35595,6 +35818,33 @@
     "proprietary": true
   },
   {
+    "slug": "kanana-open-license-agreement",
+    "title": "Kanana Open License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "kakaocorp/kanana-2-vision-encoder-medium",
+        "url": "https://huggingface.co/kakaocorp/kanana-2-vision-encoder-medium"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "kapivara-sal-1.0",
     "title": "Kapivara Source Available License 1.0",
     "spdx_id": "",
@@ -37628,6 +37878,33 @@
     ],
     "featured": false,
     "created_at": "2026-04-27",
+    "proprietary": false
+  },
+  {
+    "slug": "license-terms-of-youtu-llm",
+    "title": "License Terms of Youtu-LLM",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "tencent/Youtu-LLM-A7B-Base",
+        "url": "https://huggingface.co/tencent/Youtu-LLM-A7B-Base"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -46876,6 +47153,33 @@
     "blueoak_tier": "Silver"
   },
   {
+    "slug": "muse-model-license",
+    "title": "Muse Model License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "meta-models/Muse-Spark-Open-816B-A42B",
+        "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "mut-license",
     "title": "muT-License",
     "spdx_id": "",
@@ -48568,6 +48872,34 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-06-21"
+  },
+  {
+    "slug": "non-commercial-license",
+    "title": "Non-Commercial License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Speech-Arena-2025/DF_Arena_1B_V_1",
+        "url": "https://huggingface.co/Speech-Arena-2025/DF_Arena_1B_V_1"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": true
   },
   {
     "slug": "non-commercial-research-use-only-software-license-and-terms-of-use",
@@ -52803,6 +53135,33 @@
     "proprietary": false
   },
   {
+    "slug": "open-aoe-dataset-license-2",
+    "title": "Open-AoE Dataset License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "inclusionAI/OpenAoE-2000h",
+        "url": "https://huggingface.co/datasets/inclusionAI/OpenAoE-2000h"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "openai-terms-of-use",
     "title": "OpenAI Terms of Use",
     "spdx_id": "",
@@ -56874,6 +57233,33 @@
     "proprietary": true
   },
   {
+    "slug": "proxima-personal-use-license",
+    "title": "Proxima Personal Use License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "agent",
+    "version": "",
+    "description": "Proxima Personal Use License  Copyright (c) 2026 Proxima  This software is licensed for PERSONAL, NON-COMMERCIAL USE ONLY.  PERMITTED: - Individual users may use, copy, and modify this software for pe",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "MCP Server"
+    ],
+    "sources": [
+      {
+        "name": "Zen4-bit/Proxima",
+        "url": "https://github.com/Zen4-bit/Proxima"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "psf-3.7.2",
     "title": "PSF License Agreement for Python 3.7.2",
     "spdx_id": "",
@@ -57911,6 +58297,33 @@
     "proprietary": false
   },
   {
+    "slug": "quran-lab-no-profit-license-1-2-npl-1-2",
+    "title": "Quran-Lab No-Profit License 1.2 (NPL-1.2)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Quran-Lab/zipformer_p-arabic-v3",
+        "url": "https://huggingface.co/Quran-Lab/zipformer_p-arabic-v3"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "quran-lab-no-profit-license-v1-1",
     "title": "Quran-Lab No-Profit License v1.1",
     "spdx_id": "",
@@ -57963,6 +58376,33 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "qwen-community-license-1-0-2",
+    "title": "Qwen Community License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "Qwen/Qwen3.8-Flash-Next",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -60130,6 +60570,33 @@
     "proprietary": false
   },
   {
+    "slug": "s-lab-license-1-0-3",
+    "title": "S-Lab License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "data",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "ACERobotics/Puffin-16M",
+        "url": "https://huggingface.co/datasets/ACERobotics/Puffin-16M"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
     "slug": "s-lab-1.0",
     "title": "S-Lab License 1.0",
     "spdx_id": "",
@@ -60315,6 +60782,37 @@
     "featured": false,
     "proprietary": true,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "sam-license-2",
+    "title": "SAM License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "bodhicitta/sam3",
+        "url": "https://huggingface.co/bodhicitta/sam3"
+      },
+      {
+        "name": "facebook/sam-audio-large",
+        "url": "https://huggingface.co/facebook/sam-audio-large"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
   },
   {
     "slug": "sam-license",
@@ -60538,6 +61036,34 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "sawt-license-version-2-1-non-commercial-sawt-nc-2-1",
+    "title": "SAWT License Version 2.1, Non-Commercial (SAWT-NC-2.1)",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Quran-Lab/sawt-v4",
+        "url": "https://huggingface.co/Quran-Lab/sawt-v4"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": true
   },
   {
     "slug": "sax-pd",
@@ -60884,6 +61410,33 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": false
+  },
+  {
+    "slug": "scienta-lab-eva-model-license-agreement-2",
+    "title": "Scienta Lab EVA Model License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "ScientaLab/eva-rna",
+        "url": "https://huggingface.co/ScientaLab/eva-rna"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -63492,6 +64045,34 @@
     "blueoak_tier": "Silver"
   },
   {
+    "slug": "spliceai2-model-terms-of-use",
+    "title": "SpliceAI2 Model Terms of Use",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "illumina-ai/SpliceAI2",
+        "url": "https://huggingface.co/illumina-ai/SpliceAI2"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": true
+  },
+  {
     "slug": "splunk-3pp-eula",
     "title": "Splunk EULA for Third-Party Content",
     "spdx_id": "",
@@ -64027,6 +64608,34 @@
     "proprietary": true
   },
   {
+    "slug": "stableai-limix-non-commercial-license-2",
+    "title": "StableAI LimiX Non-Commercial License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "stable-ai/LimiX-2",
+        "url": "https://huggingface.co/stable-ai/LimiX-2"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": true
+  },
+  {
     "slug": "selv1",
     "title": "Stalwart Enterprise License 1.0 (SELv1) Agreement",
     "spdx_id": "",
@@ -64320,6 +64929,60 @@
     "featured": false,
     "proprietary": false,
     "created_at": "2026-05-29"
+  },
+  {
+    "slug": "stellon-labs-community-license-agreement",
+    "title": "Stellon Labs Community License Agreement",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "KittenML/kitten-tts-2",
+        "url": "https://huggingface.co/KittenML/kitten-tts-2"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
+  },
+  {
+    "slug": "stepfun-model-license-1-0",
+    "title": "StepFun Model License 1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace"
+    ],
+    "sources": [
+      {
+        "name": "stepfun-ai/Step-5-Preview-NVFP4",
+        "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": false
   },
   {
     "slug": "stlport-2000",
@@ -66159,6 +66822,34 @@
     "created_at": "2026-05-29"
   },
   {
+    "slug": "swiftvr-research-license",
+    "title": "SwiftVR Research License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "H-oliday/SwiftVR",
+        "url": "https://huggingface.co/H-oliday/SwiftVR"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
+    "proprietary": true
+  },
+  {
     "slug": "swig",
     "title": "SWIG Library License",
     "spdx_id": "",
@@ -66797,6 +67488,34 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": true
+  },
+  {
+    "slug": "tabpfn-3-5-non-commercial-license-2",
+    "title": "TABPFN-3.5 Non-Commercial License",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "Prior-Labs/tabpfn_3_5",
+        "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": true
   },
   {
@@ -69169,6 +69888,34 @@
     ],
     "featured": false,
     "created_at": "2026-10-02",
+    "proprietary": true
+  },
+  {
+    "slug": "timesfm-non-commercial-license-v1-0-2",
+    "title": "TimesFM Non-Commercial License v1.0",
+    "spdx_id": "",
+    "osi_approved": false,
+    "fsf_libre": null,
+    "deprecated": false,
+    "type": "model",
+    "version": "",
+    "description": "",
+    "permissions": [],
+    "conditions": [],
+    "limitations": [],
+    "tags": [
+      "Custom",
+      "HuggingFace",
+      "Proprietary"
+    ],
+    "sources": [
+      {
+        "name": "google/timesfm-3.0-pytorch",
+        "url": "https://huggingface.co/google/timesfm-3.0-pytorch"
+      }
+    ],
+    "featured": false,
+    "created_at": "2026-10-27",
     "proprietary": true
   },
   {
@@ -75317,7 +76064,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75344,7 +76091,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75371,7 +76118,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75398,7 +76145,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75425,7 +76172,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75452,7 +76199,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75479,7 +76226,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75506,7 +76253,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75533,7 +76280,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75560,7 +76307,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75587,7 +76334,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75614,7 +76361,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75641,7 +76388,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75668,7 +76415,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75695,7 +76442,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75722,7 +76469,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75749,7 +76496,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75776,7 +76523,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75803,7 +76550,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75830,7 +76577,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75857,7 +76604,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75884,7 +76631,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75911,7 +76658,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75938,7 +76685,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75965,7 +76712,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -75992,7 +76739,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76019,7 +76766,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76046,7 +76793,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76073,7 +76820,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76100,7 +76847,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76127,7 +76874,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76154,7 +76901,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76181,7 +76928,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76208,7 +76955,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76235,7 +76982,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76262,7 +77009,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76289,7 +77036,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76316,7 +77063,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76343,7 +77090,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76370,7 +77117,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76397,7 +77144,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76424,7 +77171,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76451,7 +77198,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76478,7 +77225,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76505,7 +77252,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76532,7 +77279,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76559,7 +77306,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76586,7 +77333,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76613,7 +77360,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76640,7 +77387,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76667,7 +77414,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76694,7 +77441,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76721,7 +77468,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76748,7 +77495,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76775,7 +77522,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76802,7 +77549,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76829,7 +77576,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76856,7 +77603,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76883,7 +77630,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76910,7 +77657,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76937,7 +77684,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76964,7 +77711,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -76991,7 +77738,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77018,7 +77765,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77045,7 +77792,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77072,7 +77819,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77099,7 +77846,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77126,7 +77873,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77153,7 +77900,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77180,7 +77927,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77207,7 +77954,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77234,7 +77981,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77261,7 +78008,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77288,7 +78035,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77315,7 +78062,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77342,7 +78089,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77369,7 +78116,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77396,7 +78143,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77423,7 +78170,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   },
   {
@@ -77450,7 +78197,7 @@
       }
     ],
     "featured": false,
-    "created_at": "2026-10-02",
+    "created_at": "2026-10-27",
     "proprietary": false
   }
 ]

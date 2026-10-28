@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T19:04:00.125Z",
+    "generated_at": "2026-10-27T12:45:29.767Z",
     "total_submissions": 276,
     "by_status": {
       "approved": 92,
@@ -19,7 +19,7 @@
       "minutes_files": 225,
       "vote_blocks_extracted": 595
     },
-    "enriched_at": "2026-10-25T19:04:19.238Z",
+    "enriched_at": "2026-10-27T12:45:50.954Z",
     "coverage": {
       "submissions_with_license_text": 137,
       "submissions_with_board_vote": 87,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-10-25T19:04:26.903Z",
+      "applied_at": "2026-10-27T12:45:51.413Z",
       "applied": 217,
       "missing": 0,
       "invalid": 0,
@@ -16338,8 +16338,8 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:0a70bf690f350e188e0fea08332e717e68dba5db948cf21a11391ea7b406a3cf",
-        "prompt_version": "osi-status-adjudicator-v2",
-        "source_file": "batch-001.out.jsonl"
+        "prompt_version": "osi-status-adjudicator-v1",
+        "source_file": "batch-207-status-free-hash.out.jsonl"
       }
     },
     {

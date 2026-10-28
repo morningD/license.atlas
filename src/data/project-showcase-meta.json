@@ -1,6 +1,6 @@
 {
-  "source_hash": "23e78f78b6bc0a11",
-  "generated_at": "2026-10-02T11:02:01.833Z",
+  "source_hash": "b0a3845584b83ce1",
+  "generated_at": "2026-10-27T13:00:11.318Z",
   "source": "GitHub Search API + HuggingFace Hub + Meta-Kaggle",
   "thresholds": {
     "github_repos": 10000,
