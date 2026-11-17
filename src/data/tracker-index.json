@@ -1,16 +1,16 @@
 {
   "_meta": {
-    "source_hash": "3f68cfdec444ce3a",
+    "source_hash": "b1c666e01ec61fad",
     "index_schema_version": 5,
-    "generated_at": "2026-10-27T12:45:50.954Z",
-    "total_submissions": 276,
+    "generated_at": "2026-11-17T11:12:49.681Z",
+    "total_submissions": 281,
     "by_status": {
-      "approved": 92,
-      "rejected": 44,
+      "approved": 93,
+      "rejected": 45,
       "withdrawn": 15,
       "pending": 31,
       "superseded": 3,
-      "legacy": 32,
+      "legacy": 35,
       "discussion": 59
     }
   },
@@ -4119,6 +4119,40 @@
     },
     "latest_event": null
   },
+  "licenses-under-certain-conditions": {
+    "id": "licenses-under-certain-conditions",
+    "name": "licenses under certain conditions",
+    "spdx_id": "",
+    "aliases": [],
+    "status": "rejected",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "",
+      "decision": "2026-09-24",
+      "decision_status": "rejected"
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
   "ai-mit-license": {
     "id": "ai-mit-license",
     "name": "AI-MIT License 1.0",
@@ -4641,7 +4675,7 @@
     "aliases": [
       "Submission: CNRI-Python-GPL-Compatible"
     ],
-    "status": "legacy",
+    "status": "approved",
     "submitter": "Van Lindberg",
     "stats": {
       "total_messages": 5,
@@ -4651,12 +4685,12 @@
         "2026-03-20"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-20",
       "decision": "",
-      "decision_status": ""
+      "decision_status": "approved"
     },
     "text_meta": {
       "count": 2,
@@ -4701,11 +4735,11 @@
         "2026-09-28"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-06",
-      "decision": "2026-06-29",
+      "decision": "",
       "decision_status": "approved"
     },
     "text_meta": {
@@ -4751,11 +4785,11 @@
         "2026-09-28"
       ]
     },
-    "has_vote": true,
+    "has_vote": false,
     "has_timeline": true,
     "review_dates": {
       "first_submitted": "2026-03-06",
-      "decision": "2026-06-29",
+      "decision": "",
       "decision_status": "approved"
     },
     "text_meta": {
@@ -5649,7 +5683,7 @@
   "cern-ohl-s-2.0": {
     "id": "cern-ohl-s-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
-    "spdx_id": "CERN-OHL-S-2.0 ",
+    "spdx_id": "CERN-OHL-S-2.0",
     "aliases": [
       "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
     ],
@@ -5697,7 +5731,7 @@
   "cern-ohl-s-2-0": {
     "id": "cern-ohl-s-2-0",
     "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
-    "spdx_id": "CERN-OHL-S-2.0 ",
+    "spdx_id": "CERN-OHL-S-2.0",
     "aliases": [
       "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
     ],
@@ -12508,6 +12542,188 @@
       "sentiment": "support",
       "point": "Argues the CPL resolves the meta-license problem by letting any copyright holder reuse it, praises IBM, and urges OSI to fast-track approval.",
       "point_zh": "主张 CPL 解决了元许可证难题，使任何版权人都能复用该许可证，赞许 IBM 并敦促 OSI 加速批准。"
+    }
+  },
+  "nist-software": {
+    "id": "nist-software",
+    "name": "NIST Software License",
+    "spdx_id": "NIST-Software",
+    "aliases": [],
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "2025-09-29",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "cnri-python-gpl-compatible": {
+    "id": "cnri-python-gpl-compatible",
+    "name": "CNRI Python Open Source GPL Compatible License Agreement",
+    "spdx_id": "CNRI-Python-GPL-Compatible",
+    "aliases": [],
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "2026-03-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2026-03-20"
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "python-2.0.1": {
+    "id": "python-2-0-1",
+    "name": "Python License 2.0.1",
+    "spdx_id": "Python-2.0.1",
+    "aliases": [],
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "2026-03-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2026-03-20"
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "python-2-0-1": {
+    "id": "python-2-0-1",
+    "name": "Python License 2.0.1",
+    "spdx_id": "Python-2.0.1",
+    "aliases": [],
+    "status": "legacy",
+    "submitter": "Unknown",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": []
+    },
+    "has_vote": true,
+    "has_timeline": false,
+    "review_dates": {
+      "first_submitted": "2026-03-20",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 2,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 1,
+      "series": [],
+      "latest_text_date": "2026-03-20"
+    },
+    "timeline_meta": {
+      "count": 0,
+      "first": null,
+      "last": null
+    },
+    "latest_event": null
+  },
+  "curl": {
+    "id": "curl",
+    "name": "curl License",
+    "spdx_id": "curl",
+    "aliases": [],
+    "status": "legacy",
+    "submitter": "Christoph Röth",
+    "stats": {
+      "total_messages": 0,
+      "duration_days": 0,
+      "date_range": [
+        "2026-02-04",
+        "2026-02-04"
+      ]
+    },
+    "has_vote": true,
+    "has_timeline": true,
+    "review_dates": {
+      "first_submitted": "2026-02-04",
+      "decision": "",
+      "decision_status": ""
+    },
+    "text_meta": {
+      "count": 0,
+      "linked_count": 0,
+      "duplicate_count": 0,
+      "diff_count": 0,
+      "series": [],
+      "latest_text_date": ""
+    },
+    "timeline_meta": {
+      "count": 1,
+      "first": "2026-02-04",
+      "last": "2026-02-04"
+    },
+    "latest_event": {
+      "date": "2026-02-04",
+      "type": "submission",
+      "source": "osi_api",
+      "sender": "Christoph Röth",
+      "subject": "OSI API submission record: curl License",
+      "sentiment": "neutral",
+      "point": "(OSI API records Christoph Röth as the submitter of curl License. The public mailing-list archive does not expose a concrete submission message for this event.)",
+      "point_zh": "（OSI API 记录 Christoph Röth 为 curl License 的提交者；公开邮件归档没有暴露这一事件的具体提交邮件。）"
     }
   },
   "lgpl-2.0": {

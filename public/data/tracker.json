@@ -1,32 +1,32 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T12:45:29.767Z",
-    "total_submissions": 276,
+    "generated_at": "2026-11-17T11:12:28.011Z",
+    "total_submissions": 281,
     "by_status": {
-      "approved": 92,
-      "rejected": 44,
+      "approved": 93,
+      "rejected": 45,
       "withdrawn": 15,
       "pending": 31,
       "superseded": 3,
-      "legacy": 32,
+      "legacy": 35,
       "discussion": 59
     },
     "data_sources": {
-      "osi_api": 122,
-      "mail_clusters": 3449,
-      "rejected_withdrawn": 71,
+      "osi_api": 126,
+      "mail_clusters": 3450,
+      "rejected_withdrawn": 72,
       "license_text_files": 556,
-      "minutes_files": 225,
-      "vote_blocks_extracted": 595
+      "minutes_files": 226,
+      "vote_blocks_extracted": 604
     },
-    "enriched_at": "2026-10-27T12:45:50.954Z",
+    "enriched_at": "2026-11-17T11:12:49.681Z",
     "coverage": {
-      "submissions_with_license_text": 137,
-      "submissions_with_board_vote": 87,
+      "submissions_with_license_text": 139,
+      "submissions_with_board_vote": 90,
       "board_vote_by_source": {
-        "minutes": 57,
+        "minutes": 59,
         "timeline": 6,
-        "osi_api": 24
+        "osi_api": 25
       },
       "outcome_backfill": {
         "from_tally": 25,
@@ -37,8 +37,8 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-10-27T12:45:51.413Z",
-      "applied": 217,
+      "applied_at": "2026-11-17T11:13:10.714Z",
+      "applied": 222,
       "missing": 0,
       "invalid": 0,
       "manual_review_blocking": 0
@@ -70164,6 +70164,103 @@
       }
     },
     {
+      "id": "licenses-under-certain-conditions",
+      "name": "licenses under certain conditions",
+      "aliases": [],
+      "spdx_id": "",
+      "status": "rejected",
+      "source_status": "rejected",
+      "rule_status": "rejected",
+      "status_candidates": [
+        {
+          "status": "rejected",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": [
+            "curated_rwp"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": false
+        },
+        "curated_rwp": {
+          "present": true,
+          "status": "rejected",
+          "rejection_reason": "The OSI Board rejected licenses under certain conditions in the 2026-09-24 board meeting."
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": ""
+        },
+        "board_vote": {
+          "present": true,
+          "date": "2026-09-24",
+          "outcome": "rejected",
+          "motion_text": "The License Committee informed the board that according to the — to reject licenses under certain conditions",
+          "source": "minutes"
+        }
+      },
+      "submitter": {
+        "name": "Unknown"
+      },
+      "participants": [],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [],
+      "board_vote": {
+        "date": "2026-09-24",
+        "motion_by": "enabling",
+        "motion_text": "The License Committee informed the board that according to the — to reject licenses under certain conditions",
+        "second_by": "",
+        "discussion": "",
+        "vote": null,
+        "outcome": "rejected",
+        "source": "minutes",
+        "minutes_file": "2026-09-24-2026-09-24.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-09-24"
+      },
+      "rejection_reason": "The OSI Board rejected licenses under certain conditions in the 2026-09-24 board meeting.",
+      "osi_api_data": null,
+      "stats": {
+        "total_messages": 0,
+        "date_range": [],
+        "duration_days": 0,
+        "unique_participants": []
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "rejected",
+        "confidence": 0.9,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "Board minutes from 2026-09-24 record a rejection outcome for licenses under certain conditions, corroborated by the curated rejected entry. This confirms terminal rejection.",
+        "evidence_refs": [
+          {
+            "evidence_id": "board_vote:licenses-under-certain-conditions",
+            "supports": "rejected",
+            "quote": "The License Committee informed the board that according to the — to reject licenses under certain conditions"
+          },
+          {
+            "evidence_id": "curated_rwp:licenses-under-certain-conditions",
+            "supports": "rejected",
+            "quote": "The OSI Board rejected licenses under certain conditions in the 2026-09-24 board meeting."
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:c02a02df44ae6a329cfe31abfd9f394f933b0b8ad8f81250e10652674b0ceeb3",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
+    {
       "id": "ai-mit-license",
       "name": "AI-MIT License 1.0",
       "aliases": [],
@@ -89643,7 +89740,7 @@
         "Submission: CNRI-Python-GPL-Compatible"
       ],
       "spdx_id": "CNRI-Python",
-      "status": "legacy",
+      "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
       "status_candidates": [
@@ -89679,11 +89776,7 @@
           "latest_event_date": "2026-03-20"
         },
         "board_vote": {
-          "present": true,
-          "date": "2026-06-29",
-          "outcome": "approved",
-          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
-          "source": "minutes"
+          "present": false
         }
       },
       "submitter": {
@@ -89964,22 +90057,7 @@
           "point": "Argues the clause does not violate OSD 10 because the clickwrap is stated in the alternative (\"or by copying\"), so agreement is possible with or without a GUI, providing the OSD 10 historical context."
         }
       ],
-      "board_vote": {
-        "date": "2026-06-29",
-        "motion_by": "",
-        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
-        "second_by": "",
-        "discussion": "",
-        "vote": {
-          "yes": -1,
-          "no": 0,
-          "abstain": 0
-        },
-        "outcome": "approved",
-        "source": "minutes",
-        "minutes_file": "2026-06-29-2026-06-29.md",
-        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
-      },
+      "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": {
         "submission_date": "",
@@ -90008,22 +90086,38 @@
           "type": "agent",
           "name": "osi-status-adjudicator"
         },
-        "final_status": "legacy",
-        "confidence": 0.95,
+        "final_status": "approved",
+        "confidence": 0.75,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "Human-calibrated baseline (full-length point re-extraction).",
+        "rationale": "[conservative fallback] contradictory/low-confidence LLM reading; kept rule status (approved). The OSI API authoritatively lists this license as approved (non-legacy). Review-thread discussion exists but contains no board decision affecting CNRI-Python; a proposal to mark it Superseded/retired appears only as unadopted feedback. The OSI API approval evidence governs, with a noted conflict against the legacy/superseded suggestions in discussion.",
         "evidence_refs": [
           {
             "evidence_id": "osi_api:cnri-python",
-            "supports": "legacy",
-            "quote": "Pushed human-calibrated baseline (eae0bd3)."
+            "supports": "approved",
+            "quote": "The CNRI portion of the multi-part Python License (CNRI-Python)"
+          },
+          {
+            "evidence_id": "timeline:cnri-python#0",
+            "supports": "pending",
+            "quote": "Proposes that CNRI-Python-GPL-Compatible be approved as a legacy OSI license and that CNRI-Python be marked Superseded or Voluntarily Retired"
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:a6480856e5151831d86fd635084fc9eec4747d9ea93ec9117025041006f5cb7d",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "conflicts": [
+          {
+            "source": "license-review list discussion",
+            "observed_status": "superseded/legacy proposal",
+            "explanation": "Discussion proposes marking CNRI-Python Superseded/Voluntarily Retired and approving a GPL-compatible variant as legacy, but no board decision adopting this is evidenced."
+          },
+          {
+            "source": "submission.current_status",
+            "observed_status": "legacy",
+            "explanation": "Submission metadata says legacy while OSI API shows non-legacy approved; the authoritative API evidence is favored."
+          }
+        ],
+        "input_hash": "sha256:462b013f71ab8321b5ff382ae590145283a678194530f56c1ba93aa90ba0dd03",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -90071,11 +90165,7 @@
           "latest_event_date": "2026-09-28"
         },
         "board_vote": {
-          "present": true,
-          "date": "2026-06-29",
-          "outcome": "approved",
-          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version",
-          "source": "minutes"
+          "present": false
         }
       },
       "submitter": {
@@ -91121,22 +91211,7 @@
           "point": "Apologizes for the earlier mistake and confirms it has now been fixed."
         }
       ],
-      "board_vote": {
-        "date": "2026-06-29",
-        "motion_by": "",
-        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version",
-        "second_by": "",
-        "discussion": "",
-        "vote": {
-          "yes": -1,
-          "no": 0,
-          "abstain": 0
-        },
-        "outcome": "approved",
-        "source": "minutes",
-        "minutes_file": "2026-06-29-2026-06-29.md",
-        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
-      },
+      "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": {
         "submission_date": "",
@@ -91172,32 +91247,26 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "approved",
-        "confidence": 0.75,
+        "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "[conservative fallback] contradictory/low-confidence LLM reading; kept rule status (approved). The board vote evidence explicitly approves the license 'as Legacy, Supersede prior version'. Per the policy, a motion approving in the legacy category means legacy, not approved. The OSI API lists the license as approved, which is consistent with legacy approval but the specific motion text governs the category. No rejection or withdrawal evidence exists.",
+        "rationale": "The OSI API lists Python License, Version 2 as approved (non-legacy), and the review thread confirms board approval of the related Python licenses with only an SPDX ID typo subsequently corrected. No rejection or withdrawal evidence exists.",
         "evidence_refs": [
-          {
-            "evidence_id": "board_vote:python-2-0",
-            "supports": "legacy",
-            "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Python-2.0.1 as Legacy, Supersede prior version"
-          },
           {
             "evidence_id": "osi_api:python-2-0",
             "supports": "approved",
-            "quote": "Python License, Version 2"
-          }
-        ],
-        "conflicts": [
+            "quote": "Python License, Version 2 (Python-2.0)"
+          },
           {
-            "source": "osi-api",
-            "observed_status": "approved",
-            "explanation": "The OSI API lists the license as normally approved, while the board motion specifically approved it as Legacy, so the legacy category is used."
+            "evidence_id": "timeline:python-2-0#25",
+            "supports": "approved",
+            "quote": "Thanks the board for approving Python-2.0.1 and CNRI-Python-GPL-Compatible, and notes the OSI licenses page lists the incorrect SPDX ID 'Python-2-0-1' instead of 'Python-2.0.1'."
           }
         ],
-        "input_hash": "sha256:07f11b39814b8feda6aa4f0c126128b08339678ba9adf68904dee409b1b43f59",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "conflicts": [],
+        "input_hash": "sha256:5df2b89eb7642d3f9a0f804cffca7968e793b370830822b3f20b3f65785b0fec",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -97171,7 +97240,7 @@
       "aliases": [
         "For Approval – CERN Open Hardware Licence Version 2– Strongly Reciprocal (SPDX: CERN-OHL-S-2.0); CERN Open Hardware Licence Version 2– Weakly Reciprocal (SPDX: CERN-OHL-W-2.0); CERN Open Hardware Licence Version 2– Permissive (SPDX: CERN-OHL-P-2.0)"
       ],
-      "spdx_id": "CERN-OHL-S-2.0 ",
+      "spdx_id": "CERN-OHL-S-2.0",
       "status": "approved",
       "source_status": "approved",
       "rule_status": "approved",
@@ -105326,36 +105395,42 @@
           "name": "osi-status-adjudicator"
         },
         "final_status": "approved",
-        "confidence": 0.96,
+        "confidence": 0.75,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The OSI API records CERN-OHL-S-2.0 with approval date 2021-01-15; board minutes record an approved vote; and the License Committee chair announced on the list that the OSI Board approved the CERN OHL family at its January 15, 2021 board meeting. Reviewer reservations did not prevent approval.",
+        "rationale": "[conservative fallback] contradictory/low-confidence LLM reading; kept rule status (approved). The OSI Board approved the CERN OHL family on 2021-01-15, confirmed by board minutes, the OSI API approval date, and the License Committee chair's announcement. Though approved in the Special Purposes category, this is a genuine reusable-category approval recorded by the OSI API as non-legacy; approval was of the whole family including CERN-OHL-S-2.0.",
         "evidence_refs": [
+          {
+            "evidence_id": "board_vote:cern-ohl-s-2-0",
+            "supports": "approved",
+            "quote": "outcome: approved, 20210115"
+          },
           {
             "evidence_id": "osi_api:cern-ohl-s-2-0",
             "supports": "approved",
             "quote": "approval_date: 20210115"
           },
           {
-            "evidence_id": "board_vote:cern-ohl-s-2-0",
+            "evidence_id": "timeline:cern-ohl-s-2-0#45",
             "supports": "approved",
-            "quote": "outcome: approved"
+            "quote": "I am pleased to report that the Open Source Initiative approved the CERN OHL family of licenses as Open Source Initiative Certified licenses in the Special Purposes category at its Board meeting on Ja"
           },
           {
             "evidence_id": "timeline:cern-ohl-s-2-0#44",
             "supports": "approved",
-            "quote": "the recommendation of the License Committee recommending to the Board that it approve of the CERN OHL family of licenses"
-          },
-          {
-            "evidence_id": "timeline:cern-ohl-s-2-0#45",
-            "supports": "approved",
-            "quote": "the Open Source Initiative approved the CERN OHL family of licenses as Open Source Initiative Certified licenses in the Special Purposes category"
+            "quote": "Below is the recommendation of the License Committee recommending to the Board that it approve of the CERN OHL family of licenses."
           }
         ],
-        "conflicts": [],
-        "input_hash": "sha256:1d28b83cd77ebc7925817088c0d852c6d477551f6ded7a698c06c02eff657d37",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "conflicts": [
+          {
+            "source": "timeline:cern-ohl-s-2-0#45",
+            "observed_status": "special_purposes_category_approval",
+            "explanation": "Approval was announced in the Special Purposes category; however the OSI API records it as a normally-approved (non-legacy) license, so approved is used rather than legacy."
+          }
+        ],
+        "input_hash": "sha256:d7e34b4105960c5f676a87719777de91299aa5b45344765317740de786c3da36",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -172761,6 +172836,996 @@
         "input_hash": "sha256:81dcc9ea84e07c6603087087710f38cf6eabfe985dbb938e466fc206197d6c20",
         "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-207-status-free-hash.out.jsonl"
+      }
+    },
+    {
+      "id": "nist-software",
+      "name": "NIST Software License",
+      "aliases": [],
+      "spdx_id": "NIST-Software",
+      "status": "legacy",
+      "source_status": "legacy",
+      "rule_status": "legacy",
+      "status_candidates": [
+        {
+          "status": "legacy",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        },
+        {
+          "status": "legacy",
+          "source": "osi-api",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "osi_api"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": true,
+          "legacy": true,
+          "id": "nist-software",
+          "name": "NIST Software License"
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": ""
+        },
+        "board_vote": {
+          "present": true,
+          "date": "2026-02-20",
+          "outcome": "approved",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the NIST Software License in the Legacy category",
+          "source": "minutes"
+        }
+      },
+      "submitter": {
+        "name": "Unknown"
+      },
+      "participants": [],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [],
+      "board_vote": {
+        "date": "2026-02-20",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the NIST Software License in the Legacy category",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "approved",
+        "source": "minutes",
+        "minutes_file": "2026-02-20-2026-02-20.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-02-20"
+      },
+      "rejection_reason": "",
+      "osi_api_data": {
+        "submission_date": "20250929",
+        "submitter_name": "",
+        "approval_date": "20260220",
+        "submission_url": "",
+        "board_minutes": "https://opensource.org/meeting-minutes/2026-02-20"
+      },
+      "stats": {
+        "total_messages": 0,
+        "date_range": [],
+        "duration_days": 0,
+        "unique_participants": []
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "legacy",
+        "confidence": 0.95,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "Board minutes motion explicitly approves the NIST Software License in the Legacy category, and the OSI API marks the license as legacy. A legacy-category approval maps to legacy, not approved.",
+        "evidence_refs": [
+          {
+            "evidence_id": "board_vote:nist-software",
+            "supports": "legacy",
+            "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the NIST Software License in the Legacy category"
+          },
+          {
+            "evidence_id": "osi_api:nist-software",
+            "supports": "legacy",
+            "quote": "NIST Software License (legacy)"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:c3eaa5143c9eeadb796493ec55824ed9af1c959c7808f6c600f94a1f1fadcc9a",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
+    {
+      "id": "cnri-python-gpl-compatible",
+      "name": "CNRI Python Open Source GPL Compatible License Agreement",
+      "aliases": [],
+      "spdx_id": "CNRI-Python-GPL-Compatible",
+      "status": "legacy",
+      "source_status": "legacy",
+      "rule_status": "legacy",
+      "status_candidates": [
+        {
+          "status": "legacy",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        },
+        {
+          "status": "legacy",
+          "source": "osi-api",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "osi_api"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": true,
+          "legacy": true,
+          "id": "cnri-python-gpl-compatible",
+          "name": "CNRI Python Open Source GPL Compatible License Agreement"
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": ""
+        },
+        "board_vote": {
+          "present": true,
+          "date": "2026-06-29",
+          "outcome": "approved",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
+          "source": "minutes"
+        }
+      },
+      "submitter": {
+        "name": "Unknown"
+      },
+      "participants": [],
+      "license_texts": [
+        {
+          "id": "cnri-python-gpl-compatible--license-review-submission-cnri-python-gpl-compatible-part-2---21be3d69d3",
+          "filename": "license-review-submission-cnri-python-gpl-compatible--part-2-21be3d69.txt",
+          "title": "CNRI-Python-GPL-Compatible",
+          "version": "",
+          "version_label": "",
+          "revision_label": "",
+          "series": "",
+          "date": "2026-03-20",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006061.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006061.html",
+          "message_subject": "[License-review] Submission: CNRI-Python-GPL-Compatible",
+          "type": "license-mime-part",
+          "downloaded_at": "",
+          "sha256": "21be3d69d333d4af2b973fa3978b32ad125866786eec6c978a47137ff69b446d",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n\nIMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.\n\nBY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n\n1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\nACCEPT",
+          "display_text": "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n\nIMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.\n\nBY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n\n1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\nACCEPT",
+          "normalized_text": "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n\nIMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.\n\nBY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n\n1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material breach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n\nACCEPT",
+          "content_preview": "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n\nIMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY.\n\nBY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED",
+          "size": 4411,
+          "match_score": 80
+        },
+        {
+          "id": "cnri-python-gpl-compatible--cnri-python-cnri-python-gpl-compatibletxt--ad496e95b2",
+          "filename": "cnri-python-cnri-python-gpl-compatible.txt",
+          "title": "CNRI-Python-GPL-Compatible",
+          "version": "",
+          "version_label": "",
+          "revision_label": "",
+          "series": "",
+          "date": "",
+          "source_url": "http://lists.opensource.org/pipermail/license-review_lists.opensource.org/attachments/20260320/310958b8/attachment-0001.a",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006061.html",
+          "message_subject": "Submission: CNRI-Python-GPL-Compatible",
+          "type": "license-attachment",
+          "downloaded_at": "2026-04-19T07:19:19.633Z",
+          "sha256": "ad496e95b24ed063e0f000cd252f36442714e92b21510ef52a34cf227ab9c296",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "1c1\n< CNRI OPEN SOURCE LICENSE AGREEMENT\n---\n> CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n5c5\n< BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n---\n> BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n7c7\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n9c9\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n11c11\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n13c13\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n15c15\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n17c17\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n21c21\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n23c23\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "display_text": "1c1\n< CNRI OPEN SOURCE LICENSE AGREEMENT\n---\n> CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n5c5\n< BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n---\n> BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n7c7\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n9c9\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n11c11\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n13c13\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n15c15\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n17c17\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n21c21\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n23c23\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "normalized_text": "1c1\n< CNRI OPEN SOURCE LICENSE AGREEMENT\n---\n> CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n5c5\n< BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n---\n> BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT.\n7c7\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n9c9\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n11c11\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n13c13\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n15c15\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n17c17\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n21c21\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n23c23\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "content_preview": "1c1\n< CNRI OPEN SOURCE LICENSE AGREEMENT\n---\n> CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT\n5c5\n< BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED T",
+          "size": 7571,
+          "match_score": 80
+        }
+      ],
+      "license_text_diffs": [
+        {
+          "id": "cnri-python-gpl-compatible--license-review-submission-cnri-python-gpl-compatible-part-2---21be3d69d3--to--cnri-python-gpl-compatible--cnri-python-cnri-python-gpl-compatibletxt--ad496e95b2",
+          "series": "",
+          "from_text_id": "cnri-python-gpl-compatible--license-review-submission-cnri-python-gpl-compatible-part-2---21be3d69d3",
+          "to_text_id": "cnri-python-gpl-compatible--cnri-python-cnri-python-gpl-compatibletxt--ad496e95b2",
+          "from_label": "CNRI-Python-GPL-Compatible",
+          "to_label": "CNRI-Python-GPL-Compatible",
+          "from_date": "2026-03-20",
+          "to_date": "",
+          "stats": {
+            "added": 1,
+            "removed": 23,
+            "unchanged": 0
+          },
+          "too_large": false,
+          "truncated": false,
+          "hunks": [
+            {
+              "old_start": 1,
+              "new_start": 1,
+              "lines": [
+                {
+                  "type": "remove",
+                  "text": "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "IMPORTANT: PLEASE READ THE FOLLOWING AGREEMENT CAREFULLY."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\"."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "6. This License Agreement will automatically terminate upon a material breach of its terms and conditions."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "ACCEPT"
+                },
+                {
+                  "type": "add",
+                  "text": "1c1 < CNRI OPEN SOURCE LICENSE AGREEMENT --- > CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT 5c5 < BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6, beta 1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT. --- > BY CLICKING ON \"ACCEPT\" WHERE INDICATED BELOW, OR BY COPYING, INSTALLING OR OTHERWISE USING PYTHON 1.6.1 SOFTWARE, YOU ARE DEEMED TO HAVE AGREED TO THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT. 7c7 < 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\"). --- > 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation. 9c9 < 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee. --- > 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright © 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. 11c11 < Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\". --- > Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the Internet using the following URL: http://hdl.handle.net/1895.22/1013\". 13c13 < 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1. --- > 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1. 15c15 < 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS. --- > 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS. 17c17 < 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. --- > 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. 21c21 < 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party. --- > 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party. 23c23 < 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement. --- > 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timeline": [],
+      "board_vote": {
+        "date": "2026-06-29",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "approved",
+        "source": "minutes",
+        "minutes_file": "2026-06-29-2026-06-29.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
+      "rejection_reason": "",
+      "osi_api_data": {
+        "submission_date": "20260320",
+        "submitter_name": "",
+        "approval_date": "20260629",
+        "submission_url": "",
+        "board_minutes": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
+      "stats": {
+        "total_messages": 0,
+        "date_range": [],
+        "duration_days": 0,
+        "unique_participants": []
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "legacy",
+        "confidence": 0.95,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "Board minutes motion approves CNRI-Python-GPL-Compatible as Legacy (superseding a prior version), and the OSI API marks it legacy. Legacy approval yields final_status legacy.",
+        "evidence_refs": [
+          {
+            "evidence_id": "board_vote:cnri-python-gpl-compatible",
+            "supports": "legacy",
+            "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the CNRI-Python-GPL-Compatible as Legacy, Supersede prior version"
+          },
+          {
+            "evidence_id": "osi_api:cnri-python-gpl-compatible",
+            "supports": "legacy",
+            "quote": "CNRI Python Open Source GPL Compatible License Agreement (legacy)"
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:1504985071edb87fd74ef192880faa601aba7631402de82ae921e6f341bf9c29",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
+    {
+      "id": "python-2-0-1",
+      "name": "Python License 2.0.1",
+      "aliases": [],
+      "spdx_id": "Python-2.0.1",
+      "status": "legacy",
+      "source_status": "legacy",
+      "rule_status": "legacy",
+      "status_candidates": [
+        {
+          "status": "legacy",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        },
+        {
+          "status": "legacy",
+          "source": "osi-api",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "osi_api"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": true,
+          "legacy": true,
+          "id": "python-2-0-1",
+          "name": "Python License 2.0.1"
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": false,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": ""
+        },
+        "board_vote": {
+          "present": true,
+          "date": "20260629",
+          "outcome": "approved",
+          "motion_text": "",
+          "source": "osi_api"
+        }
+      },
+      "submitter": {
+        "name": "Unknown"
+      },
+      "participants": [],
+      "license_texts": [
+        {
+          "id": "python-2-0-1--license-review-submission-python-201-part-2-b2831cb0txt--b2831cb0fd",
+          "filename": "license-review-submission-python-201--part-2-b2831cb0.txt",
+          "title": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2",
+          "version": "2",
+          "version_label": "2",
+          "revision_label": "",
+          "series": "",
+          "date": "2026-03-20",
+          "source_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006060.html",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006060.html",
+          "message_subject": "[License-review] Submission: Python-2.0.1",
+          "type": "license-mime-part",
+          "downloaded_at": "",
+          "sha256": "b2831cb0fd8517af113fee1070aa71f82dbd5472a0282b2004d01c6009c77556",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n--------------------------------------------\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation\n(\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and\notherwise using this software (\"Python\") in source or binary form and\nits associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\ngrants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\nanalyze, test, perform and/or display publicly, prepare derivative works,\ndistribute, and otherwise use Python alone or in any derivative version,\nprovided, however, that PSF's License Agreement and PSF's notice of copyright,\ni.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,\n2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation;\nAll Rights Reserved\" are retained in Python alone or in any derivative version\nprepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\"\nbasis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\nFOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any\nrelationship of agency, partnership, or joint venture between PSF and\nLicensee.  This License Agreement does not grant permission to use PSF\ntrademarks or trade name in a trademark sense to endorse or promote\nproducts or services of Licensee, or any third party.\n\n8. By copying, installing or otherwise using Python, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nBEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0\n-------------------------------------------\n\nBEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1\n\n1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an\noffice at 160 Saratoga Avenue, Santa Clara, CA 95051, and the\nIndividual or Organization (\"Licensee\") accessing and otherwise using\nthis software in source or binary form and its associated\ndocumentation (\"the Software\").\n\n2. Subject to the terms and conditions of this BeOpen Python License\nAgreement, BeOpen hereby grants Licensee a non-exclusive,\nroyalty-free, world-wide license to reproduce, analyze, test, perform\nand/or display publicly, prepare derivative works, distribute, and\notherwise use the Software alone or in any derivative version,\nprovided, however, that the BeOpen Python License is retained in the\nSoftware, alone or in any derivative version prepared by Licensee.\n\n3. BeOpen is making the Software available to Licensee on an \"AS IS\"\nbasis.  BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE\nSOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS\nAS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY\nDERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n5. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n6. This License Agreement shall be governed by and interpreted in all\nrespects by the law of the State of California, excluding conflict of\nlaw provisions.  Nothing in this License Agreement shall be deemed to\ncreate any relationship of agency, partnership, or joint venture\nbetween BeOpen and Licensee.  This License Agreement does not grant\npermission to use BeOpen trademarks or trade names in a trademark\nsense to endorse or promote products or services of Licensee, or any\nthird party.  As an exception, the \"BeOpen Python\" logos available at\nhttp://www.pythonlabs.com/logos.html may be used according to the\npermissions granted on that web page.\n\n7. By copying, installing or otherwise using the software, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nCNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n---------------------------------------\n\n1. This LICENSE AGREEMENT is between the Corporation for National\nResearch Initiatives, having an office at 1895 Preston White Drive,\nReston, VA 20191 (\"CNRI\"), and the Individual or Organization\n(\"Licensee\") accessing and otherwise using Python 1.6.1 software in\nsource or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI\nhereby grants Licensee a nonexclusive, royalty-free, world-wide\nlicense to reproduce, analyze, test, perform and/or display publicly,\nprepare derivative works, distribute, and otherwise use Python 1.6.1\nalone or in any derivative version, provided, however, that CNRI's\nLicense Agreement and CNRI's notice of copyright, i.e., \"Copyright (c)\n1995-2001 Corporation for National Research Initiatives; All Rights\nReserved\" are retained in Python 1.6.1 alone or in any derivative\nversion prepared by Licensee.  Alternately, in lieu of CNRI's License\nAgreement, Licensee may substitute the following text (omitting the\nquotes): \"Python 1.6.1 is made available subject to the terms and\nconditions in CNRI's License Agreement.  This Agreement together with\nPython 1.6.1 may be located on the internet using the following\nunique, persistent identifier (known as a handle): 1895.22/1013.  This\nAgreement may also be obtained from a proxy server on the internet\nusing the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python 1.6.1 or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\"\nbasis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal\nintellectual property law of the United States, including without\nlimitation the federal copyright law, and, to the extent such\nU.S. federal law does not apply, by the law of the Commonwealth of\nVirginia, excluding Virginia's conflict of law provisions.\nNotwithstanding the foregoing, with regard to derivative works based\non Python 1.6.1 that incorporate non-separable material that was\npreviously distributed under the GNU General Public License (GPL), the\nlaw of the Commonwealth of Virginia shall govern this License\nAgreement only as to issues arising under or with respect to\nParagraphs 4, 5, and 7 of this License Agreement.  Nothing in this\nLicense Agreement shall be deemed to create any relationship of\nagency, partnership, or joint venture between CNRI and Licensee.  This\nLicense Agreement does not grant permission to use CNRI trademarks or\ntrade name in a trademark sense to endorse or promote products or\nservices of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying,\ninstalling or otherwise using Python 1.6.1, Licensee agrees to be\nbound by the terms and conditions of this License Agreement.\n\n        ACCEPT\n\n\nCWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2\n--------------------------------------------------\n\nCopyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,\nThe Netherlands.  All rights reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation, and that the name of Stichting Mathematisch\nCentrum or CWI not be used in advertising or publicity pertaining to\ndistribution of the software without specific, written prior\npermission.\n\nSTICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO\nTHIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE\nFOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT\nOF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+          "display_text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n--------------------------------------------\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation\n(\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and\notherwise using this software (\"Python\") in source or binary form and\nits associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\ngrants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\nanalyze, test, perform and/or display publicly, prepare derivative works,\ndistribute, and otherwise use Python alone or in any derivative version,\nprovided, however, that PSF's License Agreement and PSF's notice of copyright,\ni.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,\n2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation;\nAll Rights Reserved\" are retained in Python alone or in any derivative version\nprepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\"\nbasis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\nFOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any\nrelationship of agency, partnership, or joint venture between PSF and\nLicensee.  This License Agreement does not grant permission to use PSF\ntrademarks or trade name in a trademark sense to endorse or promote\nproducts or services of Licensee, or any third party.\n\n8. By copying, installing or otherwise using Python, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nBEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0\n-------------------------------------------\n\nBEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1\n\n1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an\noffice at 160 Saratoga Avenue, Santa Clara, CA 95051, and the\nIndividual or Organization (\"Licensee\") accessing and otherwise using\nthis software in source or binary form and its associated\ndocumentation (\"the Software\").\n\n2. Subject to the terms and conditions of this BeOpen Python License\nAgreement, BeOpen hereby grants Licensee a non-exclusive,\nroyalty-free, world-wide license to reproduce, analyze, test, perform\nand/or display publicly, prepare derivative works, distribute, and\notherwise use the Software alone or in any derivative version,\nprovided, however, that the BeOpen Python License is retained in the\nSoftware, alone or in any derivative version prepared by Licensee.\n\n3. BeOpen is making the Software available to Licensee on an \"AS IS\"\nbasis.  BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE\nSOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS\nAS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY\nDERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n5. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n6. This License Agreement shall be governed by and interpreted in all\nrespects by the law of the State of California, excluding conflict of\nlaw provisions.  Nothing in this License Agreement shall be deemed to\ncreate any relationship of agency, partnership, or joint venture\nbetween BeOpen and Licensee.  This License Agreement does not grant\npermission to use BeOpen trademarks or trade names in a trademark\nsense to endorse or promote products or services of Licensee, or any\nthird party.  As an exception, the \"BeOpen Python\" logos available at\nhttp://www.pythonlabs.com/logos.html may be used according to the\npermissions granted on that web page.\n\n7. By copying, installing or otherwise using the software, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nCNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n---------------------------------------\n\n1. This LICENSE AGREEMENT is between the Corporation for National\nResearch Initiatives, having an office at 1895 Preston White Drive,\nReston, VA 20191 (\"CNRI\"), and the Individual or Organization\n(\"Licensee\") accessing and otherwise using Python 1.6.1 software in\nsource or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI\nhereby grants Licensee a nonexclusive, royalty-free, world-wide\nlicense to reproduce, analyze, test, perform and/or display publicly,\nprepare derivative works, distribute, and otherwise use Python 1.6.1\nalone or in any derivative version, provided, however, that CNRI's\nLicense Agreement and CNRI's notice of copyright, i.e., \"Copyright (c)\n1995-2001 Corporation for National Research Initiatives; All Rights\nReserved\" are retained in Python 1.6.1 alone or in any derivative\nversion prepared by Licensee.  Alternately, in lieu of CNRI's License\nAgreement, Licensee may substitute the following text (omitting the\nquotes): \"Python 1.6.1 is made available subject to the terms and\nconditions in CNRI's License Agreement.  This Agreement together with\nPython 1.6.1 may be located on the internet using the following\nunique, persistent identifier (known as a handle): 1895.22/1013.  This\nAgreement may also be obtained from a proxy server on the internet\nusing the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python 1.6.1 or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\"\nbasis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal\nintellectual property law of the United States, including without\nlimitation the federal copyright law, and, to the extent such\nU.S. federal law does not apply, by the law of the Commonwealth of\nVirginia, excluding Virginia's conflict of law provisions.\nNotwithstanding the foregoing, with regard to derivative works based\non Python 1.6.1 that incorporate non-separable material that was\npreviously distributed under the GNU General Public License (GPL), the\nlaw of the Commonwealth of Virginia shall govern this License\nAgreement only as to issues arising under or with respect to\nParagraphs 4, 5, and 7 of this License Agreement.  Nothing in this\nLicense Agreement shall be deemed to create any relationship of\nagency, partnership, or joint venture between CNRI and Licensee.  This\nLicense Agreement does not grant permission to use CNRI trademarks or\ntrade name in a trademark sense to endorse or promote products or\nservices of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying,\ninstalling or otherwise using Python 1.6.1, Licensee agrees to be\nbound by the terms and conditions of this License Agreement.\n\n        ACCEPT\n\n\nCWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2\n--------------------------------------------------\n\nCopyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,\nThe Netherlands.  All rights reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation, and that the name of Stichting Mathematisch\nCentrum or CWI not be used in advertising or publicity pertaining to\ndistribution of the software without specific, written prior\npermission.\n\nSTICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO\nTHIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE\nFOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT\nOF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+          "normalized_text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n--------------------------------------------\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation\n(\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and\notherwise using this software (\"Python\") in source or binary form and\nits associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, PSF hereby\ngrants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,\nanalyze, test, perform and/or display publicly, prepare derivative works,\ndistribute, and otherwise use Python alone or in any derivative version,\nprovided, however, that PSF's License Agreement and PSF's notice of copyright,\ni.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,\n2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation;\nAll Rights Reserved\" are retained in Python alone or in any derivative version\nprepared by Licensee.\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python.\n\n4. PSF is making Python available to Licensee on an \"AS IS\"\nbasis.  PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\nFOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. Nothing in this License Agreement shall be deemed to create any\nrelationship of agency, partnership, or joint venture between PSF and\nLicensee.  This License Agreement does not grant permission to use PSF\ntrademarks or trade name in a trademark sense to endorse or promote\nproducts or services of Licensee, or any third party.\n\n8. By copying, installing or otherwise using Python, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nBEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0\n-------------------------------------------\n\nBEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1\n\n1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an\noffice at 160 Saratoga Avenue, Santa Clara, CA 95051, and the\nIndividual or Organization (\"Licensee\") accessing and otherwise using\nthis software in source or binary form and its associated\ndocumentation (\"the Software\").\n\n2. Subject to the terms and conditions of this BeOpen Python License\nAgreement, BeOpen hereby grants Licensee a non-exclusive,\nroyalty-free, world-wide license to reproduce, analyze, test, perform\nand/or display publicly, prepare derivative works, distribute, and\notherwise use the Software alone or in any derivative version,\nprovided, however, that the BeOpen Python License is retained in the\nSoftware, alone or in any derivative version prepared by Licensee.\n\n3. BeOpen is making the Software available to Licensee on an \"AS IS\"\nbasis.  BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE\nSOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS\nAS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY\nDERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n5. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n6. This License Agreement shall be governed by and interpreted in all\nrespects by the law of the State of California, excluding conflict of\nlaw provisions.  Nothing in this License Agreement shall be deemed to\ncreate any relationship of agency, partnership, or joint venture\nbetween BeOpen and Licensee.  This License Agreement does not grant\npermission to use BeOpen trademarks or trade names in a trademark\nsense to endorse or promote products or services of Licensee, or any\nthird party.  As an exception, the \"BeOpen Python\" logos available at\nhttp://www.pythonlabs.com/logos.html may be used according to the\npermissions granted on that web page.\n\n7. By copying, installing or otherwise using the software, Licensee\nagrees to be bound by the terms and conditions of this License\nAgreement.\n\n\nCNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n---------------------------------------\n\n1. This LICENSE AGREEMENT is between the Corporation for National\nResearch Initiatives, having an office at 1895 Preston White Drive,\nReston, VA 20191 (\"CNRI\"), and the Individual or Organization\n(\"Licensee\") accessing and otherwise using Python 1.6.1 software in\nsource or binary form and its associated documentation.\n\n2. Subject to the terms and conditions of this License Agreement, CNRI\nhereby grants Licensee a nonexclusive, royalty-free, world-wide\nlicense to reproduce, analyze, test, perform and/or display publicly,\nprepare derivative works, distribute, and otherwise use Python 1.6.1\nalone or in any derivative version, provided, however, that CNRI's\nLicense Agreement and CNRI's notice of copyright, i.e., \"Copyright (c)\n1995-2001 Corporation for National Research Initiatives; All Rights\nReserved\" are retained in Python 1.6.1 alone or in any derivative\nversion prepared by Licensee.  Alternately, in lieu of CNRI's License\nAgreement, Licensee may substitute the following text (omitting the\nquotes): \"Python 1.6.1 is made available subject to the terms and\nconditions in CNRI's License Agreement.  This Agreement together with\nPython 1.6.1 may be located on the internet using the following\nunique, persistent identifier (known as a handle): 1895.22/1013.  This\nAgreement may also be obtained from a proxy server on the internet\nusing the following URL: http://hdl.handle.net/1895.22/1013\".\n\n3. In the event Licensee prepares a derivative work that is based on\nor incorporates Python 1.6.1 or any part thereof, and wants to make\nthe derivative work available to others as provided herein, then\nLicensee hereby agrees to include in any such work a brief summary of\nthe changes made to Python 1.6.1.\n\n4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\"\nbasis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR\nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND\nDISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS\nFOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT\nINFRINGE ANY THIRD PARTY RIGHTS.\n\n5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON\n1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS\nA RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,\nOR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n\n6. This License Agreement will automatically terminate upon a material\nbreach of its terms and conditions.\n\n7. This License Agreement shall be governed by the federal\nintellectual property law of the United States, including without\nlimitation the federal copyright law, and, to the extent such\nU.S. federal law does not apply, by the law of the Commonwealth of\nVirginia, excluding Virginia's conflict of law provisions.\nNotwithstanding the foregoing, with regard to derivative works based\non Python 1.6.1 that incorporate non-separable material that was\npreviously distributed under the GNU General Public License (GPL), the\nlaw of the Commonwealth of Virginia shall govern this License\nAgreement only as to issues arising under or with respect to\nParagraphs 4, 5, and 7 of this License Agreement.  Nothing in this\nLicense Agreement shall be deemed to create any relationship of\nagency, partnership, or joint venture between CNRI and Licensee.  This\nLicense Agreement does not grant permission to use CNRI trademarks or\ntrade name in a trademark sense to endorse or promote products or\nservices of Licensee, or any third party.\n\n8. By clicking on the \"ACCEPT\" button where indicated, or by copying,\ninstalling or otherwise using Python 1.6.1, Licensee agrees to be\nbound by the terms and conditions of this License Agreement.\n\n        ACCEPT\n\n\nCWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2\n--------------------------------------------------\n\nCopyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,\nThe Netherlands.  All rights reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation, and that the name of Stichting Mathematisch\nCentrum or CWI not be used in advertising or publicity pertaining to\ndistribution of the software without specific, written prior\npermission.\n\nSTICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO\nTHIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE\nFOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT\nOF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+          "content_preview": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2\n--------------------------------------------\n\n1. This LICENSE AGREEMENT is between the Python Software Foundation\n(\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and\notherwise",
+          "size": 10328,
+          "match_score": 80
+        },
+        {
+          "id": "python-2-0-1--python-20-python-201txt--aa7aac7aab",
+          "filename": "python-20-python-201.txt",
+          "title": "Python-2.0.1",
+          "version": "",
+          "version_label": "",
+          "revision_label": "",
+          "series": "",
+          "date": "",
+          "source_url": "http://lists.opensource.org/pipermail/license-review_lists.opensource.org/attachments/20260320/5fb2cfd2/attachment-0001.a",
+          "message_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-March/006060.html",
+          "message_subject": "Submission: Python-2.0.1",
+          "type": "license-attachment",
+          "downloaded_at": "2026-04-19T07:19:19.142Z",
+          "sha256": "aa7aac7aab06a447f444ab2f096666123a44e38c049d2441804d4ac18ff78740",
+          "duplicate_of": "",
+          "extraction_confidence": "high",
+          "text": "5c5\n< 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n39c39\n< CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)\n---\n> CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n41c41\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n43c43\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c) 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n45c45\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement.  This Agreement together with Python 1.6.1 may be located on the internet using the following unique, persistent identifier (known as a handle): 1895.22/1013.  This Agreement may also be obtained from a proxy server on the internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n47c47\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n49c49\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n51c51\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n55c55\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions.  Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement.  Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee.  This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n57c57\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "display_text": "5c5\n< 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n39c39\n< CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)\n---\n> CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n41c41\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n43c43\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c) 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n45c45\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement.  This Agreement together with Python 1.6.1 may be located on the internet using the following unique, persistent identifier (known as a handle): 1895.22/1013.  This Agreement may also be obtained from a proxy server on the internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n47c47\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n49c49\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n51c51\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n55c55\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions.  Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement.  Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee.  This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n57c57\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "normalized_text": "5c5\n< 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee.\n39c39\n< CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1)\n---\n> CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1\n41c41\n< 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\").\n---\n> 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation.\n43c43\n< 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee.\n---\n> 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c) 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee.\n45c45\n< Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\".\n---\n> Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement.  This Agreement together with Python 1.6.1 may be located on the internet using the following unique, persistent identifier (known as a handle): 1895.22/1013.  This Agreement may also be obtained from a proxy server on the internet using the following URL: http://hdl.handle.net/1895.22/1013\".\n47c47\n< 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1.\n---\n> 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1.\n49c49\n< 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n---\n> 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis.  CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.\n51c51\n< 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n---\n> 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.\n55c55\n< 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n---\n> 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions.  Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement.  Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee.  This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party.\n57c57\n< 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement.\n---\n> 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement.",
+          "content_preview": "5c5\n< 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, dist",
+          "size": 8391,
+          "match_score": 80
+        }
+      ],
+      "license_text_diffs": [
+        {
+          "id": "python-2-0-1--license-review-submission-python-201-part-2-b2831cb0txt--b2831cb0fd--to--python-2-0-1--python-20-python-201txt--aa7aac7aab",
+          "series": "",
+          "from_text_id": "python-2-0-1--license-review-submission-python-201-part-2-b2831cb0txt--b2831cb0fd",
+          "to_text_id": "python-2-0-1--python-20-python-201txt--aa7aac7aab",
+          "from_label": "2",
+          "to_label": "Python-2.0.1",
+          "from_date": "2026-03-20",
+          "to_date": "",
+          "stats": {
+            "added": 1,
+            "removed": 63,
+            "unchanged": 0
+          },
+          "too_large": false,
+          "truncated": false,
+          "hunks": [
+            {
+              "old_start": 1,
+              "new_start": 1,
+              "lines": [
+                {
+                  "type": "remove",
+                  "text": "PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2 --------------------------------------------"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. This LICENSE AGREEMENT is between the Python Software Foundation (\"PSF\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using this software (\"Python\") in source or binary form and its associated documentation."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "3. In the event Licensee prepares a derivative work that is based on or incorporates Python or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "4. PSF is making Python available to Licensee on an \"AS IS\" basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "6. This License Agreement will automatically terminate upon a material breach of its terms and conditions."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "7. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between PSF and Licensee. This License Agreement does not grant permission to use PSF trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "8. By copying, installing or otherwise using Python, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0 -------------------------------------------"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. This LICENSE AGREEMENT is between BeOpen.com (\"BeOpen\"), having an office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the Individual or Organization (\"Licensee\") accessing and otherwise using this software in source or binary form and its associated documentation (\"the Software\")."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Subject to the terms and conditions of this BeOpen Python License Agreement, BeOpen hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that the BeOpen Python License is retained in the Software, alone or in any derivative version prepared by Licensee."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "3. BeOpen is making the Software available to Licensee on an \"AS IS\" basis. BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "5. This License Agreement will automatically terminate upon a material breach of its terms and conditions."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "6. This License Agreement shall be governed by and interpreted in all respects by the law of the State of California, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between BeOpen and Licensee. This License Agreement does not grant permission to use BeOpen trademarks or trade names in a trademark sense to endorse or promote products or services of Licensee, or any third party. As an exception, the \"BeOpen Python\" logos available at http://www.pythonlabs.com/logos.html may be used according to the permissions granted on that web page."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "7. By copying, installing or otherwise using the software, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1 ---------------------------------------"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c) 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the internet using the following URL: http://hdl.handle.net/1895.22/1013\"."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "6. This License Agreement will automatically terminate upon a material breach of its terms and conditions."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "ACCEPT"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2 --------------------------------------------------"
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands. All rights reserved."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of Stichting Mathematisch Centrum or CWI not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission."
+                },
+                {
+                  "type": "remove",
+                  "text": ""
+                },
+                {
+                  "type": "remove",
+                  "text": "STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
+                },
+                {
+                  "type": "add",
+                  "text": "5c5 < 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee. --- > 2. Subject to the terms and conditions of this License Agreement, PSF hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python alone or in any derivative version, provided, however, that PSF's License Agreement and PSF's notice of copyright, i.e., \"Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022 Python Software Foundation; All Rights Reserved\" are retained in Python alone or in any derivative version prepared by Licensee. 39c39 < CNRI OPEN SOURCE LICENSE AGREEMENT (for Python 1.6b1) --- > CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1 41c41 < 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6, beta 1 software in source or binary form and its associated documentation, as released at the www.python.org Internet site on August 4, 2000 (\"Python 1.6b1\"). --- > 1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and otherwise using Python 1.6.1 software in source or binary form and its associated documentation. 43c43 < 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6b1 alone or in any derivative version, provided, however, that CNRIs License Agreement is retained in Python 1.6b1, alone or in any derivative version prepared by Licensee. --- > 2. Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use Python 1.6.1 alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., \"Copyright (c) 1995-2001 Corporation for National Research Initiatives; All Rights Reserved\" are retained in Python 1.6.1 alone or in any derivative version prepared by Licensee. 45c45 < Alternately, in lieu of CNRIs License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6, beta 1, is made available subject to the terms and conditions in CNRIs License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1011. This Agreement may also be obtained from a proxy server on the Internet using the URL:http://hdl.handle.net/1895.22/1011\". --- > Alternately, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes): \"Python 1.6.1 is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement together with Python 1.6.1 may be located on the internet using the following unique, persistent identifier (known as a handle): 1895.22/1013. This Agreement may also be obtained from a proxy server on the internet using the following URL: http://hdl.handle.net/1895.22/1013\". 47c47 < 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6b1 or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work the nature of the modifications made to Python 1.6b1. --- > 3. In the event Licensee prepares a derivative work that is based on or incorporates Python 1.6.1 or any part thereof, and wants to make the derivative work available to others as provided herein, then Licensee hereby agrees to include in any such work a brief summary of the changes made to Python 1.6.1. 49c49 < 4. CNRI is making Python 1.6b1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6b1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS. --- > 4. CNRI is making Python 1.6.1 available to Licensee on an \"AS IS\" basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS. 51c51 < 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING PYTHON 1.6b1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. --- > 5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. 55c55 < 7. This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party. --- > 7. This License Agreement shall be governed by the federal intellectual property law of the United States, including without limitation the federal copyright law, and, to the extent such U.S. federal law does not apply, by the law of the Commonwealth of Virginia, excluding Virginia's conflict of law provisions. Notwithstanding the foregoing, with regard to derivative works based on Python 1.6.1 that incorporate non-separable material that was previously distributed under the GNU General Public License (GPL), the law of the Commonwealth of Virginia shall govern this License Agreement only as to issues arising under or with respect to Paragraphs 4, 5, and 7 of this License Agreement. Nothing in this License Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee. This License Agreement does not grant permission to use CNRI trademarks or trade name in a trademark sense to endorse or promote products or services of Licensee, or any third party. 57c57 < 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6b1, Licensee agrees to be bound by the terms and conditions of this License Agreement. --- > 8. By clicking on the \"ACCEPT\" button where indicated, or by copying, installing or otherwise using Python 1.6.1, Licensee agrees to be bound by the terms and conditions of this License Agreement."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timeline": [],
+      "board_vote": {
+        "date": "20260629",
+        "motion_by": "",
+        "motion_text": "",
+        "second_by": "",
+        "discussion": "",
+        "vote": null,
+        "outcome": "approved",
+        "source": "osi_api",
+        "minutes_file": "https://opensource.org/meeting-minutes/2026-06-29",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
+      "rejection_reason": "",
+      "osi_api_data": {
+        "submission_date": "20260320",
+        "submitter_name": "",
+        "approval_date": "20260629",
+        "submission_url": "",
+        "board_minutes": "https://opensource.org/meeting-minutes/2026-06-29"
+      },
+      "stats": {
+        "total_messages": 0,
+        "date_range": [],
+        "duration_days": 0,
+        "unique_participants": []
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "legacy",
+        "confidence": 0.75,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "[conservative fallback] contradictory/low-confidence LLM reading; kept rule status (legacy). OSI API records the license as legacy with approval date 2026-06-29, corroborated by board minutes showing an approved outcome on the same date. Given the license is a legacy-category item and the API explicitly marks legacy, the terminal status is legacy rather than approved.",
+        "evidence_refs": [
+          {
+            "evidence_id": "osi_api:python-2-0-1",
+            "supports": "legacy",
+            "quote": "Python License 2.0.1 (legacy), approval_date 20260629"
+          },
+          {
+            "evidence_id": "board_vote:python-2-0-1",
+            "supports": "approved",
+            "quote": "outcome: approved (2026-06-29)"
+          }
+        ],
+        "conflicts": [
+          {
+            "source": "board_vote:python-2-0-1",
+            "observed_status": "approved",
+            "explanation": "Board vote outcome is 'approved' with no motion text; combined with the API's explicit legacy flag, the approval is in the legacy category, so the final status is legacy, not approved."
+          }
+        ],
+        "input_hash": "sha256:ef62f3be3f80dc419d623386b45d49fff3ef7917d43f38e56e4f7c99efa1a699",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
+      }
+    },
+    {
+      "id": "curl",
+      "name": "curl License",
+      "aliases": [],
+      "spdx_id": "curl",
+      "status": "legacy",
+      "source_status": "legacy",
+      "rule_status": "legacy",
+      "status_candidates": [
+        {
+          "status": "legacy",
+          "source": "source-status",
+          "confidence": 0.6,
+          "evidence_ids": []
+        },
+        {
+          "status": "legacy",
+          "source": "osi-api",
+          "confidence": 0.95,
+          "evidence_ids": [
+            "osi_api"
+          ]
+        }
+      ],
+      "status_evidence": {
+        "osi_api": {
+          "present": true,
+          "legacy": true,
+          "id": "curl",
+          "name": "curl License"
+        },
+        "curated_rwp": {
+          "present": false
+        },
+        "timeline_summary": {
+          "has_submission": true,
+          "has_withdrawal": false,
+          "has_board_decision": false,
+          "latest_event_date": "2026-02-04"
+        },
+        "board_vote": {
+          "present": true,
+          "date": "2026-04-17",
+          "outcome": "approved",
+          "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Curl license as a legacy license",
+          "source": "minutes"
+        }
+      },
+      "submitter": {
+        "name": "Christoph Röth"
+      },
+      "participants": [
+        {
+          "name": "Christoph Röth",
+          "role": "submitter",
+          "message_count": 1
+        }
+      ],
+      "license_texts": [],
+      "license_text_diffs": [],
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "type": "submission",
+          "subject": "OSI API submission record: curl License",
+          "url": "https://opensource.org/api/license/curl",
+          "sender": "Christoph Röth",
+          "snippet": "(OSI API records Christoph Röth as the submitter of curl License. The public mailing-list archive does not expose a concrete submission message for this event.)",
+          "point": "(OSI API records Christoph Röth as the submitter of curl License. The public mailing-list archive does not expose a concrete submission message for this event.)",
+          "point_zh": "（OSI API 记录 Christoph Röth 为 curl License 的提交者；公开邮件归档没有暴露这一事件的具体提交邮件。）",
+          "sentiment": "neutral",
+          "source": "osi_api",
+          "position": "neutral"
+        }
+      ],
+      "board_vote": {
+        "date": "2026-04-17",
+        "motion_by": "",
+        "motion_text": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Curl license as a legacy license",
+        "second_by": "",
+        "discussion": "",
+        "vote": {
+          "yes": -1,
+          "no": 0,
+          "abstain": 0
+        },
+        "outcome": "approved",
+        "source": "minutes",
+        "minutes_file": "2026-04-17-2026-04-17.md",
+        "minutes_url": "https://opensource.org/meeting-minutes/2026-04-17"
+      },
+      "rejection_reason": "",
+      "osi_api_data": {
+        "submission_date": "20260204",
+        "submitter_name": "Christoph Röth",
+        "approval_date": "20260417",
+        "submission_url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-February/006002.html",
+        "board_minutes": "https://opensource.org/meeting-minutes/2026-04-17"
+      },
+      "stats": {
+        "total_messages": 0,
+        "date_range": [
+          "2026-02-04",
+          "2026-02-04"
+        ],
+        "duration_days": 0,
+        "unique_participants": [
+          "Christoph Röth"
+        ]
+      },
+      "status_review": {
+        "schema_version": 1,
+        "reviewer": {
+          "type": "agent",
+          "name": "osi-status-adjudicator"
+        },
+        "final_status": "legacy",
+        "confidence": 0.95,
+        "requires_manual_review": false,
+        "manual_review_reason": null,
+        "rationale": "Board minutes motion explicitly approves the curl License as a legacy license, and the OSI API marks it legacy. The submission event only shows the review began, not a terminal decision contradicting the approval. Legacy-category approval maps to legacy.",
+        "evidence_refs": [
+          {
+            "evidence_id": "board_vote:curl",
+            "supports": "legacy",
+            "quote": "Carlo moves that the Board follows the recommendation of the License Committee and approves the Curl license as a legacy license"
+          },
+          {
+            "evidence_id": "osi_api:curl",
+            "supports": "legacy",
+            "quote": "curl License (legacy)"
+          },
+          {
+            "evidence_id": "timeline:curl#0",
+            "supports": "pending",
+            "quote": "OSI API records Christoph Röth as the submitter of curl License."
+          }
+        ],
+        "conflicts": [],
+        "input_hash": "sha256:fd1911b7ba0ccf7d26ad0fb16b36348533b005a373fad9908958544faf1b8c40",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
