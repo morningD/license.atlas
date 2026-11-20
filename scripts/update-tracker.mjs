@@ -188,6 +188,17 @@ console.log(`LLM mode: ${FULL ? "FULL (re-extract all)" : "INCREMENTAL (new URLs
 if (!SKIP_MAIL) {
   run(`node scripts/update-mail-archives.mjs ${passThroughMailArgs()}`, KB_ROOT);
   run("PLAYWRIGHT_CHANNEL=msedge node crawlers/osi_crawl.js --source minutes", KB_ROOT);
+  // OSI Approved Licenses API snapshot: the authoritative "list membership =
+  // approved" evidence for enrich/build/update-pending-submissions. It had NO
+  // refresher before 2026-11 (a stale 122-entry snapshot from May missed 4
+  // approvals: curl / NIST-Software / CNRI-Python / Python-2.0.1). The API
+  // sits behind the Cloudflare hashcash challenge (Node fetch 403s), hence
+  // msedge channel + soft gate (stale snapshot stays usable on transient fail).
+  runSoft(
+    "PLAYWRIGHT_CHANNEL=msedge node crawlers/osi_crawl.js --source osi-api",
+    KB_ROOT,
+    "OSI API snapshot refresh"
+  );
   run("node scripts/rebuild-mail-indexes.mjs", KB_ROOT);
   // Bodies extraction reads the monthly md files just fetched above. It used
   // to be a manual step and silently stalled on 2026-08-30 — the front-end

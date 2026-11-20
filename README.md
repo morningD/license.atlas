@@ -12,7 +12,7 @@ LicenseAtlas is a software, data, AI model, and agent license explorer covering 
 - **Category filters** — software, model, data, agent, terms
 - **Tag filters** — Permissive, Copyleft, Creative Commons, Hardware, etc.
 - **Popularity & trends** — sparkline charts from HuggingFace, GitHub, and Kaggle data
-- **[OSI License Review Tracker](https://morningd.github.io/license.atlas/tracker)** (`/tracker`) — live board of 194 OSI license submissions, review status, board votes, timelines, and linked license-text history
+- **[OSI License Review Tracker](https://morningd.github.io/license.atlas/tracker)** (`/tracker`) — live board of 281 OSI license submissions and discussion threads, review status, board votes, timelines, and linked license-text history
 - **OSADL checklist signals** — obligation/prohibition summaries, copyleft/source-disclosure/patent hints, and directional compatibility data for matched licenses
 - **Popular Projects** — right-rail showcase of top GitHub, HuggingFace, and Kaggle projects for selected licenses, with source-aware incremental refresh
 - **Bilingual UI** — English/Chinese with automatic browser language detection
@@ -67,11 +67,11 @@ License texts are aggregated from:
 
 | Source | Coverage |
 |--------|----------|
-| SPDX | 695 licenses |
+| SPDX | 708 licenses |
 | TLDRLegal | 145 licenses |
-| OSI | 123 approved licenses |
+| OSI | 128 approved licenses |
 | GNU / FSF | 66 licenses |
-| Creative Commons | 37 licenses |
+| Creative Commons | 38 licenses |
 | choosealicense.com | 47 licenses |
 | ScanCode LicenseDB | Custom license texts and metadata |
 | Blue Oak Council | Permissive-license quality ratings |
@@ -81,7 +81,7 @@ License texts are aggregated from:
 | RAIL | Responsible AI licenses |
 | OpenAtom Foundation | Model and hardware licenses (bilingual CN/EN) |
 | OpenMDW | Permissive license for ML models and related artifacts (Linux Foundation) |
-| OSI Review Tracker | 194 OSI license-review submissions, timelines, first/decision dates, board-vote records, and locally archived submitted license texts from public review/discussion records |
+| OSI Review Tracker | 281 OSI license-review submissions and discussion threads, timelines, first/decision dates, board-vote records, and locally archived submitted license texts from public review/discussion records |
 | OSADL Open Source License Checklists | 124 checklist records, 123 matched LicenseAtlas pages, checklist-derived obligations/prohibitions, copyleft/source-disclosure/patent hints, and directional compatibility summaries |
 | Project Showcase | 32 selected licenses with top GitHub repositories, HuggingFace models, and Kaggle datasets, normalized into a compact right-rail detail-page sidecar |
 
