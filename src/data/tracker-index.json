@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "source_hash": "b1c666e01ec61fad",
+    "source_hash": "6750ad88c161cdd3",
     "index_schema_version": 5,
-    "generated_at": "2026-11-17T11:12:49.681Z",
+    "generated_at": "2026-11-20T21:25:01.160Z",
     "total_submissions": 281,
     "by_status": {
       "approved": 93,
@@ -24,11 +24,11 @@
     "status": "pending",
     "submitter": "Max Mehl",
     "stats": {
-      "total_messages": 1,
-      "duration_days": 0,
+      "total_messages": 2,
+      "duration_days": 72,
       "date_range": [
         "2026-09-09",
-        "2026-09-09"
+        "2026-11-20"
       ]
     },
     "has_vote": false,
@@ -47,19 +47,19 @@
       "latest_text_date": "2026-09-09"
     },
     "timeline_meta": {
-      "count": 1,
+      "count": 2,
       "first": "2026-09-09",
-      "last": "2026-09-09"
+      "last": "2026-11-20"
     },
     "latest_event": {
-      "date": "2026-09-09",
+      "date": "2026-11-20",
       "type": "feedback",
       "source": "license-review",
       "sender": "Max Mehl",
       "subject": "[License-review] Submission: PSF-2.0",
       "sentiment": "neutral",
-      "point": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review: Python-2.0.1 was approved as a combined license, but PSF-2.0 is also used verbatim and standalone by projects like Jython and cx_Freeze, so a distinct approval would serve the Python ecosystem; text matches SPDX.",
-      "point_zh": "提交 PSF-2.0（Python 软件基金会许可证 2.0）申请 OSI 单独审批：Python-2.0.1 已作为组合许可证获批，但 PSF-2.0 亦被 Jython、cx_Freeze 等项目原样独立使用，单独批准有助于 Python 生态；文本与 SPDX 一致。"
+      "point": "Notes that the PSF-2.0 license submission has received no feedback so far and asks whether the community can do anything to facilitate the review process.",
+      "point_zh": "指出 PSF-2.0 许可证提交至今没有收到任何反馈，并询问社区能否做些什么来推进审查流程。"
     }
   },
   "openmdw-license-agreement-1-1": {

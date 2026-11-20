@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-17T11:12:28.011Z",
+    "generated_at": "2026-11-20T21:24:34.124Z",
     "total_submissions": 281,
     "by_status": {
       "approved": 93,
@@ -19,7 +19,7 @@
       "minutes_files": 226,
       "vote_blocks_extracted": 604
     },
-    "enriched_at": "2026-11-17T11:12:49.681Z",
+    "enriched_at": "2026-11-20T21:25:01.160Z",
     "coverage": {
       "submissions_with_license_text": 139,
       "submissions_with_board_vote": 90,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-11-17T11:13:10.714Z",
+      "applied_at": "2026-11-20T21:25:04.706Z",
       "applied": 222,
       "missing": 0,
       "invalid": 0,
@@ -75,10 +75,10 @@
           "rejection_reason": null
         },
         "timeline_summary": {
-          "has_submission": false,
+          "has_submission": true,
           "has_withdrawal": false,
           "has_board_decision": false,
-          "latest_event_date": "2026-09-09"
+          "latest_event_date": "2026-11-20"
         },
         "board_vote": {
           "present": false
@@ -91,7 +91,7 @@
         {
           "name": "Max Mehl",
           "role": "submitter",
-          "message_count": 1
+          "message_count": 2
         }
       ],
       "license_texts": [
@@ -119,38 +119,51 @@
           "size": 2807,
           "match_score": 1,
           "event_index": 0,
-          "event_type": "feedback"
+          "event_type": "submission"
         }
       ],
       "license_text_diffs": [],
       "timeline": [
         {
           "date": "2026-09-09",
-          "type": "feedback",
+          "type": "submission",
+          "subject": "[License-review] Submission: PSF-2.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-September/006255.html",
           "sender": "Max Mehl",
-          "snippet": "After OSI has approved Python-2.0.1 and one of its components (CNRI-Python-GPL-Compatible), I would like to use the opportunity to ask the team and board to review and approve the \"Python Software Foundation License 2.0\" (SPDX: PSF-2.0). The license text, copied from https://docs.python.org/3/license.html and matching SPDX’ version, is attached. PSF-2.0 is the license of the PSF, and part of the combined license of CPython releases (Python-2.0 and Python-2.0.1). But it’s also used verbatim and derived standalone by various projects, mostly in the Python ecosystem. Because of this, I consider it helpful to approve the license separately. Examples: * https://github.com/jython/jython * https://github.com/marcelotduarte/cx_Freeze * https://github.com/chianjin/PDFeXpress Given that Python-2.0 and Python-2.0.1 both comply with the OSD, I’d consider it clear that PSF-2.0 can also be safely considered an Open Source license. The license steward is Python Software Foundation. As with my earlier submission, I refer to a discussion with Deb Nicholson in March 2026 in which she made transparent that PSF currently lacks the resources to go through this process and would be happy if I would do this. I hope to have provided all required information and hope for a swift and positive review and approval. Thanks! Best, -- Max Mehl Open Source / Supply Chain Chief Technology & Enterprise Architecture Office DB Systel GmbH / Deutsche Bahn Schedule a meeting: cal.com/mxmehl<https://cal.com/mxmehl>",
-          "subject": "[License-review] Submission: PSF-2.0",
+          "snippet": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review: Python-2.0.1 was approved as a combined license, but PSF-2.0 is also used verbatim and standalone by projects like Jython and cx_Freeze, so a distinct approval would serve the Python ecosystem; text matches SPDX.",
+          "point_zh": "提交 PSF-2.0（Python 软件基金会许可证 2.0）申请 OSI 单独审批：Python-2.0.1 已作为组合许可证获批，但 PSF-2.0 亦被 Jython、cx_Freeze 等项目原样独立使用，单独批准有助于 Python 生态；文本与 SPDX 一致。",
+          "sentiment": "neutral",
           "source": "license-review",
           "position": "neutral",
           "point": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review: Python-2.0.1 was approved as a combined license, but PSF-2.0 is also used verbatim and standalone by projects like Jython and cx_Freeze, so a distinct approval would serve the Python ecosystem; text matches SPDX.",
-          "point_zh": "提交 PSF-2.0（Python 软件基金会许可证 2.0）申请 OSI 单独审批：Python-2.0.1 已作为组合许可证获批，但 PSF-2.0 亦被 Jython、cx_Freeze 等项目原样独立使用，单独批准有助于 Python 生态；文本与 SPDX 一致。",
-          "sentiment": "neutral",
           "text_ids": [
             "psf-2-0--license-review-submission-psf-20-part-2-fdd14f67txt--fdd14f678b"
           ]
+        },
+        {
+          "date": "2026-11-20",
+          "type": "feedback",
+          "subject": "[License-review] Submission: PSF-2.0",
+          "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-November/006285.html",
+          "sender": "Max Mehl",
+          "snippet": "There has not been any feedback on the license submission of PSF-2.0 so far, see the post below. Is there anything the community can do to facilitate the process? Thanks, and best, Max -- Max Mehl",
+          "point_zh": "指出 PSF-2.0 许可证提交至今没有收到任何反馈，并询问社区能否做些什么来推进审查流程。",
+          "sentiment": "neutral",
+          "source": "license-review",
+          "position": "neutral",
+          "point": "Notes that the PSF-2.0 license submission has received no feedback so far and asks whether the community can do anything to facilitate the review process."
         }
       ],
       "board_vote": null,
       "rejection_reason": "",
       "osi_api_data": null,
       "stats": {
-        "total_messages": 1,
+        "total_messages": 2,
         "date_range": [
           "2026-09-09",
-          "2026-09-09"
+          "2026-11-20"
         ],
-        "duration_days": 0,
+        "duration_days": 72,
         "unique_participants": [
           "Max Mehl"
         ]
@@ -165,23 +178,28 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission of PSF-2.0 shows only an initial submission and a feedback email; there is no evidence of an OSI board decision, rejection, withdrawal, or supersession. The curated status is pending. Conservative fallback confirms pending as the faithful status.",
+        "rationale": "The submission was made (2026-09-09) and as of 2026-11-20 still had no feedback, indicating an active but undecided review. There is no evidence of board decision, rejection, withdrawal, or supersession; source status is pending. Pending is the faithful terminal-safe state.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:psf-2-0",
             "supports": "pending",
-            "quote": "status: pending, rejection_reason: null"
+            "quote": "status: pending"
           },
           {
             "evidence_id": "timeline:psf-2-0#0",
             "supports": "pending",
-            "quote": "Submission: PSF-2.0 ... ask the team and board to review and approve the \"Python Software Foundation License 2.0\""
+            "quote": "Submits PSF-2.0 ... for separate OSI review"
+          },
+          {
+            "evidence_id": "timeline:psf-2-0#1",
+            "supports": "pending",
+            "quote": "There has not been any feedback on the license submission of PSF-2.0 so far"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:e4528cb6adfcdcead13664928b5c112969f350c39d0f8846b1a3fd6f5fab329a",
-        "prompt_version": "osi-status-adjudicator-v1",
-        "source_file": "batch-207-status-free-hash.out.jsonl"
+        "input_hash": "sha256:332e68c60d44e96b6f7986aaad9b515dab44f9c0bac581b0f8ce9ce99af171ee",
+        "prompt_version": "osi-status-adjudicator-v2",
+        "source_file": "batch-001.out.jsonl"
       }
     },
     {
@@ -70256,7 +70274,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c02a02df44ae6a329cfe31abfd9f394f933b0b8ad8f81250e10652674b0ceeb3",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -90116,7 +90134,7 @@
           }
         ],
         "input_hash": "sha256:462b013f71ab8321b5ff382ae590145283a678194530f56c1ba93aa90ba0dd03",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -91265,7 +91283,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:5df2b89eb7642d3f9a0f804cffca7968e793b370830822b3f20b3f65785b0fec",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -105429,7 +105447,7 @@
           }
         ],
         "input_hash": "sha256:d7e34b4105960c5f676a87719777de91299aa5b45344765317740de786c3da36",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -172948,7 +172966,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:c3eaa5143c9eeadb796493ec55824ed9af1c959c7808f6c600f94a1f1fadcc9a",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -173233,7 +173251,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:1504985071edb87fd74ef192880faa601aba7631402de82ae921e6f341bf9c29",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -173680,7 +173698,7 @@
           }
         ],
         "input_hash": "sha256:ef62f3be3f80dc419d623386b45d49fff3ef7917d43f38e56e4f7c99efa1a699",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
@@ -173824,7 +173842,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:fd1911b7ba0ccf7d26ad0fb16b36348533b005a373fad9908958544faf1b8c40",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
