@@ -45,6 +45,11 @@ A comprehensive license collection website — software, AI model, and data lice
    → out/index.html`；采集阶段幂等落盘后用 `node scripts/update-data.mjs --skip-fetch`
    从 LLM 审核/清洗续跑，不要整链重来。KB 侧同类事故（GB 级 parquet 下载、GitHub search
    二级限流）的根因与修复记录在 `KB/docs/license-update-guide.md` 的「经验教训」。
+   **全量更新进度条（2026-11-20）**：KB `update-all.sh` 埋点写
+   `~/.local/share/license-atlas-update/progress.json`（step 级 + HF/GitHub per-source），
+   `npm run update:progress -- --watch` 实时看 item list/进度条/parquet 断点大小；
+   atlas 侧 phase 用 `--set <id> running|done` 标记；中断恢复先看状态文件定位死点。
+   写入语义与 KB 侧 python 内联双实现，改任一侧须同步，回归 `npm run test:progress`。
 
 1.5 **Lint 门（2026-09-27）**：`KB/scripts/lib/license-entry-lint.mjs` 对新 slug 强制
    质量规则（fragment-title 邮件 subject 碎片、md-links 正文 markdown 残留、mail-head、
