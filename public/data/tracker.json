@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-20T21:24:34.124Z",
+    "generated_at": "2026-11-23T18:12:22.612Z",
     "total_submissions": 281,
     "by_status": {
       "approved": 93,
@@ -19,7 +19,7 @@
       "minutes_files": 226,
       "vote_blocks_extracted": 604
     },
-    "enriched_at": "2026-11-20T21:25:01.160Z",
+    "enriched_at": "2026-11-23T18:12:42.164Z",
     "coverage": {
       "submissions_with_license_text": 139,
       "submissions_with_board_vote": 90,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-11-20T21:25:04.706Z",
+      "applied_at": "2026-11-23T18:12:45.502Z",
       "applied": 222,
       "missing": 0,
       "invalid": 0,
@@ -146,7 +146,7 @@
           "subject": "[License-review] Submission: PSF-2.0",
           "url": "https://lists.opensource.org/pipermail/license-review_lists.opensource.org/2026-November/006285.html",
           "sender": "Max Mehl",
-          "snippet": "There has not been any feedback on the license submission of PSF-2.0 so far, see the post below. Is there anything the community can do to facilitate the process? Thanks, and best, Max -- Max Mehl",
+          "snippet": "Notes that the PSF-2.0 license submission has received no feedback so far and asks whether the community can do anything to facilitate the review process.",
           "point_zh": "指出 PSF-2.0 许可证提交至今没有收到任何反馈，并询问社区能否做些什么来推进审查流程。",
           "sentiment": "neutral",
           "source": "license-review",
@@ -178,7 +178,7 @@
         "confidence": 0.9,
         "requires_manual_review": false,
         "manual_review_reason": null,
-        "rationale": "The submission was made (2026-09-09) and as of 2026-11-20 still had no feedback, indicating an active but undecided review. There is no evidence of board decision, rejection, withdrawal, or supersession; source status is pending. Pending is the faithful terminal-safe state.",
+        "rationale": "The submission was made on 2026-09-09 and, as of the latest event (2026-11-20), had received no feedback and no board decision, withdrawal, or rejection. Curated status is pending. No evidence supports a terminal status, so pending is the faithful result.",
         "evidence_refs": [
           {
             "evidence_id": "curated_rwp:psf-2-0",
@@ -188,16 +188,16 @@
           {
             "evidence_id": "timeline:psf-2-0#0",
             "supports": "pending",
-            "quote": "Submits PSF-2.0 ... for separate OSI review"
+            "quote": "Submits PSF-2.0 (Python Software Foundation License 2.0) for separate OSI review"
           },
           {
             "evidence_id": "timeline:psf-2-0#1",
             "supports": "pending",
-            "quote": "There has not been any feedback on the license submission of PSF-2.0 so far"
+            "quote": "the PSF-2.0 license submission has received no feedback so far"
           }
         ],
         "conflicts": [],
-        "input_hash": "sha256:332e68c60d44e96b6f7986aaad9b515dab44f9c0bac581b0f8ce9ce99af171ee",
+        "input_hash": "sha256:7f26a5fab7ef2405d2df150f0739fe5726f51e49c0e2a4a7b0d6b87c9580416c",
         "prompt_version": "osi-status-adjudicator-v2",
         "source_file": "batch-001.out.jsonl"
       }
