@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T18:12:22.612Z",
+    "generated_at": "2026-11-24T21:57:59.832Z",
     "total_submissions": 281,
     "by_status": {
       "approved": 93,
@@ -13,13 +13,13 @@
     },
     "data_sources": {
       "osi_api": 126,
-      "mail_clusters": 3450,
+      "mail_clusters": 3451,
       "rejected_withdrawn": 72,
       "license_text_files": 556,
       "minutes_files": 226,
       "vote_blocks_extracted": 604
     },
-    "enriched_at": "2026-11-23T18:12:42.164Z",
+    "enriched_at": "2026-11-24T21:58:19.041Z",
     "coverage": {
       "submissions_with_license_text": 139,
       "submissions_with_board_vote": 90,
@@ -37,7 +37,7 @@
     },
     "status_adjudication": {
       "schema_version": 1,
-      "applied_at": "2026-11-23T18:12:45.502Z",
+      "applied_at": "2026-11-24T21:58:19.449Z",
       "applied": 222,
       "missing": 0,
       "invalid": 0,
@@ -198,7 +198,7 @@
         ],
         "conflicts": [],
         "input_hash": "sha256:7f26a5fab7ef2405d2df150f0739fe5726f51e49c0e2a4a7b0d6b87c9580416c",
-        "prompt_version": "osi-status-adjudicator-v2",
+        "prompt_version": "osi-status-adjudicator-v1",
         "source_file": "batch-001.out.jsonl"
       }
     },
