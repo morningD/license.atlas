@@ -1,10 +1,10 @@
 {
-  "total": 2819,
+  "total": 2830,
   "osi_approved": 128,
   "fsf_libre": 146,
-  "proprietary": 1038,
+  "proprietary": 1039,
   "by_type": {
-    "software": 2402,
+    "software": 2413,
     "data": 118,
     "model": 253,
     "agent": 30,
@@ -13,8 +13,8 @@
   "by_source": {
     "opensource.org": 126,
     "tldrlegal.com": 145,
-    "choosealicense.com": 47,
     "spdx.org": 708,
+    "choosealicense.com": 47,
     "GNU License List": 66,
     "lists.opensource.org": 189,
     "creativecommons.org": 38,
@@ -395,16 +395,16 @@
     "ZERO-POINT-AI/Miss_MARTHA-9B-Qwen3.5-Omni": 1
   },
   "by_tag": {
-    "Permissive": 30,
+    "Permissive": 771,
     "tl;drLegal Verified": 68,
     "GNU": 41,
-    "Copyleft": 187,
+    "Copyleft": 188,
     "GNU Nonfree": 11,
     "Public Domain": 22,
     "Creative Commons": 78,
     "Weak Copyleft": 16,
-    "Proprietary": 1038,
-    "Custom": 2055,
+    "Proprietary": 1039,
+    "Custom": 2042,
     "MCP Server": 16,
     "HuggingFace": 273,
     "Terms": 16,
@@ -416,9 +416,9 @@
   },
   "cleaning": {
     "tagsFixed": 165,
-    "duplicatesFound": 44,
+    "duplicatesFound": 33,
     "linesFixed": 0,
     "osiFixed": 5
   },
-  "updated": "2026-11-20"
+  "updated": "2026-11-25"
 }
