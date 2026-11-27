@@ -293,7 +293,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "footer.copyrightPrefix": "© 2026",
     "footer.copyrightName": "Moming Duan",
     "footer.copyrightSuffix": ", ECNU DaSE.",
-    "footer.licenseNotice": "LicenseAtlas site code and original content are licensed under Apache-2.0. Third-party license texts and metadata remain under their original copyrights and licenses.",
+    "footer.licenseNotice": "LicenseAtlas site code and original content are licensed under the Mulan Permissive Software License, Version 2 (MulanPSL-2.0). Third-party license texts and metadata remain under their original copyrights and licenses.",
 
     // About
     "about.title": "About LicenseAtlas",
@@ -690,7 +690,7 @@ const dict: Record<Lang, Record<string, string>> = {
     "footer.copyrightPrefix": "© 2026",
     "footer.copyrightName": "段莫名",
     "footer.copyrightSuffix": "，华东师范大学数据科学与工程学院。",
-    "footer.licenseNotice": "LicenseAtlas 网站代码及原创内容采用 Apache-2.0 许可；第三方许可证文本与元数据版权及许可归原权利人所有。",
+    "footer.licenseNotice": "LicenseAtlas 网站代码及原创内容采用木兰宽松许可证，第2版（MulanPSL-2.0）许可；第三方许可证文本与元数据版权及许可归原权利人所有。",
 
     // About
     "about.title": "关于许可图鉴（LicenseAtlas）",
