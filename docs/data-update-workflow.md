@@ -57,6 +57,8 @@ tracker.
 5. **Build verification**
    - Runs `npm run build`, which rebuilds the search index, syncs committed
      sidecars again if needed, and produces the static export.
+   - The build script sets `NEXT_PRIVATE_BUILD_WORKER=0` to avoid a Next.js 16
+     webpack build-worker hang observed in local and CI builds.
 
 ## Incremental Behavior
 
@@ -122,6 +124,23 @@ npm run update:data -- --skip-fetch
 # Skip expensive Next build while debugging data sync.
 npm run update:data -- --skip-build
 ```
+
+### Per-source commands
+
+`npm run update:data` chains all of the steps below. Run one on its own for
+targeted debugging or recovery. They need a local checkout of the upstream KB
+repository.
+
+| Command | Purpose |
+|---|---|
+| `npm run sync:licenses` | Sync the cleaned KB license corpus into Atlas |
+| `npm run update:tracker` | Refresh OSI license-review and license-discuss data via KB, then sync |
+| `npm run sync:tracker` | Sync already-built KB tracker data into Atlas |
+| `npm run update:osadl` | Refresh OSADL checklist raw data via KB, then sync |
+| `npm run sync:osadl` | Sync already-built KB OSADL checklist data into Atlas |
+| `npm run update:projects` | Refresh the GitHub, HuggingFace, and Kaggle showcase data via KB, then sync |
+| `npm run update:projects -- --source huggingface --force` | Refresh one showcase source only |
+| `npm run sync:projects` | Sync already-built KB project-showcase data into Atlas |
 
 ## Local Validation
 
