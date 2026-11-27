@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import { cn } from "@/lib/utils";
 import { useLang } from "@/lib/i18n";
 

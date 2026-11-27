@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 export function cn(...classes: (string | false | undefined | null)[]) {
   return classes.filter(Boolean).join(" ");
 }

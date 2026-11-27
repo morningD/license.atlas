@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Full-chain orchestrator: refresh OSADL checklist data in KB, rebuild the
 // normalized KB sidecar, then sync the compact outputs into LicenseAtlas.
 // Run: node scripts/update-osadl.mjs [--kb-path <path>] [--force] [--only SPDX]

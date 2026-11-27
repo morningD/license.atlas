@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 export function formatTrackerDate(date?: string | null): string {
   if (!date) return "?";
   if (/^\d{8}$/.test(date)) {

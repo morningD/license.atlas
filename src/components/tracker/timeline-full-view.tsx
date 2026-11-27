@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 "use client";
 
 // Full-text timeline view, master-detail layout (mirrors the License Texts

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 "use client";
 
 // Renders a plain-text mailing-list message, preserving Pipermail archive

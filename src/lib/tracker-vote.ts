@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import type { TrackerBoardVote } from "@/lib/types";
 
 // OSI minutes sometimes record only a qualitative outcome ("Passed unanimously",

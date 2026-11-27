@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MulanPSL-2.0
+
 /**
  * Red/green regression test for the 2026-10-17 tracker outage.
  *

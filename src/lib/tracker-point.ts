@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // LLM-extracted points are single-sentence summaries. When extraction lags or
 // is blocked (e.g. provider content filter), the build falls back to a raw
 // clean_body slice that can carry hard newlines — normalize them so timeline

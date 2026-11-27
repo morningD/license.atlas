@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MulanPSL-2.0
+
 /**
  * Validate structured license_texts in an OSI tracker JSON file.
  *

@@ -1,6 +1,9 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import type { Metadata } from "next";
 import AboutPageClient from "./about-client";
 import stats from "@/data/stats.json";
+import { SITE_OG_IMAGE } from "@/lib/site";
 
 const BASE_URL = "https://morningd.github.io/license.atlas";
 const aboutDescription = `Learn how LicenseAtlas curates ${stats.total} software, data, AI model, agent, and terms licenses, plus OSI review-tracker records and OSADL checklist metadata. 了解 LicenseAtlas 如何整理 ${stats.total} 个软件、数据、AI 模型、Agent 与服务条款文本，并整合 OSI 审查追踪记录和 OSADL 检查清单元数据。`;
@@ -17,11 +20,13 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/about`,
     type: "article",
     siteName: "LicenseAtlas",
+    images: [SITE_OG_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "About LicenseAtlas",
     description: aboutDescription,
+    images: [SITE_OG_IMAGE],
   },
 };
 

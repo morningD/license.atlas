@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // update-progress.mjs 渲染/写入规则测试：node --test scripts/tests/update-progress.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';

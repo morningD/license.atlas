@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Shared pill styling + i18n labels for tracker entities (sentiment, roles).
 // Used by both the summary timeline rows and the full-text nav/detail views.
 

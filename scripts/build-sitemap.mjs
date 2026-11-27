@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Build script: generates public/sitemap.xml from licenses-index.json
 // Run: node scripts/build-sitemap.mjs
 import { readFileSync, writeFileSync } from "fs";

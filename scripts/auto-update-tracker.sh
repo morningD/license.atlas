@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-License-Identifier: MulanPSL-2.0
+
 # Event-triggered tracker update: probe the OSI license-review archive,
 # and only when it changed, run the full update pipeline via opencode.
 #

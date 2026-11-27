@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import { existsSync } from "fs";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";

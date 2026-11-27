@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Navbar } from "@/components/navbar";
@@ -5,6 +7,7 @@ import { Footer } from "@/components/footer";
 import { LangProvider } from "@/lib/i18n";
 import { NavProgress } from "@/components/nav-progress";
 import { PageViewTracker } from "@/components/page-view-tracker";
+import { SITE_OG_IMAGE } from "@/lib/site";
 import stats from "@/data/stats.json";
 import "./globals.css";
 
@@ -39,11 +42,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "zh_CN",
+    images: [SITE_OG_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "LicenseAtlas",
     description: siteDescription,
+    images: [SITE_OG_IMAGE],
   },
   robots: {
     index: true,

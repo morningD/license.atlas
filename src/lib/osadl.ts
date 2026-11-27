@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import osadlIndexJson from "@/data/osadl-checklists-index.json";
 import type { License, OsadlChecklistEntry, OsadlIndex, OsadlIndexMeta } from "@/lib/types";
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MulanPSL-2.0
+
 /**
  * Lightweight change detector for the OSI license-review archive.
  *
