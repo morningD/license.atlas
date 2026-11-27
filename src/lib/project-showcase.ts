@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import projectShowcaseIndex from "@/data/project-showcase-index.json";
 import type { License, ProjectShowcaseIndex, ProjectShowcaseRecord } from "@/lib/types";
 

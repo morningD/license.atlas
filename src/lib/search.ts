@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import MiniSearch from "minisearch";
 import type { TrackerIndex, TrackerIndexEntry, TrackerStatus } from "@/lib/types";
 

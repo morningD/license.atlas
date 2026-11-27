@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // LicenseAtlas full incremental data update orchestrator.
 //
 // It runs the core license corpus update in KB (license full texts, HF/GitHub

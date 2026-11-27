@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Sync the core LicenseAtlas license corpus from the sibling KB checkout.
 // This covers the main license full texts and cleaned metadata, distinct from
 // sidecars such as tracker, OSADL, and project showcase data.

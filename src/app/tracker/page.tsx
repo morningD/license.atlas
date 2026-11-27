@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import { Metadata } from "next";
 import { Suspense } from "react";
 import { TrackerClient } from "./tracker-client";

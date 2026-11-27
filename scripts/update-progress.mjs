@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // 全量更新进度查看器 + 写入 CLI。
 //
 // 状态文件（默认 ~/.local/share/license-atlas-update/progress.json）由两方写入：

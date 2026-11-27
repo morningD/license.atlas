@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Sync OSI License Review Tracker from KB → license-atlas.
 // Hash-gated: no-op when KB v2.json is unchanged (idempotent).
 // Run: node scripts/sync-tracker.mjs [--kb-path <path>]

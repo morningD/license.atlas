@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Keep README license-count mentions in sync with the actual corpus size.
 // Run: node scripts/update-readme-counts.mjs [--check]
 // --check exits 1 (with a diff) when READMEs are stale — usable as a CI gate.

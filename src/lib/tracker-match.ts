@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Resolve a license-atlas license → OSI tracker index entry.
 // Multi-level matching because many tracker submissions have no SPDX id
 // (still under OSI review). KB is the source of truth and cannot be edited,

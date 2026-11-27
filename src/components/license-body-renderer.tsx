@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import React from "react";
 
 function stripMdEscapes(text: string): string {

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Sync OSADL checklist data from KB -> license-atlas.
 // Hash-gated and safe for CI: if KB is unavailable but committed outputs exist,
 // keep using the committed sidecar data.

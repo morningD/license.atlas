@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 // Full-chain orchestrator: refresh OSI sources in KB, rebuild tracker, then sync to Atlas.
 // Run: node scripts/update-tracker.mjs [--full] [--kb-path <path>] [--month YYYY-MM]
 //   --full        apply all available LLM batch outputs (kept for compatibility)

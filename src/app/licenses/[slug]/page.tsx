@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LicenseDetailClient } from "./license-detail-client";

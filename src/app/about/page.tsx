@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 import type { Metadata } from "next";
 import AboutPageClient from "./about-client";
 import stats from "@/data/stats.json";

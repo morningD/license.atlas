@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 export const COUNTER_URL = "https://page-counter.duanmoming.workers.dev/v1/pageviews";
 const SITE = "license-atlas";
 const BASE_PATH = "/license.atlas";

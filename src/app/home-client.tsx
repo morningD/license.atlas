@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MulanPSL-2.0
+
 "use client";
 
 import { Suspense, useState, useMemo, useEffect, useRef } from "react";
