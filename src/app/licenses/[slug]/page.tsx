@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { LicenseDetailClient } from "./license-detail-client";
 import licenses from "@/data/licenses.json";
+import { SITE_OG_IMAGE } from "@/lib/site";
 import type { License } from "@/lib/types";
 
 const allLicenses = licenses as License[];
@@ -77,11 +78,13 @@ export async function generateMetadata({
       url,
       type: "article",
       siteName: "LicenseAtlas",
+      images: [SITE_OG_IMAGE],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: [SITE_OG_IMAGE],
     },
   };
 }

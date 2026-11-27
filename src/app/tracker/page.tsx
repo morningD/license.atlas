@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import { TrackerClient } from "./tracker-client";
 import { TrackerPageFallback } from "@/components/tracker/tracker-page-fallback";
 import trackerMeta from "@/data/tracker-meta.json";
+import { SITE_OG_IMAGE } from "@/lib/site";
 
 const BASE_URL = "https://morningd.github.io/license.atlas";
 const trackerUrl = `${BASE_URL}/tracker`;
@@ -22,11 +23,13 @@ export const metadata: Metadata = {
     url: trackerUrl,
     type: "website",
     siteName: "LicenseAtlas",
+    images: [SITE_OG_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "OSI License Review Tracker — LicenseAtlas",
     description: trackerDescription,
+    images: [SITE_OG_IMAGE],
   },
 };
 

@@ -3,6 +3,7 @@
 import type { Metadata } from "next";
 import HomePageClient from "./home-client";
 import stats from "@/data/stats.json";
+import { SITE_OG_IMAGE } from "@/lib/site";
 
 const BASE_URL = "https://morningd.github.io/license.atlas";
 const homeDescription = `Browse ${stats.total} software, AI model, data, agent, and terms licenses with full-text search, tag filters, popularity signals, and OSI review tracking. 收录 ${stats.total} 个软件、AI 模型、数据、Agent 与服务条款文本，支持全文搜索、标签筛选、热度信号与 OSI 审查追踪。`;
@@ -19,11 +20,13 @@ export const metadata: Metadata = {
     url: `${BASE_URL}/`,
     type: "website",
     siteName: "LicenseAtlas",
+    images: [SITE_OG_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "LicenseAtlas",
     description: homeDescription,
+    images: [SITE_OG_IMAGE],
   },
 };
 
