@@ -46,6 +46,7 @@ ${urls
   writeFileSync(outPath, xml);
   console.log(`✓ Sitemap generated: ${urls.length} URLs → public/sitemap.xml`);
 } catch (err) {
-  console.error(`✗ Failed to build sitemap: ${err.message}`);
+  // Keep the stack: it names the exact file and line that failed.
+  console.error(`✗ Failed to build sitemap: ${err.stack || err}`);
   process.exit(1);
 }

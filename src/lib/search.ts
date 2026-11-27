@@ -49,6 +49,14 @@ function loadIndex(): Promise<MiniSearch> {
       miniSearch = MiniSearch.loadJSON(json, indexOptions);
       return miniSearch;
     });
+  // A rejected in-flight promise must not be cached: without this reset a
+  // single failed fetch (transient network error) would make every later
+  // search reuse the same rejection until the page is reloaded. Concurrent
+  // callers above still share the in-flight promise; only the next call
+  // after a failure retries.
+  loading.catch(() => {
+    loading = null;
+  });
   return loading;
 }
 

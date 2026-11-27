@@ -28,6 +28,7 @@ try {
 
   console.log(`✓ Search index built: ${docs.length} docs, ${(size / 1024 / 1024).toFixed(1)}MB`);
 } catch (err) {
-  console.error(`✗ Failed to build search index: ${err.message}`);
+  // Keep the stack: it names the exact file and line that failed.
+  console.error(`✗ Failed to build search index: ${err.stack || err}`);
   process.exit(1);
 }

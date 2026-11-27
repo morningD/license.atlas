@@ -38,15 +38,22 @@ export function TrackerClient() {
       .then((d: TrackerData) => {
         dataRef.current = d;
         setData(d);
+        // A previous full-data fetch may have failed while the index was not
+        // loaded yet and flipped loadError; recover now that data arrived.
+        setLoadError(false);
         return d;
       })
       .catch((err) => {
         if (showErrorOnFailure || !indexLoadedRef.current) setLoadError(true);
         throw err;
       })
-      .then((d) => {
+      // Clear the in-flight ref on failure (on success dataRef takes over) so
+      // the next call retries instead of reusing a rejected promise forever.
+      // Concurrent callers still share the in-flight promise above. The
+      // recovery path is the Retry button on the error screen: a failure sets
+      // loadError and unmounts the list, so nothing re-calls this on its own.
+      .finally(() => {
         fullLoadRef.current = null;
-        return d;
       });
     return fullLoadRef.current;
   }, []);
@@ -218,7 +225,18 @@ export function TrackerClient() {
   if (loadError) {
     return (
       <div className="mx-auto max-w-7xl px-4 py-20 text-center text-zinc-500">
-        {t("tracker.loadError")}
+        <div>{t("tracker.loadError")}</div>
+        <button
+          type="button"
+          onClick={() => {
+            // The in-flight ref is already cleared on failure, so this re-fetches.
+            setLoadError(false);
+            ensureFullData(true).catch(() => {});
+          }}
+          className="mt-4 rounded-md border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:bg-zinc-100 dark:border-zinc-600 dark:text-zinc-200 dark:hover:bg-zinc-800"
+        >
+          {t("tracker.retry")}
+        </button>
       </div>
     );
   }
