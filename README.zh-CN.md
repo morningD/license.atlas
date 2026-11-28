@@ -39,6 +39,7 @@ LicenseAtlas 是参考工具，不构成法律意见。见[免责声明](#免责
 - **全文搜索**：覆盖许可证名称、SPDX ID、来源和正文，支持模糊匹配，SPDX 与 slug 的精确或前缀匹配排在最前
 - **权限、条件与限制**：每个许可证都有，并附 OSI、FSF 认定状态和 Blue Oak 评级
 - **[OSI 许可证审查追踪器](https://morningd.github.io/license.atlas/tracker)**：281 条提交，包含讨论线程、时间线、参与者、董事会投票，以及提交文本的历史版本
+- **许可文本对比**：同一许可证在 OSI 审查期间各次提交版本之间的逐行差异
 - **OSADL 检查清单信号**：义务、禁止项、Copyleft 与专利提示，以及方向性兼容性
 - **热度与趋势**：来自 HuggingFace、GitHub 和 Kaggle 的趋势图与排名
 - **明星项目**：使用某许可证的代表性 GitHub 仓库、HuggingFace 模型和 Kaggle 数据集
@@ -127,7 +128,7 @@ npm run dev        # http://localhost:3000/license.atlas
 
 ## 许可证
 
-Copyright (c) 2026 Moming Duan.
+Copyright (c) 2026 Moming Duan <duanmoming@gmail.com>.
 
 本项目的源代码、脚本、文档及原创内容采用[木兰宽松许可证，第2版](LICENSE)（MulanPSL-2.0）许可，这是一份经 [OSI 批准](https://opensource.org/license/mulanpsl-2-0)的开源许可证。许可证以中英文双语表述，具有同等法律效力；如有不一致，以中文版为准。它本身也收录在 LicenseAtlas 中：[Mulan Permissive Software License v2](https://morningd.github.io/license.atlas/licenses/mulanpsl-2.0)。
 
