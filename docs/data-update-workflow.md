@@ -33,8 +33,9 @@ tracker.
      for GitHub custom candidates.
    - Runs `../KB/scripts/clean-licenses.mjs`.
    - Syncs `licenses.json`, `licenses-index.json`, and `stats.json` into Atlas
-     through `scripts/sync-license-corpus.mjs`, then refreshes README license
-     totals via `scripts/update-readme-counts.mjs`.
+     through `scripts/sync-license-corpus.mjs`, then refreshes the source-size
+     figures via `scripts/sync-source-stats.mjs` and the README numbers via
+     `scripts/update-readme-counts.mjs`.
 
 2. **OSI License Review Tracker**
    - Runs `scripts/update-tracker.mjs`.
@@ -141,6 +142,15 @@ repository.
 | `npm run update:projects` | Refresh the GitHub, HuggingFace, and Kaggle showcase data via KB, then sync |
 | `npm run update:projects -- --source huggingface --force` | Refresh one showcase source only |
 | `npm run sync:projects` | Sync already-built KB project-showcase data into Atlas |
+| `npm run sync:stats` | Refresh the source-size figures into `src/data/source-stats.json` |
+
+### Source-size figures
+
+The platform sizes quoted on the About page and in the READMEs are generated, not typed in: the ScanCode LicenseDB count, the Blue Oak rating count, the GitHub license types, and the HuggingFace Hub and Meta-Kaggle snapshot sizes.
+
+`scripts/sync-source-stats.mjs` reads the KB inputs and `src/data/stats.json` and writes each figure with its English and Chinese label to `src/data/source-stats.json`. The About page interpolates those labels, and `update-readme-counts.mjs` rewrites the README phrases that carry them. Lower-bound labels such as "3.2M+" are rounded down, so they never overstate the count.
+
+The HuggingFace row counts are read from the parquet footers and need a Python with `pyarrow` or `polars` (`PYTHON_BIN` overrides the lookup). A figure whose input is unavailable keeps its committed value, so CI builds are unaffected. The figures only change when the KB data changes; rerunning against the same KB snapshot is a no-op.
 
 ## Local Validation
 
@@ -153,6 +163,7 @@ npm run sync:licenses
 npm run update:data -- --skip-core --skip-tracker --skip-osadl --skip-projects --skip-build
 npx tsc --noEmit
 npm run lint
+npm test
 npm run build
 ```
 

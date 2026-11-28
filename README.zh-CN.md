@@ -100,7 +100,7 @@ npm run dev        # http://localhost:3000/license.atlas
 | OSADL 开源许可证检查清单 | 124 条检查清单记录，123 个匹配的 LicenseAtlas 页面，并提供由检查清单提取的义务与禁止项、Copyleft、源码披露、专利提示和方向性兼容性摘要 |
 | 明星项目 | 32 个精选许可证的 GitHub 仓库、HuggingFace 模型与 Kaggle 数据集榜单，经标准化后作为详情页侧栏展示 |
 
-热度数据来自 HuggingFace Hub（280 万+ 模型）、GitHub（28 种许可证类型）和 Kaggle（通过 Meta-Kaggle 覆盖 71.4 万+ 数据集）。许可证卡片上的趋势图来自 HuggingFace models parquet 提取的月度许可证趋势。
+热度数据来自 HuggingFace Hub（320 万+ 模型）、GitHub（28 种许可证类型）和 Kaggle（通过 Meta-Kaggle 覆盖 71.3 万+ 数据集）。许可证卡片上的趋势图来自 HuggingFace models parquet 提取的月度许可证趋势。
 
 数据通过增量管线刷新：各数据源按新鲜度门控重新抓取，新发现的自定义许可证候选先经审核再收录，未变化的输出不会重写。页面页脚显示许可证语料的最新更新日期。
 

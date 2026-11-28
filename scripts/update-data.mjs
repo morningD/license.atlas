@@ -98,6 +98,7 @@ if (!skipCore) {
   const syncArgs = [`--kb-path ${shellQuote(KB_ROOT)}`];
   if (allowNewLicenses) syncArgs.push("--allow-new-licenses");
   run(`node scripts/sync-license-corpus.mjs ${syncArgs.join(" ")}`);
+  run(`node scripts/sync-source-stats.mjs --kb-path ${shellQuote(KB_ROOT)}`);
   run("node scripts/update-readme-counts.mjs");
 } else {
   console.log("\n↷ Skipping core license corpus update (--skip-core)");

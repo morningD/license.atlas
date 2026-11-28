@@ -39,11 +39,11 @@ The site is a static export served under the `/license.atlas` base path, so loca
 ```bash
 npm run lint         # ESLint
 npx tsc --noEmit     # type check
-npm run test:progress
+npm test             # unit tests
 npm run build        # static export to out/
 ```
 
-`npm run build` regenerates the search index and syncs the tracker, OSADL, and project-showcase data. Without the upstream pipeline checked out, the sync steps keep the committed data and the build still succeeds.
+`npm run build` regenerates the search index and syncs the tracker, OSADL, project-showcase, and source-size figures. Without the upstream pipeline checked out, the sync steps keep the committed data and the build still succeeds.
 
 For changes that affect the interface, also check the pages you touched in a browser: in English and in Chinese, in light and in dark mode.
 
