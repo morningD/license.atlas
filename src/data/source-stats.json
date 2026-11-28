@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-28T02:11:31.278Z",
+  "scancode": {
+    "licenses": {
+      "value": 1673,
+      "en": "1,673",
+      "zh": "1,673"
+    }
+  },
+  "blueoak": {
+    "rated": {
+      "value": 225,
+      "en": "225",
+      "zh": "225"
+    }
+  },
+  "github": {
+    "license_types": {
+      "value": 28,
+      "en": "28",
+      "zh": "28"
+    }
+  },
+  "huggingface": {
+    "models": {
+      "value": 3250319,
+      "en": "3.2M+",
+      "zh": "320 万+"
+    },
+    "datasets": {
+      "value": 1138066,
+      "en": "1.1M+",
+      "zh": "110 万+"
+    }
+  },
+  "kaggle": {
+    "datasets": {
+      "value": 713955,
+      "en": "713K+",
+      "zh": "71.3 万+"
+    },
+    "meta_kaggle_version": "2146"
+  }
+}

@@ -8,6 +8,7 @@
 
 - [ ] `npm run lint`
 - [ ] `npx tsc --noEmit`
+- [ ] `npm test`
 - [ ] `npm run build`
 - [ ] Interface changes checked in English and Chinese, in light and dark mode (if applicable)
 

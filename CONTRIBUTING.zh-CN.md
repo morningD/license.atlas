@@ -39,11 +39,11 @@ npm run dev       # http://localhost:3000/license.atlas
 ```bash
 npm run lint         # ESLint
 npx tsc --noEmit     # 类型检查
-npm run test:progress
+npm test             # 单元测试
 npm run build        # 静态导出到 out/
 ```
 
-`npm run build` 会重新生成搜索索引，并同步 tracker、OSADL 和 project-showcase 数据。在没有上游数据管线本地检出的情况下，同步步骤会沿用已提交的数据，构建仍然可以完成。
+`npm run build` 会重新生成搜索索引，并同步 tracker、OSADL、project-showcase 数据和来源规模数字。在没有上游数据管线本地检出的情况下，同步步骤会沿用已提交的数据，构建仍然可以完成。
 
 如果改动涉及界面，请在浏览器中检查受影响的页面：中英文各一遍，浅色和深色模式各一遍。
 

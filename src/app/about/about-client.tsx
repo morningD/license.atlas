@@ -7,6 +7,7 @@ import { useLang } from "@/lib/i18n";
 import stats from "@/data/stats.json";
 import trackerMeta from "@/data/tracker-meta.json";
 import osadlMeta from "@/data/osadl-meta.json";
+import sourceStats from "@/data/source-stats.json";
 
 const sources = [
   ["SPDX", "about.src.spdx"],
@@ -43,12 +44,24 @@ const statItems = [
   { value: String(stats.by_type.terms), key: "about.stats.terms" },
 ];
 
-// Read from the committed statistics so the page follows the corpus instead
-// of carrying a number that goes stale.
-const scancodeCount = stats.by_source["scancode-licensedb.aboutcode.org"].toLocaleString("en-US");
-
 export default function AboutPageClient() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
+
+  // Source-size figures come from source-stats.json, which carries the rounded
+  // label in both languages, so no platform size is hard-coded in the copy.
+  const label = (figure: { en: string; zh: string } | null) => (figure ? figure[lang] : "—");
+  const sourceParams: Record<string, Record<string, string>> = {
+    "about.src.scancode": { count: label(sourceStats.scancode.licenses) },
+    "about.src.blueoak": { count: label(sourceStats.blueoak.rated) },
+  };
+  const popParams: Record<string, Record<string, string>> = {
+    "about.pop.hf": {
+      models: label(sourceStats.huggingface.models),
+      datasets: label(sourceStats.huggingface.datasets),
+    },
+    "about.pop.gh": { count: label(sourceStats.github.license_types) },
+    "about.pop.kg": { count: label(sourceStats.kaggle.datasets) },
+  };
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -78,7 +91,7 @@ export default function AboutPageClient() {
         <ul className="list-disc space-y-1 pl-6">
           {sources.map(([name, key]) => (
             <li key={name}>
-              <strong>{name}</strong> — {t(key, key === "about.src.scancode" ? { count: scancodeCount } : undefined)}
+              <strong>{name}</strong> — {t(key, sourceParams[key])}
             </li>
           ))}
         </ul>
@@ -136,7 +149,7 @@ export default function AboutPageClient() {
         <ul className="list-disc space-y-1 pl-6">
           {popSources.map(([name, key]) => (
             <li key={name}>
-              <strong>{name}</strong> — {t(key)}
+              <strong>{name}</strong> — {t(key, popParams[key])}
             </li>
           ))}
         </ul>
