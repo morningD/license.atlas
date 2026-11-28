@@ -43,6 +43,10 @@ const statItems = [
   { value: String(stats.by_type.terms), key: "about.stats.terms" },
 ];
 
+// Read from the committed statistics so the page follows the corpus instead
+// of carrying a number that goes stale.
+const scancodeCount = stats.by_source["scancode-licensedb.aboutcode.org"].toLocaleString("en-US");
+
 export default function AboutPageClient() {
   const { t } = useLang();
 
@@ -74,7 +78,7 @@ export default function AboutPageClient() {
         <ul className="list-disc space-y-1 pl-6">
           {sources.map(([name, key]) => (
             <li key={name}>
-              <strong>{name}</strong> — {t(key)}
+              <strong>{name}</strong> — {t(key, key === "about.src.scancode" ? { count: scancodeCount } : undefined)}
             </li>
           ))}
         </ul>
@@ -178,7 +182,7 @@ export default function AboutPageClient() {
               className="inline-flex items-center gap-1 transition-colors hover:text-zinc-600 dark:hover:text-zinc-300"
             >
               <Image src="/license.atlas/zai-logo.webp" alt="Z.ai" width={16} height={16} className="rounded-sm" />
-              <span className="font-medium text-zinc-500 dark:text-zinc-400">GLM 5.1</span>
+              <span className="font-medium text-zinc-500 dark:text-zinc-400">GLM</span>
             </a>
           </div>
         </div>

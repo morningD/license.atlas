@@ -100,7 +100,7 @@ License texts and metadata are aggregated from:
 | OSADL Open Source License Checklists | 124 checklist records, 123 matched LicenseAtlas pages, checklist-derived obligations/prohibitions, copyleft/source-disclosure/patent hints, and directional compatibility summaries |
 | Project Showcase | 32 selected licenses with top GitHub repositories, HuggingFace models, and Kaggle datasets, normalized into a compact right-rail detail-page sidecar |
 
-Popularity data comes from HuggingFace Hub (2.8M+ models), GitHub (28 license types), and Kaggle (714K+ datasets via Meta-Kaggle). The sparklines on license cards are monthly license trends extracted from the HuggingFace models parquet.
+Popularity data comes from HuggingFace Hub (3.2M+ models), GitHub (28 license types), and Kaggle (714K+ datasets via Meta-Kaggle). The sparklines on license cards are monthly license trends extracted from the HuggingFace models parquet.
 
 Data is refreshed by an incremental pipeline. Sources are re-crawled on freshness gates, newly discovered custom license candidates are reviewed before they are accepted, and unchanged outputs are not rewritten. The page footer shows the date of the latest license-corpus update.
 
